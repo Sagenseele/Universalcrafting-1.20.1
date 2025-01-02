@@ -3,6 +3,14 @@
 	default_quest_shape: ""
 	filename: "iron_jetpacks"
 	group: "0F98F552A8423A4B"
+	icon: {
+		Count: 1
+		id: "ironjetpacks:jetpack"
+		tag: {
+			Id: "ironjetpacks:iron"
+			Throttle: 1.0d
+		}
+	}
 	id: "4BCDB78AB399993B"
 	order_index: 1
 	quest_links: [ ]

@@ -5,14 +5,24 @@
 	group: "7616951447AE5E1F"
 	icon: "draconicevolution:draconium_ingot"
 	id: "6BD93931B098F8D2"
-	images: [{
-		height: 5.0d
-		image: "draconicevolution:textures/gui/reactor/core.png"
-		rotation: 0.0d
-		width: 5.0d
-		x: -1.5d
-		y: -3.0d
-	}]
+	images: [
+		{
+			height: 5.0d
+			image: "draconicevolution:textures/gui/reactor/core.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			height: 5.0d
+			image: "draconicevolution:textures/gui/light/fusion_slot.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 6.5d
+			y: -3.0d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -33,8 +43,8 @@
 				item: "draconicevolution:basic_crafting_injector"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -3.5d
+			x: 4.910714285714278d
+			y: -1.392857142857146d
 		}
 		{
 			dependencies: ["1AA9A1D4176090A3"]
@@ -44,8 +54,8 @@
 				item: "draconicevolution:wyvern_crafting_injector"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -3.0d
+			x: 4.910714285714278d
+			y: -4.607142857142858d
 		}
 		{
 			dependencies: ["1EE5EEC8E1B4128F"]
@@ -55,8 +65,8 @@
 				item: "draconicevolution:awakened_crafting_injector"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -2.0d
+			x: 8.124999999999993d
+			y: -4.607142857142858d
 		}
 		{
 			dependencies: ["5828CE73FB5979DF"]
@@ -66,19 +76,19 @@
 				item: "draconicevolution:chaotic_crafting_injector"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -0.5d
+			x: 8.124999999999993d
+			y: -1.4285714285714235d
 		}
 		{
 			id: "69FFC8A8224127E0"
-			size: 1.25d
+			size: 1.5d
 			tasks: [{
 				id: "2200C8E6E326B215"
 				item: "draconicevolution:crafting_core"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -1.5d
+			x: 6.517857142857132d
+			y: -3.0d
 		}
 		{
 			id: "604230DC3F471E94"
