@@ -1,0 +1,78 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "iron_furnace"
+	group: "007FE974211D2B02"
+	icon: "ironfurnaces:iron_furnace"
+	id: "429915C389BCEB38"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "42F15387920981E2"
+			tasks: [{
+				id: "31C46346C0B2E6A4"
+				item: "ironfurnaces:iron_furnace"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["42F15387920981E2"]
+			id: "501AD43342685328"
+			tasks: [{
+				id: "601F7D9B26F425D1"
+				item: "ironfurnaces:gold_furnace"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["501AD43342685328"]
+			id: "133FDE70D79AB249"
+			tasks: [{
+				id: "285103A381F44AF4"
+				item: "ironfurnaces:diamond_furnace"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["133FDE70D79AB249"]
+			id: "3BAB60684B848EEB"
+			tasks: [{
+				id: "5166717F76B83FC8"
+				item: "ironfurnaces:crystal_furnace"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3BAB60684B848EEB"]
+			id: "55B227943360F468"
+			tasks: [{
+				id: "5422DBFE76558EAE"
+				item: "ironfurnaces:obsidian_furnace"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["55B227943360F468"]
+			id: "7A21B8FA25037781"
+			tasks: [{
+				id: "657BDD3AA3F9BE28"
+				item: "ironfurnaces:netherite_furnace"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+	]
+	title: "Iron Furnace"
+}

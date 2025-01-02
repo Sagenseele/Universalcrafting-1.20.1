@@ -1,0 +1,656 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "apotheosis"
+	group: "0F98F552A8423A4B"
+	icon: "apotheosis:gem_dust"
+	id: "4AD64A743FBC0F19"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7F4DD279AC39DEF2"
+			invisible: true
+			size: 1.25d
+			tasks: [{
+				id: "5D09EEE5CEA41599"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:ancient"
+						}
+						gem: "apotheosis:core/ballast"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 1.496173469387756d
+			y: -3.822704081632672d
+		}
+		{
+			dependencies: ["3DF8E8B1A7AAA0FA"]
+			id: "387415B4F201BD59"
+			tasks: [{
+				id: "452E807B4B26AA43"
+				item: "apotheosis:gem_cutting_table"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			description: ["Let an &eanvil&r fall on a &egem&r to get dust."]
+			id: "3DF8E8B1A7AAA0FA"
+			size: 1.25d
+			tasks: [{
+				id: "2D99900D90CFE09E"
+				item: "apotheosis:gem_dust"
+				type: "item"
+			}]
+			x: 6.785714285714263d
+			y: -2.2142857142857224d
+		}
+		{
+			dependencies: ["3DF8E8B1A7AAA0FA"]
+			id: "01700AA96E160D16"
+			tasks: [{
+				id: "00031CC53781FF90"
+				item: "apotheosis:salvaging_table"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -3.5d
+		}
+		{
+			id: "54BE3BC7F09C1E4E"
+			invisible: true
+			size: 1.25d
+			tasks: [{
+				id: "0D459A176FCD1714"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:ancient"
+						}
+						gem: "apotheosis:core/brawlers"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 0.9929846938775526d
+			y: -2.8979591836734713d
+		}
+		{
+			id: "5188297DBD15E4E4"
+			invisible: true
+			size: 1.25d
+			tasks: [{
+				id: "7507DF9E18DA2A0A"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:ancient"
+						}
+						gem: "apotheosis:core/breach"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 1.9929846938775526d
+			y: -2.8979591836734713d
+		}
+		{
+			id: "3521EE42ACF88EB8"
+			invisible: true
+			size: 1.25d
+			tasks: [{
+				id: "12EF4631D3FEC403"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:ancient"
+						}
+						gem: "apotheosis:core/combatant"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 0.5031887755101963d
+			y: -1.979591836734695d
+		}
+		{
+			id: "53B1AF9AAEDAECF3"
+			invisible: true
+			size: 1.25d
+			tasks: [{
+				id: "2BF13EE96E461AA8"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:ancient"
+						}
+						gem: "apotheosis:core/guardian"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 1.5031887755101963d
+			y: -1.979591836734695d
+		}
+		{
+			id: "50D4288F1B23F451"
+			invisible: true
+			size: 1.25d
+			tasks: [{
+				id: "2E001FF621BF55AE"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:ancient"
+						}
+						gem: "apotheosis:core/lunar"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 1.4210854715202004E-14d
+			y: -1.0676020408163396d
+		}
+		{
+			id: "599B821CF6F5CEF9"
+			invisible: true
+			size: 1.25d
+			tasks: [{
+				id: "555E660CE5A8C7FB"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:ancient"
+						}
+						gem: "apotheosis:core/splendor"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -0.4999999999999929d
+			y: -0.15561224489798064d
+		}
+		{
+			id: "5395D17166CBBB8A"
+			invisible: true
+			size: 1.25d
+			tasks: [{
+				id: "63FCFF0CC71F853E"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:ancient"
+						}
+						gem: "apotheosis:the_end/endersurge"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -1.0070153061224474d
+			y: 0.7563775510203854d
+		}
+		{
+			id: "44CDD6EBF8FE3C45"
+			invisible: true
+			size: 1.25d
+			tasks: [{
+				id: "6D166DAB6A8142D1"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:ancient"
+						}
+						gem: "apotheosis:core/samurai"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 1.0000000000000142d
+			y: -1.0676020408163396d
+		}
+		{
+			id: "5C4FE574EC8B7698"
+			invisible: true
+			size: 1.25d
+			tasks: [{
+				id: "6620EAB42F7B75D2"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:ancient"
+						}
+						gem: "apotheosis:core/slipstream"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 2.000000000000014d
+			y: -1.0676020408163396d
+		}
+		{
+			id: "018C885E1C7E99B5"
+			invisible: true
+			size: 1.25d
+			tasks: [{
+				id: "6ABFEEE3FBB71094"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:ancient"
+						}
+						gem: "apotheosis:core/lightning"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 2.5031887755101963d
+			y: -1.979591836734695d
+		}
+		{
+			id: "1901EC1F4AEDEA28"
+			invisible: true
+			size: 1.25d
+			tasks: [{
+				id: "150032004939B90F"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:ancient"
+						}
+						gem: "apotheosis:core/solar"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 3.000000000000014d
+			y: -1.0676020408163396d
+		}
+		{
+			id: "7575A77D4BF3F6BC"
+			invisible: true
+			size: 1.25d
+			tasks: [{
+				id: "6C6025FB332C155A"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:ancient"
+						}
+						gem: "apotheosis:core/tyrannical"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 0.5000000000000071d
+			y: -0.15561224489798064d
+		}
+		{
+			id: "0824A1459AA30101"
+			invisible: true
+			size: 1.25d
+			tasks: [{
+				id: "2407E5F952793508"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:ancient"
+						}
+						gem: "apotheosis:core/warlord"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 1.500000000000007d
+			y: -0.15561224489798064d
+		}
+		{
+			id: "5771E890A5848956"
+			invisible: true
+			size: 1.25d
+			tasks: [{
+				id: "1EDCAE043F0E51EC"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:ancient"
+						}
+						gem: "apotheosis:overworld/earth"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 2.500000000000007d
+			y: -0.15561224489798064d
+		}
+		{
+			id: "1FE3EFE06E32CA08"
+			invisible: true
+			size: 1.25d
+			tasks: [{
+				id: "15F68C1BD73CD1E7"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:ancient"
+						}
+						gem: "apotheosis:overworld/royalty"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 3.500000000000007d
+			y: -0.15561224489798064d
+		}
+		{
+			id: "66680DDC109986EA"
+			invisible: true
+			size: 1.25d
+			tasks: [{
+				id: "344AA65539AF2950"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:ancient"
+						}
+						gem: "apotheosis:the_end/mageslayer"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 7.105427357601002E-15d
+			y: 0.7627551020407992d
+		}
+		{
+			id: "590BBD948982E233"
+			invisible: true
+			size: 1.25d
+			tasks: [{
+				id: "18B8161F01B4C586"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:ancient"
+						}
+						gem: "apotheosis:the_nether/blood_lord"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 1.000000000000007d
+			y: 0.7627551020407992d
+		}
+		{
+			id: "4835C5958A8F8A2C"
+			invisible: true
+			size: 1.25d
+			tasks: [{
+				id: "3D60E01B955639E0"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:ancient"
+						}
+						gem: "apotheosis:the_nether/inferno"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 2.000000000000007d
+			y: 0.7627551020407992d
+		}
+		{
+			id: "5F547B7BCE60B871"
+			invisible: true
+			size: 1.25d
+			tasks: [{
+				id: "02434F63B0661748"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:ancient"
+						}
+						gem: "apotheosis:twilight/forest"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 3.000000000000007d
+			y: 0.7627551020407992d
+		}
+		{
+			id: "1638C3470869A119"
+			invisible: true
+			size: 1.25d
+			tasks: [{
+				id: "7DD96E0328D257C4"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:ancient"
+						}
+						gem: "apotheosis:twilight/queen"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 4.000000000000007d
+			y: 0.7627551020407992d
+		}
+		{
+			dependencies: ["3DF8E8B1A7AAA0FA"]
+			id: "64F547D87FDA365F"
+			size: 1.25d
+			tasks: [{
+				id: "2AB0213758A66C45"
+				item: "apotheosis:gem_fused_slate"
+				type: "item"
+			}]
+			x: 11.207270408163275d
+			y: -2.246173469387756d
+		}
+		{
+			dependencies: ["3DF8E8B1A7AAA0FA"]
+			id: "60A57FF36D4F035F"
+			tasks: [{
+				id: "592859DEF928CC8B"
+				item: "apotheosis:augmenting_table"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3DF8E8B1A7AAA0FA"]
+			id: "2567C6EE90B2E73A"
+			size: 1.0d
+			tasks: [{
+				id: "0E7DC182DD607601"
+				item: "apotheosis:simple_reforging_table"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2567C6EE90B2E73A"]
+			id: "2DAC4626E52D93E8"
+			tasks: [{
+				id: "38C0D22B4220361D"
+				item: "apotheosis:reforging_table"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["64F547D87FDA365F"]
+			id: "0F45D1F73E9D4CCC"
+			tasks: [{
+				id: "49C56F9029F08F02"
+				item: "apotheosis:sigil_of_socketing"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["64F547D87FDA365F"]
+			id: "420BFFD4AD0A2D17"
+			tasks: [{
+				id: "7AF9B3AB0F500CEC"
+				item: "apotheosis:sigil_of_withdrawal"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["64F547D87FDA365F"]
+			id: "3E91BE42A3142BA4"
+			tasks: [{
+				id: "017BBC350E10CAB7"
+				item: "apotheosis:sigil_of_rebirth"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["64F547D87FDA365F"]
+			id: "0CCD94B518F9F5A7"
+			tasks: [{
+				id: "334259F788417F87"
+				item: "apotheosis:sigil_of_enhancement"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["64F547D87FDA365F"]
+			id: "646BD838ED30BAE9"
+			tasks: [{
+				id: "4067046CA3D4A547"
+				item: "apotheosis:sigil_of_unnaming"
+				type: "item"
+			}]
+			x: 12.45216836734695d
+			y: -2.246173469387756d
+		}
+		{
+			id: "1815EB5B7B01E59B"
+			shape: "rsquare"
+			tasks: [{
+				id: "4FD9F07979B4A644"
+				item: "apotheosis:library"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1815EB5B7B01E59B"]
+			id: "52DF45F0AC96374F"
+			shape: "rsquare"
+			tasks: [{
+				id: "35B023BE97677D9B"
+				item: "apotheosis:ender_library"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 2.5d
+		}
+		{
+			id: "5F98EAC5549D6639"
+			shape: "rsquare"
+			tasks: [{
+				id: "184895D6EC7A4234"
+				item: "apotheosis:hellshelf"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5F98EAC5549D6639"]
+			id: "3B2867F02D680353"
+			shape: "rsquare"
+			tasks: [{
+				id: "4B64ECEB7C8EAEE5"
+				item: "apotheosis:infused_hellshelf"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.5d
+		}
+	]
+	title: "Apotheosis"
+}

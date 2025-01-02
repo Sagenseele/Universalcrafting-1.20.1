@@ -1,0 +1,245 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "iron_jetpacks"
+	group: "0F98F552A8423A4B"
+	id: "4BCDB78AB399993B"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "3EAE70765ECEC35E"
+			tasks: [{
+				id: "68E2AFB0F7DAACB8"
+				item: {
+					Count: 1
+					id: "ironjetpacks:jetpack"
+					tag: {
+						Id: "ironjetpacks:wood"
+						Throttle: 1.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3EAE70765ECEC35E"]
+			id: "30427F204A79B77C"
+			tasks: [{
+				id: "475F5C6664960143"
+				item: {
+					Count: 1
+					id: "ironjetpacks:jetpack"
+					tag: {
+						Id: "ironjetpacks:stone"
+						Throttle: 1.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["30427F204A79B77C"]
+			id: "5BC088B819512811"
+			tasks: [{
+				id: "359BB4D40955F5C8"
+				item: {
+					Count: 1
+					id: "ironjetpacks:jetpack"
+					tag: {
+						Id: "ironjetpacks:copper"
+						Throttle: 1.0d
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5BC088B819512811"]
+			id: "4C8F08673FA0EE30"
+			tasks: [{
+				id: "11A5D735E3B4B4CA"
+				item: {
+					Count: 1
+					id: "ironjetpacks:jetpack"
+					tag: {
+						Id: "ironjetpacks:bronze"
+						Throttle: 1.0d
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4C8F08673FA0EE30"]
+			id: "7A606E5036668631"
+			tasks: [{
+				id: "726F232A93B4C218"
+				item: {
+					Count: 1
+					id: "ironjetpacks:jetpack"
+					tag: {
+						Id: "ironjetpacks:iron"
+						Throttle: 1.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7A606E5036668631"]
+			id: "54D2AFFDAF867654"
+			tasks: [{
+				id: "5FA586B8CE264610"
+				item: {
+					Count: 1
+					id: "ironjetpacks:jetpack"
+					tag: {
+						Id: "ironjetpacks:silver"
+						Throttle: 1.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4CA57476096E68DC"]
+			id: "0CCD1EB53CED05EE"
+			tasks: [{
+				id: "33DEEE40898D651E"
+				item: {
+					Count: 1
+					id: "ironjetpacks:jetpack"
+					tag: {
+						Id: "ironjetpacks:electrum"
+						Throttle: 1.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["54D2AFFDAF867654"]
+			id: "4CA57476096E68DC"
+			tasks: [{
+				id: "74DB0F1B34FDF46B"
+				item: {
+					Count: 1
+					id: "ironjetpacks:jetpack"
+					tag: {
+						Id: "ironjetpacks:gold"
+						Throttle: 1.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0CCD1EB53CED05EE"]
+			id: "5A6947F575AF0A3B"
+			tasks: [{
+				id: "3FF20828FB4FDBE2"
+				item: {
+					Count: 1
+					id: "ironjetpacks:jetpack"
+					tag: {
+						Id: "ironjetpacks:invar"
+						Throttle: 1.0d
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5A6947F575AF0A3B"]
+			id: "4088F66324F97AD5"
+			tasks: [{
+				id: "735DBD33CC27CB97"
+				item: {
+					Count: 1
+					id: "ironjetpacks:jetpack"
+					tag: {
+						Id: "ironjetpacks:steel"
+						Throttle: 1.0d
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4088F66324F97AD5"]
+			id: "5BAD021B73DD5A0C"
+			tasks: [{
+				id: "14259389C8DD2FC8"
+				item: {
+					Count: 1
+					id: "ironjetpacks:jetpack"
+					tag: {
+						Id: "ironjetpacks:diamond"
+						Throttle: 1.0d
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5BAD021B73DD5A0C"]
+			id: "27BC68E572A1F004"
+			tasks: [{
+				id: "0FCB79CA17D8A876"
+				item: {
+					Count: 1
+					id: "ironjetpacks:jetpack"
+					tag: {
+						Id: "ironjetpacks:platinum"
+						Throttle: 1.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["27BC68E572A1F004"]
+			id: "4BB15F2BC2C20038"
+			tasks: [{
+				id: "748BA25B3E474517"
+				item: {
+					Count: 1
+					id: "ironjetpacks:jetpack"
+					tag: {
+						Id: "ironjetpacks:emerald"
+						Throttle: 1.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.0d
+		}
+	]
+	title: "Iron Jetpacks"
+}

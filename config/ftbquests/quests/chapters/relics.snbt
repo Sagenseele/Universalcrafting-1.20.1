@@ -1,0 +1,960 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "diamond"
+	filename: "relics"
+	group: "0F98F552A8423A4B"
+	icon: {
+		Count: 1
+		id: "relics:infinity_ham"
+		tag: {
+			abilities: {
+				autophagy: {
+					points: 0
+					stats: {
+						feed: 1.18317d
+					}
+				}
+				infusion: {
+					points: 0
+					stats: {
+						duration: 1.55788d
+					}
+				}
+			}
+			pieces: 10
+		}
+	}
+	id: "3AEEB63846AAB628"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			icon_scale: 0.8d
+			id: "7A40C81FA284F3D2"
+			invisible: true
+			size: 1.25d
+			tasks: [{
+				id: "0FBBCFCC93AADD25"
+				item: "relics:relic_experience_bottle"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			icon_scale: 0.8d
+			id: "1638A512C31504DF"
+			invisible: true
+			size: 1.25d
+			tasks: [{
+				id: "67E9918AEE13F470"
+				item: {
+					Count: 1
+					id: "relics:spatial_sign"
+					tag: {
+						abilities: {
+							seal: {
+								points: 0
+								stats: {
+									time: 3.69332d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			icon_scale: 0.8d
+			id: "7089B09C21B8C71F"
+			invisible: true
+			size: 1.25d
+			tasks: [{
+				id: "1A8EE0219C00429A"
+				item: {
+					Count: 1
+					id: "relics:reflection_necklace"
+					tag: {
+						abilities: {
+							explode: {
+								points: 0
+								stats: {
+									capacity: 38.64179d
+									damage: 0.40657d
+									stun: 0.08297d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			icon_scale: 0.8d
+			id: "25DB49C0715ACA9D"
+			invisible: true
+			size: 1.25d
+			tasks: [{
+				id: "4FBA68FD7DD0B53E"
+				item: {
+					Count: 1
+					id: "relics:magma_walker"
+					tag: {
+						abilities: {
+							pace: {
+								points: 0
+								stats: {
+									time: 31.85551d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			icon_scale: 0.8d
+			id: "57A83B0ADDBC3ECE"
+			invisible: true
+			size: 1.25d
+			tasks: [{
+				id: "574C7BACC920ABF7"
+				item: {
+					Count: 1
+					id: "relics:aqua_walker"
+					tag: {
+						abilities: {
+							walking: {
+								points: 0
+								stats: {
+									time: 47.56023d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			icon_scale: 0.8d
+			id: "12E06CF405F31E10"
+			invisible: true
+			size: 1.25d
+			tasks: [{
+				id: "27DE664A0B6FE5AF"
+				item: {
+					Count: 1
+					id: "relics:midnight_robe"
+					tag: {
+						abilities: {
+							backstab: {
+								points: 0
+								stats: {
+									damage: 1.37581d
+									distance: 16.2355d
+								}
+							}
+							vanish: {
+								points: 0
+								stats: {
+									light: 1.18517d
+									speed: 0.30488d
+								}
+								temp: {
+									ticking: 1b
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.5d
+		}
+		{
+			icon_scale: 0.8d
+			id: "1B7C792D200D02FD"
+			invisible: true
+			size: 1.25d
+			tasks: [{
+				id: "7E052C64B70DB232"
+				item: {
+					Count: 1
+					id: "relics:drowned_belt"
+					tag: {
+						abilities: {
+							anchor: {
+								points: 0
+								stats: {
+									sinking: 4.8933d
+									slowness: 0.46599d
+								}
+							}
+							pressure: {
+								points: 0
+								stats: {
+									damage: 1.50578d
+								}
+							}
+							riptide: {
+								points: 0
+								stats: {
+									cooldown: 9.17887d
+								}
+							}
+							slots: {
+								points: 0
+								stats: {
+									charm: 0.06554d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.5d
+		}
+		{
+			icon_scale: 0.8d
+			id: "0B71D7D20F517C52"
+			invisible: true
+			size: 1.25d
+			tasks: [{
+				id: "53933449373482ED"
+				item: {
+					Count: 1
+					id: "relics:jellyfish_necklace"
+					tag: {
+						abilities: {
+							paralysis: {
+								points: 0
+								stats: {
+									duration: 1.16847d
+								}
+							}
+							shock: {
+								points: 0
+								stats: {
+									damage: 1.38345d
+								}
+								temp: {
+									ticking: 1b
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 7.5d
+		}
+		{
+			icon_scale: 0.8d
+			id: "2C9DD88BEB26B070"
+			invisible: true
+			size: 1.25d
+			tasks: [{
+				id: "05DFB298CC0216F4"
+				item: {
+					Count: 1
+					id: "relics:hunter_belt"
+					tag: {
+						abilities: {
+							slots: {
+								points: 0
+								stats: {
+									charm: 1.17586d
+								}
+							}
+							training: {
+								points: 0
+								stats: {
+									damage: 1.97789d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 7.5d
+		}
+		{
+			icon_scale: 0.8d
+			id: "0F4165AF57941C28"
+			invisible: true
+			size: 1.25d
+			tasks: [{
+				id: "56ABAE6A06CC1A82"
+				item: {
+					Count: 1
+					id: "relics:rage_glove"
+					tag: {
+						abilities: {
+							phlebotomy: {
+								points: 0
+								stats: {
+									attack_speed: 0.00656d
+									heal: 1.6E-4d
+									movement_speed: 0.01636d
+								}
+							}
+							rage: {
+								points: 0
+								stats: {
+									dealt_damage: 0.06591d
+									duration: 3.31578d
+									incoming_damage: 0.03549d
+								}
+							}
+							spurt: {
+								points: 0
+								stats: {
+									cooldown: 16.09139d
+									damage: 0.19527d
+									distance: 7.23871d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 9.0d
+		}
+		{
+			icon_scale: 0.8d
+			id: "3BCC662A6F230459"
+			invisible: true
+			size: 1.25d
+			tasks: [{
+				id: "69BEBFA9BBC68584"
+				item: {
+					Count: 1
+					id: "relics:ice_skates"
+					tag: {
+						abilities: {
+							ram: {
+								points: 0
+								stats: {
+									damage: 0.06643d
+								}
+							}
+							skating: {
+								points: 0
+								stats: {
+									duration: 32.89259d
+									speed: 0.02829d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 3.5d
+		}
+		{
+			icon_scale: 0.8d
+			id: "1992333E3249C314"
+			invisible: true
+			size: 1.25d
+			tasks: [{
+				id: "63DBEDAC10B1EB68"
+				item: {
+					Count: 1
+					id: "relics:bastion_ring"
+					tag: {
+						abilities: {
+							trade: {
+								points: 0
+								stats: {
+									rolls: 0.97756d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 9.0d
+		}
+		{
+			icon_scale: 0.8d
+			id: "484D4124FE0B561C"
+			invisible: true
+			size: 1.25d
+			tasks: [{
+				id: "1CB81D06DA56A5BD"
+				item: {
+					Count: 1
+					id: "relics:chorus_inhibitor"
+					tag: {
+						abilities: {
+							blink: {
+								points: 0
+								stats: {
+									cooldown: 9.48961d
+									distance: 21.16801d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 10.0d
+		}
+		{
+			icon_scale: 0.8d
+			id: "1A496CC8BC028842"
+			invisible: true
+			size: 1.25d
+			tasks: [{
+				id: "7E6672505B5CD9D2"
+				item: {
+					Count: 1
+					id: "relics:arrow_quiver"
+					tag: {
+						abilities: {
+							agility: {
+								points: 0
+								stats: {
+									modifier: 1.0d
+								}
+							}
+							leap: {
+								points: 0
+								stats: {
+									cooldown: 14.36614d
+									duration: 5.39473d
+									multiplier: 0.11278d
+								}
+							}
+							rain: {
+								points: 0
+								stats: {
+									delay: 0.9013d
+									duration: 11.30554d
+									radius: 4.64514d
+								}
+							}
+							receptacle: {
+								points: 0
+								stats: {
+									slots: 4.08166d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.5d
+		}
+		{
+			icon_scale: 0.8d
+			id: "0298E88041A6EE3A"
+			invisible: true
+			size: 1.25d
+			tasks: [{
+				id: "4F13975304CA349D"
+				item: {
+					Count: 1
+					id: "relics:space_dissector"
+					tag: {
+						abilities: {
+							dissection: {
+								points: 0
+								stats: {
+									distance: 29.01358d
+									time: 9.70724d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 10.0d
+		}
+		{
+			icon_scale: 0.8d
+			id: "0619033007717352"
+			invisible: true
+			size: 1.25d
+			tasks: [{
+				id: "7F6A5E30D0B50F72"
+				item: {
+					Count: 1
+					id: "relics:holy_locket"
+					tag: {
+						abilities: {
+							belief: {
+								points: 0
+								stats: {
+									amount: 0.18667d
+									capacity: 9.00474d
+									count: 1.45951d
+									radius: 4.79468d
+								}
+							}
+							blessing: {
+								points: 0
+								stats: {
+									consumption: 6.03759d
+								}
+								temp: {
+									ticking: 1b
+								}
+							}
+							repentance: {
+								points: 0
+								stats: {
+									damage: 0.15098d
+									radius: 2.72373d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 5.5d
+		}
+		{
+			icon_scale: 0.8d
+			id: "6C6D5C59EC0E7498"
+			invisible: true
+			size: 1.25d
+			tasks: [{
+				id: "670CB0E4A02D04C6"
+				item: {
+					Count: 1
+					id: "relics:enders_hand"
+					tag: {
+						abilities: {
+							swap: {
+								points: 0
+								stats: {
+									distance: 24.06834d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			icon_scale: 0.8d
+			id: "7ACAA50D9FFA9073"
+			invisible: true
+			size: 1.25d
+			tasks: [{
+				id: "349A88D545A60ED1"
+				item: {
+					Count: 1
+					id: "relics:elytra_booster"
+					tag: {
+						abilities: {
+							boost: {
+								points: 0
+								stats: {
+									capacity: 74.50729d
+									speed: 1.437d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			icon_scale: 0.8d
+			id: "2C64270FC328BC00"
+			invisible: true
+			size: 1.25d
+			tasks: [{
+				id: "2C2824462E268EFE"
+				item: {
+					Count: 1
+					id: "relics:magic_mirror"
+					tag: {
+						abilities: {
+							teleport: {
+								points: 0
+								stats: {
+									cooldown: 111.39349d
+									distance: 990.44367d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			icon_scale: 0.8d
+			id: "2BBE786961124D0C"
+			invisible: true
+			size: 1.25d
+			tasks: [{
+				id: "4346625742AE3317"
+				item: {
+					Count: 1
+					id: "relics:ice_breaker"
+					tag: {
+						abilities: {
+							impact: {
+								points: 0
+								stats: {
+									damage: 2.92291d
+									size: 4.39449d
+								}
+							}
+							sustainability: {
+								points: 0
+								stats: {
+									modifier: 0.72475d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			icon_scale: 0.8d
+			id: "3D99F86E069B106B"
+			invisible: true
+			size: 1.25d
+			tasks: [{
+				id: "2A38C94B142CED51"
+				item: {
+					Count: 1
+					id: "relics:blazing_flask"
+					tag: {
+						abilities: {
+							bonfire: {
+								points: 0
+								stats: {
+									height: 3.0585d
+									speed: 0.04563d
+									step: 1.28524d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 7.5d
+		}
+		{
+			icon_scale: 0.8d
+			id: "76D362105586654D"
+			invisible: true
+			size: 1.25d
+			tasks: [{
+				id: "6E7C4623123231CD"
+				item: {
+					Count: 1
+					id: "relics:spore_sack"
+					tag: {
+						abilities: {
+							buffer: {
+								points: 0
+								stats: {
+									capacity: 4.3772d
+									chance: 0.04105d
+								}
+							}
+							explosion: {
+								points: 0
+								stats: {
+									size: 0.18951d
+								}
+							}
+							multiplying: {
+								points: 0
+								stats: {
+									amount: 0.06867d
+									chance: 0.11352d
+									size: 0.09064d
+								}
+							}
+							spore: {
+								points: 0
+								stats: {
+									cooldown: 12.84273d
+									damage: 0.34337d
+									duration: 3.97101d
+									size: 0.17843d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.5d
+		}
+		{
+			icon_scale: 0.8d
+			id: "44F503D7E9959742"
+			invisible: true
+			size: 1.25d
+			tasks: [{
+				id: "271D2559A68FB998"
+				item: {
+					Count: 1
+					id: "relics:shadow_glaive"
+					tag: {
+						abilities: {
+							glaive: {
+								points: 0
+								stats: {
+									bounces: 3.3765d
+									damage: 3.30229d
+									radius: 3.17235d
+									recharge: 26.55703d
+								}
+							}
+							saw: {
+								points: 0
+								stats: {
+									damage: 1.02715d
+									speed: 18.2316d
+								}
+							}
+						}
+						charges: 8
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			icon_scale: 0.8d
+			id: "5C052A6115F30BDD"
+			invisible: true
+			size: 1.25d
+			tasks: [{
+				id: "4F4E5F480821E02E"
+				item: {
+					Count: 1
+					id: "relics:roller_skates"
+					tag: {
+						abilities: {
+							skating: {
+								points: 0
+								stats: {
+									duration: 18.07327d
+									speed: 0.00416d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 7.5d
+		}
+		{
+			icon_scale: 0.8d
+			id: "555AFA637D125DDC"
+			invisible: true
+			size: 1.25d
+			tasks: [{
+				id: "2418A23DFBBF985A"
+				item: {
+					Count: 1
+					id: "relics:infinity_ham"
+					tag: {
+						abilities: {
+							autophagy: {
+								points: 0
+								stats: {
+									feed: 1.18317d
+								}
+							}
+							infusion: {
+								points: 0
+								stats: {
+									duration: 1.55788d
+								}
+							}
+						}
+						pieces: 10
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			icon_scale: 0.8d
+			id: "590A565CEF718746"
+			invisible: true
+			size: 1.25d
+			tasks: [{
+				id: "1A795F2668E66CD6"
+				item: {
+					Count: 1
+					id: "relics:leather_belt"
+					tag: {
+						abilities: {
+							slots: {
+								points: 0
+								stats: {
+									charm: 2.53436d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.5d
+		}
+		{
+			icon_scale: 0.8d
+			id: "2E7406D4259F11DB"
+			invisible: true
+			size: 1.25d
+			tasks: [{
+				id: "747381D9223FFEDB"
+				item: {
+					Count: 1
+					id: "relics:horse_flute"
+					tag: {
+						abilities: {
+							heal: {
+								points: 0
+								stats: {
+									amount: 0.0777d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.5d
+		}
+		{
+			icon_scale: 0.8d
+			id: "1878584B1ACD7AB7"
+			invisible: true
+			size: 1.25d
+			tasks: [{
+				id: "31A1EA590FFA062E"
+				item: {
+					Count: 1
+					id: "relics:wool_mitten"
+					tag: {
+						abilities: {
+							mold: {
+								points: 0
+								stats: {
+									damage: 0.12537d
+									freeze: 1.12568d
+									size: 31.62413d
+									stun: 0.03154d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.5d
+		}
+		{
+			icon_scale: 0.8d
+			id: "5BA872029648CF0D"
+			invisible: true
+			size: 1.25d
+			tasks: [{
+				id: "6F659D7B005EA71A"
+				item: {
+					Count: 1
+					id: "relics:amphibian_boot"
+					tag: {
+						abilities: {
+							gills: {
+								points: 0
+								stats: {
+									chance: 0.05848d
+								}
+							}
+							slipping: {
+								points: 0
+								stats: {
+									duration: 19.22445d
+									speed: 0.00586d
+								}
+							}
+							swimming: {
+								points: 0
+								stats: {
+									duration: 29.97509d
+									speed: 0.00803d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+	]
+	title: "Relics"
+}

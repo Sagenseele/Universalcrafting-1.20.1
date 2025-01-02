@@ -1,0 +1,208 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "backpacks"
+	group: "0F98F552A8423A4B"
+	icon: "sophisticatedbackpacks:backpack"
+	id: "298199BA2D9115B3"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "0CE2DF6CADB18A4A"
+			tasks: [{
+				id: "19358B64E00B049C"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0CE2DF6CADB18A4A"]
+			id: "2739834415B450F4"
+			tasks: [{
+				id: "47843FF9B2864FF2"
+				item: "sophisticatedbackpacks:iron_backpack"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2739834415B450F4"]
+			id: "14EF6A61D9147852"
+			tasks: [{
+				id: "116FF939FC654246"
+				item: "sophisticatedbackpacks:gold_backpack"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["14EF6A61D9147852"]
+			id: "0705BDC16A2B689D"
+			tasks: [{
+				id: "154D9F4A7C93DA2E"
+				item: "sophisticatedbackpacks:diamond_backpack"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0705BDC16A2B689D"]
+			id: "68B79D58DD962089"
+			tasks: [{
+				id: "13FAB64F8CD8FBB6"
+				item: "sophisticatedbackpacks:netherite_backpack"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			id: "58A1DAF4B6B7362D"
+			tasks: [{
+				id: "7F531D6DDED95143"
+				item: {
+					Count: 1
+					id: "thermal:satchel"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			id: "727A36C536929939"
+			tasks: [{
+				id: "2557F3CECA0B3DC1"
+				item: "enderstorage:ender_pouch"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			id: "2EE74F6228F1331D"
+			tasks: [{
+				id: "6E2946E2D67DA7FC"
+				item: "botania:flower_bag"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			id: "692EABE559B616A9"
+			tasks: [{
+				id: "3F0C6921BAC08BE2"
+				item: "toolbelt:pouch"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			id: "62BE200B1684E486"
+			tasks: [{
+				id: "77BB3D9362B33DCC"
+				item: "quark:seed_pouch"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			id: "6931801D63C2F8D0"
+			tasks: [{
+				id: "1947142707271D56"
+				item: {
+					Count: 1
+					id: "industrialforegoing:infinity_backpack"
+					tag: {
+						CanCharge: 1b
+						Energy: 0L
+						Selected: "POOR"
+						Special: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			id: "6E778C52C53F25F4"
+			tasks: [{
+				id: "5B5F739C15EAB974"
+				item: {
+					Count: 1
+					id: "travelersbackpack:standard"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1C79F0D7996F8895"]
+			id: "2D00FF6926B55309"
+			tasks: [{
+				id: "45C0CA1333D30291"
+				item: "sophisticatedbackpacks:pickup_upgrade"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			id: "1C79F0D7996F8895"
+			tasks: [{
+				id: "184991F18C9E2F11"
+				item: "sophisticatedbackpacks:upgrade_base"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1C79F0D7996F8895"]
+			id: "3CB5AE958F1FD51B"
+			tasks: [{
+				id: "64EAB0BFCBB850E7"
+				item: "sophisticatedbackpacks:feeding_upgrade"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1C79F0D7996F8895"]
+			id: "192F9B921F72D134"
+			tasks: [{
+				id: "6375C0B18E7BDF32"
+				item: "sophisticatedbackpacks:stack_upgrade_starter_tier"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1C79F0D7996F8895"]
+			id: "4D70DF175038485F"
+			tasks: [{
+				id: "3829391876A2175A"
+				item: "sophisticatedbackpacks:magnet_upgrade"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+	]
+	title: "Backpacks"
+}
