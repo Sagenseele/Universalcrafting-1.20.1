@@ -1,5 +1,18 @@
 {
   "bookGuiScale": 0,
   "clickedVisualize": false,
-  "bookData": {}
+  "bookData": {
+    "apotheosis:apoth_chronicle": {
+      "viewedEntries": [],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
+    "bloodmagic:guide": {
+      "viewedEntries": [
+        "bloodmagic:altar/blood_altar"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    }
+  }
 }
