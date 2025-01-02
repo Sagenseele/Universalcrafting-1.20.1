@@ -1,0 +1,83 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "misc"
+	group: "0F98F552A8423A4B"
+	id: "4CD76A53F3010833"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			id: "67E45A1B7C971527"
+			size: 1.25d
+			tasks: [{
+				id: "5DDCEB752EA2AC50"
+				item: "bhc:heart_amulet"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["67E45A1B7C971527"]
+			id: "5A03E0DC2CD49A59"
+			tasks: [{
+				count: 10L
+				id: "0DB20E44B35DDC77"
+				item: { Count: 10, id: "bhc:red_heart_canister" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["67E45A1B7C971527"]
+			id: "1DFA525DD43BAC05"
+			tasks: [{
+				count: 10L
+				id: "3A8BC6950A2A9EF4"
+				item: { Count: 10, id: "bhc:yellow_heart_canister" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["67E45A1B7C971527"]
+			id: "3BD2F2915C36695C"
+			tasks: [{
+				count: 10L
+				id: "774FD709708548BF"
+				item: { Count: 10, id: "bhc:green_heart_canister" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["67E45A1B7C971527"]
+			id: "2921570C34D393F3"
+			tasks: [{
+				count: 10L
+				id: "6F6A762B9BF26A7D"
+				item: { Count: 10, id: "bhc:blue_heart_canister" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["67E45A1B7C971527"]
+			id: "4165D685920E4ADE"
+			tasks: [{
+				count: 10L
+				id: "3FDAEBA33D75A342"
+				item: { Count: 10, id: "bhc:soul_heart_canister" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+	]
+	title: "Accessories"
+}

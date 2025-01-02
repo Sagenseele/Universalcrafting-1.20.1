@@ -38,7 +38,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 0.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["133FDE70D79AB249"]
@@ -49,7 +49,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -1.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["3BAB60684B848EEB"]
@@ -60,7 +60,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 0.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["55B227943360F468"]
@@ -71,7 +71,57 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: -1.0d
+			y: 0.0d
+		}
+		{
+			id: "25F97006002ADEEC"
+			tasks: [{
+				id: "532F925C15BE80F0"
+				item: "ironfurnaces:augment_factory"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			id: "67A12D5AF6607D5A"
+			tasks: [{
+				id: "1E5245DBA2BEFAD1"
+				item: "ironfurnaces:augment_generator"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			id: "5294ACF4EE9001DB"
+			tasks: [{
+				id: "54E1128B305DD725"
+				item: "ironfurnaces:augment_speed"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			id: "0E2D24A8051CAB67"
+			tasks: [{
+				id: "5EDA4D4FCB092C43"
+				item: "ironfurnaces:heater"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			id: "0830EDADC2B3F9A8"
+			tasks: [{
+				id: "36BAD41408B7625F"
+				item: "ironfurnaces:item_heater"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
 		}
 	]
 	title: "Iron Furnace"

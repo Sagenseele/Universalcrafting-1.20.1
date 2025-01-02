@@ -1,6 +1,7 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
+	disable_toast: true
 	filename: "description"
 	group: "0F98F552A8423A4B"
 	icon: "minecraft:item_frame"
@@ -145,7 +146,9 @@
 	order_index: 4
 	quest_links: [ ]
 	quests: [{
+		disable_toast: true
 		id: "6F5D0F4728260631"
+		size: 0.01d
 		x: -0.5d
 		y: 1.5d
 	}]
