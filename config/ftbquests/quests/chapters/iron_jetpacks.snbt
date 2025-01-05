@@ -12,7 +12,7 @@
 		}
 	}
 	id: "4BCDB78AB399993B"
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -247,6 +247,24 @@
 			}]
 			x: 0.0d
 			y: -7.0d
+		}
+		{
+			dependencies: ["4BB15F2BC2C20038"]
+			id: "5EFAEA672AD8483B"
+			tasks: [{
+				id: "2E99EB03A08C5612"
+				item: {
+					Count: 1
+					id: "ironjetpacks:jetpack"
+					tag: {
+						Id: "ironjetpacks:netherite"
+						Throttle: 1.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -8.5d
 		}
 	]
 	title: "Iron Jetpacks"

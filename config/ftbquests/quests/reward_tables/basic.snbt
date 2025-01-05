@@ -1,0 +1,7 @@
+{
+	id: "740C34C75F3F5AAF"
+	loot_size: 1
+	order_index: 0
+	rewards: [{ item: "minecraft:experience_bottle" }]
+	title: "Basic"
+}

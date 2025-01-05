@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "misc"
 	group: "0F98F552A8423A4B"
+	icon: "bhc:heart_amulet"
 	id: "4CD76A53F3010833"
 	order_index: 5
 	quest_links: [ ]

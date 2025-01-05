@@ -1,0 +1,488 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "silent_gear"
+	group: "0F98F552A8423A4B"
+	icon: "silentgear:pickaxe_blueprint"
+	id: "390A75D9797D9510"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"If you know Tinker's Construct, you may have an idea what this mod does."
+				""
+				"You can create many different tools which have different parts. Handle, Pickaxe Head and so on. Additionally there are small parts within the Tool like \"Tip\" on a pickaxe. Every material has its' own properties."
+			]
+			icon: "silentgear:pickaxe_blueprint"
+			icon_scale: 1.2d
+			id: "1F11DAC66E331BA7"
+			rewards: [{
+				id: "360DA46A96B2CD6C"
+				item: "silentgear:pickaxe_blueprint"
+				type: "item"
+			}]
+			size: 1.25d
+			tasks: [{
+				id: "3218C3057D47526E"
+				type: "checkmark"
+			}]
+			title: "Pickaxe Blueprint"
+			x: -1.25d
+			y: 1.25d
+		}
+		{
+			dependencies: ["1F11DAC66E331BA7"]
+			icon: "silentgear:sword_blueprint"
+			id: "669F000B36F1FE2F"
+			rewards: [{
+				id: "48EA461465F9592B"
+				item: "silentgear:sword_blueprint"
+				type: "item"
+			}]
+			size: 1.25d
+			tasks: [{
+				id: "1A063F750B979D9A"
+				type: "checkmark"
+			}]
+			x: 3.125d
+			y: -1.25d
+		}
+		{
+			dependencies: ["669F000B36F1FE2F"]
+			icon: "silentgear:machete_blueprint"
+			id: "334D4FCAD9371DBB"
+			rewards: [{
+				id: "5B975D56A188B257"
+				item: "silentgear:machete_blueprint"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6694871F8A3DB971"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3421A875C1E03482"]
+			icon: "silentgear:bow_blueprint"
+			icon_scale: 1.2d
+			id: "3DA65B58F90AF48A"
+			rewards: [{
+				id: "6D200F7A50463DCF"
+				item: "silentgear:bow_blueprint"
+				type: "item"
+			}]
+			tasks: [{
+				id: "71D5F0EEDDBBF129"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3421A875C1E03482"]
+			icon: "silentgear:crossbow_blueprint"
+			id: "265FCAEB9E918A0B"
+			rewards: [{
+				id: "556420BF5BDE6077"
+				item: "silentgear:crossbow_blueprint"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4D213B1569918612"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1F11DAC66E331BA7"]
+			icon: "silentgear:slingshot_blueprint"
+			id: "3421A875C1E03482"
+			rewards: [{
+				id: "398D6E2365DF9D24"
+				item: "silentgear:slingshot_blueprint"
+				type: "item"
+			}]
+			size: 1.25d
+			tasks: [{
+				id: "14F6340E5BEF282C"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1F11DAC66E331BA7"]
+			icon: "silentgear:rod_blueprint"
+			icon_scale: 1.2d
+			id: "5694C88214476FAF"
+			rewards: [{
+				id: "168A3B94F1DB4763"
+				item: "silentgear:rod_blueprint"
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "64CB150F7D3A036F"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1F11DAC66E331BA7"]
+			icon: "silentgear:tip_blueprint"
+			id: "560DDE07A65221AB"
+			rewards: [{
+				id: "3D6DE562D5F9C8C8"
+				item: "silentgear:tip_blueprint"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6643AD7ACF7FE5E0"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"349D66E97C4AAF8E"
+				"6B45FBC8B0E42D79"
+			]
+			icon: "silentgear:paxel_blueprint"
+			id: "73F5F7CE1AF64672"
+			rewards: [{
+				id: "2D3628C440ECB139"
+				item: "silentgear:paxel_blueprint"
+				type: "item"
+			}]
+			size: 1.25d
+			tasks: [{
+				id: "1D359AEE731B549E"
+				type: "checkmark"
+			}]
+			x: 6.25d
+			y: 1.25d
+		}
+		{
+			dependencies: ["669F000B36F1FE2F"]
+			icon: "silentgear:katana_blueprint"
+			id: "2B8319861B7457C2"
+			rewards: [{
+				id: "5C841E2826A61584"
+				item: "silentgear:katana_blueprint"
+				type: "item"
+			}]
+			tasks: [{
+				id: "06492E47AF50AD01"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["669F000B36F1FE2F"]
+			icon: "silentgear:spear_blueprint"
+			id: "66E022BD5B390F7E"
+			rewards: [{
+				id: "4A99DD9D8DF7D7C4"
+				item: "silentgear:spear_blueprint"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7C4D6A03737D804F"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["669F000B36F1FE2F"]
+			icon: "silentgear:trident_blueprint"
+			id: "6BF69897FE64B950"
+			rewards: [{
+				id: "6AF78F0A8A2EBE6A"
+				item: "silentgear:trident_blueprint"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1C8100B488F9CEDE"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1F11DAC66E331BA7"]
+			id: "4D78E9A4C4EA6A57"
+			tasks: [{
+				id: "73B608B44D0683CC"
+				item: "silentgear:shovel_blueprint"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1F11DAC66E331BA7"]
+			id: "6B45FBC8B0E42D79"
+			tasks: [{
+				id: "6BBDFAF829C4CAAC"
+				item: "silentgear:axe_blueprint"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1F11DAC66E331BA7"]
+			id: "1CF890B728B2959C"
+			tasks: [{
+				id: "437D543270C1CB0B"
+				item: "silentgear:hoe_blueprint"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"4D78E9A4C4EA6A57"
+				"1CF890B728B2959C"
+			]
+			id: "349D66E97C4AAF8E"
+			tasks: [{
+				id: "1F287FE7737A4FD4"
+				item: "silentgear:mattock_blueprint"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			id: "4465823FFEFF920C"
+			tasks: [{
+				id: "5BA391ADD8A93B81"
+				item: "silentgear:coating_blueprint"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			id: "6605E69FFFD9D6A5"
+			tasks: [{
+				id: "641E0379BD8A7DB4"
+				item: "silentgear:grip_blueprint"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -3.0d
+		}
+		{
+			id: "3007A0D70F9B8D8D"
+			tasks: [{
+				id: "65A164016587A74B"
+				item: "silentgear:binding_blueprint"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -3.0d
+		}
+		{
+			id: "55A6457C2C3277DB"
+			tasks: [{
+				id: "00BD9A166E7D5E1B"
+				item: "silentgear:lining_blueprint"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -3.0d
+		}
+		{
+			id: "4BC8B54A5751F39B"
+			tasks: [{
+				id: "4698C12E4F49A43C"
+				item: "silentgear:cord_blueprint"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -3.0d
+		}
+		{
+			id: "3504C76CFFBC3FB9"
+			tasks: [{
+				id: "71CEAC5C03CF55F5"
+				item: "silentgear:fletching_blueprint"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			id: "5F0AE2C5F921192F"
+			tasks: [{
+				id: "431A68256A45903A"
+				item: "silentgear:hammer_blueprint"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			id: "1A7CBED47FFDE453"
+			tasks: [{
+				id: "0258A811ACE2FC3C"
+				item: "silentgear:excavator_blueprint"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -2.0d
+		}
+		{
+			id: "3D048BE6D8E2B3F8"
+			tasks: [{
+				id: "508E7269F7847E6A"
+				item: "silentgear:saw_blueprint"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			id: "13F8B62CC8B227A6"
+			tasks: [{
+				id: "76A3F3CF3A82D398"
+				item: "silentgear:prospector_hammer_blueprint"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -2.0d
+		}
+		{
+			id: "6FFC139DBD0353AA"
+			tasks: [{
+				id: "3A824D8B25FB2ECF"
+				item: "silentgear:sickle_blueprint"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			id: "734128708D3316E2"
+			tasks: [{
+				id: "64CCFBAF31149A43"
+				item: "silentgear:shears_blueprint"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			id: "7B7116F3A42A003A"
+			tasks: [{
+				id: "7A56BC5849237B35"
+				item: "silentgear:fishing_rod_blueprint"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -1.0d
+		}
+		{
+			id: "296D3BD2F67F18F0"
+			tasks: [{
+				id: "5588B4933AF9417E"
+				item: "silentgear:shield_blueprint"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -1.0d
+		}
+		{
+			id: "798E68F2140E81B9"
+			tasks: [{
+				id: "2E8AED59C758A8E9"
+				item: "silentgear:helmet_blueprint"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -1.0d
+		}
+		{
+			id: "7E952425D553CFC2"
+			tasks: [{
+				id: "1D9A6671225F3E9E"
+				item: "silentgear:chestplate_blueprint"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			id: "04BF9440CCEE7609"
+			tasks: [{
+				id: "5A9C9E4F56C51378"
+				item: "silentgear:leggings_blueprint"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			id: "16B6F47EF6D14558"
+			tasks: [{
+				id: "729BBEC86B704E24"
+				item: "silentgear:boots_blueprint"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			id: "2F63583F96866213"
+			tasks: [{
+				id: "65D87B04241885C3"
+				item: "silentgear:elytra_blueprint"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			id: "2EF681A39382EA78"
+			tasks: [{
+				id: "5D128D3C55D78ECF"
+				item: "silentgear:arrow_blueprint"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			id: "1209C46909A2B73C"
+			tasks: [{
+				id: "31F7BF15D6EC8AF1"
+				item: "silentgear:ring_blueprint"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			id: "4DE3D4114617575D"
+			tasks: [{
+				id: "5F49238A3F53B72D"
+				item: "silentgear:bracelet_blueprint"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 1.0d
+		}
+	]
+	title: "Silent Gear"
+}

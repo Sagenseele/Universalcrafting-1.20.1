@@ -5,7 +5,7 @@
 	group: "0F98F552A8423A4B"
 	icon: "apotheosis:gem_dust"
 	id: "4AD64A743FBC0F19"
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -33,6 +33,7 @@
 		{
 			dependencies: ["3DF8E8B1A7AAA0FA"]
 			id: "387415B4F201BD59"
+			size: 1.25d
 			tasks: [{
 				id: "452E807B4B26AA43"
 				item: "apotheosis:gem_cutting_table"
@@ -42,20 +43,9 @@
 			y: -3.5d
 		}
 		{
-			description: ["Let an &eanvil&r fall on a &egem&r to get dust."]
-			id: "3DF8E8B1A7AAA0FA"
-			size: 1.25d
-			tasks: [{
-				id: "2D99900D90CFE09E"
-				item: "apotheosis:gem_dust"
-				type: "item"
-			}]
-			x: 6.785714285714263d
-			y: -2.2142857142857224d
-		}
-		{
 			dependencies: ["3DF8E8B1A7AAA0FA"]
 			id: "01700AA96E160D16"
+			size: 1.25d
 			tasks: [{
 				id: "00031CC53781FF90"
 				item: "apotheosis:salvaging_table"
@@ -507,7 +497,7 @@
 		{
 			dependencies: ["3DF8E8B1A7AAA0FA"]
 			id: "64F547D87FDA365F"
-			size: 1.25d
+			size: 1.5d
 			tasks: [{
 				id: "2AB0213758A66C45"
 				item: "apotheosis:gem_fused_slate"
@@ -519,6 +509,7 @@
 		{
 			dependencies: ["3DF8E8B1A7AAA0FA"]
 			id: "60A57FF36D4F035F"
+			size: 1.25d
 			tasks: [{
 				id: "592859DEF928CC8B"
 				item: "apotheosis:augmenting_table"
@@ -530,7 +521,7 @@
 		{
 			dependencies: ["3DF8E8B1A7AAA0FA"]
 			id: "2567C6EE90B2E73A"
-			size: 1.0d
+			size: 1.25d
 			tasks: [{
 				id: "0E7DC182DD607601"
 				item: "apotheosis:simple_reforging_table"
@@ -542,6 +533,7 @@
 		{
 			dependencies: ["2567C6EE90B2E73A"]
 			id: "2DAC4626E52D93E8"
+			size: 1.25d
 			tasks: [{
 				id: "38C0D22B4220361D"
 				item: "apotheosis:reforging_table"
@@ -553,6 +545,7 @@
 		{
 			dependencies: ["64F547D87FDA365F"]
 			id: "0F45D1F73E9D4CCC"
+			size: 1.25d
 			tasks: [{
 				id: "49C56F9029F08F02"
 				item: "apotheosis:sigil_of_socketing"
@@ -564,6 +557,7 @@
 		{
 			dependencies: ["64F547D87FDA365F"]
 			id: "420BFFD4AD0A2D17"
+			size: 1.25d
 			tasks: [{
 				id: "7AF9B3AB0F500CEC"
 				item: "apotheosis:sigil_of_withdrawal"
@@ -575,6 +569,7 @@
 		{
 			dependencies: ["64F547D87FDA365F"]
 			id: "3E91BE42A3142BA4"
+			size: 1.25d
 			tasks: [{
 				id: "017BBC350E10CAB7"
 				item: "apotheosis:sigil_of_rebirth"
@@ -586,6 +581,7 @@
 		{
 			dependencies: ["64F547D87FDA365F"]
 			id: "0CCD94B518F9F5A7"
+			size: 1.25d
 			tasks: [{
 				id: "334259F788417F87"
 				item: "apotheosis:sigil_of_enhancement"
@@ -597,6 +593,7 @@
 		{
 			dependencies: ["64F547D87FDA365F"]
 			id: "646BD838ED30BAE9"
+			size: 1.25d
 			tasks: [{
 				id: "4067046CA3D4A547"
 				item: "apotheosis:sigil_of_unnaming"
@@ -608,6 +605,7 @@
 		{
 			id: "1815EB5B7B01E59B"
 			shape: "rsquare"
+			size: 1.25d
 			tasks: [{
 				id: "4FD9F07979B4A644"
 				item: "apotheosis:library"
@@ -620,6 +618,7 @@
 			dependencies: ["1815EB5B7B01E59B"]
 			id: "52DF45F0AC96374F"
 			shape: "rsquare"
+			size: 1.25d
 			tasks: [{
 				id: "35B023BE97677D9B"
 				item: "apotheosis:ender_library"
@@ -631,6 +630,7 @@
 		{
 			id: "5F98EAC5549D6639"
 			shape: "rsquare"
+			size: 1.25d
 			tasks: [{
 				id: "184895D6EC7A4234"
 				item: "apotheosis:hellshelf"
@@ -643,6 +643,7 @@
 			dependencies: ["5F98EAC5549D6639"]
 			id: "3B2867F02D680353"
 			shape: "rsquare"
+			size: 1.25d
 			tasks: [{
 				id: "4B64ECEB7C8EAEE5"
 				item: "apotheosis:infused_hellshelf"
@@ -650,6 +651,18 @@
 			}]
 			x: 8.0d
 			y: 2.5d
+		}
+		{
+			description: ["Let an &eanvil&r fall on a &egem&r to get dust."]
+			id: "3DF8E8B1A7AAA0FA"
+			size: 1.5d
+			tasks: [{
+				id: "2D99900D90CFE09E"
+				item: "apotheosis:gem_dust"
+				type: "item"
+			}]
+			x: 6.731505102040828d
+			y: -2.259566326530617d
 		}
 	]
 	title: "Apotheosis"
