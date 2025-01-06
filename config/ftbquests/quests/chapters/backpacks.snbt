@@ -203,6 +203,17 @@
 			x: -3.0d
 			y: 2.0d
 		}
+		{
+			dependencies: ["1C79F0D7996F8895"]
+			id: "72A6A2C985A12903"
+			tasks: [{
+				id: "1D99769BBD1400C0"
+				item: "sophisticatedbackpacks:smithing_upgrade"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.5d
+		}
 	]
 	title: "Backpacks"
 }

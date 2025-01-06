@@ -9,25 +9,17 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: [
-				"If you know Tinker's Construct, you may have an idea what this mod does."
-				""
-				"You can create many different tools which have different parts. Handle, Pickaxe Head and so on. Additionally there are small parts within the Tool like \"Tip\" on a pickaxe. Every material has its' own properties."
-			]
+			dependencies: ["2DD6FBEB1AF9835A"]
 			icon: "silentgear:pickaxe_blueprint"
 			icon_scale: 1.2d
 			id: "1F11DAC66E331BA7"
 			rewards: [{
-				id: "360DA46A96B2CD6C"
+				id: "45C9CE1E99D61B58"
 				item: "silentgear:pickaxe_blueprint"
 				type: "item"
 			}]
 			size: 1.25d
-			tasks: [{
-				id: "3218C3057D47526E"
-				type: "checkmark"
-			}]
-			title: "Pickaxe Blueprint"
+			title: "&3Pickaxe Blueprint&r"
 			x: -1.25d
 			y: 1.25d
 		}
@@ -125,10 +117,6 @@
 				type: "item"
 			}]
 			size: 1.0d
-			tasks: [{
-				id: "64CB150F7D3A036F"
-				type: "checkmark"
-			}]
 			x: -1.0d
 			y: 3.0d
 		}
@@ -140,10 +128,6 @@
 				id: "3D6DE562D5F9C8C8"
 				item: "silentgear:tip_blueprint"
 				type: "item"
-			}]
-			tasks: [{
-				id: "6643AD7ACF7FE5E0"
-				type: "checkmark"
 			}]
 			x: -1.0d
 			y: -0.5d
@@ -224,8 +208,8 @@
 				item: "silentgear:shovel_blueprint"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 0.5d
+			x: 2.5267857142857224d
+			y: 0.2500000000000071d
 		}
 		{
 			dependencies: ["1F11DAC66E331BA7"]
@@ -235,8 +219,8 @@
 				item: "silentgear:axe_blueprint"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 2.0d
+			x: 2.5267857142857224d
+			y: 2.250000000000007d
 		}
 		{
 			dependencies: ["1F11DAC66E331BA7"]
@@ -246,8 +230,8 @@
 				item: "silentgear:hoe_blueprint"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 2.0d
+			x: 2.5267857142857224d
+			y: 1.250000000000007d
 		}
 		{
 			dependencies: [
@@ -260,8 +244,8 @@
 				item: "silentgear:mattock_blueprint"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 0.5d
+			x: 3.5267857142857224d
+			y: 0.2500000000000071d
 		}
 		{
 			id: "4465823FFEFF920C"
@@ -482,6 +466,39 @@
 			}]
 			x: 10.0d
 			y: 1.0d
+		}
+		{
+			description: [
+				"If you know Tinker's Construct, you may have an idea what this mod does."
+				""
+				"You can create many different tools which have different parts. Handle, Pickaxe Head and so on. Additionally there are small parts within the Tool like \"Tip\" on a pickaxe. Every material has its' own properties and traits. Try some materials and create yourself some good tools."
+			]
+			icon: {
+				Count: 1
+				id: "silentgear:blueprint_book"
+				tag: {
+					Inventory: { }
+				}
+			}
+			id: "2DD6FBEB1AF9835A"
+			rewards: [{
+				id: "723A24FF6519DFED"
+				item: {
+					Count: 1
+					id: "silentgear:blueprint_book"
+					tag: {
+						Inventory: { }
+					}
+				}
+				type: "item"
+			}]
+			size: 1.25d
+			tasks: [{
+				id: "3AEF8CA25E3D8486"
+				type: "checkmark"
+			}]
+			x: -3.125d
+			y: 1.25d
 		}
 	]
 	title: "Silent Gear"

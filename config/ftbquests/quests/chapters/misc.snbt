@@ -9,13 +9,21 @@
 	quest_links: [ ]
 	quests: [
 		{
+			icon: "bhc:heart_amulet"
 			id: "67E45A1B7C971527"
-			size: 1.25d
-			tasks: [{
-				id: "5DDCEB752EA2AC50"
+			invisible: true
+			rewards: [{
+				id: "196337B74374DFB5"
 				item: "bhc:heart_amulet"
 				type: "item"
 			}]
+			size: 1.25d
+			tasks: [{
+				id: "5DDCEB752EA2AC50"
+				item: "bhc:red_heart"
+				type: "item"
+			}]
+			title: "Heart Amulet"
 			x: 1.0d
 			y: 0.0d
 		}
