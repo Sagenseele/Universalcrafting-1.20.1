@@ -1,0 +1,23 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "introduction"
+	group: ""
+	id: "76F35E216876B70C"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		description: ["Goal is the Creative Vending Upgrade."]
+		icon: "storagedrawers:creative_vending_upgrade"
+		id: "3D967ABE59777793"
+		shape: "gear"
+		size: 1.5d
+		tasks: [{
+			id: "167F5CA807F0D7A8"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Introduction"
+}

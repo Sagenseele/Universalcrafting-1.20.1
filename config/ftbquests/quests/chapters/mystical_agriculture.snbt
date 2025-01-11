@@ -168,7 +168,7 @@
 		}
 		{
 			id: "3044CD3CF06A526B"
-			size: 1.5d
+			size: 1.25d
 			tasks: [{
 				id: "545378AB79B3CB6A"
 				item: "mysticalagriculture:air_seeds"
@@ -179,7 +179,7 @@
 		}
 		{
 			id: "48C7C66602C3776B"
-			size: 1.5d
+			size: 1.25d
 			tasks: [{
 				id: "0094B7A2A4175688"
 				item: "mysticalagriculture:earth_seeds"
@@ -190,7 +190,7 @@
 		}
 		{
 			id: "3E119B5AEAE2D87D"
-			size: 1.5d
+			size: 1.25d
 			tasks: [{
 				id: "4111BAC26E861FC4"
 				item: "mysticalagriculture:water_seeds"
@@ -201,7 +201,7 @@
 		}
 		{
 			id: "2C80D75277BD2B2E"
-			size: 1.5d
+			size: 1.25d
 			tasks: [{
 				id: "6A7087CADB61E5D3"
 				item: "mysticalagriculture:fire_seeds"
@@ -1480,6 +1480,28 @@
 			}]
 			x: 16.0d
 			y: 6.5d
+		}
+		{
+			id: "134AC8F4D492F215"
+			size: 1.5d
+			tasks: [{
+				id: "30487C89F5B537EE"
+				item: "mysticalagriculture:infusion_altar"
+				type: "item"
+			}]
+			x: 3.488095238095248d
+			y: -8.50595238095238d
+		}
+		{
+			id: "498CA1B131266392"
+			size: 1.5d
+			tasks: [{
+				id: "16A4613F4F77354E"
+				item: "mysticalagriculture:infusion_pedestal"
+				type: "item"
+			}]
+			x: 5.488095238095248d
+			y: -8.50595238095238d
 		}
 	]
 	title: "Mystical Agriculture"
