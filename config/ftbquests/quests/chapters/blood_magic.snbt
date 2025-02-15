@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "blood_magic"
 	group: "007FE974211D2B02"
+	hide_quest_until_deps_complete: true
 	icon: "bloodmagic:altar"
 	id: "08E37D7FA1E4B27B"
 	images: [
@@ -87,10 +88,11 @@
 			y: 5.5d
 		}
 	]
-	order_index: 1
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["7A1C76596F111A92"]
 			id: "1F4A0441461B7D12"
 			tasks: [{
 				id: "36B21D181291D645"

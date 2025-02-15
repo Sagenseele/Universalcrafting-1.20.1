@@ -1,0 +1,52 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "electrical_age"
+	group: "0D67931F734E7CE2"
+	id: "0B9F2D4F657A0F4C"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "67106593CD3CB7BD"
+			tasks: [{
+				id: "1BBB6949F9CBC1A7"
+				item: "mekanism:metallurgic_infuser"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			id: "60A7BAA320FA674F"
+			tasks: [{
+				id: "28870318AC03879A"
+				item: "mekanism:basic_control_circuit"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			id: "5FA179FF61AF8C87"
+			tasks: [{
+				id: "23F6219B6CB8740F"
+				item: "enderio:grains_of_infinity"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			id: "2468A11BD78A5360"
+			tasks: [{
+				id: "510A835CBA044F12"
+				item: "thermal:machine_frame"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.5d
+		}
+	]
+	title: "Electrical Age"
+}

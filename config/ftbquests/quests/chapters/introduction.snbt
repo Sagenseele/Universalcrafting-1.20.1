@@ -6,18 +6,40 @@
 	id: "76F35E216876B70C"
 	order_index: 0
 	quest_links: [ ]
-	quests: [{
-		description: ["Goal is the Creative Vending Upgrade."]
-		icon: "storagedrawers:creative_vending_upgrade"
-		id: "3D967ABE59777793"
-		shape: "gear"
-		size: 1.5d
-		tasks: [{
-			id: "167F5CA807F0D7A8"
-			type: "checkmark"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			description: ["Goal is the Creative Vending Upgrade."]
+			icon: "storagedrawers:creative_vending_upgrade"
+			id: "3D967ABE59777793"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "167F5CA807F0D7A8"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Keyboard input:"
+				""
+				"I suggest you change the following keys:"
+				""
+				"- FTB Quest Book"
+				"- FTB Excavate"
+				"- Open Wireless Crafting Terminal"
+			]
+			icon: "modularrouters:bulk_item_filter"
+			id: "7C182CD4F4A2A007"
+			tasks: [{
+				id: "6F39223492C95B58"
+				type: "checkmark"
+			}]
+			title: "Keyboard Settings"
+			x: -1.0d
+			y: -2.0d
+		}
+	]
 	title: "Introduction"
 }

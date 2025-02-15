@@ -3,7 +3,7 @@
 	default_quest_shape: ""
 	disable_toast: true
 	filename: "description"
-	group: "0F98F552A8423A4B"
+	group: "688DEA0D1A32C680"
 	icon: "minecraft:item_frame"
 	id: "7261B02FDFE4B0A6"
 	images: [
@@ -143,7 +143,7 @@
 			y: 2.0d
 		}
 	]
-	order_index: 6
+	order_index: 2
 	quest_links: [ ]
 	quests: [{
 		disable_toast: true
@@ -152,5 +152,5 @@
 		x: -0.5d
 		y: 1.5d
 	}]
-	title: "Description"
+	title: "Icon Descriptions"
 }

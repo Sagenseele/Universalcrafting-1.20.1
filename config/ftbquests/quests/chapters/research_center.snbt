@@ -6,14 +6,6 @@
 	group: ""
 	icon: "reactive:vital_bottle"
 	id: "2827EEC79991E156"
-	images: [{
-		height: 1.0d
-		image: "nuclearcraft:block/redstone_dimmer/1"
-		rotation: 0.0d
-		width: 1.0d
-		x: -8.0d
-		y: -15.0d
-	}]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
@@ -470,8 +462,8 @@
 				type: "item"
 			}]
 			title: "Thermal Suite"
-			x: -0.2767857142857082d
-			y: -0.1607142857142776d
+			x: -0.3105867346938709d
+			y: -0.19515306122448806d
 		}
 		{
 			dependencies: ["7342DCEDA741B3FD"]
@@ -544,6 +536,13 @@
 				tag: { }
 			}
 			id: "3710E8A1099ACF32"
+			rewards: [{
+				auto: "invisible"
+				id: "17C2242BC14A27E9"
+				ignore_reward_blocking: true
+				stage: "ad_astra"
+				type: "gamestage"
+			}]
 			tasks: [{
 				count: 16L
 				id: "4E20023575A9AAFF"

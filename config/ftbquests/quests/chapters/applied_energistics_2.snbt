@@ -4,7 +4,7 @@
 	filename: "applied_energistics_2"
 	group: "7B98754C604F2AD1"
 	id: "1B0A64B9CB2C4045"
-	order_index: 1
+	order_index: 0
 	quest_links: [ ]
 	quests: [{
 		id: "3A84B5396B1ABBC4"

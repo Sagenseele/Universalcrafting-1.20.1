@@ -454,7 +454,10 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["275E93E4CB7703BF"]
+			dependencies: [
+				"275E93E4CB7703BF"
+				"13D7656F2F625BB4"
+			]
 			description: [
 				"If you know Tinker's Construct, you may have an idea what this mod does."
 				""

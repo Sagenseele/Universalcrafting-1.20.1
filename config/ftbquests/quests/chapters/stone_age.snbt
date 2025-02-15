@@ -1,0 +1,170 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "stone_age"
+	group: "0D67931F734E7CE2"
+	id: "6A5DFF6BBA352A64"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "56C84876741D3672"
+			tasks: [{
+				id: "38727FDA182A3D45"
+				item: "minecraft:dirt"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["56C84876741D3672"]
+			id: "3BACAF9E71A3524F"
+			tasks: [{
+				id: "4007C87E2977EC8E"
+				item: "mysticalagriculture:dirt_essence"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			id: "135FEC8E09C68EB0"
+			tasks: [{
+				id: "6A338D61061D18F2"
+				item: "minecraft:oak_log"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["45346209AF744497"]
+			description: ["Sneak right click with dirt essence on an overgrown wood log."]
+			id: "4FA8C9D3999330D8"
+			tasks: [{
+				id: "270F90A1EF2DC28D"
+				item: "mysticalagriculture:stone_essence"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["183FD7820BAED84B"]
+			id: "32608C15F49CFA8D"
+			size: 1.25d
+			tasks: [{
+				id: "251F80FDC2C54A31"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["323077AA82CAADE2"]
+			id: "183FD7820BAED84B"
+			tasks: [{
+				id: "27430F07BEDB35C4"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7A1C76596F111A92"]
+			id: "323077AA82CAADE2"
+			tasks: [{
+				id: "22CDD5AD3267DFB7"
+				item: "minecraft:iron_nugget"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["04C04D6FBB67AAC3"]
+			id: "7A1C76596F111A92"
+			rewards: [{
+				count: 8
+				id: "7A93A06811B91F81"
+				item: "kubejs:nutrient_bar"
+				type: "item"
+			}]
+			subtitle: "Unlocks Blood Magic"
+			tasks: [{
+				id: "22DBB06F39B42656"
+				item: "bloodmagic:altar"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["257C857B20905C1A"]
+			description: ["Sneak right click with a flint on a stone."]
+			id: "18FC621109276DA1"
+			tasks: [{
+				id: "58F90B611ACCCD33"
+				item: "mysticalagriculture:nether_quartz_essence"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"135FEC8E09C68EB0"
+				"3BACAF9E71A3524F"
+			]
+			id: "45346209AF744497"
+			tasks: [{
+				id: "1260A039B9B00A90"
+				item: "kubejs:overgrown_wood_log"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4FA8C9D3999330D8"]
+			id: "7735286F9FF3CDFF"
+			tasks: [{
+				id: "538C751AD9D1A36A"
+				item: "minecraft:gravel"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7735286F9FF3CDFF"]
+			id: "257C857B20905C1A"
+			tasks: [{
+				id: "0121C1FE98508097"
+				item: "minecraft:flint"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["18FC621109276DA1"]
+			id: "04C04D6FBB67AAC3"
+			tasks: [{
+				id: "72FEA136DE8DDE25"
+				item: {
+					Count: 1
+					id: "bloodmagic:sacrificialdagger"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+	]
+	title: "Stone Age"
+}
