@@ -59,6 +59,9 @@
     "camo": true,
     "semiblock": true
   },
+  "immersiveengineering": {
+    "multiblock_icon": true
+  },
   "jade": {
     "coordinates.rel": false,
     "distance": false,
