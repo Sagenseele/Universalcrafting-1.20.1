@@ -249,6 +249,18 @@ ServerEvents.recipes(event => {
     'kubejs:plate_blueish'
   )
   
+  // Lapis Lazuli
+  event.custom({
+    type: 'create:splashing',
+    ingredients: [
+        { item: 'minecraft:flint' }
+    ],
+    results: [
+        { item: 'minecraft:lapis_lazuli', chance: 0.8 } // 100% chance
+    ],
+    id: 'custom:splashing/gravel'
+  });
+
   // Blueish
   event.recipes.create.milling('thermal:iron_dust', 'minecraft:iron_ingot')
   event.shapeless(
@@ -260,4 +272,6 @@ ServerEvents.recipes(event => {
   )
   event.smelting('kubejs:ingot_blueish', 'kubejs:dust_blueish')
   defaultPlates('kubejs:plate_blueish', 'kubejs:ingot_blueish')
+
+  
 })

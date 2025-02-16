@@ -185,6 +185,7 @@
 			]
 			id: "0DA090A2DBE0219D"
 			tasks: [{
+				count: 27L
 				id: "7E3DC8DC09700D99"
 				item: "immersiveengineering:cokebrick"
 				type: "item"
@@ -333,6 +334,7 @@
 		{
 			id: "447AE5BD28EF8F92"
 			tasks: [{
+				count: 27L
 				id: "56317D6A60A8DE21"
 				item: "immersiveengineering:blastbrick"
 				type: "item"
@@ -418,7 +420,10 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["225C42CA4F5126B9"]
+			dependencies: [
+				"225C42CA4F5126B9"
+				"58A784A598AA0347"
+			]
 			id: "1BDFCCB96107FA42"
 			tasks: [{
 				id: "13D63FDDC527E7A4"
@@ -445,6 +450,7 @@
 					type: "item"
 				}
 			]
+			size: 1.25d
 			tasks: [{
 				id: "6B69C74A5D6B9E87"
 				item: "create:water_wheel"
@@ -465,7 +471,10 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["1BDFCCB96107FA42"]
+			dependencies: [
+				"74B6AE8090DD61E4"
+				"58A784A598AA0347"
+			]
 			id: "13D7656F2F625BB4"
 			subtitle: "Unlocks Silent Gear"
 			tasks: [{
@@ -473,7 +482,7 @@
 				item: "silentgear:blueprint_paper"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 1.5d
 			y: 1.0d
 		}
 		{
@@ -544,6 +553,48 @@
 				type: "item"
 			}]
 			x: 10.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["444F7F231F966D6D"]
+			id: "74B6AE8090DD61E4"
+			tasks: [{
+				id: "2ADD105A46FAF2D1"
+				item: "minecraft:paper"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["030FEFD019AA9EB7"]
+			id: "444F7F231F966D6D"
+			tasks: [{
+				id: "4C00FCE8A3905995"
+				item: "farmersdelight:tree_bark"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			id: "030FEFD019AA9EB7"
+			tasks: [{
+				id: "064566987544E790"
+				item: "farmersdelight:cutting_board"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			id: "58A784A598AA0347"
+			tasks: [{
+				id: "4EEB7FD2AF69DD44"
+				item: "minecraft:lapis_lazuli"
+				type: "item"
+			}]
+			x: 0.0d
 			y: 1.0d
 		}
 	]
