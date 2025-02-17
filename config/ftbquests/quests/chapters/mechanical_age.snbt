@@ -18,7 +18,7 @@
 				item: "create:precision_mechanism"
 				type: "item"
 			}]
-			x: 13.5d
+			x: 16.5d
 			y: -0.5d
 		}
 		{
@@ -30,8 +30,8 @@
 				item: "ironfurnaces:gold_furnace"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -9.5d
+			x: 10.0d
+			y: -11.0d
 		}
 		{
 			dependencies: ["501AD43342685328"]
@@ -42,8 +42,8 @@
 				item: "ironfurnaces:diamond_furnace"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -10.0d
+			x: 11.0d
+			y: -11.5d
 		}
 		{
 			dependencies: ["133FDE70D79AB249"]
@@ -54,8 +54,8 @@
 				item: "ironfurnaces:crystal_furnace"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -10.0d
+			x: 13.0d
+			y: -11.5d
 		}
 		{
 			dependencies: ["3BAB60684B848EEB"]
@@ -66,8 +66,8 @@
 				item: "ironfurnaces:obsidian_furnace"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -9.5d
+			x: 14.0d
+			y: -11.0d
 		}
 		{
 			dependencies: ["55B227943360F468"]
@@ -78,8 +78,8 @@
 				item: "ironfurnaces:netherite_furnace"
 				type: "item"
 			}]
-			x: 9.5d
-			y: -8.5d
+			x: 14.5d
+			y: -10.0d
 		}
 		{
 			dependencies: ["0D0A9A9D0A85E339"]
@@ -91,8 +91,8 @@
 				item: "ironfurnaces:augment_generator"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -9.0d
+			x: 11.5d
+			y: -10.5d
 		}
 		{
 			dependencies: ["0D0A9A9D0A85E339"]
@@ -104,8 +104,8 @@
 				item: "ironfurnaces:augment_speed"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -9.0d
+			x: 12.5d
+			y: -10.5d
 		}
 		{
 			dependencies: ["0D0A9A9D0A85E339"]
@@ -116,8 +116,8 @@
 				item: "ironfurnaces:augment_factory"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -8.0d
+			x: 12.0d
+			y: -9.5d
 		}
 		{
 			dependencies: ["0D0A9A9D0A85E339"]
@@ -129,8 +129,8 @@
 				item: "ironfurnaces:item_heater"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -8.0d
+			x: 11.0d
+			y: -9.5d
 		}
 		{
 			dependencies: ["0D0A9A9D0A85E339"]
@@ -142,8 +142,8 @@
 				item: "ironfurnaces:heater"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -8.0d
+			x: 13.0d
+			y: -9.5d
 		}
 		{
 			dependencies: ["0DA090A2DBE0219D"]
@@ -153,7 +153,7 @@
 				item: "immersiveengineering:creosote_bucket"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 9.0d
 			y: -0.5d
 		}
 		{
@@ -164,7 +164,7 @@
 				item: "immersiveengineering:treated_wood_horizontal"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 9.0d
 			y: 1.0d
 		}
 		{
@@ -175,7 +175,7 @@
 				item: "immersiveengineering:stick_treated"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 10.5d
 			y: 1.0d
 		}
 		{
@@ -190,7 +190,7 @@
 				item: "immersiveengineering:cokebrick"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 9.0d
 			y: -2.0d
 		}
 		{
@@ -201,7 +201,7 @@
 				item: "immersiveengineering:workbench"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 10.5d
 			y: 2.5d
 		}
 		{
@@ -220,18 +220,30 @@
 				item: "ironfurnaces:iron_furnace"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -8.5d
+			x: 9.5d
+			y: -10.0d
 		}
 		{
-			dependencies: ["6534A045CE282854"]
+			dependencies: [
+				"6534A045CE282854"
+				"48AF2A3A4CB1AC9E"
+			]
+			icon: "mbd2:kinetic_crusher"
 			id: "34D115B6E61D1234"
-			tasks: [{
-				id: "62F78E246BE9A7AE"
-				item: "thermal:machine_output_augment"
-				type: "item"
-			}]
-			x: 3.0d
+			size: 1.25d
+			tasks: [
+				{
+					id: "7B56EDD21C154540"
+					item: "mbd2:kinetic_crusher"
+					type: "item"
+				}
+				{
+					id: "5ACFFE9C3301FFFF"
+					item: "mbd2:kinetic_crusher_block"
+					type: "item"
+				}
+			]
+			x: 9.0d
 			y: -3.5d
 		}
 		{
@@ -242,7 +254,7 @@
 				item: "kubejs:ingot_blueish"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 7.5d
 			y: -2.0d
 		}
 		{
@@ -253,7 +265,7 @@
 				item: "kubejs:gateitem_tier1"
 				type: "item"
 			}]
-			x: 15.0d
+			x: 18.0d
 			y: -0.5d
 		}
 		{
@@ -269,8 +281,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
-			y: -7.0d
+			x: 7.5d
+			y: -10.0d
 		}
 		{
 			dependencies: ["46C0E33966D05CC5"]
@@ -280,8 +292,8 @@
 				item: "create:mechanical_press"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -3.5d
+			x: 0.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["45D3A3893156DB25"]
@@ -291,7 +303,7 @@
 				item: "thermal:machine_frame"
 				type: "item"
 			}]
-			x: 16.5d
+			x: 19.5d
 			y: -0.5d
 		}
 		{
@@ -305,7 +317,7 @@
 				item: "kubejs:ingot_yellow"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 15.0d
 			y: -0.5d
 		}
 		{
@@ -317,7 +329,7 @@
 				type: "item"
 			}]
 			title: "Crude Blast Furnace"
-			x: 10.5d
+			x: 13.5d
 			y: -0.5d
 		}
 		{
@@ -328,7 +340,7 @@
 				item: "thermal:steel_ingot"
 				type: "item"
 			}]
-			x: 10.5d
+			x: 13.5d
 			y: -2.0d
 		}
 		{
@@ -339,7 +351,7 @@
 				item: "immersiveengineering:blastbrick"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 12.0d
 			y: -2.0d
 		}
 		{
@@ -350,7 +362,7 @@
 				item: "immersiveengineering:coal_coke"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 10.5d
 			y: -2.0d
 		}
 		{
@@ -361,7 +373,7 @@
 				item: "create:deployer"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 15.0d
 			y: -2.0d
 		}
 		{
@@ -372,7 +384,7 @@
 				item: "create:electron_tube"
 				type: "item"
 			}]
-			x: 10.5d
+			x: 13.5d
 			y: -3.5d
 		}
 		{
@@ -383,7 +395,7 @@
 				item: "create:polished_rose_quartz"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 10.5d
 			y: -3.5d
 		}
 		{
@@ -394,8 +406,8 @@
 				item: "create:rose_quartz"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -3.5d
+			x: 10.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["6534A045CE282854"]
@@ -405,8 +417,8 @@
 				item: "kubejs:plate_blueish"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -2.0d
+			x: 7.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["46C0E33966D05CC5"]
@@ -430,8 +442,8 @@
 				item: "thermal:lapis_dust"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -0.5d
+			x: 3.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["32608C15F49CFA8D"]
@@ -467,8 +479,8 @@
 				item: "create:large_water_wheel"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -3.5d
+			x: -1.5d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -482,22 +494,19 @@
 				item: "silentgear:blueprint_paper"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 1.0d
+			x: 4.5d
+			y: -3.5d
 		}
 		{
-			dependencies: [
-				"377886B31A4BEB4D"
-				"34D115B6E61D1234"
-			]
+			dependencies: ["229865236113B955"]
 			id: "48AF2A3A4CB1AC9E"
 			tasks: [{
 				id: "339AA9D420ED2D65"
 				item: "minecraft:redstone"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -3.5d
+			x: 9.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["52CCCBA9EF914842"]
@@ -507,30 +516,28 @@
 				item: "create:encased_fan"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -5.0d
+			x: 1.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["46C0E33966D05CC5"]
-			hide_dependency_lines: true
 			id: "5072F80080915A61"
 			tasks: [{
 				id: "313766F55352525F"
 				item: "create:crushing_wheel"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 1.0d
+			x: -1.5d
+			y: -5.0d
 		}
 		{
-			dependencies: ["5072F80080915A61"]
 			id: "3B0345242B7CEDEE"
 			tasks: [{
 				id: "61B9E1CBA47DCE52"
 				item: "minecraft:sand"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 10.5d
 			y: -0.5d
 		}
 		{
@@ -541,8 +548,8 @@
 				item: "kubejs:dust_blueish"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -0.5d
+			x: 6.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["0EEA4E17F4A5D4EF"]
@@ -552,7 +559,7 @@
 				item: "thermal:sulfur_dust"
 				type: "item"
 			}]
-			x: 10.5d
+			x: 13.5d
 			y: 1.0d
 		}
 		{
@@ -563,8 +570,8 @@
 				item: "minecraft:paper"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 1.0d
+			x: 6.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["030FEFD019AA9EB7"]
@@ -574,28 +581,74 @@
 				item: "farmersdelight:tree_bark"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 2.5d
+			x: 4.5d
+			y: -6.5d
 		}
 		{
 			id: "030FEFD019AA9EB7"
+			size: 1.25d
 			tasks: [{
 				id: "064566987544E790"
 				item: "farmersdelight:cutting_board"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 2.5d
+			x: 7.5d
+			y: -6.5d
 		}
 		{
+			dependencies: ["377886B31A4BEB4D"]
 			id: "58A784A598AA0347"
 			tasks: [{
 				id: "4EEB7FD2AF69DD44"
 				item: "minecraft:lapis_lazuli"
 				type: "item"
 			}]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"5072F80080915A61"
+				"377886B31A4BEB4D"
+			]
+			id: "229865236113B955"
+			tasks: [{
+				id: "13B7F43603A209F9"
+				item: "create:crushed_raw_iron"
+				type: "item"
+			}]
 			x: 0.0d
-			y: 1.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["13D7656F2F625BB4"]
+			id: "402089F59A0E809E"
+			size: 1.25d
+			tasks: [{
+				id: "6970BC53C1C4F44A"
+				item: {
+					Count: 1
+					id: "silentgear:saw"
+					tag: {
+						Damage: 0
+						SGear_Data: {
+							Construction: { }
+							Properties: { }
+							Rendering: { }
+						}
+						SGear_UUID: [I;
+							-823346821
+							1776567644
+							-1607609021
+							957461907
+						]
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: 3.0d
+			y: -5.0d
 		}
 	]
 	title: "Mechanical Age"

@@ -98,5 +98,6 @@ StartupEvents.registry('item', event => {
     event.create('plate_soilent').texture('kubejs:item/plate_soilent')
     event.create('plate_turquoise').texture('kubejs:item/plate_turquoise')
     event.create('plate_yellow').texture('kubejs:item/plate_yellow')
+    event.create('rod_blueish').texture('kubejs:item/rod_blueish')
     event.create('wood_splinter').texture('kubejs:item/wood_splinter')
 })

@@ -1,0 +1,9 @@
+{
+	"parent": "minecraft:block/orientable",
+	"textures": {
+		"front": "kubejs:block/kinetic_crusher_base",
+		"side": "kubejs:block/multiblock_tier1",
+		"top": "kubejs:block/multiblock_tier1",
+		"bottom": "kubejs:block/multiblock_tier1"
+	}
+}

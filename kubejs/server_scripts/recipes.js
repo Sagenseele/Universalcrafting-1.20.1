@@ -4,6 +4,10 @@ ServerEvents.recipes(event => {
     event.recipes.create.pressing(plate, ingot)
   }
 
+  function defaultRods(rod, ingot) {
+    event.recipes.farmersdelight.cutting(ingot, '#forge:saws', [('2x ' + rod).toString()])
+  }
+
   //material testing kit
   event.shaped(
       Item.of('kubejs:material_testing_kit', 2),
@@ -13,7 +17,7 @@ ServerEvents.recipes(event => {
         'AFA'
       ],
       {
-        A: 'minecraft:iron_ingot',
+        A: '#forge:ingots/iron',
         B: 'minecraft:diorite',
         C: 'minecraft:calcite',
         D: 'minecraft:granite',
@@ -200,17 +204,17 @@ ServerEvents.recipes(event => {
       B: 'mysticalagriculture:nether_quartz_essence'
     }
   )
-
-  // Iron Nugget
-  event.recipes.bloodmagic.altar('minecraft:iron_nugget', 'kubejs:wood_splinter').upgradeLevel(0).altarSyphon(100).consumptionRate(10).drainRate(10)
-
+  
+  // raw Iron
+  event.recipes.bloodmagic.altar('minecraft:raw_iron', 'kubejs:wood_splinter').upgradeLevel(0).altarSyphon(900).consumptionRate(90).drainRate(90)
+  
   // Water Wheel
   event.replaceInput(
     { output: 'create:water_wheel' },
     'create:shaft',
     'create:andesite_casing'
   )
-
+  
   // Crushing Wheel
   event.remove({ id: 'create:mechanical_crafting/crushing_wheel'})
   event.shaped(
@@ -226,8 +230,9 @@ ServerEvents.recipes(event => {
       C: 'create:andesite_casing'
     }
   )
-
+  
   // Lapis Dust
+  event.remove({ id: 'create:milling/lapis_lazuli'})
   event.recipes.create.milling('thermal:lapis_dust', 'minecraft:lapis_lazuli')
   
   // Coke Bricks
@@ -246,7 +251,7 @@ ServerEvents.recipes(event => {
   event.replaceInput(
     { output: 'immersiveengineering:blastbrick' },
     'minecraft:nether_brick',
-    'kubejs:plate_blueish'
+    '#forge:plates/copper'
   )
   
   // Lapis Lazuli
@@ -262,7 +267,7 @@ ServerEvents.recipes(event => {
   });
 
   // Blueish
-  event.recipes.create.milling('thermal:iron_dust', 'minecraft:iron_ingot')
+  event.recipes.create.milling('thermal:iron_dust', '#forge:ingots/iron')
   event.shapeless(
     Item.of('kubejs:dust_blueish', 2),
     [
@@ -272,6 +277,97 @@ ServerEvents.recipes(event => {
   )
   event.smelting('kubejs:ingot_blueish', 'kubejs:dust_blueish')
   defaultPlates('kubejs:plate_blueish', 'kubejs:ingot_blueish')
-
+  event.shapeless(
+    Item.of('kubejs:dust_blueish', 2),
+    [
+      '3x #forge:dusts/iron',
+      '2x thermal:lapis_dust'
+    ]
+  )
+  defaultRods('kubejs:rod_blueish', 'kubejs:ingot_blueish')
   
+  
+  
+  // Sulfur
+  event.recipes.create.milling('thermal:sulfur_dust', 'immersiveengineering:coal_coke')
+
+  // Multiblock Tier 1
+  event.shaped(
+    Item.of('kubejs:frame_tier1', 1),
+    [
+      'A A',
+      ' B ',
+      'A A'
+    ],
+    {
+      A: 'kubejs:rod_blueish',
+      B: '#forge:ingots/iron',
+    }
+  )
+  event.shaped(
+    Item.of('kubejs:multiblock_tier1', 1),
+    [
+      ' B ',
+      'BAB',
+      ' B '
+    ],
+    {
+      A: 'kubejs:frame_tier1',
+      B: 'kubejs:plate_blueish'
+    }
+  )
+  event.shaped(
+    Item.of('mbd2:kinetic_crusher', 1),
+    [
+      'CBC',
+      'BAB',
+      'CBC'
+    ],
+    {
+      A: 'minecraft:comparator',
+      B: 'kubejs:plate_blueish',
+      C: 'kubejs:rod_blueish'
+    }
+  )
+  event.shaped(
+    Item.of('mbd2:kinetic_crusher_block', 1),
+    [
+      'ABA',
+      'BCB',
+      'ABA'
+    ],
+    {
+      A: 'create:andesite_alloy',
+      B: '#minecraft:planks',
+      C: 'create:andesite_casing'
+    }
+  )
+  event.shaped(
+    Item.of('mbd2:item_input_tier1', 1),
+    [
+      ' A ',
+      'ABA',
+      ' A '
+    ],
+    {
+      A: 'minecraft:chest',
+      B: 'kubejs:plate_blueish'
+      
+    }
+  )
+  event.shaped(
+    Item.of('mbd2:item_output_tier1', 1),
+    [
+      ' A ',
+      'ABA',
+      ' A '
+    ],
+    {
+      A: 'minecraft:hopper',
+      B: 'kubejs:plate_blueish'
+    }
+  )
+  
+  
+
 })
