@@ -30,8 +30,8 @@
 				item: "ironfurnaces:gold_furnace"
 				type: "item"
 			}]
-			x: 10.0d
-			y: -11.0d
+			x: 13.0d
+			y: -8.5d
 		}
 		{
 			dependencies: ["501AD43342685328"]
@@ -42,23 +42,11 @@
 				item: "ironfurnaces:diamond_furnace"
 				type: "item"
 			}]
-			x: 11.0d
-			y: -11.5d
+			x: 14.5d
+			y: -8.5d
 		}
 		{
-			dependencies: ["133FDE70D79AB249"]
-			id: "3BAB60684B848EEB"
-			size: 1.0d
-			tasks: [{
-				id: "5166717F76B83FC8"
-				item: "ironfurnaces:crystal_furnace"
-				type: "item"
-			}]
-			x: 13.0d
-			y: -11.5d
-		}
-		{
-			dependencies: ["3BAB60684B848EEB"]
+			dependencies: ["102FA5707FE9DC57"]
 			id: "55B227943360F468"
 			size: 1.0d
 			tasks: [{
@@ -66,8 +54,8 @@
 				item: "ironfurnaces:obsidian_furnace"
 				type: "item"
 			}]
-			x: 14.0d
-			y: -11.0d
+			x: 15.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["55B227943360F468"]
@@ -78,8 +66,8 @@
 				item: "ironfurnaces:netherite_furnace"
 				type: "item"
 			}]
-			x: 14.5d
-			y: -10.0d
+			x: 15.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["0D0A9A9D0A85E339"]
@@ -91,8 +79,8 @@
 				item: "ironfurnaces:augment_generator"
 				type: "item"
 			}]
-			x: 11.5d
-			y: -10.5d
+			x: 12.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["0D0A9A9D0A85E339"]
@@ -104,11 +92,14 @@
 				item: "ironfurnaces:augment_speed"
 				type: "item"
 			}]
-			x: 12.5d
-			y: -10.5d
+			x: 14.5d
+			y: -6.5d
 		}
 		{
-			dependencies: ["0D0A9A9D0A85E339"]
+			dependencies: [
+				"0D0A9A9D0A85E339"
+				"67A12D5AF6607D5A"
+			]
 			id: "25F97006002ADEEC"
 			size: 1.0d
 			tasks: [{
@@ -116,8 +107,8 @@
 				item: "ironfurnaces:augment_factory"
 				type: "item"
 			}]
-			x: 12.0d
-			y: -9.5d
+			x: 13.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["0D0A9A9D0A85E339"]
@@ -129,8 +120,8 @@
 				item: "ironfurnaces:item_heater"
 				type: "item"
 			}]
-			x: 11.0d
-			y: -9.5d
+			x: 13.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["0D0A9A9D0A85E339"]
@@ -142,8 +133,8 @@
 				item: "ironfurnaces:heater"
 				type: "item"
 			}]
-			x: 13.0d
-			y: -9.5d
+			x: 14.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["0DA090A2DBE0219D"]
@@ -154,7 +145,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: -0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["44C595A25BCCD5FB"]
@@ -165,7 +156,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 1.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["2AAC3CA268E67ECA"]
@@ -176,7 +167,7 @@
 				type: "item"
 			}]
 			x: 10.5d
-			y: 1.0d
+			y: 2.5d
 		}
 		{
 			dependencies: [
@@ -191,17 +182,22 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: -2.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["22C5A54B707BB1C0"]
 			id: "1F04586347B94677"
+			rewards: [{
+				id: "1EAF178009AA0180"
+				item: "immersiveengineering:manual"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1FB85B05F5216F35"
 				item: "immersiveengineering:workbench"
 				type: "item"
 			}]
-			x: 10.5d
+			x: 12.0d
 			y: 2.5d
 		}
 		{
@@ -220,8 +216,8 @@
 				item: "ironfurnaces:iron_furnace"
 				type: "item"
 			}]
-			x: 9.5d
-			y: -10.0d
+			x: 11.5d
+			y: -8.0d
 		}
 		{
 			dependencies: [
@@ -296,20 +292,9 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["45D3A3893156DB25"]
-			id: "109099A9933B4917"
-			tasks: [{
-				id: "5326052E3783BD2A"
-				item: "thermal:machine_frame"
-				type: "item"
-			}]
-			x: 19.5d
-			y: -0.5d
-		}
-		{
 			dependencies: [
-				"13A15E20273E673A"
 				"549AC275ACFB5C3A"
+				"20E1FE382D42E846"
 			]
 			id: "2837FA09802BF040"
 			tasks: [{
@@ -318,19 +303,7 @@
 				type: "item"
 			}]
 			x: 15.0d
-			y: -0.5d
-		}
-		{
-			dependencies: ["5519231F5651F67D"]
-			id: "13A15E20273E673A"
-			tasks: [{
-				id: "705A6A26D32E2114"
-				item: "thermal:crude_oil_bucket"
-				type: "item"
-			}]
-			title: "Crude Blast Furnace"
-			x: 13.5d
-			y: -0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["447AE5BD28EF8F92"]
@@ -340,10 +313,11 @@
 				item: "thermal:steel_ingot"
 				type: "item"
 			}]
-			x: 13.5d
+			x: 12.0d
 			y: -2.0d
 		}
 		{
+			dependencies: ["0DA090A2DBE0219D"]
 			id: "447AE5BD28EF8F92"
 			tasks: [{
 				count: 27L
@@ -351,7 +325,7 @@
 				item: "immersiveengineering:blastbrick"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 10.5d
 			y: -2.0d
 		}
 		{
@@ -362,8 +336,8 @@
 				item: "immersiveengineering:coal_coke"
 				type: "item"
 			}]
-			x: 10.5d
-			y: -2.0d
+			x: 12.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["15D08F47009082A6"]
@@ -537,8 +511,8 @@
 				item: "minecraft:sand"
 				type: "item"
 			}]
-			x: 10.5d
-			y: -0.5d
+			x: 9.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["1BDFCCB96107FA42"]
@@ -649,6 +623,39 @@
 			}]
 			x: 3.0d
 			y: -5.0d
+		}
+		{
+			id: "109099A9933B4917"
+			tasks: [{
+				id: "5326052E3783BD2A"
+				item: "thermal:machine_frame"
+				type: "item"
+			}]
+			x: 20.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5519231F5651F67D"]
+			id: "20E1FE382D42E846"
+			size: 1.25d
+			tasks: [{
+				id: "01599F2704B6B882"
+				item: "mbd2:blast_furnace"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["133FDE70D79AB249"]
+			id: "102FA5707FE9DC57"
+			tasks: [{
+				id: "79DDA1F4F5044A33"
+				item: "ironfurnaces:emerald_furnace"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -7.5d
 		}
 	]
 	title: "Mechanical Age"

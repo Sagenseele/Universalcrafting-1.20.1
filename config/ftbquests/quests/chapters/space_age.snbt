@@ -8,6 +8,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["6A2EA65302EB583B"]
 			id: "2A7D7AF0FA54A8B0"
 			tasks: [{
 				id: "5E28971CFDC14F69"
@@ -30,7 +31,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: -3.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["1F0FDA98F543C26F"]
@@ -45,7 +46,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: -4.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["2B56D1050F78FA4D"]
@@ -60,7 +61,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: -6.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["0AC598705D877D4C"]
@@ -75,17 +76,28 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: -5.0d
+			y: -8.0d
 		}
 		{
+			dependencies: ["1F0FDA98F543C26F"]
 			id: "5B3B743084BC7402"
 			tasks: [{
 				id: "4A13BFEE2CADED02"
 				item: "mekanism:advanced_control_circuit"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -7.0d
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			id: "6A2EA65302EB583B"
+			tasks: [{
+				id: "2458B67EC5752783"
+				item: "pneumaticcraft:printed_circuit_board"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
 		}
 	]
 	title: "Space Age"

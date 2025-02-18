@@ -15,7 +15,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: 3.0d
+			y: 2.5d
 		}
 		{
 			id: "60A7BAA320FA674F"
@@ -24,18 +24,19 @@
 				item: "mekanism:basic_control_circuit"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 1.5d
+			x: -3.0d
+			y: 1.0d
 		}
 		{
+			dependencies: ["12A99979D250B545"]
 			id: "5FA179FF61AF8C87"
 			tasks: [{
 				id: "23F6219B6CB8740F"
 				item: "enderio:grains_of_infinity"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 4.5d
+			x: 4.5d
+			y: 0.5d
 		}
 		{
 			id: "2468A11BD78A5360"
@@ -46,6 +47,156 @@
 			}]
 			x: -6.0d
 			y: 4.5d
+		}
+		{
+			dependencies: ["3CFC37AD3571F1CE"]
+			id: "2F7DDCAC3F2A55DD"
+			tasks: [{
+				id: "7B3B37A19DAED3C6"
+				item: "pneumaticcraft:plastic"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 6.0d
+		}
+		{
+			id: "3A84B5396B1ABBC4"
+			tasks: [{
+				id: "2974AA92F0D1F224"
+				item: "ae2:charged_certus_quartz_crystal"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"1AD3741D52499E74"
+				"1CAB5B9C28A47B11"
+			]
+			icon: "pneumaticcraft:refinery"
+			id: "3CFC37AD3571F1CE"
+			tasks: [
+				{
+					id: "456E7CBC25D0D3D4"
+					item: "pneumaticcraft:refinery"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "0B6DACCAC3FE9D8E"
+					item: { Count: 3, id: "pneumaticcraft:refinery_output" }
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["707BA82B3A2B71E7"]
+			id: "023CE2C1F0F95C44"
+			tasks: [{
+				id: "17ED6A1D2D8DBE48"
+				item: "pneumaticcraft:printed_circuit_board"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0EC4C2BCB4C3AE5E"]
+			id: "707BA82B3A2B71E7"
+			tasks: [{
+				id: "434EB341D2605F7E"
+				item: "pneumaticcraft:etching_acid_bucket"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["69A74F0A393C039D"]
+			id: "0EC4C2BCB4C3AE5E"
+			tasks: [{
+				id: "7C8E2226E58F28F5"
+				item: "pneumaticcraft:etching_tank"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2F7DDCAC3F2A55DD"]
+			id: "6B5E0A7B4F3AA92A"
+			tasks: [{
+				id: "03DD23B16F1FC5E1"
+				item: "pneumaticcraft:empty_pcb"
+				match_nbt: false
+				type: "item"
+			}]
+			x: 8.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6B5E0A7B4F3AA92A"]
+			id: "69A74F0A393C039D"
+			tasks: [{
+				id: "3690396C0A484EA7"
+				item: "pneumaticcraft:unassembled_pcb"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["16DB6B9DBC62542C"]
+			id: "1AD3741D52499E74"
+			tasks: [{
+				id: "1EAABF9BC43F2C43"
+				item: "pneumaticcraft:ingot_iron_compressed"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			id: "16DB6B9DBC62542C"
+			tasks: [{
+				id: "1BCEE8ED78C3381A"
+				item: "minecraft:tnt"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			id: "12A99979D250B545"
+			tasks: [{
+				id: "6F61214821954061"
+				item: "thermal:machine_centrifuge"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			id: "1CAB5B9C28A47B11"
+			tasks: [{
+				id: "3FED8F90CE82BB54"
+				item: "thermal:crude_oil_bucket"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			id: "2370067396F6E8A5"
+			tasks: [{
+				id: "1C00B93238895DCD"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 8.0d
 		}
 	]
 	title: "Electrical Age"

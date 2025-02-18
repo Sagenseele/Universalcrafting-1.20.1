@@ -40,15 +40,15 @@
 		}
 		{
 			dependencies: ["45346209AF744497"]
-			description: ["Sneak right click with dirt essence on an overgrown wood log."]
+			description: ["Right click with a pickaxe on an overgrown wood log to receive stone essence."]
 			id: "4FA8C9D3999330D8"
 			tasks: [{
 				id: "270F90A1EF2DC28D"
 				item: "mysticalagriculture:stone_essence"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -0.5d
+			x: 0.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["183FD7820BAED84B"]
@@ -74,15 +74,18 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["7A1C76596F111A92"]
+			dependencies: [
+				"7A1C76596F111A92"
+				"6F1284BEAE967BB1"
+			]
 			id: "323077AA82CAADE2"
 			tasks: [{
 				id: "22CDD5AD3267DFB7"
-				item: "minecraft:iron_nugget"
+				item: "minecraft:raw_iron"
 				type: "item"
 			}]
 			x: 6.5d
-			y: -0.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["04C04D6FBB67AAC3"]
@@ -100,7 +103,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: 0.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["257C857B20905C1A"]
@@ -111,8 +114,8 @@
 				item: "mysticalagriculture:nether_quartz_essence"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -0.5d
+			x: 4.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -137,7 +140,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 0.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["7735286F9FF3CDFF"]
@@ -148,7 +151,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["18FC621109276DA1"]
@@ -162,8 +165,20 @@
 				}
 				type: "item"
 			}]
-			x: 4.5d
-			y: -1.0d
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["45346209AF744497"]
+			description: ["Right click with an axe on an overgrown wood log to receive wood splinters."]
+			id: "6F1284BEAE967BB1"
+			tasks: [{
+				id: "16A0023470AA9853"
+				item: "kubejs:wood_splinter"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.5d
 		}
 	]
 	title: "Stone Age"

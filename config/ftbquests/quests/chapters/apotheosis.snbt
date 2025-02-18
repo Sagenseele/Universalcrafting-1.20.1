@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: "hexagon"
 	filename: "apotheosis"
-	group: "007FE974211D2B02"
+	group: "0F98F552A8423A4B"
 	icon: "apotheosis:gem_dust"
 	id: "4AD64A743FBC0F19"
-	order_index: 1
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{

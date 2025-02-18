@@ -6,15 +6,27 @@
 	id: "1101A818A111E8D1"
 	order_index: 4
 	quest_links: [ ]
-	quests: [{
-		id: "48147B2375650CBD"
-		tasks: [{
-			id: "46D1CD832327E0AC"
-			item: "mekanism:elite_control_circuit"
-			type: "item"
-		}]
-		x: -1.5d
-		y: -2.0d
-	}]
+	quests: [
+		{
+			id: "48147B2375650CBD"
+			tasks: [{
+				id: "46D1CD832327E0AC"
+				item: "mekanism:elite_control_circuit"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			id: "0BBB5C97378221B7"
+			tasks: [{
+				id: "6C481F3EDA60B914"
+				item: "powah:energizing_orb"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+	]
 	title: "Computing Age"
 }

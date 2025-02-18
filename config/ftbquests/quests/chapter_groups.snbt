@@ -2,7 +2,6 @@
 	chapter_groups: [
 		{ id: "0D67931F734E7CE2", title: "Ages" }
 		{ id: "007FE974211D2B02", title: "Magic Maniacs" }
-		{ id: "7B98754C604F2AD1", title: "Mid Game" }
 		{ id: "0F98F552A8423A4B", title: "Gear" }
 		{ id: "688DEA0D1A32C680", title: "Misc" }
 	]
