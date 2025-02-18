@@ -1,0 +1,9 @@
+{
+	"parent": "minecraft:block/orientable",
+	"textures": {
+		"side": "kubejs:block/overgrown_wood_log_side",
+		"front": "kubejs:block/overgrown_wood_log_side",
+		"top": "kubejs:block/overgrown_wood_log_top",
+		"bottom": "kubejs:block/overgrown_wood_log_bottom"
+	}
+}
