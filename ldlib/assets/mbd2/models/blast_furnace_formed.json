@@ -1,0 +1,9 @@
+{
+	"parent": "minecraft:block/orientable",
+	"textures": {
+		"front": "kubejs:block/blast_furnace_formed",
+		"side": "kubejs:block/multiblock_tier1",
+		"top": "kubejs:block/multiblock_tier1",
+		"bottom": "kubejs:block/multiblock_tier1"
+	}
+}

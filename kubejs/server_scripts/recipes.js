@@ -289,7 +289,7 @@ ServerEvents.recipes(event => {
   
   
   // Sulfur
-  event.recipes.create.milling('thermal:sulfur_dust', 'immersiveengineering:coal_coke')
+  event.recipes.create.milling('thermal:sulfur_dust', '#forge:coal_coke')
 
   // Multiblock Tier 1
   event.shaped(
@@ -325,6 +325,19 @@ ServerEvents.recipes(event => {
     ],
     {
       A: 'minecraft:comparator',
+      B: 'kubejs:plate_blueish',
+      C: 'kubejs:rod_blueish'
+    }
+  )
+  event.shaped(
+    Item.of('mbd2:blast_furnace', 1),
+    [
+      'CBC',
+      'BAB',
+      'CBC'
+    ],
+    {
+      A: 'kubejs:multiblock_tier1',
       B: 'kubejs:plate_blueish',
       C: 'kubejs:rod_blueish'
     }
