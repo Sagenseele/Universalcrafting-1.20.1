@@ -19,6 +19,7 @@
 		}
 		{
 			dependencies: ["56C84876741D3672"]
+			description: ["Right click with an empty hand on dirt to get dirt essence."]
 			id: "3BACAF9E71A3524F"
 			tasks: [{
 				id: "4007C87E2977EC8E"
