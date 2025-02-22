@@ -3,7 +3,7 @@
 	default_quest_shape: ""
 	filename: "blood_magic"
 	group: "007FE974211D2B02"
-	hide_quest_until_deps_complete: true
+	hide_quest_until_deps_visible: true
 	icon: "bloodmagic:altar"
 	id: "08E37D7FA1E4B27B"
 	images: [
@@ -93,9 +93,12 @@
 	quests: [
 		{
 			dependencies: ["7A1C76596F111A92"]
+			hide_until_deps_complete: true
+			icon: "bloodmagic:altar"
 			id: "1F4A0441461B7D12"
 			tasks: [{
-				id: "36B21D181291D645"
+				disable_toast: true
+				id: "4C8631DFF9BAEDB0"
 				item: "bloodmagic:altar"
 				type: "item"
 			}]
@@ -110,8 +113,8 @@
 				item: "bloodmagic:weakbloodorb"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -2.0d
+			x: -2.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["31D5DDBCBDCB40A3"]
@@ -121,8 +124,8 @@
 				item: "bloodmagic:apprenticebloodorb"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -3.0d
+			x: -2.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["6BD371363843E3E2"]
@@ -132,8 +135,8 @@
 				item: "bloodmagic:magicianbloodorb"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -4.0d
+			x: -2.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["558DB32EF30ACD1B"]
@@ -143,8 +146,8 @@
 				item: "bloodmagic:masterbloodorb"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -5.0d
+			x: -2.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["3D73F2015B1E8127"]
@@ -154,8 +157,8 @@
 				item: "bloodmagic:archmagebloodorb"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -6.0d
+			x: -2.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["1F4A0441461B7D12"]
@@ -171,7 +174,7 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
+			x: -2.0d
 			y: 0.0d
 		}
 		{
@@ -188,7 +191,7 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
+			x: -2.0d
 			y: 1.0d
 		}
 		{
@@ -205,7 +208,7 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
+			x: -2.0d
 			y: 2.0d
 		}
 		{
@@ -222,7 +225,7 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
+			x: -2.0d
 			y: 3.0d
 		}
 		{
@@ -315,6 +318,29 @@
 			title: "Tier V"
 			x: 7.5d
 			y: 2.0d
+		}
+		{
+			dependencies: ["31D5DDBCBDCB40A3"]
+			id: "72898EE4AC216E24"
+			tasks: [{
+				id: "59E8BEFA0581FA2C"
+				item: "bloodmagic:lavacrystal"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1F4A0441461B7D12"]
+			id: "60DCBB63059F232A"
+			size: 0.8d
+			tasks: [{
+				id: "3CFF6E2663657DE4"
+				item: "kubejs:nutrient_bar"
+				type: "item"
+			}]
+			x: 3.2d
+			y: 0.0d
 		}
 	]
 	title: "Blood Magic"

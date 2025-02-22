@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "electrical_age"
 	group: "0D67931F734E7CE2"
+	icon: "pneumaticcraft:printed_circuit_board"
 	id: "0B9F2D4F657A0F4C"
 	order_index: 2
 	quest_links: [ ]
@@ -24,8 +25,8 @@
 				item: "mekanism:basic_control_circuit"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 1.0d
+			x: -1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["12A99979D250B545"]
@@ -45,7 +46,7 @@
 				item: "thermal:machine_frame"
 				type: "item"
 			}]
-			x: -6.0d
+			x: 0.5d
 			y: 4.5d
 		}
 		{
@@ -170,6 +171,7 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["2468A11BD78A5360"]
 			id: "12A99979D250B545"
 			tasks: [{
 				id: "6F61214821954061"

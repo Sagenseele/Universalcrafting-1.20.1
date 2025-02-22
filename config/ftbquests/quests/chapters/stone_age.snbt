@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "stone_age"
 	group: "0D67931F734E7CE2"
+	icon: "create:andesite_casing"
 	id: "6A5DFF6BBA352A64"
 	order_index: 0
 	quest_links: [ ]
