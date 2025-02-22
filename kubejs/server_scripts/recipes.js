@@ -206,7 +206,7 @@ ServerEvents.recipes(event => {
   )
   
   // raw Iron
-  event.recipes.bloodmagic.altar('minecraft:raw_iron', 'kubejs:wood_splinter').upgradeLevel(0).altarSyphon(900).consumptionRate(90).drainRate(90)
+  event.recipes.bloodmagic.altar('minecraft:raw_iron', 'kubejs:wood_splinter').upgradeLevel(0).altarSyphon(400).consumptionRate(40).drainRate(40)
   
   // Water Wheel
   event.replaceInput(
@@ -261,9 +261,10 @@ ServerEvents.recipes(event => {
         { item: 'minecraft:flint' }
     ],
     results: [
-        { item: 'minecraft:lapis_lazuli', chance: 0.8 } // 100% chance
+        { item: 'minecraft:iron_nugget', chance: 0.6 },
+        { item: 'minecraft:lapis_lazuli', chance: 0.4 } 
     ],
-    id: 'custom:splashing/gravel'
+    id: 'custom:splashing/flint'
   });
 
   // Blueish
@@ -271,20 +272,15 @@ ServerEvents.recipes(event => {
   event.shapeless(
     Item.of('kubejs:dust_blueish', 2),
     [
-      '3x #forge:dusts/iron',
-      '2x thermal:lapis_dust'
+      '3x thermal:lapis_dust',
+      '2x #forge:dusts/iron'
     ]
   )
   event.smelting('kubejs:ingot_blueish', 'kubejs:dust_blueish')
   defaultPlates('kubejs:plate_blueish', 'kubejs:ingot_blueish')
-  event.shapeless(
-    Item.of('kubejs:dust_blueish', 2),
-    [
-      '3x #forge:dusts/iron',
-      '2x thermal:lapis_dust'
-    ]
-  )
   defaultRods('kubejs:rod_blueish', 'kubejs:ingot_blueish')
+  defaultPlates('kubejs:plate_yellow', 'kubejs:ingot_yellow')
+  defaultRods('kubejs:rod_yellow', 'kubejs:ingot_yellow')
   
   
   
@@ -363,8 +359,8 @@ ServerEvents.recipes(event => {
       ' A '
     ],
     {
-      A: 'minecraft:chest',
-      B: 'kubejs:plate_blueish'
+      A: 'kubejs:plate_blueish',
+      B: 'minecraft:chest'
       
     }
   )
@@ -376,11 +372,129 @@ ServerEvents.recipes(event => {
       ' A '
     ],
     {
-      A: 'minecraft:hopper',
-      B: 'kubejs:plate_blueish'
+      A: 'kubejs:plate_blueish',
+      B: 'minecraft:hopper'
+    }
+  )
+
+  // Multiblock Tier 2
+  event.shaped(
+    Item.of('kubejs:frame_tier2', 1),
+    [
+      'A A',
+      ' B ',
+      'A A'
+    ],
+    {
+      A: 'kubejs:rod_yellow',
+      B: 'kubejs:ingot_blueish',
+    }
+  )
+  event.shaped(
+    Item.of('kubejs:multiblock_tier2', 1),
+    [
+      ' B ',
+      'BAB',
+      ' B '
+    ],
+    {
+      A: 'kubejs:frame_tier2',
+      B: 'kubejs:plate_yellow'
+    }
+  )
+  event.shaped(
+    Item.of('mbd2:washing_facility', 1),
+    [
+      'CBC',
+      'BAB',
+      'CBC'
+    ],
+    {
+      A: 'thermal:machine_frame',
+      B: 'kubejs:plate_yellow',
+      C: 'kubejs:rod_yellow'
+    }
+  )
+  event.shaped(
+    Item.of('mbd2:item_input_tier2', 1),
+    [
+      ' A ',
+      'ABA',
+      ' A '
+    ],
+    {
+      A: 'kubejs:plate_yellow',
+      B: 'minecraft:chest'
+      
+    }
+  )
+  event.shaped(
+    Item.of('mbd2:item_output_tier2', 1),
+    [
+      ' A ',
+      'ABA',
+      ' A '
+    ],
+    {
+      A: 'kubejs:plate_yellow',
+      B: 'minecraft:hopper'
     }
   )
   
-  
+  // motorized frame
 
+  event.shaped(
+    Item.of('kubejs:stator', 1),
+    [
+      'AAA',
+      'ABA',
+      ' A '
+    ],
+    {
+      A: 'kubejs:plate_blueish',
+      B: 'minecraft:hopper'
+    }
+  )
+
+  event.shaped(
+    Item.of('kubejs:rotor', 1),
+    [
+      ' A ',
+      'ABA',
+      'AAA'
+    ],
+    {
+      A: 'kubejs:plate_blueish',
+      B: 'minecraft:hopper'
+    }
+  )
+
+  event.shaped(
+    Item.of('kubejs:electric_motor', 1),
+    [
+      ' A ',
+      'ABA',
+      ' A '
+    ],
+    {
+      A: 'kubejs:plate_blueish',
+      B: 'minecraft:hopper'
+    }
+  )
+  // Brass F/Tunnel instead of Andesite F/Tunnel
+  event.replaceInput(
+    { output: 'create:brass_funnel' },
+    ['create:brass_ingot',
+    'create:electron_tube'],
+    'create:andesite_alloy'
+  )
+  
+  event.replaceInput(
+    { output: 'create:brass_tunnel' },
+    ['create:brass_ingot',
+    'create:electron_tube'],
+    'create:andesite_alloy'
+  )
+
+  
 })
