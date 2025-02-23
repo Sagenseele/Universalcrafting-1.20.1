@@ -219,6 +219,12 @@
 			]
 			icon: "mbd2:kinetic_crusher"
 			id: "34D115B6E61D1234"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6D11EFE318AD1059"
+				table_id: 2636020884739909304L
+				type: "random"
+			}]
 			size: 1.25d
 			tasks: [
 				{
@@ -251,7 +257,7 @@
 			id: "45D3A3893156DB25"
 			tasks: [{
 				id: "33B80171BDA6978D"
-				item: "kubejs:gateitem_tier1"
+				item: "kubejs:electric_motor"
 				type: "item"
 			}]
 			x: 18.0d
@@ -620,6 +626,13 @@
 		{
 			dependencies: ["45D3A3893156DB25"]
 			id: "109099A9933B4917"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "76C9241378E6DD2F"
+				table_id: 6410953887526331428L
+				type: "random"
+			}]
+			size: 1.25d
 			tasks: [{
 				id: "5326052E3783BD2A"
 				item: "thermal:machine_frame"
@@ -631,6 +644,12 @@
 		{
 			dependencies: ["5519231F5651F67D"]
 			id: "20E1FE382D42E846"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "25E2BBE775249E84"
+				table_id: 6410953887526331428L
+				type: "random"
+			}]
 			size: 1.25d
 			tasks: [{
 				id: "01599F2704B6B882"

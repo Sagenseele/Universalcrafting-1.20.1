@@ -55,6 +55,12 @@
 		{
 			dependencies: ["183FD7820BAED84B"]
 			id: "32608C15F49CFA8D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "05B638CD817DB870"
+				table_id: 2636020884739909304L
+				type: "random"
+			}]
 			size: 1.25d
 			tasks: [{
 				id: "251F80FDC2C54A31"

@@ -496,13 +496,14 @@ ServerEvents.recipes(event => {
     Item.of('kubejs:electric_motor', 1),
     [
       'CAC',
-      'CCC',
+      'CDC',
       'CBC'
     ],
     {
       A: 'kubejs:stator',
       B: 'kubejs:rotor',
-      C: '#forge:plates/iron'
+      C: '#forge:plates/iron',
+      D: 'create:precision_mechanism'
     }
   )
   // Brass F/Tunnel instead of Andesite F/Tunnel
