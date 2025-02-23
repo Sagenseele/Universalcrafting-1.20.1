@@ -29,6 +29,8 @@
 				"- FTB Quest Book"
 				"- FTB Excavate"
 				"- Open Wireless Crafting Terminal"
+				"- Open Travellers' Backpack"
+				"- Open Sophisticated Backpack"
 			]
 			icon: "modularrouters:bulk_item_filter"
 			id: "7C182CD4F4A2A007"

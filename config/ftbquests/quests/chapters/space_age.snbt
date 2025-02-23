@@ -19,7 +19,10 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["2A7D7AF0FA54A8B0"]
+			dependencies: [
+				"2A7D7AF0FA54A8B0"
+				"28AF4E7DE38DCC3C"
+			]
 			id: "1F0FDA98F543C26F"
 			tasks: [{
 				id: "797E45823D334288"
@@ -98,6 +101,26 @@
 			}]
 			x: -0.5d
 			y: 0.0d
+		}
+		{
+			dependencies: ["6A2EA65302EB583B"]
+			id: "28AF4E7DE38DCC3C"
+			tasks: [{
+				id: "54FD1DBB87C60D86"
+				item: {
+					Count: 1
+					id: "minecraft:firework_rocket"
+					tag: {
+						Fireworks: {
+							Flight: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Rocket Part Production"
+			x: -1.5d
+			y: -2.0d
 		}
 	]
 	title: "Space Age"

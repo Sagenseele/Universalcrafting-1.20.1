@@ -1,16 +1,16 @@
 {
   "__comment": "Instructions: https://blakesmods.com/docs/cucumber/tags-config",
-  "forge:ingots/aluminum": "nuclearcraft:aluminum_ingot",
-  "forge:ingots/tungsten": "nuclearcraft:tungsten_ingot",
+  "forge:ingots/aluminum": "immersiveengineering:ingot_aluminum",
+  "forge:ingots/tungsten": "null",
   "forge:ingots/mithril": "null",
-  "forge:ingots/iridium": "nuclearcraft:iridium_ingot",
+  "forge:ingots/iridium": "null",
   "forge:dusts/niter": "thermal:niter_dust",
   "forge:ingots/chrome": "null",
   "forge:silicon": "refinedstorage:silicon",
   "forge:dusts/saltpeter": "bloodmagic:saltpeter",
-  "forge:ingots/titanium": "nuclearcraft:titanium_ingot",
+  "forge:ingots/titanium": "null",
   "forge:rubber": "null",
-  "forge:ingots/platinum": "nuclearcraft:platinum_ingot",
+  "forge:ingots/platinum": "null",
   "forge:ingots/graphite": "bigreactors:graphite_ingot",
   "forge:gems/peridot": "null"
 }
