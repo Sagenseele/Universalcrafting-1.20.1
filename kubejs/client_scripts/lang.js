@@ -8,5 +8,6 @@ ClientEvents.lang('en_us', event => {
     event.add('block.mbd2.item_input_tier2', 'Item Input Tier 2')
     event.add('block.mbd2.item_output_tier2', 'Item Output Tier 2')
     event.add('block.mbd2.fluid_input_tier2', 'Fluid Input Tier 2')
+    event.add('block.mbd2.cobblestone_generator_tier1', 'Cobblestone Generator Tier 1')
 })
 

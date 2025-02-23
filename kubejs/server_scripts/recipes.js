@@ -376,6 +376,18 @@ ServerEvents.recipes(event => {
       B: 'minecraft:hopper'
     }
   )
+  event.shaped(
+    Item.of('kubejs:coil_tier1', 1),
+    [
+      'AAA',
+      'ABA',
+      'AAA'
+    ],
+    {
+      A: '#forge:wires/copper',
+      B: '#forge:storage_blocks/copper'
+    }
+  )
 
   // Multiblock Tier 2
   event.shaped(
@@ -440,19 +452,31 @@ ServerEvents.recipes(event => {
       B: 'minecraft:hopper'
     }
   )
+  event.shaped(
+    Item.of('mbd2:fluid_input_tier2', 1),
+    [
+      ' A ',
+      'ABA',
+      ' A '
+    ],
+    {
+      A: 'kubejs:plate_yellow',
+      B: 'minecraft:bucket'
+    }
+  )
   
   // motorized frame
 
   event.shaped(
     Item.of('kubejs:stator', 1),
     [
-      'AAA',
+      'A A',
       'ABA',
-      ' A '
+      'A A'
     ],
     {
       A: 'kubejs:plate_blueish',
-      B: 'minecraft:hopper'
+      B: 'kubejs:coil_tier1'
     }
   )
 
@@ -460,25 +484,25 @@ ServerEvents.recipes(event => {
     Item.of('kubejs:rotor', 1),
     [
       ' A ',
-      'ABA',
-      'AAA'
+      'AAA',
+      ' A '
     ],
     {
-      A: 'kubejs:plate_blueish',
-      B: 'minecraft:hopper'
+      A: 'kubejs:rod_blueish'
     }
   )
 
   event.shaped(
     Item.of('kubejs:electric_motor', 1),
     [
-      ' A ',
-      'ABA',
-      ' A '
+      'CAC',
+      'CCC',
+      'CBC'
     ],
     {
-      A: 'kubejs:plate_blueish',
-      B: 'minecraft:hopper'
+      A: 'kubejs:stator',
+      B: 'kubejs:rotor',
+      C: '#forge:plates/iron'
     }
   )
   // Brass F/Tunnel instead of Andesite F/Tunnel
@@ -496,5 +520,37 @@ ServerEvents.recipes(event => {
     'create:andesite_alloy'
   )
 
+  // NASA Workbench
+  event.replaceInput(
+    { output: 'ad_astra:nasa_workbench' },
+    'minecraft:redstone_torch',
+    '#forge:plates/copper'
+  )
+  event.replaceInput(
+    { output: 'ad_astra:nasa_workbench' },
+    'minecraft:crafting_table',
+    'pneumaticcraft:printed_circuit_board'
+  )
   
+  // Cobblestone Generator
+  event.shaped(
+    Item.of('mbd2:cobblestone_generator_tier1', 1),
+    [
+      'CCC',
+      'ACB',
+      'CCC'
+    ],
+    {
+      A: 'minecraft:lava_bucket',
+      B: 'minecraft:water_bucket',
+      C: 'minecraft:cobblestone'
+    }
+  )
+
+  // Machine Frame
+  event.replaceInput(
+    { output: 'thermal:machine_frame' },
+    'thermal:tin_gear',
+    'kubejs:electric_motor'
+  )
 })
