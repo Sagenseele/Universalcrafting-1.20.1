@@ -104,4 +104,7 @@ StartupEvents.registry('item', event => {
     event.create('rotor').texture('kubejs:item/rotor')
     event.create('stator').texture('kubejs:item/stator')
     event.create('electric_motor').texture('kubejs:item/electric_motor')
+    event.create('raw_caterich').texture('raw_catericite')
+    event.create('raw_darthium').texture('raw_darthium')
+    event.create('raw_milothium').texture('raw_milothium')
 })

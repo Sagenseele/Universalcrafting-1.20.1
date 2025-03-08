@@ -5,6 +5,74 @@
 	group: "0F98F552A8423A4B"
 	icon: "silentgear:pickaxe_blueprint"
 	id: "390A75D9797D9510"
+	images: [
+		{
+			height: 7.0d
+			image: "minecraft:item/netherite_boots"
+			rotation: 0.0d
+			width: 7.0d
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			height: 8.0d
+			image: "minecraft:item/netherite_chestplate"
+			order: 2
+			rotation: 0.0d
+			width: 8.0d
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			height: 8.0d
+			image: "minecraft:item/netherite_helmet"
+			rotation: 0.0d
+			width: 8.0d
+			x: 2.5d
+			y: -8.0d
+		}
+		{
+			height: 7.0d
+			image: "minecraft:item/netherite_leggings"
+			order: 1
+			rotation: 0.0d
+			width: 7.0d
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			height: 8.0d
+			image: "minecraft:item/netherite_pickaxe"
+			rotation: 0.0d
+			width: 8.0d
+			x: 9.0d
+			y: -5.0d
+		}
+		{
+			height: 7.0d
+			image: "minecraft:item/netherite_sword"
+			rotation: -90.0d
+			width: 7.0d
+			x: -4.5d
+			y: -5.0d
+		}
+		{
+			height: 7.0d
+			image: "minecraft:item/bow"
+			rotation: -90.0d
+			width: 7.0d
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			height: 5.0d
+			image: "projecte:item/rings/iron_band"
+			rotation: 180.0d
+			width: 5.0d
+			x: 9.5d
+			y: 2.5d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -13,31 +81,31 @@
 			icon: "silentgear:pickaxe_blueprint"
 			icon_scale: 1.2d
 			id: "1F11DAC66E331BA7"
-			size: 1.25d
+			size: 1.0d
 			tasks: [{
 				id: "61A358CFCB9BBBA2"
 				item: "silentgear:pickaxe_blueprint"
 				type: "item"
 			}]
 			title: "&3Pickaxe Blueprint&r"
-			x: -1.25d
-			y: 1.25d
+			x: 10.875d
+			y: -6.375d
 		}
 		{
-			dependencies: ["1F11DAC66E331BA7"]
+			dependencies: ["2DD6FBEB1AF9835A"]
 			icon: "silentgear:sword_blueprint"
 			id: "669F000B36F1FE2F"
-			size: 1.25d
+			size: 1.0d
 			tasks: [{
 				id: "305216337407DBD0"
 				item: "silentgear:sword_blueprint"
 				type: "item"
 			}]
-			x: 3.125d
-			y: -1.25d
+			x: -2.0d
+			y: -2.5d
 		}
 		{
-			dependencies: ["669F000B36F1FE2F"]
+			dependencies: ["2DD6FBEB1AF9835A"]
 			icon: "silentgear:machete_blueprint"
 			id: "334D4FCAD9371DBB"
 			tasks: [{
@@ -45,11 +113,11 @@
 				item: "silentgear:machete_blueprint"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -2.0d
+			x: -5.0d
+			y: -3.0d
 		}
 		{
-			dependencies: ["3421A875C1E03482"]
+			dependencies: ["2DD6FBEB1AF9835A"]
 			icon: "silentgear:bow_blueprint"
 			icon_scale: 1.2d
 			id: "3DA65B58F90AF48A"
@@ -58,11 +126,11 @@
 				item: "silentgear:bow_blueprint"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 5.5d
+			x: -6.0d
+			y: 2.5d
 		}
 		{
-			dependencies: ["3421A875C1E03482"]
+			dependencies: ["2DD6FBEB1AF9835A"]
 			icon: "silentgear:crossbow_blueprint"
 			id: "265FCAEB9E918A0B"
 			tasks: [{
@@ -70,24 +138,24 @@
 				item: "silentgear:crossbow_blueprint"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 4.5d
+			x: -3.0d
+			y: 3.5d
 		}
 		{
-			dependencies: ["1F11DAC66E331BA7"]
+			dependencies: ["2DD6FBEB1AF9835A"]
 			icon: "silentgear:slingshot_blueprint"
 			id: "3421A875C1E03482"
-			size: 1.25d
+			size: 1.0d
 			tasks: [{
 				id: "4BC79B5703AB55CC"
 				item: "silentgear:slingshot_blueprint"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 4.0d
+			x: -6.875d
+			y: -0.625d
 		}
 		{
-			dependencies: ["1F11DAC66E331BA7"]
+			dependencies: ["2DD6FBEB1AF9835A"]
 			icon: "silentgear:rod_blueprint"
 			icon_scale: 1.2d
 			id: "5694C88214476FAF"
@@ -97,11 +165,11 @@
 				item: "silentgear:rod_blueprint"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 3.0d
+			x: 9.0d
+			y: -4.5d
 		}
 		{
-			dependencies: ["1F11DAC66E331BA7"]
+			dependencies: ["2DD6FBEB1AF9835A"]
 			icon: "silentgear:tip_blueprint"
 			id: "560DDE07A65221AB"
 			tasks: [{
@@ -109,27 +177,24 @@
 				item: "silentgear:tip_blueprint"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -0.5d
+			x: 7.0d
+			y: -2.5d
 		}
 		{
-			dependencies: [
-				"349D66E97C4AAF8E"
-				"6B45FBC8B0E42D79"
-			]
+			dependencies: ["2DD6FBEB1AF9835A"]
 			icon: "silentgear:paxel_blueprint"
 			id: "73F5F7CE1AF64672"
-			size: 1.25d
+			size: 1.0d
 			tasks: [{
 				id: "507F64A191054554"
 				item: "silentgear:paxel_blueprint"
 				type: "item"
 			}]
-			x: 6.25d
-			y: 1.25d
+			x: 10.0d
+			y: -5.5d
 		}
 		{
-			dependencies: ["669F000B36F1FE2F"]
+			dependencies: ["2DD6FBEB1AF9835A"]
 			icon: "silentgear:katana_blueprint"
 			id: "2B8319861B7457C2"
 			tasks: [{
@@ -137,11 +202,11 @@
 				item: "silentgear:katana_blueprint"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -3.0d
+			x: -4.5d
+			y: -5.0d
 		}
 		{
-			dependencies: ["669F000B36F1FE2F"]
+			dependencies: ["2DD6FBEB1AF9835A"]
 			icon: "silentgear:spear_blueprint"
 			id: "66E022BD5B390F7E"
 			tasks: [{
@@ -149,11 +214,11 @@
 				item: "silentgear:spear_blueprint"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -3.0d
+			x: -7.0d
+			y: -7.5d
 		}
 		{
-			dependencies: ["669F000B36F1FE2F"]
+			dependencies: ["2DD6FBEB1AF9835A"]
 			icon: "silentgear:trident_blueprint"
 			id: "6BF69897FE64B950"
 			tasks: [{
@@ -161,55 +226,52 @@
 				item: "silentgear:trident_blueprint"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -2.0d
+			x: -6.0d
+			y: -6.5d
 		}
 		{
-			dependencies: ["1F11DAC66E331BA7"]
+			dependencies: ["2DD6FBEB1AF9835A"]
 			id: "4D78E9A4C4EA6A57"
 			tasks: [{
 				id: "73B608B44D0683CC"
 				item: "silentgear:shovel_blueprint"
 				type: "item"
 			}]
-			x: 2.5267857142857224d
-			y: 0.2500000000000071d
+			x: 11.5d
+			y: -5.0d
 		}
 		{
-			dependencies: ["1F11DAC66E331BA7"]
+			dependencies: ["2DD6FBEB1AF9835A"]
 			id: "6B45FBC8B0E42D79"
 			tasks: [{
 				id: "6BBDFAF829C4CAAC"
 				item: "silentgear:axe_blueprint"
 				type: "item"
 			}]
-			x: 2.5267857142857224d
-			y: 2.250000000000007d
+			x: 9.5d
+			y: -7.0d
 		}
 		{
-			dependencies: ["1F11DAC66E331BA7"]
+			dependencies: ["2DD6FBEB1AF9835A"]
 			id: "1CF890B728B2959C"
 			tasks: [{
 				id: "437D543270C1CB0B"
 				item: "silentgear:hoe_blueprint"
 				type: "item"
 			}]
-			x: 2.5267857142857224d
-			y: 1.250000000000007d
+			x: 11.5d
+			y: -4.0d
 		}
 		{
-			dependencies: [
-				"4D78E9A4C4EA6A57"
-				"1CF890B728B2959C"
-			]
+			dependencies: ["2DD6FBEB1AF9835A"]
 			id: "349D66E97C4AAF8E"
 			tasks: [{
 				id: "1F287FE7737A4FD4"
 				item: "silentgear:mattock_blueprint"
 				type: "item"
 			}]
-			x: 3.5267857142857224d
-			y: 0.2500000000000071d
+			x: 8.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["2DD6FBEB1AF9835A"]
@@ -219,8 +281,8 @@
 				item: "silentgear:coating_blueprint"
 				type: "item"
 			}]
-			x: -8.0d
-			y: -4.0d
+			x: -2.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["2DD6FBEB1AF9835A"]
@@ -230,8 +292,8 @@
 				item: "silentgear:grip_blueprint"
 				type: "item"
 			}]
-			x: -7.0d
-			y: -4.0d
+			x: 8.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["2DD6FBEB1AF9835A"]
@@ -241,7 +303,7 @@
 				item: "silentgear:binding_blueprint"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -3.5d
 			y: -4.0d
 		}
 		{
@@ -252,8 +314,8 @@
 				item: "silentgear:lining_blueprint"
 				type: "item"
 			}]
-			x: -5.0d
-			y: -4.0d
+			x: 1.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["2DD6FBEB1AF9835A"]
@@ -263,8 +325,8 @@
 				item: "silentgear:cord_blueprint"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -4.0d
+			x: -4.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["2DD6FBEB1AF9835A"]
@@ -274,8 +336,8 @@
 				item: "silentgear:fletching_blueprint"
 				type: "item"
 			}]
-			x: -8.0d
-			y: -3.0d
+			x: -4.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["2DD6FBEB1AF9835A"]
@@ -285,8 +347,8 @@
 				item: "silentgear:hammer_blueprint"
 				type: "item"
 			}]
-			x: -7.0d
-			y: -3.0d
+			x: 6.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["2DD6FBEB1AF9835A"]
@@ -296,8 +358,8 @@
 				item: "silentgear:excavator_blueprint"
 				type: "item"
 			}]
-			x: -6.0d
-			y: -3.0d
+			x: 7.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["2DD6FBEB1AF9835A"]
@@ -307,8 +369,8 @@
 				item: "silentgear:saw_blueprint"
 				type: "item"
 			}]
-			x: -5.0d
-			y: -3.0d
+			x: 7.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["2DD6FBEB1AF9835A"]
@@ -318,8 +380,8 @@
 				item: "silentgear:prospector_hammer_blueprint"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -3.0d
+			x: 6.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["2DD6FBEB1AF9835A"]
@@ -329,8 +391,8 @@
 				item: "silentgear:sickle_blueprint"
 				type: "item"
 			}]
-			x: -8.0d
-			y: -2.0d
+			x: 5.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["2DD6FBEB1AF9835A"]
@@ -340,8 +402,8 @@
 				item: "silentgear:shears_blueprint"
 				type: "item"
 			}]
-			x: -7.0d
-			y: -2.0d
+			x: 5.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["2DD6FBEB1AF9835A"]
@@ -351,8 +413,8 @@
 				item: "silentgear:fishing_rod_blueprint"
 				type: "item"
 			}]
-			x: -6.0d
-			y: -2.0d
+			x: 6.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["2DD6FBEB1AF9835A"]
@@ -362,8 +424,8 @@
 				item: "silentgear:shield_blueprint"
 				type: "item"
 			}]
-			x: -5.0d
-			y: -2.0d
+			x: 3.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["2DD6FBEB1AF9835A"]
@@ -373,8 +435,8 @@
 				item: "silentgear:helmet_blueprint"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -2.0d
+			x: 2.5d
+			y: -9.0d
 		}
 		{
 			dependencies: ["2DD6FBEB1AF9835A"]
@@ -384,8 +446,8 @@
 				item: "silentgear:chestplate_blueprint"
 				type: "item"
 			}]
-			x: -8.0d
-			y: -1.0d
+			x: 1.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["2DD6FBEB1AF9835A"]
@@ -395,8 +457,8 @@
 				item: "silentgear:leggings_blueprint"
 				type: "item"
 			}]
-			x: -7.0d
-			y: -1.0d
+			x: 3.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["2DD6FBEB1AF9835A"]
@@ -406,8 +468,8 @@
 				item: "silentgear:boots_blueprint"
 				type: "item"
 			}]
-			x: -6.0d
-			y: -1.0d
+			x: 1.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["2DD6FBEB1AF9835A"]
@@ -417,8 +479,8 @@
 				item: "silentgear:elytra_blueprint"
 				type: "item"
 			}]
-			x: -5.0d
-			y: -1.0d
+			x: 3.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["2DD6FBEB1AF9835A"]
@@ -428,8 +490,8 @@
 				item: "silentgear:arrow_blueprint"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -1.0d
+			x: -6.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["2DD6FBEB1AF9835A"]
@@ -439,8 +501,8 @@
 				item: "silentgear:ring_blueprint"
 				type: "item"
 			}]
-			x: -8.0d
-			y: 0.0d
+			x: 9.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["2DD6FBEB1AF9835A"]
@@ -450,8 +512,8 @@
 				item: "silentgear:bracelet_blueprint"
 				type: "item"
 			}]
-			x: -7.0d
-			y: 0.0d
+			x: 11.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["13D7656F2F625BB4"]
@@ -462,6 +524,7 @@
 				""
 				"&eYou can convert your tool/armor by placing it in the crafting grid!&r"
 			]
+			hide_dependent_lines: true
 			hide_until_deps_complete: true
 			icon: {
 				Count: 1
@@ -482,13 +545,101 @@
 				}
 				type: "item"
 			}]
-			size: 1.25d
+			size: 1.0d
 			tasks: [{
 				id: "3AEF8CA25E3D8486"
 				type: "checkmark"
 			}]
-			x: -3.125d
-			y: 1.25d
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2DD6FBEB1AF9835A"]
+			id: "23862E3C71129F92"
+			tasks: [{
+				id: "27630A0D6DD75AF0"
+				item: "silentgear:gear_smithing_table"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2DD6FBEB1AF9835A"]
+			id: "07E81F6CCEA7866A"
+			tasks: [{
+				id: "3E375858E69B4BAB"
+				item: "silentgear:material_grader"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["2DD6FBEB1AF9835A"]
+			id: "340611E31BCBA56A"
+			tasks: [{
+				id: "5C28A2ACD408D364"
+				item: "silentgear:salvager"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2DD6FBEB1AF9835A"]
+			id: "523114AB32F57CCF"
+			tasks: [{
+				id: "5138B86C896AEC76"
+				item: "silentgear:starlight_charger"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2DD6FBEB1AF9835A"]
+			id: "196CBA367F65016E"
+			tasks: [{
+				id: "457C81D22D1FEB47"
+				item: "silentgear:recrystallizer"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2DD6FBEB1AF9835A"]
+			id: "098D946DC8BD6623"
+			tasks: [{
+				id: "3F75BB5708769CAB"
+				item: "silentgear:refabricator"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2DD6FBEB1AF9835A"]
+			id: "6E019E1B8F2AC780"
+			tasks: [{
+				id: "1A53245D4D688EBD"
+				item: "silentgear:metal_press"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["2DD6FBEB1AF9835A"]
+			id: "6FF56E4FFF9649F7"
+			tasks: [{
+				id: "6F1033AC66EFC98A"
+				item: "silentgear:metal_alloyer"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -5.5d
 		}
 	]
 	title: "Silent Gear"

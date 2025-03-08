@@ -1,14 +1,5 @@
 {
 	id: "24950707476EE6B8"
-	loot_crate: {
-		color: 16777215
-		drops: {
-			boss: 0
-			monster: 0
-			passive: 0
-		}
-		string_id: "survival"
-	}
 	loot_size: 1
 	order_index: 2
 	rewards: [

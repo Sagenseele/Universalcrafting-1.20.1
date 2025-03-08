@@ -4,8 +4,17 @@
 	filename: "botania"
 	group: "007FE974211D2B02"
 	id: "1B6B09623D483DD3"
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		id: "0AF2FE192BE0715D"
+		tasks: [{
+			id: "591B7875F3CD97D4"
+			item: "botania:apothecary_default"
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
 	title: "Botania"
 }

@@ -93,8 +93,10 @@
 			y: -4.0d
 		}
 		{
+			disable_toast: true
 			id: "6A2EA65302EB583B"
 			tasks: [{
+				disable_toast: true
 				id: "2458B67EC5752783"
 				item: "pneumaticcraft:printed_circuit_board"
 				type: "item"

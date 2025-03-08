@@ -9,24 +9,26 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["2468A11BD78A5360"]
 			id: "67106593CD3CB7BD"
 			tasks: [{
 				id: "1BBB6949F9CBC1A7"
 				item: "mekanism:metallurgic_infuser"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 2.5d
+			x: -1.5d
+			y: 1.0d
 		}
 		{
+			dependencies: ["67106593CD3CB7BD"]
 			id: "60A7BAA320FA674F"
 			tasks: [{
 				id: "28870318AC03879A"
 				item: "mekanism:basic_control_circuit"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 2.0d
+			x: -3.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["12A99979D250B545"]
@@ -36,18 +38,21 @@
 				item: "enderio:grains_of_infinity"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 0.5d
+			x: 2.5d
+			y: 1.5d
 		}
 		{
+			disable_toast: true
 			id: "2468A11BD78A5360"
+			size: 1.25d
 			tasks: [{
+				disable_toast: true
 				id: "510A835CBA044F12"
 				item: "thermal:machine_frame"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 4.5d
+			x: -0.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["3CFC37AD3571F1CE"]
@@ -67,13 +72,15 @@
 				item: "ae2:charged_certus_quartz_crystal"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 6.5d
+			x: -0.5d
+			y: 8.5d
 		}
 		{
 			dependencies: [
-				"1AD3741D52499E74"
 				"1CAB5B9C28A47B11"
+				"63792671998838BB"
+				"74E8AE06038BAAEA"
+				"3F5B2C69D420AE06"
 			]
 			icon: "pneumaticcraft:refinery"
 			id: "3CFC37AD3571F1CE"
@@ -150,14 +157,17 @@
 			y: 5.5d
 		}
 		{
-			dependencies: ["16DB6B9DBC62542C"]
+			dependencies: [
+				"16DB6B9DBC62542C"
+				"2468A11BD78A5360"
+			]
 			id: "1AD3741D52499E74"
 			tasks: [{
 				id: "1EAABF9BC43F2C43"
 				item: "pneumaticcraft:ingot_iron_compressed"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 2.5d
 			y: 4.5d
 		}
 		{
@@ -167,7 +177,7 @@
 				item: "minecraft:tnt"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 2.5d
 			y: 3.0d
 		}
 		{
@@ -178,8 +188,8 @@
 				item: "thermal:machine_centrifuge"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 2.0d
+			x: 1.0d
+			y: 1.5d
 		}
 		{
 			id: "1CAB5B9C28A47B11"
@@ -188,17 +198,199 @@
 				item: "thermal:crude_oil_bucket"
 				type: "item"
 			}]
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			id: "63792671998838BB"
+			tasks: [{
+				id: "44A10AB41ED01B96"
+				item: "immersiveengineering:fermenter"
+				type: "item"
+			}]
 			x: 4.0d
+			y: 7.5d
+		}
+		{
+			id: "74E8AE06038BAAEA"
+			tasks: [{
+				id: "434C052B98FA2739"
+				item: "immersiveengineering:mixer"
+				type: "item"
+			}]
+			x: 2.5d
 			y: 6.0d
 		}
 		{
-			id: "2370067396F6E8A5"
+			dependencies: ["3CFC37AD3571F1CE"]
+			id: "754FF06DAAAEAEAB"
 			tasks: [{
-				id: "1C00B93238895DCD"
-				type: "checkmark"
+				id: "427CCC18B18FD59B"
+				item: "pneumaticcraft:lubricant_bucket"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5FA179FF61AF8C87"]
+			id: "676E966191485644"
+			tasks: [{
+				id: "1F5DE0B7FDC45B65"
+				item: "enderio:void_chassis"
+				type: "item"
 			}]
 			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2468A11BD78A5360"]
+			id: "00963DDA358D49A4"
+			size: 1.25d
+			tasks: [{
+				id: "51BD7D0B103EF31C"
+				item: "mbd2:washing_facility"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5E15F9A81350E9CB"]
+			id: "367F149393CAC18F"
+			tasks: [{
+				id: "7E177A3F3C0779FF"
+				item: "mekanism:raw_osmium"
+				type: "item"
+			}]
+			x: -5.214285714285715d
+			y: 1.767857142857153d
+		}
+		{
+			dependencies: ["5E15F9A81350E9CB"]
+			id: "2C3DF8E532A51A6B"
+			tasks: [{
+				id: "21842FF2CCC0FF05"
+				item: "thermal:raw_tin"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5E15F9A81350E9CB"]
+			id: "294DC02AAE56BBAC"
+			tasks: [{
+				id: "05BA8027313CCF63"
+				item: "thermal:raw_lead"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2468A11BD78A5360"]
+			id: "1445775C649FB704"
+			size: 1.25d
+			tasks: [{
+				id: "7CABEBB3F3401EAC"
+				item: "mbd2:drill_mk_i"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"1445775C649FB704"
+				"00963DDA358D49A4"
+			]
+			id: "5E15F9A81350E9CB"
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"1445775C649FB704"
+				"00963DDA358D49A4"
+			]
+			id: "669D596D3652954F"
+			tasks: [{
+				id: "5FD970D652AC2923"
+				title: "ore2"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"1445775C649FB704"
+				"00963DDA358D49A4"
+			]
+			id: "02DC75C1C6893D8D"
+			tasks: [{
+				id: "5A2276FF1DD40F6E"
+				title: "ore3"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["669D596D3652954F"]
+			id: "14CBB60372F089E9"
+			tasks: [{
+				id: "3FCCF0799B9EAEA3"
+				item: "thermal:raw_nickel"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["669D596D3652954F"]
+			id: "0A389FF75B088A85"
+			tasks: [{
+				id: "11D532A9E4E4274E"
+				item: "immersiveengineering:raw_aluminum"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["02DC75C1C6893D8D"]
+			id: "0E642C33F3417ED5"
+			tasks: [{
+				id: "4557953BEB708710"
+				item: "bigreactors:raw_yellorium"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["02DC75C1C6893D8D"]
+			id: "14077CC11C44F172"
+			tasks: [{
+				id: "10B68A4E3B4CE052"
+				item: "immersiveengineering:raw_uranium"
+				type: "item"
+			}]
+			x: -3.0d
 			y: 8.0d
+		}
+		{
+			dependencies: ["1AD3741D52499E74"]
+			id: "3F5B2C69D420AE06"
+			tasks: [{
+				id: "70BEE4E655AE0F56"
+				item: "pneumaticcraft:air_compressor"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.5d
 		}
 	]
 	title: "Electrical Age"

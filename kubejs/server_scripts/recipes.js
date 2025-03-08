@@ -334,7 +334,7 @@ ServerEvents.recipes(event => {
     ],
     {
       A: 'kubejs:multiblock_tier1',
-      B: 'kubejs:plate_blueish',
+      B: '#forge:ingots/steel',
       C: 'kubejs:rod_blueish'
     }
   )
@@ -548,10 +548,31 @@ ServerEvents.recipes(event => {
     }
   )
 
+  event.shaped(
+    Item.of('mbd2:drill_mk_i', 1),
+    [
+      'CBC',
+      'BAB',
+      'CBC'
+    ],
+    {
+      A: 'thermal:machine_frame',
+      B: 'kubejs:plate_yellow',
+      C: 'kubejs:rod_yellow'
+    }
+  )
+
   // Machine Frame
   event.replaceInput(
     { output: 'thermal:machine_frame' },
     'thermal:tin_gear',
     'kubejs:electric_motor'
+  )
+
+  // metallurgic infuser
+  event.replaceInput(
+    { output: 'mekanism:metallurgic_infuser' },
+    'mekanism:ingot_osmium',
+    'thermal:machine_frame'
   )
 })

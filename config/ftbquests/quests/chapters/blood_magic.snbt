@@ -331,16 +331,17 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["1F4A0441461B7D12"]
-			id: "60DCBB63059F232A"
-			size: 0.8d
+			dependencies: ["72898EE4AC216E24"]
+			icon: "twilightforest:twilight_portal_miniature_structure"
+			id: "37B32C20370A246E"
 			tasks: [{
-				id: "3CFF6E2663657DE4"
-				item: "kubejs:nutrient_bar"
-				type: "item"
+				dimension: "twilightforest:twilight_forest"
+				id: "6CF07397920373E5"
+				type: "dimension"
 			}]
-			x: 3.2d
-			y: 0.0d
+			title: "Twilight Forest"
+			x: -6.0d
+			y: -3.5d
 		}
 	]
 	title: "Blood Magic"

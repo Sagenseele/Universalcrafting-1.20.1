@@ -1,0 +1,124 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "twilight_forest"
+	group: "007FE974211D2B02"
+	icon: "twilightforest:twilight_portal_miniature_structure"
+	id: "566EF0D6B38F2EB0"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "twilightforest:twilight_portal_miniature_structure"
+			id: "50239BC15503E0D2"
+			tasks: [{
+				dimension: "twilightforest:twilight_forest"
+				id: "1A8063919EE737B0"
+				type: "dimension"
+			}]
+			title: "Twilight Forest"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["50239BC15503E0D2"]
+			id: "7C19C07EFE5FDABF"
+			tasks: [{
+				id: "47BBC35D8F141EFC"
+				item: "twilightforest:naga_trophy"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["132AB45B419EB8C1"]
+			id: "65EA554C4225D086"
+			tasks: [{
+				id: "2754EC66FA67B8F5"
+				item: "twilightforest:alpha_yeti_trophy"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["65EA554C4225D086"]
+			id: "57EA06FFF78BF612"
+			tasks: [{
+				id: "6102E790B1904D42"
+				item: "twilightforest:snow_queen_trophy"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5440F2647AF777B3"]
+			id: "6D2585BE6E040580"
+			tasks: [{
+				id: "545D9B8F280E2302"
+				item: "twilightforest:ur_ghast_trophy"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["132AB45B419EB8C1"]
+			id: "27F2EC4AA857E8B4"
+			tasks: [{
+				id: "3394D4AB6B61991E"
+				item: "twilightforest:minoshroom_trophy"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["27F2EC4AA857E8B4"]
+			id: "6744FE33F2CAE996"
+			tasks: [{
+				id: "6DD4ABD6DE1015F8"
+				item: "twilightforest:hydra_trophy"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["50239BC15503E0D2"]
+			id: "3289200DACEE708B"
+			tasks: [{
+				id: "7CE7D3BCE0B898B9"
+				item: "twilightforest:quest_ram_trophy"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7C19C07EFE5FDABF"]
+			id: "132AB45B419EB8C1"
+			tasks: [{
+				id: "6B398600E7B2C212"
+				item: "twilightforest:lich_trophy"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["132AB45B419EB8C1"]
+			id: "5440F2647AF777B3"
+			tasks: [{
+				id: "73FEB06A93854CE1"
+				item: "twilightforest:knight_phantom_trophy"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+	]
+	title: "Twilight Forest"
+}
