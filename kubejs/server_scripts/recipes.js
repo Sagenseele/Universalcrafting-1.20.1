@@ -575,4 +575,26 @@ ServerEvents.recipes(event => {
     'mekanism:ingot_osmium',
     'thermal:machine_frame'
   )
+
+  // processor binding
+  event.replaceInput(
+    { output: 'refinedstorage:processor_binding' },
+    '#bookshelf:slime_balls',
+    'pneumaticcraft:plastic'
+  )
+
+  // charger
+  event.remove({ id: 'ae2:network/blocks/crystal_processing_charger'})
+  event.shaped(
+    Item.of('ae2:charger', 1),
+    [
+      'ABA',
+      'A  ',
+      'ABA'
+    ],
+    {
+      A: 'pneumaticcraft:plastic',
+      B: '#forge:ingots/copper'
+    }
+  )
 })

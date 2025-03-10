@@ -622,9 +622,9 @@
 			id: "109099A9933B4917"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "76C9241378E6DD2F"
+				id: "347DDA7218D4C71B"
 				table_id: 6410953887526331428L
-				type: "random"
+				type: "choice"
 			}]
 			size: 1.25d
 			tasks: [{
