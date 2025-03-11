@@ -495,9 +495,9 @@ ServerEvents.recipes(event => {
   event.shaped(
     Item.of('kubejs:electric_motor', 1),
     [
-      'CAC',
-      'CDC',
-      'CBC'
+      'CCC',
+      'BDA',
+      'CCC'
     ],
     {
       A: 'kubejs:stator',
