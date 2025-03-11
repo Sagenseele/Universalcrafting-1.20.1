@@ -9,8 +9,10 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["37B32C20370A246E"]
 			icon: "twilightforest:twilight_portal_miniature_structure"
 			id: "50239BC15503E0D2"
+			size: 1.25d
 			tasks: [{
 				dimension: "twilightforest:twilight_forest"
 				id: "1A8063919EE737B0"
@@ -50,8 +52,8 @@
 				item: "twilightforest:snow_queen_trophy"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 0.0d
+			x: 6.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["5440F2647AF777B3"]
@@ -62,7 +64,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: -2.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["132AB45B419EB8C1"]
@@ -83,8 +85,8 @@
 				item: "twilightforest:hydra_trophy"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -4.5d
+			x: 6.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["50239BC15503E0D2"]
@@ -116,7 +118,7 @@
 				item: "twilightforest:knight_phantom_trophy"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 5.5d
 			y: -1.5d
 		}
 	]

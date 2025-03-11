@@ -9,6 +9,7 @@
 	quests: [
 		{
 			dependencies: ["749BC795FE9586C5"]
+			hide_until_deps_complete: true
 			id: "0A64D42768523146"
 			tasks: [{
 				id: "1B66AEC9DAEC9990"

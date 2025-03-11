@@ -12,7 +12,7 @@
 			image: "bloodmagic:textures/misc/screenshots/altars/t2.png"
 			rotation: 0.0d
 			width: 3.0d
-			x: 7.5d
+			x: 8.0d
 			y: -4.0d
 		}
 		{
@@ -20,7 +20,7 @@
 			image: "bloodmagic:textures/misc/screenshots/altars/t3.png"
 			rotation: 0.0d
 			width: 3.0d
-			x: 11.0d
+			x: 12.0d
 			y: -2.5d
 		}
 		{
@@ -28,16 +28,16 @@
 			image: "bloodmagic:textures/misc/screenshots/altars/t4.png"
 			rotation: 0.0d
 			width: 3.0d
-			x: 11.0d
-			y: 2.0d
+			x: 12.0d
+			y: 3.0d
 		}
 		{
 			height: 3.0d
 			image: "bloodmagic:textures/misc/screenshots/altars/t5.png"
 			rotation: 0.0d
 			width: 3.0d
-			x: 7.5d
-			y: 3.5d
+			x: 8.0d
+			y: 4.5d
 		}
 		{
 			height: 3.0d
@@ -48,44 +48,84 @@
 			y: -2.5d
 		}
 		{
-			height: 1.0d
-			image: "nuclearcraft:block/redstone_dimmer/1"
+			height: 2.0d
+			image: "kubejs:item/images/bm_i"
 			rotation: 0.0d
-			width: 1.0d
+			width: 2.0d
 			x: 4.0d
-			y: -4.5d
+			y: -5.0d
 		}
 		{
-			height: 1.0d
-			image: "nuclearcraft:block/redstone_dimmer/2"
+			height: 2.0d
+			image: "kubejs:item/images/bm_ii"
 			rotation: 0.0d
-			width: 1.0d
-			x: 7.5d
-			y: -6.0d
+			width: 2.0d
+			x: 8.0d
+			y: -6.5d
 		}
 		{
-			height: 1.0d
-			image: "nuclearcraft:block/redstone_dimmer/3"
+			height: 2.0d
+			image: "kubejs:item/images/bm_iii"
 			rotation: 0.0d
-			width: 1.0d
-			x: 11.0d
-			y: -4.5d
+			width: 2.0d
+			x: 12.0d
+			y: -5.0d
 		}
 		{
-			height: 1.0d
-			image: "nuclearcraft:block/redstone_dimmer/4"
+			height: 2.0d
+			image: "kubejs:item/images/bm_iv"
 			rotation: 0.0d
-			width: 1.0d
-			x: 11.0d
-			y: 4.0d
-		}
-		{
-			height: 1.0d
-			image: "nuclearcraft:block/redstone_dimmer/5"
-			rotation: 0.0d
-			width: 1.0d
-			x: 7.5d
+			width: 2.0d
+			x: 12.0d
 			y: 5.5d
+		}
+		{
+			height: 2.0d
+			image: "kubejs:item/images/bm_v"
+			rotation: 0.0d
+			width: 2.0d
+			x: 8.0d
+			y: 7.0d
+		}
+		{
+			height: 4.0d
+			image: "kubejs:item/images/bm_border"
+			rotation: 0.0d
+			width: 4.0d
+			x: 8.0d
+			y: 4.5d
+		}
+		{
+			height: 4.0d
+			image: "kubejs:item/images/bm_border"
+			rotation: 0.0d
+			width: 4.0d
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			height: 4.0d
+			image: "kubejs:item/images/bm_border"
+			rotation: 0.0d
+			width: 4.0d
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			height: 4.0d
+			image: "kubejs:item/images/bm_border"
+			rotation: 0.0d
+			width: 4.0d
+			x: 8.0d
+			y: -4.0d
+		}
+		{
+			height: 4.0d
+			image: "kubejs:item/images/bm_border"
+			rotation: 0.0d
+			width: 4.0d
+			x: 12.0d
+			y: -2.5d
 		}
 	]
 	order_index: 0
@@ -96,6 +136,17 @@
 			hide_until_deps_complete: true
 			icon: "bloodmagic:altar"
 			id: "1F4A0441461B7D12"
+			rewards: [{
+				id: "628FA525953C3362"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "bloodmagic:guide"
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				disable_toast: true
 				id: "4C8631DFF9BAEDB0"
@@ -103,7 +154,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: -1.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["1F4A0441461B7D12"]
@@ -125,7 +176,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -3.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["6BD371363843E3E2"]
@@ -136,7 +187,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -4.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["558DB32EF30ACD1B"]
@@ -147,7 +198,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -5.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["3D73F2015B1E8127"]
@@ -158,7 +209,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -6.5d
+			y: -8.5d
 		}
 		{
 			dependencies: ["1F4A0441461B7D12"]
@@ -175,7 +226,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 0.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["20B6EC4AEC95DC61"]
@@ -192,7 +243,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 1.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["1EA23C6C9238E8EB"]
@@ -209,7 +260,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 2.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["6DEE16FAE9EBF81D"]
@@ -226,7 +277,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 3.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["1F4A0441461B7D12"]
@@ -238,8 +289,8 @@
 				type: "item"
 			}]
 			title: "Tier II"
-			x: 7.5d
-			y: -2.5d
+			x: 8.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["27D2258AFDF8911B"]
@@ -266,8 +317,8 @@
 				}
 			]
 			title: "Tier III"
-			x: 11.0d
-			y: -1.0d
+			x: 12.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["3386BB1B8E96DDCA"]
@@ -294,8 +345,8 @@
 				}
 			]
 			title: "Tier IV"
-			x: 11.0d
-			y: 0.5d
+			x: 12.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["575CA4B4D57D30B3"]
@@ -316,32 +367,66 @@
 				}
 			]
 			title: "Tier V"
-			x: 7.5d
-			y: 2.0d
+			x: 8.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["31D5DDBCBDCB40A3"]
+			description: [
+				"Acts as a portal activator for the Twilight Forest."
+				""
+				"Place flowers around a water source block and throw the lava crystal inside."
+				""
+				"FFFF"
+				"FWWF"
+				"FWWF"
+				"FFFF"
+			]
 			id: "72898EE4AC216E24"
 			tasks: [{
 				id: "59E8BEFA0581FA2C"
 				item: "bloodmagic:lavacrystal"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -3.0d
+			x: -3.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["72898EE4AC216E24"]
 			icon: "twilightforest:twilight_portal_miniature_structure"
 			id: "37B32C20370A246E"
+			size: 1.25d
+			subtitle: "Unlocks Twilight Forest"
 			tasks: [{
 				dimension: "twilightforest:twilight_forest"
 				id: "6CF07397920373E5"
 				type: "dimension"
 			}]
 			title: "Twilight Forest"
-			x: -6.0d
-			y: -3.5d
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["25A4661A9202AC64"]
+			id: "1DD2F51524730BC2"
+			tasks: [{
+				id: "54CE533F47B83412"
+				item: "bloodmagic:weakbloodshard"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["558DB32EF30ACD1B"]
+			id: "25A4661A9202AC64"
+			tasks: [{
+				id: "5EA28899D234C231"
+				title: "Ritual"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -5.0d
 		}
 	]
 	title: "Blood Magic"

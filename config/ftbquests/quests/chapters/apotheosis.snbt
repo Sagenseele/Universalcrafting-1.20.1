@@ -653,7 +653,7 @@
 			y: 2.5d
 		}
 		{
-			description: ["Let an &eanvil&r fall on a &egem&r to get dust."]
+			description: ["Let an &eanvil&r fall on a &dAptheosis&r &egem&r to get dust."]
 			id: "3DF8E8B1A7AAA0FA"
 			size: 1.5d
 			tasks: [{

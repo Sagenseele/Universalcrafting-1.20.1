@@ -237,8 +237,8 @@
 				item: "enderio:void_chassis"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -1.0d
+			x: 5.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["2468A11BD78A5360"]

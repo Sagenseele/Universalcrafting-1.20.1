@@ -37,7 +37,7 @@
 				item: "minecraft:oak_log"
 				type: "item"
 			}]
-			x: -1.0d
+			x: -1.5d
 			y: 0.5d
 		}
 		{

@@ -436,7 +436,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -2.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["46C0E33966D05CC5"]
@@ -447,7 +447,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: -2.0d
+			y: -3.5d
 		}
 		{
 			dependencies: [
@@ -552,6 +552,7 @@
 			y: -6.5d
 		}
 		{
+			description: ["You can place a hopper above the cutting board to input items automatically."]
 			id: "030FEFD019AA9EB7"
 			size: 1.25d
 			tasks: [{
