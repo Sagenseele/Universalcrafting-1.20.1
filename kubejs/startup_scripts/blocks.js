@@ -56,5 +56,6 @@ StartupEvents.registry('block', event => {
     event.create('multiblock_tier8').textureAll('kubejs:block/multiblock_tier8')
     event.create('multiblock_tier9').textureAll('kubejs:block/multiblock_tier9')
     event.create('overgrown_wood_log')
+    event.create('electrical_machine_casing').textureAll('kubejs:block/electrical_machine_casing')
     event.create('heat_resistant_glass').textureAll('kubejs:block/heat_resistant_glass').defaultCutout()
 })
