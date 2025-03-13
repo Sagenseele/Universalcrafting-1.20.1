@@ -597,4 +597,22 @@ ServerEvents.recipes(event => {
       B: '#forge:ingots/copper'
     }
   )
+
+  //Philosopher's Stone
+  event.remove({ id: 'projecte:philosophers_stone_alt'})
+  event.replaceInput(
+    { output: 'projecte:philosophers_stone' },
+    'minecraft:diamond',
+    'bloodmagic:archmagebloodorb'
+  )
+  event.replaceInput(
+    { output: 'projecte:philosophers_stone' },
+    'minecraft:glowstone_dust',
+    'botania:gaia_ingot'
+  )
+  event.replaceInput(
+    { output: 'projecte:philosophers_stone' },
+    'minecraft:redstone',
+    'twilightforest:carminite'
+  )
 })
