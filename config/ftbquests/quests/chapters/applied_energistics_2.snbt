@@ -8,8 +8,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["749BC795FE9586C5"]
-			hide_until_deps_complete: true
+			dependencies: ["631CA8BFB7E6978B"]
 			id: "0A64D42768523146"
 			tasks: [{
 				id: "1B66AEC9DAEC9990"
@@ -30,6 +29,55 @@
 			x: 0.5d
 			y: -2.0d
 		}
+		{
+			dependencies: ["631CA8BFB7E6978B"]
+			id: "4E7546BA100379F3"
+			tasks: [{
+				id: "2A69083132E27AF8"
+				item: "refinedstorage:processor_binding"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4E7546BA100379F3"]
+			id: "064ED094C54E54A4"
+			tasks: [
+				{
+					count: 2L
+					id: "1FB181815A1D16A6"
+					item: { Count: 2, id: "refinedstorage:basic_processor" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "5C44309305070281"
+					item: { Count: 2, id: "refinedstorage:improved_processor" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "244CF45F6F1E2799"
+					item: { Count: 2, id: "refinedstorage:advanced_processor" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2F7DDCAC3F2A55DD"]
+			hide_until_deps_complete: true
+			id: "631CA8BFB7E6978B"
+			tasks: [{
+				id: "4F552889D925FE30"
+				title: "Applied Energistics 2/Refined Storage"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
 	]
-	title: "Applied Energistics 2"
+	title: "AE2/RS"
 }

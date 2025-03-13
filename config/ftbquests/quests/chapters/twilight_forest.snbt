@@ -5,6 +5,193 @@
 	group: "007FE974211D2B02"
 	icon: "twilightforest:twilight_portal_miniature_structure"
 	id: "566EF0D6B38F2EB0"
+	images: [
+		{
+			height: 1.0d
+			image: "twilightforest:item/naga_scale"
+			rotation: -45.0d
+			width: 1.0d
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "twilightforest:item/naga_scale"
+			rotation: 135.0d
+			width: 1.0d
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "twilightforest:item/naga_scale"
+			rotation: 45.0d
+			width: 1.0d
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "twilightforest:item/naga_scale"
+			rotation: -135.0d
+			width: 1.0d
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "twilightforest:item/lich_shield_fill"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "twilightforest:item/lich_shield_fill"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "twilightforest:item/lich_shield_fill"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "twilightforest:item/lich_shield_fill"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "twilightforest:item/alpha_yeti_fur"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "twilightforest:item/alpha_yeti_fur"
+			rotation: 180.0d
+			width: 1.0d
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "twilightforest:item/alpha_yeti_fur"
+			rotation: 90.0d
+			width: 1.0d
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "twilightforest:item/alpha_yeti_fur"
+			rotation: -90.0d
+			width: 1.0d
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "twilightforest:textures/particle/snow_2.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "twilightforest:textures/particle/snow_2.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "twilightforest:textures/particle/snow_2.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "twilightforest:textures/particle/snow_2.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: 5.5d
+		}
+		{
+			height: 1.0d
+			image: "twilightforest:item/knightmetal_helmet"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "twilightforest:item/knightmetal_ring"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.5d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "twilightforest:item/knightmetal_ring"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.5d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/ghast_tear"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.5d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "twilightforest:item/cooked_meef"
+			rotation: 15.0d
+			width: 1.0d
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/fire_0"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.50892857142859d
+			y: -2.571428571428573d
+		}
+		{
+			height: 0.5d
+			image: "minecraft:block/netherrack"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.5d
+			y: -2.0d
+		}
+	]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
@@ -19,8 +206,8 @@
 				type: "dimension"
 			}]
 			title: "Twilight Forest"
-			x: 0.0d
-			y: 0.0d
+			x: -1.25d
+			y: 0.625d
 		}
 		{
 			dependencies: ["50239BC15503E0D2"]
@@ -30,8 +217,8 @@
 				item: "twilightforest:naga_trophy"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -1.0d
+			x: 1.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["132AB45B419EB8C1"]
@@ -41,8 +228,8 @@
 				item: "twilightforest:alpha_yeti_trophy"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 0.0d
+			x: 6.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["65EA554C4225D086"]
@@ -52,8 +239,8 @@
 				item: "twilightforest:snow_queen_trophy"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 1.0d
+			x: 4.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["5440F2647AF777B3"]
@@ -63,8 +250,8 @@
 				item: "twilightforest:ur_ghast_trophy"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -1.5d
+			x: 11.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["132AB45B419EB8C1"]
@@ -74,8 +261,8 @@
 				item: "twilightforest:minoshroom_trophy"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -3.0d
+			x: 6.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["27F2EC4AA857E8B4"]
@@ -85,8 +272,8 @@
 				item: "twilightforest:hydra_trophy"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -4.0d
+			x: 8.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["50239BC15503E0D2"]
@@ -96,8 +283,8 @@
 				item: "twilightforest:quest_ram_trophy"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 1.0d
+			x: 0.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["7C19C07EFE5FDABF"]
@@ -107,8 +294,8 @@
 				item: "twilightforest:lich_trophy"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -1.5d
+			x: 4.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["132AB45B419EB8C1"]
@@ -118,8 +305,8 @@
 				item: "twilightforest:knight_phantom_trophy"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -1.5d
+			x: 9.0d
+			y: 2.5d
 		}
 	]
 	title: "Twilight Forest"

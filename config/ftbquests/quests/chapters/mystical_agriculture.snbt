@@ -8,55 +8,8 @@
 	images: [
 		{
 			height: 2.0d
-			image: "nuclearcraft:block/redstone_dimmer/1"
-			rotation: 0.0d
-			width: 2.0d
-			x: -6.5d
-			y: -6.0d
-		}
-		{
-			height: 2.0d
-			image: "nuclearcraft:block/redstone_dimmer/2"
-			rotation: 0.0d
-			width: 2.0d
-			x: -6.5d
-			y: -3.5d
-		}
-		{
-			height: 2.0d
-			image: "nuclearcraft:block/redstone_dimmer/3"
-			rotation: 0.0d
-			width: 2.0d
-			x: -6.5d
-			y: -1.0d
-		}
-		{
-			height: 2.0d
-			image: "nuclearcraft:block/redstone_dimmer/4"
-			rotation: 0.0d
-			width: 2.0d
-			x: -6.5d
-			y: 1.5d
-		}
-		{
-			height: 2.0d
-			image: "nuclearcraft:block/redstone_dimmer/5"
-			rotation: 0.0d
-			width: 2.0d
-			x: -6.5d
-			y: 4.0d
-		}
-		{
-			height: 2.0d
-			image: "nuclearcraft:block/redstone_dimmer/6"
-			rotation: 0.0d
-			width: 2.0d
-			x: -6.5d
-			y: 6.5d
-		}
-		{
-			height: 2.0d
-			image: "nuclearcraft:block/redstone_dimmer/1"
+			image: "kubejs:item/images/bm_i"
+			order: 1
 			rotation: 0.0d
 			width: 2.0d
 			x: 18.0d
@@ -64,7 +17,8 @@
 		}
 		{
 			height: 2.0d
-			image: "nuclearcraft:block/redstone_dimmer/2"
+			image: "kubejs:item/images/bm_ii"
+			order: 2
 			rotation: 0.0d
 			width: 2.0d
 			x: 18.0d
@@ -72,7 +26,8 @@
 		}
 		{
 			height: 2.0d
-			image: "nuclearcraft:block/redstone_dimmer/3"
+			image: "kubejs:item/images/bm_iii"
+			order: 3
 			rotation: 0.0d
 			width: 2.0d
 			x: 18.0d
@@ -80,7 +35,8 @@
 		}
 		{
 			height: 2.0d
-			image: "nuclearcraft:block/redstone_dimmer/4"
+			image: "kubejs:item/images/bm_iv"
+			order: 4
 			rotation: 0.0d
 			width: 2.0d
 			x: 18.0d
@@ -88,7 +44,8 @@
 		}
 		{
 			height: 2.0d
-			image: "nuclearcraft:block/redstone_dimmer/5"
+			image: "kubejs:item/images/bm_v"
+			order: 5
 			rotation: 0.0d
 			width: 2.0d
 			x: 18.0d
@@ -96,11 +53,60 @@
 		}
 		{
 			height: 2.0d
-			image: "nuclearcraft:block/redstone_dimmer/6"
+			image: "kubejs:item/images/bm_vi"
+			order: 6
 			rotation: 0.0d
 			width: 2.0d
 			x: 18.0d
 			y: 6.5d
+		}
+		{
+			height: 3.0d
+			image: "farmersdelight:block/acacia_cabinet_top"
+			rotation: 0.0d
+			width: 30.0d
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			height: 3.0d
+			image: "immersiveengineering:block/wooden_decoration/treated_wood_vertical"
+			rotation: 0.0d
+			width: 30.0d
+			x: 6.5d
+			y: -3.5d
+		}
+		{
+			height: 3.0d
+			image: "thermal:block/apple_block_bottom"
+			rotation: 0.0d
+			width: 30.0d
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			height: 3.0d
+			image: "forbidden_arcanus:block/aurum_planks"
+			rotation: 0.0d
+			width: 30.0d
+			x: 6.5d
+			y: 6.5d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/barrel_side"
+			rotation: 0.0d
+			width: 30.0d
+			x: 6.5d
+			y: -6.0d
+		}
+		{
+			height: 3.0d
+			image: "sophisticatedstorage:block/birch_barrel_bottom"
+			rotation: 0.0d
+			width: 30.0d
+			x: 6.5d
+			y: 4.0d
 		}
 	]
 	order_index: 1
@@ -168,47 +174,47 @@
 		}
 		{
 			id: "3044CD3CF06A526B"
-			size: 1.25d
+			size: 1.0d
 			tasks: [{
 				id: "545378AB79B3CB6A"
 				item: "mysticalagriculture:air_seeds"
 				type: "item"
 			}]
-			x: 12.0d
-			y: -5.25d
+			x: 12.414285714285711d
+			y: -5.213690476190479d
 		}
 		{
 			id: "48C7C66602C3776B"
-			size: 1.25d
+			size: 1.0d
 			tasks: [{
 				id: "0094B7A2A4175688"
 				item: "mysticalagriculture:earth_seeds"
 				type: "item"
 			}]
-			x: 10.5d
-			y: -6.0d
+			x: 11.414285714285711d
+			y: -5.713690476190479d
 		}
 		{
 			id: "3E119B5AEAE2D87D"
-			size: 1.25d
+			size: 1.0d
 			tasks: [{
 				id: "4111BAC26E861FC4"
 				item: "mysticalagriculture:water_seeds"
 				type: "item"
 			}]
-			x: 11.25d
-			y: -7.5d
+			x: 11.914285714285711d
+			y: -6.713690476190479d
 		}
 		{
 			id: "2C80D75277BD2B2E"
-			size: 1.25d
+			size: 1.0d
 			tasks: [{
 				id: "6A7087CADB61E5D3"
 				item: "mysticalagriculture:fire_seeds"
 				type: "item"
 			}]
-			x: 12.75d
-			y: -6.75d
+			x: 12.914285714285711d
+			y: -6.213690476190479d
 		}
 		{
 			id: "2A94B9175AC6680B"
