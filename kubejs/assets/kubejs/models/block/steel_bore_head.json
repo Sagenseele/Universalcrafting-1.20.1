@@ -1,0 +1,9 @@
+{
+	"parent": "minecraft:block/orientable",
+	"textures": {
+		"side": "kubejs:block/steel_bore_head_side",
+		"front": "kubejs:block/steel_bore_head_side",
+		"top": "kubejs:block/steel_bore_head_top",
+		"bottom": "kubejs:block/steel_bore_head_bottom"
+	}
+}

@@ -3,18 +3,280 @@
 	default_quest_shape: ""
 	filename: "botania"
 	group: "007FE974211D2B02"
+	icon: "botania:apothecary_default"
 	id: "1B6B09623D483DD3"
 	order_index: 2
 	quest_links: [ ]
-	quests: [{
-		id: "0AF2FE192BE0715D"
-		tasks: [{
-			id: "591B7875F3CD97D4"
-			item: "botania:apothecary_default"
-			type: "item"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			id: "0AF2FE192BE0715D"
+			rewards: [{
+				id: "36BAEF11FCA2F900"
+				item: "botania:lexicon"
+				type: "item"
+			}]
+			tasks: [{
+				id: "591B7875F3CD97D4"
+				item: "botania:apothecary_default"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6EB31D4642BBB1FE"]
+			id: "1C632A2876ED0C18"
+			tasks: [{
+				id: "5CF95F05DE72DE6A"
+				item: "botania:rune_water"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6EB31D4642BBB1FE"]
+			id: "743CF055CD7D442A"
+			tasks: [{
+				id: "419D004C2A637C2E"
+				item: "botania:rune_fire"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6EB31D4642BBB1FE"]
+			id: "6C4F724519FE87DA"
+			tasks: [{
+				id: "4EA275C29AEA6B57"
+				item: "botania:rune_earth"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6EB31D4642BBB1FE"]
+			id: "479E94130A6B0FDC"
+			tasks: [{
+				id: "017284448783E32C"
+				item: "botania:rune_air"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3B422CEE37326317"]
+			id: "6EB31D4642BBB1FE"
+			tasks: [{
+				id: "2D82235A7EE29165"
+				item: "botania:runic_altar"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6EB31D4642BBB1FE"]
+			id: "67CF1F70242D9CDD"
+			tasks: [{
+				id: "0710F5F2E5BD0FC1"
+				item: "botania:rune_spring"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6EB31D4642BBB1FE"]
+			id: "61D55B100FC771DA"
+			tasks: [{
+				id: "69B472201925918A"
+				item: "botania:rune_summer"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6EB31D4642BBB1FE"]
+			id: "26CFCB1970D35858"
+			tasks: [{
+				id: "679C415B33576D0F"
+				item: "botania:rune_autumn"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6EB31D4642BBB1FE"]
+			id: "70DB3891298CAB1E"
+			tasks: [{
+				id: "77802F03D95AB129"
+				item: "botania:rune_winter"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6EB31D4642BBB1FE"]
+			id: "6BBEBE652FE282AC"
+			tasks: [{
+				id: "0BA0F5DF71A2438C"
+				item: "botania:rune_mana"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6EB31D4642BBB1FE"]
+			id: "5C49CACCC6F0F07E"
+			tasks: [{
+				id: "17E5DEEDD6FE2470"
+				item: "botania:rune_lust"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6EB31D4642BBB1FE"]
+			id: "3562602B848CB0C8"
+			tasks: [{
+				id: "09AE4473B16CA898"
+				item: "botania:rune_gluttony"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6EB31D4642BBB1FE"]
+			id: "0A6FD817480EE21F"
+			tasks: [{
+				id: "5FC7B0F0C4B1F379"
+				item: "botania:rune_greed"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6EB31D4642BBB1FE"]
+			id: "1B960C33FC9C8835"
+			tasks: [{
+				id: "571D310F5DB3797D"
+				item: "botania:rune_sloth"
+				type: "item"
+			}]
+			x: 5.999999999999972d
+			y: 1.2857142857142847d
+		}
+		{
+			dependencies: ["6EB31D4642BBB1FE"]
+			id: "638632067E77041A"
+			tasks: [{
+				id: "7420FF98C6C02B74"
+				item: "botania:rune_wrath"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6EB31D4642BBB1FE"]
+			id: "1F75C5C9A6139A98"
+			tasks: [{
+				id: "175E9E30FBABA48B"
+				item: "botania:rune_envy"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6EB31D4642BBB1FE"]
+			id: "373BA60B6D3B3704"
+			tasks: [{
+				id: "331D8E2E08CBFB27"
+				item: "botania:rune_pride"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["00E2DD6737806134"]
+			id: "3BC7A50130919D3C"
+			tasks: [{
+				id: "2689C5C8334AEA58"
+				item: "botania:mana_pool"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0AF2FE192BE0715D"]
+			id: "00E2DD6737806134"
+			tasks: [{
+				id: "3D400011993FEF6F"
+				item: "botania:pure_daisy"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3BC7A50130919D3C"]
+			id: "3B422CEE37326317"
+			tasks: [{
+				id: "15563BEC63334774"
+				item: "botania:mana_spreader"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0AF2FE192BE0715D"]
+			id: "4FEB4BA5FA2CB918"
+			tasks: [{
+				id: "0697920F242B15C0"
+				item: "botania:hydroangeas"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0AF2FE192BE0715D"]
+			description: ["Throw Burnable Items beneath it on the ground to feed it."]
+			id: "728D6D55C5B8E291"
+			tasks: [{
+				id: "1B3BEFC4A2AEFAE9"
+				item: "botania:endoflame"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0AF2FE192BE0715D"]
+			id: "1B10754A25324D69"
+			tasks: [{
+				id: "42C181ECC54857C0"
+				item: "botania:kekimurus"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.5d
+		}
+	]
 	title: "Botania"
 }

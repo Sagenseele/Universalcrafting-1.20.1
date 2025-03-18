@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "draconic_age"
 	group: "0D67931F734E7CE2"
+	icon: "draconicevolution:chaotic_core"
 	id: "6A9902DE9DFBD713"
 	images: [
 		{
@@ -122,13 +123,99 @@
 			y: -0.9285714285714235d
 		}
 		{
+			dependencies: ["77C38C1971A0C76B"]
 			id: "2D5110CE7E842FFA"
 			tasks: [{
 				id: "104ACDDD398F06DC"
 				item: "mekanism:ultimate_control_circuit"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 6.5d
+			y: 4.5d
+		}
+		{
+			id: "28507B3CF8CFAC81"
+			tasks: [{
+				id: "00083E4BB1CEF7D2"
+				item: "draconicevolution:dragon_heart"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5D8EF3A8647B9C4E"]
+			id: "502F2792F63DE81B"
+			tasks: [{
+				id: "0BBB9B65B469ADA5"
+				item: "draconicevolution:draconium_core"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["502F2792F63DE81B"]
+			id: "77C38C1971A0C76B"
+			tasks: [{
+				id: "58EE47130E1D0C65"
+				item: "draconicevolution:wyvern_core"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["77C38C1971A0C76B"]
+			id: "23C6F3FF90D256D6"
+			tasks: [{
+				id: "0F0EF654C9E22B2A"
+				item: "draconicevolution:awakened_core"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["23C6F3FF90D256D6"]
+			id: "45F1551004F845E3"
+			tasks: [{
+				id: "750787FD951054F8"
+				item: "draconicevolution:chaotic_core"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["77C38C1971A0C76B"]
+			icon: "draconicevolution:energy_core"
+			id: "769FF5430FA9A97D"
+			tasks: [
+				{
+					id: "7072E018097AB9BB"
+					item: "draconicevolution:energy_core"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "379E69AD7287A932"
+					item: { Count: 4, id: "draconicevolution:energy_core_stabilizer" }
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["664658B62C41A4CD"]
+			id: "5D8EF3A8647B9C4E"
+			tasks: [{
+				id: "1D62237705E8C0DA"
+				item: "draconicevolution:draconium_ingot"
+				type: "item"
+			}]
+			x: 2.5d
 			y: 3.0d
 		}
 	]

@@ -81,9 +81,9 @@
 					type: "item"
 				}
 				{
-					count: 3L
+					count: 4L
 					id: "0B6DACCAC3FE9D8E"
-					item: { Count: 3, id: "pneumaticcraft:refinery_output" }
+					item: "pneumaticcraft:refinery_output"
 					type: "item"
 				}
 			]
@@ -105,7 +105,7 @@
 				item: "pneumaticcraft:printed_circuit_board"
 				type: "item"
 			}]
-			x: 13.0d
+			x: 14.5d
 			y: 1.0d
 		}
 		{
@@ -116,7 +116,7 @@
 				item: "pneumaticcraft:etching_acid_bucket"
 				type: "item"
 			}]
-			x: 12.5d
+			x: 14.0d
 			y: 2.5d
 		}
 		{
@@ -127,11 +127,11 @@
 				item: "pneumaticcraft:etching_tank"
 				type: "item"
 			}]
-			x: 11.5d
+			x: 13.0d
 			y: 4.0d
 		}
 		{
-			dependencies: ["2F7DDCAC3F2A55DD"]
+			dependencies: ["0C246C433B779881"]
 			id: "6B5E0A7B4F3AA92A"
 			tasks: [{
 				id: "03DD23B16F1FC5E1"
@@ -139,7 +139,7 @@
 				match_nbt: false
 				type: "item"
 			}]
-			x: 8.5d
+			x: 10.0d
 			y: 5.5d
 		}
 		{
@@ -150,7 +150,7 @@
 				item: "pneumaticcraft:unassembled_pcb"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 11.5d
 			y: 5.0d
 		}
 		{
@@ -174,7 +174,7 @@
 				item: "minecraft:tnt"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 0.0d
 			y: 6.0d
 		}
 		{
@@ -412,14 +412,73 @@
 				"754FF06DAAAEAEAB"
 			]
 			id: "426CFE1736BC8A1E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "34D2A1C08925906D"
+				table_id: 1974161973908950149L
+				type: "choice"
+			}]
 			size: 1.25d
 			tasks: [{
-				id: "1042629E5213646C"
-				item: "mbd2:new_machine"
+				id: "63D13188FB1700E3"
+				item: "mbd2:assembler"
 				type: "item"
 			}]
 			x: 7.0d
 			y: 8.0d
+		}
+		{
+			dependencies: ["2F7DDCAC3F2A55DD"]
+			icon: "pneumaticcraft:pressure_chamber_interface"
+			id: "0C246C433B779881"
+			tasks: [
+				{
+					id: "01E1340BA94A1AF8"
+					item: "pneumaticcraft:pressure_chamber_interface"
+					type: "item"
+				}
+				{
+					id: "60AF48C632B6CA4A"
+					item: "pneumaticcraft:pressure_chamber_valve"
+					type: "item"
+				}
+				{
+					count: 24L
+					id: "1569A558F8E72241"
+					item: { Count: 24, id: "pneumaticcraft:pressure_chamber_wall" }
+					type: "item"
+				}
+			]
+			title: "Pressure Chamber"
+			x: 8.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2468A11BD78A5360"]
+			id: "46CA8F1E6E5BCC3E"
+			tasks: [{
+				id: "6BC4C285FCB778CE"
+				item: {
+					Count: 1
+					id: "thermal:wrench"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1AD3741D52499E74"]
+			id: "50BA1BE4334915BA"
+			subtitle: "No pressure"
+			tasks: [{
+				id: "085452BA5CD5D3B3"
+				item: "pneumaticcraft:security_upgrade"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
 		}
 	]
 	title: "Electrical Age"

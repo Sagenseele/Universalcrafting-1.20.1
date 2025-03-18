@@ -557,7 +557,7 @@ ServerEvents.recipes(event => {
     ],
     {
       A: 'thermal:machine_frame',
-      B: 'kubejs:plate_yellow',
+      B: '#forge:plates/steel',
       C: 'kubejs:rod_yellow'
     }
   )
@@ -615,4 +615,67 @@ ServerEvents.recipes(event => {
     'minecraft:redstone',
     'twilightforest:carminite'
   )
+
+  // Alchemical Chest
+  event.replaceInput(
+    { output: 'projecte:alchemical_chest' },
+    'minecraft:diamond',
+    'projecte:philosophers_stone'
+  )
+
+  // Steel Bore Head
+
+  event.shaped(
+    Item.of('kubejs:steel_bore_head', 1),
+    [
+      'DCD',
+      ' A ',
+      ' B '
+    ],
+    {
+      A: 'thermal:machine_frame',
+      B: 'immersiveengineering:drillhead_steel',
+      C: 'immersiveengineering:stick_steel',
+      D: 'immersiveengineering:component_iron'
+    }
+  )
+
+  // Assembler
+  event.shaped(
+    Item.of('mbd2:assembler', 1),
+    [
+      'DGE',
+      'FAF',
+      'CBC'
+    ],
+    {
+      A: 'thermal:machine_frame',
+      B: 'pneumaticcraft:plastic',
+      C: '#forge:sheetmetals/aluminum',
+      D: 'immersiveengineering:slab_sheetmetal_nickel',
+      E: 'pneumaticcraft:lubricant_bucket',
+      F: 'immersiveengineering:component_steel',
+      G: 'immersiveengineering:component_electronic_adv'
+    }
+  ).replaceIngredient('pneumaticcraft:lubricant_bucket', 'minecraft:bucket')
+
+  // Jetpacks
+  //// Copper
+  event.replaceInput(
+    { output: Item.of('ironjetpacks:jetpack', '{Id:"ironjetpacks:copper",Throttle:1.0d}') },
+    Item.of('ironjetpacks:jetpack', '{Id:"ironjetpacks:wood",Throttle:1.0d}'),
+    Item.of('ironjetpacks:jetpack', '{Id:"ironjetpacks:stone",Throttle:1.0d}')
+  )
+  //// Bronze
+  //// Iron
+  //// Silver
+  //// Gold
+  //// Electrum
+  //// Invar  
+  //// Steel  
+  //// Diamond  
+  //// Platinum  
+  //// Emerald  
+  //// Netherite  
+
 })
