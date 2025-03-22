@@ -584,18 +584,17 @@ ServerEvents.recipes(event => {
   )
 
   // charger
-  event.remove({ id: 'ae2:network/blocks/crystal_processing_charger'})
-  event.shaped(
-    Item.of('ae2:charger', 1),
-    [
-      'ABA',
-      'A  ',
-      'ABA'
-    ],
-    {
-      A: 'pneumaticcraft:plastic',
-      B: '#forge:ingots/copper'
-    }
+  event.replaceInput(
+    { output: 'ae2:charger' },
+    'minecraft:iron_ingot',
+    'pneumaticcraft:plastic'
+  )
+
+  // inscriber
+  event.replaceInput(
+    { output: 'ae2:inscriber' },
+    'minecraft:iron_ingot',
+    'pneumaticcraft:plastic'
   )
 
   //Philosopher's Stone
@@ -678,4 +677,9 @@ ServerEvents.recipes(event => {
   //// Emerald  
   //// Netherite  
 
+  // Flawless Budding Certus Quartz
+  event.recipes.bloodmagic.altar('ae2:flawless_budding_quartz', 'ae2:flawed_budding_quartz').upgradeLevel(2).altarSyphon(10000).consumptionRate(500).drainRate(500)
+
+  // Grains of Infinity
+  event.recipes.thermal.centrifuge([Item.of('minecraft:stone'), Item.of('enderio:grains_of_infinity').withChance(0.05)], 'minecraft:deepslate')
 })
