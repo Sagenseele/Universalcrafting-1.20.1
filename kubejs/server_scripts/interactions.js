@@ -35,8 +35,13 @@ BlockEvents.rightClicked('minecraft:stone', event => {
     }
 })
 
-
-
+// Water Essence
+BlockEvents.rightClicked('kubejs:overgrown_wood_log', event => {
+    if(event.hand == 'main_hand' && event.player.getMainHandItem().id == 'minecraft:bucket') {
+        event.player.swing(event.hand, true)
+        event.player.give('mysticalagriculture:water_essence')
+    }
+})
 
 // Polished data card substrate
 BlockEvents.rightClicked('minecraft:grindstone', event => {

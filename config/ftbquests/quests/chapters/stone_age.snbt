@@ -192,6 +192,8 @@
 			y: -2.5d
 		}
 		{
+			dependencies: ["45346209AF744497"]
+			description: ["Right click the overgrown wood log with a bucket in your hand to get water essence."]
 			id: "3D8D8C2EA17CF488"
 			tasks: [{
 				id: "1E51BCB33F00F3E9"
