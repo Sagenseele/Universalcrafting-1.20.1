@@ -653,7 +653,19 @@
 			y: 2.5d
 		}
 		{
-			description: ["Let an &eanvil&r fall on a &dAptheosis&r &egem&r to get dust."]
+			description: [
+				"Let an &eanvil&r fall on a &dAptheosis&r &egem&r to get dust."
+				""
+				"Apotheosis Adventure Module allows for rare spawns of mobs of different tiers. They only occur in their dimensions:"
+				""
+				"&8Common&r - Overworld"
+				"&2Uncommon&r - Overworld, Nether"
+				"&1Rare&r - Nether, Twilight Forest, The End"
+				"&5Epic&r - Twilight Forest, The End"
+				"&6Mythic&r - The End"
+				""
+				"If you can kill them, they may drop a piece of equipment of their respective tier. It can be recycled to get rarity material which can be used to upgrade your gems to higher tiers or reforge your equipment."
+			]
 			id: "3DF8E8B1A7AAA0FA"
 			size: 1.5d
 			tasks: [{
