@@ -57,6 +57,9 @@
 		{
 			dependencies: ["3CFC37AD3571F1CE"]
 			id: "2F7DDCAC3F2A55DD"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Unlocks &dAE2/RS&r Chapter"
 			tasks: [{
 				id: "7B3B37A19DAED3C6"
 				item: "pneumaticcraft:plastic"

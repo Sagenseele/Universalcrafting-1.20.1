@@ -212,7 +212,7 @@
 			y: -8.5d
 		}
 		{
-			dependencies: ["1F4A0441461B7D12"]
+			dependencies: ["416EB4DBBC95A5FD"]
 			id: "20B6EC4AEC95DC61"
 			tasks: [{
 				id: "4D073B752ECA05E7"
@@ -375,7 +375,7 @@
 			description: [
 				"Acts as a portal activator for the Twilight Forest."
 				""
-				"Place flowers around a water source block and throw the lava crystal inside."
+				"Place flowers around a 2x2 water source block and throw the lava crystal inside."
 				""
 				"FFFF"
 				"FWWF"
@@ -394,9 +394,11 @@
 		{
 			dependencies: ["72898EE4AC216E24"]
 			icon: "twilightforest:twilight_portal_miniature_structure"
+			icon_scale: 0.8d
 			id: "37B32C20370A246E"
-			size: 1.25d
-			subtitle: "Unlocks Twilight Forest"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Unlocks &dTwilight Forest&r Chapter"
 			tasks: [{
 				dimension: "twilightforest:twilight_forest"
 				id: "6CF07397920373E5"
@@ -427,6 +429,59 @@
 			}]
 			x: -0.5d
 			y: -5.0d
+		}
+		{
+			dependencies: ["1F4A0441461B7D12"]
+			id: "416EB4DBBC95A5FD"
+			tasks: [{
+				id: "20D70BCAC0006F67"
+				item: "bloodmagic:soulforge"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["065B166C43E6BBC9"]
+			description: ["Crystallizes the &bWill&r in the chunk into clusters. If you click on a non-basic cluster with a tartaric gem with at least 1024 &bWill&r, you can harvest the shard without breaking the cluster. This is more &bWill&r-efficient than breaking the cluster."]
+			id: "76AC239EDB1FDA2F"
+			tasks: [{
+				id: "22567D72B3CE03BA"
+				item: "bloodmagic:demoncrystallizer"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["416EB4DBBC95A5FD"]
+			description: ["Uses &bWill&r from a tartaric gem to infuse the chunk with the respective &bWill&r. Put the gem into the crucible."]
+			id: "065B166C43E6BBC9"
+			tasks: [{
+				id: "4334D94752FC14F1"
+				item: "bloodmagic:demoncrucible"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["20B6EC4AEC95DC61"]
+			description: ["Kill mobs with the sentient sword to get &bRaw Will&r. If you have a tartaric gem in your inventory, the &bWill&r will be collected in the gem."]
+			id: "192891D0CEE1B5E5"
+			tasks: [{
+				id: "6006DDAF7BFC0C76"
+				item: {
+					Count: 1
+					id: "bloodmagic:soulsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.0d
 		}
 	]
 	title: "Blood Magic"
