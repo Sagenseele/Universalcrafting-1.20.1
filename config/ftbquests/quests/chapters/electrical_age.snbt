@@ -240,8 +240,8 @@
 				item: "enderio:void_chassis"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -1.5d
+			x: 4.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["2468A11BD78A5360"]
@@ -482,6 +482,46 @@
 			}]
 			x: 2.0d
 			y: 6.0d
+		}
+		{
+			dependencies: [
+				"676E966191485644"
+				"3124849712BA1945"
+			]
+			dependency_requirement: "one_completed"
+			id: "4D6DA3D6B2120963"
+			tasks: [{
+				id: "7973937779F65A3B"
+				item: "enderio:wired_charger"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"5AFF79F20B7CF99C"
+				"676E966191485644"
+			]
+			id: "3124849712BA1945"
+			tasks: [{
+				id: "494814AD5CFA9D65"
+				item: "enderio:alloy_smelter"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5FA179FF61AF8C87"]
+			id: "5AFF79F20B7CF99C"
+			tasks: [{
+				id: "494CE62D4CF6676F"
+				item: "enderio:primitive_alloy_smelter"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
 		}
 	]
 	title: "Electrical Age"

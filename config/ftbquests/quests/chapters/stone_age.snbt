@@ -55,6 +55,12 @@
 		{
 			dependencies: ["183FD7820BAED84B"]
 			id: "32608C15F49CFA8D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0DE0E7972EEE0B42"
+				table_id: 2636020884739909304L
+				type: "choice"
+			}]
 			size: 1.25d
 			tasks: [{
 				id: "251F80FDC2C54A31"
@@ -106,8 +112,8 @@
 				item: "bloodmagic:altar"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -0.5d
+			x: 6.0625d
+			y: -0.1607142857142847d
 		}
 		{
 			dependencies: ["257C857B20905C1A"]
@@ -184,6 +190,16 @@
 			}]
 			x: 3.0d
 			y: -2.5d
+		}
+		{
+			id: "3D8D8C2EA17CF488"
+			tasks: [{
+				id: "1E51BCB33F00F3E9"
+				item: "mysticalagriculture:water_essence"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
 		}
 	]
 	title: "Stone Age"

@@ -665,6 +665,8 @@
 				"&6Mythic&r - The End"
 				""
 				"If you can kill them, they may drop a piece of equipment of their respective tier. It can be recycled to get rarity material which can be used to upgrade your gems to higher tiers or reforge your equipment."
+				""
+				"&eYou can reforge&r &dSilent Gear&r &eequipment.&r"
 			]
 			id: "3DF8E8B1A7AAA0FA"
 			size: 1.5d

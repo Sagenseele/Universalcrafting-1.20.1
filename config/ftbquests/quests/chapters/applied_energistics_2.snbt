@@ -16,8 +16,8 @@
 				item: "ae2:charger"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 1.0d
+			x: -0.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["631CA8BFB7E6978B"]
@@ -32,14 +32,20 @@
 		}
 		{
 			dependencies: ["2F7DDCAC3F2A55DD"]
-			description: ["&dApplied Energistics 2&r and &dRefined Storage&r are both storage mods."]
+			description: [
+				"Both are storage and autocrafting mods, which allow to store hundreds or millions of items in a few blocks and provides autocrafting possibilities for every item which has a recipe."
+				""
+				"&dRefined Storage&rs' setup is much simpler and faster than AE2s' and therefore recommended for beginners."
+				""
+				"&dApplied Energistics 2&r has a tougher setup but provides more possibilities for autocrafting and integrations, which come in handy later at the Infinity Age (looking at you ProjectE) and provide more recipe handling with fewer machines."
+			]
 			hide_until_deps_complete: true
 			id: "631CA8BFB7E6978B"
 			tasks: [{
-				id: "4F552889D925FE30"
-				title: "Applied Energistics 2/Refined Storage"
+				id: "3BF9A23897463751"
 				type: "checkmark"
 			}]
+			title: "&dApplied Energistics 2&r/&dRefined Storage&r"
 			x: 1.5d
 			y: 1.5d
 		}
@@ -174,7 +180,7 @@
 		}
 		{
 			dependencies: ["386AD7C453938B8E"]
-			icon: "refinedstorage:crafter"
+			icon: "refinedstorage:pattern_grid"
 			id: "249C4F83C1D72CA1"
 			tasks: [
 				{
@@ -192,15 +198,9 @@
 					}
 					type: "item"
 				}
-				{
-					id: "06F23734264C6F8C"
-					item: "refinedstorage:crafter"
-					type: "item"
-				}
 			]
-			title: "Autocrafting at your hands"
-			x: 4.0d
-			y: -8.5d
+			x: 3.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["631CA8BFB7E6978B"]
@@ -210,8 +210,8 @@
 				item: "ae2:energy_acceptor"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 0.0d
+			x: -0.5d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -224,19 +224,19 @@
 				item: "ae2:controller"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -0.5d
+			x: -2.5d
+			y: -1.5d
 		}
 		{
-			dependencies: ["631CA8BFB7E6978B"]
+			dependencies: ["10C8C4C64EBA4E31"]
 			id: "476BC84A263DE937"
 			tasks: [{
 				id: "724A4DB67B876EB6"
 				item: "ae2:inscriber"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 0.5d
+			x: -1.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["0A64D42768523146"]
@@ -246,8 +246,8 @@
 				item: "ae2:meteorite_compass"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 0.0d
+			x: -1.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["36E976BF1334F922"]
@@ -276,8 +276,8 @@
 				}
 			]
 			title: "Presses"
-			x: -3.5d
-			y: -1.0d
+			x: -2.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["146CBE384DD72A1A"]
@@ -287,8 +287,8 @@
 				item: "ae2:terminal"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -1.5d
+			x: -3.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["08A370A78F7C9651"]
@@ -298,8 +298,8 @@
 				item: "ae2:crafting_terminal"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -2.0d
+			x: -5.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["08A370A78F7C9651"]
@@ -318,8 +318,8 @@
 					type: "item"
 				}
 			]
-			x: -3.5d
-			y: -2.5d
+			x: -4.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["08A370A78F7C9651"]
@@ -337,8 +337,8 @@
 					type: "item"
 				}
 			]
-			x: -2.5d
-			y: -3.0d
+			x: -3.5d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -352,8 +352,8 @@
 				item: "ae2:flawless_budding_quartz"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -0.5d
+			x: -3.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["0A64D42768523146"]
@@ -363,8 +363,192 @@
 				item: "ae2:growth_accelerator"
 				type: "item"
 			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["08A370A78F7C9651"]
+			id: "2158AB91431D587D"
+			tasks: [{
+				id: "4343FD2BDFA456EB"
+				item: "appliede:transmutation_terminal"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["455B054A18CAF226"]
+			id: "21B1F110498F9BD8"
+			tasks: [{
+				id: "1653A7FA272BDA17"
+				item: "ae2:certus_quartz_crystal"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["146CBE384DD72A1A"]
+			description: [
+				"Combine the crafting unit with any storage component from 1k to 256k to get the respective crafting CPU."
+				""
+				"&eThey must be placed in a rectangle or cuboid.&r"
+				""
+				"For each additional Co-Processing Unit one additional recipe can be processed in parallel, provided they are not crafted on the same molecular assembler or other machine."
+			]
+			icon: "ae2:crafting_unit"
+			id: "12ED40E54915A7FE"
+			tasks: [
+				{
+					id: "285D7B4680FACD95"
+					item: "ae2:crafting_unit"
+					type: "item"
+				}
+				{
+					id: "3095A0130A730B57"
+					item: "ae2:crafting_accelerator"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["12ED40E54915A7FE"]
+			icon: "ae2:molecular_assembler"
+			id: "43EF66F6A6A90884"
+			subtitle: "Autocrafting at your hands"
+			tasks: [
+				{
+					id: "0BD3E8EE2587CEF3"
+					item: "ae2:molecular_assembler"
+					type: "item"
+				}
+				{
+					id: "0B5F815231551CF4"
+					item: "ae2:pattern_provider"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5E3CCADAF8871EB9"]
+			id: "1EF468D227D9359F"
+			tasks: [{
+				id: "48DB91C31B842B21"
+				item: "refinedstorage:fluid_grid"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["386AD7C453938B8E"]
+			id: "2E6B4CB6C243C920"
+			subtitle: "Autocrafting at your hands"
+			tasks: [{
+				id: "3160A89A38914D49"
+				item: "refinedstorage:crafter"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["146CBE384DD72A1A"]
+			description: ["Because channels are disabled, the fluix cable is sufficient enough for connecting terminals and machines."]
+			id: "4E4589C510F75310"
+			tasks: [{
+				id: "38967646A4B66FC7"
+				item: "ae2:fluix_glass_cable"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["146CBE384DD72A1A"]
+			id: "006709FF52FBE851"
+			tasks: [{
+				id: "511C8A742B16CC42"
+				item: "ae2:drive"
+				type: "item"
+			}]
 			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["006709FF52FBE851"]
+			id: "2406F2A6769684BA"
+			tasks: [{
+				id: "3740E5AF976FB0D5"
+				item: "ae2:cell_component_1k"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2406F2A6769684BA"]
+			id: "1D9C7BD27E942EA6"
+			tasks: [{
+				id: "7F75A2A744A593E4"
+				item: {
+					Count: 1
+					id: "ae2:item_storage_cell_1k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2406F2A6769684BA"]
+			id: "35DD81FB348A7C74"
+			tasks: [{
+				id: "2593F55C16A13407"
+				item: "ae2:cell_component_4k"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["35DD81FB348A7C74"]
+			id: "11F57DFD1E5CDF41"
+			tasks: [{
+				id: "7430A6F84412A12A"
+				item: "ae2:cell_component_16k"
+				type: "item"
+			}]
+			x: -6.5d
 			y: 0.5d
+		}
+		{
+			dependencies: ["11F57DFD1E5CDF41"]
+			id: "788DB3AEB63FB302"
+			tasks: [{
+				id: "5891671549899F74"
+				item: "ae2:cell_component_64k"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["788DB3AEB63FB302"]
+			id: "2B658F36B1C2BA52"
+			tasks: [{
+				id: "47A605024109AA8E"
+				item: "ae2:cell_component_256k"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 1.5d
 		}
 	]
 	title: "AE2/RS"

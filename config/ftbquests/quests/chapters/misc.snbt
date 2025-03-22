@@ -36,11 +36,11 @@
 				item: { Count: 10, id: "bhc:red_heart_canister" }
 				type: "item"
 			}]
-			x: 2.5d
+			x: 2.0d
 			y: -1.0d
 		}
 		{
-			dependencies: ["67E45A1B7C971527"]
+			dependencies: ["5A03E0DC2CD49A59"]
 			id: "1DFA525DD43BAC05"
 			tasks: [{
 				count: 10L
@@ -48,11 +48,11 @@
 				item: { Count: 10, id: "bhc:yellow_heart_canister" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 1.5d
+			x: 2.5d
+			y: 0.0d
 		}
 		{
-			dependencies: ["67E45A1B7C971527"]
+			dependencies: ["1DFA525DD43BAC05"]
 			id: "3BD2F2915C36695C"
 			tasks: [{
 				count: 10L
@@ -60,11 +60,11 @@
 				item: { Count: 10, id: "bhc:green_heart_canister" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 1.5d
+			x: 2.107142857142861d
+			y: 1.0892857142857153d
 		}
 		{
-			dependencies: ["67E45A1B7C971527"]
+			dependencies: ["3BD2F2915C36695C"]
 			id: "2921570C34D393F3"
 			tasks: [{
 				count: 10L
@@ -72,11 +72,11 @@
 				item: { Count: 10, id: "bhc:blue_heart_canister" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: -1.0d
+			x: 1.0d
+			y: 1.625d
 		}
 		{
-			dependencies: ["67E45A1B7C971527"]
+			dependencies: ["2921570C34D393F3"]
 			id: "4165D685920E4ADE"
 			tasks: [{
 				count: 10L
@@ -84,7 +84,18 @@
 				item: { Count: 10, id: "bhc:soul_heart_canister" }
 				type: "item"
 			}]
-			x: 1.0d
+			x: -0.2142857142857153d
+			y: 1.482142857142854d
+		}
+		{
+			description: ["Can hold mob charms which make you invisible for these mobs."]
+			id: "75E0355A910EC5E5"
+			tasks: [{
+				id: "4EAB255D40535E1A"
+				item: "reliquary:mob_charm_belt"
+				type: "item"
+			}]
+			x: -0.5d
 			y: -2.0d
 		}
 	]

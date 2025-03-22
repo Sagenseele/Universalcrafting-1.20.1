@@ -523,6 +523,8 @@
 				"You can create many different tools which have different parts. Handle, Pickaxe Head and so on. Additionally there are small parts within the Tool like \"Tip\" on a pickaxe. Every material has its' own properties and traits. Try some materials and create yourself some good tools."
 				""
 				"&eYou can convert your tool/armor by placing it in the crafting grid!&r"
+				""
+				"&cConverting an Apotheosis Equipment removes every modifier and socket.&r"
 			]
 			hide_dependent_lines: true
 			hide_until_deps_complete: true
@@ -550,6 +552,7 @@
 				id: "3AEF8CA25E3D8486"
 				type: "checkmark"
 			}]
+			title: "Blueprint Book"
 			x: 2.5d
 			y: -1.0d
 		}

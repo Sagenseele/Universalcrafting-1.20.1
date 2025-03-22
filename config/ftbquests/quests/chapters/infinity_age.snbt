@@ -1,27 +1,86 @@
 {
 	default_hide_dependency_lines: false
-	default_quest_shape: ""
+	default_quest_shape: "pentagon"
 	filename: "infinity_age"
 	group: "0D67931F734E7CE2"
+	icon: "kubejs:infinity_token"
 	id: "79C04D7CA11D4F86"
 	order_index: 6
 	quest_links: [ ]
-	quests: [{
-		id: "3C9E469F8B6598B5"
-		tasks: [{
-			id: "77DA8D4BA0EB6372"
-			item: {
-				Count: 1
-				ForgeCaps: {
-					Parent: { }
+	quests: [
+		{
+			id: "3C9E469F8B6598B5"
+			tasks: [{
+				id: "77DA8D4BA0EB6372"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:philosophers_stone"
+					tag: { }
 				}
-				id: "projecte:philosophers_stone"
-				tag: { }
-			}
-			type: "item"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["14371C1F880EFFBD"]
+			id: "16407104C2D7A594"
+			tasks: [{
+				id: "7E464B70CB42E035"
+				item: "kubejs:infinity_token"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["16407104C2D7A594"]
+			id: "1E93600328BE825E"
+			size: 3.0d
+			tasks: [{
+				id: "1159FBCDEDD0F322"
+				item: "storagedrawers:creative_vending_upgrade"
+				type: "item"
+			}]
+			x: 3.5714285714285765d
+			y: -1.4464285714285694d
+		}
+		{
+			dependencies: ["0E58BC459E28738F"]
+			id: "5E49261FC2520B30"
+			tasks: [{
+				id: "050B9169F10EA9AE"
+				item: "projecte:transmutation_tablet"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3C9E469F8B6598B5"]
+			id: "0E58BC459E28738F"
+			tasks: [{
+				id: "6086C39B9629F454"
+				item: "projecte:transmutation_table"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5E49261FC2520B30"]
+			id: "14371C1F880EFFBD"
+			tasks: [{
+				id: "5B25BE1C58235176"
+				item: "appliede:emc_module"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+	]
 	title: "Infinity Age"
 }
