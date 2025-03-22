@@ -1,7 +1,7 @@
 {
   "name": "steel",
   "disable": false,
-  "tier": 3,
+  "tier": 9,
   "color": "565656",
   "armorPoints": 3,
   "enchantability": 15,

@@ -656,30 +656,16 @@ ServerEvents.recipes(event => {
       F: 'immersiveengineering:component_steel',
       G: 'immersiveengineering:component_electronic_adv'
     }
-  ).replaceIngredient('pneumaticcraft:lubricant_bucket', 'minecraft:bucket')
-
-  // Jetpacks
-  //// Copper
-  event.replaceInput(
-    { output: Item.of('ironjetpacks:jetpack', '{Id:"ironjetpacks:copper",Throttle:1.0d}') },
-    Item.of('ironjetpacks:jetpack', '{Id:"ironjetpacks:wood",Throttle:1.0d}'),
-    Item.of('ironjetpacks:jetpack', '{Id:"ironjetpacks:stone",Throttle:1.0d}')
-  )
-  //// Bronze
-  //// Iron
-  //// Silver
-  //// Gold
-  //// Electrum
-  //// Invar  
-  //// Steel  
-  //// Diamond  
-  //// Platinum  
-  //// Emerald  
-  //// Netherite  
+  ).replaceIngredient('pneumaticcraft:lubricant_bucket', 'minecraft:bucket') 
 
   // Flawless Budding Certus Quartz
   event.recipes.bloodmagic.altar('ae2:flawless_budding_quartz', 'ae2:flawed_budding_quartz').upgradeLevel(2).altarSyphon(10000).consumptionRate(500).drainRate(500)
 
   // Grains of Infinity
   event.recipes.thermal.centrifuge([Item.of('minecraft:stone'), Item.of('enderio:grains_of_infinity').withChance(0.05)], 'minecraft:deepslate')
+
+  // Amethyst Shard
+
+  // Mysticalagriculture
+  
 })

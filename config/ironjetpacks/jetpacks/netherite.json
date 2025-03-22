@@ -1,7 +1,7 @@
 {
     "name": "netherite",
     "disable": false,
-    "tier": 6,
+    "tier": 13,
     "color": "24201b",
     "armorPoints": 5,
     "enchantability": 20,

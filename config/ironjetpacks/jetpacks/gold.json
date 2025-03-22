@@ -1,7 +1,7 @@
 {
   "name": "gold",
   "disable": false,
-  "tier": 3,
+  "tier": 6,
   "color": "f9eb59",
   "armorPoints": 2,
   "enchantability": 25,

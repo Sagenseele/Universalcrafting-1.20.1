@@ -1,7 +1,7 @@
 {
   "name": "diamond",
   "disable": false,
-  "tier": 4,
+  "tier": 10,
   "color": "4cf4e0",
   "armorPoints": 4,
   "enchantability": 10,

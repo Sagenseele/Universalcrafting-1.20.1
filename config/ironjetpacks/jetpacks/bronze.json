@@ -1,7 +1,7 @@
 {
   "name": "bronze",
   "disable": false,
-  "tier": 2,
+  "tier": 3,
   "color": "da9839",
   "armorPoints": 3,
   "enchantability": 9,
