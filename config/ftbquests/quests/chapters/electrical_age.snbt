@@ -75,6 +75,7 @@
 				"74E8AE06038BAAEA"
 				"3F5B2C69D420AE06"
 			]
+			dependency_requirement: "one_completed"
 			icon: "pneumaticcraft:refinery"
 			id: "3CFC37AD3571F1CE"
 			tasks: [
@@ -194,8 +195,8 @@
 		{
 			id: "1CAB5B9C28A47B11"
 			tasks: [{
-				id: "3FED8F90CE82BB54"
-				item: "thermal:crude_oil_bucket"
+				id: "0AB18602F12FD389"
+				item: "pneumaticcraft:oil_bucket"
 				type: "item"
 			}]
 			x: 4.0d
