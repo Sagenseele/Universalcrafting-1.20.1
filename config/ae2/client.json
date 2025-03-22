@@ -2,7 +2,7 @@
   "client": {
     "disableColoredCableRecipesInJEI": true,
     "enableFacadesInJEI_comment": "Show facades in JEI ingredient list",
-    "enableFacadesInJEI": true,
+    "enableFacadesInJEI": false,
     "enableFacadeRecipesInJEI_comment": "Show facade recipes in JEI for supported blocks",
     "enableFacadeRecipesInJEI": true,
     "enableEffects": true,
@@ -13,7 +13,7 @@
     "showDebugGuiOverlays_comment": "Show debugging GUI overlays",
     "showDebugGuiOverlays": false,
     "showPlacementPreview_comment": "Show a preview of part and facade placement",
-    "showPlacementPreview": true,
+    "showPlacementPreview": false,
     "notifyForFinishedCraftingJobs_comment": "Show toast when long-running crafting jobs finish.",
     "notifyForFinishedCraftingJobs": true,
     "clearGridOnClose_comment": "Automatically clear the crafting/encoding grid when closing the terminal",
@@ -22,7 +22,7 @@
     "terminalMargin": 25
   },
   "terminals": {
-    "terminalStyle": "small",
+    "terminalStyle": "full",
     "pinAutoCraftedItems_comment": "Pin items that the player auto-crafts to the top of the terminal",
     "pinAutoCraftedItems": true
   },
