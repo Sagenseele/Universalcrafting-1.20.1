@@ -5,6 +5,32 @@
 	group: "0D67931F734E7CE2"
 	icon: "thermal:machine_frame"
 	id: "76B5010CEB31C0D6"
+	images: [
+		{
+			height: 1.0d
+			image: "create:block/depot_side"
+			rotation: 0.0d
+			width: 1.0d
+			x: 16.5d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:block/blast_furnace_active"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.5d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:block/kinetic_crusher_active"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.0d
+			y: -3.5d
+		}
+	]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
@@ -92,6 +118,7 @@
 				"6534A045CE282854"
 				"48AF2A3A4CB1AC9E"
 			]
+			description: ["The Main source for resources."]
 			icon: "mbd2:kinetic_crusher"
 			id: "34D115B6E61D1234"
 			rewards: [{
@@ -112,6 +139,16 @@
 					item: "mbd2:kinetic_crusher_block"
 					type: "item"
 				}
+				{
+					id: "110F9E740B02EF87"
+					item: "mbd2:item_input_tier1"
+					type: "item"
+				}
+				{
+					id: "6E925A4954B3E231"
+					item: "mbd2:item_output_tier1"
+					type: "item"
+				}
 			]
 			x: 9.0d
 			y: -3.5d
@@ -120,8 +157,8 @@
 			dependencies: ["3F6E0421CBB60E0C"]
 			id: "6534A045CE282854"
 			tasks: [{
-				id: "1873A631B82DF578"
-				item: "kubejs:ingot_blueish"
+				id: "4BFC61A927A85435"
+				item: "kubejs:blueish_ingot"
 				type: "item"
 			}]
 			x: 7.5d
@@ -156,8 +193,8 @@
 			]
 			id: "2837FA09802BF040"
 			tasks: [{
-				id: "54C1156AD9AC655E"
-				item: "kubejs:ingot_yellow"
+				id: "5CF1D342A0659368"
+				item: "kubejs:yellow_ingot"
 				type: "item"
 			}]
 			x: 15.0d
@@ -205,15 +242,15 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["31F85638C4B2A0DC"]
+			dependencies: ["539E5B30F359A02C"]
 			id: "1F4B4A4EA316E47F"
 			tasks: [{
 				id: "5A65DBDE469A4EF3"
 				item: "create:deployer"
 				type: "item"
 			}]
-			x: 15.0d
-			y: -2.0d
+			x: 15.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["0F892682DE356146"]
@@ -239,12 +276,26 @@
 		}
 		{
 			dependencies: ["48AF2A3A4CB1AC9E"]
+			icon: "create:rose_quartz"
 			id: "159CA0147B49AD25"
-			tasks: [{
-				id: "79438321A799EA08"
-				item: "create:rose_quartz"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "79438321A799EA08"
+					item: "create:rose_quartz"
+					type: "item"
+				}
+				{
+					id: "63030D3D6DE7B759"
+					item: {
+						Count: 1
+						id: "create:sand_paper"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			x: 10.5d
 			y: -6.5d
 		}
@@ -252,8 +303,8 @@
 			dependencies: ["6534A045CE282854"]
 			id: "2D77581A9B5D0377"
 			tasks: [{
-				id: "076B4B70D67F404A"
-				item: "kubejs:plate_blueish"
+				id: "2908D655995CF37A"
+				item: "kubejs:blueish_plate"
 				type: "item"
 			}]
 			x: 7.5d
@@ -387,8 +438,8 @@
 			dependencies: ["1BDFCCB96107FA42"]
 			id: "3F6E0421CBB60E0C"
 			tasks: [{
-				id: "6AC17AD2DE514570"
-				item: "kubejs:dust_blueish"
+				id: "31701DC3C74AE30F"
+				item: "kubejs:blueish_dust"
 				type: "item"
 			}]
 			x: 6.0d
@@ -502,7 +553,9 @@
 				table_id: 6410953887526331428L
 				type: "choice"
 			}]
+			shape: "rsquare"
 			size: 1.25d
+			subtitle: "Progress to &3Electrical Age&r"
 			tasks: [{
 				id: "5326052E3783BD2A"
 				item: "thermal:machine_frame"
@@ -528,32 +581,6 @@
 			}]
 			x: 13.5d
 			y: -0.5d
-		}
-		{
-			dependencies: [
-				"5072F80080915A61"
-				"377886B31A4BEB4D"
-			]
-			dependency_requirement: "one_completed"
-			id: "5DF4580F2F873A97"
-			tasks: [{
-				id: "0564581266172440"
-				item: "minecraft:clay_ball"
-				type: "item"
-			}]
-			x: -3.0d
-			y: -6.5d
-		}
-		{
-			dependencies: ["5DF4580F2F873A97"]
-			id: "79233C253C685681"
-			tasks: [{
-				id: "2C236F4FC22F68F4"
-				item: "botanypots:terracotta_hopper_botany_pot"
-				type: "item"
-			}]
-			x: -3.0d
-			y: -8.0d
 		}
 		{
 			dependencies: [
@@ -595,6 +622,7 @@
 		{
 			disable_toast: true
 			id: "2CA8C43B77E48553"
+			shape: "rsquare"
 			size: 1.25d
 			tasks: [{
 				disable_toast: true
@@ -604,6 +632,58 @@
 			}]
 			x: 0.0d
 			y: -0.5d
+		}
+		{
+			dependencies: ["2CA8C43B77E48553"]
+			description: ["Can be used to create different type of Stones, depending on selected Stones."]
+			id: "2D1182F120C39D71"
+			tasks: [{
+				id: "74E1FB360FE5FDC9"
+				item: "mbd2:cobblestone_generator_tier1"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["31F85638C4B2A0DC"]
+			id: "539E5B30F359A02C"
+			tasks: [{
+				id: "06A3560DBCE55C3D"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["74B6AE8090DD61E4"]
+			icon: "create:empty_schematic"
+			id: "662E7ACC0897CD7D"
+			tasks: [
+				{
+					id: "62C7336459E2724D"
+					item: "create:empty_schematic"
+					type: "item"
+				}
+				{
+					id: "6E31878CA3A48C0A"
+					item: "create:schematic_table"
+					type: "item"
+				}
+				{
+					id: "0EC095EC7EA330A7"
+					item: "create:schematicannon"
+					type: "item"
+				}
+				{
+					id: "649D0A3354C4C0B7"
+					item: "minecraft:chest"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -5.0d
 		}
 	]
 	title: "Mechanical Age"

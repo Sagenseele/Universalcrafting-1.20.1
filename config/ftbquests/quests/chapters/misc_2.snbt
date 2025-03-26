@@ -256,6 +256,17 @@
 			x: 0.0d
 			y: 4.0d
 		}
+		{
+			id: "79233C253C685681"
+			subtitle: "Automated Plants"
+			tasks: [{
+				id: "2C236F4FC22F68F4"
+				item: "botanypots:terracotta_hopper_botany_pot"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.5d
+		}
 	]
-	title: "Misc"
+	title: "Utility"
 }

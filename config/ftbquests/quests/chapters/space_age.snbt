@@ -13,7 +13,10 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["6A2EA65302EB583B"]
+			dependencies: [
+				"6FD9146F55E2EF69"
+				"35FEBC636877D245"
+			]
 			id: "2A7D7AF0FA54A8B0"
 			tasks: [{
 				id: "5E28971CFDC14F69"
@@ -98,19 +101,10 @@
 			y: -4.0d
 		}
 		{
-			disable_toast: true
-			id: "6A2EA65302EB583B"
-			tasks: [{
-				disable_toast: true
-				id: "2458B67EC5752783"
-				item: "pneumaticcraft:printed_circuit_board"
-				type: "item"
-			}]
-			x: -0.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["6A2EA65302EB583B"]
+			dependencies: [
+				"6FD9146F55E2EF69"
+				"35FEBC636877D245"
+			]
 			id: "28AF4E7DE38DCC3C"
 			tasks: [{
 				id: "54FD1DBB87C60D86"
@@ -298,6 +292,81 @@
 			}]
 			x: 12.5d
 			y: -12.5d
+		}
+		{
+			dependencies: ["426CFE1736BC8A1E"]
+			id: "00963DDA358D49A4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7857DCB735B08727"
+				table_id: 2636020884739909304L
+				type: "choice"
+			}]
+			size: 1.25d
+			tasks: [{
+				id: "51BD7D0B103EF31C"
+				item: "mbd2:washing_facility"
+				type: "item"
+			}]
+			x: 6.875d
+			y: -4.0d
+		}
+		{
+			dependencies: ["00963DDA358D49A4"]
+			id: "14077CC11C44F172"
+			tasks: [{
+				id: "10B68A4E3B4CE052"
+				item: "immersiveengineering:raw_uranium"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["00963DDA358D49A4"]
+			id: "2C3DF8E532A51A6B"
+			tasks: [{
+				id: "21842FF2CCC0FF05"
+				item: "thermal:raw_tin"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["00963DDA358D49A4"]
+			id: "294DC02AAE56BBAC"
+			tasks: [{
+				id: "05BA8027313CCF63"
+				item: "thermal:raw_lead"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["00963DDA358D49A4"]
+			id: "0E642C33F3417ED5"
+			tasks: [{
+				id: "4557953BEB708710"
+				item: "bigreactors:raw_yellorium"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["426CFE1736BC8A1E"]
+			id: "6FD9146F55E2EF69"
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "655C018FE76F5A30"
+				item: "kubejs:electrical_machine_casing"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
 		}
 	]
 	title: "Space Age"

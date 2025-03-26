@@ -3,8 +3,16 @@
 	default_quest_shape: ""
 	filename: "electrical_age"
 	group: "0D67931F734E7CE2"
-	icon: "pneumaticcraft:printed_circuit_board"
+	icon: "kubejs:electrical_machine_casing"
 	id: "0B9F2D4F657A0F4C"
+	images: [{
+		height: 1.0d
+		image: "thermal:block/machines/machine_refinery_active"
+		rotation: 0.0d
+		width: 1.0d
+		x: 11.5d
+		y: 7.0d
+	}]
 	order_index: 2
 	quest_links: [ ]
 	quests: [
@@ -16,8 +24,8 @@
 				item: "mekanism:metallurgic_infuser"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 0.5d
+			x: -2.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["67106593CD3CB7BD"]
@@ -27,8 +35,8 @@
 				item: "mekanism:basic_control_circuit"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -0.5d
+			x: -3.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["12A99979D250B545"]
@@ -44,6 +52,7 @@
 		{
 			disable_toast: true
 			id: "2468A11BD78A5360"
+			shape: "rsquare"
 			size: 1.25d
 			tasks: [{
 				disable_toast: true
@@ -55,7 +64,7 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["3CFC37AD3571F1CE"]
+			dependencies: ["1EFD185333D4EFD0"]
 			id: "2F7DDCAC3F2A55DD"
 			shape: "gear"
 			size: 1.5d
@@ -65,121 +74,8 @@
 				item: "pneumaticcraft:plastic"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 5.5d
-		}
-		{
-			dependencies: [
-				"1CAB5B9C28A47B11"
-				"63792671998838BB"
-				"74E8AE06038BAAEA"
-				"3F5B2C69D420AE06"
-			]
-			dependency_requirement: "one_completed"
-			icon: "pneumaticcraft:refinery"
-			id: "3CFC37AD3571F1CE"
-			tasks: [
-				{
-					id: "456E7CBC25D0D3D4"
-					item: "pneumaticcraft:refinery"
-					type: "item"
-				}
-				{
-					count: 4L
-					id: "0B6DACCAC3FE9D8E"
-					item: "pneumaticcraft:refinery_output"
-					type: "item"
-				}
-			]
-			x: 5.5d
-			y: 4.5d
-		}
-		{
-			dependencies: ["707BA82B3A2B71E7"]
-			id: "023CE2C1F0F95C44"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "6506702BBA248A40"
-				table_id: 2636020884739909304L
-				type: "choice"
-			}]
-			size: 1.25d
-			tasks: [{
-				id: "17ED6A1D2D8DBE48"
-				item: "pneumaticcraft:printed_circuit_board"
-				type: "item"
-			}]
-			x: 14.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["0EC4C2BCB4C3AE5E"]
-			id: "707BA82B3A2B71E7"
-			tasks: [{
-				id: "434EB341D2605F7E"
-				item: "pneumaticcraft:etching_acid_bucket"
-				type: "item"
-			}]
-			x: 14.0d
-			y: 2.5d
-		}
-		{
-			dependencies: ["69A74F0A393C039D"]
-			id: "0EC4C2BCB4C3AE5E"
-			tasks: [{
-				id: "7C8E2226E58F28F5"
-				item: "pneumaticcraft:etching_tank"
-				type: "item"
-			}]
-			x: 13.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["0C246C433B779881"]
-			id: "6B5E0A7B4F3AA92A"
-			tasks: [{
-				id: "03DD23B16F1FC5E1"
-				item: "pneumaticcraft:empty_pcb"
-				match_nbt: false
-				type: "item"
-			}]
-			x: 10.0d
-			y: 5.5d
-		}
-		{
-			dependencies: ["6B5E0A7B4F3AA92A"]
-			id: "69A74F0A393C039D"
-			tasks: [{
-				id: "3690396C0A484EA7"
-				item: "pneumaticcraft:unassembled_pcb"
-				type: "item"
-			}]
-			x: 11.5d
-			y: 5.0d
-		}
-		{
-			dependencies: [
-				"16DB6B9DBC62542C"
-				"2468A11BD78A5360"
-			]
-			id: "1AD3741D52499E74"
-			tasks: [{
-				id: "1EAABF9BC43F2C43"
-				item: "pneumaticcraft:ingot_iron_compressed"
-				type: "item"
-			}]
-			x: 1.0d
-			y: 4.5d
-		}
-		{
-			id: "16DB6B9DBC62542C"
-			tasks: [{
-				id: "1BCEE8ED78C3381A"
-				item: "minecraft:tnt"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 6.0d
+			x: 9.75d
+			y: 9.75d
 		}
 		{
 			dependencies: ["2468A11BD78A5360"]
@@ -189,48 +85,109 @@
 				item: "thermal:machine_centrifuge"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 0.5d
+			x: 2.5d
+			y: 2.5d
 		}
 		{
-			id: "1CAB5B9C28A47B11"
-			tasks: [{
-				id: "0AB18602F12FD389"
-				item: "pneumaticcraft:oil_bucket"
-				type: "item"
-			}]
-			x: 4.0d
+			dependencies: ["2468A11BD78A5360"]
+			hide_dependency_lines: true
+			icon: "immersiveengineering:fermenter"
+			id: "63792671998838BB"
+			tasks: [
+				{
+					count: 2L
+					id: "2BC5D244B130F4DF"
+					item: { Count: 2, id: "immersiveengineering:fluid_pipe" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "569E694753733931"
+					item: { Count: 2, id: "immersiveengineering:light_engineering" }
+					type: "item"
+				}
+				{
+					id: "7EFB2A853547D0A9"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "77979D4E61D23965"
+					item: { Count: 4, id: "immersiveengineering:sheetmetal_iron" }
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "229AF38F4AB2BDBA"
+					item: { Count: 6, id: "immersiveengineering:steel_scaffolding_standard" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "312032CE75183985"
+					item: { Count: 4, id: "minecraft:cauldron" }
+					type: "item"
+				}
+			]
+			title: "Industrial Fermenter"
+			x: 8.0d
 			y: 3.0d
 		}
 		{
-			id: "63792671998838BB"
-			tasks: [{
-				id: "44A10AB41ED01B96"
-				item: "immersiveengineering:fermenter"
-				type: "item"
-			}]
-			x: 5.5d
-			y: 2.0d
-		}
-		{
+			dependencies: ["2468A11BD78A5360"]
+			hide_dependency_lines: true
+			icon: "immersiveengineering:mixer"
 			id: "74E8AE06038BAAEA"
-			tasks: [{
-				id: "434C052B98FA2739"
-				item: "immersiveengineering:mixer"
-				type: "item"
-			}]
-			x: 4.0d
-			y: 6.0d
+			tasks: [
+				{
+					count: 3L
+					id: "43336F2032A7919D"
+					item: { Count: 3, id: "immersiveengineering:fluid_pipe" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "39427F9FBDF10311"
+					item: { Count: 4, id: "immersiveengineering:light_engineering" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4905EBB441E023E4"
+					item: { Count: 4, id: "immersiveengineering:sheetmetal_iron" }
+					type: "item"
+				}
+				{
+					id: "406C7A202B36F4AC"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "4E2AB92D78C1D947"
+					item: { Count: 5, id: "immersiveengineering:steel_scaffolding_standard" }
+					type: "item"
+				}
+				{
+					id: "48213BC420404772"
+					item: "immersiveengineering:steel_fence"
+					type: "item"
+				}
+			]
+			title: "Mixer"
+			x: 6.5d
+			y: 4.5d
 		}
 		{
-			dependencies: ["3CFC37AD3571F1CE"]
+			dependencies: ["16D6FC58BA7C0AC4"]
 			id: "754FF06DAAAEAEAB"
 			tasks: [{
 				id: "427CCC18B18FD59B"
 				item: "pneumaticcraft:lubricant_bucket"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 10.5d
 			y: 7.0d
 		}
 		{
@@ -245,24 +202,6 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["2468A11BD78A5360"]
-			id: "00963DDA358D49A4"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "7857DCB735B08727"
-				table_id: 2636020884739909304L
-				type: "choice"
-			}]
-			size: 1.25d
-			tasks: [{
-				id: "51BD7D0B103EF31C"
-				item: "mbd2:washing_facility"
-				type: "item"
-			}]
-			x: -2.0d
-			y: 2.5d
-		}
-		{
 			dependencies: ["5E15F9A81350E9CB"]
 			id: "367F149393CAC18F"
 			tasks: [{
@@ -270,33 +209,12 @@
 				item: "mekanism:raw_osmium"
 				type: "item"
 			}]
-			x: -4.714285714285715d
-			y: 2.0d
-		}
-		{
-			dependencies: ["5E15F9A81350E9CB"]
-			id: "2C3DF8E532A51A6B"
-			tasks: [{
-				id: "21842FF2CCC0FF05"
-				item: "thermal:raw_tin"
-				type: "item"
-			}]
-			x: -5.5d
-			y: 2.732142857142847d
-		}
-		{
-			dependencies: ["5E15F9A81350E9CB"]
-			id: "294DC02AAE56BBAC"
-			tasks: [{
-				id: "05BA8027313CCF63"
-				item: "thermal:raw_lead"
-				type: "item"
-			}]
-			x: -5.5d
-			y: 3.732142857142847d
+			x: -2.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["2468A11BD78A5360"]
+			icon: "mbd2:drill_mk_i"
 			id: "1445775C649FB704"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -305,13 +223,20 @@
 				type: "choice"
 			}]
 			size: 1.25d
-			tasks: [{
-				id: "7CABEBB3F3401EAC"
-				item: "mbd2:drill_mk_i"
-				type: "item"
-			}]
-			x: -1.0d
-			y: 4.5d
+			tasks: [
+				{
+					id: "7CABEBB3F3401EAC"
+					item: "mbd2:drill_mk_i"
+					type: "item"
+				}
+				{
+					id: "3C3DB3C898458689"
+					item: "kubejs:steel_bore_head"
+					type: "item"
+				}
+			]
+			x: 1.25d
+			y: 5.0d
 		}
 		{
 			dependencies: [
@@ -324,8 +249,8 @@
 				item: "kubejs:raw_catericite"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 3.232142857142847d
+			x: -0.5d
+			y: 6.5d
 		}
 		{
 			dependencies: [
@@ -338,8 +263,8 @@
 				item: "kubejs:raw_darthium"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 5.0d
+			x: -1.1339285714285694d
+			y: 5.3125d
 		}
 		{
 			dependencies: [
@@ -352,8 +277,8 @@
 				item: "kubejs:raw_milothium"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 6.0d
+			x: -1.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["669D596D3652954F"]
@@ -363,57 +288,14 @@
 				item: "thermal:raw_nickel"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 5.0d
-		}
-		{
-			dependencies: ["669D596D3652954F"]
-			id: "0A389FF75B088A85"
-			tasks: [{
-				id: "11D532A9E4E4274E"
-				item: "immersiveengineering:raw_aluminum"
-				type: "item"
-			}]
-			x: -4.5d
-			y: 6.0d
-		}
-		{
-			dependencies: ["02DC75C1C6893D8D"]
-			id: "0E642C33F3417ED5"
-			tasks: [{
-				id: "4557953BEB708710"
-				item: "bigreactors:raw_yellorium"
-				type: "item"
-			}]
-			x: -3.0d
-			y: 7.0d
-		}
-		{
-			dependencies: ["02DC75C1C6893D8D"]
-			id: "14077CC11C44F172"
-			tasks: [{
-				id: "10B68A4E3B4CE052"
-				item: "immersiveengineering:raw_uranium"
-				type: "item"
-			}]
-			x: -2.0d
-			y: 7.5d
-		}
-		{
-			dependencies: ["1AD3741D52499E74"]
-			id: "3F5B2C69D420AE06"
-			tasks: [{
-				id: "70BEE4E655AE0F56"
-				item: "pneumaticcraft:air_compressor"
-				type: "item"
-			}]
-			x: 3.5d
-			y: 4.5d
+			x: -2.5d
+			y: 5.5d
 		}
 		{
 			dependencies: [
 				"2F7DDCAC3F2A55DD"
 				"754FF06DAAAEAEAB"
+				"012C411B18208096"
 			]
 			id: "426CFE1736BC8A1E"
 			rewards: [{
@@ -428,34 +310,8 @@
 				item: "mbd2:assembler"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 8.0d
-		}
-		{
-			dependencies: ["2F7DDCAC3F2A55DD"]
-			icon: "pneumaticcraft:pressure_chamber_interface"
-			id: "0C246C433B779881"
-			tasks: [
-				{
-					id: "01E1340BA94A1AF8"
-					item: "pneumaticcraft:pressure_chamber_interface"
-					type: "item"
-				}
-				{
-					id: "60AF48C632B6CA4A"
-					item: "pneumaticcraft:pressure_chamber_valve"
-					type: "item"
-				}
-				{
-					count: 24L
-					id: "1569A558F8E72241"
-					item: { Count: 24, id: "pneumaticcraft:pressure_chamber_wall" }
-					type: "item"
-				}
-			]
-			title: "Pressure Chamber"
-			x: 8.5d
-			y: 5.5d
+			x: 11.875d
+			y: 8.75d
 		}
 		{
 			dependencies: ["2468A11BD78A5360"]
@@ -469,20 +325,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
-			y: 2.5d
-		}
-		{
-			dependencies: ["1AD3741D52499E74"]
-			id: "50BA1BE4334915BA"
-			subtitle: "No pressure"
-			tasks: [{
-				id: "085452BA5CD5D3B3"
-				item: "pneumaticcraft:security_upgrade"
-				type: "item"
-			}]
-			x: 2.0d
-			y: 6.0d
+			x: 1.0d
+			y: 0.5d
 		}
 		{
 			dependencies: [
@@ -523,6 +367,422 @@
 			}]
 			x: 3.0d
 			y: -1.0d
+		}
+		{
+			dependencies: ["67106593CD3CB7BD"]
+			id: "4F8EFACB168588F2"
+			tasks: [{
+				id: "78940172AD9E8A88"
+				item: "mekanism:alloy_infused"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["348036A5BC77235C"]
+			id: "4FE6CAF6E4341912"
+			tasks: [{
+				id: "65B8F8B4C99DB040"
+				item: "mekanism:rotary_condensentrator"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2D86CB025543C6FD"]
+			id: "1168C1EE79FFB542"
+			tasks: [{
+				id: "3A54861C188B289D"
+				item: "mekanism:chemical_infuser"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1168C1EE79FFB542"]
+			id: "63D13EE1B2F1A228"
+			tasks: [{
+				id: "074281CE68EC717A"
+				item: "mekanism:sulfuric_acid_bucket"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["4FE6CAF6E4341912"]
+			id: "2D86CB025543C6FD"
+			tasks: [{
+				id: "34972A6CE432725C"
+				item: "mekanism:chemical_oxidizer"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["2468A11BD78A5360"]
+			id: "348036A5BC77235C"
+			tasks: [{
+				id: "7E745303C56C9D90"
+				item: "mekanism:electrolytic_separator"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["02DC75C1C6893D8D"]
+			id: "0A389FF75B088A85"
+			tasks: [{
+				id: "11D532A9E4E4274E"
+				item: "immersiveengineering:raw_aluminum"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["35855C390FC01279"]
+			id: "16D6FC58BA7C0AC4"
+			tasks: [{
+				id: "799D9ABFECC13E18"
+				item: "immersiveengineering:biodiesel_bucket"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"1445775C649FB704"
+				"63D13EE1B2F1A228"
+			]
+			id: "782D125E1BE4CAF5"
+			tasks: [{
+				id: "3D4029487015C913"
+				item: "thermal:oil_sand"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["0898568C788D7B4F"]
+			id: "1EFD185333D4EFD0"
+			tasks: [{
+				id: "6F0F0906FD25E709"
+				item: "thermal:machine_chiller"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["20B9DDCA9129E026"]
+			id: "0898568C788D7B4F"
+			tasks: [{
+				id: "0BE9EEF14916C513"
+				item: "pneumaticcraft:plastic_bucket"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["460E50301451CE7A"]
+			id: "62FAA0321BF6FA5B"
+			tasks: [{
+				id: "29CB459EA9ECD25C"
+				item: "thermal:machine_refinery"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["090B13FE2B4DF029"]
+			icon: "immersiveengineering:bottling_machine"
+			id: "646C00545B81508C"
+			tasks: [
+				{
+					id: "0875648AB2932416"
+					item: "immersiveengineering:fluid_pump"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "496F21AAD81C6774"
+					item: { Count: 2, id: "immersiveengineering:sheetmetal_iron" }
+					type: "item"
+				}
+				{
+					id: "4D9D48A648324A9A"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4909895EE1AA16A7"
+					item: { Count: 2, id: "immersiveengineering:light_engineering" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "57AE798F8CCBFC2B"
+					item: { Count: 3, id: "immersiveengineering:steel_scaffolding_standard" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "127704F275717FA5"
+					item: { Count: 3, id: "immersiveengineering:conveyor_basic" }
+					type: "item"
+				}
+				{
+					id: "74C642195180FF09"
+					item: "immersiveengineering:mold_plate"
+					type: "item"
+				}
+			]
+			title: "Bottling Machine"
+			x: 11.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1FBEC6C74EE0C32C"]
+			id: "012C411B18208096"
+			tasks: [{
+				id: "554EAAA9F9997D09"
+				item: "immersiveengineering:component_electronic_adv"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["646C00545B81508C"]
+			id: "2C0512E850870FB9"
+			tasks: [{
+				id: "07984DF4AC379576"
+				item: "immersiveengineering:plate_duroplast"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"5E734D4D2784738C"
+				"1903E571222588E1"
+			]
+			icon: "immersiveengineering:refinery"
+			id: "35855C390FC01279"
+			tasks: [
+				{
+					count: 5L
+					id: "70679753DA74113B"
+					item: { Count: 5, id: "immersiveengineering:fluid_pipe" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "2D2F513DD133AA7C"
+					item: { Count: 2, id: "immersiveengineering:light_engineering" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "40072A5A5551674B"
+					item: "immersiveengineering:heavy_engineering"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "244EBD0E6C6E0559"
+					item: { Count: 16, id: "immersiveengineering:sheetmetal_iron" }
+					type: "item"
+				}
+				{
+					id: "0B2BB1D31036921A"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "02B44C05F8C49244"
+					item: { Count: 8, id: "immersiveengineering:steel_scaffolding_standard" }
+					type: "item"
+				}
+			]
+			title: "Refinery"
+			x: 8.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["63792671998838BB"]
+			id: "5E734D4D2784738C"
+			tasks: [{
+				id: "02F618B067915D89"
+				item: "immersiveengineering:ethanol_bucket"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["74E8AE06038BAAEA"]
+			id: "1903E571222588E1"
+			tasks: [{
+				id: "573B27DD3A1C0377"
+				item: "immersiveengineering:plantoil_bucket"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"782D125E1BE4CAF5"
+				"12A99979D250B545"
+			]
+			dependency_requirement: "one_completed"
+			id: "460E50301451CE7A"
+			tasks: [{
+				id: "149123F42CE20C8F"
+				item: "thermal:crude_oil_bucket"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["62FAA0321BF6FA5B"]
+			id: "58C4A1ACCDB715B6"
+			tasks: [{
+				id: "5195B07FD8947BDB"
+				item: "thermal:heavy_oil_bucket"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["62FAA0321BF6FA5B"]
+			id: "7D3CC096DF0E1FCD"
+			tasks: [{
+				id: "01E72B013853B1E2"
+				item: "thermal:light_oil_bucket"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"62FAA0321BF6FA5B"
+				"58C4A1ACCDB715B6"
+				"7D3CC096DF0E1FCD"
+			]
+			dependency_requirement: "one_completed"
+			id: "20B9DDCA9129E026"
+			tasks: [{
+				id: "66DF8502815FE8DE"
+				item: "thermal:refined_fuel_bucket"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["426CFE1736BC8A1E"]
+			id: "35FEBC636877D245"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "772E24A0A9D5E438"
+				table_id: 2636020884739909304L
+				type: "choice"
+			}]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "Progress to &3Space Age&r"
+			tasks: [{
+				id: "38C8917121D75A22"
+				item: "kubejs:electrical_machine_casing"
+				type: "item"
+			}]
+			x: 13.75d
+			y: 10.0d
+		}
+		{
+			dependencies: ["2468A11BD78A5360"]
+			id: "1BCCA1D5A2C9E5AA"
+			tasks: [{
+				id: "1000A2F4E0E98D7E"
+				item: "mekanism:enrichment_chamber"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["35855C390FC01279"]
+			id: "090B13FE2B4DF029"
+			tasks: [{
+				id: "1D9293D4EBCAA2C4"
+				item: "immersiveengineering:phenolic_resin_bucket"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2C0512E850870FB9"]
+			icon: "immersiveengineering:auto_workbench"
+			id: "1FBEC6C74EE0C32C"
+			tasks: [
+				{
+					count: 4L
+					id: "7ECF668DA463048E"
+					item: { Count: 4, id: "immersiveengineering:conveyor_basic" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "45A6D2C8CAEDEC13"
+					item: { Count: 4, id: "immersiveengineering:light_engineering" }
+					type: "item"
+				}
+				{
+					id: "16CC27B5F71A72E7"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "30CF59E3372B36E7"
+					item: { Count: 2, id: "immersiveengineering:heavy_engineering" }
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "4753F7254B221DD7"
+					item: { Count: 5, id: "immersiveengineering:steel_scaffolding_standard" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "51A7AFE180737B98"
+					item: { Count: 2, id: "immersiveengineering:slab_treated_wood_horizontal" }
+					type: "item"
+				}
+			]
+			title: "Automated Engineer's Workbench"
+			x: 13.5d
+			y: 6.5d
 		}
 	]
 	title: "Electrical Age"

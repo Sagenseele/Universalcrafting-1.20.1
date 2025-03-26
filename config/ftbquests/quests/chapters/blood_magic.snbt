@@ -409,26 +409,15 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["25A4661A9202AC64"]
+			dependencies: ["3124EA08BA72043F"]
 			id: "1DD2F51524730BC2"
 			tasks: [{
 				id: "54CE533F47B83412"
 				item: "bloodmagic:weakbloodshard"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -4.0d
-		}
-		{
-			dependencies: ["558DB32EF30ACD1B"]
-			id: "25A4661A9202AC64"
-			tasks: [{
-				id: "5EA28899D234C231"
-				title: "Ritual"
-				type: "checkmark"
-			}]
-			x: -0.5d
-			y: -5.0d
+			x: -6.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["1F4A0441461B7D12"]
@@ -482,6 +471,127 @@
 			}]
 			x: -3.5d
 			y: 2.0d
+		}
+		{
+			dependencies: ["558DB32EF30ACD1B"]
+			id: "3124EA08BA72043F"
+			tasks: [{
+				id: "09FA0E0FE68D3063"
+				item: "bloodmagic:activationcrystalweak"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3124EA08BA72043F"]
+			description: [
+				"Your first ritual for unlimited lava. Place the Ritual Stones in a + Pattern with the Master Ritual Stone in the middle. Paint the outside 4 Ritual Stones with the Inscription Tool: Fire and right click with the Activation Crystal to enable the ritual. It costs 20.000 LF from your network and 500 LF per Lava tile (Above the Master Ritual Stone)."
+				""
+				"&8A&rR&8A&r"
+				"R&4M&rR"
+				"&8A&rR&8A&r"
+				""
+				"&8A = Any&r"
+				"R = Ritual Stone"
+				"&4M = Master Ritual Stone&r"
+			]
+			icon: "minecraft:lava_bucket"
+			id: "19CCC5FC96D793B3"
+			tasks: [
+				{
+					id: "52A9FB57BE24E921"
+					item: "bloodmagic:masterritualstone"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "394D852E9F905F9D"
+					item: { Count: 4, id: "bloodmagic:ritualstone" }
+					type: "item"
+				}
+			]
+			title: "Serenade of the Nether"
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3124EA08BA72043F"]
+			id: "72622E6BCCAF8624"
+			tasks: [{
+				id: "4DCDC42B361E6383"
+				item: "bloodmagic:ritualdiviner"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1F4A0441461B7D12"]
+			id: "7FC4DB66A651E6ED"
+			tasks: [{
+				id: "2EE457CA0F311C9F"
+				item: "bloodmagic:alchemytable"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7FC4DB66A651E6ED"]
+			id: "3D9F34C1D4D4A111"
+			tasks: [{
+				id: "55FDC896CF501C63"
+				item: {
+					Count: 1
+					id: "bloodmagic:arcaneashes"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3D9F34C1D4D4A111"]
+			description: ["Gives information about the altar or the blood network."]
+			id: "73718B22DA9990B6"
+			tasks: [{
+				id: "5175763003E18E62"
+				item: "bloodmagic:divinationsigil"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3D9F34C1D4D4A111"]
+			description: ["Right Click to void a fluid block."]
+			id: "27D74CB8E0500701"
+			tasks: [{
+				id: "2AEFCE28587BDCF0"
+				item: "bloodmagic:voidsigil"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3D9F34C1D4D4A111"]
+			id: "1AB89869C550C052"
+			tasks: [{
+				id: "2826F37D34315965"
+				item: {
+					Count: 1
+					id: "bloodmagic:growthsigil"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.5d
 		}
 	]
 	title: "Blood Magic"

@@ -61,7 +61,9 @@
 				table_id: 2636020884739909304L
 				type: "choice"
 			}]
+			shape: "rsquare"
 			size: 1.25d
+			subtitle: "Progress to &3Mechanical Age&r"
 			tasks: [{
 				id: "251F80FDC2C54A31"
 				item: "create:andesite_casing"

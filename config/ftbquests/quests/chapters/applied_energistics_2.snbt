@@ -123,7 +123,7 @@
 				item: "refinedstorage:4k_storage_part"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 6.5d
 			y: -5.5d
 		}
 		{
@@ -134,7 +134,7 @@
 				item: "refinedstorage:16k_storage_part"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 7.5d
 			y: -5.5d
 		}
 		{
@@ -145,7 +145,7 @@
 				item: "refinedstorage:64k_storage_part"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 8.5d
 			y: -5.5d
 		}
 		{
@@ -308,7 +308,7 @@
 			tasks: [
 				{
 					id: "0EB5E84040F039BB"
-					item: "ae2:pattern_access_terminal"
+					item: "ae2:pattern_encoding_terminal"
 					type: "item"
 				}
 				{
@@ -346,6 +346,7 @@
 				"6524803384F66AFE"
 			]
 			dependency_requirement: "one_completed"
+			description: ["You can pick up this block without breaking it with a &dMekanism&r Card Board Box"]
 			id: "455B054A18CAF226"
 			tasks: [{
 				id: "475A48D86BDBF640"
@@ -415,7 +416,7 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["12ED40E54915A7FE"]
+			dependencies: ["146CBE384DD72A1A"]
 			icon: "ae2:molecular_assembler"
 			id: "43EF66F6A6A90884"
 			subtitle: "Autocrafting at your hands"
@@ -431,8 +432,8 @@
 					type: "item"
 				}
 			]
-			x: -2.5d
-			y: -4.5d
+			x: -1.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["5E3CCADAF8871EB9"]
@@ -458,7 +459,7 @@
 			y: -8.5d
 		}
 		{
-			dependencies: ["146CBE384DD72A1A"]
+			dependencies: ["163943B8E662CB66"]
 			description: ["Because channels are disabled, the fluix cable is sufficient enough for connecting terminals and machines."]
 			id: "4E4589C510F75310"
 			tasks: [{
@@ -466,8 +467,8 @@
 				item: "ae2:fluix_glass_cable"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -2.0d
+			x: -5.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["146CBE384DD72A1A"]
@@ -549,6 +550,78 @@
 			}]
 			x: -8.5d
 			y: 1.5d
+		}
+		{
+			dependencies: ["0A64D42768523146"]
+			id: "163943B8E662CB66"
+			tasks: [{
+				count: 64L
+				id: "5347559E1A2445CF"
+				item: "ae2:fluix_crystal"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["23771B2B5A40ED33"]
+			id: "444773525B5946AF"
+			tasks: [{
+				id: "0285860CEE076568"
+				item: "ae2:wireless_crafting_terminal"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["324F572E9D4D8F19"]
+			id: "6F1FE8BFFB5B56B6"
+			tasks: [{
+				id: "54C0C11A70364D81"
+				item: "ae2wtlib:quantum_bridge_card"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"017F4047CC241ABE"
+				"444773525B5946AF"
+				"4BCF645496094D45"
+			]
+			id: "324F572E9D4D8F19"
+			min_required_dependencies: 2
+			tasks: [{
+				id: "1BD031E214767D4A"
+				item: "ae2wtlib:wireless_universal_terminal"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["586D1E893CC43C8A"]
+			id: "017F4047CC241ABE"
+			tasks: [{
+				id: "094F0F44C8A367CA"
+				item: "ae2wtlib:wireless_pattern_encoding_terminal"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2158AB91431D587D"]
+			id: "4BCF645496094D45"
+			tasks: [{
+				id: "126687E98EBC7801"
+				item: "appliede:wireless_transmutation_terminal"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -3.5d
 		}
 	]
 	title: "AE2/RS"

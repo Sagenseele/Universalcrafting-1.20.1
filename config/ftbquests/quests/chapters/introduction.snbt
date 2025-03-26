@@ -1,15 +1,35 @@
 {
 	default_hide_dependency_lines: false
-	default_quest_shape: ""
+	default_quest_shape: "square"
 	filename: "introduction"
 	group: ""
+	icon: "storagedrawers:creative_vending_upgrade"
 	id: "76F35E216876B70C"
+	images: [
+		{
+			height: 1.0d
+			image: "minecraft:block/command_block_back"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: -2.0d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Goal is the Creative Vending Upgrade."]
-			icon: "storagedrawers:creative_vending_upgrade"
+			dependencies: ["408326254AF9D128"]
+			description: ["Goal is the &l&4I&r&l&cn&r&l&df&r&l&5i&r&l&1n&r&l&9i&r&l&bt&r&l&3y&r &l&eT&r&l&6o&r&l&4k&r&l&ce&r&l&dn&r."]
+			icon: "kubejs:infinity_token"
 			id: "3D967ABE59777793"
 			shape: "gear"
 			size: 1.5d
@@ -17,8 +37,9 @@
 				id: "167F5CA807F0D7A8"
 				type: "checkmark"
 			}]
+			title: "The &5Goal&r"
 			x: 0.0d
-			y: 0.0d
+			y: 1.5d
 		}
 		{
 			description: [
@@ -39,8 +60,108 @@
 				type: "checkmark"
 			}]
 			title: "Keyboard Settings"
-			x: -1.0d
-			y: -2.0d
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			id: "079DF5F7F17FEEB0"
+			optional: true
+			rewards: [{
+				auto: "enabled"
+				command: "/ae2 channelmode default"
+				id: "0C768036C863D23D"
+				type: "command"
+			}]
+			tasks: [{
+				id: "4F6A79B67E07A720"
+				title: "Enable AE2 Channels"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			id: "7A229C655280C52D"
+			optional: true
+			rewards: [{
+				auto: "enabled"
+				command: "/ae2 channelmode infinite"
+				id: "3EFF1DC7DF5E3301"
+				type: "command"
+			}]
+			tasks: [{
+				id: "3B0218039499C6AC"
+				title: "Disable AE2 Channels"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Hover over any item and press &eR&r to see its' recipes or &eU&r to see its' products. "
+				""
+				"To use this in quests, you have to click into the quest and on the item. On the 'valid item' screen, you can use these two Keys."
+			]
+			id: "13DD6B8367230029"
+			tasks: [{
+				id: "51C5FE3BAD79A15F"
+				type: "checkmark"
+			}]
+			title: "Recipes and Usages"
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Multiblock Structures are machines, which the name suggests, which are build with specific blocks. Mods creating these multiblocks are &dMultiblocked2 (MBD2)&r and &dImmersive Engineering (IE)&r. "
+				""
+				"In the MBD2 preview, you can click on any block and see its' substitutes on the left side. This will help you decide where to put the input/output/energy/fluid/etc. hatches other than the suggested place."
+				""
+				"IE multiblocks are static and must be built as seen in the preview."
+			]
+			id: "5C0B5DB8B09E0DE7"
+			tasks: [{
+				id: "3EBBBAC2943E6769"
+				type: "checkmark"
+			}]
+			title: "Multiblocks"
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			id: "680C4E90F6D72C18"
+			tasks: [{
+				id: "0A2E10FECCD395C1"
+				type: "checkmark"
+			}]
+			title: "Suggestions for playing"
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			description: [
+				"Hello and welcome to my Modpack &6Universal Crafting&r."
+				""
+				"It's an Expert Modpack which uses multiple Mods to create its' own progression. It's a culmination of magic and tech mods like Botania, Blood Magic, Mekanism, Multiblocked2, Ars Nouveau and of course Applied Energistics 2 and Refined Storage."
+				""
+				"There are many multiblocks added and recipes tweaked to create the mentioned progression. Work trough the different ages of the Quest Book and get to the final goal: "
+				""
+				"The &l&4I&r&l&cn&r&l&df&r&l&5i&r&l&1n&r&l&9i&r&l&bt&r&l&3y&r &l&eT&r&l&6o&r&l&4k&r&l&ce&r&l&dn&r."
+			]
+			icon_scale: 0.8d
+			id: "408326254AF9D128"
+			shape: "heart"
+			size: 2.0d
+			tasks: [{
+				id: "180D73EC99D7045A"
+				type: "checkmark"
+			}]
+			title: "Welcome to &6Universal Crafting&r!"
+			x: 0.0d
+			y: -1.0d
 		}
 	]
 	title: "Introduction"

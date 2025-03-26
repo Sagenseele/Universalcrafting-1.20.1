@@ -28,25 +28,14 @@
 		{
 			dependencies: ["14371C1F880EFFBD"]
 			id: "16407104C2D7A594"
+			size: 2.0d
 			tasks: [{
 				id: "7E464B70CB42E035"
 				item: "kubejs:infinity_token"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["16407104C2D7A594"]
-			id: "1E93600328BE825E"
-			size: 3.0d
-			tasks: [{
-				id: "1159FBCDEDD0F322"
-				item: "storagedrawers:creative_vending_upgrade"
-				type: "item"
-			}]
-			x: 3.5714285714285765d
-			y: -1.4464285714285694d
+			x: 3.5d
+			y: -1.4732142857142811d
 		}
 		{
 			dependencies: ["0E58BC459E28738F"]
