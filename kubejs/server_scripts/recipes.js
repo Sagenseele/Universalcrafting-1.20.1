@@ -1,13 +1,51 @@
 ServerEvents.recipes(event => {
   
-  function defaultPlates(plate, ingot) {
-    event.recipes.create.pressing(plate, ingot)
+  function default_items(name) {
+    var nugget = 'kubejs:' + name + '_nugget'
+    var raw = 'raw_' + 'kubejs:' + name
+    var crushed = 'crushed_' + 'kubejs:' + name
+
+    default_plate(name)
+    default_rod(name)
+    default_smelting(name)
+    default_compacting(name)
   }
 
-  function defaultRods(rod, ingot) {
+  function default_plate(name) {
+    var plate = 'kubejs:' + name + '_plate'
+    var ingot = 'kubejs:' + name + '_ingot'
+    event.recipes.create.pressing(plate, ingot)
+    event.recipes.thermal.press(plate, ingot)
+  }
+
+  function default_rod(name) {
+    var ingot = 'kubejs:' + name + '_ingot'
+    var rod = 'kubejs:' + name + '_rod'
     event.recipes.farmersdelight.cutting(ingot, '#forge:saws', [('2x ' + rod).toString()])
   }
 
+  function default_smelting(name) {
+    var dust = 'kubejs:' + name + '_dust'
+    var ingot = 'kubejs:' + name + '_ingot'
+    event.recipes.smelting(ingot, dust)
+  }
+
+  function default_compacting(name) {
+    var nugget = 'kubejs:' + name + '_nugget'
+    var ingot = 'kubejs:' + name + '_ingot'
+    event.shapeless(
+      Item.of(ingot, 1),
+      [
+        '9x ' + nugget
+      ]
+    )
+    event.shapeless(
+      Item.of(nugget, 9),
+      [
+        '1x ' + ingot
+      ]
+    )
+  }
   //material testing kit
   event.shaped(
       Item.of('kubejs:material_testing_kit', 2),
@@ -239,7 +277,7 @@ ServerEvents.recipes(event => {
   event.replaceInput(
     { output: 'immersiveengineering:cokebrick' },
     'minecraft:clay_ball',
-    'kubejs:plate_blueish'
+    'kubejs:blueish_plate'
   )
   
   // Blast Bricks
@@ -270,17 +308,18 @@ ServerEvents.recipes(event => {
   // Blueish
   event.recipes.create.milling('thermal:iron_dust', '#forge:ingots/iron')
   event.shapeless(
-    Item.of('kubejs:dust_blueish', 2),
+    Item.of('kubejs:blueish_dust', 2),
     [
       '3x thermal:lapis_dust',
       '2x #forge:dusts/iron'
     ]
   )
-  event.smelting('kubejs:ingot_blueish', 'kubejs:dust_blueish')
-  defaultPlates('kubejs:plate_blueish', 'kubejs:ingot_blueish')
-  defaultRods('kubejs:rod_blueish', 'kubejs:ingot_blueish')
-  defaultPlates('kubejs:plate_yellow', 'kubejs:ingot_yellow')
-  defaultRods('kubejs:rod_yellow', 'kubejs:ingot_yellow')
+  default_items('blueish')
+
+  // Yellow
+  default_plate('yellow')
+  default_rod('yellow')
+
   
   
   
@@ -296,7 +335,7 @@ ServerEvents.recipes(event => {
       'A A'
     ],
     {
-      A: 'kubejs:rod_blueish',
+      A: 'kubejs:blueish_rod',
       B: '#forge:ingots/iron',
     }
   )
@@ -309,7 +348,7 @@ ServerEvents.recipes(event => {
     ],
     {
       A: 'kubejs:frame_tier1',
-      B: 'kubejs:plate_blueish'
+      B: 'kubejs:blueish_plate'
     }
   )
   event.shaped(
@@ -321,8 +360,8 @@ ServerEvents.recipes(event => {
     ],
     {
       A: 'minecraft:comparator',
-      B: 'kubejs:plate_blueish',
-      C: 'kubejs:rod_blueish'
+      B: 'kubejs:blueish_plate',
+      C: 'kubejs:blueish_rod'
     }
   )
   event.shaped(
@@ -335,7 +374,7 @@ ServerEvents.recipes(event => {
     {
       A: 'kubejs:multiblock_tier1',
       B: '#forge:ingots/steel',
-      C: 'kubejs:rod_blueish'
+      C: 'kubejs:blueish_rod'
     }
   )
   event.shaped(
@@ -359,7 +398,7 @@ ServerEvents.recipes(event => {
       ' A '
     ],
     {
-      A: 'kubejs:plate_blueish',
+      A: 'kubejs:blueish_plate',
       B: 'minecraft:chest'
       
     }
@@ -372,7 +411,7 @@ ServerEvents.recipes(event => {
       ' A '
     ],
     {
-      A: 'kubejs:plate_blueish',
+      A: 'kubejs:blueish_plate',
       B: 'minecraft:hopper'
     }
   )
@@ -398,8 +437,8 @@ ServerEvents.recipes(event => {
       'A A'
     ],
     {
-      A: 'kubejs:rod_yellow',
-      B: 'kubejs:ingot_blueish',
+      A: 'kubejs:yellow_rod',
+      B: 'kubejs:blueish_ingot',
     }
   )
   event.shaped(
@@ -411,7 +450,7 @@ ServerEvents.recipes(event => {
     ],
     {
       A: 'kubejs:frame_tier2',
-      B: 'kubejs:plate_yellow'
+      B: 'kubejs:yellow_plate'
     }
   )
   event.shaped(
@@ -423,8 +462,8 @@ ServerEvents.recipes(event => {
     ],
     {
       A: 'thermal:machine_frame',
-      B: 'kubejs:plate_yellow',
-      C: 'kubejs:rod_yellow'
+      B: 'kubejs:yellow_plate',
+      C: 'kubejs:yellow_rod'
     }
   )
   event.shaped(
@@ -435,7 +474,7 @@ ServerEvents.recipes(event => {
       ' A '
     ],
     {
-      A: 'kubejs:plate_yellow',
+      A: 'kubejs:yellow_plate',
       B: 'minecraft:chest'
       
     }
@@ -448,7 +487,7 @@ ServerEvents.recipes(event => {
       ' A '
     ],
     {
-      A: 'kubejs:plate_yellow',
+      A: 'kubejs:yellow_plate',
       B: 'minecraft:hopper'
     }
   )
@@ -460,8 +499,20 @@ ServerEvents.recipes(event => {
       ' A '
     ],
     {
-      A: 'kubejs:plate_yellow',
+      A: 'kubejs:yellow_plate',
       B: 'minecraft:bucket'
+    }
+  )
+  event.shaped(
+    Item.of('mbd2:energy_input_tier2', 1),
+    [
+      ' A ',
+      'ABA',
+      ' A '
+    ],
+    {
+      A: 'kubejs:yellow_plate',
+      B: 'minecraft:redstone_block'
     }
   )
   
@@ -475,7 +526,7 @@ ServerEvents.recipes(event => {
       'A A'
     ],
     {
-      A: 'kubejs:plate_blueish',
+      A: 'kubejs:blueish_plate',
       B: 'kubejs:coil_tier1'
     }
   )
@@ -488,7 +539,7 @@ ServerEvents.recipes(event => {
       ' A '
     ],
     {
-      A: 'kubejs:rod_blueish'
+      A: 'kubejs:blueish_rod'
     }
   )
 
@@ -558,7 +609,7 @@ ServerEvents.recipes(event => {
     {
       A: 'thermal:machine_frame',
       B: '#forge:plates/steel',
-      C: 'kubejs:rod_yellow'
+      C: 'kubejs:yellow_rod'
     }
   )
 
@@ -569,9 +620,9 @@ ServerEvents.recipes(event => {
     'kubejs:electric_motor'
   )
 
-  // metallurgic infuser
+  // Steel Casing (Mekanism)
   event.replaceInput(
-    { output: 'mekanism:metallurgic_infuser' },
+    { output: 'mekanism:steel_casing' },
     'mekanism:ingot_osmium',
     'thermal:machine_frame'
   )
@@ -664,8 +715,25 @@ ServerEvents.recipes(event => {
   // Grains of Infinity
   event.recipes.thermal.centrifuge([Item.of('minecraft:stone'), Item.of('enderio:grains_of_infinity').withChance(0.05)], 'minecraft:deepslate')
 
-  // Amethyst Shard
+  // Amethyst
+  event.recipes.bloodmagic.altar('minecraft:budding_amethyst', 'minecraft:amethyst_block').upgradeLevel(2).altarSyphon(10000).consumptionRate(500).drainRate(500)
+  event.recipes.smelting('minecraft:amethyst_shard', 'apotheosis:rare_material')
+  
+  // Catericite
+  event.recipes.smelting('mekanism:ingot_osmium', 'kubejs:raw_catericite')
+  
+  // Darthium
+  event.recipes.smelting('thermal:nickel_ingot', 'kubejs:raw_darthium')
 
-  // Mysticalagriculture
+  // Milothium
+  event.recipes.smelting('immersiveengineering:ingot_aluminum', 'kubejs:raw_milothium')
+
+  // Plastic
+  event.recipes.thermal.refinery([Fluid.of('pneumaticcraft:plastic', 1000)], Fluid.of('thermal:refined_fuel', 1000))
+  event.recipes.thermal.chiller('pneumaticcraft:plastic', [Fluid.of('pneumaticcraft:plastic', 1000)])
+  
+  // Lubricant
+  event.recipes.thermal.refinery([Fluid.of('pneumaticcraft:lubricant', 1000)], Fluid.of('immersiveengineering:biodiesel', 1000))
+
   
 })

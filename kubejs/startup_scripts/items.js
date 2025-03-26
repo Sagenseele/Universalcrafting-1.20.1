@@ -1,13 +1,6 @@
 // priority: 0
 
-StartupEvents.registry('item', event => {
-    
-    event.create('rough_data_card_substrate').texture('kubejs:item/rough_data_card_substrate')
-    event.create('polished_data_card_substrate').texture('kubejs:item/polished_data_card_substrate')
-    event.create('data_card_connector').texture('kubejs:item/data_card_connector')
-    event.create('blank_data_card').texture('kubejs:item/blank_data_card')
-    event.create('mob_simulation_data').texture('kubejs:item/mob_simulation_data')
-    
+StartupEvents.registry('item', event => { 
     event.create('nutrient_pulp').texture('kubejs:item/nutrient_pulp')
     event.create('nutrient_bar').food(food => {
         food
@@ -22,6 +15,54 @@ StartupEvents.registry('item', event => {
         .saturation(24)
         .alwaysEdible()
     }).texture('kubejs:item/cake_amalgamation')
+
+    function standard_material(name) {
+        var dust = name + '_dust'
+        var ingot = name + '_ingot'
+        var plate = name + '_plate'
+        var rod = name + '_rod'
+        var nugget = name + '_nugget'
+        event.create(dust).texture('kubejs:item/' + dust)
+        event.create(ingot).texture('kubejs:item/' + ingot)
+        event.create(plate).texture('kubejs:item/' + plate)
+        event.create(rod).texture('kubejs:item/' + rod)
+        event.create(nugget).texture('kubejs:item/' + nugget)
+    }
+
+    function standard_ore(name) {
+        var raw = 'raw_' + name
+        var crushed = 'crushed_' + name
+        event.create(raw).texture('kubejs:item/' + raw)
+        event.create(crushed).texture('kubejs:item/' + crushed)
+        standard_material(name)
+    }
+    
+    standard_material('blue')
+    standard_material('blueish')
+    standard_material('galvanized')
+    standard_material('orangeish')
+    standard_material('pale_green')
+    standard_material('pale_yellow')
+    standard_material('red')
+    standard_material('redish')
+    standard_material('soilent')
+    standard_material('turquoise')
+    standard_material('yellow')
+    
+    standard_ore('catericite')
+    standard_ore('darthium')
+    standard_ore('ecolinit')
+    standard_ore('milothium')
+    standard_ore('titan')
+    standard_ore('mangan')
+    standard_ore('cobalt')
+    standard_ore('platinum')
+    
+    event.create('wood_splinter').texture('kubejs:item/wood_splinter')
+    event.create('rotor').texture('kubejs:item/rotor')
+    event.create('stator').texture('kubejs:item/stator')
+    event.create('electric_motor').texture('kubejs:item/electric_motor')
+
     event.create('crystal_inferium').texture('kubejs:item/crystal_inferium').displayName('Inferium Crystal')
     event.create('crystal_prudentium').texture('kubejs:item/crystal_prudentium').displayName('Prudentium Crystal')
     event.create('crystal_tertium').texture('kubejs:item/crystal_tertium').displayName('Tertium Crystal')
@@ -43,51 +84,12 @@ StartupEvents.registry('item', event => {
     event.create('gem_data_card').texture('kubejs:item/gem_data_card')
     event.create('nuclear_data_card').texture('kubejs:item/nuclear_data_card')
     event.create('emc_data_card').texture('kubejs:item/emc_data_card')
+    event.create('universal_badge').texture('kubejs:item/universal_badge')
+    event.create('rough_data_card_substrate').texture('kubejs:item/rough_data_card_substrate')
+    event.create('polished_data_card_substrate').texture('kubejs:item/polished_data_card_substrate')
+    event.create('data_card_connector').texture('kubejs:item/data_card_connector')
+    event.create('blank_data_card').texture('kubejs:item/blank_data_card')
+    event.create('mob_simulation_data').texture('kubejs:item/mob_simulation_data')
     event.create('inert_infinity_token').texture('kubejs:item/inert_infinity_token')
     event.create('infinity_token').texture('kubejs:item/infinity_token')
-    event.create('crushed_raw_titan').texture('')
-    event.create('crushed_raw_mangan').texture('')
-    event.create('crushed_raw_cobalt').texture('')
-    event.create('dust_blue').texture('kubejs:item/dust_blue')
-    event.create('dust_blueish').texture('kubejs:item/dust_blueish')
-    event.create('dust_galvanized').texture('kubejs:item/dust_galvanized')
-    event.create('dust_orangeish').texture('kubejs:item/dust_orangeish')
-    event.create('dust_pale_green').texture('kubejs:item/dust_pale_green')
-    event.create('dust_pale_yellow').texture('kubejs:item/dust_pale_yellow')
-    event.create('dust_red').texture('kubejs:item/dust_red')
-    event.create('dust_redish').texture('kubejs:item/dust_redish')
-    event.create('dust_soilent').texture('kubejs:item/dust_soilent')
-    event.create('dust_turquoise').texture('kubejs:item/dust_turquoise')
-    event.create('dust_yellow').texture('kubejs:item/dust_yellow')
-    event.create('ingot_blue').texture('kubejs:item/ingot_blue')
-    event.create('ingot_blueish').texture('kubejs:item/ingot_blueish')
-    event.create('ingot_galvanized').texture('kubejs:item/ingot_galvanized')
-    event.create('ingot_orangeish').texture('kubejs:item/ingot_orangeish')
-    event.create('ingot_pale_green').texture('kubejs:item/ingot_pale_green')
-    event.create('ingot_pale_yellow').texture('kubejs:item/ingot_pale_yellow')
-    event.create('ingot_red').texture('kubejs:item/ingot_red')
-    event.create('ingot_redish').texture('kubejs:item/ingot_redish')
-    event.create('ingot_soilent').texture('kubejs:item/ingot_soilent')
-    event.create('ingot_turquoise').texture('kubejs:item/ingot_turquoise')
-    event.create('ingot_yellow').texture('kubejs:item/ingot_yellow')
-    event.create('plate_blue').texture('kubejs:item/plate_blue')
-    event.create('plate_blueish').texture('kubejs:item/plate_blueish')
-    event.create('plate_galvanized').texture('kubejs:item/plate_galvanized')
-    event.create('plate_orangeish').texture('kubejs:item/plate_orangeish')
-    event.create('plate_pale_green').texture('kubejs:item/plate_pale_green')
-    event.create('plate_pale_yellow').texture('kubejs:item/plate_pale_yellow')
-    event.create('plate_red').texture('kubejs:item/plate_red')
-    event.create('plate_redish').texture('kubejs:item/plate_redish')
-    event.create('plate_soilent').texture('kubejs:item/plate_soilent')
-    event.create('plate_turquoise').texture('kubejs:item/plate_turquoise')
-    event.create('plate_yellow').texture('kubejs:item/plate_yellow')
-    event.create('rod_blueish').texture('kubejs:item/rod_blueish')
-    event.create('rod_yellow').texture('kubejs:item/rod_yellow')
-    event.create('wood_splinter').texture('kubejs:item/wood_splinter')
-    event.create('rotor').texture('kubejs:item/rotor')
-    event.create('stator').texture('kubejs:item/stator')
-    event.create('electric_motor').texture('kubejs:item/electric_motor')
-    event.create('raw_catericite').texture('kubejs:item/raw_catericite')
-    event.create('raw_darthium').texture('kubejs:item/raw_darthium')
-    event.create('raw_milothium').texture('kubejs:item/raw_milothium')
 })
