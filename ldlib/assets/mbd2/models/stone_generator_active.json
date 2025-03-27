@@ -1,0 +1,9 @@
+{
+	"parent": "minecraft:block/orientable",
+	"textures": {
+		"front": "kubejs:block/stone_generator_active",
+		"side": "kubejs:block/stone_generator_all",
+		"top": "kubejs:block/stone_generator_all",
+		"bottom": "kubejs:block/stone_generator_all"
+	}
+}
