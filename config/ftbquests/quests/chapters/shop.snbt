@@ -2,6 +2,7 @@
 	consume_items: true
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
+	default_repeatable_quest: true
 	filename: "shop"
 	group: ""
 	icon: "kubejs:universal_badge"
@@ -10,7 +11,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			can_repeat: true
 			icon: "minecraft:diamond_ore"
 			id: "10CDF7B5459F4D6C"
 			optional: true
@@ -27,11 +27,10 @@
 				type: "item"
 			}]
 			title: "&b16x Diamond Ore&r"
-			x: -5.0d
+			x: -4.5d
 			y: 0.5d
 		}
 		{
-			can_repeat: true
 			icon: "ae2:flawless_budding_quartz"
 			id: "378B4416074F4ACE"
 			optional: true
@@ -51,7 +50,6 @@
 			y: -1.5d
 		}
 		{
-			can_repeat: true
 			icon: "minecraft:iron_ore"
 			id: "41DB628D86A2C9B4"
 			optional: true
@@ -72,7 +70,6 @@
 			y: -1.5d
 		}
 		{
-			can_repeat: true
 			icon: "minecraft:redstone_ore"
 			id: "65D9AE7CFCDA3490"
 			optional: true
@@ -93,7 +90,6 @@
 			y: -1.5d
 		}
 		{
-			can_repeat: true
 			icon: "minecraft:blackstone"
 			id: "4780D70777329CFE"
 			optional: true
@@ -142,6 +138,7 @@
 		{
 			icon: "minecraft:lapis_ore"
 			id: "1BDCFCE7DEDD4FE2"
+			optional: true
 			rewards: [{
 				count: 64
 				id: "6239127DB11375EF"
@@ -159,7 +156,6 @@
 			y: -0.5d
 		}
 		{
-			can_repeat: true
 			icon: "bigreactors:deepslate_yellorite_ore"
 			id: "75423991A725D491"
 			optional: true
@@ -178,6 +174,26 @@
 			title: "&b64x Deepslate Yellorium Ore&r"
 			x: -4.5d
 			y: -0.5d
+		}
+		{
+			icon: "mysticalagriculture:inferium_ore"
+			id: "7E52708BB82BA7A7"
+			optional: true
+			rewards: [{
+				count: 64
+				id: "12245797265FAD82"
+				item: "mysticalagriculture:inferium_ore"
+				type: "item"
+			}]
+			tasks: [{
+				count: 10L
+				id: "46EE9B8DA23CFAAB"
+				item: { Count: 10, id: "kubejs:universal_badge" }
+				type: "item"
+			}]
+			title: "&b64x Inferium Ore&r"
+			x: -5.5d
+			y: 0.5d
 		}
 	]
 	title: "Shop"
