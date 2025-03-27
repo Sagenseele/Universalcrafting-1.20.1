@@ -581,7 +581,7 @@ ServerEvents.recipes(event => {
   event.replaceInput(
     { output: 'ad_astra:nasa_workbench' },
     'minecraft:crafting_table',
-    'pneumaticcraft:printed_circuit_board'
+    'kubejs:electrical_machine_casing'
   )
   
   // Cobblestone Generator
@@ -708,6 +708,23 @@ ServerEvents.recipes(event => {
       G: 'immersiveengineering:component_electronic_adv'
     }
   ).replaceIngredient('pneumaticcraft:lubricant_bucket', 'minecraft:bucket') 
+
+  // Crystal Chamber
+  event.shaped(
+    Item.of('mbd2:crystal_chamber', 1),
+    [
+      'DDD',
+      'EAE',
+      'CBC'
+    ],
+    {
+      A: 'ae2:fluix_pearl',
+      B: 'ae2:fluix_block',
+      C: 'pneumaticcraft:plastic',
+      D: 'ae2:cut_quartz_slab',
+      E: 'mekanism:block_osmium'
+    }
+  )
 
   // Flawless Budding Certus Quartz
   event.recipes.bloodmagic.altar('ae2:flawless_budding_quartz', 'ae2:flawed_budding_quartz').upgradeLevel(2).altarSyphon(10000).consumptionRate(500).drainRate(500)
