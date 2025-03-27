@@ -199,6 +199,11 @@
 			dependencies: ["37B32C20370A246E"]
 			icon: "twilightforest:twilight_portal_miniature_structure"
 			id: "50239BC15503E0D2"
+			rewards: [{
+				id: "4E379BCA4715A329"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			size: 1.25d
 			tasks: [{
 				dimension: "twilightforest:twilight_forest"
@@ -212,6 +217,11 @@
 		{
 			dependencies: ["50239BC15503E0D2"]
 			id: "7C19C07EFE5FDABF"
+			rewards: [{
+				id: "4F0CB713639705FA"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			size: 1.2d
 			tasks: [{
 				id: "47BBC35D8F141EFC"
@@ -224,6 +234,11 @@
 		{
 			dependencies: ["132AB45B419EB8C1"]
 			id: "65EA554C4225D086"
+			rewards: [{
+				id: "7F5C8DCBD6BA7156"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			size: 1.2d
 			tasks: [{
 				id: "2754EC66FA67B8F5"
@@ -236,6 +251,11 @@
 		{
 			dependencies: ["65EA554C4225D086"]
 			id: "57EA06FFF78BF612"
+			rewards: [{
+				id: "095091FA0AF3EBFD"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			size: 1.2d
 			tasks: [{
 				id: "6102E790B1904D42"
@@ -248,6 +268,11 @@
 		{
 			dependencies: ["5440F2647AF777B3"]
 			id: "6D2585BE6E040580"
+			rewards: [{
+				id: "607516248DBD0B8E"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			size: 1.2d
 			tasks: [{
 				id: "545D9B8F280E2302"
@@ -260,6 +285,11 @@
 		{
 			dependencies: ["132AB45B419EB8C1"]
 			id: "27F2EC4AA857E8B4"
+			rewards: [{
+				id: "6B83891F5BFDB3B5"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			size: 1.2d
 			tasks: [{
 				id: "3394D4AB6B61991E"
@@ -272,6 +302,11 @@
 		{
 			dependencies: ["27F2EC4AA857E8B4"]
 			id: "6744FE33F2CAE996"
+			rewards: [{
+				id: "1EA9F2907D1C22F2"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			size: 1.2d
 			tasks: [{
 				id: "6DD4ABD6DE1015F8"
@@ -284,6 +319,11 @@
 		{
 			dependencies: ["50239BC15503E0D2"]
 			id: "3289200DACEE708B"
+			rewards: [{
+				id: "12765029F3FF197B"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			size: 1.2d
 			tasks: [{
 				id: "7CE7D3BCE0B898B9"
@@ -296,6 +336,11 @@
 		{
 			dependencies: ["7C19C07EFE5FDABF"]
 			id: "132AB45B419EB8C1"
+			rewards: [{
+				id: "74FB6EA4BEFDD4CB"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			size: 1.2d
 			tasks: [{
 				id: "6B398600E7B2C212"
@@ -308,6 +353,11 @@
 		{
 			dependencies: ["132AB45B419EB8C1"]
 			id: "5440F2647AF777B3"
+			rewards: [{
+				id: "0AEAFA87792DFD9E"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			size: 1.2d
 			tasks: [{
 				id: "73FEB06A93854CE1"
@@ -320,6 +370,11 @@
 		{
 			dependencies: ["27F2EC4AA857E8B4"]
 			id: "3A317FC55AB815EE"
+			rewards: [{
+				id: "138F81634F5C6A73"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			shape: "circle"
 			tasks: [{
 				id: "73F62615627CE6A4"

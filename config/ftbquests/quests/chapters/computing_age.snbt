@@ -116,6 +116,26 @@
 			x: 2.0d
 			y: -0.5d
 		}
+		{
+			id: "476D9DAD13EEF4CD"
+			tasks: [{
+				id: "0D09AA63A44DCF02"
+				title: "High Speed Computer"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			id: "3F8B669BB5789B32"
+			tasks: [{
+				id: "562A00FBB69A8DEF"
+				item: "powah:steel_energized"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.5d
+		}
 	]
 	title: "Computing Age"
 }

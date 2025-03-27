@@ -10,11 +10,18 @@
 	quests: [
 		{
 			id: "0AF2FE192BE0715D"
-			rewards: [{
-				id: "36BAEF11FCA2F900"
-				item: "botania:lexicon"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "36BAEF11FCA2F900"
+					item: "botania:lexicon"
+					type: "item"
+				}
+				{
+					id: "1BC61129CF4EACD5"
+					item: "kubejs:universal_badge"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "591B7875F3CD97D4"
 				item: "botania:apothecary_default"
@@ -26,6 +33,11 @@
 		{
 			dependencies: ["6EB31D4642BBB1FE"]
 			id: "1C632A2876ED0C18"
+			rewards: [{
+				id: "0A64564C43885F29"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5CF95F05DE72DE6A"
 				item: "botania:rune_water"
@@ -37,6 +49,11 @@
 		{
 			dependencies: ["6EB31D4642BBB1FE"]
 			id: "743CF055CD7D442A"
+			rewards: [{
+				id: "2A3BAA1056E877CC"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "419D004C2A637C2E"
 				item: "botania:rune_fire"
@@ -48,6 +65,11 @@
 		{
 			dependencies: ["6EB31D4642BBB1FE"]
 			id: "6C4F724519FE87DA"
+			rewards: [{
+				id: "0A6FA4CE4BA96D99"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4EA275C29AEA6B57"
 				item: "botania:rune_earth"
@@ -59,6 +81,11 @@
 		{
 			dependencies: ["6EB31D4642BBB1FE"]
 			id: "479E94130A6B0FDC"
+			rewards: [{
+				id: "22154BAE0EB45598"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "017284448783E32C"
 				item: "botania:rune_air"
@@ -70,6 +97,11 @@
 		{
 			dependencies: ["3B422CEE37326317"]
 			id: "6EB31D4642BBB1FE"
+			rewards: [{
+				id: "237E51C97F5473D8"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2D82235A7EE29165"
 				item: "botania:runic_altar"
@@ -81,6 +113,11 @@
 		{
 			dependencies: ["6EB31D4642BBB1FE"]
 			id: "67CF1F70242D9CDD"
+			rewards: [{
+				id: "188D0CC03221570F"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0710F5F2E5BD0FC1"
 				item: "botania:rune_spring"
@@ -92,6 +129,11 @@
 		{
 			dependencies: ["6EB31D4642BBB1FE"]
 			id: "61D55B100FC771DA"
+			rewards: [{
+				id: "10D07EF65848AEFB"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "69B472201925918A"
 				item: "botania:rune_summer"
@@ -103,6 +145,11 @@
 		{
 			dependencies: ["6EB31D4642BBB1FE"]
 			id: "26CFCB1970D35858"
+			rewards: [{
+				id: "6E3207C653474CEF"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "679C415B33576D0F"
 				item: "botania:rune_autumn"
@@ -114,6 +161,11 @@
 		{
 			dependencies: ["6EB31D4642BBB1FE"]
 			id: "70DB3891298CAB1E"
+			rewards: [{
+				id: "367228C538601FDC"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "77802F03D95AB129"
 				item: "botania:rune_winter"
@@ -125,6 +177,11 @@
 		{
 			dependencies: ["6EB31D4642BBB1FE"]
 			id: "6BBEBE652FE282AC"
+			rewards: [{
+				id: "441D346A43377AD2"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0BA0F5DF71A2438C"
 				item: "botania:rune_mana"
@@ -136,6 +193,11 @@
 		{
 			dependencies: ["6EB31D4642BBB1FE"]
 			id: "5C49CACCC6F0F07E"
+			rewards: [{
+				id: "35FD91DC82012842"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "17E5DEEDD6FE2470"
 				item: "botania:rune_lust"
@@ -147,6 +209,11 @@
 		{
 			dependencies: ["6EB31D4642BBB1FE"]
 			id: "3562602B848CB0C8"
+			rewards: [{
+				id: "6BA07E807C359187"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "09AE4473B16CA898"
 				item: "botania:rune_gluttony"
@@ -158,6 +225,11 @@
 		{
 			dependencies: ["6EB31D4642BBB1FE"]
 			id: "0A6FD817480EE21F"
+			rewards: [{
+				id: "7F1844FD60A6D7C4"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5FC7B0F0C4B1F379"
 				item: "botania:rune_greed"
@@ -169,6 +241,11 @@
 		{
 			dependencies: ["6EB31D4642BBB1FE"]
 			id: "1B960C33FC9C8835"
+			rewards: [{
+				id: "1C61C1EDC298539B"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "571D310F5DB3797D"
 				item: "botania:rune_sloth"
@@ -180,6 +257,11 @@
 		{
 			dependencies: ["6EB31D4642BBB1FE"]
 			id: "638632067E77041A"
+			rewards: [{
+				id: "029C7FF84D78DE7F"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7420FF98C6C02B74"
 				item: "botania:rune_wrath"
@@ -191,6 +273,11 @@
 		{
 			dependencies: ["6EB31D4642BBB1FE"]
 			id: "1F75C5C9A6139A98"
+			rewards: [{
+				id: "098AD3DF5E8CC816"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "175E9E30FBABA48B"
 				item: "botania:rune_envy"
@@ -202,6 +289,11 @@
 		{
 			dependencies: ["6EB31D4642BBB1FE"]
 			id: "373BA60B6D3B3704"
+			rewards: [{
+				id: "125F611E68D6E8DF"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "331D8E2E08CBFB27"
 				item: "botania:rune_pride"
@@ -213,6 +305,11 @@
 		{
 			dependencies: ["00E2DD6737806134"]
 			id: "3BC7A50130919D3C"
+			rewards: [{
+				id: "70DC83DD5B65F529"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2689C5C8334AEA58"
 				item: "botania:mana_pool"
@@ -224,6 +321,11 @@
 		{
 			dependencies: ["0AF2FE192BE0715D"]
 			id: "00E2DD6737806134"
+			rewards: [{
+				id: "123E4807CF91CB46"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3D400011993FEF6F"
 				item: "botania:pure_daisy"
@@ -235,6 +337,11 @@
 		{
 			dependencies: ["3BC7A50130919D3C"]
 			id: "3B422CEE37326317"
+			rewards: [{
+				id: "1719EA307059A911"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "15563BEC63334774"
 				item: "botania:mana_spreader"
@@ -246,6 +353,11 @@
 		{
 			dependencies: ["0AF2FE192BE0715D"]
 			id: "4FEB4BA5FA2CB918"
+			rewards: [{
+				id: "1776EC1C0F021136"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0697920F242B15C0"
 				item: "botania:hydroangeas"
@@ -258,6 +370,11 @@
 			dependencies: ["0AF2FE192BE0715D"]
 			description: ["Throw Burnable Items beneath it on the ground to feed it."]
 			id: "728D6D55C5B8E291"
+			rewards: [{
+				id: "1D80E74DEC8FAFCA"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1B3BEFC4A2AEFAE9"
 				item: "botania:endoflame"
@@ -269,6 +386,11 @@
 		{
 			dependencies: ["0AF2FE192BE0715D"]
 			id: "1B10754A25324D69"
+			rewards: [{
+				id: "3CE813ED32A90CD4"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "42C181ECC54857C0"
 				item: "botania:kekimurus"

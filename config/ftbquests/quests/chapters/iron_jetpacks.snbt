@@ -17,6 +17,11 @@
 	quests: [
 		{
 			id: "3EAE70765ECEC35E"
+			rewards: [{
+				id: "4F98C9CBD2E550FB"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "68E2AFB0F7DAACB8"
 				item: {
@@ -36,6 +41,11 @@
 		{
 			dependencies: ["3EAE70765ECEC35E"]
 			id: "30427F204A79B77C"
+			rewards: [{
+				id: "60FE38D8EF1F531E"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "475F5C6664960143"
 				item: {
@@ -55,6 +65,11 @@
 		{
 			dependencies: ["30427F204A79B77C"]
 			id: "5BC088B819512811"
+			rewards: [{
+				id: "0E1BE07F78E76B20"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "359BB4D40955F5C8"
 				item: {
@@ -74,6 +89,11 @@
 		{
 			dependencies: ["5BC088B819512811"]
 			id: "4C8F08673FA0EE30"
+			rewards: [{
+				id: "2C5810DAA58A12AB"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "11A5D735E3B4B4CA"
 				item: {
@@ -93,6 +113,11 @@
 		{
 			dependencies: ["4C8F08673FA0EE30"]
 			id: "7A606E5036668631"
+			rewards: [{
+				id: "0B8326D437E025C5"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "726F232A93B4C218"
 				item: {
@@ -112,6 +137,11 @@
 		{
 			dependencies: ["7A606E5036668631"]
 			id: "54D2AFFDAF867654"
+			rewards: [{
+				id: "15528259744F7490"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5FA586B8CE264610"
 				item: {
@@ -131,6 +161,11 @@
 		{
 			dependencies: ["4CA57476096E68DC"]
 			id: "0CCD1EB53CED05EE"
+			rewards: [{
+				id: "378F417762D80CDE"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "33DEEE40898D651E"
 				item: {
@@ -150,6 +185,11 @@
 		{
 			dependencies: ["54D2AFFDAF867654"]
 			id: "4CA57476096E68DC"
+			rewards: [{
+				id: "1EA2A827BD93509A"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "74DB0F1B34FDF46B"
 				item: {
@@ -169,6 +209,11 @@
 		{
 			dependencies: ["0CCD1EB53CED05EE"]
 			id: "5A6947F575AF0A3B"
+			rewards: [{
+				id: "080A9545FB573001"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3FF20828FB4FDBE2"
 				item: {
@@ -188,6 +233,11 @@
 		{
 			dependencies: ["5A6947F575AF0A3B"]
 			id: "4088F66324F97AD5"
+			rewards: [{
+				id: "49B789F8EF8479F1"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "735DBD33CC27CB97"
 				item: {
@@ -207,6 +257,11 @@
 		{
 			dependencies: ["4088F66324F97AD5"]
 			id: "5BAD021B73DD5A0C"
+			rewards: [{
+				id: "031A4F1AB1C0A889"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "14259389C8DD2FC8"
 				item: {
@@ -226,6 +281,11 @@
 		{
 			dependencies: ["5BAD021B73DD5A0C"]
 			id: "27BC68E572A1F004"
+			rewards: [{
+				id: "2C79DAA9458AAC29"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0FCB79CA17D8A876"
 				item: {
@@ -245,6 +305,11 @@
 		{
 			dependencies: ["27BC68E572A1F004"]
 			id: "4BB15F2BC2C20038"
+			rewards: [{
+				id: "312493F640D1A585"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "748BA25B3E474517"
 				item: {
@@ -264,6 +329,11 @@
 		{
 			dependencies: ["4BB15F2BC2C20038"]
 			id: "5EFAEA672AD8483B"
+			rewards: [{
+				id: "3743C02C26C5BBE5"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2E99EB03A08C5612"
 				item: {

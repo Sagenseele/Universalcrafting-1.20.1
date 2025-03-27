@@ -81,6 +81,11 @@
 			icon: "silentgear:pickaxe_blueprint"
 			icon_scale: 1.2d
 			id: "1F11DAC66E331BA7"
+			rewards: [{
+				id: "36960E9D342EFC0C"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			size: 1.0d
 			tasks: [{
 				id: "61A358CFCB9BBBA2"
@@ -95,6 +100,11 @@
 			dependencies: ["2DD6FBEB1AF9835A"]
 			icon: "silentgear:sword_blueprint"
 			id: "669F000B36F1FE2F"
+			rewards: [{
+				id: "50DA6CC34B4F059D"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			size: 1.0d
 			tasks: [{
 				id: "305216337407DBD0"
@@ -108,6 +118,11 @@
 			dependencies: ["2DD6FBEB1AF9835A"]
 			icon: "silentgear:machete_blueprint"
 			id: "334D4FCAD9371DBB"
+			rewards: [{
+				id: "5E8404A1666DA540"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "184225D3366C2A18"
 				item: "silentgear:machete_blueprint"
@@ -121,6 +136,11 @@
 			icon: "silentgear:bow_blueprint"
 			icon_scale: 1.2d
 			id: "3DA65B58F90AF48A"
+			rewards: [{
+				id: "32CE15ED5F729762"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0D669B189418075F"
 				item: "silentgear:bow_blueprint"
@@ -133,6 +153,11 @@
 			dependencies: ["2DD6FBEB1AF9835A"]
 			icon: "silentgear:crossbow_blueprint"
 			id: "265FCAEB9E918A0B"
+			rewards: [{
+				id: "7C1825DDE49CDD06"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3EB2A6424C9A6C45"
 				item: "silentgear:crossbow_blueprint"
@@ -145,6 +170,11 @@
 			dependencies: ["2DD6FBEB1AF9835A"]
 			icon: "silentgear:slingshot_blueprint"
 			id: "3421A875C1E03482"
+			rewards: [{
+				id: "2AD008D3F354DFBA"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			size: 1.0d
 			tasks: [{
 				id: "4BC79B5703AB55CC"
@@ -159,6 +189,11 @@
 			icon: "silentgear:rod_blueprint"
 			icon_scale: 1.2d
 			id: "5694C88214476FAF"
+			rewards: [{
+				id: "343AACC0B273CA9B"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			size: 1.0d
 			tasks: [{
 				id: "607F56C26B1E82FE"
@@ -172,6 +207,11 @@
 			dependencies: ["2DD6FBEB1AF9835A"]
 			icon: "silentgear:tip_blueprint"
 			id: "560DDE07A65221AB"
+			rewards: [{
+				id: "3E659C4E5E96D0B1"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3E36ECF34C8ACBB1"
 				item: "silentgear:tip_blueprint"
@@ -184,6 +224,11 @@
 			dependencies: ["2DD6FBEB1AF9835A"]
 			icon: "silentgear:paxel_blueprint"
 			id: "73F5F7CE1AF64672"
+			rewards: [{
+				id: "108E7D92328677F9"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			size: 1.0d
 			tasks: [{
 				id: "507F64A191054554"
@@ -197,6 +242,11 @@
 			dependencies: ["2DD6FBEB1AF9835A"]
 			icon: "silentgear:katana_blueprint"
 			id: "2B8319861B7457C2"
+			rewards: [{
+				id: "1293AD17CE8DA132"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1A03700D1B514223"
 				item: "silentgear:katana_blueprint"
@@ -209,6 +259,11 @@
 			dependencies: ["2DD6FBEB1AF9835A"]
 			icon: "silentgear:spear_blueprint"
 			id: "66E022BD5B390F7E"
+			rewards: [{
+				id: "103C5E04C9BE8425"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "157D452C8E4216A1"
 				item: "silentgear:spear_blueprint"
@@ -221,6 +276,11 @@
 			dependencies: ["2DD6FBEB1AF9835A"]
 			icon: "silentgear:trident_blueprint"
 			id: "6BF69897FE64B950"
+			rewards: [{
+				id: "42233E1922DEF5ED"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1DE3EAFE361567D8"
 				item: "silentgear:trident_blueprint"
@@ -232,6 +292,11 @@
 		{
 			dependencies: ["2DD6FBEB1AF9835A"]
 			id: "4D78E9A4C4EA6A57"
+			rewards: [{
+				id: "18D707BB85104F4E"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "73B608B44D0683CC"
 				item: "silentgear:shovel_blueprint"
@@ -243,6 +308,11 @@
 		{
 			dependencies: ["2DD6FBEB1AF9835A"]
 			id: "6B45FBC8B0E42D79"
+			rewards: [{
+				id: "1D26C47CA4877765"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6BBDFAF829C4CAAC"
 				item: "silentgear:axe_blueprint"
@@ -254,6 +324,11 @@
 		{
 			dependencies: ["2DD6FBEB1AF9835A"]
 			id: "1CF890B728B2959C"
+			rewards: [{
+				id: "70C6FE9D3A49C93A"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "437D543270C1CB0B"
 				item: "silentgear:hoe_blueprint"
@@ -265,6 +340,11 @@
 		{
 			dependencies: ["2DD6FBEB1AF9835A"]
 			id: "349D66E97C4AAF8E"
+			rewards: [{
+				id: "28BCFD53F38A603C"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1F287FE7737A4FD4"
 				item: "silentgear:mattock_blueprint"
@@ -276,6 +356,11 @@
 		{
 			dependencies: ["2DD6FBEB1AF9835A"]
 			id: "4465823FFEFF920C"
+			rewards: [{
+				id: "77AEFEB5571EFBB1"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5BA391ADD8A93B81"
 				item: "silentgear:coating_blueprint"
@@ -287,6 +372,11 @@
 		{
 			dependencies: ["2DD6FBEB1AF9835A"]
 			id: "6605E69FFFD9D6A5"
+			rewards: [{
+				id: "06353517599CB301"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "641E0379BD8A7DB4"
 				item: "silentgear:grip_blueprint"
@@ -298,6 +388,11 @@
 		{
 			dependencies: ["2DD6FBEB1AF9835A"]
 			id: "3007A0D70F9B8D8D"
+			rewards: [{
+				id: "7CB9008FABC00704"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "65A164016587A74B"
 				item: "silentgear:binding_blueprint"
@@ -309,6 +404,11 @@
 		{
 			dependencies: ["2DD6FBEB1AF9835A"]
 			id: "55A6457C2C3277DB"
+			rewards: [{
+				id: "53E5948866730072"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "00BD9A166E7D5E1B"
 				item: "silentgear:lining_blueprint"
@@ -320,6 +420,11 @@
 		{
 			dependencies: ["2DD6FBEB1AF9835A"]
 			id: "4BC8B54A5751F39B"
+			rewards: [{
+				id: "336E68A6D5A4C311"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4698C12E4F49A43C"
 				item: "silentgear:cord_blueprint"
@@ -331,6 +436,11 @@
 		{
 			dependencies: ["2DD6FBEB1AF9835A"]
 			id: "3504C76CFFBC3FB9"
+			rewards: [{
+				id: "7FF6BC796528BD5A"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "71CEAC5C03CF55F5"
 				item: "silentgear:fletching_blueprint"
@@ -342,6 +452,11 @@
 		{
 			dependencies: ["2DD6FBEB1AF9835A"]
 			id: "5F0AE2C5F921192F"
+			rewards: [{
+				id: "505D628ECFA52630"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "431A68256A45903A"
 				item: "silentgear:hammer_blueprint"
@@ -353,6 +468,11 @@
 		{
 			dependencies: ["2DD6FBEB1AF9835A"]
 			id: "1A7CBED47FFDE453"
+			rewards: [{
+				id: "0AE1890917504F9B"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0258A811ACE2FC3C"
 				item: "silentgear:excavator_blueprint"
@@ -364,6 +484,11 @@
 		{
 			dependencies: ["2DD6FBEB1AF9835A"]
 			id: "3D048BE6D8E2B3F8"
+			rewards: [{
+				id: "014A6CCF191A5795"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "508E7269F7847E6A"
 				item: "silentgear:saw_blueprint"
@@ -375,6 +500,11 @@
 		{
 			dependencies: ["2DD6FBEB1AF9835A"]
 			id: "13F8B62CC8B227A6"
+			rewards: [{
+				id: "7A86FD92EA9B6504"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "76A3F3CF3A82D398"
 				item: "silentgear:prospector_hammer_blueprint"
@@ -386,6 +516,11 @@
 		{
 			dependencies: ["2DD6FBEB1AF9835A"]
 			id: "6FFC139DBD0353AA"
+			rewards: [{
+				id: "29B021CF3882B91E"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3A824D8B25FB2ECF"
 				item: "silentgear:sickle_blueprint"
@@ -397,6 +532,11 @@
 		{
 			dependencies: ["2DD6FBEB1AF9835A"]
 			id: "734128708D3316E2"
+			rewards: [{
+				id: "7F465E4B654FBD97"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "64CCFBAF31149A43"
 				item: "silentgear:shears_blueprint"
@@ -408,6 +548,11 @@
 		{
 			dependencies: ["2DD6FBEB1AF9835A"]
 			id: "7B7116F3A42A003A"
+			rewards: [{
+				id: "6A4D3B5051C428F2"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7A56BC5849237B35"
 				item: "silentgear:fishing_rod_blueprint"
@@ -419,6 +564,11 @@
 		{
 			dependencies: ["2DD6FBEB1AF9835A"]
 			id: "296D3BD2F67F18F0"
+			rewards: [{
+				id: "00DC7C3A738AC719"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5588B4933AF9417E"
 				item: "silentgear:shield_blueprint"
@@ -430,6 +580,11 @@
 		{
 			dependencies: ["2DD6FBEB1AF9835A"]
 			id: "798E68F2140E81B9"
+			rewards: [{
+				id: "73236F36A820AFFE"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2E8AED59C758A8E9"
 				item: "silentgear:helmet_blueprint"
@@ -441,6 +596,11 @@
 		{
 			dependencies: ["2DD6FBEB1AF9835A"]
 			id: "7E952425D553CFC2"
+			rewards: [{
+				id: "22AF1B5D8C6F3D65"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1D9A6671225F3E9E"
 				item: "silentgear:chestplate_blueprint"
@@ -452,6 +612,11 @@
 		{
 			dependencies: ["2DD6FBEB1AF9835A"]
 			id: "04BF9440CCEE7609"
+			rewards: [{
+				id: "7CC2159502E0BF3D"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5A9C9E4F56C51378"
 				item: "silentgear:leggings_blueprint"
@@ -463,6 +628,11 @@
 		{
 			dependencies: ["2DD6FBEB1AF9835A"]
 			id: "16B6F47EF6D14558"
+			rewards: [{
+				id: "2850A31461BCAF9D"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "729BBEC86B704E24"
 				item: "silentgear:boots_blueprint"
@@ -474,6 +644,11 @@
 		{
 			dependencies: ["2DD6FBEB1AF9835A"]
 			id: "2F63583F96866213"
+			rewards: [{
+				id: "1ED711A865114DC7"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "65D87B04241885C3"
 				item: "silentgear:elytra_blueprint"
@@ -485,6 +660,11 @@
 		{
 			dependencies: ["2DD6FBEB1AF9835A"]
 			id: "2EF681A39382EA78"
+			rewards: [{
+				id: "0333771A6E7A7023"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5D128D3C55D78ECF"
 				item: "silentgear:arrow_blueprint"
@@ -496,6 +676,11 @@
 		{
 			dependencies: ["2DD6FBEB1AF9835A"]
 			id: "1209C46909A2B73C"
+			rewards: [{
+				id: "097511AAD7E363E1"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "31F7BF15D6EC8AF1"
 				item: "silentgear:ring_blueprint"
@@ -507,6 +692,11 @@
 		{
 			dependencies: ["2DD6FBEB1AF9835A"]
 			id: "4DE3D4114617575D"
+			rewards: [{
+				id: "51589687485F8A99"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5F49238A3F53B72D"
 				item: "silentgear:bracelet_blueprint"
@@ -536,17 +726,24 @@
 				}
 			}
 			id: "2DD6FBEB1AF9835A"
-			rewards: [{
-				id: "723A24FF6519DFED"
-				item: {
-					Count: 1
-					id: "silentgear:blueprint_book"
-					tag: {
-						Inventory: { }
+			rewards: [
+				{
+					id: "723A24FF6519DFED"
+					item: {
+						Count: 1
+						id: "silentgear:blueprint_book"
+						tag: {
+							Inventory: { }
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "29E315D6CFA5660F"
+					item: "kubejs:universal_badge"
+					type: "item"
+				}
+			]
 			size: 1.0d
 			tasks: [{
 				id: "3AEF8CA25E3D8486"
@@ -559,6 +756,11 @@
 		{
 			dependencies: ["2DD6FBEB1AF9835A"]
 			id: "23862E3C71129F92"
+			rewards: [{
+				id: "3B8023E46225FF1B"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "27630A0D6DD75AF0"
 				item: "silentgear:gear_smithing_table"
@@ -570,6 +772,11 @@
 		{
 			dependencies: ["2DD6FBEB1AF9835A"]
 			id: "07E81F6CCEA7866A"
+			rewards: [{
+				id: "290DA0580E282CDF"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3E375858E69B4BAB"
 				item: "silentgear:material_grader"
@@ -581,6 +788,11 @@
 		{
 			dependencies: ["2DD6FBEB1AF9835A"]
 			id: "340611E31BCBA56A"
+			rewards: [{
+				id: "3A866358A378B421"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5C28A2ACD408D364"
 				item: "silentgear:salvager"
@@ -592,6 +804,11 @@
 		{
 			dependencies: ["2DD6FBEB1AF9835A"]
 			id: "523114AB32F57CCF"
+			rewards: [{
+				id: "379B43D31FE37AC5"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5138B86C896AEC76"
 				item: "silentgear:starlight_charger"
@@ -603,6 +820,11 @@
 		{
 			dependencies: ["2DD6FBEB1AF9835A"]
 			id: "196CBA367F65016E"
+			rewards: [{
+				id: "6C41F0FA87B77A84"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "457C81D22D1FEB47"
 				item: "silentgear:recrystallizer"
@@ -614,6 +836,11 @@
 		{
 			dependencies: ["2DD6FBEB1AF9835A"]
 			id: "098D946DC8BD6623"
+			rewards: [{
+				id: "39A8C9562D474A97"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3F75BB5708769CAB"
 				item: "silentgear:refabricator"
@@ -625,6 +852,11 @@
 		{
 			dependencies: ["2DD6FBEB1AF9835A"]
 			id: "6E019E1B8F2AC780"
+			rewards: [{
+				id: "2937DBB263ED15AB"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1A53245D4D688EBD"
 				item: "silentgear:metal_press"
@@ -636,6 +868,11 @@
 		{
 			dependencies: ["2DD6FBEB1AF9835A"]
 			id: "6FF56E4FFF9649F7"
+			rewards: [{
+				id: "6BBF92F5F3741EE4"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6F1033AC66EFC98A"
 				item: "silentgear:metal_alloyer"

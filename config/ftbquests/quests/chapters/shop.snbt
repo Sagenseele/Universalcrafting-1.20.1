@@ -1,50 +1,38 @@
 {
+	consume_items: true
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "shop"
 	group: ""
+	icon: "kubejs:universal_badge"
 	id: "0EB5FA5EFA6BD81E"
 	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
 			can_repeat: true
-			id: "3F9E54855037391A"
-			optional: true
-			rewards: [{
-				id: "5FF2A8CFCF37D535"
-				item: "ae2:flawless_budding_quartz"
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				id: "7C40E783D16AD029"
-				item: "minecraft:apple"
-				type: "item"
-			}]
-			x: -2.0d
-			y: -1.5d
-		}
-		{
-			can_repeat: true
+			icon: "minecraft:diamond_ore"
 			id: "10CDF7B5459F4D6C"
 			optional: true
 			rewards: [{
-				id: "27772906271AC369"
-				item: "ae2:flawless_budding_quartz"
+				count: 16
+				id: "4B1BC9C61E4A048F"
+				item: "minecraft:diamond_ore"
 				type: "item"
 			}]
 			tasks: [{
-				consume_items: true
-				id: "76BDFFA286175DCB"
-				item: "minecraft:apple"
+				count: 10L
+				id: "5BD9610C47BE30EA"
+				item: { Count: 10, id: "kubejs:universal_badge" }
 				type: "item"
 			}]
-			x: -4.5d
-			y: -1.5d
+			title: "&b16x Diamond Ore&r"
+			x: -5.0d
+			y: 0.5d
 		}
 		{
 			can_repeat: true
+			icon: "ae2:flawless_budding_quartz"
 			id: "378B4416074F4ACE"
 			optional: true
 			rewards: [{
@@ -53,66 +41,142 @@
 				type: "item"
 			}]
 			tasks: [{
-				consume_items: true
-				id: "12B917CDF7DF7350"
-				item: "minecraft:apple"
+				count: 10L
+				id: "0581750C553D7719"
+				item: "kubejs:universal_badge"
 				type: "item"
 			}]
-			x: -5.5d
-			y: -2.5d
+			title: "&bFlawless Budding Certus Quartz&r"
+			x: -2.0d
+			y: -1.5d
 		}
 		{
 			can_repeat: true
+			icon: "minecraft:iron_ore"
 			id: "41DB628D86A2C9B4"
 			optional: true
 			rewards: [{
-				id: "1918F5ACED532B82"
-				item: "ae2:flawless_budding_quartz"
+				count: 64
+				id: "32A431A4EDA23BE1"
+				item: "minecraft:iron_ore"
 				type: "item"
 			}]
 			tasks: [{
-				consume_items: true
-				id: "47C3082DD177C095"
-				item: "minecraft:apple"
+				count: 10L
+				id: "3BC8E19644C2312A"
+				item: { Count: 10, id: "kubejs:universal_badge" }
 				type: "item"
 			}]
+			title: "&b64x Iron Ore&r"
 			x: -5.5d
 			y: -1.5d
 		}
 		{
 			can_repeat: true
+			icon: "minecraft:redstone_ore"
 			id: "65D9AE7CFCDA3490"
 			optional: true
 			rewards: [{
-				id: "570E79252F4680AC"
-				item: "ae2:flawless_budding_quartz"
+				count: 64
+				id: "6B66D3CF0DBA1842"
+				item: "minecraft:redstone_ore"
 				type: "item"
 			}]
 			tasks: [{
-				consume_items: true
-				id: "46FC1F21DC274AEB"
-				item: "minecraft:apple"
+				count: 10L
+				id: "1C0B4580510FEC27"
+				item: { Count: 10, id: "kubejs:universal_badge" }
 				type: "item"
 			}]
+			title: "&b64x Redstone Ore&r"
 			x: -4.5d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			icon: "minecraft:blackstone"
+			id: "4780D70777329CFE"
+			optional: true
+			rewards: [
+				{
+					count: 64
+					id: "5E309B3A393F7560"
+					item: "minecraft:blackstone"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "481CF62FF976E0B4"
+					item: "minecraft:andesite"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "425FCD92950C0AFE"
+					item: "minecraft:granite"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "30D38BB9574C7B81"
+					item: "minecraft:diorite"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "694A925FC5A00569"
+					item: "minecraft:tuff"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 10L
+				id: "120C075CB21A5A10"
+				item: { Count: 10, id: "kubejs:universal_badge" }
+				type: "item"
+			}]
+			title: "&b64x Stones&r"
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			icon: "minecraft:lapis_ore"
+			id: "1BDCFCE7DEDD4FE2"
+			rewards: [{
+				count: 64
+				id: "6239127DB11375EF"
+				item: "minecraft:lapis_ore"
+				type: "item"
+			}]
+			tasks: [{
+				count: 10L
+				id: "11ED775640E5A450"
+				item: { Count: 10, id: "kubejs:universal_badge" }
+				type: "item"
+			}]
+			title: "&b64x Lapis Lazuli Ore&r"
+			x: -5.5d
 			y: -0.5d
 		}
 		{
 			can_repeat: true
-			id: "4780D70777329CFE"
+			icon: "bigreactors:deepslate_yellorite_ore"
+			id: "75423991A725D491"
 			optional: true
 			rewards: [{
-				id: "68A1180C35F4CF2B"
-				item: "ae2:flawless_budding_quartz"
+				count: 64
+				id: "57950E02FF42735C"
+				item: "bigreactors:deepslate_yellorite_ore"
 				type: "item"
 			}]
 			tasks: [{
-				consume_items: true
-				id: "4E5ED3E3195BBE6B"
-				item: "minecraft:apple"
+				count: 10L
+				id: "3E35231AC9AC738A"
+				item: { Count: 10, id: "kubejs:universal_badge" }
 				type: "item"
 			}]
-			x: -5.5d
+			title: "&b64x Deepslate Yellorium Ore&r"
+			x: -4.5d
 			y: -0.5d
 		}
 	]

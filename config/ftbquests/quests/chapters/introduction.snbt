@@ -30,6 +30,7 @@
 			dependencies: ["408326254AF9D128"]
 			description: ["Goal is the &l&4I&r&l&cn&r&l&df&r&l&5i&r&l&1n&r&l&9i&r&l&bt&r&l&3y&r &l&eT&r&l&6o&r&l&4k&r&l&ce&r&l&dn&r."]
 			icon: "kubejs:infinity_token"
+			icon_scale: 0.9d
 			id: "3D967ABE59777793"
 			shape: "gear"
 			size: 1.5d

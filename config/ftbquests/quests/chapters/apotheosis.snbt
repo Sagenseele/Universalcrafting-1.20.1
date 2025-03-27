@@ -11,6 +11,11 @@
 		{
 			id: "7F4DD279AC39DEF2"
 			invisible: true
+			rewards: [{
+				id: "5C223EF96062B9C3"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			size: 1.25d
 			tasks: [{
 				id: "5D09EEE5CEA41599"
@@ -33,6 +38,11 @@
 		{
 			dependencies: ["3DF8E8B1A7AAA0FA"]
 			id: "387415B4F201BD59"
+			rewards: [{
+				id: "091A578BDBD472E8"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			size: 1.25d
 			tasks: [{
 				id: "452E807B4B26AA43"
@@ -45,6 +55,11 @@
 		{
 			dependencies: ["3DF8E8B1A7AAA0FA"]
 			id: "01700AA96E160D16"
+			rewards: [{
+				id: "02E57E80D4230717"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			size: 1.25d
 			tasks: [{
 				id: "00031CC53781FF90"
@@ -57,6 +72,11 @@
 		{
 			id: "54BE3BC7F09C1E4E"
 			invisible: true
+			rewards: [{
+				id: "3CFFC98C537C59FE"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			size: 1.25d
 			tasks: [{
 				id: "0D459A176FCD1714"
@@ -79,6 +99,11 @@
 		{
 			id: "5188297DBD15E4E4"
 			invisible: true
+			rewards: [{
+				id: "2ED56F696D834891"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			size: 1.25d
 			tasks: [{
 				id: "7507DF9E18DA2A0A"
@@ -101,6 +126,11 @@
 		{
 			id: "3521EE42ACF88EB8"
 			invisible: true
+			rewards: [{
+				id: "1C6760BA8552A280"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			size: 1.25d
 			tasks: [{
 				id: "12EF4631D3FEC403"
@@ -123,6 +153,11 @@
 		{
 			id: "53B1AF9AAEDAECF3"
 			invisible: true
+			rewards: [{
+				id: "59025BB3A5D3238F"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			size: 1.25d
 			tasks: [{
 				id: "2BF13EE96E461AA8"
@@ -145,6 +180,11 @@
 		{
 			id: "50D4288F1B23F451"
 			invisible: true
+			rewards: [{
+				id: "4F2B56CF9AE73A23"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			size: 1.25d
 			tasks: [{
 				id: "2E001FF621BF55AE"
@@ -167,6 +207,11 @@
 		{
 			id: "599B821CF6F5CEF9"
 			invisible: true
+			rewards: [{
+				id: "18BB825389D63CEC"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			size: 1.25d
 			tasks: [{
 				id: "555E660CE5A8C7FB"
@@ -189,6 +234,11 @@
 		{
 			id: "5395D17166CBBB8A"
 			invisible: true
+			rewards: [{
+				id: "3456A8EE6E7FCDDE"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			size: 1.25d
 			tasks: [{
 				id: "63FCFF0CC71F853E"
@@ -211,6 +261,11 @@
 		{
 			id: "44CDD6EBF8FE3C45"
 			invisible: true
+			rewards: [{
+				id: "181C330D8AF7A6FF"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			size: 1.25d
 			tasks: [{
 				id: "6D166DAB6A8142D1"
@@ -233,6 +288,11 @@
 		{
 			id: "5C4FE574EC8B7698"
 			invisible: true
+			rewards: [{
+				id: "057C5C708C520DC0"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			size: 1.25d
 			tasks: [{
 				id: "6620EAB42F7B75D2"
@@ -255,6 +315,11 @@
 		{
 			id: "018C885E1C7E99B5"
 			invisible: true
+			rewards: [{
+				id: "012DC97B1F31C90A"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			size: 1.25d
 			tasks: [{
 				id: "6ABFEEE3FBB71094"
@@ -277,6 +342,11 @@
 		{
 			id: "1901EC1F4AEDEA28"
 			invisible: true
+			rewards: [{
+				id: "6499FB45CB5BFB3F"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			size: 1.25d
 			tasks: [{
 				id: "150032004939B90F"
@@ -299,6 +369,11 @@
 		{
 			id: "7575A77D4BF3F6BC"
 			invisible: true
+			rewards: [{
+				id: "30CF54DB4BB8C928"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			size: 1.25d
 			tasks: [{
 				id: "6C6025FB332C155A"
@@ -321,6 +396,11 @@
 		{
 			id: "0824A1459AA30101"
 			invisible: true
+			rewards: [{
+				id: "37B8AF6D302613E3"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			size: 1.25d
 			tasks: [{
 				id: "2407E5F952793508"
@@ -343,6 +423,11 @@
 		{
 			id: "5771E890A5848956"
 			invisible: true
+			rewards: [{
+				id: "0B8B9B4B1938912A"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			size: 1.25d
 			tasks: [{
 				id: "1EDCAE043F0E51EC"
@@ -365,6 +450,11 @@
 		{
 			id: "1FE3EFE06E32CA08"
 			invisible: true
+			rewards: [{
+				id: "6CBCB2CF85FF1C68"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			size: 1.25d
 			tasks: [{
 				id: "15F68C1BD73CD1E7"
@@ -387,6 +477,11 @@
 		{
 			id: "66680DDC109986EA"
 			invisible: true
+			rewards: [{
+				id: "7D3852CEE6D0FA22"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			size: 1.25d
 			tasks: [{
 				id: "344AA65539AF2950"
@@ -409,6 +504,11 @@
 		{
 			id: "590BBD948982E233"
 			invisible: true
+			rewards: [{
+				id: "55C3DF79FC023E76"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			size: 1.25d
 			tasks: [{
 				id: "18B8161F01B4C586"
@@ -431,6 +531,11 @@
 		{
 			id: "4835C5958A8F8A2C"
 			invisible: true
+			rewards: [{
+				id: "1A7BFF39C7DF9B94"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			size: 1.25d
 			tasks: [{
 				id: "3D60E01B955639E0"
@@ -453,6 +558,11 @@
 		{
 			id: "5F547B7BCE60B871"
 			invisible: true
+			rewards: [{
+				id: "3268C63FBB00FA4D"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			size: 1.25d
 			tasks: [{
 				id: "02434F63B0661748"
@@ -475,6 +585,11 @@
 		{
 			id: "1638C3470869A119"
 			invisible: true
+			rewards: [{
+				id: "2026F6AE67A10FDF"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			size: 1.25d
 			tasks: [{
 				id: "7DD96E0328D257C4"
@@ -497,6 +612,11 @@
 		{
 			dependencies: ["3DF8E8B1A7AAA0FA"]
 			id: "64F547D87FDA365F"
+			rewards: [{
+				id: "4961F06C3761D845"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			size: 1.5d
 			tasks: [{
 				id: "2AB0213758A66C45"
@@ -509,6 +629,11 @@
 		{
 			dependencies: ["3DF8E8B1A7AAA0FA"]
 			id: "60A57FF36D4F035F"
+			rewards: [{
+				id: "010690D563DBFDCB"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			size: 1.25d
 			tasks: [{
 				id: "592859DEF928CC8B"
@@ -521,6 +646,11 @@
 		{
 			dependencies: ["3DF8E8B1A7AAA0FA"]
 			id: "2567C6EE90B2E73A"
+			rewards: [{
+				id: "7F1537579B121543"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			size: 1.25d
 			tasks: [{
 				id: "0E7DC182DD607601"
@@ -533,6 +663,11 @@
 		{
 			dependencies: ["2567C6EE90B2E73A"]
 			id: "2DAC4626E52D93E8"
+			rewards: [{
+				id: "0A64E7177C8D1A9F"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			size: 1.25d
 			tasks: [{
 				id: "38C0D22B4220361D"
@@ -545,6 +680,11 @@
 		{
 			dependencies: ["64F547D87FDA365F"]
 			id: "0F45D1F73E9D4CCC"
+			rewards: [{
+				id: "185D4E5ED1327891"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			size: 1.25d
 			tasks: [{
 				id: "49C56F9029F08F02"
@@ -557,6 +697,11 @@
 		{
 			dependencies: ["64F547D87FDA365F"]
 			id: "420BFFD4AD0A2D17"
+			rewards: [{
+				id: "0EB0688BBBE744C4"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			size: 1.25d
 			tasks: [{
 				id: "7AF9B3AB0F500CEC"
@@ -569,6 +714,11 @@
 		{
 			dependencies: ["64F547D87FDA365F"]
 			id: "3E91BE42A3142BA4"
+			rewards: [{
+				id: "18F928AB4273741F"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			size: 1.25d
 			tasks: [{
 				id: "017BBC350E10CAB7"
@@ -581,6 +731,11 @@
 		{
 			dependencies: ["64F547D87FDA365F"]
 			id: "0CCD94B518F9F5A7"
+			rewards: [{
+				id: "0262076D8D432EA3"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			size: 1.25d
 			tasks: [{
 				id: "334259F788417F87"
@@ -593,6 +748,11 @@
 		{
 			dependencies: ["64F547D87FDA365F"]
 			id: "646BD838ED30BAE9"
+			rewards: [{
+				id: "7FF77DF8DCEAC6B4"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			size: 1.25d
 			tasks: [{
 				id: "4067046CA3D4A547"
@@ -604,6 +764,11 @@
 		}
 		{
 			id: "1815EB5B7B01E59B"
+			rewards: [{
+				id: "044926849E2DE31F"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			shape: "rsquare"
 			size: 1.25d
 			tasks: [{
@@ -617,6 +782,11 @@
 		{
 			dependencies: ["1815EB5B7B01E59B"]
 			id: "52DF45F0AC96374F"
+			rewards: [{
+				id: "6A6AA3405979C44A"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			shape: "rsquare"
 			size: 1.25d
 			tasks: [{
@@ -629,6 +799,11 @@
 		}
 		{
 			id: "5F98EAC5549D6639"
+			rewards: [{
+				id: "10F0A8E466F6D4A7"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			shape: "rsquare"
 			size: 1.25d
 			tasks: [{
@@ -642,6 +817,11 @@
 		{
 			dependencies: ["5F98EAC5549D6639"]
 			id: "3B2867F02D680353"
+			rewards: [{
+				id: "7E9CAE539F2D784A"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			shape: "rsquare"
 			size: 1.25d
 			tasks: [{
@@ -669,6 +849,11 @@
 				"&eYou can reforge&r &dSilent Gear&r &eequipment.&r"
 			]
 			id: "3DF8E8B1A7AAA0FA"
+			rewards: [{
+				id: "2F954D227145D14C"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			size: 1.5d
 			tasks: [{
 				id: "2D99900D90CFE09E"

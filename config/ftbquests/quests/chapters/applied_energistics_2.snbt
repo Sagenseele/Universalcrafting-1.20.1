@@ -11,6 +11,11 @@
 		{
 			dependencies: ["631CA8BFB7E6978B"]
 			id: "0A64D42768523146"
+			rewards: [{
+				id: "2DDBE16538F97C9B"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1B66AEC9DAEC9990"
 				item: "ae2:charger"
@@ -22,13 +27,18 @@
 		{
 			dependencies: ["631CA8BFB7E6978B"]
 			id: "4E7546BA100379F3"
+			rewards: [{
+				id: "6735B48C4B030220"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2A69083132E27AF8"
 				item: "refinedstorage:processor_binding"
 				type: "item"
 			}]
 			x: 2.5d
-			y: 0.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["2F7DDCAC3F2A55DD"]
@@ -47,55 +57,80 @@
 			}]
 			title: "&dApplied Energistics 2&r/&dRefined Storage&r"
 			x: 1.5d
-			y: 1.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4E7546BA100379F3"]
 			id: "63924D94B1D83696"
+			rewards: [{
+				id: "57B2EB591C9009B8"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "593B90A9818350E2"
 				item: "refinedstorage:controller"
 				type: "item"
 			}]
 			x: 3.5d
-			y: -2.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["63924D94B1D83696"]
 			id: "47025399E4AA15CC"
+			rewards: [{
+				id: "296C8C770E7AE8C0"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "667ECCDEBF0014BD"
 				item: "refinedstorage:disk_drive"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 4.5d
 			y: -3.5d
 		}
 		{
 			dependencies: ["63924D94B1D83696"]
 			id: "5E3CCADAF8871EB9"
+			rewards: [{
+				id: "6B3F7405B0C03630"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "63EDA5EB033D32F6"
 				item: "refinedstorage:grid"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -4.0d
+			x: 3.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["5E3CCADAF8871EB9"]
 			id: "386AD7C453938B8E"
+			rewards: [{
+				id: "791EB26B33CED848"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7763DC573314BE7B"
 				item: "refinedstorage:crafting_grid"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -6.0d
+			x: 2.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["47025399E4AA15CC"]
 			id: "3DEACED6D10985A5"
+			rewards: [{
+				id: "7D336B682581474F"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "460CA28345A2CEC7"
 				item: "refinedstorage:1k_storage_part"
@@ -107,62 +142,92 @@
 		{
 			dependencies: ["3DEACED6D10985A5"]
 			id: "6DA69BADD45DABD2"
+			rewards: [{
+				id: "2B8272949B6B53E9"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "34D3592C901F87BE"
 				item: "refinedstorage:1k_storage_disk"
 				type: "item"
 			}]
-			x: 6.5d
+			x: 4.5d
 			y: -6.5d
 		}
 		{
 			dependencies: ["3DEACED6D10985A5"]
 			id: "1B9E4DDA6F442536"
+			rewards: [{
+				id: "70CD344016BF5ACC"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "54A4783DD0664863"
 				item: "refinedstorage:4k_storage_part"
 				type: "item"
 			}]
 			x: 6.5d
-			y: -5.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["1B9E4DDA6F442536"]
 			id: "1833C10FE91291C1"
+			rewards: [{
+				id: "723CBD8EFA4EF80D"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3F92C4105ED3BD5D"
 				item: "refinedstorage:16k_storage_part"
 				type: "item"
 			}]
 			x: 7.5d
-			y: -5.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["1833C10FE91291C1"]
 			id: "2E43B973C02CE9A0"
+			rewards: [{
+				id: "2D10B7C0A2A080E1"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7C8187455BE0F9E4"
 				item: "refinedstorage:64k_storage_part"
 				type: "item"
 			}]
 			x: 8.5d
-			y: -5.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["3DEACED6D10985A5"]
 			id: "6E93AA97F7A62504"
+			rewards: [{
+				id: "7931AEBF2446A9F4"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3BE6B315AEE98B5C"
 				item: "refinedstorage:disk_manipulator"
 				type: "item"
 			}]
 			x: 5.5d
-			y: -7.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["386AD7C453938B8E"]
 			icon: "refinedstorageaddons:wireless_crafting_grid"
 			id: "0E81EE79A3C8BBC6"
+			rewards: [{
+				id: "1F25F3D46DC75574"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "5E1D7B75F06876AE"
@@ -175,13 +240,18 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
-			y: -6.5d
+			x: 1.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["386AD7C453938B8E"]
 			icon: "refinedstorage:pattern_grid"
 			id: "249C4F83C1D72CA1"
+			rewards: [{
+				id: "7DB5A954136065DC"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "7389E3EDFA0D60BB"
@@ -199,12 +269,17 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
-			y: -8.0d
+			x: 3.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["631CA8BFB7E6978B"]
 			id: "3AC0510C7CB33A4D"
+			rewards: [{
+				id: "59FF2AEF87E964D0"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6E828B0B81E56619"
 				item: "ae2:energy_acceptor"
@@ -219,6 +294,11 @@
 				"3AC0510C7CB33A4D"
 			]
 			id: "146CBE384DD72A1A"
+			rewards: [{
+				id: "4659D2EBEED514F8"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7B128FF80EBAC4AC"
 				item: "ae2:controller"
@@ -230,6 +310,11 @@
 		{
 			dependencies: ["10C8C4C64EBA4E31"]
 			id: "476BC84A263DE937"
+			rewards: [{
+				id: "423813AB9B9B1CE1"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "724A4DB67B876EB6"
 				item: "ae2:inscriber"
@@ -241,6 +326,11 @@
 		{
 			dependencies: ["0A64D42768523146"]
 			id: "36E976BF1334F922"
+			rewards: [{
+				id: "5BDC09BA18CDF9E0"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2280B813926FBA77"
 				item: "ae2:meteorite_compass"
@@ -253,6 +343,11 @@
 			dependencies: ["36E976BF1334F922"]
 			icon: "ae2:silicon_press"
 			id: "10C8C4C64EBA4E31"
+			rewards: [{
+				id: "249A4A0476101520"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "314B358F2BE7C66B"
@@ -282,6 +377,11 @@
 		{
 			dependencies: ["146CBE384DD72A1A"]
 			id: "08A370A78F7C9651"
+			rewards: [{
+				id: "41F433973BD3FAD0"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "662628355DEF7FC8"
 				item: "ae2:terminal"
@@ -293,6 +393,11 @@
 		{
 			dependencies: ["08A370A78F7C9651"]
 			id: "23771B2B5A40ED33"
+			rewards: [{
+				id: "586834C9F3433D8A"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3D5BC606F981A4BA"
 				item: "ae2:crafting_terminal"
@@ -305,6 +410,11 @@
 			dependencies: ["08A370A78F7C9651"]
 			icon: "ae2:pattern_access_terminal"
 			id: "586D1E893CC43C8A"
+			rewards: [{
+				id: "565E694E38B4E2E9"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "0EB5E84040F039BB"
@@ -325,6 +435,11 @@
 			dependencies: ["08A370A78F7C9651"]
 			icon: "merequester:requester_terminal"
 			id: "4B7EB2F69B3A7F0D"
+			rewards: [{
+				id: "599F8292667BBE07"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "06F2146378B213F8"
@@ -348,6 +463,11 @@
 			dependency_requirement: "one_completed"
 			description: ["You can pick up this block without breaking it with a &dMekanism&r Card Board Box"]
 			id: "455B054A18CAF226"
+			rewards: [{
+				id: "7E56DC86DEE08BE0"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "475A48D86BDBF640"
 				item: "ae2:flawless_budding_quartz"
@@ -359,6 +479,11 @@
 		{
 			dependencies: ["0A64D42768523146"]
 			id: "6524803384F66AFE"
+			rewards: [{
+				id: "779A5D74E231E096"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6D14CCFFA5DDD03B"
 				item: "ae2:growth_accelerator"
@@ -370,6 +495,11 @@
 		{
 			dependencies: ["08A370A78F7C9651"]
 			id: "2158AB91431D587D"
+			rewards: [{
+				id: "67BFC6999B2ECB50"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4343FD2BDFA456EB"
 				item: "appliede:transmutation_terminal"
@@ -381,6 +511,11 @@
 		{
 			dependencies: ["455B054A18CAF226"]
 			id: "21B1F110498F9BD8"
+			rewards: [{
+				id: "1F5C9F0713EF3058"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1653A7FA272BDA17"
 				item: "ae2:certus_quartz_crystal"
@@ -400,6 +535,11 @@
 			]
 			icon: "ae2:crafting_unit"
 			id: "12ED40E54915A7FE"
+			rewards: [{
+				id: "63F56CC327BFB893"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "285D7B4680FACD95"
@@ -419,6 +559,11 @@
 			dependencies: ["146CBE384DD72A1A"]
 			icon: "ae2:molecular_assembler"
 			id: "43EF66F6A6A90884"
+			rewards: [{
+				id: "5F8954F39D463A45"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			subtitle: "Autocrafting at your hands"
 			tasks: [
 				{
@@ -438,41 +583,61 @@
 		{
 			dependencies: ["5E3CCADAF8871EB9"]
 			id: "1EF468D227D9359F"
+			rewards: [{
+				id: "02DCD1D51C9DC18B"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "48DB91C31B842B21"
 				item: "refinedstorage:fluid_grid"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -3.5d
+			x: 2.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["386AD7C453938B8E"]
 			id: "2E6B4CB6C243C920"
+			rewards: [{
+				id: "2A3A83459CB7BC23"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			subtitle: "Autocrafting at your hands"
 			tasks: [{
 				id: "3160A89A38914D49"
 				item: "refinedstorage:crafter"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -8.5d
+			x: 2.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["163943B8E662CB66"]
 			description: ["Because channels are disabled, the fluix cable is sufficient enough for connecting terminals and machines."]
 			id: "4E4589C510F75310"
+			rewards: [{
+				id: "55E34F96481F27FD"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "38967646A4B66FC7"
 				item: "ae2:fluix_glass_cable"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 1.5d
+			x: -4.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["146CBE384DD72A1A"]
 			id: "006709FF52FBE851"
+			rewards: [{
+				id: "56C5269C3B530150"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "511C8A742B16CC42"
 				item: "ae2:drive"
@@ -484,6 +649,11 @@
 		{
 			dependencies: ["006709FF52FBE851"]
 			id: "2406F2A6769684BA"
+			rewards: [{
+				id: "3CDCF4D815E55CD5"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3740E5AF976FB0D5"
 				item: "ae2:cell_component_1k"
@@ -495,6 +665,11 @@
 		{
 			dependencies: ["2406F2A6769684BA"]
 			id: "1D9C7BD27E942EA6"
+			rewards: [{
+				id: "1FFA7508A4A92237"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7F75A2A744A593E4"
 				item: {
@@ -510,6 +685,11 @@
 		{
 			dependencies: ["2406F2A6769684BA"]
 			id: "35DD81FB348A7C74"
+			rewards: [{
+				id: "79D6D4A79A40A22C"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2593F55C16A13407"
 				item: "ae2:cell_component_4k"
@@ -521,6 +701,11 @@
 		{
 			dependencies: ["35DD81FB348A7C74"]
 			id: "11F57DFD1E5CDF41"
+			rewards: [{
+				id: "5BA8BE1DD18894BA"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7430A6F84412A12A"
 				item: "ae2:cell_component_16k"
@@ -532,6 +717,11 @@
 		{
 			dependencies: ["11F57DFD1E5CDF41"]
 			id: "788DB3AEB63FB302"
+			rewards: [{
+				id: "03614462BAD180A1"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5891671549899F74"
 				item: "ae2:cell_component_64k"
@@ -543,6 +733,11 @@
 		{
 			dependencies: ["788DB3AEB63FB302"]
 			id: "2B658F36B1C2BA52"
+			rewards: [{
+				id: "4400F296CA7A2E01"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "47A605024109AA8E"
 				item: "ae2:cell_component_256k"
@@ -554,6 +749,11 @@
 		{
 			dependencies: ["0A64D42768523146"]
 			id: "163943B8E662CB66"
+			rewards: [{
+				id: "64027232484BEA12"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				count: 64L
 				id: "5347559E1A2445CF"
@@ -566,6 +766,11 @@
 		{
 			dependencies: ["23771B2B5A40ED33"]
 			id: "444773525B5946AF"
+			rewards: [{
+				id: "47653A4B46A4D73A"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0285860CEE076568"
 				item: "ae2:wireless_crafting_terminal"
@@ -577,6 +782,11 @@
 		{
 			dependencies: ["324F572E9D4D8F19"]
 			id: "6F1FE8BFFB5B56B6"
+			rewards: [{
+				id: "52075DBC4636A614"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "54C0C11A70364D81"
 				item: "ae2wtlib:quantum_bridge_card"
@@ -593,6 +803,11 @@
 			]
 			id: "324F572E9D4D8F19"
 			min_required_dependencies: 2
+			rewards: [{
+				id: "5E7BE47D68A91B91"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1BD031E214767D4A"
 				item: "ae2wtlib:wireless_universal_terminal"
@@ -604,6 +819,11 @@
 		{
 			dependencies: ["586D1E893CC43C8A"]
 			id: "017F4047CC241ABE"
+			rewards: [{
+				id: "35F57A037D035EBA"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "094F0F44C8A367CA"
 				item: "ae2wtlib:wireless_pattern_encoding_terminal"
@@ -615,6 +835,11 @@
 		{
 			dependencies: ["2158AB91431D587D"]
 			id: "4BCF645496094D45"
+			rewards: [{
+				id: "41E144046DA2E0BB"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "126687E98EBC7801"
 				item: "appliede:wireless_transmutation_terminal"
@@ -622,6 +847,39 @@
 			}]
 			x: -7.5d
 			y: -3.5d
+		}
+		{
+			dependencies: ["163943B8E662CB66"]
+			id: "5692FB2480E3A022"
+			rewards: [{
+				id: "5741978D825FBCA6"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "2C70C2EDF90F8D4C"
+				item: "mbd2:crystal_chamber"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4E7546BA100379F3"]
+			id: "1F6275C9B2938B45"
+			rewards: [{
+				id: "6D46402B2DBB65C2"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "381D384F41972324"
+				item: "refinedstorage:wrench"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
 		}
 	]
 	title: "AE2/RS"

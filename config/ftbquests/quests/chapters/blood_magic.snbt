@@ -136,17 +136,24 @@
 			hide_until_deps_complete: true
 			icon: "bloodmagic:altar"
 			id: "1F4A0441461B7D12"
-			rewards: [{
-				id: "628FA525953C3362"
-				item: {
-					Count: 1
-					id: "patchouli:guide_book"
-					tag: {
-						"patchouli:book": "bloodmagic:guide"
+			rewards: [
+				{
+					id: "628FA525953C3362"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "bloodmagic:guide"
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "57B5250E7B703050"
+					item: "kubejs:universal_badge"
+					type: "item"
+				}
+			]
 			tasks: [{
 				disable_toast: true
 				id: "4C8631DFF9BAEDB0"
@@ -159,6 +166,11 @@
 		{
 			dependencies: ["1F4A0441461B7D12"]
 			id: "31D5DDBCBDCB40A3"
+			rewards: [{
+				id: "372E922BA4FE9C89"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "61B07D0AC923A0A4"
 				item: "bloodmagic:weakbloodorb"
@@ -170,6 +182,11 @@
 		{
 			dependencies: ["31D5DDBCBDCB40A3"]
 			id: "6BD371363843E3E2"
+			rewards: [{
+				id: "1D7A4CB710E37A91"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0C6C985443288986"
 				item: "bloodmagic:apprenticebloodorb"
@@ -181,6 +198,11 @@
 		{
 			dependencies: ["6BD371363843E3E2"]
 			id: "558DB32EF30ACD1B"
+			rewards: [{
+				id: "6614B0567F171E2B"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "05078090C8436359"
 				item: "bloodmagic:magicianbloodorb"
@@ -192,6 +214,11 @@
 		{
 			dependencies: ["558DB32EF30ACD1B"]
 			id: "3D73F2015B1E8127"
+			rewards: [{
+				id: "35F6A4B2D56E891A"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "24EFD3DD3B5D84DD"
 				item: "bloodmagic:masterbloodorb"
@@ -203,6 +230,11 @@
 		{
 			dependencies: ["3D73F2015B1E8127"]
 			id: "3DAB7D59D914EF49"
+			rewards: [{
+				id: "481E43707CEDC7E6"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7047512CA7A80C6F"
 				item: "bloodmagic:archmagebloodorb"
@@ -214,6 +246,11 @@
 		{
 			dependencies: ["416EB4DBBC95A5FD"]
 			id: "20B6EC4AEC95DC61"
+			rewards: [{
+				id: "0120E86CA68623E6"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4D073B752ECA05E7"
 				item: {
@@ -231,6 +268,11 @@
 		{
 			dependencies: ["20B6EC4AEC95DC61"]
 			id: "1EA23C6C9238E8EB"
+			rewards: [{
+				id: "5373D47C5FE967B7"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2B9E29EB67DD6003"
 				item: {
@@ -248,6 +290,11 @@
 		{
 			dependencies: ["1EA23C6C9238E8EB"]
 			id: "6DEE16FAE9EBF81D"
+			rewards: [{
+				id: "7BF2814D929BDBB3"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "48A54B6CF0D12C18"
 				item: {
@@ -265,6 +312,11 @@
 		{
 			dependencies: ["6DEE16FAE9EBF81D"]
 			id: "182649F21F876F2A"
+			rewards: [{
+				id: "40705B1381C6CAC9"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5167D18A8DAF6347"
 				item: {
@@ -282,6 +334,11 @@
 		{
 			dependencies: ["1F4A0441461B7D12"]
 			id: "27D2258AFDF8911B"
+			rewards: [{
+				id: "58452ED911AA8D48"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				count: 8L
 				id: "3EB485C30C802F5E"
@@ -296,6 +353,11 @@
 			dependencies: ["27D2258AFDF8911B"]
 			icon: "minecraft:glowstone"
 			id: "3386BB1B8E96DDCA"
+			rewards: [{
+				id: "7EBC19073E21E743"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [
 				{
 					count: 20L
@@ -324,6 +386,11 @@
 			dependencies: ["3386BB1B8E96DDCA"]
 			icon: "bloodmagic:largebloodstonebrick"
 			id: "575CA4B4D57D30B3"
+			rewards: [{
+				id: "5AF303237BA77937"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [
 				{
 					count: 28L
@@ -352,6 +419,11 @@
 			dependencies: ["575CA4B4D57D30B3"]
 			icon: "minecraft:beacon"
 			id: "049E16597B244090"
+			rewards: [{
+				id: "318B06FFC2FB80C0"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [
 				{
 					count: 52L
@@ -383,6 +455,11 @@
 				"FFFF"
 			]
 			id: "72898EE4AC216E24"
+			rewards: [{
+				id: "29F8D5B39FA82EB1"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "59E8BEFA0581FA2C"
 				item: "bloodmagic:lavacrystal"
@@ -396,6 +473,11 @@
 			icon: "twilightforest:twilight_portal_miniature_structure"
 			icon_scale: 0.8d
 			id: "37B32C20370A246E"
+			rewards: [{
+				id: "7F1100E4E404EB9F"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.5d
 			subtitle: "Unlocks &dTwilight Forest&r Chapter"
@@ -411,6 +493,11 @@
 		{
 			dependencies: ["3124EA08BA72043F"]
 			id: "1DD2F51524730BC2"
+			rewards: [{
+				id: "45F19B3ECFD33EDA"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "54CE533F47B83412"
 				item: "bloodmagic:weakbloodshard"
@@ -422,6 +509,11 @@
 		{
 			dependencies: ["1F4A0441461B7D12"]
 			id: "416EB4DBBC95A5FD"
+			rewards: [{
+				id: "36C0DDC4EFEAC571"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "20D70BCAC0006F67"
 				item: "bloodmagic:soulforge"
@@ -434,6 +526,11 @@
 			dependencies: ["065B166C43E6BBC9"]
 			description: ["Crystallizes the &bWill&r in the chunk into clusters. If you click on a non-basic cluster with a tartaric gem with at least 1024 &bWill&r, you can harvest the shard without breaking the cluster. This is more &bWill&r-efficient than breaking the cluster."]
 			id: "76AC239EDB1FDA2F"
+			rewards: [{
+				id: "38951353DF045428"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "22567D72B3CE03BA"
 				item: "bloodmagic:demoncrystallizer"
@@ -446,6 +543,11 @@
 			dependencies: ["416EB4DBBC95A5FD"]
 			description: ["Uses &bWill&r from a tartaric gem to infuse the chunk with the respective &bWill&r. Put the gem into the crucible."]
 			id: "065B166C43E6BBC9"
+			rewards: [{
+				id: "5F8F29D0E9884496"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4334D94752FC14F1"
 				item: "bloodmagic:demoncrucible"
@@ -458,6 +560,11 @@
 			dependencies: ["20B6EC4AEC95DC61"]
 			description: ["Kill mobs with the sentient sword to get &bRaw Will&r. If you have a tartaric gem in your inventory, the &bWill&r will be collected in the gem."]
 			id: "192891D0CEE1B5E5"
+			rewards: [{
+				id: "29B6FEAFA890623A"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6006DDAF7BFC0C76"
 				item: {
@@ -475,6 +582,11 @@
 		{
 			dependencies: ["558DB32EF30ACD1B"]
 			id: "3124EA08BA72043F"
+			rewards: [{
+				id: "072BA6E4E975F7E4"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "09FA0E0FE68D3063"
 				item: "bloodmagic:activationcrystalweak"
@@ -498,6 +610,11 @@
 			]
 			icon: "minecraft:lava_bucket"
 			id: "19CCC5FC96D793B3"
+			rewards: [{
+				id: "60A957FDE7798FD9"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "52A9FB57BE24E921"
@@ -518,6 +635,11 @@
 		{
 			dependencies: ["3124EA08BA72043F"]
 			id: "72622E6BCCAF8624"
+			rewards: [{
+				id: "1EE3C9BE2A29786E"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4DCDC42B361E6383"
 				item: "bloodmagic:ritualdiviner"
@@ -529,6 +651,11 @@
 		{
 			dependencies: ["1F4A0441461B7D12"]
 			id: "7FC4DB66A651E6ED"
+			rewards: [{
+				id: "2D335B49E46BFE86"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2EE457CA0F311C9F"
 				item: "bloodmagic:alchemytable"
@@ -540,6 +667,11 @@
 		{
 			dependencies: ["7FC4DB66A651E6ED"]
 			id: "3D9F34C1D4D4A111"
+			rewards: [{
+				id: "1AE98F6453898911"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "55FDC896CF501C63"
 				item: {
@@ -558,6 +690,11 @@
 			dependencies: ["3D9F34C1D4D4A111"]
 			description: ["Gives information about the altar or the blood network."]
 			id: "73718B22DA9990B6"
+			rewards: [{
+				id: "0308CA185C681916"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5175763003E18E62"
 				item: "bloodmagic:divinationsigil"
@@ -570,6 +707,11 @@
 			dependencies: ["3D9F34C1D4D4A111"]
 			description: ["Right Click to void a fluid block."]
 			id: "27D74CB8E0500701"
+			rewards: [{
+				id: "708DA0A6506A4E7B"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2AEFCE28587BDCF0"
 				item: "bloodmagic:voidsigil"
@@ -581,6 +723,11 @@
 		{
 			dependencies: ["3D9F34C1D4D4A111"]
 			id: "1AB89869C550C052"
+			rewards: [{
+				id: "351D494373CC2E2C"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2826F37D34315965"
 				item: {

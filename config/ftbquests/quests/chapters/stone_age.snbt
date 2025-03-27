@@ -10,6 +10,11 @@
 	quests: [
 		{
 			id: "56C84876741D3672"
+			rewards: [{
+				id: "28925F2BB6DEC6C7"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "38727FDA182A3D45"
 				item: "minecraft:dirt"
@@ -22,6 +27,11 @@
 			dependencies: ["56C84876741D3672"]
 			description: ["Right click with an empty hand on dirt to get dirt essence."]
 			id: "3BACAF9E71A3524F"
+			rewards: [{
+				id: "2E9F2E79F00D3598"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4007C87E2977EC8E"
 				item: "mysticalagriculture:dirt_essence"
@@ -32,6 +42,11 @@
 		}
 		{
 			id: "135FEC8E09C68EB0"
+			rewards: [{
+				id: "1BC7390229A23ABD"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6A338D61061D18F2"
 				item: "minecraft:oak_log"
@@ -44,6 +59,11 @@
 			dependencies: ["45346209AF744497"]
 			description: ["Right click with a pickaxe on an overgrown wood log to receive stone essence."]
 			id: "4FA8C9D3999330D8"
+			rewards: [{
+				id: "7D7DEDFC3FD66C5E"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "270F90A1EF2DC28D"
 				item: "mysticalagriculture:stone_essence"
@@ -53,28 +73,13 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["183FD7820BAED84B"]
-			id: "32608C15F49CFA8D"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "0DE0E7972EEE0B42"
-				table_id: 2636020884739909304L
-				type: "choice"
-			}]
-			shape: "rsquare"
-			size: 1.25d
-			subtitle: "Progress to &3Mechanical Age&r"
-			tasks: [{
-				id: "251F80FDC2C54A31"
-				item: "create:andesite_casing"
-				type: "item"
-			}]
-			x: 9.0d
-			y: 0.0d
-		}
-		{
 			dependencies: ["323077AA82CAADE2"]
 			id: "183FD7820BAED84B"
+			rewards: [{
+				id: "4A68A4F0CB80A75A"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "27430F07BEDB35C4"
 				item: "create:andesite_alloy"
@@ -89,6 +94,11 @@
 				"6F1284BEAE967BB1"
 			]
 			id: "323077AA82CAADE2"
+			rewards: [{
+				id: "2B03536E1C5FF4CD"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "22CDD5AD3267DFB7"
 				item: "minecraft:raw_iron"
@@ -100,12 +110,19 @@
 		{
 			dependencies: ["04C04D6FBB67AAC3"]
 			id: "7A1C76596F111A92"
-			rewards: [{
-				count: 8
-				id: "7A93A06811B91F81"
-				item: "kubejs:nutrient_bar"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 8
+					id: "7A93A06811B91F81"
+					item: "kubejs:nutrient_bar"
+					type: "item"
+				}
+				{
+					id: "6B848CED5C52745F"
+					item: "kubejs:universal_badge"
+					type: "item"
+				}
+			]
 			shape: "gear"
 			size: 1.5d
 			subtitle: "Unlocks &dBlood Magic&r Chapter"
@@ -121,6 +138,11 @@
 			dependencies: ["257C857B20905C1A"]
 			description: ["Sneak right click with a flint on a stone."]
 			id: "18FC621109276DA1"
+			rewards: [{
+				id: "2D7B96F970540F99"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "58F90B611ACCCD33"
 				item: "mysticalagriculture:nether_quartz_essence"
@@ -136,6 +158,11 @@
 			]
 			description: ["Accepts every wood log as crafting material."]
 			id: "45346209AF744497"
+			rewards: [{
+				id: "6EAF7417FFF5BC3B"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1260A039B9B00A90"
 				item: "kubejs:overgrown_wood_log"
@@ -147,6 +174,11 @@
 		{
 			dependencies: ["4FA8C9D3999330D8"]
 			id: "7735286F9FF3CDFF"
+			rewards: [{
+				id: "47BF73BAD63EF882"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "538C751AD9D1A36A"
 				item: "minecraft:gravel"
@@ -158,6 +190,11 @@
 		{
 			dependencies: ["7735286F9FF3CDFF"]
 			id: "257C857B20905C1A"
+			rewards: [{
+				id: "50A59F5C6F592A69"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0121C1FE98508097"
 				item: "minecraft:flint"
@@ -169,6 +206,11 @@
 		{
 			dependencies: ["18FC621109276DA1"]
 			id: "04C04D6FBB67AAC3"
+			rewards: [{
+				id: "70E0AB444CF0CDB1"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "72FEA136DE8DDE25"
 				item: {
@@ -185,6 +227,11 @@
 			dependencies: ["45346209AF744497"]
 			description: ["Right click with an axe on an overgrown wood log to receive wood splinters."]
 			id: "6F1284BEAE967BB1"
+			rewards: [{
+				id: "28A7340561C63466"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "16A0023470AA9853"
 				item: "kubejs:wood_splinter"
@@ -197,6 +244,11 @@
 			dependencies: ["45346209AF744497"]
 			description: ["Right click the overgrown wood log with a bucket in your hand to get water essence."]
 			id: "3D8D8C2EA17CF488"
+			rewards: [{
+				id: "41D4BD7FBF8FB013"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1E51BCB33F00F3E9"
 				item: "mysticalagriculture:water_essence"
@@ -204,6 +256,25 @@
 			}]
 			x: 2.0d
 			y: -0.5d
+		}
+		{
+			dependencies: ["183FD7820BAED84B"]
+			id: "3CF4FA8961C6D743"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "582AA873A9EC58EF"
+				table_id: 2636020884739909304L
+				type: "choice"
+			}]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "7D0E58FC43D85942"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.0d
 		}
 	]
 	title: "Stone Age"
