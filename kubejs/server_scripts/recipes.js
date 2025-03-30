@@ -572,17 +572,6 @@ ServerEvents.recipes(event => {
     'create:andesite_alloy'
   )
 
-  // NASA Workbench
-  event.replaceInput(
-    { output: 'ad_astra:nasa_workbench' },
-    'minecraft:redstone_torch',
-    '#forge:plates/copper'
-  )
-  event.replaceInput(
-    { output: 'ad_astra:nasa_workbench' },
-    'minecraft:crafting_table',
-    'kubejs:electrical_machine_casing'
-  )
   
   // Cobblestone Generator
   event.shaped(
@@ -648,33 +637,11 @@ ServerEvents.recipes(event => {
     'pneumaticcraft:plastic'
   )
 
-  //Philosopher's Stone
-  event.remove({ id: 'projecte:philosophers_stone_alt'})
-  event.replaceInput(
-    { output: 'projecte:philosophers_stone' },
-    'minecraft:diamond',
-    'bloodmagic:archmagebloodorb'
-  )
-  event.replaceInput(
-    { output: 'projecte:philosophers_stone' },
-    'minecraft:glowstone_dust',
-    'botania:gaia_ingot'
-  )
-  event.replaceInput(
-    { output: 'projecte:philosophers_stone' },
-    'minecraft:redstone',
-    'twilightforest:carminite'
-  )
+  
 
-  // Alchemical Chest
-  event.replaceInput(
-    { output: 'projecte:alchemical_chest' },
-    'minecraft:diamond',
-    'projecte:philosophers_stone'
-  )
+
 
   // Steel Bore Head
-
   event.shaped(
     Item.of('kubejs:steel_bore_head', 1),
     [
@@ -736,21 +703,79 @@ ServerEvents.recipes(event => {
   event.recipes.bloodmagic.altar('minecraft:budding_amethyst', 'minecraft:amethyst_block').upgradeLevel(2).altarSyphon(10000).consumptionRate(500).drainRate(500)
   event.recipes.smelting('minecraft:amethyst_shard', 'apotheosis:rare_material')
   
-  // Catericite
-  event.recipes.smelting('mekanism:ingot_osmium', 'kubejs:raw_catericite')
+  // Milothium
+  event.recipes.smelting('thermal:nickel_ingot', 'kubejs:raw_milothium')
   
   // Darthium
-  event.recipes.smelting('thermal:nickel_ingot', 'kubejs:raw_darthium')
-
-  // Milothium
-  event.recipes.smelting('immersiveengineering:ingot_aluminum', 'kubejs:raw_milothium')
+  event.recipes.smelting('immersiveengineering:ingot_aluminum', 'kubejs:raw_darthium')
+    
+  // Catericite
+  event.recipes.smelting('thermal:tin_ingot', 'kubejs:raw_catericite')
+    
+  // Ecolinit
+  event.recipes.smelting('mekanism:ingot_osmium', 'kubejs:raw_ecolinit')
 
   // Plastic
   event.recipes.thermal.refinery([Fluid.of('pneumaticcraft:plastic', 1000)], Fluid.of('thermal:refined_fuel', 1000))
-  event.recipes.thermal.chiller('pneumaticcraft:plastic', [Fluid.of('pneumaticcraft:plastic', 1000)])
+  event.recipes.thermal.chiller('pneumaticcraft:plastic', [Fluid.of('pneumaticcraft:plastic', 250)])
   
   // Lubricant
   event.recipes.thermal.refinery([Fluid.of('pneumaticcraft:lubricant', 1000)], Fluid.of('immersiveengineering:biodiesel', 1000))
 
-  
+  //Mekanism Control Circuits
+  // Advanced
+  // Elite
+	event.recipes.powah.energizing(['mekanism:advanced_control_circuit','powah_niotic_crystal_block'], 'mekanism:elite_control_circuit', 50000)
+  //Ad_Astra
+  // Fuel Refinery
+  event.replaceInput(
+    { output: 'ad_astra:fuel_refinery' },
+    'minecraft:furnace',
+    'kubejs:electrical_machine_casing'
+  )
+  // Oxygen Loader
+  event.replaceInput(
+    { output: 'ad_astra:oxygen_loader' },
+    'minecraft:lightning_rod',
+    'kubejs:electrical_machine_casing'
+  )
+  // NASA Workbench
+  event.replaceInput(
+    { output: 'ad_astra:nasa_workbench' },
+    'minecraft:redstone_torch',
+    '#forge:plates/copper'
+  )
+  event.replaceInput(
+    { output: 'ad_astra:nasa_workbench' },
+    'minecraft:crafting_table',
+    'kubejs:electrical_machine_casing'
+  )
+
+  //Powah
+
+  //ProjectE
+  //Philosopher's Stone
+  event.remove({ id: 'projecte:philosophers_stone_alt'})
+  event.replaceInput(
+    { output: 'projecte:philosophers_stone' },
+    'minecraft:diamond',
+    'bloodmagic:archmagebloodorb'
+  )
+  event.replaceInput(
+    { output: 'projecte:philosophers_stone' },
+    'minecraft:glowstone_dust',
+    'botania:gaia_ingot'
+  )
+  event.replaceInput(
+    { output: 'projecte:philosophers_stone' },
+    'minecraft:redstone',
+    'twilightforest:carminite'
+  )
+
+  // Alchemical Chest
+  event.replaceInput(
+    { output: 'projecte:alchemical_chest' },
+    'minecraft:diamond',
+    'projecte:philosophers_stone'
+  )
 })
