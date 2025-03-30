@@ -9,14 +9,6 @@
 		tag: { }
 	}
 	id: "3A72CCF0ADECE560"
-	images: [{
-		height: 1.0d
-		image: "kubejs:block/washing_facility_active"
-		rotation: 0.0d
-		width: 1.0d
-		x: 7.5d
-		y: -4.0d
-	}]
 	order_index: 3
 	quest_links: [ ]
 	quests: [
@@ -26,23 +18,20 @@
 				"35FEBC636877D245"
 			]
 			id: "2A7D7AF0FA54A8B0"
-			rewards: [{
-				id: "752BDF731072A9B7"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
 			tasks: [{
 				id: "5E28971CFDC14F69"
 				item: "ad_astra:nasa_workbench"
 				type: "item"
 			}]
-			x: 0.5d
+			x: -0.5d
 			y: -2.0d
 		}
 		{
 			dependencies: [
 				"2A7D7AF0FA54A8B0"
 				"28AF4E7DE38DCC3C"
+				"79CEB3C9D69B5EF8"
+				"27B8850FC0C922D2"
 			]
 			id: "1F0FDA98F543C26F"
 			tasks: [{
@@ -103,14 +92,14 @@
 			y: -8.0d
 		}
 		{
-			dependencies: ["1F0FDA98F543C26F"]
+			dependencies: ["636D5DC43180B027"]
 			id: "5B3B743084BC7402"
 			tasks: [{
 				id: "4A13BFEE2CADED02"
 				item: "mekanism:advanced_control_circuit"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -4.0d
 			y: -4.0d
 		}
 		{
@@ -121,19 +110,10 @@
 			id: "28AF4E7DE38DCC3C"
 			tasks: [{
 				id: "54FD1DBB87C60D86"
-				item: {
-					Count: 1
-					id: "minecraft:firework_rocket"
-					tag: {
-						Fireworks: {
-							Flight: 1b
-						}
-					}
-				}
+				item: "ad_astra:oxygen_loader"
 				type: "item"
 			}]
-			title: "Rocket Part Production"
-			x: -1.5d
+			x: -2.0d
 			y: -2.0d
 		}
 		{
@@ -157,6 +137,7 @@
 				"52EB5064E4394DC1"
 				"3E5DDDCFF0785737"
 				"7EB23B980C3E8F49"
+				"3D92FC7109907464"
 			]
 			id: "55B8FDDF7778B063"
 			tasks: [{
@@ -176,7 +157,7 @@
 				type: "checkmark"
 			}]
 			x: 7.0d
-			y: -11.5d
+			y: -9.0d
 		}
 		{
 			dependencies: ["7B3BBA692C7B2851"]
@@ -187,7 +168,7 @@
 				type: "checkmark"
 			}]
 			x: 7.0d
-			y: -10.0d
+			y: -11.0d
 		}
 		{
 			dependencies: ["7B3BBA692C7B2851"]
@@ -198,7 +179,7 @@
 				type: "checkmark"
 			}]
 			x: 7.0d
-			y: -8.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["55B8FDDF7778B063"]
@@ -209,7 +190,7 @@
 				type: "checkmark"
 			}]
 			x: 11.0d
-			y: -11.5d
+			y: -9.0d
 		}
 		{
 			dependencies: ["55B8FDDF7778B063"]
@@ -220,7 +201,7 @@
 				type: "checkmark"
 			}]
 			x: 11.0d
-			y: -10.0d
+			y: -11.0d
 		}
 		{
 			dependencies: ["55B8FDDF7778B063"]
@@ -231,7 +212,7 @@
 				type: "checkmark"
 			}]
 			x: 11.0d
-			y: -8.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["6EF6C744811172D7"]
@@ -242,7 +223,7 @@
 				type: "checkmark"
 			}]
 			x: 3.0d
-			y: -12.0d
+			y: -12.5d
 		}
 		{
 			dependencies: ["6EF6C744811172D7"]
@@ -253,7 +234,7 @@
 				type: "checkmark"
 			}]
 			x: 3.0d
-			y: -10.5d
+			y: -11.0d
 		}
 		{
 			dependencies: ["6EF6C744811172D7"]
@@ -274,7 +255,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: -12.0d
+			y: -12.5d
 		}
 		{
 			id: "71EC4AE940BD28EE"
@@ -294,68 +275,18 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: -10.5d
+			y: -11.0d
 		}
 		{
-			dependencies: ["530295520AE3918D"]
+			dependencies: ["02685E82A6D845E4"]
 			id: "1235585CA6D04B39"
 			tasks: [{
 				id: "241FBD0E5B3E425F"
 				item: "hostilenetworks:sim_chamber"
 				type: "item"
 			}]
-			x: 12.5d
+			x: 13.0d
 			y: -12.5d
-		}
-		{
-			dependencies: ["426CFE1736BC8A1E"]
-			id: "00963DDA358D49A4"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "7857DCB735B08727"
-				table_id: 2636020884739909304L
-				type: "choice"
-			}]
-			tasks: [{
-				id: "51BD7D0B103EF31C"
-				item: "mbd2:washing_facility"
-				type: "item"
-			}]
-			x: 6.5d
-			y: -4.0d
-		}
-		{
-			dependencies: ["00963DDA358D49A4"]
-			id: "14077CC11C44F172"
-			tasks: [{
-				id: "10B68A4E3B4CE052"
-				item: "immersiveengineering:raw_uranium"
-				type: "item"
-			}]
-			x: 5.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["00963DDA358D49A4"]
-			id: "294DC02AAE56BBAC"
-			tasks: [{
-				id: "05BA8027313CCF63"
-				item: "thermal:raw_lead"
-				type: "item"
-			}]
-			x: 6.5d
-			y: -2.0d
-		}
-		{
-			dependencies: ["00963DDA358D49A4"]
-			id: "0E642C33F3417ED5"
-			tasks: [{
-				id: "4557953BEB708710"
-				item: "bigreactors:raw_yellorium"
-				type: "item"
-			}]
-			x: 4.5d
-			y: -4.0d
 		}
 		{
 			dependencies: ["426CFE1736BC8A1E"]
@@ -390,6 +321,142 @@
 			}]
 			x: 4.0d
 			y: -7.5d
+		}
+		{
+			dependencies: ["1F0FDA98F543C26F"]
+			id: "636D5DC43180B027"
+			tasks: [{
+				id: "199F40D18054FCAB"
+				item: "ad_astra:desh_ingot"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0AC598705D877D4C"]
+			id: "0822D70343B3C9B8"
+			tasks: [{
+				id: "6EF4DFB64D149488"
+				item: "ad_astra:ostrum_ingot"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2B56D1050F78FA4D"]
+			id: "3AAFBA91A16095CA"
+			tasks: [{
+				id: "77855249889DFAA6"
+				item: "ad_astra:calorite_ingot"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["6EF6C744811172D7"]
+			id: "5C195BF8AE2B7BAC"
+			tasks: [{
+				id: "5BF0B11BFAB13968"
+				item: "ad_astra:etrium_ingot"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["6FD9146F55E2EF69"]
+			id: "79CEB3C9D69B5EF8"
+			tasks: [{
+				id: "01897BB30D6BDE0D"
+				item: "ad_astra:fuel_refinery"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6FD9146F55E2EF69"]
+			icon: {
+				Count: 1
+				id: "ad_astra:space_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "27B8850FC0C922D2"
+			tasks: [
+				{
+					id: "29AF0E372478F592"
+					item: {
+						Count: 1
+						id: "ad_astra:space_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6D16F471DBFFD15F"
+					item: {
+						Count: 1
+						id: "ad_astra:space_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0E97B3CB4F05CFC1"
+					item: {
+						Count: 1
+						id: "ad_astra:space_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Space Suit"
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7B3BBA692C7B2851"]
+			id: "3D92FC7109907464"
+			tasks: [{
+				id: "3168D9310E8D90C2"
+				title: "trace etrium"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["55B8FDDF7778B063"]
+			id: "02685E82A6D845E4"
+			tasks: [{
+				id: "5360B935E850BFA9"
+				title: "etrium nugget"
+				type: "checkmark"
+			}]
+			x: 11.0d
+			y: -12.5d
+		}
+		{
+			id: "5BB8EA17A1644283"
+			tasks: [{
+				id: "750FB8B6C2AC6E2B"
+				title: "probe MK I"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: -4.0d
 		}
 	]
 	title: "Space Age"

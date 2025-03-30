@@ -133,7 +133,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: -2.0d
+			y: -1.5d
 		}
 	]
 	title: "Accessories"

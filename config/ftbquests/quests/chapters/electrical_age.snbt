@@ -5,14 +5,24 @@
 	group: "0D67931F734E7CE2"
 	icon: "kubejs:electrical_machine_casing"
 	id: "0B9F2D4F657A0F4C"
-	images: [{
-		height: 1.0d
-		image: "thermal:block/machines/machine_refinery_active"
-		rotation: 0.0d
-		width: 1.0d
-		x: 11.5d
-		y: 7.0d
-	}]
+	images: [
+		{
+			height: 1.0d
+			image: "thermal:block/machines/machine_refinery_active"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.5d
+			y: 7.0d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:block/washing_facility_active"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.142857142857146d
+			y: 7.482142857142854d
+		}
+	]
 	order_index: 2
 	quest_links: [ ]
 	quests: [
@@ -45,8 +55,8 @@
 				item: "mekanism:basic_control_circuit"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 1.5d
+			x: -4.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["12A99979D250B545"]
@@ -263,11 +273,11 @@
 			}]
 			tasks: [{
 				id: "7E177A3F3C0779FF"
-				item: "mekanism:raw_osmium"
+				item: "mekanism:ingot_osmium"
 				type: "item"
 			}]
 			x: -1.5d
-			y: 8.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["2468A11BD78A5360"]
@@ -297,10 +307,7 @@
 			y: 5.0d
 		}
 		{
-			dependencies: [
-				"1445775C649FB704"
-				"00963DDA358D49A4"
-			]
+			dependencies: ["1445775C649FB704"]
 			id: "5E15F9A81350E9CB"
 			rewards: [{
 				id: "6CDA576A5DBE37DD"
@@ -313,13 +320,10 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 7.0d
+			y: 9.0d
 		}
 		{
-			dependencies: [
-				"1445775C649FB704"
-				"00963DDA358D49A4"
-			]
+			dependencies: ["1445775C649FB704"]
 			id: "669D596D3652954F"
 			rewards: [{
 				id: "658928F83E83EF14"
@@ -331,14 +335,11 @@
 				item: "kubejs:raw_darthium"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 5.5d
+			x: -2.0d
+			y: 4.5d
 		}
 		{
-			dependencies: [
-				"1445775C649FB704"
-				"00963DDA358D49A4"
-			]
+			dependencies: ["1445775C649FB704"]
 			id: "02DC75C1C6893D8D"
 			rewards: [{
 				id: "543DC1EA80206CC5"
@@ -350,8 +351,8 @@
 				item: "kubejs:raw_milothium"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 4.0d
+			x: -2.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["02DC75C1C6893D8D"]
@@ -363,11 +364,11 @@
 			}]
 			tasks: [{
 				id: "3FCCF0799B9EAEA3"
-				item: "thermal:raw_nickel"
+				item: "thermal:nickel_ingot"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 4.0d
+			x: -4.0d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -496,8 +497,8 @@
 				item: "mekanism:rotary_condensentrator"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 5.0d
+			x: -8.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["2D86CB025543C6FD"]
@@ -512,8 +513,8 @@
 				item: "mekanism:chemical_infuser"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 9.5d
+			x: -4.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["1168C1EE79FFB542"]
@@ -528,8 +529,8 @@
 				item: "mekanism:sulfuric_acid_bucket"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 10.0d
+			x: 1.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["4FE6CAF6E4341912"]
@@ -544,8 +545,8 @@
 				item: "mekanism:chemical_oxidizer"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 7.0d
+			x: -6.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["2468A11BD78A5360"]
@@ -560,8 +561,8 @@
 				item: "mekanism:electrolytic_separator"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 3.0d
+			x: -5.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["669D596D3652954F"]
@@ -573,11 +574,11 @@
 			}]
 			tasks: [{
 				id: "11D532A9E4E4274E"
-				item: "immersiveengineering:raw_aluminum"
+				item: "immersiveengineering:ingot_aluminum"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 5.5d
+			x: -3.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["35855C390FC01279"]
@@ -1030,18 +1031,18 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 8.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["5E15F9A81350E9CB"]
 			id: "7114A47DA3448F2B"
 			tasks: [{
 				id: "47108C7BC7C2A2DE"
-				item: "thermal:raw_tin"
+				item: "thermal:tin_ingot"
 				type: "item"
 			}]
 			x: -2.0d
-			y: 7.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["4F8EFACB168588F2"]
@@ -1075,6 +1076,79 @@
 			}]
 			x: 9.5d
 			y: 11.5d
+		}
+		{
+			dependencies: [
+				"00963DDA358D49A4"
+				"367F149393CAC18F"
+			]
+			id: "72FC2E6172BCF1B0"
+			tasks: [{
+				id: "4AC7872BD4048B05"
+				item: "thermal:raw_silver"
+				type: "item"
+			}]
+			x: -5.642857142857139d
+			y: 8.80357142857143d
+		}
+		{
+			dependencies: [
+				"00963DDA358D49A4"
+				"7114A47DA3448F2B"
+			]
+			id: "294DC02AAE56BBAC"
+			tasks: [{
+				id: "05BA8027313CCF63"
+				item: "thermal:raw_lead"
+				type: "item"
+			}]
+			x: -3.5357142857142847d
+			y: 8.767857142857146d
+		}
+		{
+			dependencies: [
+				"00963DDA358D49A4"
+				"14CBB60372F089E9"
+			]
+			id: "14077CC11C44F172"
+			tasks: [{
+				id: "10B68A4E3B4CE052"
+				item: "immersiveengineering:raw_uranium"
+				type: "item"
+			}]
+			x: -6.321428571428569d
+			y: 5.410714285714285d
+		}
+		{
+			dependencies: [
+				"00963DDA358D49A4"
+				"0A389FF75B088A85"
+			]
+			id: "0E642C33F3417ED5"
+			tasks: [{
+				id: "4557953BEB708710"
+				item: "bigreactors:raw_yellorium"
+				type: "item"
+			}]
+			x: -4.857142857142854d
+			y: 5.017857142857146d
+		}
+		{
+			dependencies: ["1445775C649FB704"]
+			id: "00963DDA358D49A4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7857DCB735B08727"
+				table_id: 2636020884739909304L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "51BD7D0B103EF31C"
+				item: "mbd2:washing_facility"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.5d
 		}
 	]
 	title: "Electrical Age"
