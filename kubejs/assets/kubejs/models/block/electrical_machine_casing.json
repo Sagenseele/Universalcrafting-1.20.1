@@ -1,0 +1,9 @@
+{
+	"parent": "minecraft:block/orientable",
+	"textures": {
+		"side": "kubejs:block/electrical_machine_casing_side",
+		"front": "kubejs:block/electrical_machine_casing_side",
+		"top": "kubejs:block/multiblock_tier3",
+		"bottom": "kubejs:block/multiblock_tier3"
+	}
+}

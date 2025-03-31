@@ -1,0 +1,9 @@
+{
+	"parent": "minecraft:block/orientable",
+	"textures": {
+		"front": "kubejs:block/deep_drill_base_formed",
+		"side": "kubejs:block/multiblock_tier2",
+		"top": "kubejs:block/multiblock_tier2",
+		"bottom": "kubejs:block/multiblock_tier2"
+	}
+}
