@@ -12,6 +12,7 @@ ClientEvents.lang('en_us', event => {
     event.add('block.mbd2.cobblestone_generator_tier1', 'Stone Generator')
     event.add('block.mbd2.drill_mk_i', 'Deep Drill')
     event.add('block.mbd2.assembler', 'Assembler')
+    event.add('block.mbd2.crystal_chamber', 'Crystal Chamber')
     event.renameItem('industrialforegoing:plastic', 'Bio-Plastic')
 
 })

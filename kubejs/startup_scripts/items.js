@@ -16,26 +16,56 @@ StartupEvents.registry('item', event => {
         .alwaysEdible()
     }).texture('kubejs:item/cake_amalgamation')
 
-    function standard_material(name) {
-        var dust = name + '_dust'
+    function raw (name) {
+        var raw = 'raw_' + name 
+        event.create(raw).texture('kubejs:item/' + raw)
+    }
+    function crushed (name) {
+        var crushed = 'crushed_' + name 
+        event.create(crushed).texture('kubejs:item/' + crushed)
+    }
+    function ingot (name) {
         var ingot = name + '_ingot'
-        var plate = name + '_plate'
-        var rod = name + '_rod'
-        var nugget = name + '_nugget'
-        event.create(dust).texture('kubejs:item/' + dust)
         event.create(ingot).texture('kubejs:item/' + ingot)
+    }
+    function plate (name) {
+        var plate = name + '_plate'
         event.create(plate).texture('kubejs:item/' + plate)
+    }
+    function rod (name) {
+        var rod = name + '_rod'
         event.create(rod).texture('kubejs:item/' + rod)
+    }
+    function dust (name) {
+        var dust = name + '_dust'
+        event.create(dust).texture('kubejs:item/' + dust)
+    }
+    function nugget (name) {
+        var nugget = name + '_nugget'
         event.create(nugget).texture('kubejs:item/' + nugget)
     }
 
-    function standard_ore(name) {
-        var raw = 'raw_' + name
-        var crushed = 'crushed_' + name
-        event.create(raw).texture('kubejs:item/' + raw)
-        event.create(crushed).texture('kubejs:item/' + crushed)
-        standard_material(name)
+    function standard_material(name) {
+        dust(name)
+        nugget(name)
+        ingot(name)
+        plate(name)
+        rod(name)
     }
+
+    function intermediate_ore(name) {
+        raw(name)
+        crushed(name)
+        dust(name)
+    }
+
+    function standard_ore(name) {
+        raw(name)
+        crushed(name)
+        standard_material(name)
+
+    }
+
     
     standard_material('blue')
     standard_material('blueish')
@@ -49,10 +79,10 @@ StartupEvents.registry('item', event => {
     standard_material('turquoise')
     standard_material('yellow')
     
-    standard_ore('catericite')
-    standard_ore('darthium')
-    standard_ore('ecolinit')
-    standard_ore('milothium')
+    intermediate_ore('catericite')
+    intermediate_ore('darthium')
+    intermediate_ore('ecolinit')
+    intermediate_ore('milothium')
     standard_ore('titan')
     standard_ore('mangan')
     standard_ore('cobalt')
@@ -62,6 +92,9 @@ StartupEvents.registry('item', event => {
     event.create('rotor').texture('kubejs:item/rotor')
     event.create('stator').texture('kubejs:item/stator')
     event.create('electric_motor').texture('kubejs:item/electric_motor')
+
+    event.create('probe_mk_i').texture('kubejs:item/probe_mk_i').displayName('Probe MK I')
+    event.create('probe_mk_ii').texture('kubejs:item/probe_mk_ii').displayName('Probe MK II')
 
     event.create('crystal_inferium').texture('kubejs:item/crystal_inferium').displayName('Inferium Crystal')
     event.create('crystal_prudentium').texture('kubejs:item/crystal_prudentium').displayName('Prudentium Crystal')

@@ -1,10 +1,6 @@
 ServerEvents.recipes(event => {
   
   function default_items(name) {
-    var nugget = 'kubejs:' + name + '_nugget'
-    var raw = 'raw_' + 'kubejs:' + name
-    var crushed = 'crushed_' + 'kubejs:' + name
-
     default_plate(name)
     default_rod(name)
     default_smelting(name)
@@ -46,23 +42,6 @@ ServerEvents.recipes(event => {
       ]
     )
   }
-  //material testing kit
-  event.shaped(
-      Item.of('kubejs:material_testing_kit', 2),
-      [
-        'ABA',
-        'CDE',
-        'AFA'
-      ],
-      {
-        A: '#forge:ingots/iron',
-        B: 'minecraft:diorite',
-        C: 'minecraft:calcite',
-        D: 'minecraft:granite',
-        E: 'minecraft:andesite',
-        F: 'minecraft:diorite'
-      }
-  )
 
   //advanced Material Data Card
   event.shaped(
@@ -193,19 +172,6 @@ ServerEvents.recipes(event => {
         A: 'kubejs:advanced_material_data_card'
       }
   )
-    
-  //EMC Data Card
-  event.shaped(
-      Item.of('kubejs:emc_data_card', 1),
-      [
-        '   ',
-        '   ',
-        ' A '
-      ],
-      {
-        A: 'kubejs:storage_data_card'
-      }
-  )
 
   // Overgrown Wood Log
   event.shaped(
@@ -319,10 +285,11 @@ ServerEvents.recipes(event => {
   // Yellow
   default_plate('yellow')
   default_rod('yellow')
+  default_compacting('yellow')
+  
+  // Turquoise
+  default_items('turquoise')
 
-  
-  
-  
   // Sulfur
   event.recipes.create.milling('thermal:sulfur_dust', '#forge:coal_coke')
 
@@ -724,6 +691,19 @@ ServerEvents.recipes(event => {
 
   //Mekanism Control Circuits
   // Advanced
+  event.remove({ id: 'mekanism:control_circuit/advanced'})
+  
+  event.shaped(
+    Item.of('mekanism:advanced_control_circuit', 1),
+    [
+      'ABA'
+    ],
+    {
+      A: 'ad_astra:desh_ingot',
+      B: 'mekanism:basic_control_circuit'
+    }
+  )
+
   // Elite
 	event.recipes.powah.energizing(['mekanism:advanced_control_circuit','powah_niotic_crystal_block'], 'mekanism:elite_control_circuit', 50000)
   //Ad_Astra
