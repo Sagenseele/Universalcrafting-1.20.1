@@ -23,7 +23,7 @@
 				item: "ad_astra:nasa_workbench"
 				type: "item"
 			}]
-			x: -0.5d
+			x: -1.5d
 			y: -2.0d
 		}
 		{
@@ -33,16 +33,28 @@
 				"79CEB3C9D69B5EF8"
 				"27B8850FC0C922D2"
 			]
+			icon: {
+				Count: 1
+				id: "ad_astra:tier_1_rocket"
+				tag: { }
+			}
 			id: "1F0FDA98F543C26F"
-			tasks: [{
-				id: "797E45823D334288"
-				item: {
-					Count: 1
-					id: "ad_astra:tier_1_rocket"
-					tag: { }
+			tasks: [
+				{
+					id: "797E45823D334288"
+					item: {
+						Count: 1
+						id: "ad_astra:tier_1_rocket"
+						tag: { }
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "73BB60E724B0BEFF"
+					item: "ad_astra:launch_pad"
+					type: "item"
+				}
+			]
 			x: -0.5d
 			y: -4.0d
 		}
@@ -113,7 +125,7 @@
 				item: "ad_astra:oxygen_loader"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -3.0d
 			y: -2.0d
 		}
 		{
@@ -218,9 +230,9 @@
 			dependencies: ["6EF6C744811172D7"]
 			id: "7A8F03CF163B1842"
 			tasks: [{
-				id: "102EF03830426CEC"
-				title: "crushed milothium"
-				type: "checkmark"
+				id: "2100C5A7DFB7AD83"
+				item: "kubejs:crushed_milothium"
+				type: "item"
 			}]
 			x: 3.0d
 			y: -12.5d
@@ -229,9 +241,9 @@
 			dependencies: ["6EF6C744811172D7"]
 			id: "0A2189886DA0A765"
 			tasks: [{
-				id: "4740D4FCD63DB27B"
-				title: "crushed darthium"
-				type: "checkmark"
+				id: "101779C9DCF4497D"
+				item: "kubejs:crushed_darthium"
+				type: "item"
 			}]
 			x: 3.0d
 			y: -11.0d
@@ -240,9 +252,9 @@
 			dependencies: ["6EF6C744811172D7"]
 			id: "4B195CEAECB36496"
 			tasks: [{
-				id: "1380C329EC9DE844"
-				title: "crushed catericite"
-				type: "checkmark"
+				id: "47197CE00DE234AC"
+				item: "kubejs:crushed_catericite"
+				type: "item"
 			}]
 			x: 3.0d
 			y: -9.0d
@@ -305,9 +317,9 @@
 			dependencies: ["6EF6C744811172D7"]
 			id: "4900644A102823ED"
 			tasks: [{
-				id: "69FBD95C60E6D88E"
-				title: "crushed ecolinit"
-				type: "checkmark"
+				id: "5B6B8C89E2F3BC4A"
+				item: "kubejs:crushed_ecolinit"
+				type: "item"
 			}]
 			x: 3.0d
 			y: -7.5d
@@ -374,7 +386,7 @@
 				item: "ad_astra:fuel_refinery"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 0.5d
 			y: -2.0d
 		}
 		{
@@ -423,7 +435,7 @@
 				}
 			]
 			title: "Space Suit"
-			x: 2.5d
+			x: 2.0d
 			y: -2.0d
 		}
 		{
@@ -449,14 +461,15 @@
 			y: -12.5d
 		}
 		{
+			dependencies: ["6EF6C744811172D7"]
 			id: "5BB8EA17A1644283"
 			tasks: [{
 				id: "750FB8B6C2AC6E2B"
 				title: "probe MK I"
 				type: "checkmark"
 			}]
-			x: 4.0d
-			y: -4.0d
+			x: -0.5d
+			y: -11.5d
 		}
 	]
 	title: "Space Age"

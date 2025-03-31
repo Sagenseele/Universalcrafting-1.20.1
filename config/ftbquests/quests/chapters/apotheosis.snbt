@@ -16,7 +16,7 @@
 				item: "kubejs:universal_badge"
 				type: "item"
 			}]
-			size: 1.25d
+			size: 1.1d
 			tasks: [{
 				id: "5D09EEE5CEA41599"
 				item: {
@@ -43,7 +43,7 @@
 				item: "kubejs:universal_badge"
 				type: "item"
 			}]
-			size: 1.25d
+			size: 1.1d
 			tasks: [{
 				id: "452E807B4B26AA43"
 				item: "apotheosis:gem_cutting_table"
@@ -60,7 +60,7 @@
 				item: "kubejs:universal_badge"
 				type: "item"
 			}]
-			size: 1.25d
+			size: 1.1d
 			tasks: [{
 				id: "00031CC53781FF90"
 				item: "apotheosis:salvaging_table"
@@ -77,7 +77,7 @@
 				item: "kubejs:universal_badge"
 				type: "item"
 			}]
-			size: 1.25d
+			size: 1.1d
 			tasks: [{
 				id: "0D459A176FCD1714"
 				item: {
@@ -104,7 +104,7 @@
 				item: "kubejs:universal_badge"
 				type: "item"
 			}]
-			size: 1.25d
+			size: 1.1d
 			tasks: [{
 				id: "7507DF9E18DA2A0A"
 				item: {
@@ -131,7 +131,7 @@
 				item: "kubejs:universal_badge"
 				type: "item"
 			}]
-			size: 1.25d
+			size: 1.1d
 			tasks: [{
 				id: "12EF4631D3FEC403"
 				item: {
@@ -158,7 +158,7 @@
 				item: "kubejs:universal_badge"
 				type: "item"
 			}]
-			size: 1.25d
+			size: 1.1d
 			tasks: [{
 				id: "2BF13EE96E461AA8"
 				item: {
@@ -185,7 +185,7 @@
 				item: "kubejs:universal_badge"
 				type: "item"
 			}]
-			size: 1.25d
+			size: 1.1d
 			tasks: [{
 				id: "2E001FF621BF55AE"
 				item: {
@@ -212,7 +212,7 @@
 				item: "kubejs:universal_badge"
 				type: "item"
 			}]
-			size: 1.25d
+			size: 1.1d
 			tasks: [{
 				id: "555E660CE5A8C7FB"
 				item: {
@@ -239,7 +239,7 @@
 				item: "kubejs:universal_badge"
 				type: "item"
 			}]
-			size: 1.25d
+			size: 1.1d
 			tasks: [{
 				id: "63FCFF0CC71F853E"
 				item: {
@@ -266,7 +266,7 @@
 				item: "kubejs:universal_badge"
 				type: "item"
 			}]
-			size: 1.25d
+			size: 1.1d
 			tasks: [{
 				id: "6D166DAB6A8142D1"
 				item: {
@@ -293,7 +293,7 @@
 				item: "kubejs:universal_badge"
 				type: "item"
 			}]
-			size: 1.25d
+			size: 1.1d
 			tasks: [{
 				id: "6620EAB42F7B75D2"
 				item: {
@@ -320,7 +320,7 @@
 				item: "kubejs:universal_badge"
 				type: "item"
 			}]
-			size: 1.25d
+			size: 1.1d
 			tasks: [{
 				id: "6ABFEEE3FBB71094"
 				item: {
@@ -347,7 +347,7 @@
 				item: "kubejs:universal_badge"
 				type: "item"
 			}]
-			size: 1.25d
+			size: 1.1d
 			tasks: [{
 				id: "150032004939B90F"
 				item: {
@@ -374,7 +374,7 @@
 				item: "kubejs:universal_badge"
 				type: "item"
 			}]
-			size: 1.25d
+			size: 1.1d
 			tasks: [{
 				id: "6C6025FB332C155A"
 				item: {
@@ -401,7 +401,7 @@
 				item: "kubejs:universal_badge"
 				type: "item"
 			}]
-			size: 1.25d
+			size: 1.1d
 			tasks: [{
 				id: "2407E5F952793508"
 				item: {
@@ -428,7 +428,7 @@
 				item: "kubejs:universal_badge"
 				type: "item"
 			}]
-			size: 1.25d
+			size: 1.1d
 			tasks: [{
 				id: "1EDCAE043F0E51EC"
 				item: {
@@ -455,7 +455,7 @@
 				item: "kubejs:universal_badge"
 				type: "item"
 			}]
-			size: 1.25d
+			size: 1.1d
 			tasks: [{
 				id: "15F68C1BD73CD1E7"
 				item: {
@@ -482,7 +482,7 @@
 				item: "kubejs:universal_badge"
 				type: "item"
 			}]
-			size: 1.25d
+			size: 1.1d
 			tasks: [{
 				id: "344AA65539AF2950"
 				item: {
@@ -509,7 +509,7 @@
 				item: "kubejs:universal_badge"
 				type: "item"
 			}]
-			size: 1.25d
+			size: 1.1d
 			tasks: [{
 				id: "18B8161F01B4C586"
 				item: {
@@ -536,7 +536,7 @@
 				item: "kubejs:universal_badge"
 				type: "item"
 			}]
-			size: 1.25d
+			size: 1.1d
 			tasks: [{
 				id: "3D60E01B955639E0"
 				item: {
@@ -563,7 +563,7 @@
 				item: "kubejs:universal_badge"
 				type: "item"
 			}]
-			size: 1.25d
+			size: 1.1d
 			tasks: [{
 				id: "02434F63B0661748"
 				item: {
@@ -590,7 +590,7 @@
 				item: "kubejs:universal_badge"
 				type: "item"
 			}]
-			size: 1.25d
+			size: 1.1d
 			tasks: [{
 				id: "7DD96E0328D257C4"
 				item: {
@@ -617,7 +617,7 @@
 				item: "kubejs:universal_badge"
 				type: "item"
 			}]
-			size: 1.5d
+			size: 1.25d
 			tasks: [{
 				id: "2AB0213758A66C45"
 				item: "apotheosis:gem_fused_slate"
@@ -634,7 +634,7 @@
 				item: "kubejs:universal_badge"
 				type: "item"
 			}]
-			size: 1.25d
+			size: 1.1d
 			tasks: [{
 				id: "592859DEF928CC8B"
 				item: "apotheosis:augmenting_table"
@@ -651,14 +651,14 @@
 				item: "kubejs:universal_badge"
 				type: "item"
 			}]
-			size: 1.25d
+			size: 1.1d
 			tasks: [{
 				id: "0E7DC182DD607601"
 				item: "apotheosis:simple_reforging_table"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -1.0d
+			x: 7.448086734693874d
+			y: -0.9967474489795904d
 		}
 		{
 			dependencies: ["2567C6EE90B2E73A"]
@@ -668,7 +668,7 @@
 				item: "kubejs:universal_badge"
 				type: "item"
 			}]
-			size: 1.25d
+			size: 1.1d
 			tasks: [{
 				id: "38C0D22B4220361D"
 				item: "apotheosis:reforging_table"
@@ -685,7 +685,7 @@
 				item: "kubejs:universal_badge"
 				type: "item"
 			}]
-			size: 1.25d
+			size: 1.1d
 			tasks: [{
 				id: "49C56F9029F08F02"
 				item: "apotheosis:sigil_of_socketing"
@@ -702,7 +702,7 @@
 				item: "kubejs:universal_badge"
 				type: "item"
 			}]
-			size: 1.25d
+			size: 1.1d
 			tasks: [{
 				id: "7AF9B3AB0F500CEC"
 				item: "apotheosis:sigil_of_withdrawal"
@@ -719,7 +719,7 @@
 				item: "kubejs:universal_badge"
 				type: "item"
 			}]
-			size: 1.25d
+			size: 1.1d
 			tasks: [{
 				id: "017BBC350E10CAB7"
 				item: "apotheosis:sigil_of_rebirth"
@@ -736,7 +736,7 @@
 				item: "kubejs:universal_badge"
 				type: "item"
 			}]
-			size: 1.25d
+			size: 1.1d
 			tasks: [{
 				id: "334259F788417F87"
 				item: "apotheosis:sigil_of_enhancement"
@@ -753,7 +753,7 @@
 				item: "kubejs:universal_badge"
 				type: "item"
 			}]
-			size: 1.25d
+			size: 1.1d
 			tasks: [{
 				id: "4067046CA3D4A547"
 				item: "apotheosis:sigil_of_unnaming"
@@ -770,7 +770,7 @@
 				type: "item"
 			}]
 			shape: "rsquare"
-			size: 1.25d
+			size: 1.0d
 			tasks: [{
 				id: "4FD9F07979B4A644"
 				item: "apotheosis:library"
@@ -788,7 +788,7 @@
 				type: "item"
 			}]
 			shape: "rsquare"
-			size: 1.25d
+			size: 1.0d
 			tasks: [{
 				id: "35B023BE97677D9B"
 				item: "apotheosis:ender_library"
@@ -805,7 +805,7 @@
 				type: "item"
 			}]
 			shape: "rsquare"
-			size: 1.25d
+			size: 1.0d
 			tasks: [{
 				id: "184895D6EC7A4234"
 				item: "apotheosis:hellshelf"
@@ -823,7 +823,7 @@
 				type: "item"
 			}]
 			shape: "rsquare"
-			size: 1.25d
+			size: 1.0d
 			tasks: [{
 				id: "4B64ECEB7C8EAEE5"
 				item: "apotheosis:infused_hellshelf"
@@ -854,7 +854,7 @@
 				item: "kubejs:universal_badge"
 				type: "item"
 			}]
-			size: 1.5d
+			size: 1.25d
 			tasks: [{
 				id: "2D99900D90CFE09E"
 				item: "apotheosis:gem_dust"

@@ -182,6 +182,35 @@
 					item: "mbd2:item_output_tier1"
 					type: "item"
 				}
+				{
+					count: 2L
+					id: "2433C936858BD35A"
+					item: { Count: 2, id: "create:shaft" }
+					type: "item"
+				}
+				{
+					id: "37E4E60A9812EEC7"
+					item: "create:andesite_casing"
+					type: "item"
+				}
+				{
+					count: 34L
+					id: "1D9C699709CA8172"
+					item: { Count: 34, id: "kubejs:multiblock_tier1" }
+					type: "item"
+				}
+				{
+					count: 24L
+					id: "55CB4037E23A4931"
+					item: { Count: 24, id: "kubejs:frame_tier1" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "7B7B88D6D557057A"
+					item: { Count: 3, id: "minecraft:glass" }
+					type: "item"
+				}
 			]
 			x: 9.0d
 			y: -3.5d
@@ -766,6 +795,24 @@
 				{
 					id: "68C150BFBDA1FAC5"
 					item: "mbd2:item_output_tier1"
+					type: "item"
+				}
+				{
+					count: 37L
+					id: "0C7451DC6D32800A"
+					item: { Count: 37, id: "kubejs:multiblock_tier1" }
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "3C4D815FB0761B2E"
+					item: { Count: 12, id: "kubejs:coil_tier1" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "46FDE4D8CA705B46"
+					item: { Count: 8, id: "kubejs:frame_tier1" }
 					type: "item"
 				}
 			]

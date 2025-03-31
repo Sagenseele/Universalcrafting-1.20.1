@@ -133,16 +133,6 @@
 			y: 1.0d
 		}
 		{
-			id: "680C4E90F6D72C18"
-			tasks: [{
-				id: "0A2E10FECCD395C1"
-				type: "checkmark"
-			}]
-			title: "Suggestions for playing"
-			x: 3.5d
-			y: 1.0d
-		}
-		{
 			description: [
 				"Hello and welcome to my Modpack &6Universal Crafting&r."
 				""

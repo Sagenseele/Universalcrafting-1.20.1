@@ -132,8 +132,29 @@
 				item: "reliquary:mob_charm_belt"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -1.5d
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			id: "24322269F7AD2AC0"
+			rewards: [{
+				id: "7518BFF9D7BECD1A"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "49B663EFD3498E49"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:repair_talisman"
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
 		}
 	]
 	title: "Accessories"

@@ -152,8 +152,8 @@
 				item: "refinedstorage:1k_storage_disk"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -6.5d
+			x: 6.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["3DEACED6D10985A5"]
@@ -168,8 +168,8 @@
 				item: "refinedstorage:4k_storage_part"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -6.0d
+			x: 5.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["1B9E4DDA6F442536"]
@@ -184,8 +184,8 @@
 				item: "refinedstorage:16k_storage_part"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -6.5d
+			x: 4.5d
+			y: -8.0d
 		}
 		{
 			dependencies: ["1833C10FE91291C1"]
@@ -200,8 +200,8 @@
 				item: "refinedstorage:64k_storage_part"
 				type: "item"
 			}]
-			x: 8.5d
-			y: -7.0d
+			x: 3.5d
+			y: -9.0d
 		}
 		{
 			dependencies: ["3DEACED6D10985A5"]
@@ -216,8 +216,8 @@
 				item: "refinedstorage:disk_manipulator"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -7.0d
+			x: 6.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["386AD7C453938B8E"]
@@ -659,8 +659,8 @@
 				item: "ae2:cell_component_1k"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -0.5d
+			x: -5.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["2406F2A6769684BA"]
@@ -679,8 +679,8 @@
 				}
 				type: "item"
 			}]
-			x: -5.5d
-			y: -1.5d
+			x: -4.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["2406F2A6769684BA"]
@@ -695,8 +695,8 @@
 				item: "ae2:cell_component_4k"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 0.0d
+			x: -7.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["35DD81FB348A7C74"]
@@ -711,8 +711,8 @@
 				item: "ae2:cell_component_16k"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 0.5d
+			x: -8.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["11F57DFD1E5CDF41"]
@@ -727,8 +727,8 @@
 				item: "ae2:cell_component_64k"
 				type: "item"
 			}]
-			x: -7.5d
-			y: 1.0d
+			x: -9.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["788DB3AEB63FB302"]
@@ -743,8 +743,8 @@
 				item: "ae2:cell_component_256k"
 				type: "item"
 			}]
-			x: -8.5d
-			y: 1.5d
+			x: -10.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["0A64D42768523146"]
@@ -849,23 +849,6 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["163943B8E662CB66"]
-			id: "5692FB2480E3A022"
-			rewards: [{
-				id: "5741978D825FBCA6"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
-			shape: "square"
-			tasks: [{
-				id: "2C70C2EDF90F8D4C"
-				item: "mbd2:crystal_chamber"
-				type: "item"
-			}]
-			x: -5.5d
-			y: 1.5d
-		}
-		{
 			dependencies: ["4E7546BA100379F3"]
 			id: "1F6275C9B2938B45"
 			rewards: [{
@@ -880,6 +863,110 @@
 			}]
 			x: 3.5d
 			y: 0.0d
+		}
+		{
+			dependencies: ["146CBE384DD72A1A"]
+			id: "2884DF6B91E4DFB1"
+			subtitle: "diskpart.exe"
+			tasks: [{
+				id: "1253E110EB50E9DD"
+				item: "ae2:cell_workbench"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2884DF6B91E4DFB1"]
+			id: "40C31A98DC1F5449"
+			tasks: [{
+				id: "6969E5E614B6D31F"
+				item: "ae2:void_card"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2884DF6B91E4DFB1"]
+			id: "308092FC9BBAA77E"
+			tasks: [{
+				id: "11ED443F85666402"
+				item: "ae2:equal_distribution_card"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2406F2A6769684BA"]
+			id: "1794F703089E080A"
+			tasks: [{
+				id: "57028B85F63E8488"
+				item: {
+					Count: 1
+					id: "ae2:fluid_storage_cell_1k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6FA66DBEA0F06B48"]
+			id: "4081F45755846626"
+			tasks: [{
+				id: "4FD95F674F58D43A"
+				item: "refinedstorage:64k_fluid_storage_disk"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["47025399E4AA15CC"]
+			id: "6FA66DBEA0F06B48"
+			tasks: [{
+				id: "75521A9165D23C65"
+				item: "refinedstorage:64k_fluid_storage_part"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6FA66DBEA0F06B48"]
+			id: "439DAA3C73132EC7"
+			tasks: [{
+				id: "7365EA63802841AC"
+				item: "refinedstorage:256k_fluid_storage_part"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["439DAA3C73132EC7"]
+			id: "03CBF4849BBDA198"
+			tasks: [{
+				id: "46A7CDD76247D36D"
+				item: "refinedstorage:1024k_fluid_storage_part"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["03CBF4849BBDA198"]
+			id: "7DA62CD189136250"
+			tasks: [{
+				id: "53216612724CAEC9"
+				item: "refinedstorage:4096k_fluid_storage_part"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -8.5d
 		}
 	]
 	title: "AE2/RS"
