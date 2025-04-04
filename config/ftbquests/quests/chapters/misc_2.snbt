@@ -508,6 +508,11 @@
 			y: -2.5d
 		}
 		{
+			description: [
+				"&cThere seems to be a bug in the current version. If you connect energy conduits to some machines, make sure to enable the correct IO. E.g. Input only for Thermal Machines, Output only for Energy Producing machines.&r"
+				""
+				"&4The energy will be deleted otherwise.&r"
+			]
 			id: "29FA058EE1F64B8F"
 			rewards: [{
 				id: "62CEB6556BE63DC6"
