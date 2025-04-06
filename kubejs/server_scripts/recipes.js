@@ -14,6 +14,14 @@ ServerEvents.recipes(event => {
     default_compacting(nugget, ingot)
   }
 
+  function kubejs_crushing(name) {
+    var crushed = 'kubejs:crushed_' + name
+    var raw = 'kubejs:raw_' + name
+    event.recipes.thermal.pulverizer(crushed, raw).energy(500)
+    event.recipes.create.milling(crushed, raw)
+    event.recipes.enderio.sag_milling([crushed], raw);
+  }
+
   function default_plate(plate, ingot) {
     event.recipes.create.pressing(plate, ingot)
     event.recipes.thermal.press(plate, ingot)
@@ -49,6 +57,10 @@ ServerEvents.recipes(event => {
   function default_3alloys(result, energy, input1, input2, input3) {
     event.recipes.thermal.smelter(result, [input1, input2, input3]).energy(energy)
     event.recipes.enderio.alloy_smelting(result, [input1, input2, input3]).energy(energy)
+  }
+
+  function default_pulverizer(result, energy, input1) {
+    
   }
 
   //advanced Material Data Card
@@ -493,6 +505,7 @@ ServerEvents.recipes(event => {
     }
   )
   // Multiblock Tier 3
+  event.recipes.thermal.bottler('kubejs:turquoise_ingot', [Fluid.of('pneumaticcraft:plastic', 50), 'kubejs:yellow_ingot'])
   event.shaped(
     Item.of('kubejs:frame_tier3', 1),
     [
@@ -517,6 +530,8 @@ ServerEvents.recipes(event => {
       B: 'kubejs:turquoise_plate'
     }
   )
+  
+
   // motorized frame
 
   event.shaped(
@@ -638,10 +653,6 @@ ServerEvents.recipes(event => {
     'pneumaticcraft:plastic'
   )
 
-  
-
-
-
   // Steel Bore Head
   event.shaped(
     Item.of('kubejs:steel_bore_head', 1),
@@ -668,7 +679,7 @@ ServerEvents.recipes(event => {
     ],
     {
       A: 'thermal:machine_frame',
-      B: 'pneumaticcraft:plastic',
+      B: 'kubejs:turquoise_plate',
       C: '#forge:sheetmetals/aluminum',
       D: 'immersiveengineering:slab_sheetmetal_nickel',
       E: 'pneumaticcraft:lubricant_bucket',
@@ -688,7 +699,7 @@ ServerEvents.recipes(event => {
     {
       A: 'ae2:fluix_pearl',
       B: 'ae2:fluix_block',
-      C: 'pneumaticcraft:plastic',
+      C: 'kubejs:turquoise_plate',
       D: 'ae2:cut_quartz_slab',
       E: 'mekanism:block_osmium'
     }
@@ -706,15 +717,19 @@ ServerEvents.recipes(event => {
   
   // Milothium
   event.recipes.smelting('thermal:nickel_ingot', 'kubejs:raw_milothium')
+  kubejs_crushing('milothium')
   
   // Darthium
   event.recipes.smelting('immersiveengineering:ingot_aluminum', 'kubejs:raw_darthium')
+  kubejs_crushing('darthium')
     
   // Catericite
   event.recipes.smelting('thermal:tin_ingot', 'kubejs:raw_catericite')
+  kubejs_crushing('catericite')
     
   // Ecolinit
   event.recipes.smelting('mekanism:ingot_osmium', 'kubejs:raw_ecolinit')
+  kubejs_crushing('ecolinit')
 
   // Plastic
   event.recipes.thermal.refinery([Fluid.of('pneumaticcraft:plastic', 1000)], Fluid.of('thermal:refined_fuel', 1000))
