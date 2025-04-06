@@ -1,34 +1,33 @@
 ServerEvents.recipes(event => {
   
-  function default_items(name) {
-    default_plate(name)
-    default_rod(name)
-    default_smelting(name)
-    default_compacting(name)
-  }
+  
 
-  function default_plate(name) {
+  function kubejs_items(name) {
     var plate = 'kubejs:' + name + '_plate'
     var ingot = 'kubejs:' + name + '_ingot'
+    var rod = 'kubejs:' + name + '_rod'
+    var dust = 'kubejs:' + name + '_dust'
+    var nugget = 'kubejs:' + name + '_nugget'
+    default_plate(plate, ingot)
+    default_rod(rod, ingot)
+    default_smelting(ingot, dust)
+    default_compacting(nugget, ingot)
+  }
+
+  function default_plate(plate, ingot) {
     event.recipes.create.pressing(plate, ingot)
     event.recipes.thermal.press(plate, ingot)
   }
 
-  function default_rod(name) {
-    var ingot = 'kubejs:' + name + '_ingot'
-    var rod = 'kubejs:' + name + '_rod'
+  function default_rod(rod, ingot) {
     event.recipes.farmersdelight.cutting(ingot, '#forge:saws', [('2x ' + rod).toString()])
   }
 
-  function default_smelting(name) {
-    var dust = 'kubejs:' + name + '_dust'
-    var ingot = 'kubejs:' + name + '_ingot'
+  function default_smelting(ingot, dust) {
     event.recipes.smelting(ingot, dust)
   }
 
-  function default_compacting(name) {
-    var nugget = 'kubejs:' + name + '_nugget'
-    var ingot = 'kubejs:' + name + '_ingot'
+  function default_compacting(nugget, ingot) {
     event.shapeless(
       Item.of(ingot, 1),
       [
@@ -41,6 +40,15 @@ ServerEvents.recipes(event => {
         '1x ' + ingot
       ]
     )
+  }
+
+  function default_2alloys(result, energy, input1, input2) {
+    event.recipes.thermal.smelter(result, [input1, input2]).energy(energy)
+    event.recipes.enderio.alloy_smelting(result, [input1, input2]).energy(energy)
+  }
+  function default_3alloys(result, energy, input1, input2, input3) {
+    event.recipes.thermal.smelter(result, [input1, input2, input3]).energy(energy)
+    event.recipes.enderio.alloy_smelting(result, [input1, input2, input3]).energy(energy)
   }
 
   //advanced Material Data Card
@@ -280,15 +288,17 @@ ServerEvents.recipes(event => {
       '2x #forge:dusts/iron'
     ]
   )
-  default_items('blueish')
+  kubejs_items('blueish')
 
   // Yellow
-  default_plate('yellow')
-  default_rod('yellow')
-  default_compacting('yellow')
-  
+  default_plate('kubejs:yellow_plate', 'kubejs:yellow_ingot')
+  default_rod('kubejs:yellow_rod', 'kubejs:yellow_ingot')
+  default_compacting('kubejs:yellow_nugget', 'kubejs:yellow_ingot')
+  default_2alloys('kubejs:yellow_ingot', 5000, '#forge:dusts/sulfur', '2x kubejs:blueish_ingot')
+
+
   // Turquoise
-  default_items('turquoise')
+  kubejs_items('turquoise')
 
   // Sulfur
   event.recipes.create.milling('thermal:sulfur_dust', '#forge:coal_coke')
@@ -482,7 +492,31 @@ ServerEvents.recipes(event => {
       B: 'minecraft:redstone_block'
     }
   )
-  
+  // Multiblock Tier 3
+  event.shaped(
+    Item.of('kubejs:frame_tier3', 1),
+    [
+      'A A',
+      ' B ',
+      'A A'
+    ],
+    {
+      A: 'kubejs:turquoise_rod',
+      B: 'kubejs:yellow_ingot',
+    }
+  )
+  event.shaped(
+    Item.of('kubejs:multiblock_tier3', 1),
+    [
+      ' B ',
+      'BAB',
+      ' B '
+    ],
+    {
+      A: 'kubejs:frame_tier3',
+      B: 'kubejs:turquoise_plate'
+    }
+  )
   // motorized frame
 
   event.shaped(
@@ -730,6 +764,69 @@ ServerEvents.recipes(event => {
     'minecraft:crafting_table',
     'kubejs:electrical_machine_casing'
   )
+  // Etrium Ingot
+  default_compacting('ad_astra:etrium_nugget', 'ad_astra:etrium_ingot')
+  default_plate('ad_astra:etrium_plate', 'ad_astra:etrium_ingot')
+  default_plate('ad_astra:etrium_rod', 'ad_astra:etrium_ingot')
+  event.shaped(
+    Item.of('ad_astra:etrium_factory_block', 64),
+    [
+      'AAA',
+      'ABA',
+      'AAA'
+    ],
+    {
+      A: 'ad_astra:etrium_plate',
+      B: 'ad_astra:etrium_ingot'
+    }
+  )
+  event.shaped(
+    Item.of('ad_astra:encased_etrium_block', 64),
+    [
+      'BBB',
+      'AAA',
+      'BBB'
+    ],
+    {
+      A: 'ad_astra:etrium_plate',
+      B: '#forge:ingots/steel'
+    }
+  )
+  event.shaped(
+    Item.of('ad_astra:etrium_plateblock', 64),
+    [
+      'AAA',
+      'ABA',
+      'AAA'
+    ],
+    {
+      A: 'ad_astra:etrium_plate',
+      B: '#forge:rods/steel'
+    }
+  )
+  event.shaped(
+    Item.of('ad_astra:etrium_panel', 64),
+    [
+      'ABA',
+      'BBB',
+      'ABA'
+    ],
+    {
+      A: 'ad_astra:etrium_plate',
+      B: 'ad_astra:etrium_ingot'
+    }
+  )
+  event.shaped(
+    Item.of('ad_astra:etrium_block', 1),
+    [
+      'BBB',
+      'BBB',
+      'BBB'
+    ],
+    {
+      B: 'ad_astra:etrium_ingot'
+    }
+  )
 
   //Powah
 
@@ -757,5 +854,23 @@ ServerEvents.recipes(event => {
     { output: 'projecte:alchemical_chest' },
     'minecraft:diamond',
     'projecte:philosophers_stone'
+  )
+
+  // Misc
+  default_3alloys('create:blaze_cake_base', 5000, '#forge:eggs', 'minecraft:sugar', 'create:cinder_flour')
+  default_2alloys('kubejs:heat_resistant_glass', 5000, '#forge:glass', '#forge:ingots/gold')
+  
+  // Simulation Chamber
+  event.replaceInput(
+    { output: 'hostilenetworks:sim_chamber' },
+    'minecraft:lapis_lazuli',
+    'ad_astra:etrium_ingot'
+  )
+
+  // Loot Fabricator
+  event.replaceInput(
+    { output: 'hostilenetworks:loot_fabricator' },
+    'minecraft:diamond',
+    'ad_astra:desh_ingot'
   )
 })
