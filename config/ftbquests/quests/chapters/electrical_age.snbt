@@ -1160,6 +1160,7 @@
 				table_id: 2636020884739909304L
 				type: "choice"
 			}]
+			shape: "square"
 			tasks: [{
 				id: "51BD7D0B103EF31C"
 				item: "mbd2:washing_facility"

@@ -399,6 +399,28 @@
 			x: -0.5d
 			y: -5.5d
 		}
+		{
+			dependencies: ["0AF2FE192BE0715D"]
+			id: "534FB2740031E756"
+			tasks: [{
+				id: "085694FC6EC7870F"
+				item: "botania:orechid"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0AF2FE192BE0715D"]
+			id: "5D40448DB190F7B5"
+			tasks: [{
+				id: "78D7D9505CB5871D"
+				item: "botania:orechid_ignem"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
 	]
 	title: "Botania"
 }

@@ -111,7 +111,7 @@
 				item: "mekanism:advanced_control_circuit"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -4.5d
 			y: -4.0d
 		}
 		{
@@ -137,27 +137,11 @@
 			]
 			id: "7B3BBA692C7B2851"
 			tasks: [{
-				id: "144CB381C98A81D6"
-				title: "Magnetizer"
-				type: "checkmark"
+				id: "043BFACB7F69C109"
+				item: "mbd2:magnetizer"
+				type: "item"
 			}]
-			x: 5.0d
-			y: -10.0d
-		}
-		{
-			dependencies: [
-				"52EB5064E4394DC1"
-				"3E5DDDCFF0785737"
-				"7EB23B980C3E8F49"
-				"3D92FC7109907464"
-			]
-			id: "55B8FDDF7778B063"
-			tasks: [{
-				id: "397E295F808879B7"
-				title: "crystallizer"
-				type: "checkmark"
-			}]
-			x: 9.0d
+			x: 4.5d
 			y: -10.0d
 		}
 		{
@@ -165,66 +149,33 @@
 			id: "52EB5064E4394DC1"
 			tasks: [{
 				id: "2B8F363DA5B04239"
-				title: "trace calorite"
+				title: "crushed calorite"
 				type: "checkmark"
 			}]
-			x: 7.0d
-			y: -9.0d
+			x: 6.5d
+			y: -9.5d
 		}
 		{
 			dependencies: ["7B3BBA692C7B2851"]
 			id: "3E5DDDCFF0785737"
 			tasks: [{
 				id: "01D2B457B0183A31"
-				title: "trace ostrum"
+				title: "crushed ostrum"
 				type: "checkmark"
 			}]
-			x: 7.0d
-			y: -11.0d
+			x: 6.5d
+			y: -10.5d
 		}
 		{
 			dependencies: ["7B3BBA692C7B2851"]
 			id: "7EB23B980C3E8F49"
 			tasks: [{
 				id: "1A7CB4E9831E46C1"
-				title: "trace desh"
+				title: "crushed desh"
 				type: "checkmark"
 			}]
-			x: 7.0d
-			y: -7.5d
-		}
-		{
-			dependencies: ["55B8FDDF7778B063"]
-			id: "530295520AE3918D"
-			tasks: [{
-				id: "5BDC9082744F5E6C"
-				title: "calorite nugget"
-				type: "checkmark"
-			}]
-			x: 11.0d
-			y: -9.0d
-		}
-		{
-			dependencies: ["55B8FDDF7778B063"]
-			id: "0EF01E7AB87F3A13"
-			tasks: [{
-				id: "4DEA7E4B43AB815B"
-				title: "ostrum nugget"
-				type: "checkmark"
-			}]
-			x: 11.0d
-			y: -11.0d
-		}
-		{
-			dependencies: ["55B8FDDF7778B063"]
-			id: "7B1756955883393D"
-			tasks: [{
-				id: "196FD674D2627CA7"
-				title: "desh nugget"
-				type: "checkmark"
-			}]
-			x: 11.0d
-			y: -7.5d
+			x: 6.5d
+			y: -8.5d
 		}
 		{
 			dependencies: ["6EF6C744811172D7"]
@@ -234,8 +185,8 @@
 				item: "kubejs:crushed_milothium"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -12.5d
+			x: 2.5d
+			y: -10.5d
 		}
 		{
 			dependencies: ["6EF6C744811172D7"]
@@ -245,8 +196,8 @@
 				item: "kubejs:crushed_darthium"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -11.0d
+			x: 2.5d
+			y: -9.5d
 		}
 		{
 			dependencies: ["6EF6C744811172D7"]
@@ -256,48 +207,18 @@
 				item: "kubejs:crushed_catericite"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -9.0d
+			x: 2.5d
+			y: -8.5d
 		}
 		{
-			id: "6B88793E5E30F1BC"
-			tasks: [{
-				id: "34A26A6DE2DDDDE1"
-				item: "thermal:blizz_powder"
-				type: "item"
-			}]
-			x: 4.0d
-			y: -12.5d
-		}
-		{
-			id: "71EC4AE940BD28EE"
-			tasks: [{
-				id: "1AAFD33790DC2882"
-				item: "thermal:basalz_powder"
-				type: "item"
-			}]
-			x: 4.0d
-			y: -9.0d
-		}
-		{
-			id: "46ACF85AD3A9ED4C"
-			tasks: [{
-				id: "2D932A4E8F404548"
-				item: "thermal:blitz_powder"
-				type: "item"
-			}]
-			x: 4.0d
-			y: -11.0d
-		}
-		{
-			dependencies: ["02685E82A6D845E4"]
+			dependencies: ["3D92FC7109907464"]
 			id: "1235585CA6D04B39"
 			tasks: [{
 				id: "241FBD0E5B3E425F"
 				item: "hostilenetworks:sim_chamber"
 				type: "item"
 			}]
-			x: 13.0d
+			x: 8.5d
 			y: -12.5d
 		}
 		{
@@ -321,18 +242,8 @@
 				item: "kubejs:crushed_ecolinit"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -7.5d
-		}
-		{
-			id: "13A957ABDDCA1FBB"
-			tasks: [{
-				id: "4520197C34424416"
-				item: "minecraft:blaze_powder"
-				type: "item"
-			}]
-			x: 4.0d
-			y: -7.5d
+			x: 2.5d
+			y: -11.5d
 		}
 		{
 			dependencies: ["1F0FDA98F543C26F"]
@@ -443,33 +354,22 @@
 			id: "3D92FC7109907464"
 			tasks: [{
 				id: "3168D9310E8D90C2"
-				title: "trace etrium"
+				title: "crushed etrium"
 				type: "checkmark"
 			}]
-			x: 7.0d
-			y: -12.5d
+			x: 6.5d
+			y: -11.5d
 		}
 		{
-			dependencies: ["55B8FDDF7778B063"]
-			id: "02685E82A6D845E4"
-			tasks: [{
-				id: "5360B935E850BFA9"
-				title: "etrium nugget"
-				type: "checkmark"
-			}]
-			x: 11.0d
-			y: -12.5d
-		}
-		{
-			dependencies: ["6EF6C744811172D7"]
+			dependencies: ["0822D70343B3C9B8"]
 			id: "5BB8EA17A1644283"
 			tasks: [{
-				id: "750FB8B6C2AC6E2B"
-				title: "probe MK I"
-				type: "checkmark"
+				id: "0B0D643ADC39C9F0"
+				item: "kubejs:probe_mk_i"
+				type: "item"
 			}]
-			x: -0.5d
-			y: -11.5d
+			x: -3.5d
+			y: -6.0d
 		}
 	]
 	title: "Space Age"

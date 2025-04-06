@@ -519,6 +519,7 @@
 				item: "kubejs:universal_badge"
 				type: "item"
 			}]
+			shape: "diamond"
 			tasks: [{
 				id: "4831689B596B84F3"
 				item: "enderio:energy_conduit"
