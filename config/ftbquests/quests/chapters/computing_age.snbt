@@ -5,6 +5,15 @@
 	group: "0D67931F734E7CE2"
 	icon: "powah:energizing_rod_nitro"
 	id: "1101A818A111E8D1"
+	images: [{
+		alpha: 192
+		height: 8.0d
+		image: "ae2:item/calculation_processor"
+		rotation: 0.0d
+		width: 8.0d
+		x: -7.5d
+		y: -1.5d
+	}]
 	order_index: 4
 	quest_links: [ ]
 	quests: [
@@ -280,7 +289,7 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["31EFA286B2E4ED2C"]
+			dependencies: ["4753A1C669C0B7FC"]
 			hide_dependent_lines: true
 			id: "73EB173BC1EE04D0"
 			tasks: [{
@@ -288,19 +297,8 @@
 				item: "kubejs:blank_data_card"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["4753A1C669C0B7FC"]
-			id: "31EFA286B2E4ED2C"
-			tasks: [{
-				id: "1B324474E851C6F6"
-				item: "kubejs:data_card_connector"
-				type: "item"
-			}]
-			x: -2.0d
-			y: -3.5d
+			x: -1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["7B3B80DA9D462C0F"]
@@ -447,7 +445,7 @@
 			id: "7328560B5D43C60B"
 			tasks: [{
 				id: "6FDCF82BF806162C"
-				title: "significant culinary data"
+				title: "significant virtuose data"
 				type: "checkmark"
 			}]
 			x: -7.5d
