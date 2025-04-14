@@ -66,6 +66,7 @@ StartupEvents.registry('item', event => {
 
     }
 
+    event.create('crushing_hammer').tooltip('Crush ores into dust.').maxDamage(64).texture('kubejs:item/crushing_hammer')
     
     standard_material('blue')
     standard_material('blueish')
@@ -95,6 +96,7 @@ StartupEvents.registry('item', event => {
 
     event.create('probe_mk_i').texture('kubejs:item/probe_mk_i').displayName('Probe MK I')
     event.create('probe_mk_ii').texture('kubejs:item/probe_mk_ii').displayName('Probe MK II')
+
 
     event.create('crystal_inferium').texture('kubejs:item/crystal_inferium').displayName('Inferium Crystal')
     event.create('crystal_prudentium').texture('kubejs:item/crystal_prudentium').displayName('Prudentium Crystal')
