@@ -3,7 +3,7 @@
 // Dirt Essence
 
 BlockEvents.rightClicked('minecraft:dirt', event => {
-    if(event.hand == 'main_hand' && event.player.getMainHandItem().id == 'minecraft:air') {
+    if(event.hand == 'main_hand' && event.player.getMainHandItem().id == 'minecraft:air' && event.player.crouching) {
         event.player.swing(event.hand, true)
         event.player.give('mysticalagriculture:dirt_essence')
     }
@@ -27,7 +27,7 @@ BlockEvents.rightClicked('kubejs:overgrown_wood_log', event => {
 
 // Nether Quartz Essence
 BlockEvents.rightClicked('minecraft:stone', event => {
-    if(event.hand == 'main_hand' && event.player.getMainHandItem().id == 'minecraft:flint') {
+    if(event.hand == 'main_hand' && event.player.getMainHandItem().id == 'minecraft:flint' && event.player.crouching && event.item.count >= 2) {
         event.player.swing(event.hand, true)
         event.item.count--
         event.item.count--
@@ -37,7 +37,7 @@ BlockEvents.rightClicked('minecraft:stone', event => {
 
 // Water Essence
 BlockEvents.rightClicked('kubejs:overgrown_wood_log', event => {
-    if(event.hand == 'main_hand' && event.player.getMainHandItem().id == 'minecraft:bucket') {
+    if(event.hand == 'main_hand' && event.player.getMainHandItem().id == 'minecraft:bucket' && event.player.crouching) {
         event.player.swing(event.hand, true)
         event.player.give('mysticalagriculture:water_essence')
     }
