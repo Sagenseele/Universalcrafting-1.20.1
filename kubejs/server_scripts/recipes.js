@@ -14,6 +14,16 @@ ServerEvents.recipes(event => {
     default_compacting(nugget, ingot)
   }
 
+  function manualCrushing(dust, raw) {
+    event.shapeless(
+      Item.of(dust, 1),
+      [
+        Item.of('kubejs:crushing_hammer').ignoreNBT(),
+        raw
+      ]
+    ).damageIngredient(0).keepIngredient('kubejs:crushing_hammer')
+  }
+  
   function kubejs_crushing(name) {
     var crushed = 'kubejs:crushed_' + name
     var raw = 'kubejs:raw_' + name
@@ -62,6 +72,9 @@ ServerEvents.recipes(event => {
   function default_pulverizer(result, energy, input1) {
     
   }
+
+  manualCrushing('thermal:iron_dust', 'minecraft:raw_iron')
+  
 
   //advanced Material Data Card
   event.shaped(
@@ -278,6 +291,21 @@ ServerEvents.recipes(event => {
     '#forge:plates/copper'
   )
   
+  // Conveyor Belt alternative
+  event.shaped(
+    Item.of('immersiveengineering:conveyor_basic', 6),
+    [
+      '   ',
+      'AAA',
+      'BCB'
+    ],
+    {
+      A: 'create:belt_connector',
+      B: '#forge:ingots/iron',
+      C: 'minecraft:redstone'
+    }
+  )
+
   // Lapis Lazuli
   event.custom({
     type: 'create:splashing',
@@ -887,5 +915,12 @@ ServerEvents.recipes(event => {
     { output: 'hostilenetworks:loot_fabricator' },
     'minecraft:diamond',
     'ad_astra:desh_ingot'
+  )
+
+  event.shapeless(
+    Item.of('minecraft:flint', 1),
+      [
+        '3x minecraft:gravel'
+      ]
   )
 })
