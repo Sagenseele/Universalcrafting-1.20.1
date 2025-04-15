@@ -95,7 +95,7 @@
 				item: "mekanism:metallurgic_infuser"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -4.0d
 			y: 1.0d
 		}
 		{
@@ -111,7 +111,7 @@
 				item: "mekanism:basic_control_circuit"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -5.5d
 			y: 1.0d
 		}
 		{
@@ -470,8 +470,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
-			y: 0.5d
+			x: 1.0d
+			y: 1.0d
 		}
 		{
 			dependencies: [
@@ -541,7 +541,7 @@
 				item: "mekanism:alloy_infused"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -4.5d
 			y: 0.0d
 		}
 		{
@@ -1017,7 +1017,7 @@
 				item: "mekanism:enrichment_chamber"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -3.0d
 			y: 0.0d
 		}
 		{
@@ -1122,7 +1122,7 @@
 				item: "mekanism:alloy_reinforced"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -5.5d
 			y: -1.0d
 		}
 		{
@@ -1133,7 +1133,7 @@
 				item: "mekanism:alloy_atomic"
 				type: "item"
 			}]
-			x: -5.5d
+			x: -7.0d
 			y: -1.5d
 		}
 		{
@@ -1289,6 +1289,36 @@
 			}]
 			x: 7.0d
 			y: 10.0d
+		}
+		{
+			dependencies: ["2468A11BD78A5360"]
+			description: ["Your first energy source. Put lava around the generator for passive energy production and in the generator for active energy production."]
+			id: "161AC0559A6E6D68"
+			rewards: [{
+				id: "18899180504F7F45"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.1d
+			tasks: [{
+				id: "7AC3208C498010D8"
+				item: "mekanismgenerators:heat_generator"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.55d
+		}
+		{
+			dependencies: ["2468A11BD78A5360"]
+			id: "754C7B4E21581F12"
+			tasks: [{
+				id: "4004330B9D479813"
+				item: "mekanism:crusher"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
 		}
 	]
 	title: "Electrical Age"

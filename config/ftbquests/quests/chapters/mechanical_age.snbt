@@ -108,11 +108,18 @@
 				"3E8359A7FAB86AFB"
 			]
 			id: "0DA090A2DBE0219D"
-			rewards: [{
-				id: "0FF8583C045F3664"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "27EEE208E28A25D7"
+					item: "mekanism:basic_fluid_tank"
+					type: "item"
+				}
+				{
+					id: "00367DE615E93392"
+					item: "kubejs:universal_badge"
+					type: "item"
+				}
+			]
 			tasks: [{
 				count: 27L
 				id: "7E3DC8DC09700D99"
@@ -339,7 +346,10 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["539E5B30F359A02C"]
+			dependencies: [
+				"539E5B30F359A02C"
+				"15D08F47009082A6"
+			]
 			id: "1F4B4A4EA316E47F"
 			rewards: [{
 				id: "4C7F796D29AF097E"
@@ -351,8 +361,8 @@
 				item: "create:deployer"
 				type: "item"
 			}]
-			x: 15.5d
-			y: -1.5d
+			x: 13.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["0F892682DE356146"]
@@ -820,10 +830,7 @@
 			y: -0.5d
 		}
 		{
-			dependencies: [
-				"15D08F47009082A6"
-				"3E8359A7FAB86AFB"
-			]
+			dependencies: ["3E8359A7FAB86AFB"]
 			icon: "immersiveengineering:alloy_smelter"
 			id: "31F85638C4B2A0DC"
 			rewards: [{
@@ -838,8 +845,8 @@
 				type: "item"
 			}]
 			title: "Alloy Kiln"
-			x: 13.5d
-			y: -3.5d
+			x: 15.0d
+			y: -5.5d
 		}
 		{
 			description: ["Used to create Immersive Engineering Multiblocks."]
@@ -912,8 +919,8 @@
 				item: "create:brass_ingot"
 				type: "item"
 			}]
-			x: 14.5d
-			y: -2.5d
+			x: 15.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["74B6AE8090DD61E4"]
@@ -933,23 +940,27 @@
 			}]
 			tasks: [
 				{
+					disable_toast: true
 					id: "62C7336459E2724D"
 					item: "create:empty_schematic"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "6E31878CA3A48C0A"
 					item: "create:schematic_table"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "0EC095EC7EA330A7"
 					item: "create:schematicannon"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "649D0A3354C4C0B7"
-					item: "minecraft:chest"
+					item: "quark:oak_chest"
 					type: "item"
 				}
 			]
@@ -957,5 +968,5 @@
 			y: -5.0d
 		}
 	]
-	title: "Mechanical Age"
+	title: "Industrial Age"
 }

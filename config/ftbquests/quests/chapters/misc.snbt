@@ -5,7 +5,7 @@
 	group: "0F98F552A8423A4B"
 	icon: "bhc:heart_amulet"
 	id: "4CD76A53F3010833"
-	order_index: 4
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -132,8 +132,8 @@
 				item: "reliquary:mob_charm_belt"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -2.0d
+			x: 0.0d
+			y: -2.5d
 		}
 		{
 			id: "24322269F7AD2AC0"
@@ -153,8 +153,31 @@
 				}
 				type: "item"
 			}]
-			x: -1.0d
-			y: -0.5d
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			description: ["There are &e14&r different tiers of jetpacks."]
+			id: "400B4EE39205D383"
+			rewards: [{
+				id: "4457774D34F39962"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3C25E612A16215BD"
+				item: {
+					Count: 1
+					id: "ironjetpacks:jetpack"
+					tag: {
+						Id: "ironjetpacks:wood"
+						Throttle: 1.0d
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
 		}
 	]
 	title: "Accessories"

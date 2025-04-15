@@ -223,6 +223,7 @@
 		}
 		{
 			dependencies: ["426CFE1736BC8A1E"]
+			disable_toast: true
 			id: "6FD9146F55E2EF69"
 			shape: "rsquare"
 			size: 1.25d

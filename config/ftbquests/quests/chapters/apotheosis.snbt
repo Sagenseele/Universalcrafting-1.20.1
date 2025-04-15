@@ -5,7 +5,7 @@
 	group: "0F98F552A8423A4B"
 	icon: "apotheosis:gem_dust"
 	id: "4AD64A743FBC0F19"
-	order_index: 5
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
@@ -849,11 +849,24 @@
 				"&eYou can reforge&r &dSilent Gear&r &eequipment.&r"
 			]
 			id: "3DF8E8B1A7AAA0FA"
-			rewards: [{
-				id: "2F954D227145D14C"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "78518C2D21B82335"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "apotheosis:apoth_chronicle"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "653FD66CEB04C73D"
+					item: "kubejs:universal_badge"
+					type: "item"
+				}
+			]
 			size: 1.25d
 			tasks: [{
 				id: "2D99900D90CFE09E"

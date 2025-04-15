@@ -617,14 +617,28 @@
 			}]
 			tasks: [
 				{
+					disable_toast: true
 					id: "52A9FB57BE24E921"
 					item: "bloodmagic:masterritualstone"
 					type: "item"
 				}
 				{
 					count: 4L
+					disable_toast: true
 					id: "394D852E9F905F9D"
-					item: { Count: 4, id: "bloodmagic:ritualstone" }
+					item: "bloodmagic:ritualstone"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "3CF0C41E80D03D75"
+					item: {
+						Count: 1
+						id: "bloodmagic:firescribetool"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 			]
