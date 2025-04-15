@@ -416,7 +416,7 @@ ServerEvents.recipes(event => {
     ],
     {
       A: 'kubejs:blueish_plate',
-      B: 'minecraft:chest'
+      B: '#forge:chests'
       
     }
   )
@@ -570,7 +570,7 @@ ServerEvents.recipes(event => {
       'A A'
     ],
     {
-      A: 'kubejs:blueish_plate',
+      A: 'kubejs:yellow_plate',
       B: 'kubejs:coil_tier1'
     }
   )
