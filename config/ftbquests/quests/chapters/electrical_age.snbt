@@ -19,7 +19,7 @@
 			image: "kubejs:block/washing_facility_active"
 			rotation: 0.0d
 			width: 1.0d
-			x: -1.0d
+			x: -5.0d
 			y: 7.0d
 		}
 		{
@@ -35,8 +35,8 @@
 			image: "kubejs:block/deep_drill_active"
 			rotation: 0.0d
 			width: 1.0d
-			x: 1.5d
-			y: 4.5d
+			x: 0.0d
+			y: 6.482142857142868d
 		}
 		{
 			height: 1.0d
@@ -51,24 +51,24 @@
 			image: "kubejs:block/crystal_chamber_active"
 			rotation: 0.0d
 			width: 1.0d
-			x: 8.0d
-			y: 8.0d
+			x: 6.5d
+			y: 7.5d
 		}
 		{
 			height: 1.0d
 			image: "thermal:block/machines/machine_centrifuge_active"
 			rotation: 0.0d
 			width: 1.0d
-			x: 4.5d
-			y: 3.0d
+			x: 4.0d
+			y: 2.5d
 		}
 		{
 			height: 1.0d
 			image: "thermal:block/machines/machine_pyrolyzer_active"
 			rotation: 0.0d
 			width: 1.0d
-			x: 2.0d
-			y: 0.5d
+			x: 5.5d
+			y: 0.0d
 		}
 		{
 			height: 1.0d
@@ -77,6 +77,78 @@
 			width: 1.0d
 			x: 7.0d
 			y: 9.0d
+		}
+		{
+			height: 1.0d
+			image: "immersiveengineering:item/metal_ingot_aluminum"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 5.5d
+		}
+		{
+			height: 1.0d
+			image: "thermal:item/niter"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: 5.5d
+		}
+		{
+			height: 1.0d
+			image: "thermal:item/nickel_ingot"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "immersiveengineering:item/metal_ingot_uranium"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "thermal:item/tin_ingot"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 8.5d
+		}
+		{
+			height: 1.0d
+			image: "mekanism:item/ingot_osmium"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 10.0d
+		}
+		{
+			height: 1.0d
+			image: "thermal:item/lead_ingot"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: 8.5d
+		}
+		{
+			height: 1.0d
+			image: "thermal:item/silver_ingot"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: 10.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/blast_furnace_front_on"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 7.0d
 		}
 	]
 	order_index: 2
@@ -95,8 +167,8 @@
 				item: "mekanism:metallurgic_infuser"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 1.0d
+			x: -3.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["67106593CD3CB7BD"]
@@ -111,8 +183,8 @@
 				item: "mekanism:basic_control_circuit"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 1.0d
+			x: -5.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["12A99979D250B545"]
@@ -127,7 +199,7 @@
 				item: "enderio:grains_of_infinity"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 3.0d
 			y: 0.5d
 		}
 		{
@@ -147,6 +219,11 @@
 		{
 			dependencies: ["1EFD185333D4EFD0"]
 			id: "2F7DDCAC3F2A55DD"
+			rewards: [{
+				id: "2E40CA9E1E3E2F35"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.5d
 			subtitle: "Unlocks &dAE2/RS&r Chapter"
@@ -155,7 +232,7 @@
 				item: "pneumaticcraft:plastic"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 10.5d
 			y: 11.5d
 		}
 		{
@@ -171,8 +248,8 @@
 				item: "thermal:machine_centrifuge"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 3.0d
+			x: 3.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["2468A11BD78A5360"]
@@ -230,8 +307,8 @@
 				}
 			]
 			title: "Industrial Fermenter"
-			x: 6.5d
-			y: 3.0d
+			x: 5.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["2468A11BD78A5360"]
@@ -289,7 +366,7 @@
 			]
 			title: "Mixer"
 			x: 5.0d
-			y: 4.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["16D6FC58BA7C0AC4"]
@@ -304,8 +381,8 @@
 				item: "pneumaticcraft:lubricant_bucket"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 7.0d
+			x: 9.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["5FA179FF61AF8C87"]
@@ -320,24 +397,8 @@
 				item: "enderio:void_chassis"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 3.5d
 			y: -1.0d
-		}
-		{
-			dependencies: ["02EE1FAB24E39C8D"]
-			id: "367F149393CAC18F"
-			rewards: [{
-				id: "1D1BABABD10858FB"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
-			tasks: [{
-				id: "7E177A3F3C0779FF"
-				item: "mekanism:ingot_osmium"
-				type: "item"
-			}]
-			x: -1.5d
-			y: 10.0d
 		}
 		{
 			dependencies: ["2468A11BD78A5360"]
@@ -363,8 +424,8 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
-			y: 5.517857142857132d
+			x: 0.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["1445775C649FB704"]
@@ -379,7 +440,8 @@
 				item: "kubejs:raw_catericite"
 				type: "item"
 			}]
-			x: -0.5d
+			title: "...minerals..."
+			x: -3.5d
 			y: 8.5d
 		}
 		{
@@ -395,7 +457,8 @@
 				item: "kubejs:raw_darthium"
 				type: "item"
 			}]
-			x: -0.5d
+			title: "...are..."
+			x: -3.5d
 			y: 5.5d
 		}
 		{
@@ -411,37 +474,21 @@
 				item: "kubejs:raw_milothium"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["02DC75C1C6893D8D"]
-			id: "14CBB60372F089E9"
-			rewards: [{
-				id: "2AD32F4B98A7DCE5"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
-			tasks: [{
-				id: "3FCCF0799B9EAEA3"
-				item: "thermal:nickel_ingot"
-				type: "item"
-			}]
-			x: -2.5d
+			title: "They..."
+			x: -3.5d
 			y: 4.0d
 		}
 		{
 			dependencies: [
 				"754FF06DAAAEAEAB"
 				"012C411B18208096"
-				"77D7771A3E7F85E9"
+				"06554919F28AA994"
 			]
 			id: "426CFE1736BC8A1E"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "34D2A1C08925906D"
-				table_id: 1974161973908950149L
-				type: "choice"
+				id: "66FD3438F6BDC6C7"
+				item: "kubejs:universal_badge"
+				type: "item"
 			}]
 			shape: "square"
 			size: 1.1d
@@ -490,7 +537,7 @@
 				item: "enderio:wired_charger"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 5.0d
 			y: -2.5d
 		}
 		{
@@ -509,7 +556,7 @@
 				item: "enderio:alloy_smelter"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 3.0d
 			y: -2.5d
 		}
 		{
@@ -525,7 +572,7 @@
 				item: "enderio:primitive_alloy_smelter"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 2.5d
 			y: -1.0d
 		}
 		{
@@ -541,104 +588,8 @@
 				item: "mekanism:alloy_infused"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["348036A5BC77235C"]
-			id: "4FE6CAF6E4341912"
-			rewards: [{
-				id: "55687F16A6DFAE19"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
-			tasks: [{
-				id: "65B8F8B4C99DB040"
-				item: "mekanism:rotary_condensentrator"
-				type: "item"
-			}]
-			x: -8.0d
-			y: 4.5d
-		}
-		{
-			dependencies: ["2D86CB025543C6FD"]
-			id: "1168C1EE79FFB542"
-			rewards: [{
-				id: "7B4AC63C8B686B08"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
-			tasks: [{
-				id: "3A54861C188B289D"
-				item: "mekanism:chemical_infuser"
-				type: "item"
-			}]
-			x: -6.0d
-			y: 11.5d
-		}
-		{
-			dependencies: ["1168C1EE79FFB542"]
-			id: "63D13EE1B2F1A228"
-			rewards: [{
-				id: "632561A3CF11EA59"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
-			tasks: [{
-				id: "074281CE68EC717A"
-				item: "mekanism:sulfuric_acid_bucket"
-				type: "item"
-			}]
-			x: 2.0d
-			y: 11.5d
-		}
-		{
-			dependencies: ["4FE6CAF6E4341912"]
-			id: "2D86CB025543C6FD"
-			rewards: [{
-				id: "6E88B239C4E1006C"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
-			tasks: [{
-				id: "34972A6CE432725C"
-				item: "mekanism:chemical_oxidizer"
-				type: "item"
-			}]
-			x: -8.0d
-			y: 9.5d
-		}
-		{
-			dependencies: ["2468A11BD78A5360"]
-			id: "348036A5BC77235C"
-			rewards: [{
-				id: "6D11416F180C49A4"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
-			tasks: [{
-				id: "7E745303C56C9D90"
-				item: "mekanism:electrolytic_separator"
-				type: "item"
-			}]
-			x: -6.0d
-			y: 2.5d
-		}
-		{
-			dependencies: ["669D596D3652954F"]
-			id: "0A389FF75B088A85"
-			rewards: [{
-				id: "1785650A8CC3A588"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
-			tasks: [{
-				id: "11D532A9E4E4274E"
-				item: "immersiveengineering:ingot_aluminum"
-				type: "item"
-			}]
-			x: -2.0d
-			y: 5.5d
+			x: -5.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["35855C390FC01279"]
@@ -659,7 +610,7 @@
 		{
 			dependencies: [
 				"1445775C649FB704"
-				"63D13EE1B2F1A228"
+				"476F4C0DE86B9ED8"
 			]
 			id: "782D125E1BE4CAF5"
 			rewards: [{
@@ -672,8 +623,8 @@
 				item: "thermal:oil_sand"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 7.0d
+			x: 1.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["0898568C788D7B4F"]
@@ -721,7 +672,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 8.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["090B13FE2B4DF029"]
@@ -892,8 +843,8 @@
 				item: "immersiveengineering:ethanol_bucket"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 3.0d
+			x: 6.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["74E8AE06038BAAEA"]
@@ -909,7 +860,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: 4.5d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -928,8 +879,8 @@
 				item: "thermal:crude_oil_bucket"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 6.0d
+			x: 3.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["62FAA0321BF6FA5B"]
@@ -945,7 +896,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 9.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["62FAA0321BF6FA5B"]
@@ -961,7 +912,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 8.5d
+			y: 9.0d
 		}
 		{
 			dependencies: [
@@ -982,7 +933,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 9.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["426CFE1736BC8A1E"]
@@ -1002,7 +953,7 @@
 				type: "item"
 			}]
 			x: 14.0d
-			y: 10.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["2468A11BD78A5360"]
@@ -1017,8 +968,8 @@
 				item: "mekanism:enrichment_chamber"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 0.0d
+			x: -2.5d
+			y: 1.0d
 		}
 		{
 			dependencies: [
@@ -1095,24 +1046,19 @@
 		{
 			dependencies: ["1445775C649FB704"]
 			id: "02EE1FAB24E39C8D"
+			rewards: [{
+				id: "3C54434635220336"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3B197EBF7E4038D6"
 				item: "kubejs:raw_ecolinit"
 				type: "item"
 			}]
-			x: 0.0d
+			title: "...Marie!"
+			x: -3.5d
 			y: 10.0d
-		}
-		{
-			dependencies: ["5E15F9A81350E9CB"]
-			id: "7114A47DA3448F2B"
-			tasks: [{
-				id: "47108C7BC7C2A2DE"
-				item: "thermal:tin_ingot"
-				type: "item"
-			}]
-			x: -2.0d
-			y: 8.5d
 		}
 		{
 			dependencies: ["4F8EFACB168588F2"]
@@ -1122,8 +1068,8 @@
 				item: "mekanism:alloy_reinforced"
 				type: "item"
 			}]
-			x: -5.5d
-			y: -1.0d
+			x: -6.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["66876CB00FC17031"]
@@ -1133,11 +1079,11 @@
 				item: "mekanism:alloy_atomic"
 				type: "item"
 			}]
-			x: -7.0d
-			y: -1.5d
+			x: -8.0d
+			y: 1.0d
 		}
 		{
-			dependencies: ["77D7771A3E7F85E9"]
+			dependencies: ["06554919F28AA994"]
 			id: "67B65536FB91CAA6"
 			shape: "square"
 			size: 1.1d
@@ -1146,64 +1092,8 @@
 				item: "mbd2:crystal_chamber"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 8.0d
-		}
-		{
-			dependencies: [
-				"00963DDA358D49A4"
-				"367F149393CAC18F"
-			]
-			id: "72FC2E6172BCF1B0"
-			tasks: [{
-				id: "4AC7872BD4048B05"
-				item: "thermal:silver_dust"
-				type: "item"
-			}]
-			x: -6.0d
-			y: 8.5d
-		}
-		{
-			dependencies: [
-				"00963DDA358D49A4"
-				"7114A47DA3448F2B"
-			]
-			id: "294DC02AAE56BBAC"
-			tasks: [{
-				id: "05BA8027313CCF63"
-				item: "thermal:lead_dust"
-				type: "item"
-			}]
-			x: -3.5d
-			y: 8.5d
-		}
-		{
-			dependencies: [
-				"00963DDA358D49A4"
-				"14CBB60372F089E9"
-			]
-			id: "14077CC11C44F172"
-			tasks: [{
-				id: "10B68A4E3B4CE052"
-				item: "immersiveengineering:dust_uranium"
-				type: "item"
-			}]
-			x: -6.0d
-			y: 5.5d
-		}
-		{
-			dependencies: [
-				"00963DDA358D49A4"
-				"0A389FF75B088A85"
-			]
-			id: "0E642C33F3417ED5"
-			tasks: [{
-				id: "4557953BEB708710"
-				item: "bigreactors:yellorium_dust"
-				type: "item"
-			}]
-			x: -3.5d
-			y: 5.5d
+			x: 7.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["1445775C649FB704"]
@@ -1221,7 +1111,7 @@
 				item: "mbd2:washing_facility"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -3.5d
 			y: 7.0d
 		}
 		{
@@ -1232,7 +1122,7 @@
 				item: "immersiveengineering:acetaldehyde_bucket"
 				type: "item"
 			}]
-			x: 9.5d
+			x: 8.0d
 			y: 3.0d
 		}
 		{
@@ -1243,8 +1133,8 @@
 				item: "thermal:creosote_bucket"
 				type: "item"
 			}]
-			x: 12.5d
-			y: 1.5d
+			x: 9.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["2468A11BD78A5360"]
@@ -1254,8 +1144,8 @@
 				item: "thermal:machine_pyrolyzer"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 1.5d
+			x: 5.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["56CB51750306F43A"]
@@ -1266,17 +1156,6 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 10.0d
-		}
-		{
-			dependencies: ["06554919F28AA994"]
-			id: "77D7771A3E7F85E9"
-			tasks: [{
-				id: "01458ADDEBF13795"
-				item: "kubejs:turquoise_plate"
-				type: "item"
-			}]
-			x: 10.0d
 			y: 9.0d
 		}
 		{
@@ -1306,18 +1185,95 @@
 				item: "mekanismgenerators:heat_generator"
 				type: "item"
 			}]
+			title: "&3First Energy&r"
 			x: 0.0d
 			y: -0.55d
 		}
 		{
 			dependencies: ["2468A11BD78A5360"]
 			id: "754C7B4E21581F12"
+			rewards: [{
+				id: "0AB8E71FE6FEB1FA"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4004330B9D479813"
 				item: "mekanism:crusher"
 				type: "item"
 			}]
 			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2468A11BD78A5360"]
+			id: "476F4C0DE86B9ED8"
+			rewards: [{
+				id: "569EB577A450F306"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5C30BAA47BFE9499"
+				item: "mekanism:sulfuric_acid_bucket"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3730C6F65704087D"]
+			id: "2AAC3CA268E67ECA"
+			rewards: [{
+				id: "6FC4CCD804D0F2B0"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "71178ED80EFD77E4"
+				item: "immersiveengineering:treated_wood_horizontal"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2AAC3CA268E67ECA"]
+			id: "22C5A54B707BB1C0"
+			rewards: [{
+				id: "7EBA22182E820FAC"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "667CC7E8114DEF1A"
+				item: "immersiveengineering:stick_treated"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["22C5A54B707BB1C0"]
+			id: "1F04586347B94677"
+			rewards: [
+				{
+					id: "1EAF178009AA0180"
+					item: "immersiveengineering:manual"
+					type: "item"
+				}
+				{
+					id: "0DF3F7A8D0FE057F"
+					item: "kubejs:universal_badge"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1FB85B05F5216F35"
+				item: "immersiveengineering:workbench"
+				type: "item"
+			}]
+			x: 11.0d
 			y: -0.5d
 		}
 	]

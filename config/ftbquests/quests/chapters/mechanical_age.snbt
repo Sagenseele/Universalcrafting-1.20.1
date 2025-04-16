@@ -11,8 +11,8 @@
 			image: "create:block/depot_side"
 			rotation: 0.0d
 			width: 1.0d
-			x: 16.501785714285717d
-			y: 0.1607142857142847d
+			x: 15.00178571428571d
+			y: -1.267857142857146d
 		}
 		{
 			height: 1.0d
@@ -35,10 +35,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: [
-				"2837FA09802BF040"
-				"1F4B4A4EA316E47F"
-			]
+			dependencies: ["1F4B4A4EA316E47F"]
 			id: "7A53066E10590290"
 			rewards: [{
 				id: "30F285829D0D0D7C"
@@ -50,62 +47,14 @@
 				item: "create:precision_mechanism"
 				type: "item"
 			}]
-			x: 16.5d
-			y: -0.5d
-		}
-		{
-			dependencies: ["0DA090A2DBE0219D"]
-			id: "44C595A25BCCD5FB"
-			rewards: [{
-				id: "45735D6D222121D7"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
-			tasks: [{
-				id: "1918A6197276E2DD"
-				item: "immersiveengineering:creosote_bucket"
-				type: "item"
-			}]
-			x: 9.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["44C595A25BCCD5FB"]
-			id: "2AAC3CA268E67ECA"
-			rewards: [{
-				id: "6FC4CCD804D0F2B0"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
-			tasks: [{
-				id: "71178ED80EFD77E4"
-				item: "immersiveengineering:treated_wood_horizontal"
-				type: "item"
-			}]
-			x: 7.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["2AAC3CA268E67ECA"]
-			id: "22C5A54B707BB1C0"
-			rewards: [{
-				id: "7EBA22182E820FAC"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
-			tasks: [{
-				id: "667CC7E8114DEF1A"
-				item: "immersiveengineering:stick_treated"
-				type: "item"
-			}]
-			x: 6.0d
-			y: 1.0d
+			x: 15.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
-				"2D77581A9B5D0377"
 				"3B0345242B7CEDEE"
 				"3E8359A7FAB86AFB"
+				"3F6E0421CBB60E0C"
 			]
 			id: "0DA090A2DBE0219D"
 			rewards: [
@@ -130,32 +79,9 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["22C5A54B707BB1C0"]
-			id: "1F04586347B94677"
-			rewards: [
-				{
-					id: "1EAF178009AA0180"
-					item: "immersiveengineering:manual"
-					type: "item"
-				}
-				{
-					id: "0DF3F7A8D0FE057F"
-					item: "kubejs:universal_badge"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "1FB85B05F5216F35"
-				item: "immersiveengineering:workbench"
-				type: "item"
-			}]
-			x: 4.5d
-			y: -0.5d
-		}
-		{
 			dependencies: [
-				"6534A045CE282854"
 				"48AF2A3A4CB1AC9E"
+				"3F6E0421CBB60E0C"
 			]
 			description: ["The Main source for resources."]
 			icon: "mbd2:kinetic_crusher"
@@ -223,23 +149,10 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["3F6E0421CBB60E0C"]
-			id: "6534A045CE282854"
-			rewards: [{
-				id: "06549EC8380E3783"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
-			tasks: [{
-				id: "4BFC61A927A85435"
-				item: "kubejs:blueish_ingot"
-				type: "item"
-			}]
-			x: 7.5d
-			y: -2.0d
-		}
-		{
-			dependencies: ["7A53066E10590290"]
+			dependencies: [
+				"7A53066E10590290"
+				"2837FA09802BF040"
+			]
 			id: "45D3A3893156DB25"
 			rewards: [{
 				id: "5F4566B85A352132"
@@ -251,7 +164,7 @@
 				item: "kubejs:electric_motor"
 				type: "item"
 			}]
-			x: 18.0d
+			x: 16.5d
 			y: -0.5d
 		}
 		{
@@ -267,7 +180,7 @@
 				item: "create:mechanical_press"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 1.5d
 			y: -5.0d
 		}
 		{
@@ -427,22 +340,6 @@
 			y: -6.5d
 		}
 		{
-			dependencies: ["6534A045CE282854"]
-			id: "2D77581A9B5D0377"
-			rewards: [{
-				id: "7342974EC41810CC"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
-			tasks: [{
-				id: "2908D655995CF37A"
-				item: "kubejs:blueish_plate"
-				type: "item"
-			}]
-			x: 7.5d
-			y: -0.5d
-		}
-		{
 			dependencies: ["46C0E33966D05CC5"]
 			id: "225C42CA4F5126B9"
 			rewards: [{
@@ -453,25 +350,6 @@
 			tasks: [{
 				id: "04581221C669C659"
 				item: "create:millstone"
-				type: "item"
-			}]
-			x: 1.5d
-			y: -2.0d
-		}
-		{
-			dependencies: [
-				"225C42CA4F5126B9"
-				"58A784A598AA0347"
-			]
-			id: "1BDFCCB96107FA42"
-			rewards: [{
-				id: "3568F4E9971FB3B9"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
-			tasks: [{
-				id: "13D63FDDC527E7A4"
-				item: "thermal:lapis_dust"
 				type: "item"
 			}]
 			x: 3.0d
@@ -504,7 +382,7 @@
 				item: "create:water_wheel"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 1.5d
 			y: -3.5d
 		}
 		{
@@ -520,7 +398,7 @@
 				item: "create:large_water_wheel"
 				type: "item"
 			}]
-			x: -1.5d
+			x: 0.0d
 			y: -3.5d
 		}
 		{
@@ -543,7 +421,7 @@
 				item: "silentgear:blueprint_paper"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 5.0d
 			y: -3.5d
 		}
 		{
@@ -575,7 +453,7 @@
 				item: "create:encased_fan"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 3.0d
 			y: -6.5d
 		}
 		{
@@ -591,7 +469,7 @@
 				item: "create:crushing_wheel"
 				type: "item"
 			}]
-			x: -1.5d
+			x: 0.0d
 			y: -5.0d
 		}
 		{
@@ -610,7 +488,7 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["1BDFCCB96107FA42"]
+			dependencies: ["225C42CA4F5126B9"]
 			id: "3F6E0421CBB60E0C"
 			rewards: [{
 				id: "3408EBDDC6606291"
@@ -622,7 +500,7 @@
 				item: "kubejs:blueish_dust"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 7.5d
 			y: -2.0d
 		}
 		{
@@ -654,7 +532,7 @@
 				item: "minecraft:paper"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 6.5d
 			y: -5.0d
 		}
 		{
@@ -670,7 +548,7 @@
 				item: "farmersdelight:tree_bark"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 5.0d
 			y: -6.5d
 		}
 		{
@@ -687,7 +565,7 @@
 				item: "farmersdelight:cutting_board"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 6.5d
 			y: -6.5d
 		}
 		{
@@ -703,7 +581,7 @@
 				item: "minecraft:lapis_lazuli"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 3.0d
 			y: -3.5d
 		}
 		{
@@ -722,7 +600,7 @@
 				item: "create:crushed_raw_iron"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 1.5d
 			y: -8.0d
 		}
 		{
@@ -756,7 +634,7 @@
 				match_nbt: false
 				type: "item"
 			}]
-			x: 6.0d
+			x: 6.5d
 			y: -3.5d
 		}
 		{
@@ -776,7 +654,7 @@
 				item: "thermal:machine_frame"
 				type: "item"
 			}]
-			x: 19.5d
+			x: 18.5d
 			y: -0.5d
 		}
 		{
@@ -884,7 +762,7 @@
 				item: "create:andesite_casing"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 1.5d
 			y: -0.5d
 		}
 		{
@@ -903,7 +781,7 @@
 				item: "mbd2:cobblestone_generator_tier1"
 				type: "item"
 			}]
-			x: -1.5d
+			x: 0.0d
 			y: -2.0d
 		}
 		{
@@ -964,7 +842,7 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
+			x: 5.0d
 			y: -5.0d
 		}
 	]
