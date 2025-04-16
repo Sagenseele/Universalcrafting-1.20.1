@@ -1,6 +1,11 @@
 ServerEvents.recipes(event => {
-  
-  
+
+  const raw_materials = ['#forge:raw_materials/tin', '#forge:raw_materials/silver', '#forge:raw_materials/copper', '#forge:raw_materials/nickel', '#forge:raw_materials/osmium', '#forge:raw_materials/lead', '#forge:raw_materials/uranium', '#forge:raw_materials/gold','#forge:raw_materials/iron', 'kubejs:raw_catericite', 'kubejs:raw_darthium', 'kubejs:raw_milothium', 'kubejs:raw_ecolinit']
+  const dusts = ['thermal:tin_dust', 'thermal:silver_dust', 'thermal:copper_dust', 'thermal:nickel_dust', 'mekanism:dust_osmium', 'thermal:lead_dust', 'immersiveengineering:dust_uranium', 'thermal:gold_dust', 'thermal:iron_dust', 'thermal:tin_dust', 'immersiveengineering:dust_aluminum', 'thermal:nickel_dust', 'mekanism:dust_osmium']
+
+  raw_materials.forEach((raw, index) => 
+    manualCrushing(dusts[index], raw)
+  )
 
   function kubejs_items(name) {
     var plate = 'kubejs:' + name + '_plate'
@@ -18,7 +23,7 @@ ServerEvents.recipes(event => {
     event.shapeless(
       Item.of(dust, 1),
       [
-        Item.of('kubejs:crushing_hammer').ignoreNBT(),
+        Item.of('kubejs:crushing_hammer'),
         raw
       ]
     ).damageIngredient(0).keepIngredient('kubejs:crushing_hammer')
@@ -478,7 +483,7 @@ ServerEvents.recipes(event => {
       'CBC'
     ],
     {
-      A: 'thermal:machine_frame',
+      A: 'mekanism:steel_casing',
       B: 'kubejs:yellow_plate',
       C: 'kubejs:yellow_rod'
     }
@@ -640,7 +645,7 @@ ServerEvents.recipes(event => {
       'CBC'
     ],
     {
-      A: 'thermal:machine_frame',
+      A: 'mekanism:steel_casing',
       B: '#forge:plates/steel',
       C: 'kubejs:yellow_rod'
     }
@@ -660,13 +665,41 @@ ServerEvents.recipes(event => {
     'thermal:machine_frame'
   )
 
+  // Redstone Engineering Block
+  event.replaceInput(
+    { output: 'immersiveengineering:rs_engineering'},
+    'minecraft:redstone',
+    'thermal:rf_coil'
+  )
+
+  // Light Engineering Block
+  event.replaceInput(
+    { output: 'immersiveengineering:light_engineering'},
+    'minecraft:copper_ingot',
+    'thermal:machine_frame'
+  )
+
+  // Heavy Engineering Block
+  event.replaceInput(
+    { output: 'immersiveengineering:heavy_engineering'},
+    'thermal:electrum_ingot',
+    'mekanism:steel_casing'
+  )
+
   // processor binding
   event.replaceInput(
     { output: 'refinedstorage:processor_binding' },
     '#bookshelf:slime_balls',
     'pneumaticcraft:plastic'
   )
-
+  
+  // apotheosis:reforging_table
+  event.replaceInput(
+    { output: 'apotheosis:reforging_table' },
+    'minecraft:netherite_ingot',
+    'twilightforest:fiery_block'
+  )
+  
   // charger
   event.replaceInput(
     { output: 'ae2:charger' },
@@ -690,7 +723,7 @@ ServerEvents.recipes(event => {
       ' B '
     ],
     {
-      A: 'thermal:machine_frame',
+      A: 'mekanism:steel_casing',
       B: 'immersiveengineering:drillhead_steel',
       C: 'immersiveengineering:stick_steel',
       D: 'immersiveengineering:component_iron'
@@ -706,7 +739,7 @@ ServerEvents.recipes(event => {
       'CBC'
     ],
     {
-      A: 'thermal:machine_frame',
+      A: 'mekanism:steel_casing',
       B: 'kubejs:turquoise_plate',
       C: '#forge:sheetmetals/aluminum',
       D: 'immersiveengineering:slab_sheetmetal_nickel',
