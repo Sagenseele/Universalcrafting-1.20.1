@@ -933,7 +933,22 @@ ServerEvents.recipes(event => {
     'projecte:philosophers_stone'
   )
 
-  // Misc
+  //Misc
+  // Repair Talisman
+  event.remove( { id: 'projecte:repair_talisman'} )
+  event.remove( { id: 'projecte:repair_talisman_alt'} )
+  event.custom({
+    type: "botania:runic_altar",
+    ingredients: [
+      { tag: "forge:storage_blocks/steeleaf" },
+      { item: "twilightforest:naga_scale" },
+      { item: "twilightforest:naga_scale" },
+      { item: "bloodmagic:reagentgrowth" }
+    ],
+    mana: 40000.0,
+    output: { count: 1.0, item: "projecte:repair_talisman" }
+  })
+
   default_3alloys('create:blaze_cake_base', 5000, '#forge:eggs', 'minecraft:sugar', 'create:cinder_flour')
   default_2alloys('kubejs:heat_resistant_glass', 5000, '#forge:glass', '#forge:ingots/gold')
   
