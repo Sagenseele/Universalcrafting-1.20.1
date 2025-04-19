@@ -459,6 +459,8 @@
 			y: -6.5d
 		}
 		{
+			dependencies: ["6EB31D4642BBB1FE"]
+			description: ["Put in your inventory to repair your gear by 1 durability per second."]
 			id: "24322269F7AD2AC0"
 			rewards: [{
 				id: "7518BFF9D7BECD1A"
