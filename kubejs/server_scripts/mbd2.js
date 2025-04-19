@@ -1,28 +1,29 @@
 ServerEvents.recipes((event) => {
-    
+    // Model Computer
     const models = [
-        {name:"artifacts/mimic", data:6, ingredient: "64x minecraft:apple"},
-        {name:"cod", data:6, ingredient: "64x minecraft:apple"},
-        {name:"cow", data:6, ingredient: "64x minecraft:apple"},
-        {name:"elder_guardian", data:6, ingredient: "64x minecraft:apple"},
-        {name:"ender_dragon", data:6, ingredient: "64x minecraft:apple"},
-        {name:"enderman", data:6, ingredient: "64x minecraft:apple"},
+        {name:"artifacts/mimic", data:30, ingredient: "1x #artifacts:artifacts"},
+        {name:"bat", data:6, ingredient: "8x reliquary:bat_wing"},
+        {name:"cod", data:6, ingredient: "16x minecraft:cod"},
+        {name:"cow", data:6, ingredient: "64x minecraft:leather"},
+        {name:"elder_guardian", data:6, ingredient: "8x forbidden_arcanus:aquatic_dragon_scale"},
+        {name:"ender_dragon", data:6, ingredient: "8x forbidden_arcanus:arcane_dragon_egg"},
+        {name:"enderman", data:6, ingredient: "8x reliquary:nebulous_heart"},
         {name:"rabbit", data:6, ingredient: "64x minecraft:apple"},
         {name:"shulker", data:6, ingredient: "64x minecraft:apple"},
         {name:"ghast", data:6, ingredient: "64x minecraft:apple"},
         {name:"guardian", data:6, ingredient: "64x minecraft:apple"},
-        {name:"creeper", data:6, ingredient: "64x minecraft:apple"},
+        {name:"creeper", data:6, ingredient: "8x reliquary:catalyzing_gland"},
         {name:"polar_bear", data:6, ingredient: "64x minecraft:apple"},
         {name:"phantom", data:6, ingredient: "64x minecraft:apple"},
-        {name:"blaze", data:6, ingredient: "64x minecraft:apple"},
+        {name:"blaze", data:6, ingredient: "8x reliquary:molten_core"},
         {name:"glow_squid", data:6, ingredient: "64x minecraft:apple"},
-        {name:"evoker", data:6, ingredient: "64x minecraft:apple"},
+        {name:"evoker", data:6, ingredient: "8x minecraft:totem_of_undying"},
         {name:"pig", data:6, ingredient: "64x minecraft:apple"},
         {name:"mooshroom", data:6, ingredient: "64x minecraft:apple"},
         {name:"iron_golem", data:6, ingredient: "64x minecraft:apple"},
         {name:"hoglin", data:6, ingredient: "64x minecraft:apple"},
-        {name:"drowned", data:6, ingredient: "64x minecraft:apple"},
-        {name:"chicken", data:6, ingredient: "64x minecraft:apple"},
+        {name:"drowned", data:6, ingredient: "64x kubejs:coil_tier1"},
+        {name:"chicken", data:6, ingredient: "64x minecraft:feather"},
         {name:"magma_cube", data:6, ingredient:"64x minecraft:magma_cream"},
         {name:"sheep", data:6, ingredient: "64x minecraft:apple"},
         {name:"skeleton", data:6, ingredient: "64x minecraft:apple"},
@@ -73,7 +74,7 @@ ServerEvents.recipes((event) => {
             .duration(6000)
             .priority(0)
             .inputFE(2048)
-            .inputItems(model.ingredient)
+            .inputItems('1x hostilenetworks:blank_data_model', '64x hostilenetworks:prediction_matrix', model.ingredient)
             .outputItems(JsonIO.of({
                 "count": 1,
                 "value": {
