@@ -932,8 +932,40 @@ ServerEvents.recipes(event => {
     'minecraft:diamond',
     'projecte:philosophers_stone'
   )
+  //Forbidden & Arcanus
 
+  // Deorum
+  event.replaceInput(
+    { output: 'forbidden_arcanus:deorum_ingot' },
+    'minecraft:charcoal',
+    'forbidden_arcanus:aurum_log'
+  )
   //Misc
+  //  let recipes=[]
+  //event.forEachRecipe({},r=>{
+  // console.log("recipe",r.json.toString())
+  //recipes.push(JSON.parse(r.json.toString()))
+  //})
+  //let recipe=JSON.stringify(recipes)
+  //console.log(recipe)
+
+  event.custom({
+    type: "botania:petal_apothecary",
+    ingredients: [
+      { tag: "forge:dusts/gold" },
+      { tag: "forge:dusts/gold" },
+      { tag: "forge:dusts/gold" },
+      { tag: "forge:dusts/gold" },
+      { item: "minecraft:golden_apple" }
+    ], 
+    output: { item: "forbidden_arcanus:aurum_sapling" }, 
+    reagent: { tag: "minecraft:saplings" }
+  })
+  event.custom({
+    type: "botania:elven_trade",
+    ingredients: [{ item: "apotheosis:seashelf" }],
+    output: [{ item: "apotheosis:infused_seashelf" }]
+  })
   // Repair Talisman
   event.remove( { id: 'projecte:repair_talisman'} )
   event.remove( { id: 'projecte:repair_talisman_alt'} )
