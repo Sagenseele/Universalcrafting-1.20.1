@@ -12,8 +12,8 @@
 		image: "forbidden_arcanus:block/hephaestus_forge/tier_1/side"
 		rotation: 0.0d
 		width: 1.0d
-		x: 0.5d
-		y: 2.0d
+		x: 1.5d
+		y: 1.0d
 	}]
 	order_index: 3
 	quest_links: [ ]
@@ -78,8 +78,8 @@
 				}
 			]
 			title: "Hephaestus Forge"
-			x: 0.5d
-			y: 0.5d
+			x: 1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["78AA8E997221A3C6"]
