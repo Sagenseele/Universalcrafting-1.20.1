@@ -12,7 +12,7 @@
 			image: "thermal:block/cells/energy_cell_level_8"
 			rotation: 0.0d
 			width: 1.25d
-			x: -7.5d
+			x: -8.5d
 			y: -0.5d
 		}
 		{
@@ -21,7 +21,7 @@
 			image: "minecraft:item/bucket"
 			rotation: 0.0d
 			width: 1.0d
-			x: -7.5d
+			x: -8.5d
 			y: -1.5d
 		}
 		{
@@ -30,7 +30,7 @@
 			image: "botania:item/cosmetic_questgiver_mark"
 			rotation: 0.0d
 			width: 1.0d
-			x: -4.5d
+			x: -5.5d
 			y: -3.5d
 		}
 		{
@@ -39,7 +39,7 @@
 			image: "almostunified:textures/ingot.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: -7.5d
+			x: -8.5d
 			y: -2.5d
 		}
 		{
@@ -48,8 +48,8 @@
 			image: "ae2:block/controller_lights"
 			rotation: 0.0d
 			width: 1.0d
-			x: -7.5d
-			y: 2.5d
+			x: -8.5d
+			y: 3.5d
 		}
 		{
 			height: 1.0d
@@ -57,7 +57,7 @@
 			image: "minecraft:item/redstone"
 			rotation: 0.0d
 			width: 1.0d
-			x: -7.5d
+			x: -8.5d
 			y: 0.5d
 		}
 		{
@@ -66,7 +66,7 @@
 			image: "mekanism:item/upgrade_gas"
 			rotation: 0.0d
 			width: 1.0d
-			x: -7.5d
+			x: -8.5d
 			y: 1.5d
 		}
 		{
@@ -75,8 +75,17 @@
 			image: "refinedstorage:item/wireless_crafting_monitor_connected"
 			rotation: 0.0d
 			width: 1.0d
-			x: -7.5d
-			y: 3.5d
+			x: -8.5d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			hover: ["Mekanism Heat"]
+			image: "decorative_blocks:block/fire"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.5d
+			y: 2.5d
 		}
 	]
 	order_index: 4
@@ -449,7 +458,7 @@
 				item: "thermal:energy_duct"
 				type: "item"
 			}]
-			x: -5.5d
+			x: -6.5d
 			y: -0.5d
 		}
 		{
@@ -459,7 +468,7 @@
 				item: "thermal:fluid_duct"
 				type: "item"
 			}]
-			x: -5.5d
+			x: -6.5d
 			y: -1.5d
 		}
 		{
@@ -469,7 +478,7 @@
 				item: "pipez:item_pipe"
 				type: "item"
 			}]
-			x: -6.5d
+			x: -7.5d
 			y: -2.5d
 		}
 		{
@@ -479,7 +488,7 @@
 				item: "pipez:fluid_pipe"
 				type: "item"
 			}]
-			x: -6.5d
+			x: -7.5d
 			y: -1.5d
 		}
 		{
@@ -489,7 +498,7 @@
 				item: "pipez:energy_pipe"
 				type: "item"
 			}]
-			x: -6.5d
+			x: -7.5d
 			y: -0.5d
 		}
 		{
@@ -504,7 +513,7 @@
 				item: "enderio:item_conduit"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -5.5d
 			y: -2.5d
 		}
 		{
@@ -525,7 +534,7 @@
 				item: "enderio:energy_conduit"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -5.5d
 			y: -0.5d
 		}
 		{
@@ -540,7 +549,7 @@
 				item: "enderio:fluid_conduit"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -5.5d
 			y: -1.5d
 		}
 		{
@@ -555,8 +564,8 @@
 				item: "enderio:me_conduit"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 2.5d
+			x: -5.5d
+			y: 3.5d
 		}
 		{
 			id: "3AF39D1C4A44B7FD"
@@ -570,7 +579,7 @@
 				item: "enderio:redstone_conduit"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -5.5d
 			y: 0.5d
 		}
 		{
@@ -580,7 +589,7 @@
 				item: "pipez:gas_pipe"
 				type: "item"
 			}]
-			x: -6.5d
+			x: -7.5d
 			y: 1.5d
 		}
 		{
@@ -595,7 +604,7 @@
 				item: "enderio:chemical_conduit"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -5.5d
 			y: 1.5d
 		}
 		{
@@ -610,8 +619,8 @@
 				item: "enderio:refined_storage_conduit"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 3.5d
+			x: -5.5d
+			y: 4.5d
 		}
 		{
 			id: "6EF4A97259AF071E"
@@ -745,6 +754,124 @@
 			}]
 			x: -1.0d
 			y: -5.0d
+		}
+		{
+			id: "7C76E98E598F44E1"
+			tasks: [{
+				id: "65E778DF62374DC5"
+				item: "mob_grinding_utils:saw"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -7.0d
+		}
+		{
+			id: "0B9BEA6420EE25B7"
+			tasks: [{
+				id: "50FBEB8F5963FA2E"
+				item: "mob_grinding_utils:fan"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -8.0d
+		}
+		{
+			id: "0A08FBB82CEBCCD4"
+			tasks: [{
+				id: "2801F39529C29401"
+				item: "mob_grinding_utils:tank_sink"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -8.0d
+		}
+		{
+			id: "25660DD1E97D90BC"
+			tasks: [{
+				id: "2065F34CBBC200FC"
+				item: "mob_grinding_utils:gm_chicken_feed"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -9.0d
+		}
+		{
+			id: "3DCA368C8DFF6AB4"
+			tasks: [{
+				id: "48CD8F1AC11FC8AF"
+				item: {
+					Count: 1
+					id: "naturescompass:naturescompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -9.0d
+		}
+		{
+			id: "03718625C5221364"
+			tasks: [{
+				id: "05B8533178C23CDB"
+				item: {
+					Count: 1
+					id: "explorerscompass:explorerscompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -9.0d
+		}
+		{
+			id: "5871424370ADBE45"
+			tasks: [{
+				id: "0249FF3ED6EE6097"
+				item: "mekanism:basic_universal_cable"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			id: "5F51E3D803739CBD"
+			tasks: [{
+				id: "36BEC57A18FB7B0B"
+				item: "mekanism:basic_mechanical_pipe"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			id: "4AC704CB15659854"
+			tasks: [{
+				id: "3C7E572ED0CCCEA1"
+				item: "mekanism:basic_pressurized_tube"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			id: "5A81DC518CDEB144"
+			tasks: [{
+				id: "408A45DB89D907C1"
+				item: "mekanism:basic_logistical_transporter"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			id: "438DE2B067466FC1"
+			tasks: [{
+				id: "164D7D235FB6D857"
+				item: "mekanism:basic_thermodynamic_conductor"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.5d
 		}
 	]
 	title: "Utility"

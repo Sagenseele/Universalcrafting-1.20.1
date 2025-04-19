@@ -149,7 +149,13 @@
 					type: "item"
 				}
 				{
-					id: "57B5250E7B703050"
+					count: 16
+					id: "5198CC31A6EDD1CB"
+					item: "kubejs:nutrient_bar"
+					type: "item"
+				}
+				{
+					id: "60672C838FD58CAA"
 					item: "kubejs:universal_badge"
 					type: "item"
 				}

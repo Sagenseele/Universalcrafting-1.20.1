@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: "diamond"
 	filename: "relics"
-	group: "0F98F552A8423A4B"
+	group: "688DEA0D1A32C680"
 	icon: {
 		Count: 1
 		id: "relics:infinity_ham"
@@ -25,7 +25,7 @@
 		}
 	}
 	id: "3AEEB63846AAB628"
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{

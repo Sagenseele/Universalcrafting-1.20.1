@@ -372,6 +372,17 @@
 			x: -3.5d
 			y: -6.0d
 		}
+		{
+			dependencies: ["5B3B743084BC7402"]
+			id: "5899B042A99A3695"
+			tasks: [{
+				id: "495CF58D3533FAD7"
+				item: "mekanism:advanced_tier_installer"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -4.0d
+		}
 	]
 	title: "Space Age"
 }

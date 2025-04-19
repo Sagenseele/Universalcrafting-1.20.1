@@ -484,8 +484,8 @@
 				item: "minecraft:sand"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -2.0d
+			x: 7.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["225C42CA4F5126B9"]

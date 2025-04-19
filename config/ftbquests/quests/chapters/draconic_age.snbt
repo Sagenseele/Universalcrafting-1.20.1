@@ -218,6 +218,17 @@
 			x: 2.5d
 			y: 3.0d
 		}
+		{
+			dependencies: ["2D5110CE7E842FFA"]
+			id: "617A1FC9B1C71732"
+			tasks: [{
+				id: "13B6ECE2777B8E45"
+				item: "mekanism:ultimate_tier_installer"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 6.0d
+		}
 	]
 	title: "Draconic Age"
 }

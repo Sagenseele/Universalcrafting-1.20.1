@@ -26,7 +26,10 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["14371C1F880EFFBD"]
+			dependencies: [
+				"14371C1F880EFFBD"
+				"45B8F3585A71750A"
+			]
 			id: "16407104C2D7A594"
 			size: 2.0d
 			tasks: [{
@@ -69,6 +72,18 @@
 			}]
 			x: 5.0d
 			y: 3.0d
+		}
+		{
+			disable_toast: true
+			id: "45B8F3585A71750A"
+			tasks: [{
+				disable_toast: true
+				id: "4B55F356AF4E3B10"
+				item: "apotheosis:ender_library"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.0d
 		}
 	]
 	title: "Infinity Age"

@@ -197,6 +197,7 @@
 	quests: [
 		{
 			dependencies: ["37B32C20370A246E"]
+			disable_toast: true
 			icon: "twilightforest:twilight_portal_miniature_structure"
 			id: "50239BC15503E0D2"
 			rewards: [{
@@ -207,6 +208,7 @@
 			size: 1.25d
 			tasks: [{
 				dimension: "twilightforest:twilight_forest"
+				disable_toast: true
 				id: "1A8063919EE737B0"
 				type: "dimension"
 			}]
@@ -383,6 +385,18 @@
 			}]
 			x: 5.0d
 			y: -3.0d
+		}
+		{
+			dependencies: ["50239BC15503E0D2"]
+			description: ["Shows the location of the main bosses and structures on a map."]
+			id: "450FE8D282D64CB7"
+			tasks: [{
+				id: "03D666ECDB22644A"
+				item: "twilightforest:magic_map"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
 		}
 	]
 	title: "Twilight Forest"

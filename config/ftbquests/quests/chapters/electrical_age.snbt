@@ -80,6 +80,7 @@
 		}
 		{
 			height: 1.0d
+			hover: ["Aluminum Ingot"]
 			image: "immersiveengineering:item/metal_ingot_aluminum"
 			rotation: 0.0d
 			width: 1.0d
@@ -88,6 +89,7 @@
 		}
 		{
 			height: 1.0d
+			hover: ["Niter"]
 			image: "thermal:item/niter"
 			rotation: 0.0d
 			width: 1.0d
@@ -96,6 +98,7 @@
 		}
 		{
 			height: 1.0d
+			hover: ["Nickel Ingot"]
 			image: "thermal:item/nickel_ingot"
 			rotation: 0.0d
 			width: 1.0d
@@ -104,6 +107,7 @@
 		}
 		{
 			height: 1.0d
+			hover: ["Uranium Ingot"]
 			image: "immersiveengineering:item/metal_ingot_uranium"
 			rotation: 0.0d
 			width: 1.0d
@@ -112,6 +116,7 @@
 		}
 		{
 			height: 1.0d
+			hover: ["Tin Ingot"]
 			image: "thermal:item/tin_ingot"
 			rotation: 0.0d
 			width: 1.0d
@@ -120,6 +125,7 @@
 		}
 		{
 			height: 1.0d
+			hover: ["Osmium Ingot"]
 			image: "mekanism:item/ingot_osmium"
 			rotation: 0.0d
 			width: 1.0d
@@ -128,6 +134,7 @@
 		}
 		{
 			height: 1.0d
+			hover: ["Lead Ingot"]
 			image: "thermal:item/lead_ingot"
 			rotation: 0.0d
 			width: 1.0d
@@ -136,6 +143,7 @@
 		}
 		{
 			height: 1.0d
+			hover: ["Silver Ingot"]
 			image: "thermal:item/silver_ingot"
 			rotation: 0.0d
 			width: 1.0d
@@ -414,11 +422,13 @@
 			size: 1.1d
 			tasks: [
 				{
+					disable_toast: true
 					id: "7CABEBB3F3401EAC"
 					item: "mbd2:drill_mk_i"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "3C3DB3C898458689"
 					item: "kubejs:steel_bore_head"
 					type: "item"
@@ -1069,7 +1079,7 @@
 				type: "item"
 			}]
 			x: -6.5d
-			y: 2.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["66876CB00FC17031"]
@@ -1275,6 +1285,17 @@
 			}]
 			x: 11.0d
 			y: -0.5d
+		}
+		{
+			dependencies: ["60A7BAA320FA674F"]
+			id: "001A8040A0AB8CE5"
+			tasks: [{
+				id: "4AF5C79545BB7F09"
+				item: "mekanism:basic_tier_installer"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 2.5d
 		}
 	]
 	title: "Electrical Age"

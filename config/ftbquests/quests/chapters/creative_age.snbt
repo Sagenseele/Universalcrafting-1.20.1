@@ -1,0 +1,46 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "creative_age"
+	group: "0D67931F734E7CE2"
+	icon: "storagedrawers:creative_vending_upgrade"
+	id: "1140EEBA9620BA8A"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6E33A55B938CC53C"]
+			id: "7A5494E6BD226314"
+			tasks: [{
+				id: "263D21652DE9C59B"
+				item: "storagedrawers:creative_vending_upgrade"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6E33A55B938CC53C"]
+			id: "177BAFDEE34E1626"
+			tasks: [{
+				id: "6C7D286919DC6D2B"
+				item: "create:creative_motor"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["16407104C2D7A594"]
+			hide_until_deps_complete: true
+			id: "6E33A55B938CC53C"
+			tasks: [{
+				id: "2980BFA9C4795AD4"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+	]
+	title: "Creative Age"
+}

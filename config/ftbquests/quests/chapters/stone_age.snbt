@@ -110,19 +110,11 @@
 		{
 			dependencies: ["04C04D6FBB67AAC3"]
 			id: "7A1C76596F111A92"
-			rewards: [
-				{
-					count: 8
-					id: "7A93A06811B91F81"
-					item: "kubejs:nutrient_bar"
-					type: "item"
-				}
-				{
-					id: "6B848CED5C52745F"
-					item: "kubejs:universal_badge"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "6B848CED5C52745F"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.5d
 			subtitle: "Unlocks &dBlood Magic&r Chapter"
@@ -156,7 +148,7 @@
 				"135FEC8E09C68EB0"
 				"3BACAF9E71A3524F"
 			]
-			description: ["Accepts every wood log as crafting material."]
+			description: ["Can be crafted from any #minecraft:logs"]
 			id: "45346209AF744497"
 			rewards: [{
 				id: "6EAF7417FFF5BC3B"
