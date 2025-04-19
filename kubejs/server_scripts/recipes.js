@@ -815,6 +815,7 @@ ServerEvents.recipes(event => {
   )
 
   // Elite
+  event.remove( {id: 'mekanism:control_circuit/elite'} )
 	event.recipes.powah.energizing(['mekanism:advanced_control_circuit','powah_niotic_crystal_block'], 'mekanism:elite_control_circuit', 50000)
   //Ad_Astra
   // Fuel Refinery
