@@ -43,8 +43,8 @@
 				item: "botania:rune_water"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -4.5d
+			x: 4.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["6EB31D4642BBB1FE"]
@@ -59,8 +59,8 @@
 				item: "botania:rune_fire"
 				type: "item"
 			}]
-			x: 8.5d
-			y: -5.5d
+			x: 5.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["6EB31D4642BBB1FE"]
@@ -75,8 +75,8 @@
 				item: "botania:rune_earth"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -4.5d
+			x: 5.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["6EB31D4642BBB1FE"]
@@ -91,8 +91,8 @@
 				item: "botania:rune_air"
 				type: "item"
 			}]
-			x: 8.5d
-			y: -3.5d
+			x: 5.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["3B422CEE37326317"]
@@ -124,7 +124,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: -4.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["6EB31D4642BBB1FE"]
@@ -140,7 +140,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: -5.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["6EB31D4642BBB1FE"]
@@ -156,7 +156,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -4.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["6EB31D4642BBB1FE"]
@@ -172,7 +172,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: -3.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["6EB31D4642BBB1FE"]
@@ -187,8 +187,8 @@
 				item: "botania:rune_mana"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -3.5d
+			x: 7.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["6EB31D4642BBB1FE"]
@@ -407,7 +407,7 @@
 				item: "botania:orechid"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 9.5d
 			y: -3.5d
 		}
 		{
@@ -418,7 +418,7 @@
 				item: "botania:orechid_ignem"
 				type: "item"
 			}]
-			x: 11.5d
+			x: 10.0d
 			y: -2.5d
 		}
 		{
@@ -429,8 +429,8 @@
 				item: "botania:terrasteel_ingot"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -7.0d
+			x: 10.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["6EB31D4642BBB1FE"]
@@ -455,7 +455,7 @@
 					type: "item"
 				}
 			]
-			x: 7.5d
+			x: 7.0d
 			y: -6.5d
 		}
 		{
@@ -478,8 +478,75 @@
 				}
 				type: "item"
 			}]
-			x: 11.0d
+			x: 10.0d
 			y: -1.0d
+		}
+		{
+			dependencies: ["5043FB07729FD645"]
+			id: "3CE33113FD05A596"
+			tasks: [{
+				id: "76CFA1A8D73A998C"
+				item: "botania:alfheim_portal"
+				type: "item"
+			}]
+			title: "Elven Gateway to Alfheim"
+			x: 10.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5043FB07729FD645"]
+			id: "6A2B0C771BC48118"
+			tasks: [{
+				count: 4L
+				id: "24DF1D3790C9781C"
+				item: { Count: 4, id: "botania:gaia_pylon" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["3CE33113FD05A596"]
+			id: "5ED2BD702EE674EE"
+			tasks: [{
+				id: "1280B4128970450B"
+				item: "botania:elven_spreader"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6A2B0C771BC48118"]
+			id: "739EF53B52E18671"
+			tasks: [{
+				id: "42A72ED1912D2FE5"
+				item: "botania:gaia_spreader"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["0AF2FE192BE0715D"]
+			icon_scale: 0.8d
+			id: "0EB66214FC3BEB89"
+			rewards: [{
+				id: "4C9AE47392F6FBEB"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Unlocks &dForbidden \\& Arcanus&r Chapter"
+			tasks: [{
+				id: "48D85BA9ADCE78E8"
+				item: "forbidden_arcanus:aurum_sapling"
+				type: "item"
+			}]
+			title: "Forbidden \\& Arcanus"
+			x: -3.0d
+			y: -2.5d
 		}
 	]
 	title: "Botania"
