@@ -5,7 +5,7 @@
 	group: "688DEA0D1A32C680"
 	icon: "sophisticatedbackpacks:backpack"
 	id: "298199BA2D9115B3"
-	order_index: 1
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{

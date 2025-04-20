@@ -13,7 +13,7 @@
 		rotation: 0.0d
 		width: 1.0d
 		x: 1.5d
-		y: 1.0d
+		y: 1.5d
 	}]
 	order_index: 3
 	quest_links: [ ]
@@ -42,6 +42,7 @@
 			]
 			icon: "forbidden_arcanus:hephaestus_forge"
 			id: "06581950221710F7"
+			size: 1.25d
 			tasks: [
 				{
 					count: 48L
@@ -113,8 +114,137 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
-			y: -1.5d
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["06581950221710F7"]
+			description: ["Can hold mob charms which make you invisible for these mobs."]
+			id: "75E0355A910EC5E5"
+			rewards: [{
+				id: "0B559729BE656BCC"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4EAB255D40535E1A"
+				item: "reliquary:mob_charm_belt"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["06581950221710F7"]
+			icon: "bhc:heart_amulet"
+			id: "67E45A1B7C971527"
+			invisible: true
+			rewards: [
+				{
+					id: "196337B74374DFB5"
+					item: "bhc:heart_amulet"
+					type: "item"
+				}
+				{
+					id: "42F835BBE330E36F"
+					item: "kubejs:universal_badge"
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [{
+				id: "5DDCEB752EA2AC50"
+				item: "bhc:red_heart"
+				type: "item"
+			}]
+			title: "Heart Amulet"
+			x: 5.214285714285715d
+			y: 0.5d
+		}
+		{
+			dependencies: ["67E45A1B7C971527"]
+			id: "5A03E0DC2CD49A59"
+			rewards: [{
+				id: "183EE26A00699681"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			tasks: [{
+				count: 10L
+				id: "0DB20E44B35DDC77"
+				item: { Count: 10, id: "bhc:red_heart_canister" }
+				type: "item"
+			}]
+			x: 6.214285714285715d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5A03E0DC2CD49A59"]
+			id: "1DFA525DD43BAC05"
+			rewards: [{
+				id: "621EC6A6B78910C4"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			tasks: [{
+				count: 10L
+				id: "3A8BC6950A2A9EF4"
+				item: { Count: 10, id: "bhc:yellow_heart_canister" }
+				type: "item"
+			}]
+			x: 6.714285714285715d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1DFA525DD43BAC05"]
+			id: "3BD2F2915C36695C"
+			rewards: [{
+				id: "516E4391A72C1545"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			tasks: [{
+				count: 10L
+				id: "774FD709708548BF"
+				item: { Count: 10, id: "bhc:green_heart_canister" }
+				type: "item"
+			}]
+			x: 6.3214285714285765d
+			y: 1.5892857142857153d
+		}
+		{
+			dependencies: ["3BD2F2915C36695C"]
+			id: "2921570C34D393F3"
+			rewards: [{
+				id: "18E40509FC77C472"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			tasks: [{
+				count: 10L
+				id: "6F6A762B9BF26A7D"
+				item: { Count: 10, id: "bhc:blue_heart_canister" }
+				type: "item"
+			}]
+			x: 5.214285714285715d
+			y: 2.125d
+		}
+		{
+			dependencies: ["2921570C34D393F3"]
+			id: "4165D685920E4ADE"
+			rewards: [{
+				id: "1AFBA95A7036D51C"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			tasks: [{
+				count: 10L
+				id: "3FDAEBA33D75A342"
+				item: { Count: 10, id: "bhc:soul_heart_canister" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.982142857142854d
 		}
 	]
 	title: "Forbidden \\& Arcanus"
