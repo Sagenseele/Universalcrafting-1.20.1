@@ -4,26 +4,32 @@ ServerEvents.recipes(event => {
   const dusts = ['thermal:tin_dust', 'thermal:silver_dust', 'thermal:copper_dust', 'thermal:nickel_dust', 'mekanism:dust_osmium', 'thermal:lead_dust', 'immersiveengineering:dust_uranium', 'thermal:gold_dust', 'thermal:iron_dust', 'thermal:tin_dust', 'immersiveengineering:dust_aluminum', 'thermal:nickel_dust', 'mekanism:dust_osmium']
 
   
-  function level_up() {
-    [''].forEach(item => {
+  function level_up_10() {
+    ['artifacts:snorkel',
+      'artifacts:villager_hat',
+      'artifacts:superstitious_hat',
+      'artifacts:anglers_hat',
+      'artifacts:lucky_scarf',
+      'artifacts:scarf_of_invisibility'].forEach(relic => {
       event.shapeless(
-        item,
+        Item.of(relic),
         [
-          Item.of(item),
+          Item.of(relic),
           'kubejs:relic_xp_tablet'
         ]).modifyResult((grid, result) => {
-          let item = grid.find(item)
+          let item = grid.find(relic)
           let nbt_data = item.getNbt()
           if (nbt_data['leveling'] === undefined) { nbt_data['leveling'] = { experience: 0, level: 0, points: 0 } }
           if (nbt_data.leveling['level'] === undefined) { nbt_data['leveling']['level'] = 0; nbt_data['leveling']['points'] = 0 }
           if (nbt_data.leveling.level < 10) {
             nbt_data.leveling.level = nbt_data.leveling.level + 1
+            nbt_data.leveling.points = nbt_data.leveling.points + 1
           }
           return result.withNBT(nbt_data)
         })
     })
   }
-  level_up('artifacts:plastic_drinking_hat')
+  level_up_10()
   //event.shapeless('kubejs:relic_xp_tablet', [
   //  'kubejs:relic_xp_tablet',
   //  { "tag": 'immersiveengineering:tools/hammers' }
