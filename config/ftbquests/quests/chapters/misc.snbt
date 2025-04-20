@@ -135,29 +135,6 @@
 			x: 0.0d
 			y: -2.5d
 		}
-		{
-			description: ["There are &e14&r different tiers of jetpacks."]
-			id: "400B4EE39205D383"
-			rewards: [{
-				id: "4457774D34F39962"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
-			tasks: [{
-				id: "3C25E612A16215BD"
-				item: {
-					Count: 1
-					id: "ironjetpacks:jetpack"
-					tag: {
-						Id: "ironjetpacks:wood"
-						Throttle: 1.0d
-					}
-				}
-				type: "item"
-			}]
-			x: -2.0d
-			y: 0.0d
-		}
 	]
 	title: "Accessories"
 }

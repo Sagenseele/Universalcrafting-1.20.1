@@ -760,6 +760,22 @@
 			x: -5.5d
 			y: 2.5d
 		}
+		{
+			dependencies: ["6BD371363843E3E2"]
+			description: [
+				"Available at Tier 2, the Sacrificial Dagger can one-shot Mobs within a 2 Block Radius around the blood altar and contributes high amounts of blood per kill."
+				""
+				"If you pair a Spawner buffed by Apotheosis with this, you have a good source of non-self-inflicted-harm-Life Essence. You can further increase the amount of life essence by using Sacrifice Runes around your altar."
+			]
+			id: "00D59035276C9C7E"
+			tasks: [{
+				id: "4C4BC52D259A1B46"
+				item: "bloodmagic:daggerofsacrifice"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
 	]
 	title: "Blood Magic"
 }
