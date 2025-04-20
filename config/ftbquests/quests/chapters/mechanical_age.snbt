@@ -88,8 +88,8 @@
 			id: "34D115B6E61D1234"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "6CBB291C425CB187"
-				table_id: 2636020884739909304L
+				id: "5C8C2C10DF5257EB"
+				table_id: 5654891198142888120L
 				type: "choice"
 			}]
 			shape: "square"
@@ -642,8 +642,8 @@
 			id: "109099A9933B4917"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "347DDA7218D4C71B"
-				table_id: 6410953887526331428L
+				id: "15179876B02E885C"
+				table_id: 7938350547759728332L
 				type: "choice"
 			}]
 			shape: "rsquare"
@@ -663,8 +663,8 @@
 			id: "20E1FE382D42E846"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "2B6E446D64804334"
-				table_id: 6410953887526331428L
+				id: "15AD39F6BF53C7B3"
+				table_id: 5654891198142888120L
 				type: "choice"
 			}]
 			shape: "square"

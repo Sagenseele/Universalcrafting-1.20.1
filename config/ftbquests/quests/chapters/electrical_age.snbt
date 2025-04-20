@@ -265,9 +265,10 @@
 			icon: "immersiveengineering:fermenter"
 			id: "63792671998838BB"
 			rewards: [{
-				id: "0DC9ED1584A1DC93"
-				item: "kubejs:universal_badge"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "044058A97454BDA1"
+				table_id: 1003551246795076371L
+				type: "choice"
 			}]
 			shape: "square"
 			size: 1.1d
@@ -324,9 +325,10 @@
 			icon: "immersiveengineering:mixer"
 			id: "74E8AE06038BAAEA"
 			rewards: [{
-				id: "12B2D17C1A8EBE39"
-				item: "kubejs:universal_badge"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "186DAABD35E0193A"
+				table_id: 1003551246795076371L
+				type: "choice"
 			}]
 			shape: "square"
 			size: 1.1d
@@ -414,8 +416,8 @@
 			id: "1445775C649FB704"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "2251310A91120521"
-				table_id: 1974161973908950149L
+				id: "1ED0902398637330"
+				table_id: 3564536778542619343L
 				type: "choice"
 			}]
 			shape: "square"
@@ -431,6 +433,48 @@
 					disable_toast: true
 					id: "3C3DB3C898458689"
 					item: "kubejs:steel_bore_head"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "57C44180AE26B970"
+					item: "mbd2:energy_input_tier2"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "44A18BC4EA07A6BE"
+					item: "mbd2:fluid_input_tier2"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "61DF46CC7D52597C"
+					item: "mbd2:item_output_tier2"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "059C8774FA857D5F"
+					item: { Count: 16, id: "immersiveengineering:steel_scaffolding_wooden_top" }
+					type: "item"
+				}
+				{
+					count: 24L
+					id: "487D00DBC31E43EC"
+					item: { Count: 24, id: "immersiveengineering:steel_scaffolding_standard" }
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "5DBA5342AB14431F"
+					item: { Count: 12, id: "ad_astra:steel_plateblock" }
+					type: "item"
+				}
+				{
+					count: 17L
+					id: "0D421D5EE357347B"
+					item: { Count: 17, id: "immersiveengineering:steel_fence" }
 					type: "item"
 				}
 			]
@@ -689,9 +733,10 @@
 			icon: "immersiveengineering:bottling_machine"
 			id: "646C00545B81508C"
 			rewards: [{
-				id: "7574B0501A3110BD"
-				item: "kubejs:universal_badge"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "6E56D335E66480EA"
+				table_id: 1003551246795076371L
+				type: "choice"
 			}]
 			shape: "square"
 			size: 1.1d
@@ -787,9 +832,10 @@
 			icon: "immersiveengineering:refinery"
 			id: "35855C390FC01279"
 			rewards: [{
-				id: "4A23AB51F7FBAE93"
-				item: "kubejs:universal_badge"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "2ED14EC79AA33C8B"
+				table_id: 1003551246795076371L
+				type: "choice"
 			}]
 			shape: "square"
 			size: 1.1d
@@ -950,8 +996,8 @@
 			id: "35FEBC636877D245"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "772E24A0A9D5E438"
-				table_id: 2636020884739909304L
+				id: "1D54F09864A83D2D"
+				table_id: 7938350547759728332L
 				type: "choice"
 			}]
 			shape: "rsquare"
@@ -1006,9 +1052,10 @@
 			icon: "immersiveengineering:auto_workbench"
 			id: "1FBEC6C74EE0C32C"
 			rewards: [{
-				id: "6FFEB247E0B0F315"
-				item: "kubejs:universal_badge"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "33E4B59D52D8852F"
+				table_id: 1003551246795076371L
+				type: "choice"
 			}]
 			shape: "square"
 			size: 1.1d
@@ -1097,8 +1144,8 @@
 			id: "67B65536FB91CAA6"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "5D1F799E49C2F155"
-				table_id: 1974161973908950149L
+				id: "0030FCB6200406E5"
+				table_id: 5654891198142888120L
 				type: "choice"
 			}]
 			shape: "square"
@@ -1116,17 +1163,61 @@
 			id: "00963DDA358D49A4"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "7857DCB735B08727"
-				table_id: 2636020884739909304L
+				id: "59020745644B1B24"
+				table_id: 4413056645531497971L
 				type: "choice"
 			}]
 			shape: "square"
 			size: 1.1d
-			tasks: [{
-				id: "51BD7D0B103EF31C"
-				item: "mbd2:washing_facility"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "51BD7D0B103EF31C"
+					item: "mbd2:washing_facility"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "2F80E8E5F2FA2158"
+					item: "mbd2:item_input_tier2"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "3717C064921BB7E5"
+					item: "mbd2:item_output_tier2"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "1EF07422794FDE10"
+					item: "mbd2:energy_input_tier2"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "1DA8178C2D03D4BE"
+					item: "mbd2:fluid_input_tier2"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "40A9862ED1D57366"
+					item: { Count: 2, id: "kubejs:heat_resistant_glass" }
+					type: "item"
+				}
+				{
+					count: 51L
+					id: "22F8DC4AABC0EC65"
+					item: { Count: 51, id: "kubejs:multiblock_tier2" }
+					type: "item"
+				}
+				{
+					count: 24L
+					id: "024674DD1CA7619F"
+					item: { Count: 24, id: "kubejs:frame_tier2" }
+					type: "item"
+				}
+			]
 			x: -3.5d
 			y: 7.0d
 		}

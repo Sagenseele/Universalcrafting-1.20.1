@@ -23,7 +23,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 4.5d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -72,7 +72,7 @@
 				item: "appliede:emc_module"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 5.0d
 			y: 4.5d
 		}
 		{

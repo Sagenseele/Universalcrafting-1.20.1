@@ -122,8 +122,8 @@
 				id: "6B994EC4C8CA41A1"
 				type: "checkmark"
 			}]
-			x: 0.5d
-			y: -0.5d
+			x: -1.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["4753A1C669C0B7FC"]
@@ -298,7 +298,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: -2.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["7B3B80DA9D462C0F"]
@@ -476,6 +476,66 @@
 			}]
 			x: 1.0d
 			y: -4.5d
+		}
+		{
+			dependencies: ["4753A1C669C0B7FC"]
+			icon: "mbd2:model_computer"
+			id: "399B11DAD13B051F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "16A8D123E57F2137"
+				table_id: 3564536778542619343L
+				type: "choice"
+			}]
+			shape: "square"
+			size: 1.1d
+			tasks: [
+				{
+					id: "6BD96026255C8F6E"
+					item: "mbd2:model_computer"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "36579B82219EBCE5"
+					item: { Count: 8, id: "ae2:64k_crafting_storage" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4A7CD1A933858553"
+					item: { Count: 8, id: "ae2:crafting_accelerator" }
+					type: "item"
+				}
+				{
+					id: "5063D6A48EB8D9A2"
+					item: "mbd2:item_input_tier_3"
+					type: "item"
+				}
+				{
+					id: "6BE95121DD9F3357"
+					item: "mbd2:item_output_tier_3"
+					type: "item"
+				}
+				{
+					id: "1B2BE173B1C9B7B8"
+					item: "mbd2:fluid_input_tier_3"
+					type: "item"
+				}
+				{
+					id: "323016D285E20B6B"
+					item: "mbd2:energy_input_tier_3"
+					type: "item"
+				}
+				{
+					count: 33L
+					id: "69EC419B066093B2"
+					item: { Count: 33, id: "kubejs:multiblock_tier3" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 2.5d
 		}
 	]
 	title: "Computing Age"

@@ -43,8 +43,8 @@
 				item: "relics:relic_experience_bottle"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 2.0d
+			x: -3.625d
+			y: 2.125d
 		}
 		{
 			icon_scale: 0.8d
@@ -74,8 +74,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
-			y: 1.0d
+			x: -1.625d
+			y: 1.125d
 		}
 		{
 			icon_scale: 0.8d
@@ -107,8 +107,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
-			y: 0.5d
+			x: 0.375d
+			y: 0.625d
 		}
 		{
 			icon_scale: 0.8d
@@ -138,8 +138,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
-			y: 1.0d
+			x: 2.375d
+			y: 1.125d
 		}
 		{
 			icon_scale: 0.8d
@@ -169,8 +169,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.0d
-			y: 2.0d
+			x: 4.375d
+			y: 2.125d
 		}
 		{
 			icon_scale: 0.8d
@@ -211,8 +211,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.5d
-			y: 3.5d
+			x: 5.875d
+			y: 3.625d
 		}
 		{
 			icon_scale: 0.8d
@@ -261,8 +261,8 @@
 				}
 				type: "item"
 			}]
-			x: 6.0d
-			y: 5.5d
+			x: 6.375d
+			y: 5.625d
 		}
 		{
 			icon_scale: 0.8d
@@ -301,8 +301,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.5d
-			y: 7.5d
+			x: 5.875d
+			y: 7.625d
 		}
 		{
 			icon_scale: 0.8d
@@ -338,8 +338,8 @@
 				}
 				type: "item"
 			}]
-			x: -5.5d
-			y: 7.5d
+			x: -5.125d
+			y: 7.625d
 		}
 		{
 			icon_scale: 0.8d
@@ -387,8 +387,8 @@
 				}
 				type: "item"
 			}]
-			x: -4.0d
-			y: 9.0d
+			x: -3.625d
+			y: 9.125d
 		}
 		{
 			icon_scale: 0.8d
@@ -425,8 +425,8 @@
 				}
 				type: "item"
 			}]
-			x: -5.5d
-			y: 3.5d
+			x: -5.125d
+			y: 3.625d
 		}
 		{
 			icon_scale: 0.8d
@@ -456,8 +456,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.0d
-			y: 9.0d
+			x: 4.375d
+			y: 9.125d
 		}
 		{
 			icon_scale: 0.8d
@@ -488,8 +488,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
-			y: 10.0d
+			x: -1.625d
+			y: 10.125d
 		}
 		{
 			icon_scale: 0.8d
@@ -541,8 +541,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
-			y: 10.5d
+			x: 0.375d
+			y: 10.625d
 		}
 		{
 			icon_scale: 0.8d
@@ -573,8 +573,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
-			y: 10.0d
+			x: 2.375d
+			y: 10.125d
 		}
 		{
 			icon_scale: 0.8d
@@ -623,8 +623,8 @@
 				}
 				type: "item"
 			}]
-			x: -6.0d
-			y: 5.5d
+			x: -5.625d
+			y: 5.625d
 		}
 		{
 			icon_scale: 0.8d
@@ -654,8 +654,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
-			y: 3.5d
+			x: -1.625d
+			y: 3.625d
 		}
 		{
 			icon_scale: 0.8d
@@ -686,8 +686,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
-			y: 3.0d
+			x: 0.375d
+			y: 3.125d
 		}
 		{
 			icon_scale: 0.8d
@@ -718,8 +718,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
-			y: 3.5d
+			x: 2.375d
+			y: 3.625d
 		}
 		{
 			icon_scale: 0.8d
@@ -756,8 +756,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
-			y: 8.0d
+			x: 0.375d
+			y: 8.125d
 		}
 		{
 			icon_scale: 0.8d
@@ -789,8 +789,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
-			y: 7.5d
+			x: 2.375d
+			y: 7.625d
 		}
 		{
 			icon_scale: 0.8d
@@ -844,8 +844,8 @@
 				}
 				type: "item"
 			}]
-			x: -1.0d
-			y: 6.5d
+			x: -0.625d
+			y: 6.625d
 		}
 		{
 			icon_scale: 0.8d
@@ -886,8 +886,8 @@
 				}
 				type: "item"
 			}]
-			x: -1.0d
-			y: 4.5d
+			x: -0.625d
+			y: 4.625d
 		}
 		{
 			icon_scale: 0.8d
@@ -918,8 +918,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
-			y: 7.5d
+			x: -1.625d
+			y: 7.625d
 		}
 		{
 			icon_scale: 0.8d
@@ -956,8 +956,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
-			y: 4.5d
+			x: 1.375d
+			y: 4.625d
 		}
 		{
 			icon_scale: 0.8d
@@ -987,8 +987,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
-			y: 6.5d
+			x: 1.375d
+			y: 6.625d
 		}
 		{
 			icon_scale: 0.8d
@@ -1018,8 +1018,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.5d
-			y: 5.5d
+			x: -2.125d
+			y: 5.625d
 		}
 		{
 			icon_scale: 0.8d
@@ -1052,8 +1052,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.5d
-			y: 5.5d
+			x: 2.875d
+			y: 5.625d
 		}
 		{
 			icon_scale: 0.8d
@@ -1097,8 +1097,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
-			y: 5.5d
+			x: 0.375d
+			y: 5.625d
 		}
 		{
 			icon_scale: 0.8d
@@ -1134,8 +1134,235 @@
 				}
 				type: "item"
 			}]
-			x: 8.5d
-			y: -0.5d
+			x: 9.375d
+			y: 5.75d
+		}
+		{
+			icon_scale: 0.8d
+			id: "5F3059427BADE594"
+			invisible: true
+			rewards: [{
+				id: "72F09C8AC91C2EEC"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			size: 1.25d
+			tasks: [{
+				id: "3860E88FA6FD7EED"
+				item: {
+					Count: 1
+					id: "artifacts:scarf_of_invisibility"
+					tag: {
+						abilities: {
+							invisible: {
+								points: 0
+								stats: {
+									radius: 3.71019d
+									threshold: 0.07104d
+								}
+								temp: {
+									ticking: 1b
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 10.375d
+			y: 6.75d
+		}
+		{
+			icon_scale: 0.8d
+			id: "6F17FE85948D31C2"
+			invisible: true
+			rewards: [{
+				id: "78914AF689BB2387"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			size: 1.25d
+			tasks: [{
+				id: "20787C0735E18873"
+				item: {
+					Count: 1
+					id: "artifacts:novelty_drinking_hat"
+					tag: {
+						abilities: {
+							drinking: {
+								points: 0
+								stats: {
+									speed: 0.3327d
+								}
+							}
+							nutrition: {
+								points: 0
+								stats: {
+									hunger: 1.77098d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 10.375d
+			y: 4.75d
+		}
+		{
+			icon_scale: 0.8d
+			id: "2B6993E7B388EEC3"
+			invisible: true
+			rewards: [{
+				id: "4E92632FE2CCF1B2"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			size: 1.25d
+			tasks: [{
+				id: "7CD7E5167413DE24"
+				item: {
+					Count: 1
+					id: "artifacts:snorkel"
+					tag: {
+						abilities: {
+							diving: {
+								points: 0
+								stats: {
+									duration: 7.47718d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 11.375d
+			y: 3.75d
+		}
+		{
+			icon_scale: 0.8d
+			id: "6B33B18E4DB263D4"
+			invisible: true
+			rewards: [{
+				id: "2498A14FE62D34D0"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			size: 1.25d
+			tasks: [{
+				id: "6191CB35711B23D9"
+				item: {
+					Count: 1
+					id: "artifacts:villager_hat"
+					tag: {
+						abilities: {
+							discount: {
+								points: 0
+								stats: {
+									multiplier: 19.68587d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 12.375d
+			y: 4.75d
+		}
+		{
+			icon_scale: 0.8d
+			id: "4929A053DB16B982"
+			invisible: true
+			rewards: [{
+				id: "2F48CF2DA169EA8C"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			size: 1.25d
+			tasks: [{
+				id: "183DFE71F1F75A84"
+				item: {
+					Count: 1
+					id: "artifacts:superstitious_hat"
+					tag: {
+						abilities: {
+							looting: {
+								points: 0
+								stats: {
+									chance: 0.16243d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 13.375d
+			y: 5.75d
+		}
+		{
+			icon_scale: 0.8d
+			id: "62E99A32A2A62C46"
+			invisible: true
+			rewards: [{
+				id: "48054ABD864EC707"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			size: 1.25d
+			tasks: [{
+				id: "60D8889BB1A962E1"
+				item: {
+					Count: 1
+					id: "artifacts:anglers_hat"
+					tag: {
+						abilities: {
+							catch: {
+								points: 0
+								stats: {
+									chance: 0.13397d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 12.375d
+			y: 6.75d
+		}
+		{
+			icon_scale: 0.8d
+			id: "579FD7BEE59A6D6C"
+			invisible: true
+			rewards: [{
+				id: "5619BB5189019F0F"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			size: 1.25d
+			tasks: [{
+				id: "4302732B03B8E887"
+				item: {
+					Count: 1
+					id: "artifacts:lucky_scarf"
+					tag: {
+						abilities: {
+							luck: {
+								points: 0
+								stats: {
+									chance: 0.15231d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 11.375d
+			y: 7.75d
 		}
 	]
 	title: "Relics \\& Artifacts"

@@ -78,7 +78,7 @@
 					type: "item"
 				}
 			]
-			title: "Hephaestus Forge"
+			title: "Hephaestus Forge Tier"
 			x: 1.5d
 			y: 0.0d
 		}
@@ -114,8 +114,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.5d
-			y: -3.0d
+			x: 0.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["06581950221710F7"]
@@ -131,8 +131,8 @@
 				item: "reliquary:mob_charm_belt"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -3.5d
+			x: 2.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["06581950221710F7"]
