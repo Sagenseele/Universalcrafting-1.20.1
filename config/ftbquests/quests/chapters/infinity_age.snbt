@@ -23,12 +23,14 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 1.5d
+			y: 4.5d
 		}
 		{
 			dependencies: [
-				"14371C1F880EFFBD"
 				"45B8F3585A71750A"
+				"53D00AA8DAE00EC7"
+				"149FA53631B4E30C"
+				"397244BF016E5253"
 			]
 			id: "16407104C2D7A594"
 			size: 2.0d
@@ -49,7 +51,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 1.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["3C9E469F8B6598B5"]
@@ -60,7 +62,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 3.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["5E49261FC2520B30"]
@@ -70,8 +72,8 @@
 				item: "appliede:emc_module"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 3.0d
+			x: 5.5d
+			y: 4.5d
 		}
 		{
 			disable_toast: true
@@ -82,8 +84,77 @@
 				item: "apotheosis:ender_library"
 				type: "item"
 			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			disable_toast: true
+			id: "53D00AA8DAE00EC7"
+			tasks: [{
+				id: "307A45A421D8C4B9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: {
+									charge_armor: {
+										hud: 1b
+									}
+									charge_curios: {
+										hud: 1b
+									}
+									charge_held_item: {
+										hud: 1b
+									}
+									charge_hot_bar: {
+										hud: 1b
+									}
+									charge_main: {
+										hud: 1b
+									}
+								}
+								provider_id: [I;
+									1559819905
+									-148878246
+									-1851285021
+									713416550
+								]
+							}
+						}
+					}
+					id: "draconicevolution:chaotic_capacitor"
+				}
+				type: "item"
+			}]
 			x: 6.0d
-			y: -3.0d
+			y: -4.5d
+		}
+		{
+			disable_toast: true
+			id: "149FA53631B4E30C"
+			tasks: [{
+				id: "4276A58E356E71BB"
+				item: "bloodmagic:archmagebloodorb"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			disable_toast: true
+			id: "397244BF016E5253"
+			tasks: [{
+				id: "2ACADBB13D0AAF28"
+				title: "Universal Disk"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
 		}
 	]
 	title: "Infinity Age"

@@ -111,7 +111,7 @@
 				item: "mekanism:advanced_control_circuit"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -4.0d
 			y: -4.0d
 		}
 		{
@@ -276,7 +276,7 @@
 				item: "ad_astra:calorite_ingot"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -2.0d
 			y: -8.0d
 		}
 		{
@@ -287,7 +287,7 @@
 				item: "ad_astra:etrium_ingot"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -1.0d
 			y: -10.0d
 		}
 		{
@@ -369,7 +369,7 @@
 				item: "kubejs:probe_mk_i"
 				type: "item"
 			}]
-			x: -3.5d
+			x: -3.0d
 			y: -6.0d
 		}
 		{
@@ -380,7 +380,7 @@
 				item: "mekanism:advanced_tier_installer"
 				type: "item"
 			}]
-			x: -6.5d
+			x: -5.5d
 			y: -4.0d
 		}
 	]

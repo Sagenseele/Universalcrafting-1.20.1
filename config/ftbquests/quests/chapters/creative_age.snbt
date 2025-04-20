@@ -27,8 +27,8 @@
 				item: "create:creative_motor"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 1.0d
+			x: 0.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["16407104C2D7A594"]

@@ -52,14 +52,14 @@
 				item: "kubejs:universal_badge"
 				type: "item"
 			}]
-			size: 1.1d
+			size: 1.0d
 			tasks: [{
 				id: "452E807B4B26AA43"
 				item: "apotheosis:gem_cutting_table"
 				type: "item"
 			}]
 			x: 8.8d
-			y: -1.1d
+			y: -2.2d
 		}
 		{
 			dependencies: ["3DF8E8B1A7AAA0FA"]
@@ -69,14 +69,14 @@
 				item: "kubejs:universal_badge"
 				type: "item"
 			}]
-			size: 1.1d
+			size: 1.0d
 			tasks: [{
 				id: "00031CC53781FF90"
 				item: "apotheosis:salvaging_table"
 				type: "item"
 			}]
 			x: 10.3d
-			y: -1.1d
+			y: -2.2d
 		}
 		{
 			id: "54BE3BC7F09C1E4E"
@@ -633,7 +633,7 @@
 				type: "item"
 			}]
 			x: 14.007270408163276d
-			y: 0.15382653061224394d
+			y: -0.9461734693877561d
 		}
 		{
 			dependencies: ["3DF8E8B1A7AAA0FA"]
@@ -643,14 +643,14 @@
 				item: "kubejs:universal_badge"
 				type: "item"
 			}]
-			size: 1.1d
+			size: 1.0d
 			tasks: [{
 				id: "592859DEF928CC8B"
 				item: "apotheosis:augmenting_table"
 				type: "item"
 			}]
 			x: 8.8d
-			y: 1.4d
+			y: 0.2999999999999998d
 		}
 		{
 			dependencies: ["3DF8E8B1A7AAA0FA"]
@@ -660,14 +660,14 @@
 				item: "kubejs:universal_badge"
 				type: "item"
 			}]
-			size: 1.1d
+			size: 1.0d
 			tasks: [{
 				id: "0E7DC182DD607601"
 				item: "apotheosis:simple_reforging_table"
 				type: "item"
 			}]
 			x: 10.248086734693874d
-			y: 1.4032525510204095d
+			y: 0.3032525510204094d
 		}
 		{
 			dependencies: ["2567C6EE90B2E73A"]
@@ -677,14 +677,14 @@
 				item: "kubejs:universal_badge"
 				type: "item"
 			}]
-			size: 1.1d
+			size: 1.0d
 			tasks: [{
 				id: "38C0D22B4220361D"
 				item: "apotheosis:reforging_table"
 				type: "item"
 			}]
 			x: 10.8d
-			y: 2.4d
+			y: 1.2999999999999998d
 		}
 		{
 			dependencies: ["64F547D87FDA365F"]
@@ -694,14 +694,14 @@
 				item: "kubejs:universal_badge"
 				type: "item"
 			}]
-			size: 1.1d
+			size: 1.0d
 			tasks: [{
 				id: "49C56F9029F08F02"
 				item: "apotheosis:sigil_of_socketing"
 				type: "item"
 			}]
 			x: 13.3d
-			y: -1.1d
+			y: -2.2d
 		}
 		{
 			dependencies: ["64F547D87FDA365F"]
@@ -711,14 +711,14 @@
 				item: "kubejs:universal_badge"
 				type: "item"
 			}]
-			size: 1.1d
+			size: 1.0d
 			tasks: [{
 				id: "7AF9B3AB0F500CEC"
 				item: "apotheosis:sigil_of_withdrawal"
 				type: "item"
 			}]
 			x: 14.8d
-			y: -1.1d
+			y: -2.2d
 		}
 		{
 			dependencies: ["64F547D87FDA365F"]
@@ -728,14 +728,14 @@
 				item: "kubejs:universal_badge"
 				type: "item"
 			}]
-			size: 1.1d
+			size: 1.0d
 			tasks: [{
 				id: "017BBC350E10CAB7"
 				item: "apotheosis:sigil_of_rebirth"
 				type: "item"
 			}]
 			x: 14.8d
-			y: 1.4d
+			y: 0.2999999999999998d
 		}
 		{
 			dependencies: ["64F547D87FDA365F"]
@@ -745,14 +745,14 @@
 				item: "kubejs:universal_badge"
 				type: "item"
 			}]
-			size: 1.1d
+			size: 1.0d
 			tasks: [{
 				id: "334259F788417F87"
 				item: "apotheosis:sigil_of_enhancement"
 				type: "item"
 			}]
 			x: 13.3d
-			y: 1.4d
+			y: 0.2999999999999998d
 		}
 		{
 			dependencies: ["64F547D87FDA365F"]
@@ -762,14 +762,14 @@
 				item: "kubejs:universal_badge"
 				type: "item"
 			}]
-			size: 1.1d
+			size: 1.0d
 			tasks: [{
 				id: "4067046CA3D4A547"
 				item: "apotheosis:sigil_of_unnaming"
 				type: "item"
 			}]
 			x: 15.25216836734695d
-			y: 0.15382653061224394d
+			y: -0.9461734693877561d
 		}
 		{
 			dependencies: [
@@ -870,7 +870,7 @@
 				type: "item"
 			}]
 			x: 9.531505102040828d
-			y: 0.14043367346938274d
+			y: -0.9595663265306174d
 		}
 		{
 			dependencies: ["2EE837FA34101A85"]
@@ -1092,7 +1092,7 @@
 				type: "item"
 			}]
 			shape: "rsquare"
-			size: 0.8d
+			size: 0.9d
 			tasks: [{
 				id: "36ED847FEC636DC3"
 				item: "apotheosis:filtering_shelf"
@@ -1102,7 +1102,7 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["3B2867F02D680353"]
+			dependencies: ["25E221C0894F9502"]
 			id: "275BE61EDB878E4C"
 			rewards: [{
 				id: "30C01C682CF21D62"
@@ -1110,14 +1110,14 @@
 				type: "item"
 			}]
 			shape: "rsquare"
-			size: 0.8d
+			size: 0.9d
 			tasks: [{
 				id: "765E4C97339AC3EE"
 				item: "apotheosis:rectifier_t2"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 7.0d
+			x: 5.5d
+			y: 3.5d
 		}
 		{
 			id: "1DB5D7E134E67680"
@@ -1181,7 +1181,7 @@
 				type: "item"
 			}]
 			shape: "rsquare"
-			size: 0.8d
+			size: 0.9d
 			tasks: [{
 				id: "605C2AEFAF238286"
 				item: "apotheosis:sightshelf"
@@ -1199,7 +1199,7 @@
 				type: "item"
 			}]
 			shape: "rsquare"
-			size: 0.8d
+			size: 0.9d
 			tasks: [
 				{
 					id: "10D7B87A1390B808"
@@ -1224,7 +1224,7 @@
 				type: "item"
 			}]
 			shape: "rsquare"
-			size: 0.8d
+			size: 0.9d
 			tasks: [{
 				id: "00998FC6220DA3AD"
 				item: "apotheosis:rectifier"
@@ -1242,14 +1242,14 @@
 				type: "item"
 			}]
 			shape: "rsquare"
-			size: 0.8d
+			size: 0.9d
 			tasks: [{
 				id: "4438F04E6B2B802A"
 				item: "apotheosis:rectifier_t3"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 7.0d
+			x: 6.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["006BF79E0D2988C2"]

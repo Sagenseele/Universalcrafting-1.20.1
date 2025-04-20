@@ -31,7 +31,11 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["3B422CEE37326317"]
+			dependencies: [
+				"50935E0C49763564"
+				"1C6DD789E2FBC012"
+			]
+			dependency_requirement: "one_completed"
 			id: "6EB31D4642BBB1FE"
 			rewards: [{
 				id: "237E51C97F5473D8"
@@ -43,11 +47,11 @@
 				item: "botania:runic_altar"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -1.5d
+			x: 8.0d
+			y: -2.5d
 		}
 		{
-			dependencies: ["00E2DD6737806134"]
+			dependencies: ["004FF1B04779FD9C"]
 			id: "3BC7A50130919D3C"
 			rewards: [{
 				id: "70DC83DD5B65F529"
@@ -59,8 +63,8 @@
 				item: "botania:mana_pool"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -2.5d
+			x: 3.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["0AF2FE192BE0715D"]
@@ -79,7 +83,7 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["3BC7A50130919D3C"]
+			dependencies: ["5D5CC70859B8D1FE"]
 			id: "3B422CEE37326317"
 			rewards: [{
 				id: "1719EA307059A911"
@@ -91,7 +95,7 @@
 				item: "botania:mana_spreader"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 3.5d
 			y: -1.0d
 		}
 		{
@@ -107,8 +111,8 @@
 				item: "botania:hydroangeas"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -4.5d
+			x: 0.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["0AF2FE192BE0715D"]
@@ -125,7 +129,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -5.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["0AF2FE192BE0715D"]
@@ -140,8 +144,8 @@
 				item: "botania:kekimurus"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -5.5d
+			x: -1.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["6EB31D4642BBB1FE"]
@@ -151,8 +155,8 @@
 				item: "botania:orechid"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -1.5d
+			x: 9.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["6EB31D4642BBB1FE"]
@@ -162,8 +166,8 @@
 				item: "botania:orechid_ignem"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 0.0d
+			x: 9.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["3451DDFE5F786475"]
@@ -173,8 +177,8 @@
 				item: "botania:terrasteel_ingot"
 				type: "item"
 			}]
-			x: 10.5d
-			y: -3.5d
+			x: 12.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["6EB31D4642BBB1FE"]
@@ -199,8 +203,8 @@
 					type: "item"
 				}
 			]
-			x: 7.5d
-			y: -3.0d
+			x: 9.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["6EB31D4642BBB1FE"]
@@ -222,8 +226,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.5d
-			y: 0.0d
+			x: 7.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["5043FB07729FD645"]
@@ -234,8 +238,8 @@
 				type: "item"
 			}]
 			title: "Elven Gateway to Alfheim"
-			x: 11.0d
-			y: -2.0d
+			x: 13.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["5043FB07729FD645"]
@@ -246,8 +250,8 @@
 				item: { Count: 4, id: "botania:gaia_pylon" }
 				type: "item"
 			}]
-			x: 11.0d
-			y: -5.0d
+			x: 13.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["3CE33113FD05A596"]
@@ -257,8 +261,8 @@
 				item: "botania:elven_spreader"
 				type: "item"
 			}]
-			x: 12.5d
-			y: -2.5d
+			x: 14.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["6A2B0C771BC48118"]
@@ -268,8 +272,8 @@
 				item: "botania:gaia_spreader"
 				type: "item"
 			}]
-			x: 12.5d
-			y: -5.5d
+			x: 14.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["0AF2FE192BE0715D"]
@@ -300,8 +304,63 @@
 				item: "botania:life_essence"
 				type: "item"
 			}]
-			x: 10.5d
-			y: -6.5d
+			x: 12.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["00E2DD6737806134"]
+			id: "004FF1B04779FD9C"
+			tasks: [{
+				id: "00F3281B4FFA6644"
+				item: "botania:livingrock"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["00E2DD6737806134"]
+			id: "5D5CC70859B8D1FE"
+			tasks: [{
+				id: "56C18291FE699E98"
+				item: "botania:livingwood_log"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3BC7A50130919D3C"]
+			id: "7114F8128D1C6776"
+			tasks: [{
+				id: "38A99168A12BB945"
+				item: "botania:manasteel_ingot"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3BC7A50130919D3C"]
+			id: "1C6DD789E2FBC012"
+			tasks: [{
+				id: "7A080007ADBD8093"
+				item: "botania:mana_pearl"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3BC7A50130919D3C"]
+			id: "50935E0C49763564"
+			tasks: [{
+				id: "09E2711E151A7D2A"
+				item: "botania:mana_diamond"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
 		}
 	]
 	title: "Botania"

@@ -136,25 +136,17 @@
 		}
 		{
 			dependencies: ["06581950221710F7"]
-			icon: "bhc:heart_amulet"
 			id: "67E45A1B7C971527"
 			invisible: true
-			rewards: [
-				{
-					id: "196337B74374DFB5"
-					item: "bhc:heart_amulet"
-					type: "item"
-				}
-				{
-					id: "42F835BBE330E36F"
-					item: "kubejs:universal_badge"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "42F835BBE330E36F"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			size: 1.25d
 			tasks: [{
-				id: "5DDCEB752EA2AC50"
-				item: "bhc:red_heart"
+				id: "117AC7FF61D3E3C0"
+				item: "bhc:heart_amulet"
 				type: "item"
 			}]
 			title: "Heart Amulet"
