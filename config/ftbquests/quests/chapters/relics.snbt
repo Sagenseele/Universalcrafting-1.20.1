@@ -1100,6 +1100,43 @@
 			x: 0.0d
 			y: 5.5d
 		}
+		{
+			icon_scale: 0.8d
+			id: "193F579DEFC281EF"
+			invisible: true
+			rewards: [{
+				id: "6AAA1EA8779D10A6"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			size: 1.25d
+			tasks: [{
+				id: "6913CF3719D924DE"
+				item: {
+					Count: 1
+					id: "artifacts:plastic_drinking_hat"
+					tag: {
+						abilities: {
+							drinking: {
+								points: 0
+								stats: {
+									speed: 0.34318d
+								}
+							}
+							nutrition: {
+								points: 0
+								stats: {
+									hunger: 2.15901d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: -0.5d
+		}
 	]
 	title: "Relics \\& Artifacts"
 }
