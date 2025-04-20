@@ -125,4 +125,5 @@ StartupEvents.registry('item', event => {
     event.create('mob_simulation_data').texture('kubejs:item/mob_simulation_data')
     event.create('inert_infinity_token').texture('kubejs:item/inert_infinity_token')
     event.create('infinity_token').texture('kubejs:item/infinity_token')
+    event.create('relic_xp_tablet').texture('kubejs:item/relic_xp_tablet')
 })

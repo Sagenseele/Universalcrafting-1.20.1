@@ -3,7 +3,40 @@ ServerEvents.recipes(event => {
   const raw_materials = ['#forge:raw_materials/tin', '#forge:raw_materials/silver', '#forge:raw_materials/copper', '#forge:raw_materials/nickel', '#forge:raw_materials/osmium', '#forge:raw_materials/lead', '#forge:raw_materials/uranium', '#forge:raw_materials/gold','#forge:raw_materials/iron', 'kubejs:raw_catericite', 'kubejs:raw_darthium', 'kubejs:raw_milothium', 'kubejs:raw_ecolinit']
   const dusts = ['thermal:tin_dust', 'thermal:silver_dust', 'thermal:copper_dust', 'thermal:nickel_dust', 'mekanism:dust_osmium', 'thermal:lead_dust', 'immersiveengineering:dust_uranium', 'thermal:gold_dust', 'thermal:iron_dust', 'thermal:tin_dust', 'immersiveengineering:dust_aluminum', 'thermal:nickel_dust', 'mekanism:dust_osmium']
 
-  raw_materials.forEach((raw, index) => 
+  
+  function level_up() {
+    [''].forEach(item => {
+      event.shapeless(
+        item,
+        [
+          Item.of(item),
+          'kubejs:relic_xp_tablet'
+        ]).modifyResult((grid, result) => {
+          let item = grid.find(item)
+          let nbt_data = item.getNbt()
+          if (nbt_data['leveling'] === undefined) { nbt_data['leveling'] = { experience: 0, level: 0, points: 0 } }
+          if (nbt_data.leveling['level'] === undefined) { nbt_data['leveling']['level'] = 0; nbt_data['leveling']['points'] = 0 }
+          if (nbt_data.leveling.level < 10) {
+            nbt_data.leveling.level = nbt_data.leveling.level + 1
+          }
+          return result.withNBT(nbt_data)
+        })
+    })
+  }
+  level_up('artifacts:plastic_drinking_hat')
+  //event.shapeless('kubejs:relic_xp_tablet', [
+  //  'kubejs:relic_xp_tablet',
+  //  { "tag": 'immersiveengineering:tools/hammers' }
+  //]).modifyResult((grid, result) => {
+  //  // Find the slag item in the grid
+  //  let item = grid.find('kubejs:relic_xp_tablet');
+  //  let damage = item.getNbt().getInt('Damage');
+  //  let newDamage = damage - 10;  // Cap at 0%
+  //  if (newDamage <= 0) return 'minecraft:iron_ingot'
+  //  return result.withNBT({ Damage: newDamage });
+  //}).damageIngredient(Item.of({ "tag": 'immersiveengineering:tools/hammers' }).ignoreNBT());
+
+  raw_materials.forEach((raw, index) =>
     manualCrushing(dusts[index], raw)
   )
 
