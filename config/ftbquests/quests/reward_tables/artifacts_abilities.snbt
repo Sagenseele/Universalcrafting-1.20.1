@@ -1,0 +1,152 @@
+{
+	id: "6E2AAFC395BF06CC"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "artifacts:plastic_drinking_hat"
+				tag: {
+					abilities: {
+						drinking: {
+							points: 0
+							stats: {
+								speed: 0.30814d
+							}
+						}
+						nutrition: {
+							points: 0
+							stats: {
+								hunger: 2.79485d
+							}
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:novelty_drinking_hat"
+				tag: {
+					abilities: {
+						drinking: {
+							points: 0
+							stats: {
+								speed: 0.3327d
+							}
+						}
+						nutrition: {
+							points: 0
+							stats: {
+								hunger: 1.77098d
+							}
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:villager_hat"
+				tag: {
+					abilities: {
+						discount: {
+							points: 0
+							stats: {
+								multiplier: 19.68587d
+							}
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:snorkel"
+				tag: {
+					abilities: {
+						diving: {
+							points: 0
+							stats: {
+								duration: 7.47718d
+							}
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:superstitious_hat"
+				tag: {
+					abilities: {
+						looting: {
+							points: 0
+							stats: {
+								chance: 0.16243d
+							}
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:anglers_hat"
+				tag: {
+					abilities: {
+						catch: {
+							points: 0
+							stats: {
+								chance: 0.13397d
+							}
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:lucky_scarf"
+				tag: {
+					abilities: {
+						luck: {
+							points: 0
+							stats: {
+								chance: 0.15231d
+							}
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:scarf_of_invisibility"
+				tag: {
+					abilities: {
+						invisible: {
+							points: 0
+							stats: {
+								radius: 3.71019d
+								threshold: 0.07104d
+							}
+							temp: {
+								ticking: 1b
+							}
+						}
+					}
+				}
+			}
+		}
+	]
+	title: "Artifacts Abilities"
+}

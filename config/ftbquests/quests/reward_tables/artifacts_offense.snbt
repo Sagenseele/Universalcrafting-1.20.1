@@ -1,0 +1,14 @@
+{
+	id: "3D3E53A34294F5F3"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{ item: "artifacts:flame_pendant" }
+		{ item: "artifacts:feral_claws" }
+		{ item: "artifacts:fire_gauntlet" }
+		{ item: "artifacts:power_glove" }
+		{ item: "artifacts:pocket_piston" }
+		{ item: "artifacts:vampiric_glove" }
+	]
+	title: "Artifacts Offense"
+}

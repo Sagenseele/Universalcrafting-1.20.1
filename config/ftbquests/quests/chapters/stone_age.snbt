@@ -254,8 +254,8 @@
 			id: "3CF4FA8961C6D743"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "582AA873A9EC58EF"
-				table_id: 2636020884739909304L
+				id: "53B91C1D4D1C84B1"
+				table_id: 7938350547759728332L
 				type: "choice"
 			}]
 			shape: "rsquare"

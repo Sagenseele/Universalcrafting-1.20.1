@@ -1,0 +1,19 @@
+{
+	id: "3177C75079D91ACF"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{ item: "artifacts:umbrella" }
+		{ item: "artifacts:panic_necklace" }
+		{ item: "artifacts:charm_of_sinking" }
+		{ item: "artifacts:cloud_in_a_bottle" }
+		{ item: "artifacts:helium_flamingo" }
+		{ item: "artifacts:aqua_dashers" }
+		{ item: "artifacts:bunny_hoppers" }
+		{ item: "artifacts:kitty_slippers" }
+		{ item: "artifacts:snowshoes" }
+		{ item: "artifacts:running_shoes" }
+		{ item: "artifacts:flippers" }
+	]
+	title: "Artifacts Mobility"
+}

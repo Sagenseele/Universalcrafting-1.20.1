@@ -1,0 +1,23 @@
+{
+	id: "4E7A359574CA38B8"
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{ item: "artifacts:universal_attractor" }
+		{ item: "artifacts:digging_claws" }
+		{ item: "artifacts:everlasting_beef" }
+		{ item: "artifacts:golden_hook" }
+		{ item: "artifacts:onion_ring" }
+		{ item: "artifacts:pickaxe_heater" }
+		{ item: "artifacts:night_vision_goggles" }
+		{ item: "artifacts:rooted_boots" }
+		{ item: "artifacts:whoopee_cushion" }
+		{ item: "apotheosisartifacts:apotheosis_artifact" }
+		{ item: "artifactsdelight:enhanced_bone_meal" }
+		{ item: "artifactsdelight:infinity_knife" }
+		{ item: "createartifactscompat:infinity_super_glue" }
+		{ item: "createartifactscompat:taste_alloy_metal" }
+		{ item: "createartifactscompat:super_experience_nugget" }
+	]
+	title: "Artifacts Utility"
+}

@@ -1,0 +1,17 @@
+{
+	id: "0DED548ABB1EF313"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{ item: "artifacts:shock_pendant" }
+		{ item: "artifacts:thorn_pendant" }
+		{ item: "artifacts:obsidian_skull" }
+		{ item: "artifacts:cross_necklace" }
+		{ item: "artifacts:antidote_vessel" }
+		{ item: "artifacts:crystal_heart" }
+		{ item: "artifacts:chorus_totem" }
+		{ item: "artifacts:steadfast_spikes" }
+		{ item: "artifactsdelight:eternal_golden_apple" }
+	]
+	title: "Artifacts Resistance"
+}
