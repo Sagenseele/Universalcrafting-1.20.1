@@ -1,9 +1,9 @@
 ServerEvents.recipes(event => {
 
-  const raw_materials = ['#forge:raw_materials/tin', '#forge:raw_materials/silver', '#forge:raw_materials/copper', '#forge:raw_materials/nickel', '#forge:raw_materials/osmium', '#forge:raw_materials/lead', '#forge:raw_materials/uranium', '#forge:raw_materials/gold','#forge:raw_materials/iron', 'kubejs:raw_catericite', 'kubejs:raw_darthium', 'kubejs:raw_milothium', 'kubejs:raw_ecolinit']
+  const raw_materials = ['#forge:raw_materials/tin', '#forge:raw_materials/silver', '#forge:raw_materials/copper', '#forge:raw_materials/nickel', '#forge:raw_materials/osmium', '#forge:raw_materials/lead', '#forge:raw_materials/uranium', '#forge:raw_materials/gold', '#forge:raw_materials/iron', 'kubejs:raw_catericite', 'kubejs:raw_darthium', 'kubejs:raw_milothium', 'kubejs:raw_ecolinit']
   const dusts = ['thermal:tin_dust', 'thermal:silver_dust', 'thermal:copper_dust', 'thermal:nickel_dust', 'mekanism:dust_osmium', 'thermal:lead_dust', 'immersiveengineering:dust_uranium', 'thermal:gold_dust', 'thermal:iron_dust', 'thermal:tin_dust', 'immersiveengineering:dust_aluminum', 'thermal:nickel_dust', 'mekanism:dust_osmium']
 
-  
+
   function level_up_10() {
     ['artifacts:snorkel',
       'artifacts:villager_hat',
@@ -11,36 +11,25 @@ ServerEvents.recipes(event => {
       'artifacts:anglers_hat',
       'artifacts:lucky_scarf',
       'artifacts:scarf_of_invisibility'].forEach(relic => {
-      event.shapeless(
-        Item.of(relic),
-        [
+        event.shapeless(
           Item.of(relic),
-          'kubejs:relic_xp_tablet'
-        ]).modifyResult((grid, result) => {
-          let item = grid.find(relic)
-          let nbt_data = item.getNbt()
-          if (nbt_data['leveling'] === undefined) { nbt_data['leveling'] = { experience: 0, level: 0, points: 0 } }
-          if (nbt_data.leveling['level'] === undefined) { nbt_data['leveling']['level'] = 0; nbt_data['leveling']['points'] = 0 }
-          if (nbt_data.leveling.level < 10) {
-            nbt_data.leveling.level = nbt_data.leveling.level + 1
-            nbt_data.leveling.points = nbt_data.leveling.points + 1
-          }
-          return result.withNBT(nbt_data)
-        })
-    })
+          [
+            Item.of(relic),
+            'kubejs:relic_xp_tablet'
+          ]).modifyResult((grid, result) => {
+            let item = grid.find(relic)
+            let nbt_data = item.getNbt()
+            if (nbt_data['leveling'] === undefined) { nbt_data['leveling'] = { experience: 0, level: 0, points: 0 } }
+            if (nbt_data.leveling['level'] === undefined) { nbt_data['leveling']['level'] = 0; nbt_data['leveling']['points'] = 0 }
+            if (nbt_data.leveling.level < 10) {
+              nbt_data.leveling.level = nbt_data.leveling.level + 1
+              nbt_data.leveling.points = nbt_data.leveling.points + 1
+            }
+            return result.withNBT(nbt_data)
+          })
+      })
   }
   level_up_10()
-  //event.shapeless('kubejs:relic_xp_tablet', [
-  //  'kubejs:relic_xp_tablet',
-  //  { "tag": 'immersiveengineering:tools/hammers' }
-  //]).modifyResult((grid, result) => {
-  //  // Find the slag item in the grid
-  //  let item = grid.find('kubejs:relic_xp_tablet');
-  //  let damage = item.getNbt().getInt('Damage');
-  //  let newDamage = damage - 10;  // Cap at 0%
-  //  if (newDamage <= 0) return 'minecraft:iron_ingot'
-  //  return result.withNBT({ Damage: newDamage });
-  //}).damageIngredient(Item.of({ "tag": 'immersiveengineering:tools/hammers' }).ignoreNBT());
 
   raw_materials.forEach((raw, index) =>
     manualCrushing(dusts[index], raw)
@@ -67,7 +56,7 @@ ServerEvents.recipes(event => {
       ]
     ).damageIngredient(0).keepIngredient('kubejs:crushing_hammer')
   }
-  
+
   function kubejs_crushing(name) {
     var crushed = 'kubejs:crushed_' + name
     var raw = 'kubejs:raw_' + name
@@ -114,190 +103,167 @@ ServerEvents.recipes(event => {
   }
 
   function default_pulverizer(result, energy, input1) {
-    
-  }
 
-  manualCrushing('thermal:iron_dust', 'minecraft:raw_iron')
-  
+  }
 
   //advanced Material Data Card
   event.shaped(
-      Item.of('kubejs:advanced_material_data_card', 1),
-      [
-        '   ',
-        '   ',
-        ' A '
-      ],
-      {
-        A: 'kubejs:material_testing_kit'
-      }
+    Item.of('kubejs:advanced_material_data_card', 1),
+    [
+      '   ',
+      '   ',
+      ' A '
+    ],
+    {
+      A: 'kubejs:material_testing_kit'
+    }
   )
 
   //Culinary Material Data Card
   event.shaped(
-      Item.of('kubejs:culinary_data_card', 1),
-      [
-        '   ',
-        '   ',
-        ' A '
-      ],
-      {
-        A: 'kubejs:advanced_material_data_card'
-      }
+    Item.of('kubejs:culinary_data_card', 1),
+    [
+      '   ',
+      '   ',
+      ' A '
+    ],
+    {
+      A: 'kubejs:advanced_material_data_card'
+    }
   )
 
   //gem Data Card
   event.shaped(
-      Item.of('kubejs:gem_data_card', 1),
-      [
-        '   ',
-        '   ',
-        ' A '
-      ],
-      {
-        A: 'kubejs:advanced_material_data_card'
-      }
+    Item.of('kubejs:gem_data_card', 1),
+    [
+      '   ',
+      '   ',
+      ' A '
+    ],
+    {
+      A: 'kubejs:advanced_material_data_card'
+    }
   )
 
-  //bloody Data Card
+  //Bloody Data Card
   event.shaped(
-      Item.of('kubejs:bloody_data_card', 1),
-      [
-        '   ',
-        '   ',
-        ' A '
-      ],
-      {
-        A: 'kubejs:advanced_material_data_card'
-      }
+    Item.of('kubejs:bloody_data_card', 1),
+    [
+      '   ',
+      '   ',
+      ' A '
+    ],
+    {
+      A: 'kubejs:advanced_material_data_card'
+    }
   )
 
   //Twilight Data Card
   event.shaped(
-      Item.of('kubejs:twilight_data_card', 1),
-      [
-        '   ',
-        '   ',
-        ' A '
-      ],
-      {
-        A: 'kubejs:gem_data_card'
-      }
+    Item.of('kubejs:twilight_data_card', 1),
+    [
+      '   ',
+      '   ',
+      ' A '
+    ],
+    {
+      A: 'kubejs:gem_data_card'
+    }
   )
 
   //Compressed Data Card
   event.shaped(
-      Item.of('kubejs:compressed_data_card', 1),
-      [
-        '   ',
-        '   ',
-        ' A '
-      ],
-      {
-        A: 'kubejs:advanced_material_data_card'
-      }
+    Item.of('kubejs:compressed_data_card', 1),
+    [
+      '   ',
+      '   ',
+      ' A '
+    ],
+    {
+      A: 'kubejs:advanced_material_data_card'
+    }
   )
-    
+
   //Electricity Data Card
   event.shaped(
-      Item.of('kubejs:electricity_data_card', 1),
-      [
-        '   ',
-        '   ',
-        ' A '
-      ],
-      {
-        A: 'kubejs:advanced_material_data_card'
-      }
+    Item.of('kubejs:electricity_data_card', 1),
+    [
+      '   ',
+      '   ',
+      ' A '
+    ],
+    {
+      A: 'kubejs:advanced_material_data_card'
+    }
   )
 
   //nuclear Data Card
   event.shaped(
-      Item.of('kubejs:nuclear_data_card', 1),
-      [
-        '   ',
-        '   ',
-        ' A '
-      ],
-      {
-        A: 'kubejs:electricity_data_card'
-      }
+    Item.of('kubejs:nuclear_data_card', 1),
+    [
+      '   ',
+      '   ',
+      ' A '
+    ],
+    {
+      A: 'kubejs:electricity_data_card'
+    }
   )
 
   //astral Data Card
   event.shaped(
-      Item.of('kubejs:astral_data_card', 1),
-      [
-        '   ',
-        '   ',
-        ' A '
-      ],
-      {
-        A: 'kubejs:electricity_data_card'
-      }
+    Item.of('kubejs:astral_data_card', 1),
+    [
+      '   ',
+      '   ',
+      ' A '
+    ],
+    {
+      A: 'kubejs:electricity_data_card'
+    }
   )
 
   //storage Data Card
   event.shaped(
-      Item.of('kubejs:storage_data_card', 1),
-      [
-        '   ',
-        '   ',
-        ' A '
-      ],
-      {
-        A: 'kubejs:advanced_material_data_card'
-      }
+    Item.of('kubejs:storage_data_card', 1),
+    [
+      '   ',
+      '   ',
+      ' A '
+    ],
+    {
+      A: 'kubejs:advanced_material_data_card'
+    }
   )
 
   // Overgrown Wood Log
   event.shaped(
-      Item.of('kubejs:overgrown_wood_log', 1),
-      [
-        'BBB',
-        'BAB',
-        'BBB'
-      ],
-      {
-        A: 'mysticalagriculture:dirt_essence',
-        B: '#minecraft:logs'
-      }
-  )
-
-  // Blood Altar
-  event.replaceInput(
-    { output: 'bloodmagic:altar' },
-    'minecraft:gold_ingot',
-    'minecraft:andesite'
-  )
-
-  // Sacrificial Knife
-  event.remove({ id: 'bloodmagic:sacrificial_dagger'})
-  event.shaped(
-    Item.of('bloodmagic:sacrificialdagger', 1),
+    Item.of('kubejs:overgrown_wood_log', 1),
     [
-      'A B',
-      'AB ',
-      'AAA'
+      'BBB',
+      'BAB',
+      'BBB'
     ],
     {
-      A: 'minecraft:polished_granite',
-      B: 'mysticalagriculture:nether_quartz_essence'
+      A: 'mysticalagriculture:dirt_essence',
+      B: '#minecraft:logs'
     }
   )
-  
-  // raw Iron
-  event.recipes.bloodmagic.altar('minecraft:raw_iron', 'kubejs:wood_splinter').upgradeLevel(0).altarSyphon(400).consumptionRate(40).drainRate(40)
-  
+
+
+
+
+
+
   // Water Wheel
   event.replaceInput(
     { output: 'create:water_wheel' },
     'create:shaft',
     'create:andesite_casing'
   )
-  
+
   // Crushing Wheel
-  event.remove({ id: 'create:mechanical_crafting/crushing_wheel'})
+  event.remove({ id: 'create:mechanical_crafting/crushing_wheel' })
   event.shaped(
     Item.of('create:crushing_wheel', 1),
     [
@@ -311,18 +277,18 @@ ServerEvents.recipes(event => {
       C: 'create:andesite_casing'
     }
   )
-  
+
   // Lapis Dust
-  event.remove({ id: 'create:milling/lapis_lazuli'})
+  event.remove({ id: 'create:milling/lapis_lazuli' })
   event.recipes.create.milling('thermal:lapis_dust', 'minecraft:lapis_lazuli')
-  
+
   // Coke Bricks
   event.replaceInput(
     { output: 'immersiveengineering:cokebrick' },
     'minecraft:clay_ball',
     'kubejs:blueish_plate'
   )
-  
+
   // Blast Bricks
   event.replaceInput(
     { output: 'immersiveengineering:blastbrick' },
@@ -334,7 +300,7 @@ ServerEvents.recipes(event => {
     'minecraft:nether_brick',
     '#forge:plates/copper'
   )
-  
+
   // Conveyor Belt alternative
   event.shaped(
     Item.of('immersiveengineering:conveyor_basic', 6),
@@ -354,11 +320,11 @@ ServerEvents.recipes(event => {
   event.custom({
     type: 'create:splashing',
     ingredients: [
-        { item: 'minecraft:flint' }
+      { item: 'minecraft:flint' }
     ],
     results: [
-        { item: 'minecraft:iron_nugget', chance: 0.6 },
-        { item: 'minecraft:lapis_lazuli', chance: 0.4 } 
+      { item: 'minecraft:iron_nugget', chance: 0.6 },
+      { item: 'minecraft:lapis_lazuli', chance: 0.4 }
     ],
     id: 'custom:splashing/flint'
   });
@@ -441,14 +407,14 @@ ServerEvents.recipes(event => {
   event.shaped(
     Item.of('mbd2:kinetic_crusher_block', 1),
     [
-      'ABA',
       'BCB',
-      'ABA'
+      'CAC',
+      'BCB'
     ],
     {
-      A: 'create:andesite_alloy',
+      A: 'create:crushing_wheel',
       B: '#minecraft:planks',
-      C: 'create:andesite_casing'
+      C: '#forge:plates/iron'
     }
   )
   event.shaped(
@@ -461,7 +427,7 @@ ServerEvents.recipes(event => {
     {
       A: 'kubejs:blueish_plate',
       B: '#forge:chests'
-      
+
     }
   )
   event.shaped(
@@ -537,7 +503,7 @@ ServerEvents.recipes(event => {
     {
       A: 'kubejs:yellow_plate',
       B: 'minecraft:chest'
-      
+
     }
   )
   event.shaped(
@@ -602,7 +568,7 @@ ServerEvents.recipes(event => {
       B: 'kubejs:turquoise_plate'
     }
   )
-  
+
 
   // motorized frame
 
@@ -649,30 +615,31 @@ ServerEvents.recipes(event => {
   event.replaceInput(
     { output: 'create:brass_funnel' },
     ['create:brass_ingot',
-    'create:electron_tube'],
-    'create:andesite_alloy'
-  )
-  
-  event.replaceInput(
-    { output: 'create:brass_tunnel' },
-    ['create:brass_ingot',
-    'create:electron_tube'],
+      'create:electron_tube'],
     'create:andesite_alloy'
   )
 
-  
+  event.replaceInput(
+    { output: 'create:brass_tunnel' },
+    ['create:brass_ingot',
+      'create:electron_tube'],
+    'create:andesite_alloy'
+  )
+
+
   // Cobblestone Generator
   event.shaped(
     Item.of('mbd2:cobblestone_generator_tier1', 1),
     [
       'CCC',
-      'ACB',
+      'ADB',
       'CCC'
     ],
     {
       A: 'minecraft:lava_bucket',
       B: 'minecraft:water_bucket',
-      C: 'minecraft:cobblestone'
+      C: 'minecraft:cobblestone',
+      D: 'create:andesite_casing'
     }
   )
 
@@ -706,21 +673,21 @@ ServerEvents.recipes(event => {
 
   // Redstone Engineering Block
   event.replaceInput(
-    { output: 'immersiveengineering:rs_engineering'},
+    { output: 'immersiveengineering:rs_engineering' },
     'minecraft:redstone',
     'thermal:rf_coil'
   )
 
   // Light Engineering Block
   event.replaceInput(
-    { output: 'immersiveengineering:light_engineering'},
+    { output: 'immersiveengineering:light_engineering' },
     'minecraft:copper_ingot',
     'thermal:machine_frame'
   )
 
   // Heavy Engineering Block
   event.replaceInput(
-    { output: 'immersiveengineering:heavy_engineering'},
+    { output: 'immersiveengineering:heavy_engineering' },
     'thermal:electrum_ingot',
     'mekanism:steel_casing'
   )
@@ -731,14 +698,14 @@ ServerEvents.recipes(event => {
     '#bookshelf:slime_balls',
     'pneumaticcraft:plastic'
   )
-  
+
   // apotheosis:reforging_table
   event.replaceInput(
     { output: 'apotheosis:reforging_table' },
     'minecraft:netherite_ingot',
     'twilightforest:fiery_block'
   )
-  
+
   // charger
   event.replaceInput(
     { output: 'ae2:charger' },
@@ -773,20 +740,17 @@ ServerEvents.recipes(event => {
   event.shaped(
     Item.of('mbd2:assembler', 1),
     [
-      'DGE',
-      'FAF',
+      ' D ',
+      'BAB',
       'CBC'
     ],
     {
-      A: 'mekanism:steel_casing',
+      A: 'immersiveengineering:heavy_engineering',
       B: 'kubejs:turquoise_plate',
       C: '#forge:sheetmetals/aluminum',
-      D: 'immersiveengineering:slab_sheetmetal_nickel',
-      E: 'pneumaticcraft:lubricant_bucket',
-      F: 'immersiveengineering:component_steel',
-      G: 'immersiveengineering:component_electronic_adv'
+      D: 'immersiveengineering:component_electronic_adv'
     }
-  ).replaceIngredient('pneumaticcraft:lubricant_bucket', 'minecraft:bucket') 
+  ).replaceIngredient('pneumaticcraft:lubricant_bucket', 'minecraft:bucket')
 
   // Crystal Chamber
   event.shaped(
@@ -805,43 +769,39 @@ ServerEvents.recipes(event => {
     }
   )
 
-  // Flawless Budding Certus Quartz
-  event.recipes.bloodmagic.altar('ae2:flawless_budding_quartz', 'ae2:flawed_budding_quartz').upgradeLevel(2).altarSyphon(10000).consumptionRate(500).drainRate(500)
 
   // Grains of Infinity
-  event.recipes.thermal.centrifuge([Item.of('minecraft:stone'), Item.of('enderio:grains_of_infinity').withChance(0.05)], 'minecraft:deepslate')
-
-  // Amethyst
-  event.recipes.bloodmagic.altar('minecraft:budding_amethyst', 'minecraft:amethyst_block').upgradeLevel(2).altarSyphon(10000).consumptionRate(500).drainRate(500)
+  event.recipes.thermal.centrifuge([Item.of('minecraft:stone'), Item.of('enderio:grains_of_infinity').withChance(0.1)], 'minecraft:deepslate')
+  // Amethyst shard
   event.recipes.smelting('minecraft:amethyst_shard', 'apotheosis:rare_material')
-  
+
   // Milothium
   event.recipes.smelting('thermal:nickel_ingot', 'kubejs:raw_milothium')
   kubejs_crushing('milothium')
-  
+
   // Darthium
   event.recipes.smelting('immersiveengineering:ingot_aluminum', 'kubejs:raw_darthium')
   kubejs_crushing('darthium')
-    
+
   // Catericite
   event.recipes.smelting('thermal:tin_ingot', 'kubejs:raw_catericite')
   kubejs_crushing('catericite')
-    
+
   // Ecolinit
   event.recipes.smelting('mekanism:ingot_osmium', 'kubejs:raw_ecolinit')
   kubejs_crushing('ecolinit')
 
   // Plastic
   event.recipes.thermal.refinery([Fluid.of('pneumaticcraft:plastic', 1000)], Fluid.of('thermal:refined_fuel', 1000))
-  event.recipes.thermal.chiller('pneumaticcraft:plastic', [Fluid.of('pneumaticcraft:plastic', 250)])
-  
+  event.recipes.thermal.chiller('pneumaticcraft:plastic', [Fluid.of('pneumaticcraft:plastic', 200)])
+
   // Lubricant
   event.recipes.thermal.refinery([Fluid.of('pneumaticcraft:lubricant', 1000)], Fluid.of('immersiveengineering:biodiesel', 1000))
 
-  //Mekanism Control Circuits
+  //Mekanism
   // Advanced
-  event.remove({ id: 'mekanism:control_circuit/advanced'})
-  
+  event.remove({ id: 'mekanism:control_circuit/advanced' })
+
   event.shaped(
     Item.of('mekanism:advanced_control_circuit', 1),
     [
@@ -854,8 +814,15 @@ ServerEvents.recipes(event => {
   )
 
   // Elite
-  event.remove( {id: 'mekanism:control_circuit/elite'} )
-	event.recipes.powah.energizing(['mekanism:advanced_control_circuit','powah_niotic_crystal_block'], 'mekanism:elite_control_circuit', 50000)
+  event.remove({ id: 'mekanism:control_circuit/elite' })
+  event.recipes.powah.energizing(['mekanism:advanced_control_circuit', 'powah_niotic_crystal_block'], 'mekanism:elite_control_circuit', 50000)
+
+  // Mekanism Advanced Tier Installer
+  event.replaceInput(
+    { output: 'mekanism:advanced_tier_installer' },
+    '#minecraft:planks',
+    'kubejs:electrical_machine_casing'
+  )
   //Ad_Astra
   // Fuel Refinery
   event.replaceInput(
@@ -948,7 +915,7 @@ ServerEvents.recipes(event => {
 
   //ProjectE
   //Philosopher's Stone
-  event.remove({ id: 'projecte:philosophers_stone_alt'})
+  event.remove({ id: 'projecte:philosophers_stone_alt' })
   event.replaceInput(
     { output: 'projecte:philosophers_stone' },
     'minecraft:diamond',
@@ -979,50 +946,27 @@ ServerEvents.recipes(event => {
     'minecraft:charcoal',
     'forbidden_arcanus:aurum_log'
   )
-  //Misc
-  //  let recipes=[]
-  //event.forEachRecipe({},r=>{
-  // console.log("recipe",r.json.toString())
-  //recipes.push(JSON.parse(r.json.toString()))
-  //})
-  //let recipe=JSON.stringify(recipes)
-  //console.log(recipe)
 
-  event.custom({
-    type: "botania:petal_apothecary",
-    ingredients: [
-      { tag: "forge:dusts/gold" },
-      { tag: "forge:dusts/gold" },
-      { tag: "forge:dusts/gold" },
-      { tag: "forge:dusts/gold" },
-      { item: "minecraft:golden_apple" }
-    ], 
-    output: { item: "forbidden_arcanus:aurum_sapling" }, 
-    reagent: { tag: "minecraft:saplings" }
+  // Gateways
+
+    
+   
+
+  //Misc
+    let recipes=[]
+  event.forEachRecipe({},r=>{
+   console.log("recipe",r.json.toString())
+  recipes.push(JSON.parse(r.json.toString()))
   })
-  event.custom({
-    type: "botania:elven_trade",
-    ingredients: [{ item: "apotheosis:seashelf" }],
-    output: [{ item: "apotheosis:infused_seashelf" }]
-  })
-  // Repair Talisman
-  event.remove( { id: 'projecte:repair_talisman'} )
-  event.remove( { id: 'projecte:repair_talisman_alt'} )
-  event.custom({
-    type: "botania:runic_altar",
-    ingredients: [
-      { tag: "forge:storage_blocks/steeleaf" },
-      { item: "twilightforest:naga_scale" },
-      { item: "twilightforest:naga_scale" },
-      { item: "bloodmagic:reagentgrowth" }
-    ],
-    mana: 40000.0,
-    output: { count: 1.0, item: "projecte:repair_talisman" }
-  })
+  let recipe=JSON.stringify(recipes)
+  console.log(recipe)
+
+  // Cardboard
+  event.recipes.thermal.press('create:cardboard', 'create:pulp')
 
   default_3alloys('create:blaze_cake_base', 5000, '#forge:eggs', 'minecraft:sugar', 'create:cinder_flour')
   default_2alloys('kubejs:heat_resistant_glass', 5000, '#forge:glass', '#forge:ingots/gold')
-  
+
   // Simulation Chamber
   event.replaceInput(
     { output: 'hostilenetworks:sim_chamber' },
@@ -1036,11 +980,18 @@ ServerEvents.recipes(event => {
     'minecraft:diamond',
     'ad_astra:desh_ingot'
   )
-
+  
+  // Prediction Matrix
+  event.replaceInput(
+    { output: 'hostilenetworks:prediction_matrix' },
+    'minecraft:clay_ball',
+    'ad_astra:calorite_nugget'
+  )
+  // Flint
   event.shapeless(
     Item.of('minecraft:flint', 1),
-      [
-        '3x minecraft:gravel'
-      ]
+    [
+      '3x minecraft:gravel'
+    ]
   )
 })

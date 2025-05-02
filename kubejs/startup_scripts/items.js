@@ -66,6 +66,9 @@ StartupEvents.registry('item', event => {
 
     }
 
+    event.create('simple_matter_extraction_device')
+    event.create('simple_gateway_core')
+
     event.create('crushing_hammer').tooltip('Crush ores into dust.').maxDamage(64).texture('kubejs:item/crushing_hammer')
     
     standard_material('blue')
