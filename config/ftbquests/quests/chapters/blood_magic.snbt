@@ -8,123 +8,52 @@
 	id: "08E37D7FA1E4B27B"
 	images: [
 		{
-			height: 3.0d
-			image: "bloodmagic:textures/misc/screenshots/altars/t2.png"
-			rotation: 0.0d
-			width: 3.0d
-			x: 8.0d
-			y: -4.0d
-		}
-		{
-			height: 3.0d
-			image: "bloodmagic:textures/misc/screenshots/altars/t3.png"
-			rotation: 0.0d
-			width: 3.0d
-			x: 12.0d
-			y: -2.5d
-		}
-		{
-			height: 3.0d
-			image: "bloodmagic:textures/misc/screenshots/altars/t4.png"
-			rotation: 0.0d
-			width: 3.0d
-			x: 12.0d
-			y: 3.0d
-		}
-		{
-			height: 3.0d
-			image: "bloodmagic:textures/misc/screenshots/altars/t5.png"
-			rotation: 0.0d
-			width: 3.0d
-			x: 8.0d
-			y: 4.5d
-		}
-		{
-			height: 3.0d
-			image: "bloodmagic:textures/misc/screenshots/altars/t1.png"
-			rotation: 0.0d
-			width: 3.0d
-			x: 4.0d
-			y: -2.5d
-		}
-		{
 			height: 2.0d
 			image: "kubejs:item/images/bm_i"
 			rotation: 0.0d
 			width: 2.0d
 			x: 4.0d
-			y: -5.0d
+			y: 1.5d
 		}
 		{
 			height: 2.0d
 			image: "kubejs:item/images/bm_ii"
 			rotation: 0.0d
 			width: 2.0d
-			x: 8.0d
-			y: -6.5d
+			x: 7.0d
+			y: 1.5d
 		}
 		{
 			height: 2.0d
 			image: "kubejs:item/images/bm_iii"
 			rotation: 0.0d
 			width: 2.0d
-			x: 12.0d
-			y: -5.0d
+			x: 10.0d
+			y: 1.5d
 		}
 		{
 			height: 2.0d
 			image: "kubejs:item/images/bm_iv"
 			rotation: 0.0d
 			width: 2.0d
-			x: 12.0d
-			y: 5.5d
+			x: 13.5d
+			y: 1.5d
 		}
 		{
 			height: 2.0d
 			image: "kubejs:item/images/bm_v"
 			rotation: 0.0d
 			width: 2.0d
-			x: 8.0d
-			y: 7.0d
+			x: 17.0d
+			y: 1.5d
 		}
 		{
-			height: 4.0d
-			image: "kubejs:item/images/bm_border"
+			click: "#149FA53631B4E30C"
+			height: 1.0d
+			image: "kubejs:item/infinity_token"
 			rotation: 0.0d
-			width: 4.0d
-			x: 8.0d
-			y: 4.5d
-		}
-		{
-			height: 4.0d
-			image: "kubejs:item/images/bm_border"
-			rotation: 0.0d
-			width: 4.0d
-			x: 12.0d
-			y: 3.0d
-		}
-		{
-			height: 4.0d
-			image: "kubejs:item/images/bm_border"
-			rotation: 0.0d
-			width: 4.0d
-			x: 4.0d
-			y: -2.5d
-		}
-		{
-			height: 4.0d
-			image: "kubejs:item/images/bm_border"
-			rotation: 0.0d
-			width: 4.0d
-			x: 8.0d
-			y: -4.0d
-		}
-		{
-			height: 4.0d
-			image: "kubejs:item/images/bm_border"
-			rotation: 0.0d
-			width: 4.0d
-			x: 12.0d
+			width: 1.0d
+			x: 18.0d
 			y: -2.5d
 		}
 	]
@@ -182,11 +111,11 @@
 				item: "bloodmagic:weakbloodorb"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -2.5d
+			x: 3.5d
+			y: -2.0d
 		}
 		{
-			dependencies: ["31D5DDBCBDCB40A3"]
+			dependencies: ["27D2258AFDF8911B"]
 			id: "6BD371363843E3E2"
 			rewards: [{
 				id: "1D7A4CB710E37A91"
@@ -198,11 +127,11 @@
 				item: "bloodmagic:apprenticebloodorb"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -4.0d
+			x: 7.5d
+			y: -2.0d
 		}
 		{
-			dependencies: ["6BD371363843E3E2"]
+			dependencies: ["3386BB1B8E96DDCA"]
 			id: "558DB32EF30ACD1B"
 			rewards: [{
 				id: "6614B0567F171E2B"
@@ -214,11 +143,11 @@
 				item: "bloodmagic:magicianbloodorb"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -5.5d
+			x: 10.0d
+			y: -2.0d
 		}
 		{
-			dependencies: ["558DB32EF30ACD1B"]
+			dependencies: ["575CA4B4D57D30B3"]
 			id: "3D73F2015B1E8127"
 			rewards: [{
 				id: "35F6A4B2D56E891A"
@@ -230,11 +159,11 @@
 				item: "bloodmagic:masterbloodorb"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -7.0d
+			x: 13.5d
+			y: -2.0d
 		}
 		{
-			dependencies: ["3D73F2015B1E8127"]
+			dependencies: ["049E16597B244090"]
 			id: "3DAB7D59D914EF49"
 			rewards: [{
 				id: "481E43707CEDC7E6"
@@ -246,8 +175,8 @@
 				item: "bloodmagic:archmagebloodorb"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -8.5d
+			x: 17.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["416EB4DBBC95A5FD"]
@@ -268,8 +197,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
-			y: 1.5d
+			x: 0.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["20B6EC4AEC95DC61"]
@@ -290,8 +219,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
-			y: 3.0d
+			x: 0.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["1EA23C6C9238E8EB"]
@@ -312,8 +241,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
-			y: 4.5d
+			x: 0.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["6DEE16FAE9EBF81D"]
@@ -334,8 +263,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
-			y: 6.0d
+			x: 0.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["1F4A0441461B7D12"]
@@ -352,8 +281,8 @@
 				type: "item"
 			}]
 			title: "Tier II"
-			x: 8.0d
-			y: -2.0d
+			x: 7.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["27D2258AFDF8911B"]
@@ -385,7 +314,7 @@
 				}
 			]
 			title: "Tier III"
-			x: 12.0d
+			x: 10.0d
 			y: -0.5d
 		}
 		{
@@ -418,12 +347,12 @@
 				}
 			]
 			title: "Tier IV"
-			x: 12.0d
-			y: 1.0d
+			x: 13.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["575CA4B4D57D30B3"]
-			icon: "minecraft:beacon"
+			icon: "bloodmagic:dungeon_metal"
 			id: "049E16597B244090"
 			rewards: [{
 				id: "318B06FFC2FB80C0"
@@ -439,14 +368,14 @@
 				}
 				{
 					count: 4L
-					id: "469A29D80D8BAB47"
-					item: "minecraft:beacon"
+					id: "21724F7888D47B20"
+					item: { Count: 4, id: "bloodmagic:dungeon_metal" }
 					type: "item"
 				}
 			]
 			title: "Tier V"
-			x: 8.0d
-			y: 2.5d
+			x: 17.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["31D5DDBCBDCB40A3"]
@@ -471,8 +400,8 @@
 				item: "bloodmagic:lavacrystal"
 				type: "item"
 			}]
-			x: -3.5d
-			y: -2.0d
+			x: 2.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["72898EE4AC216E24"]
@@ -493,8 +422,8 @@
 				type: "dimension"
 			}]
 			title: "Twilight Forest"
-			x: -5.0d
-			y: -1.5d
+			x: 2.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["3124EA08BA72043F"]
@@ -509,8 +438,8 @@
 				item: "bloodmagic:weakbloodshard"
 				type: "item"
 			}]
-			x: -6.0d
-			y: -4.5d
+			x: 8.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["1F4A0441461B7D12"]
@@ -525,8 +454,8 @@
 				item: "bloodmagic:soulforge"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 1.0d
+			x: 2.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["065B166C43E6BBC9"]
@@ -542,8 +471,8 @@
 				item: "bloodmagic:demoncrystallizer"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 4.0d
+			x: 2.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["416EB4DBBC95A5FD"]
@@ -559,8 +488,8 @@
 				item: "bloodmagic:demoncrucible"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 2.5d
+			x: 2.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["20B6EC4AEC95DC61"]
@@ -582,11 +511,11 @@
 				}
 				type: "item"
 			}]
-			x: -3.5d
-			y: 2.0d
+			x: -1.0d
+			y: 2.5d
 		}
 		{
-			dependencies: ["558DB32EF30ACD1B"]
+			dependencies: ["6BD371363843E3E2"]
 			id: "3124EA08BA72043F"
 			rewards: [{
 				id: "072BA6E4E975F7E4"
@@ -598,8 +527,8 @@
 				item: "bloodmagic:activationcrystalweak"
 				type: "item"
 			}]
-			x: -3.5d
-			y: -5.0d
+			x: 7.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["3124EA08BA72043F"]
@@ -649,8 +578,8 @@
 				}
 			]
 			title: "Serenade of the Nether"
-			x: -5.0d
-			y: -4.0d
+			x: 7.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["3124EA08BA72043F"]
@@ -665,8 +594,8 @@
 				item: "bloodmagic:ritualdiviner"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -4.0d
+			x: 6.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["1F4A0441461B7D12"]
@@ -681,7 +610,7 @@
 				item: "bloodmagic:alchemytable"
 				type: "item"
 			}]
-			x: -2.0d
+			x: 2.0d
 			y: -0.5d
 		}
 		{
@@ -703,8 +632,8 @@
 				}
 				type: "item"
 			}]
-			x: -5.5d
-			y: 1.0d
+			x: -1.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["3D9F34C1D4D4A111"]
@@ -720,8 +649,8 @@
 				item: "bloodmagic:divinationsigil"
 				type: "item"
 			}]
-			x: -7.0d
-			y: 1.0d
+			x: -3.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["3D9F34C1D4D4A111"]
@@ -737,8 +666,8 @@
 				item: "bloodmagic:voidsigil"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 2.0d
+			x: -2.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["3D9F34C1D4D4A111"]
@@ -757,11 +686,11 @@
 				}
 				type: "item"
 			}]
-			x: -5.5d
-			y: 2.5d
+			x: -1.5d
+			y: 1.0d
 		}
 		{
-			dependencies: ["6BD371363843E3E2"]
+			dependencies: ["27D2258AFDF8911B"]
 			description: [
 				"Available at Tier 2, the Sacrificial Dagger can one-shot Mobs within a 2 Block Radius around the blood altar and contributes high amounts of blood per kill."
 				""
@@ -773,8 +702,24 @@
 				item: "bloodmagic:daggerofsacrifice"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -4.0d
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1F4A0441461B7D12"]
+			description: [
+				"Can be used to craft these Gateways:"
+				""
+				"{ \"text\": \"Gateway of the Emerald Grove\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"37E46535A384521B\" } }"
+			]
+			id: "3769A09966F7D776"
+			tasks: [{
+				id: "37F9C39F4CA05610"
+				item: "kubejs:simple_gateway_core"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.0d
 		}
 	]
 	title: "Blood Magic"

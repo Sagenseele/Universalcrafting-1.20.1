@@ -11,8 +11,8 @@
 			image: "thermal:block/machines/machine_refinery_active"
 			rotation: 0.0d
 			width: 1.0d
-			x: 10.5d
-			y: 6.0d
+			x: 11.5d
+			y: 7.0d
 		}
 		{
 			height: 1.0d
@@ -391,7 +391,7 @@
 				item: "pneumaticcraft:lubricant_bucket"
 				type: "item"
 			}]
-			x: 9.5d
+			x: 11.5d
 			y: 6.0d
 		}
 		{
@@ -455,26 +455,30 @@
 				}
 				{
 					count: 16L
+					disable_toast: true
 					id: "059C8774FA857D5F"
-					item: { Count: 16, id: "immersiveengineering:steel_scaffolding_wooden_top" }
+					item: "immersiveengineering:steel_scaffolding_wooden_top"
 					type: "item"
 				}
 				{
 					count: 24L
+					disable_toast: true
 					id: "487D00DBC31E43EC"
-					item: { Count: 24, id: "immersiveengineering:steel_scaffolding_standard" }
+					item: "immersiveengineering:steel_scaffolding_standard"
 					type: "item"
 				}
 				{
 					count: 12L
+					disable_toast: true
 					id: "5DBA5342AB14431F"
-					item: { Count: 12, id: "ad_astra:steel_plateblock" }
+					item: "ad_astra:steel_plateblock"
 					type: "item"
 				}
 				{
 					count: 17L
+					disable_toast: true
 					id: "0D421D5EE357347B"
-					item: { Count: 17, id: "immersiveengineering:steel_fence" }
+					item: "immersiveengineering:steel_fence"
 					type: "item"
 				}
 			]
@@ -534,7 +538,6 @@
 		}
 		{
 			dependencies: [
-				"754FF06DAAAEAEAB"
 				"012C411B18208096"
 				"06554919F28AA994"
 			]
@@ -806,7 +809,7 @@
 				type: "item"
 			}]
 			x: 13.0d
-			y: 7.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["646C00545B81508C"]
@@ -821,7 +824,7 @@
 				item: "immersiveengineering:plate_duroplast"
 				type: "item"
 			}]
-			x: 12.5d
+			x: 13.0d
 			y: 5.0d
 		}
 		{
@@ -992,7 +995,10 @@
 			y: 10.0d
 		}
 		{
-			dependencies: ["426CFE1736BC8A1E"]
+			dependencies: [
+				"426CFE1736BC8A1E"
+				"754FF06DAAAEAEAB"
+			]
 			id: "35FEBC636877D245"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1008,8 +1014,8 @@
 				item: "kubejs:electrical_machine_casing"
 				type: "item"
 			}]
-			x: 14.0d
-			y: 9.0d
+			x: 10.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["2468A11BD78A5360"]
@@ -1097,8 +1103,8 @@
 				}
 			]
 			title: "Automated Engineer's Workbench"
-			x: 13.5d
-			y: 6.0d
+			x: 14.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["5E15F9A81350E9CB"]
@@ -1171,6 +1177,7 @@
 			size: 1.1d
 			tasks: [
 				{
+					disable_toast: true
 					id: "51BD7D0B103EF31C"
 					item: "mbd2:washing_facility"
 					type: "item"
@@ -1201,20 +1208,23 @@
 				}
 				{
 					count: 2L
+					disable_toast: true
 					id: "40A9862ED1D57366"
-					item: { Count: 2, id: "kubejs:heat_resistant_glass" }
+					item: "kubejs:heat_resistant_glass"
 					type: "item"
 				}
 				{
 					count: 51L
+					disable_toast: true
 					id: "22F8DC4AABC0EC65"
-					item: { Count: 51, id: "kubejs:multiblock_tier2" }
+					item: "kubejs:multiblock_tier2"
 					type: "item"
 				}
 				{
 					count: 24L
+					disable_toast: true
 					id: "024674DD1CA7619F"
-					item: { Count: 24, id: "kubejs:frame_tier2" }
+					item: "kubejs:frame_tier2"
 					type: "item"
 				}
 			]
@@ -1241,7 +1251,7 @@
 				type: "item"
 			}]
 			x: 9.5d
-			y: 1.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["2468A11BD78A5360"]
@@ -1341,8 +1351,8 @@
 				item: "immersiveengineering:treated_wood_horizontal"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -0.5d
+			x: 9.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["2AAC3CA268E67ECA"]
@@ -1357,8 +1367,8 @@
 				item: "immersiveengineering:stick_treated"
 				type: "item"
 			}]
-			x: 9.5d
-			y: -0.5d
+			x: 11.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["22C5A54B707BB1C0"]
@@ -1381,7 +1391,7 @@
 				type: "item"
 			}]
 			x: 11.0d
-			y: -0.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["60A7BAA320FA674F"]

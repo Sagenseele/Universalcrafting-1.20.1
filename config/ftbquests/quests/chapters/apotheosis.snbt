@@ -14,7 +14,7 @@
 		x: 19.0d
 		y: 7.0d
 	}]
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -916,6 +916,7 @@
 				"24B283D3CE7E4032"
 			]
 			id: "006BF79E0D2988C2"
+			min_required_dependencies: 2
 			rewards: [{
 				id: "484613021382A948"
 				item: "kubejs:universal_badge"

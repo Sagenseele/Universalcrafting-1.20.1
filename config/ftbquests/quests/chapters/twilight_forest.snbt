@@ -7,172 +7,172 @@
 	id: "566EF0D6B38F2EB0"
 	images: [
 		{
-			height: 1.0d
+			height: 0.75d
 			image: "twilightforest:item/naga_scale"
 			rotation: -45.0d
-			width: 1.0d
+			width: 0.75d
 			x: 1.5d
 			y: -3.0d
 		}
 		{
-			height: 1.0d
+			height: 0.75d
 			image: "twilightforest:item/naga_scale"
 			rotation: 135.0d
-			width: 1.0d
+			width: 0.75d
 			x: 1.5d
 			y: -1.0d
 		}
 		{
-			height: 1.0d
+			height: 0.75d
 			image: "twilightforest:item/naga_scale"
 			rotation: 45.0d
-			width: 1.0d
+			width: 0.75d
 			x: 2.5d
 			y: -2.0d
 		}
 		{
-			height: 1.0d
+			height: 0.75d
 			image: "twilightforest:item/naga_scale"
 			rotation: -135.0d
-			width: 1.0d
+			width: 0.75d
 			x: 0.5d
 			y: -2.0d
 		}
 		{
-			height: 1.0d
+			height: 0.75d
 			image: "twilightforest:item/lich_shield_fill"
 			rotation: 0.0d
-			width: 1.0d
+			width: 0.75d
 			x: 4.5d
 			y: -1.0d
 		}
 		{
-			height: 1.0d
+			height: 0.75d
 			image: "twilightforest:item/lich_shield_fill"
 			rotation: 0.0d
-			width: 1.0d
+			width: 0.75d
 			x: 5.5d
 			y: 0.0d
 		}
 		{
-			height: 1.0d
+			height: 0.75d
 			image: "twilightforest:item/lich_shield_fill"
 			rotation: 0.0d
-			width: 1.0d
+			width: 0.75d
 			x: 4.5d
 			y: 1.0d
 		}
 		{
-			height: 1.0d
+			height: 0.75d
 			image: "twilightforest:item/lich_shield_fill"
 			rotation: 0.0d
-			width: 1.0d
+			width: 0.75d
 			x: 3.5d
 			y: 0.0d
 		}
 		{
-			height: 1.0d
+			height: 0.75d
 			image: "twilightforest:item/alpha_yeti_fur"
 			rotation: 0.0d
-			width: 1.0d
-			x: 6.5d
-			y: 2.0d
+			width: 0.75d
+			x: 6.0d
+			y: 3.0d
 		}
 		{
-			height: 1.0d
+			height: 0.75d
 			image: "twilightforest:item/alpha_yeti_fur"
 			rotation: 180.0d
-			width: 1.0d
-			x: 6.5d
-			y: 4.0d
-		}
-		{
-			height: 1.0d
-			image: "twilightforest:item/alpha_yeti_fur"
-			rotation: 90.0d
-			width: 1.0d
-			x: 7.5d
-			y: 3.0d
-		}
-		{
-			height: 1.0d
-			image: "twilightforest:item/alpha_yeti_fur"
-			rotation: -90.0d
-			width: 1.0d
-			x: 5.5d
-			y: 3.0d
-		}
-		{
-			height: 1.0d
-			image: "twilightforest:textures/particle/snow_2.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 4.5d
-			y: 3.5d
-		}
-		{
-			height: 1.0d
-			image: "twilightforest:textures/particle/snow_2.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 3.0d
-			y: 4.0d
-		}
-		{
-			height: 1.0d
-			image: "twilightforest:textures/particle/snow_2.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 5.0d
+			width: 0.75d
+			x: 6.0d
 			y: 5.0d
 		}
 		{
-			height: 1.0d
+			height: 0.75d
+			image: "twilightforest:item/alpha_yeti_fur"
+			rotation: 90.0d
+			width: 0.75d
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			height: 0.75d
+			image: "twilightforest:item/alpha_yeti_fur"
+			rotation: -90.0d
+			width: 0.75d
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			height: 0.75d
 			image: "twilightforest:textures/particle/snow_2.png"
 			rotation: 0.0d
-			width: 1.0d
-			x: 3.5d
+			width: 0.75d
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			height: 0.75d
+			image: "twilightforest:textures/particle/snow_2.png"
+			rotation: 0.0d
+			width: 0.75d
+			x: 2.5d
 			y: 5.5d
+		}
+		{
+			height: 0.75d
+			image: "twilightforest:textures/particle/snow_2.png"
+			rotation: 0.0d
+			width: 0.75d
+			x: 4.5d
+			y: 5.5d
+		}
+		{
+			height: 0.75d
+			image: "twilightforest:textures/particle/snow_2.png"
+			rotation: 0.0d
+			width: 0.75d
+			x: 3.0d
+			y: 6.5d
 		}
 		{
 			height: 1.0d
 			image: "twilightforest:item/knightmetal_helmet"
 			rotation: 0.0d
 			width: 1.0d
-			x: 9.0d
-			y: 1.5d
-		}
-		{
-			height: 1.0d
-			image: "twilightforest:item/knightmetal_ring"
-			rotation: 0.0d
-			width: 1.0d
-			x: 9.5d
-			y: 3.5d
-		}
-		{
-			height: 1.0d
-			image: "twilightforest:item/knightmetal_ring"
-			rotation: 0.0d
-			width: 1.0d
 			x: 8.5d
-			y: 3.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "twilightforest:item/knightmetal_ring"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "twilightforest:item/knightmetal_ring"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: 1.0d
 		}
 		{
 			height: 1.0d
 			image: "minecraft:item/ghast_tear"
 			rotation: 0.0d
 			width: 1.0d
-			x: 11.5d
-			y: 2.0d
+			x: 9.5d
+			y: 3.0d
 		}
 		{
-			height: 1.0d
+			height: 0.75d
 			image: "twilightforest:item/cooked_meef"
 			rotation: 15.0d
-			width: 1.0d
-			x: 6.598214285714292d
-			y: -1.4392857142857167d
+			width: 0.75d
+			x: 6.5d
+			y: -1.0d
 		}
 		{
 			height: 1.0d
@@ -190,6 +190,158 @@
 			width: 1.0d
 			x: 8.5d
 			y: -2.0d
+		}
+		{
+			height: 0.6d
+			image: "minecraft:block/black_wool"
+			rotation: 0.0d
+			width: 0.6d
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			height: 0.6d
+			image: "minecraft:block/blue_wool"
+			rotation: 0.0d
+			width: 0.6d
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			height: 0.6d
+			image: "minecraft:block/brown_wool"
+			rotation: 0.0d
+			width: 0.6d
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			height: 0.6d
+			image: "minecraft:block/cyan_wool"
+			rotation: 0.0d
+			width: 0.6d
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			height: 0.6d
+			image: "minecraft:block/gray_wool"
+			rotation: 0.0d
+			width: 0.6d
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			height: 0.6d
+			image: "minecraft:block/green_wool"
+			rotation: 0.0d
+			width: 0.6d
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			height: 0.6d
+			image: "minecraft:block/light_blue_wool"
+			rotation: 0.0d
+			width: 0.6d
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			height: 0.6d
+			image: "minecraft:block/light_gray_wool"
+			rotation: 0.0d
+			width: 0.6d
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			height: 0.6d
+			image: "minecraft:block/lime_wool"
+			rotation: 0.0d
+			width: 0.6d
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			height: 0.6d
+			image: "minecraft:block/magenta_wool"
+			rotation: 0.0d
+			width: 0.6d
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			height: 0.6d
+			image: "minecraft:block/orange_wool"
+			rotation: 0.0d
+			width: 0.6d
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			height: 0.6d
+			image: "minecraft:block/pink_wool"
+			rotation: 0.0d
+			width: 0.6d
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			height: 0.6d
+			image: "minecraft:block/purple_wool"
+			rotation: 0.0d
+			width: 0.6d
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			height: 0.6d
+			image: "minecraft:block/red_wool"
+			rotation: 0.0d
+			width: 0.6d
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			height: 0.6d
+			image: "minecraft:block/white_wool"
+			rotation: 0.0d
+			width: 0.6d
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			height: 0.6d
+			image: "minecraft:block/yellow_wool"
+			rotation: 0.0d
+			width: 0.6d
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "twilightforest:item/knightmetal_ring"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "twilightforest:item/knightmetal_ring"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/ghast_tear"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.5d
+			y: 3.0d
 		}
 	]
 	order_index: 1
@@ -226,7 +378,7 @@
 			}]
 			size: 1.2d
 			tasks: [{
-				id: "47BBC35D8F141EFC"
+				id: "214CA3A37205F62A"
 				item: "twilightforest:naga_trophy"
 				type: "item"
 			}]
@@ -247,8 +399,8 @@
 				item: "twilightforest:alpha_yeti_trophy"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 3.0d
+			x: 6.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["65EA554C4225D086"]
@@ -264,8 +416,8 @@
 				item: "twilightforest:snow_queen_trophy"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 4.5d
+			x: 3.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["5440F2647AF777B3"]
@@ -281,8 +433,8 @@
 				item: "twilightforest:ur_ghast_trophy"
 				type: "item"
 			}]
-			x: 11.0d
-			y: 1.5d
+			x: 9.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["132AB45B419EB8C1"]
@@ -366,8 +518,8 @@
 				item: "twilightforest:knight_phantom_trophy"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 2.5d
+			x: 8.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["27F2EC4AA857E8B4"]
@@ -396,7 +548,42 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["50239BC15503E0D2"]
+			icon: "twilightforest:firefly"
+			id: "6EE516623711CFA9"
+			tasks: [
+				{
+					count: 4L
+					id: "60D17150974ED94A"
+					item: "twilightforest:firefly"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "11E3842711630E3F"
+					item: "twilightforest:torchberries"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "3C941B3D3AC7E8A3"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "twilightforest:logs"
+						}
+					}
+					title: "Any Twilightforest Logs"
+					type: "item"
+				}
+			]
+			title: "Twilightforest Materials"
+			x: -2.0d
+			y: 2.0d
 		}
 	]
 	title: "Twilight Forest"

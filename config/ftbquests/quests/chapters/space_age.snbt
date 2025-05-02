@@ -148,9 +148,9 @@
 			dependencies: ["7B3BBA692C7B2851"]
 			id: "52EB5064E4394DC1"
 			tasks: [{
-				id: "2B8F363DA5B04239"
-				title: "crushed calorite"
-				type: "checkmark"
+				id: "5EB1D01B9A55D448"
+				item: "ad_astra:calorite_nugget"
+				type: "item"
 			}]
 			x: 6.5d
 			y: -9.5d
@@ -159,23 +159,12 @@
 			dependencies: ["7B3BBA692C7B2851"]
 			id: "3E5DDDCFF0785737"
 			tasks: [{
-				id: "01D2B457B0183A31"
-				title: "crushed ostrum"
-				type: "checkmark"
+				id: "60AA62E9D28F1447"
+				item: "ad_astra:ostrum_nugget"
+				type: "item"
 			}]
 			x: 6.5d
 			y: -10.5d
-		}
-		{
-			dependencies: ["7B3BBA692C7B2851"]
-			id: "7EB23B980C3E8F49"
-			tasks: [{
-				id: "1A7CB4E9831E46C1"
-				title: "crushed desh"
-				type: "checkmark"
-			}]
-			x: 6.5d
-			y: -8.5d
 		}
 		{
 			dependencies: ["6EF6C744811172D7"]
@@ -354,9 +343,9 @@
 			dependencies: ["7B3BBA692C7B2851"]
 			id: "3D92FC7109907464"
 			tasks: [{
-				id: "3168D9310E8D90C2"
-				title: "crushed etrium"
-				type: "checkmark"
+				id: "71D9863579AD7F01"
+				item: "ad_astra:etrium_nugget"
+				type: "item"
 			}]
 			x: 6.5d
 			y: -11.5d
@@ -382,6 +371,39 @@
 			}]
 			x: -5.5d
 			y: -4.0d
+		}
+		{
+			dependencies: ["4A582AC42262514A"]
+			id: "10663BA6A4B0CDAD"
+			tasks: [{
+				id: "1DF7B7737384D041"
+				item: "hostilenetworks:loot_fabricator"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["7B3BBA692C7B2851"]
+			id: "4A582AC42262514A"
+			tasks: [{
+				id: "7AC415896D9E4A78"
+				item: "ad_astra:desh_nugget"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["52EB5064E4394DC1"]
+			id: "4D8879745A22E122"
+			tasks: [{
+				id: "3F46B36482AFEE64"
+				item: "hostilenetworks:prediction_matrix"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -9.0d
 		}
 	]
 	title: "Space Age"

@@ -41,6 +41,17 @@
 			x: -1.0d
 			y: 1.5d
 		}
+		{
+			dependencies: ["6E33A55B938CC53C"]
+			id: "5880AC65339DC1E6"
+			tasks: [{
+				id: "799415DD9BA3017B"
+				item: "botania:creative_pool"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
 	]
 	title: "Creative Age"
 }

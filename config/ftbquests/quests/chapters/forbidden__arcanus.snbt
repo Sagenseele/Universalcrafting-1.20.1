@@ -42,6 +42,7 @@
 			]
 			icon: "forbidden_arcanus:hephaestus_forge"
 			id: "06581950221710F7"
+			shape: "octagon"
 			size: 1.25d
 			tasks: [
 				{
@@ -78,7 +79,7 @@
 					type: "item"
 				}
 			]
-			title: "Hephaestus Forge Tier"
+			title: "Hephaestus Forge Tier I"
 			x: 1.5d
 			y: 0.0d
 		}
@@ -114,8 +115,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
-			y: -2.0d
+			x: 0.1428571428571459d
+			y: -1.830357142857153d
 		}
 		{
 			dependencies: ["06581950221710F7"]
@@ -150,7 +151,7 @@
 				type: "item"
 			}]
 			title: "Heart Amulet"
-			x: 5.214285714285715d
+			x: 4.642857142857139d
 			y: 0.5d
 		}
 		{
@@ -167,7 +168,7 @@
 				item: { Count: 10, id: "bhc:red_heart_canister" }
 				type: "item"
 			}]
-			x: 6.214285714285715d
+			x: 5.642857142857139d
 			y: -0.5d
 		}
 		{
@@ -184,7 +185,7 @@
 				item: { Count: 10, id: "bhc:yellow_heart_canister" }
 				type: "item"
 			}]
-			x: 6.714285714285715d
+			x: 6.142857142857139d
 			y: 0.5d
 		}
 		{
@@ -201,7 +202,7 @@
 				item: { Count: 10, id: "bhc:green_heart_canister" }
 				type: "item"
 			}]
-			x: 6.3214285714285765d
+			x: 5.75d
 			y: 1.5892857142857153d
 		}
 		{
@@ -218,7 +219,7 @@
 				item: { Count: 10, id: "bhc:blue_heart_canister" }
 				type: "item"
 			}]
-			x: 5.214285714285715d
+			x: 4.642857142857139d
 			y: 2.125d
 		}
 		{
@@ -235,8 +236,8 @@
 				item: { Count: 10, id: "bhc:soul_heart_canister" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 1.982142857142854d
+			x: 3.4642857142857153d
+			y: 1.6339285714285694d
 		}
 	]
 	title: "Forbidden \\& Arcanus"

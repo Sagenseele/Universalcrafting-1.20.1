@@ -25,7 +25,7 @@
 		}
 		{
 			dependencies: ["56C84876741D3672"]
-			description: ["Right click with an empty hand on dirt to get dirt essence."]
+			description: ["Sneak + right click with a &6Matter Extraction Device&r on dirt to get &edirt essence&r."]
 			id: "3BACAF9E71A3524F"
 			rewards: [{
 				id: "2E9F2E79F00D3598"
@@ -57,7 +57,7 @@
 		}
 		{
 			dependencies: ["45346209AF744497"]
-			description: ["Right click with a pickaxe on an overgrown wood log to receive stone essence."]
+			description: ["Sneak + right click the &eovergrown wood log&r with a &6pickaxe&r to receive &estone essence&r."]
 			id: "4FA8C9D3999330D8"
 			rewards: [{
 				id: "7D7DEDFC3FD66C5E"
@@ -128,7 +128,7 @@
 		}
 		{
 			dependencies: ["257C857B20905C1A"]
-			description: ["Sneak right click with a flint on a stone."]
+			description: ["Sneak + right click a &estone&r with a &6flint&r to get &enether quartz essence&r."]
 			id: "18FC621109276DA1"
 			rewards: [{
 				id: "2D7B96F970540F99"
@@ -217,7 +217,7 @@
 		}
 		{
 			dependencies: ["45346209AF744497"]
-			description: ["Right click with an axe on an overgrown wood log to receive wood splinters."]
+			description: ["Sneak + right click the &eovergrown wood log&r with an &6axe&r to receive &ewood splinters&r."]
 			id: "6F1284BEAE967BB1"
 			rewards: [{
 				id: "28A7340561C63466"
@@ -234,7 +234,7 @@
 		}
 		{
 			dependencies: ["45346209AF744497"]
-			description: ["Right click the overgrown wood log with a bucket in your hand to get water essence."]
+			description: ["Sneak + right click the &eovergrown wood log&r with a &6Matter Extraction Device&r in your hand to get &ewater essence&r."]
 			id: "3D8D8C2EA17CF488"
 			rewards: [{
 				id: "41D4BD7FBF8FB013"

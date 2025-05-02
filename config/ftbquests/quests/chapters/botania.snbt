@@ -231,12 +231,27 @@
 		}
 		{
 			dependencies: ["5043FB07729FD645"]
+			icon: "botania:alfheim_portal"
 			id: "3CE33113FD05A596"
-			tasks: [{
-				id: "76CFA1A8D73A998C"
-				item: "botania:alfheim_portal"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "76CFA1A8D73A998C"
+					item: "botania:alfheim_portal"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "03205F5EC775234F"
+					item: { Count: 3, id: "botania:glimmering_livingwood" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "51BAE43FF736BABD"
+					item: { Count: 8, id: "botania:livingwood_log" }
+					type: "item"
+				}
+			]
 			title: "Elven Gateway to Alfheim"
 			x: 13.0d
 			y: -3.0d
@@ -361,6 +376,39 @@
 			}]
 			x: 5.0d
 			y: -2.0d
+		}
+		{
+			dependencies: ["004FF1B04779FD9C"]
+			id: "62D02172926C6418"
+			tasks: [{
+				id: "301D4F27E9F87B48"
+				item: "botania:spark"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0AF2FE192BE0715D"]
+			id: "37E46535A384521B"
+			rewards: [{
+				id: "397317459F995548"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5FD2EED991D546C9"
+				item: {
+					Count: 1
+					id: "gateways:gate_pearl"
+					tag: {
+						gateway: "gateways:emerald_grove"
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
 		}
 	]
 	title: "Botania"
