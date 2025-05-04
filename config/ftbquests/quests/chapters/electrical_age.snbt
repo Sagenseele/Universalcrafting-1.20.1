@@ -438,19 +438,19 @@
 				{
 					disable_toast: true
 					id: "57C44180AE26B970"
-					item: "mbd2:energy_input_tier2"
+					item: "mbd2:energy_input_tier_2"
 					type: "item"
 				}
 				{
 					disable_toast: true
 					id: "44A18BC4EA07A6BE"
-					item: "mbd2:fluid_input_tier2"
+					item: "mbd2:fluid_input_tier_2"
 					type: "item"
 				}
 				{
 					disable_toast: true
 					id: "61DF46CC7D52597C"
-					item: "mbd2:item_output_tier2"
+					item: "mbd2:item_output_tier_2"
 					type: "item"
 				}
 				{
@@ -1185,19 +1185,19 @@
 				{
 					disable_toast: true
 					id: "2F80E8E5F2FA2158"
-					item: "mbd2:item_input_tier2"
+					item: "mbd2:item_input_tier_2"
 					type: "item"
 				}
 				{
 					disable_toast: true
 					id: "3717C064921BB7E5"
-					item: "mbd2:item_output_tier2"
+					item: "mbd2:item_output_tier_2"
 					type: "item"
 				}
 				{
 					disable_toast: true
 					id: "1EF07422794FDE10"
-					item: "mbd2:energy_input_tier2"
+					item: "mbd2:energy_input_tier_2"
 					type: "item"
 				}
 				{

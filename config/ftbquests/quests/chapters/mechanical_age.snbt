@@ -107,12 +107,12 @@
 				}
 				{
 					id: "110F9E740B02EF87"
-					item: "mbd2:item_input_tier1"
+					item: "mbd2:item_input_tier_1"
 					type: "item"
 				}
 				{
 					id: "6E925A4954B3E231"
-					item: "mbd2:item_output_tier1"
+					item: "mbd2:item_output_tier_1"
 					type: "item"
 				}
 				{
@@ -129,13 +129,13 @@
 				{
 					count: 34L
 					id: "1D9C699709CA8172"
-					item: { Count: 34, id: "kubejs:multiblock_tier1" }
+					item: "kubejs:multiblock_tier_1"
 					type: "item"
 				}
 				{
 					count: 24L
 					id: "55CB4037E23A4931"
-					item: { Count: 24, id: "kubejs:frame_tier1" }
+					item: "kubejs:frame_tier_1"
 					type: "item"
 				}
 				{
@@ -677,30 +677,30 @@
 				}
 				{
 					id: "507EA60CEA91FEDA"
-					item: "mbd2:item_input_tier1"
+					item: "mbd2:item_input_tier_1"
 					type: "item"
 				}
 				{
 					id: "68C150BFBDA1FAC5"
-					item: "mbd2:item_output_tier1"
+					item: "mbd2:item_output_tier_1"
 					type: "item"
 				}
 				{
 					count: 37L
 					id: "0C7451DC6D32800A"
-					item: { Count: 37, id: "kubejs:multiblock_tier1" }
+					item: "kubejs:multiblock_tier_1"
 					type: "item"
 				}
 				{
 					count: 12L
 					id: "3C4D815FB0761B2E"
-					item: { Count: 12, id: "kubejs:coil_tier1" }
+					item: "kubejs:coil_tier_1"
 					type: "item"
 				}
 				{
 					count: 8L
 					id: "46FDE4D8CA705B46"
-					item: { Count: 8, id: "kubejs:frame_tier1" }
+					item: "kubejs:frame_tier_1"
 					type: "item"
 				}
 			]

@@ -568,7 +568,7 @@
 					type: "item"
 				}
 				{
-					count: 16L
+					count: 4L
 					id: "3C941B3D3AC7E8A3"
 					item: {
 						Count: 1

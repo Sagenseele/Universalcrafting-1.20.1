@@ -530,7 +530,10 @@
 				{
 					count: 33L
 					id: "69EC419B066093B2"
-					item: { Count: 33, id: "kubejs:multiblock_tier3" }
+					item: {
+						Count: 33
+						id: "kubejs:multiblock_tier3"
+					}
 					type: "item"
 				}
 			]

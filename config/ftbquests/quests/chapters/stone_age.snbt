@@ -9,38 +9,29 @@
 	quest_links: [ ]
 	quests: [
 		{
-			id: "56C84876741D3672"
-			rewards: [{
-				id: "28925F2BB6DEC6C7"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
-			tasks: [{
-				id: "38727FDA182A3D45"
-				item: "minecraft:dirt"
-				type: "item"
-			}]
-			x: -3.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["56C84876741D3672"]
-			description: ["Sneak + right click with a &6Matter Extraction Device&r on dirt to get &edirt essence&r."]
+			dependencies: ["4E8852849B2AE129"]
+			description: [
+				"Once you understand how the Matter Extraction Device works, creating dirt is easy. I should be able to make a lot of it."
+				""
+				"Sneak + right click with a &2Matter Extraction Device&r on dirt to get &edirt essence&r"
+			]
 			id: "3BACAF9E71A3524F"
 			rewards: [{
 				id: "2E9F2E79F00D3598"
 				item: "kubejs:universal_badge"
 				type: "item"
 			}]
+			subtitle: "Dirties Pleasure"
 			tasks: [{
 				id: "4007C87E2977EC8E"
 				item: "mysticalagriculture:dirt_essence"
 				type: "item"
 			}]
 			x: -1.5d
-			y: -1.0d
+			y: -1.5d
 		}
 		{
+			dependencies: ["4E8852849B2AE129"]
 			id: "135FEC8E09C68EB0"
 			rewards: [{
 				id: "1BC7390229A23ABD"
@@ -57,7 +48,11 @@
 		}
 		{
 			dependencies: ["45346209AF744497"]
-			description: ["Sneak + right click the &eovergrown wood log&r with a &6pickaxe&r to receive &estone essence&r."]
+			description: [
+				"The geological matter in the log make it possible to harvest some stone essence. With this I can create a multitude of stony products."
+				""
+				"Sneak + right click the &eovergrown wood log&r with a &6pickaxe&r to receive &estone essence&r."
+			]
 			id: "4FA8C9D3999330D8"
 			rewards: [{
 				id: "7D7DEDFC3FD66C5E"
@@ -74,6 +69,7 @@
 		}
 		{
 			dependencies: ["323077AA82CAADE2"]
+			description: ["Andesite Alloy! The perfect alloy for my plan to create a mechanical contraption to support me while I do other things."]
 			id: "183FD7820BAED84B"
 			rewards: [{
 				id: "4A68A4F0CB80A75A"
@@ -93,12 +89,14 @@
 				"7A1C76596F111A92"
 				"6F1284BEAE967BB1"
 			]
+			description: ["Ouch, that really, really hurt. But at last I could make some raw iron with the splinter as a catalyst an the blood. Its' iron growing around the splinter like a crystal is the first step for me into a better age."]
 			id: "323077AA82CAADE2"
 			rewards: [{
 				id: "2B03536E1C5FF4CD"
 				item: "kubejs:universal_badge"
 				type: "item"
 			}]
+			subtitle: "Metallurgical masterpiece"
 			tasks: [{
 				id: "22CDD5AD3267DFB7"
 				item: "minecraft:raw_iron"
@@ -109,6 +107,7 @@
 		}
 		{
 			dependencies: ["04C04D6FBB67AAC3"]
+			description: ["My first magic contraption I built myself. If I pick my fingers and deposit some of my blood, the Altar will fill and make some infusions possible. My first goal should be Iron to improve my tools and maybe some worldy contraptions which will come in handy without hurting myself..."]
 			id: "7A1C76596F111A92"
 			rewards: [{
 				id: "6B848CED5C52745F"
@@ -128,13 +127,18 @@
 		}
 		{
 			dependencies: ["257C857B20905C1A"]
-			description: ["Sneak + right click a &estone&r with a &6flint&r to get &enether quartz essence&r."]
+			description: [
+				"If I remember it correctly, there are could be some miniscule deposits of quartz in these flints. If I can find a surface to crush it, it will surely yield some minerals for me."
+				""
+				"Sneak + right click a &estone&r with a &6flint&r to get &enether quartz essence&r."
+			]
 			id: "18FC621109276DA1"
 			rewards: [{
 				id: "2D7B96F970540F99"
 				item: "kubejs:universal_badge"
 				type: "item"
 			}]
+			subtitle: "Why is it called &3Nether&r Quartz?"
 			tasks: [{
 				id: "58F90B611ACCCD33"
 				item: "mysticalagriculture:nether_quartz_essence"
@@ -148,13 +152,18 @@
 				"135FEC8E09C68EB0"
 				"3BACAF9E71A3524F"
 			]
-			description: ["Can be crafted from any #minecraft:logs"]
+			description: [
+				"With the magical properties of dirt essence I can enhance an log to create replenishable organic and geological matter. At least in a limited range. But it should help. I think..."
+				""
+				"Can be crafted from any &e#minecraft:logs&r"
+			]
 			id: "45346209AF744497"
 			rewards: [{
 				id: "6EAF7417FFF5BC3B"
 				item: "kubejs:universal_badge"
 				type: "item"
 			}]
+			subtitle: "Log infused with dirt or dirt infused with logs?"
 			tasks: [{
 				id: "1260A039B9B00A90"
 				item: "kubejs:overgrown_wood_log"
@@ -165,6 +174,7 @@
 		}
 		{
 			dependencies: ["4FA8C9D3999330D8"]
+			description: ["Some simple geological formation, nearly dirt but not as dirty and maybe it has some resources I can use."]
 			id: "7735286F9FF3CDFF"
 			rewards: [{
 				id: "47BF73BAD63EF882"
@@ -181,6 +191,7 @@
 		}
 		{
 			dependencies: ["7735286F9FF3CDFF"]
+			description: ["As expected the gravel contained some flint."]
 			id: "257C857B20905C1A"
 			rewards: [{
 				id: "50A59F5C6F592A69"
@@ -197,12 +208,14 @@
 		}
 		{
 			dependencies: ["18FC621109276DA1"]
+			description: ["When I look at the resources that I have available, I see a way to create some raw Iron from magic. But I know for sure that it will hurt. And I don't know if I can handle that much pain in the long term."]
 			id: "04C04D6FBB67AAC3"
 			rewards: [{
 				id: "70E0AB444CF0CDB1"
 				item: "kubejs:universal_badge"
 				type: "item"
 			}]
+			subtitle: "That will hurt"
 			tasks: [{
 				id: "72FEA136DE8DDE25"
 				item: {
@@ -217,13 +230,18 @@
 		}
 		{
 			dependencies: ["45346209AF744497"]
-			description: ["Sneak + right click the &eovergrown wood log&r with an &6axe&r to receive &ewood splinters&r."]
+			description: [
+				"Hacking away at the log I get some splinters, fine enough to be used as a catalyst for my bloody idea."
+				""
+				"Sneak + right click the &eovergrown wood log&r with an &6axe&r to receive &ewood splinters&r."
+			]
 			id: "6F1284BEAE967BB1"
 			rewards: [{
 				id: "28A7340561C63466"
 				item: "kubejs:universal_badge"
 				type: "item"
 			}]
+			subtitle: "Watch out for your fingers"
 			tasks: [{
 				id: "16A0023470AA9853"
 				item: "kubejs:wood_splinter"
@@ -234,7 +252,11 @@
 		}
 		{
 			dependencies: ["45346209AF744497"]
-			description: ["Sneak + right click the &eovergrown wood log&r with a &6Matter Extraction Device&r in your hand to get &ewater essence&r."]
+			description: [
+				"The Matter Extraction Device is so helpful, Water Essence is a precious resource and now I can get it for free from the overgrown wood log. But... I don't have a vessel to hold the water..."
+				""
+				"Sneak + right click the &eovergrown wood log&r with a &6Matter Extraction Device&r in your hand to get &ewater essence&r."
+			]
 			id: "3D8D8C2EA17CF488"
 			rewards: [{
 				id: "41D4BD7FBF8FB013"
@@ -251,6 +273,12 @@
 		}
 		{
 			dependencies: ["183FD7820BAED84B"]
+			description: [
+				"This is the result of my early and rudimentary plans to get to the Infinity Token. It took some sweat and pain but finally I got."
+				"While I was studying in the &6Spacefarers' Guild&r, I found some historical blueprints of machines. If think I can rebuild some of them from my memory. But maybe I can find a way to write them down for future uses."
+				""
+				"But now it's time to progress to the Early &bIndustrial Age&r."
+			]
 			id: "3CF4FA8961C6D743"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -260,6 +288,7 @@
 			}]
 			shape: "rsquare"
 			size: 1.25d
+			subtitle: "Progress to &3Industrial Age&r"
 			tasks: [{
 				id: "7D0E58FC43D85942"
 				item: "create:andesite_casing"
@@ -267,6 +296,28 @@
 			}]
 			x: 9.5d
 			y: 0.0d
+		}
+		{
+			description: [
+				"The &6Spacefarers' Guild&r has placed me on this planet so I can prove myself as a recruit to the guild. I'm supposed to offer the Infinity Token as a sign of my progress and maturity."
+				""
+				"Let's see if the guild's teachings help me survive on this planet. I should use my wordly and otherworldy knowledge to overcome this situation."
+				""
+				"They gave me a &epiece of dirt&r and left me with my &2Matter Extraction Device&r. Despite its' simple nature, it should help me in my endeavours."
+			]
+			id: "4E8852849B2AE129"
+			rewards: [{
+				id: "7C0EF030ADCB7316"
+				item: "minecraft:dirt"
+				type: "item"
+			}]
+			tasks: [{
+				id: "446587635ABE4CAD"
+				type: "checkmark"
+			}]
+			title: "Stranded on a planet"
+			x: -4.0d
+			y: -0.5d
 		}
 	]
 	title: "Introduction"
