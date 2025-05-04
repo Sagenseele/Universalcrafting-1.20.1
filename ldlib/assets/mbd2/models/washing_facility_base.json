@@ -2,8 +2,8 @@
 	"parent": "minecraft:block/orientable",
 	"textures": {
 		"front": "kubejs:block/washing_facility_base",
-		"side": "kubejs:block/multiblock_tier2",
-		"top": "kubejs:block/multiblock_tier2",
-		"bottom": "kubejs:block/multiblock_tier2"
+		"side": "kubejs:block/multiblock_tier_2",
+		"top": "kubejs:block/multiblock_tier_2",
+		"bottom": "kubejs:block/multiblock_tier_2"
 	}
 }

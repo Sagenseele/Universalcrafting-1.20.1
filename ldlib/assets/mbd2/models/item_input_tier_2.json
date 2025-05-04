@@ -1,6 +1,6 @@
 {
 	"parent": "minecraft:block/cube_all",
     "textures": {
-		"all": "kubejs:block/item_input_tier1"
+		"all": "kubejs:block/item_input_tier_2"
 	}
 }

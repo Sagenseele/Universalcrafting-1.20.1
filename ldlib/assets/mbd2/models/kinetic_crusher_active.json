@@ -2,8 +2,8 @@
 	"parent": "minecraft:block/orientable",
 	"textures": {
 		"front": "kubejs:block/kinetic_crusher_active",
-		"side": "kubejs:block/multiblock_tier1",
-		"top": "kubejs:block/multiblock_tier1",
-		"bottom": "kubejs:block/multiblock_tier1"
+		"side": "kubejs:block/multiblock_tier_1",
+		"top": "kubejs:block/multiblock_tier_1",
+		"bottom": "kubejs:block/multiblock_tier_1"
 	}
 }

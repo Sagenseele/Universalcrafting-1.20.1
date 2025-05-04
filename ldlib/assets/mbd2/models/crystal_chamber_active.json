@@ -2,8 +2,8 @@
 	"parent": "minecraft:block/orientable",
 	"textures": {
 		"front": "kubejs:block/crystal_chamber_active",
-		"side": "kubejs:block/multiblock_tier3",
-		"top": "kubejs:block/multiblock_tier3",
-		"bottom": "kubejs:block/multiblock_tier3"
+		"side": "kubejs:block/multiblock_tier_3",
+		"top": "kubejs:block/multiblock_tier_3",
+		"bottom": "kubejs:block/multiblock_tier_3"
 	}
 }

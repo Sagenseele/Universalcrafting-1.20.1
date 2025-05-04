@@ -355,7 +355,7 @@ ServerEvents.recipes(event => {
 
   // Multiblock Tier 1
   event.shaped(
-    Item.of('kubejs:frame_tier1', 1),
+    Item.of('kubejs:frame_tier_1', 1),
     [
       'A A',
       ' B ',
@@ -367,14 +367,14 @@ ServerEvents.recipes(event => {
     }
   )
   event.shaped(
-    Item.of('kubejs:multiblock_tier1', 1),
+    Item.of('kubejs:multiblock_tier_1', 1),
     [
       ' B ',
       'BAB',
       ' B '
     ],
     {
-      A: 'kubejs:frame_tier1',
+      A: 'kubejs:frame_tier_1',
       B: 'kubejs:blueish_plate'
     }
   )
@@ -399,7 +399,7 @@ ServerEvents.recipes(event => {
       'CBC'
     ],
     {
-      A: 'kubejs:multiblock_tier1',
+      A: 'kubejs:multiblock_tier_1',
       B: '#forge:ingots/steel',
       C: 'kubejs:blueish_rod'
     }
@@ -418,7 +418,7 @@ ServerEvents.recipes(event => {
     }
   )
   event.shaped(
-    Item.of('mbd2:item_input_tier1', 1),
+    Item.of('mbd2:item_input_tier_1', 1),
     [
       ' A ',
       'ABA',
@@ -431,7 +431,7 @@ ServerEvents.recipes(event => {
     }
   )
   event.shaped(
-    Item.of('mbd2:item_output_tier1', 1),
+    Item.of('mbd2:item_output_tier_1', 1),
     [
       ' A ',
       'ABA',
@@ -443,7 +443,7 @@ ServerEvents.recipes(event => {
     }
   )
   event.shaped(
-    Item.of('kubejs:coil_tier1', 1),
+    Item.of('kubejs:coil_tier_1', 1),
     [
       'AAA',
       'ABA',
@@ -457,7 +457,7 @@ ServerEvents.recipes(event => {
 
   // Multiblock Tier 2
   event.shaped(
-    Item.of('kubejs:frame_tier2', 1),
+    Item.of('kubejs:frame_tier_2', 1),
     [
       'A A',
       ' B ',
@@ -469,14 +469,14 @@ ServerEvents.recipes(event => {
     }
   )
   event.shaped(
-    Item.of('kubejs:multiblock_tier2', 1),
+    Item.of('kubejs:multiblock_tier_2', 1),
     [
       ' B ',
       'BAB',
       ' B '
     ],
     {
-      A: 'kubejs:frame_tier2',
+      A: 'kubejs:frame_tier_2',
       B: 'kubejs:yellow_plate'
     }
   )
@@ -494,7 +494,7 @@ ServerEvents.recipes(event => {
     }
   )
   event.shaped(
-    Item.of('mbd2:item_input_tier2', 1),
+    Item.of('mbd2:item_input_tier_2', 1),
     [
       ' A ',
       'ABA',
@@ -507,7 +507,7 @@ ServerEvents.recipes(event => {
     }
   )
   event.shaped(
-    Item.of('mbd2:item_output_tier2', 1),
+    Item.of('mbd2:item_output_tier_2', 1),
     [
       ' A ',
       'ABA',
@@ -519,7 +519,7 @@ ServerEvents.recipes(event => {
     }
   )
   event.shaped(
-    Item.of('mbd2:fluid_input_tier2', 1),
+    Item.of('mbd2:fluid_input_tier_2', 1),
     [
       ' A ',
       'ABA',
@@ -531,7 +531,7 @@ ServerEvents.recipes(event => {
     }
   )
   event.shaped(
-    Item.of('mbd2:energy_input_tier2', 1),
+    Item.of('mbd2:energy_input_tier_2', 1),
     [
       ' A ',
       'ABA',
@@ -545,7 +545,7 @@ ServerEvents.recipes(event => {
   // Multiblock Tier 3
   event.recipes.thermal.bottler('kubejs:turquoise_ingot', [Fluid.of('pneumaticcraft:plastic', 50), 'kubejs:yellow_ingot'])
   event.shaped(
-    Item.of('kubejs:frame_tier3', 1),
+    Item.of('kubejs:frame_tier_3', 1),
     [
       'A A',
       ' B ',
@@ -557,14 +557,14 @@ ServerEvents.recipes(event => {
     }
   )
   event.shaped(
-    Item.of('kubejs:multiblock_tier3', 1),
+    Item.of('kubejs:multiblock_tier_3', 1),
     [
       ' B ',
       'BAB',
       ' B '
     ],
     {
-      A: 'kubejs:frame_tier3',
+      A: 'kubejs:frame_tier_3',
       B: 'kubejs:turquoise_plate'
     }
   )
@@ -581,7 +581,7 @@ ServerEvents.recipes(event => {
     ],
     {
       A: 'kubejs:yellow_plate',
-      B: 'kubejs:coil_tier1'
+      B: 'kubejs:coil_tier_1'
     }
   )
 
