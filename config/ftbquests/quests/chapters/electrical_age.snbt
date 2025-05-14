@@ -1166,6 +1166,7 @@
 		}
 		{
 			dependencies: ["1445775C649FB704"]
+			icon: "mbd2:washing_facility"
 			id: "00963DDA358D49A4"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1203,7 +1204,7 @@
 				{
 					disable_toast: true
 					id: "1DA8178C2D03D4BE"
-					item: "mbd2:fluid_input_tier2"
+					item: "mbd2:fluid_input_tier_2"
 					type: "item"
 				}
 				{
@@ -1217,14 +1218,14 @@
 					count: 51L
 					disable_toast: true
 					id: "22F8DC4AABC0EC65"
-					item: "kubejs:multiblock_tier2"
+					item: "kubejs:multiblock_tier_2"
 					type: "item"
 				}
 				{
 					count: 24L
 					disable_toast: true
 					id: "024674DD1CA7619F"
-					item: "kubejs:frame_tier2"
+					item: "kubejs:frame_tier_2"
 					type: "item"
 				}
 			]

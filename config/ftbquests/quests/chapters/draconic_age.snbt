@@ -130,7 +130,7 @@
 				item: "mekanism:ultimate_control_circuit"
 				type: "item"
 			}]
-			x: 6.5d
+			x: 6.0d
 			y: 4.5d
 		}
 		{
@@ -226,8 +226,149 @@
 				item: "mekanism:ultimate_tier_installer"
 				type: "item"
 			}]
-			x: 6.5d
+			x: 6.0d
 			y: 6.0d
+		}
+		{
+			dependencies: ["26AE50F15E9F7A1F"]
+			id: "50F57D3199D12DAC"
+			tasks: [{
+				id: "2F44D9DE0717CC32"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: {
+									charge_armor: {
+										hud: 1b
+									}
+									charge_curios: {
+										hud: 1b
+									}
+									charge_held_item: {
+										hud: 1b
+									}
+									charge_hot_bar: {
+										hud: 1b
+									}
+									charge_main: {
+										hud: 1b
+									}
+								}
+								provider_id: [I;
+									1803482771
+									-1089712596
+									-1873261723
+									1353303400
+								]
+							}
+						}
+					}
+					id: "draconicevolution:chaotic_capacitor"
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4A5D642769323969"]
+			id: "26AE50F15E9F7A1F"
+			tasks: [{
+				id: "0423E085D592D90C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: {
+									charge_armor: {
+										hud: 1b
+									}
+									charge_curios: {
+										hud: 1b
+									}
+									charge_held_item: {
+										hud: 1b
+									}
+									charge_hot_bar: {
+										hud: 1b
+									}
+									charge_main: {
+										hud: 1b
+									}
+								}
+								provider_id: [I;
+									1451512374
+									-1551742320
+									-1979945273
+									-500262288
+								]
+							}
+						}
+					}
+					id: "draconicevolution:draconic_capacitor"
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["77C38C1971A0C76B"]
+			id: "4A5D642769323969"
+			tasks: [{
+				id: "679CEC905EB27C0B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: {
+									charge_armor: {
+										hud: 1b
+									}
+									charge_curios: {
+										hud: 1b
+									}
+									charge_held_item: {
+										hud: 1b
+									}
+									charge_hot_bar: {
+										hud: 1b
+									}
+									charge_main: {
+										hud: 1b
+									}
+								}
+								provider_id: [I;
+									-1625856648
+									-456962510
+									-2074329752
+									1633395020
+								]
+							}
+						}
+					}
+					id: "draconicevolution:wyvern_capacitor"
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 4.5d
 		}
 	]
 	title: "Draconic Age"
