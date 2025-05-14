@@ -93,6 +93,9 @@
     "advanced_auto_table": true,
     "compressor": true
   },
+  "hammerlib": {
+    "root": true
+  },
   "projecte": {
     "emc_provider": true
   },

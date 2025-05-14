@@ -250,11 +250,6 @@ ServerEvents.recipes(event => {
     }
   )
 
-
-
-
-
-
   // Water Wheel
   event.replaceInput(
     { output: 'create:water_wheel' },
@@ -947,19 +942,24 @@ ServerEvents.recipes(event => {
     'forbidden_arcanus:aurum_log'
   )
 
-  // Gateways
+  //Gateways
 
-    
-   
 
+  //Solar Flux
+  event.stonecutting('8x solarflux:mirror','1x kubejs:quartz_alloy_block')
+  event.replaceInput(
+    { output: 'solarflux:sp_2' },
+    '#forge:pistons',
+    'kubejs:electrical_machine_casing'
+  )
   //Misc
-    let recipes=[]
-  event.forEachRecipe({},r=>{
-   console.log("recipe",r.json.toString())
-  recipes.push(JSON.parse(r.json.toString()))
-  })
-  let recipe=JSON.stringify(recipes)
-  console.log(recipe)
+  
+  // LOGGER
+  //event.forEachRecipe({output: /mysticalagriculture:.*/}, r => {
+  //  console.log("recipe", r.json.toString())
+  //})
+  
+  
 
   // Cardboard
   event.recipes.thermal.press('create:cardboard', 'create:pulp')
@@ -980,7 +980,7 @@ ServerEvents.recipes(event => {
     'minecraft:diamond',
     'ad_astra:desh_ingot'
   )
-  
+
   // Prediction Matrix
   event.replaceInput(
     { output: 'hostilenetworks:prediction_matrix' },
