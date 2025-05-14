@@ -20,9 +20,9 @@ ServerEvents.recipes((event) => {
         {name:"evoker", data:6, ingredient: "8x minecraft:totem_of_undying"},
         {name:"pig", data:6, ingredient: "64x minecraft:apple"},
         {name:"mooshroom", data:6, ingredient: "64x minecraft:apple"},
-        {name:"iron_golem", data:6, ingredient: "64x minecraft:apple"},
+        {name:"iron_golem", data:6, ingredient: "64x minecraft:iron_block"},
         {name:"hoglin", data:6, ingredient: "64x minecraft:apple"},
-        {name:"drowned", data:6, ingredient: "64x kubejs:coil_tier1"},
+        {name:"drowned", data:6, ingredient: "64x kubejs:coil_tier_1"},
         {name:"chicken", data:6, ingredient: "64x minecraft:feather"},
         {name:"magma_cube", data:6, ingredient:"64x minecraft:magma_cream"},
         {name:"sheep", data:6, ingredient: "64x minecraft:apple"},
@@ -65,7 +65,7 @@ ServerEvents.recipes((event) => {
         {name:"twilightforest/winter_wolf", data:6, ingredient: "64x minecraft:apple"},
         {name:"twilightforest/wraith", data:6, ingredient: "64x minecraft:apple"},
         {name:"twilightforest/yeti", data:6, ingredient: "64x minecraft:apple"},
-        {name:"vindicator", data:6, ingredient: "64x minecraft:apple"}
+        {name:"vindicator", data:6, ingredient: "64x minecraft:emerald"}
     ]
 
     models.forEach(model => {
@@ -84,4 +84,11 @@ ServerEvents.recipes((event) => {
                 }
             }))
     });
+
+    event.recipes.mbd2.blast_furnace()
+        .id('mbd2:blast_furnace/quartz_alloy_block')
+        .duration(200)
+        .priority(0)
+        .inputItems('4x ae2:certus_quartz_crystal', '4x minecraft:quartz', '1x pneumaticcraft:plastic')
+        .outputItems('1x kubejs:quartz_alloy_block')
 })
