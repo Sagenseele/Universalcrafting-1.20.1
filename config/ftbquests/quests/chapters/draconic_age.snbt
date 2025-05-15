@@ -22,6 +22,15 @@
 			x: 7.0d
 			y: -2.5d
 		}
+		{
+			click: "#53D00AA8DAE00EC7"
+			height: 1.0d
+			image: "kubejs:item/infinity_token"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.5d
+			y: 5.5d
+		}
 	]
 	order_index: 5
 	quest_links: [ ]
@@ -232,6 +241,7 @@
 		{
 			dependencies: ["26AE50F15E9F7A1F"]
 			id: "50F57D3199D12DAC"
+			size: 1.5d
 			tasks: [{
 				id: "2F44D9DE0717CC32"
 				item: {
@@ -371,5 +381,5 @@
 			y: 4.5d
 		}
 	]
-	title: "Draconic Age"
+	title: "&l&5Draconic Age&r"
 }

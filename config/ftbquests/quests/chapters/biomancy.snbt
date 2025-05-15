@@ -1,0 +1,184 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "biomancy"
+	group: "007FE974211D2B02"
+	icon: "biomancy:primordial_cradle"
+	id: "265B22EB85D81087"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["61D44A53B8E85FD4"]
+			description: ["Use some &2raw meat&r and two &eHealth Potion I&r or one &eHealth Potion II&r on the &2Primordial Cradle&r to spawn a flesh blob. Feed it and &6kill&r it to get some &eliving flesh&r."]
+			id: "659E72D7222E3CEA"
+			tasks: [{
+				id: "5FDDFFBBA4DA4A35"
+				item: "biomancy:primordial_cradle"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			id: "61D44A53B8E85FD4"
+			tasks: [{
+				id: "7F9F4AE0EC301A88"
+				item: {
+					Count: 1
+					id: "biomancy:despoil_sickle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["61D44A53B8E85FD4"]
+			description: ["While holding the sickle in either hand, &6kill&r a fox, wolf or an ocelot to get &eSharp Fangs&r."]
+			id: "0B1227990E93072C"
+			tasks: [{
+				id: "2F032AB77CAB2BD2"
+				item: "biomancy:mob_fang"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["61D44A53B8E85FD4"]
+			id: "7E0826769DE2788E"
+			tasks: [{
+				id: "15752AEF7A2B9874"
+				item: "biomancy:mob_claw"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["61D44A53B8E85FD4"]
+			id: "0AEAF21AFD1FBC66"
+			tasks: [{
+				id: "579AAE2A71D2EF25"
+				item: "biomancy:mob_sinew"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["61D44A53B8E85FD4"]
+			id: "415F65C0F7FFC94F"
+			tasks: [{
+				id: "29AAC5DCE62BECAD"
+				item: "biomancy:mob_marrow"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["61D44A53B8E85FD4"]
+			id: "1A64ECEED032AE13"
+			tasks: [{
+				id: "09D338AB455264C2"
+				item: "biomancy:withered_mob_marrow"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["61D44A53B8E85FD4"]
+			id: "5E3A95F634F715E1"
+			tasks: [{
+				id: "7D7B0278A87B2748"
+				item: "biomancy:mob_gland"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["75FA801A926D74B2"]
+			id: "7E01C5ECF3A1D29F"
+			tasks: [{
+				id: "515CA814A3488892"
+				item: "biomancy:bio_lab"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7CD61DAA3648BEAE"]
+			id: "75FA801A926D74B2"
+			tasks: [{
+				id: "03AA4C2F7351FB07"
+				item: "biomancy:bio_forge"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["61D44A53B8E85FD4"]
+			id: "7D7B705E1EC35429"
+			tasks: [{
+				id: "13FB94FB043D2C78"
+				item: "biomancy:flesh_bits"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["659E72D7222E3CEA"]
+			id: "7CD61DAA3648BEAE"
+			tasks: [{
+				id: "28794354BD43370A"
+				item: "biomancy:living_flesh"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7CD61DAA3648BEAE"]
+			id: "71C0B87D392E11BF"
+			tasks: [{
+				id: "6A13F6DE23C58FA3"
+				item: "biomancy:decomposer"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["75FA801A926D74B2"]
+			id: "780F38BA45B3CBB0"
+			tasks: [{
+				id: "76CDEE9087C3555F"
+				item: "biomancy:creator_mix"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			id: "46562B909787FB48"
+			tasks: [{
+				id: "710F89B5D58AA108"
+				item: "biomancy:exotic_compound"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -3.5d
+		}
+	]
+	title: "Biomancy"
+}

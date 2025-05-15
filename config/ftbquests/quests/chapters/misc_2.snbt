@@ -289,8 +289,8 @@
 				item: "storagedrawers:drawer_key"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 4.0d
+			x: -1.0d
+			y: 2.5d
 		}
 		{
 			id: "38723085E65E3D8F"
@@ -318,7 +318,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: -3.5d
+			y: -4.0d
 		}
 		{
 			id: "59971A1DA15AC8FD"
@@ -333,8 +333,8 @@
 				title: "Ice Maze"
 				type: "structure"
 			}]
-			x: 6.0d
-			y: 2.0d
+			x: 5.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["59971A1DA15AC8FD"]
@@ -350,8 +350,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 6.5d
-			y: 3.5d
+			x: 5.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["59971A1DA15AC8FD"]
@@ -367,8 +367,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 7.5d
-			y: 2.5d
+			x: 6.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["59971A1DA15AC8FD"]
@@ -384,8 +384,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 8.0d
-			y: 4.0d
+			x: 7.0d
+			y: 2.5d
 		}
 		{
 			id: "2BDCA4985F99A0C3"
@@ -399,8 +399,8 @@
 				item: "storagedrawers:oak_full_drawers_1"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 3.0d
+			x: -1.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["2BDCA4985F99A0C3"]
@@ -415,8 +415,8 @@
 				item: "storagedrawers:controller"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 3.0d
+			x: -2.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["2BDCA4985F99A0C3"]
@@ -431,8 +431,8 @@
 				item: "storagedrawers:void_upgrade"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 4.0d
+			x: -2.0d
+			y: 2.5d
 		}
 		{
 			id: "79233C253C685681"
@@ -447,11 +447,16 @@
 				item: "botanypots:terracotta_hopper_botany_pot"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 2.5d
+			x: 2.5d
+			y: -2.5d
 		}
 		{
 			id: "3B707DE8CEA7626D"
+			rewards: [{
+				id: "5D1578060FABAB44"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "739FD3E9E391B40B"
 				item: "thermal:energy_duct"
@@ -462,6 +467,11 @@
 		}
 		{
 			id: "0670EAA353449AF9"
+			rewards: [{
+				id: "7EAFED06DEC1C53E"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4288A0804509515F"
 				item: "thermal:fluid_duct"
@@ -472,6 +482,11 @@
 		}
 		{
 			id: "0AA5E82EED8D8EAD"
+			rewards: [{
+				id: "0BE2B789C23AD587"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "110F4A6EB5C9365F"
 				item: "pipez:item_pipe"
@@ -482,6 +497,11 @@
 		}
 		{
 			id: "0200EB7677A6D731"
+			rewards: [{
+				id: "3168262BDB69AE40"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2550CACE59820D72"
 				item: "pipez:fluid_pipe"
@@ -492,6 +512,11 @@
 		}
 		{
 			id: "188FAFB540C9717B"
+			rewards: [{
+				id: "040D6011D60E4E3C"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6EA9CB9088CDB7E3"
 				item: "pipez:energy_pipe"
@@ -503,7 +528,7 @@
 		{
 			id: "1D5A0E2923D3D403"
 			rewards: [{
-				id: "7B5854BE96F29BF9"
+				id: "5E8C92F4AEA42CB1"
 				item: "kubejs:universal_badge"
 				type: "item"
 			}]
@@ -523,7 +548,7 @@
 			]
 			id: "29FA058EE1F64B8F"
 			rewards: [{
-				id: "62CEB6556BE63DC6"
+				id: "7A027551280DDD6E"
 				item: "kubejs:universal_badge"
 				type: "item"
 			}]
@@ -533,13 +558,14 @@
 				item: "enderio:energy_conduit"
 				type: "item"
 			}]
+			title: "&4BUG - Energy Conduits&r"
 			x: -5.5d
 			y: -0.5d
 		}
 		{
 			id: "334FDFC728DFECE5"
 			rewards: [{
-				id: "56A1EE93EF42D12C"
+				id: "3225AFE71A7AEA95"
 				item: "kubejs:universal_badge"
 				type: "item"
 			}]
@@ -554,7 +580,7 @@
 		{
 			id: "204E0A91D4BB65F5"
 			rewards: [{
-				id: "5780BD5B012C42E7"
+				id: "3013A3DDCE3989F1"
 				item: "kubejs:universal_badge"
 				type: "item"
 			}]
@@ -569,7 +595,7 @@
 		{
 			id: "3AF39D1C4A44B7FD"
 			rewards: [{
-				id: "1C78EA22220BFD7C"
+				id: "00CF24B2F3CA7729"
 				item: "kubejs:universal_badge"
 				type: "item"
 			}]
@@ -583,6 +609,11 @@
 		}
 		{
 			id: "1E16B811665E2C98"
+			rewards: [{
+				id: "62BE35937E452E3A"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1C2880191BD6BFAF"
 				item: "pipez:gas_pipe"
@@ -594,7 +625,7 @@
 		{
 			id: "56682BFD222BD020"
 			rewards: [{
-				id: "2A0BBD1B66C807C6"
+				id: "303EA0BDC6CC43C0"
 				item: "kubejs:universal_badge"
 				type: "item"
 			}]
@@ -609,7 +640,7 @@
 		{
 			id: "1FFA9E379AE35C4B"
 			rewards: [{
-				id: "79BCA9D4F1154EF3"
+				id: "1B01EB70EB158DA5"
 				item: "kubejs:universal_badge"
 				type: "item"
 			}]
@@ -639,8 +670,8 @@
 				}
 				type: "item"
 			}]
-			x: -0.5d
-			y: -0.5d
+			x: 0.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["6EF4A97259AF071E"]
@@ -655,8 +686,8 @@
 				item: "sophisticatedstorage:void_upgrade"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -1.5d
+			x: 1.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["6EF4A97259AF071E"]
@@ -671,8 +702,8 @@
 				item: "sophisticatedstorage:controller"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -1.5d
+			x: -0.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["699521E765A30C1E"]
@@ -687,8 +718,8 @@
 				item: "sophisticatedstorage:storage_input"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -2.5d
+			x: -0.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["699521E765A30C1E"]
@@ -703,8 +734,8 @@
 				item: "sophisticatedstorage:storage_output"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -1.5d
+			x: -1.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["6EF4A97259AF071E"]
@@ -719,84 +750,124 @@
 				item: "sophisticatedstorage:crafting_upgrade"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -2.0d
+			x: 0.5d
+			y: -1.0d
 		}
 		{
 			id: "60F2A8C0B00A1D7B"
+			rewards: [{
+				id: "1F8C05A75C6635E8"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			subtitle: "Thermal Machine Upgrades!"
 			tasks: [{
 				id: "5A0AD6026A4E100D"
 				item: "thermal:upgrade_augment_1"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -5.0d
+			x: -2.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["60F2A8C0B00A1D7B"]
 			id: "5094869D7188A3F3"
+			rewards: [{
+				id: "2CEB8CF0BB10057B"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "19CF779D83D8758B"
 				item: "thermal:upgrade_augment_2"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -6.0d
+			x: -2.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["5094869D7188A3F3"]
 			id: "1BE1AC86E84FA5EB"
+			rewards: [{
+				id: "4DA0335FD63207A5"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "012F3321C26B9E0F"
 				item: "thermal:upgrade_augment_3"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -5.0d
+			x: -1.5d
+			y: -3.0d
 		}
 		{
 			id: "7C76E98E598F44E1"
+			rewards: [{
+				id: "00670D7ACA912D4A"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "65E778DF62374DC5"
 				item: "mob_grinding_utils:saw"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 4.5d
 			y: -7.0d
 		}
 		{
 			id: "0B9BEA6420EE25B7"
+			rewards: [{
+				id: "100F18E0BF8F32A2"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "50FBEB8F5963FA2E"
 				item: "mob_grinding_utils:fan"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 5.0d
 			y: -8.0d
 		}
 		{
 			id: "0A08FBB82CEBCCD4"
+			rewards: [{
+				id: "508C4D4233206E13"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2801F39529C29401"
 				item: "mob_grinding_utils:tank_sink"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 4.0d
 			y: -8.0d
 		}
 		{
 			id: "25660DD1E97D90BC"
+			rewards: [{
+				id: "546A24C4154A4864"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2065F34CBBC200FC"
 				item: "mob_grinding_utils:gm_chicken_feed"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 4.5d
 			y: -9.0d
 		}
 		{
 			id: "3DCA368C8DFF6AB4"
+			rewards: [{
+				id: "0EA5510A91D79E9F"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "48CD8F1AC11FC8AF"
 				item: {
@@ -806,11 +877,16 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
-			y: -9.0d
+			x: 3.0d
+			y: -5.0d
 		}
 		{
 			id: "03718625C5221364"
+			rewards: [{
+				id: "769D23BF34AF4330"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "05B8533178C23CDB"
 				item: {
@@ -820,11 +896,16 @@
 				}
 				type: "item"
 			}]
-			x: -1.0d
-			y: -9.0d
+			x: 2.0d
+			y: -5.0d
 		}
 		{
 			id: "5871424370ADBE45"
+			rewards: [{
+				id: "6F0D89BA5FDBA77D"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0249FF3ED6EE6097"
 				item: "mekanism:basic_universal_cable"
@@ -835,6 +916,11 @@
 		}
 		{
 			id: "5F51E3D803739CBD"
+			rewards: [{
+				id: "0B97B84D3F74785D"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "36BEC57A18FB7B0B"
 				item: "mekanism:basic_mechanical_pipe"
@@ -845,6 +931,11 @@
 		}
 		{
 			id: "4AC704CB15659854"
+			rewards: [{
+				id: "32FB331D455E5F29"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3C7E572ED0CCCEA1"
 				item: "mekanism:basic_pressurized_tube"
@@ -855,6 +946,11 @@
 		}
 		{
 			id: "5A81DC518CDEB144"
+			rewards: [{
+				id: "551287444402319D"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "408A45DB89D907C1"
 				item: "mekanism:basic_logistical_transporter"
@@ -865,6 +961,11 @@
 		}
 		{
 			id: "438DE2B067466FC1"
+			rewards: [{
+				id: "7BAD0F5B5C307B94"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "164D7D235FB6D857"
 				item: "mekanism:basic_thermodynamic_conductor"
@@ -872,6 +973,306 @@
 			}]
 			x: -4.5d
 			y: 2.5d
+		}
+		{
+			id: "0CE2DF6CADB18A4A"
+			rewards: [{
+				id: "7842ABD74579DA4B"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "19358B64E00B049C"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0CE2DF6CADB18A4A"]
+			id: "2739834415B450F4"
+			rewards: [{
+				id: "30DB99DD805352A3"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "47843FF9B2864FF2"
+				item: "sophisticatedbackpacks:iron_backpack"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2739834415B450F4"]
+			id: "14EF6A61D9147852"
+			rewards: [{
+				id: "629D43D38D788D26"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "116FF939FC654246"
+				item: "sophisticatedbackpacks:gold_backpack"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["14EF6A61D9147852"]
+			id: "0705BDC16A2B689D"
+			rewards: [{
+				id: "5C3A22FD10A6BAAC"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "154D9F4A7C93DA2E"
+				item: "sophisticatedbackpacks:diamond_backpack"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0705BDC16A2B689D"]
+			id: "68B79D58DD962089"
+			rewards: [{
+				id: "1178C0EF205B9940"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "13FAB64F8CD8FBB6"
+				item: "sophisticatedbackpacks:netherite_backpack"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -6.0d
+		}
+		{
+			id: "58A1DAF4B6B7362D"
+			rewards: [{
+				id: "5F7024A2722EFA97"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7F531D6DDED95143"
+				item: {
+					Count: 1
+					id: "thermal:satchel"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -6.5d
+		}
+		{
+			id: "727A36C536929939"
+			rewards: [{
+				id: "1118CE42B190610A"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2557F3CECA0B3DC1"
+				item: "enderstorage:ender_pouch"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			id: "2EE74F6228F1331D"
+			rewards: [{
+				id: "42A1F12451D8A9C4"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6E2946E2D67DA7FC"
+				item: "botania:flower_bag"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -7.0d
+		}
+		{
+			id: "692EABE559B616A9"
+			rewards: [{
+				id: "5663AF6013D79C79"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3F0C6921BAC08BE2"
+				item: "toolbelt:pouch"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -8.0d
+		}
+		{
+			id: "62BE200B1684E486"
+			rewards: [{
+				id: "5BCD1B0280FCAB5C"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "77BB3D9362B33DCC"
+				item: "quark:seed_pouch"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -7.0d
+		}
+		{
+			id: "6931801D63C2F8D0"
+			rewards: [{
+				id: "3E2F52DB77CCAD43"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1947142707271D56"
+				item: {
+					Count: 1
+					id: "industrialforegoing:infinity_backpack"
+					tag: {
+						CanCharge: 1b
+						Energy: 0L
+						Selected: "POOR"
+						Special: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -9.5d
+		}
+		{
+			id: "6E778C52C53F25F4"
+			rewards: [{
+				id: "109D84EFCD6741BD"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5B5F739C15EAB974"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "travelersbackpack:custom_travelers_backpack"
+					}
+				}
+				title: "Any Travellers' Backpack"
+				type: "item"
+			}]
+			title: "Travellers Backpack"
+			x: 1.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["1C79F0D7996F8895"]
+			id: "2D00FF6926B55309"
+			rewards: [{
+				id: "70549D6D954566DD"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "45C0CA1333D30291"
+				item: "sophisticatedbackpacks:pickup_upgrade"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -10.0d
+		}
+		{
+			id: "1C79F0D7996F8895"
+			rewards: [{
+				id: "76E0A728CF6D913F"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "184991F18C9E2F11"
+				item: "sophisticatedbackpacks:upgrade_base"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["1C79F0D7996F8895"]
+			id: "3CB5AE958F1FD51B"
+			rewards: [{
+				id: "3F2CE316D3EA2058"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "64EAB0BFCBB850E7"
+				item: "sophisticatedbackpacks:feeding_upgrade"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["1C79F0D7996F8895"]
+			id: "192F9B921F72D134"
+			rewards: [{
+				id: "07E6F13340B88FFC"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6375C0B18E7BDF32"
+				item: "sophisticatedbackpacks:stack_upgrade_starter_tier"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["1C79F0D7996F8895"]
+			id: "4D70DF175038485F"
+			rewards: [{
+				id: "47F95FE65E44C79E"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3829391876A2175A"
+				item: "sophisticatedbackpacks:magnet_upgrade"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["1C79F0D7996F8895"]
+			id: "72A6A2C985A12903"
+			rewards: [{
+				id: "4D327A5F576FA329"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1D99769BBD1400C0"
+				item: "sophisticatedbackpacks:smithing_upgrade"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -7.5d
 		}
 	]
 	title: "Utility"

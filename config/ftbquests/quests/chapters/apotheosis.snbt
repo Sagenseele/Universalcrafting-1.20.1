@@ -973,6 +973,7 @@
 				"05FF9796CB8063A5"
 				"4E631A4819B50A18"
 			]
+			dependency_requirement: "one_completed"
 			id: "26C41ADBA549EED6"
 			rewards: [{
 				id: "6F8A8B837DF9CD7F"

@@ -54,7 +54,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: 18.0d
-			y: -2.5d
+			y: -3.0d
 		}
 	]
 	order_index: 0
@@ -143,7 +143,7 @@
 				item: "bloodmagic:magicianbloodorb"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 9.5d
 			y: -2.0d
 		}
 		{
@@ -170,6 +170,7 @@
 				item: "kubejs:universal_badge"
 				type: "item"
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "7047512CA7A80C6F"
 				item: "bloodmagic:archmagebloodorb"
@@ -719,6 +720,32 @@
 				type: "item"
 			}]
 			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3386BB1B8E96DDCA"]
+			icon_scale: 0.8d
+			id: "76F416B376BE0778"
+			rewards: [{
+				id: "497F0F7101713B69"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Unlocks &dBiomancy&r Chapter"
+			tasks: [{
+				id: "6FA439CC6D1DA3EF"
+				item: {
+					Count: 1
+					id: "biomancy:despoil_sickle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.0d
 			y: -2.0d
 		}
 	]

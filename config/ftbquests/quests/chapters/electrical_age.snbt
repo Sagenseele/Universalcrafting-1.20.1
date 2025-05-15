@@ -1405,6 +1405,29 @@
 			x: -6.5d
 			y: 2.5d
 		}
+		{
+			dependencies: ["2F7DDCAC3F2A55DD"]
+			id: "2945240888241730"
+			subtitle: "One of many"
+			tasks: [{
+				id: "60D8EADD0F7F913D"
+				item: "solarflux:sp_1"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["012C411B18208096"]
+			id: "1C18954BA4319F57"
+			tasks: [{
+				id: "2E0A7DB0A353C1DB"
+				item: "mbd2:mbd_gadgets"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 9.0d
+		}
 	]
-	title: "Electrical Age"
+	title: "&l&1Electrical Age"
 }

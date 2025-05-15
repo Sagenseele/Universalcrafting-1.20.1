@@ -552,14 +552,16 @@
 			y: -6.5d
 		}
 		{
+			dependencies: ["2CA8C43B77E48553"]
 			description: ["You can place a hopper above the cutting board to input items automatically."]
+			hide_dependency_lines: true
 			id: "030FEFD019AA9EB7"
 			rewards: [{
 				id: "29BDE5E2BD3ABCF6"
 				item: "kubejs:universal_badge"
 				type: "item"
 			}]
-			size: 1.25d
+			size: 1.0d
 			tasks: [{
 				id: "064566987544E790"
 				item: "farmersdelight:cutting_board"
@@ -846,5 +848,5 @@
 			y: -5.0d
 		}
 	]
-	title: "Industrial Age"
+	title: "&l&6Industrial Age"
 }

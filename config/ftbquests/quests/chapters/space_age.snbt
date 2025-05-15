@@ -129,20 +129,15 @@
 			y: -2.0d
 		}
 		{
-			dependencies: [
-				"4B195CEAECB36496"
-				"7A8F03CF163B1842"
-				"0A2189886DA0A765"
-				"4900644A102823ED"
-			]
+			dependencies: ["0822D70343B3C9B8"]
 			id: "7B3BBA692C7B2851"
 			tasks: [{
 				id: "043BFACB7F69C109"
 				item: "mbd2:magnetizer"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -10.0d
+			x: -5.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["7B3BBA692C7B2851"]
@@ -152,8 +147,8 @@
 				item: "ad_astra:calorite_nugget"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -9.5d
+			x: -7.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["7B3BBA692C7B2851"]
@@ -163,41 +158,8 @@
 				item: "ad_astra:ostrum_nugget"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -10.5d
-		}
-		{
-			dependencies: ["6EF6C744811172D7"]
-			id: "7A8F03CF163B1842"
-			tasks: [{
-				id: "2100C5A7DFB7AD83"
-				item: "kubejs:crushed_milothium"
-				type: "item"
-			}]
-			x: 2.5d
-			y: -10.5d
-		}
-		{
-			dependencies: ["6EF6C744811172D7"]
-			id: "0A2189886DA0A765"
-			tasks: [{
-				id: "101779C9DCF4497D"
-				item: "kubejs:crushed_darthium"
-				type: "item"
-			}]
-			x: 2.5d
-			y: -9.5d
-		}
-		{
-			dependencies: ["6EF6C744811172D7"]
-			id: "4B195CEAECB36496"
-			tasks: [{
-				id: "47197CE00DE234AC"
-				item: "kubejs:crushed_catericite"
-				type: "item"
-			}]
-			x: 2.5d
-			y: -8.5d
+			x: -7.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["3D92FC7109907464"]
@@ -207,8 +169,8 @@
 				item: "hostilenetworks:sim_chamber"
 				type: "item"
 			}]
-			x: 8.5d
-			y: -12.5d
+			x: -9.0d
+			y: -8.5d
 		}
 		{
 			dependencies: ["426CFE1736BC8A1E"]
@@ -223,17 +185,6 @@
 			}]
 			x: -0.5d
 			y: 0.0d
-		}
-		{
-			dependencies: ["6EF6C744811172D7"]
-			id: "4900644A102823ED"
-			tasks: [{
-				id: "5B6B8C89E2F3BC4A"
-				item: "kubejs:crushed_ecolinit"
-				type: "item"
-			}]
-			x: 2.5d
-			y: -11.5d
 		}
 		{
 			dependencies: ["1F0FDA98F543C26F"]
@@ -265,7 +216,7 @@
 				item: "ad_astra:calorite_ingot"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -2.5d
 			y: -8.0d
 		}
 		{
@@ -276,7 +227,7 @@
 				item: "ad_astra:etrium_ingot"
 				type: "item"
 			}]
-			x: -1.0d
+			x: -1.5d
 			y: -10.0d
 		}
 		{
@@ -347,8 +298,8 @@
 				item: "ad_astra:etrium_nugget"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -11.5d
+			x: -7.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["0822D70343B3C9B8"]
@@ -358,8 +309,8 @@
 				item: "kubejs:probe_mk_i"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -6.0d
+			x: -2.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["5B3B743084BC7402"]
@@ -380,8 +331,8 @@
 				item: "hostilenetworks:loot_fabricator"
 				type: "item"
 			}]
-			x: 8.5d
-			y: -7.5d
+			x: -9.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["7B3BBA692C7B2851"]
@@ -391,8 +342,8 @@
 				item: "ad_astra:desh_nugget"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -8.5d
+			x: -7.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["52EB5064E4394DC1"]
@@ -402,9 +353,9 @@
 				item: "hostilenetworks:prediction_matrix"
 				type: "item"
 			}]
-			x: 8.5d
-			y: -9.0d
+			x: -9.0d
+			y: -5.0d
 		}
 	]
-	title: "Space Age"
+	title: "&l&9Space Age&r"
 }
