@@ -56,13 +56,20 @@ ServerEvents.recipes(event => {
       ]
     ).damageIngredient(0).keepIngredient('kubejs:crushing_hammer')
   }
-
   function kubejs_crushing(name) {
     var crushed = 'kubejs:crushed_' + name
     var raw = 'kubejs:raw_' + name
     event.recipes.thermal.pulverizer(crushed, raw).energy(500)
     event.recipes.create.milling(crushed, raw)
     event.recipes.enderio.sag_milling([crushed], raw);
+    mekanism_crusher(crushed, raw)
+  }
+
+  function default_crushing(crushed, raw) {
+    event.recipes.thermal.pulverizer(crushed, raw).energy(500)
+    event.recipes.create.milling(crushed, raw)
+    event.recipes.enderio.sag_milling([crushed], raw);
+    mekanism_crusher(crushed, raw)
   }
 
   function default_plate(plate, ingot) {
@@ -102,8 +109,20 @@ ServerEvents.recipes(event => {
     event.recipes.enderio.alloy_smelting(result, [input1, input2, input3]).energy(energy)
   }
 
-  function default_pulverizer(result, energy, input1) {
-
+  function mekanism_crusher(output, input) {
+    event.custom(
+      {
+        type: "mekanism:crushing",
+        "input": {
+          "ingredient": {
+            "item": input
+          }
+        },
+        "output": {
+          "item": output
+        }
+      }
+    )
   }
 
   //advanced Material Data Card
@@ -564,6 +583,23 @@ ServerEvents.recipes(event => {
     }
   )
 
+  event.shaped(
+    Item.of('mbd2:magnetizer', 1),
+    [
+      ' B ',
+      'CDC',
+      'EFG'
+    ],
+    {
+      B: 'kubejs:turquoise_plate',
+      C: 'kubejs:coil_tier_1',
+      D: 'kubejs:electrical_machine_casing',
+      E: 'kubejs:electric_motor',
+      F: 'ad_astra:ostrum_block',
+      G: 'mekanism:advanced_induction_provider'
+    }
+  )
+
 
   // motorized frame
 
@@ -606,21 +642,6 @@ ServerEvents.recipes(event => {
       D: 'create:precision_mechanism'
     }
   )
-  // Brass F/Tunnel instead of Andesite F/Tunnel
-  event.replaceInput(
-    { output: 'create:brass_funnel' },
-    ['create:brass_ingot',
-      'create:electron_tube'],
-    'create:andesite_alloy'
-  )
-
-  event.replaceInput(
-    { output: 'create:brass_tunnel' },
-    ['create:brass_ingot',
-      'create:electron_tube'],
-    'create:andesite_alloy'
-  )
-
 
   // Cobblestone Generator
   event.shaped(
@@ -812,6 +833,12 @@ ServerEvents.recipes(event => {
   event.remove({ id: 'mekanism:control_circuit/elite' })
   event.recipes.powah.energizing(['mekanism:advanced_control_circuit', 'powah_niotic_crystal_block'], 'mekanism:elite_control_circuit', 50000)
 
+  // Ultimate
+  event.replaceInput(
+    { output: 'mekanism:ultimate_control_circuit' },
+    'mekanism:alloy_atomic',
+    'draconicevolution:wyvern_core'
+  )
   // Mekanism Advanced Tier Installer
   event.replaceInput(
     { output: 'mekanism:advanced_tier_installer' },
@@ -946,20 +973,20 @@ ServerEvents.recipes(event => {
 
 
   //Solar Flux
-  event.stonecutting('8x solarflux:mirror','1x kubejs:quartz_alloy_block')
+  event.stonecutting('8x solarflux:mirror', '1x kubejs:quartz_alloy_block')
   event.replaceInput(
     { output: 'solarflux:sp_2' },
     '#forge:pistons',
     'kubejs:electrical_machine_casing'
   )
   //Misc
-  
+
   // LOGGER
   //event.forEachRecipe({output: /mysticalagriculture:.*/}, r => {
   //  console.log("recipe", r.json.toString())
   //})
-  
-  
+
+
 
   // Cardboard
   event.recipes.thermal.press('create:cardboard', 'create:pulp')
