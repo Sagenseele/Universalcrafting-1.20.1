@@ -112,6 +112,7 @@ StartupEvents.registry('item', event => {
     event.create('trace_element_supremium').texture('kubejs:item/trace_element_supremium').displayName('Supremium Trace Element')
     event.create('advanced_material_data_card').texture('kubejs:item/advanced_material_data_card')
     event.create('bloody_data_card').texture('kubejs:item/bloody_data_card')
+    event.create('fleshy_data_card').texture('kubejs:item/fleshy_data_card')
     event.create('compressed_data_card').texture('kubejs:item/compressed_data_card')
     event.create('culinary_data_card').texture('kubejs:item/culinary_data_card')
     event.create('electricity_data_card').texture('kubejs:item/electricity_data_card')
