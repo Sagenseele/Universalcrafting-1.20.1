@@ -302,15 +302,15 @@
 			y: -7.5d
 		}
 		{
-			dependencies: ["0822D70343B3C9B8"]
+			dependencies: ["5C195BF8AE2B7BAC"]
 			id: "5BB8EA17A1644283"
 			tasks: [{
 				id: "0B0D643ADC39C9F0"
 				item: "kubejs:probe_mk_i"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -6.5d
+			x: -3.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["5B3B743084BC7402"]

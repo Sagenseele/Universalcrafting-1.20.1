@@ -548,8 +548,8 @@
 			]
 			id: "1AAB348292132F3F"
 			tasks: [{
-				id: "5B6F1F6029310286"
-				item: "kubejs:culinary_data_card"
+				id: "0DB2018B4A0EB8E8"
+				item: "kubejs:fleshy_data_card"
 				type: "item"
 			}]
 			x: -6.5d
