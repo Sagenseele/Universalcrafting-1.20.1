@@ -295,6 +295,25 @@
 			x: -4.5d
 			y: -2.5d
 		}
+		{
+			icon: "kubejs:relic_level_up"
+			id: "4668117820779534"
+			optional: true
+			rewards: [{
+				id: "5816F4B1B3CCF073"
+				item: "kubejs:relic_level_up"
+				type: "item"
+			}]
+			tasks: [{
+				count: 32L
+				id: "6CEDF0CE8832F377"
+				item: { Count: 32, id: "kubejs:universal_badge" }
+				type: "item"
+			}]
+			title: "Spacefarers' Boon"
+			x: -2.0d
+			y: -1.5d
+		}
 	]
 	title: "Shop"
 }
