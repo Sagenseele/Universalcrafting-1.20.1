@@ -15,7 +15,7 @@ ServerEvents.recipes(event => {
           Item.of(relic),
           [
             Item.of(relic),
-            'kubejs:relic_xp_tablet'
+            'kubejs:relic_level_up'
           ]).modifyResult((grid, result) => {
             let item = grid.find(relic)
             let nbt_data = item.getNbt()

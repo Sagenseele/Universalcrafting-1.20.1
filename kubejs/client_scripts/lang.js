@@ -23,6 +23,7 @@ ClientEvents.lang('en_us', event => {
     event.add('block.mbd2.crystal_chamber', 'Crystal Chamber')
     event.add('block.mbd2.model_computer', 'Model Computation Facility')
     event.renameItem('industrialforegoing:plastic', 'Bio-Plastic')
+    event.renameItem('kubejs:relic_level_up', 'Spacefarers\' Boon')
 
 })
 
