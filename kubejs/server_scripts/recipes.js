@@ -4,13 +4,8 @@ ServerEvents.recipes(event => {
   const dusts = ['thermal:tin_dust', 'thermal:silver_dust', 'thermal:copper_dust', 'thermal:nickel_dust', 'mekanism:dust_osmium', 'thermal:lead_dust', 'immersiveengineering:dust_uranium', 'thermal:gold_dust', 'thermal:iron_dust', 'thermal:tin_dust', 'immersiveengineering:dust_aluminum', 'thermal:nickel_dust', 'mekanism:dust_osmium']
 
 
-  function level_up_10() {
-    ['artifacts:snorkel',
-      'artifacts:villager_hat',
-      'artifacts:superstitious_hat',
-      'artifacts:anglers_hat',
-      'artifacts:lucky_scarf',
-      'artifacts:scarf_of_invisibility'].forEach(relic => {
+  function level_up_10(list) {
+    list.forEach(relic => {
         event.shapeless(
           Item.of(relic),
           [
@@ -29,7 +24,10 @@ ServerEvents.recipes(event => {
           })
       })
   }
-  level_up_10()
+  level_up_10(['artifacts:snorkel','artifacts:villager_hat','artifacts:superstitious_hat','artifacts:anglers_hat','artifacts:lucky_scarf','artifacts:scarf_of_invisibility'])
+
+  let relics = Ingredient.of(/^relics:(?!.*(researching|relic_experience))/).itemIds
+  level_up_10(relics)
 
   raw_materials.forEach((raw, index) =>
     manualCrushing(dusts[index], raw)
