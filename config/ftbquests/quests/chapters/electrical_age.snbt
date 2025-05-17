@@ -158,6 +158,14 @@
 			x: -2.0d
 			y: 7.0d
 		}
+		{
+			height: 2.0d
+			image: "kubejs:item/images/electrical-age"
+			rotation: 0.0d
+			width: 16.12d
+			x: -2.5d
+			y: 12.0d
+		}
 	]
 	order_index: 2
 	quest_links: [ ]

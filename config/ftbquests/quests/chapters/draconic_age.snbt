@@ -11,16 +11,16 @@
 			image: "draconicevolution:textures/gui/reactor/core.png"
 			rotation: 0.0d
 			width: 5.0d
-			x: -1.0d
-			y: -2.5d
+			x: 2.5d
+			y: -3.0d
 		}
 		{
 			height: 5.0d
 			image: "draconicevolution:textures/gui/light/fusion_slot.png"
 			rotation: 0.0d
 			width: 5.0d
-			x: 7.0d
-			y: -2.5d
+			x: 8.589285714285722d
+			y: -2.8928571428571423d
 		}
 		{
 			click: "#53D00AA8DAE00EC7"
@@ -43,8 +43,8 @@
 				item: "draconicevolution:reactor_stabilizer"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -4.5d
+			x: 2.5d
+			y: -5.0d
 		}
 		{
 			id: "604230DC3F471E94"
@@ -54,8 +54,8 @@
 				item: "draconicevolution:reactor_core"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -2.5d
+			x: 2.5d
+			y: -3.0d
 		}
 		{
 			id: "23C664AA238C41B5"
@@ -64,8 +64,8 @@
 				item: "draconicevolution:reactor_injector"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -0.5d
+			x: 2.5d
+			y: -1.0d
 		}
 		{
 			id: "664658B62C41A4CD"
@@ -84,8 +84,8 @@
 				item: "draconicevolution:basic_crafting_injector"
 				type: "item"
 			}]
-			x: 5.410714285714278d
-			y: -0.8928571428571459d
+			x: 7.0d
+			y: -1.2857142857142883d
 		}
 		{
 			id: "69FFC8A8224127E0"
@@ -95,8 +95,8 @@
 				item: "draconicevolution:crafting_core"
 				type: "item"
 			}]
-			x: 7.017857142857132d
-			y: -2.5d
+			x: 8.607142857142854d
+			y: -2.8928571428571423d
 		}
 		{
 			dependencies: ["1EE5EEC8E1B4128F"]
@@ -106,8 +106,8 @@
 				item: "draconicevolution:awakened_crafting_injector"
 				type: "item"
 			}]
-			x: 8.624999999999993d
-			y: -4.107142857142858d
+			x: 10.214285714285715d
+			y: -4.5d
 		}
 		{
 			dependencies: ["1AA9A1D4176090A3"]
@@ -117,8 +117,8 @@
 				item: "draconicevolution:wyvern_crafting_injector"
 				type: "item"
 			}]
-			x: 5.410714285714278d
-			y: -4.107142857142858d
+			x: 7.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["5828CE73FB5979DF"]
@@ -128,8 +128,8 @@
 				item: "draconicevolution:chaotic_crafting_injector"
 				type: "item"
 			}]
-			x: 8.624999999999993d
-			y: -0.9285714285714235d
+			x: 10.214285714285715d
+			y: -1.3214285714285658d
 		}
 		{
 			dependencies: ["77C38C1971A0C76B"]

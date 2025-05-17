@@ -56,6 +56,14 @@
 			x: 18.0d
 			y: -3.0d
 		}
+		{
+			height: 2.0d
+			image: "kubejs:item/images/blood-magic"
+			rotation: 0.0d
+			width: 12.88d
+			x: 5.0d
+			y: -8.0d
+		}
 	]
 	order_index: 0
 	quest_links: [ ]

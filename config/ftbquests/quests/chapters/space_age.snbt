@@ -9,6 +9,14 @@
 		tag: { }
 	}
 	id: "3A72CCF0ADECE560"
+	images: [{
+		height: 1.6d
+		image: "kubejs:item/images/space-age"
+		rotation: 0.0d
+		width: 8.8d
+		x: -8.0d
+		y: -10.5d
+	}]
 	order_index: 3
 	quest_links: [ ]
 	quests: [

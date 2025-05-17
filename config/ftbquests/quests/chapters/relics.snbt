@@ -25,27 +25,35 @@
 		}
 	}
 	id: "3AEEB63846AAB628"
+	images: [
+		{
+			height: 2.0d
+			image: "kubejs:item/images/relics"
+			rotation: 0.0d
+			width: 7.54d
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			height: 2.0d
+			image: "kubejs:item/images/artifacts"
+			rotation: 0.0d
+			width: 10.88d
+			x: 11.5d
+			y: 1.5d
+		}
+		{
+			height: 2.0d
+			image: "kubejs:item/images/and"
+			rotation: 0.0d
+			width: 2.28d
+			x: 5.5d
+			y: 0.0d
+		}
+	]
 	order_index: 4
 	quest_links: [ ]
 	quests: [
-		{
-			icon_scale: 0.8d
-			id: "7A40C81FA284F3D2"
-			invisible: true
-			rewards: [{
-				id: "6100BEBDECC22FF1"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
-			size: 1.25d
-			tasks: [{
-				id: "0FBBCFCC93AADD25"
-				item: "relics:relic_experience_bottle"
-				type: "item"
-			}]
-			x: -3.625d
-			y: 2.125d
-		}
 		{
 			icon_scale: 0.8d
 			id: "1638A512C31504DF"
@@ -1097,8 +1105,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.375d
-			y: 5.625d
+			x: -3.607142857142854d
+			y: 2.125d
 		}
 		{
 			icon_scale: 0.8d
