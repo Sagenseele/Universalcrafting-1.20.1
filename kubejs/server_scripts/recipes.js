@@ -467,6 +467,20 @@ ServerEvents.recipes(event => {
     }
   )
 
+  event.shaped(
+    Item.of('mbd2:multiplex_hatch_mark_1', 1),
+    [
+      ' C ',
+      ' A ',
+      'BBB'
+    ],
+    {
+      A: 'mysticalagriculture:prudentium_ingot_block',
+      B: 'kubejs:multiblock_tier_1',
+      C: 'ae2:crafting_accelerator'
+    }
+  )
+
   // Multiblock Tier 2
   event.shaped(
     Item.of('kubejs:frame_tier_2', 1),
@@ -554,6 +568,20 @@ ServerEvents.recipes(event => {
       B: 'minecraft:redstone_block'
     }
   )
+
+  event.shaped(
+    Item.of('mbd2:multiplex_hatch_mark_2', 1),
+    [
+      ' C ',
+      ' A ',
+      'BBB'
+    ],
+    {
+      A: 'mysticalagriculture:tertium_ingot_block',
+      B: 'kubejs:multiblock_tier_2',
+      C: 'ae2:crafting_accelerator'
+    }
+  )
   // Multiblock Tier 3
   event.recipes.thermal.bottler('kubejs:turquoise_ingot', [Fluid.of('pneumaticcraft:plastic', 50), 'kubejs:yellow_ingot'])
   event.shaped(
@@ -598,7 +626,19 @@ ServerEvents.recipes(event => {
     }
   )
 
-
+  event.shaped(
+    Item.of('mbd2:multiplex_hatch_mark_3', 1),
+    [
+      ' C ',
+      ' A ',
+      'BBB'
+    ],
+    {
+      A: 'mysticalagriculture:imperium_ingot_block',
+      B: 'kubejs:multiblock_tier_3',
+      C: 'ae2:crafting_accelerator'
+    }
+  )
   // motorized frame
 
   event.shaped(
