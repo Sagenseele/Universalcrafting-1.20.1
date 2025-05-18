@@ -58,9 +58,9 @@
 		}
 		{
 			height: 2.0d
-			image: "kubejs:item/images/blood-magic"
+			image: "kubejs:item/images/blood_magic"
 			rotation: 0.0d
-			width: 12.88d
+			width: 12.880503144654089d
 			x: 5.0d
 			y: -8.0d
 		}
@@ -70,6 +70,7 @@
 	quests: [
 		{
 			dependencies: ["7A1C76596F111A92"]
+			disable_toast: true
 			hide_until_deps_complete: true
 			icon: "bloodmagic:altar"
 			id: "1F4A0441461B7D12"

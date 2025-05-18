@@ -1304,8 +1304,8 @@
 				type: "observation"
 			}]
 			title: "Spawner"
-			x: 5.5d
-			y: -3.0d
+			x: 6.5d
+			y: 0.5d
 		}
 	]
 	title: "Apotheosis"

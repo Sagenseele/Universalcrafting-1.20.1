@@ -32,6 +32,7 @@
 		}
 		{
 			dependencies: ["4E8852849B2AE129"]
+			icon: "minecraft:oak_log"
 			id: "135FEC8E09C68EB0"
 			rewards: [{
 				id: "1BC7390229A23ABD"
@@ -40,9 +41,17 @@
 			}]
 			tasks: [{
 				id: "6A338D61061D18F2"
-				item: "minecraft:oak_log"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				title: "Any #minecraft:logs"
 				type: "item"
 			}]
+			title: "Any Log"
 			x: -1.5d
 			y: 0.5d
 		}
@@ -126,6 +135,7 @@
 				item: "bloodmagic:altar"
 				type: "item"
 			}]
+			title: "&4Blood Altar"
 			x: 6.0625d
 			y: -0.1607142857142847d
 		}
@@ -310,11 +320,18 @@
 				"&oThey gave me a &epiece of dirt&r &oand left me with my &2Matter Extraction Device&r&o. Despite its' simple nature, it should help me in my endeavours.&r"
 			]
 			id: "4E8852849B2AE129"
-			rewards: [{
-				id: "7C0EF030ADCB7316"
-				item: "minecraft:dirt"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "7C0EF030ADCB7316"
+					item: "minecraft:dirt"
+					type: "item"
+				}
+				{
+					id: "42DA35D8B35D58CD"
+					item: "minecraft:oak_sapling"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "446587635ABE4CAD"
 				type: "checkmark"
@@ -322,6 +339,195 @@
 			title: "Stranded on a planet"
 			x: -4.0d
 			y: -0.5d
+		}
+		{
+			dependencies: [
+				"27B3EEFC7BE79211"
+				"030FEFD019AA9EB7"
+			]
+			description: ["&oFresh tea leaves. Makes me remember my home where I chucked some tea almost everyday. It was a pleasure then. I hope I find a way to make me some tea again.&r"]
+			id: "48FBE98368A0D438"
+			rewards: [{
+				id: "6D63BF5656A2ECE3"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "073EC1E3DC840695"
+				item: "delightful:green_tea_leaf"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["48FBE98368A0D438"]
+			description: ["&oIt hurts my soul to sacrifice my beloved tea leaves, but for now I need the dye. With some Water Essence I could make kelp and therefore cooked kelp, which is not as delicious as tea, but better than starving to death.&r"]
+			id: "614746BDE83A205E"
+			rewards: [{
+				id: "40AD7415A5500DF1"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "753819A224B212BD"
+				item: "minecraft:green_dye"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["135FEC8E09C68EB0"]
+			description: [
+				"&oWith some planks and sticks I can make a cutting board, which helps preparing some meals or other other purposes.&r"
+				""
+				"You can place a hopper above the cutting board to input items automatically."
+			]
+			id: "030FEFD019AA9EB7"
+			rewards: [{
+				id: "29BDE5E2BD3ABCF6"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "064566987544E790"
+				item: "farmersdelight:cutting_board"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5AB028534AC6ECF5"]
+			id: "06B32FE435519E72"
+			rewards: [{
+				id: "311B0850C1034894"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Unlocks &dBotania&r Chapter"
+			tasks: [{
+				id: "0F04684A0ABD280B"
+				item: "botania:apothecary_default"
+				type: "item"
+			}]
+			title: "&2Petal Apothecary"
+			x: 6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["614746BDE83A205E"]
+			id: "423E9F0B412F16B4"
+			rewards: [{
+				id: "3D18143A6487F8D1"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "26CC00BEA5ACDD06"
+				item: "minecraft:kelp"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["423E9F0B412F16B4"]
+			id: "192F1E8EE9B1E1EA"
+			rewards: [{
+				id: "77FB1DF7F54C4D93"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6FEC4D57E515ABA1"
+				item: "minecraft:dried_kelp"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["614746BDE83A205E"]
+			id: "1E6DA3CA610416B1"
+			rewards: [{
+				id: "28A3394D09207B21"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "67608AAAE54F5733"
+				item: "botania:fertilizer"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1E6DA3CA610416B1"]
+			icon: "botania:red_mystical_flower"
+			id: "5AB028534AC6ECF5"
+			rewards: [{
+				id: "37D8278B64813125"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "251E984D2F7133BE"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "botania:mystical_flowers"
+					}
+				}
+				title: "Any #botania:mystical_flowers"
+				type: "item"
+			}]
+			title: "Mystical Flowers"
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["135FEC8E09C68EB0"]
+			description: [
+				"&oI need to create my own farm in order to survive. I think a hoe will come in handy to till the lands.&r"
+				""
+				"If you put a &ehoe&r in your &eoff-hand&r and sneak you will create additional grow ticks, which will make saplings and plants &2grow faster&r."
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:wooden_hoe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "27B3EEFC7BE79211"
+			rewards: [{
+				id: "3892619BAD42E3B9"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0AB33B46BF60330A"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:hoes"
+					}
+				}
+				title: "Any #forge:hoes"
+				type: "item"
+			}]
+			title: "Hoes"
+			x: -1.5d
+			y: 2.5d
 		}
 	]
 	title: "&l&2Introduction"

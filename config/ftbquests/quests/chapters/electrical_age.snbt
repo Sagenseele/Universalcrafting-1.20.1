@@ -160,9 +160,9 @@
 		}
 		{
 			height: 2.0d
-			image: "kubejs:item/images/electrical-age"
+			image: "kubejs:item/images/electrical_age"
 			rotation: 0.0d
-			width: 16.12d
+			width: 16.125984251968504d
 			x: -2.5d
 			y: 12.0d
 		}

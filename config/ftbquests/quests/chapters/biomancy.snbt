@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "biomancy"
 	group: "007FE974211D2B02"
+	hide_quest_until_deps_visible: true
 	icon: "biomancy:primordial_cradle"
 	id: "265B22EB85D81087"
 	order_index: 4
@@ -22,6 +23,7 @@
 		}
 		{
 			dependencies: ["76F416B376BE0778"]
+			hide_until_deps_complete: true
 			id: "61D44A53B8E85FD4"
 			tasks: [{
 				id: "7F9F4AE0EC301A88"

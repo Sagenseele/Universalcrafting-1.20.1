@@ -3,12 +3,15 @@
 	default_quest_shape: ""
 	filename: "botania"
 	group: "007FE974211D2B02"
+	hide_quest_until_deps_visible: true
 	icon: "botania:apothecary_default"
 	id: "1B6B09623D483DD3"
 	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["06B32FE435519E72"]
+			hide_until_deps_complete: true
 			id: "0AF2FE192BE0715D"
 			rewards: [
 				{

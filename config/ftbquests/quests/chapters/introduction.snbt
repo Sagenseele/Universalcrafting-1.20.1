@@ -170,6 +170,7 @@
 			y: -1.0d
 		}
 		{
+			description: ["Create a Team for yourself or others to join. Use the /ftbteams party invite command to invite others to your team. Quest data is shared between team members."]
 			id: "0F7343E6B43B6387"
 			optional: true
 			rewards: [{

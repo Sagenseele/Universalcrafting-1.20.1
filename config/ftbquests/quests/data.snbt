@@ -11,6 +11,7 @@
 	emergency_items: [
 		{ Count: 1, id: "kubejs:simple_matter_extraction_device" }
 		{ Count: 1, id: "minecraft:dirt" }
+		{ Count: 4, id: "minecraft:oak_sapling" }
 	]
 	emergency_items_cooldown: 300
 	grid_scale: 0.5d
