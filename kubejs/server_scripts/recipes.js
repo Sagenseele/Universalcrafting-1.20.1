@@ -262,8 +262,8 @@ ServerEvents.recipes(event => {
       'BBB'
     ],
     {
-      A: 'mysticalagriculture:dirt_essence',
-      B: '#minecraft:logs'
+      A: '#minecraft:logs',
+      B: 'mysticalagriculture:dirt_essence'
     }
   )
 
@@ -1024,7 +1024,22 @@ ServerEvents.recipes(event => {
   //  console.log("recipe", r.json.toString())
   //})
 
+  // Kelp
 
+  // Tea Leaves
+  event.recipes.farmersdelight.cutting('#minecraft:saplings', '#forge:tools/knives', ['1x delightful:green_tea_leaf'])
+
+  // Kelp
+  event.shaped(
+    Item.of('minecraft:kelp', 2),
+    [
+      'ABA'
+    ],
+    {
+      A: 'mysticalagriculture:dirt_essence',
+      B: 'minecraft:green_dye',
+    }
+  )
 
   // Cardboard
   event.recipes.thermal.press('create:cardboard', 'create:pulp')
