@@ -1,0 +1,2 @@
+[*]
+extra_quest_shapes: diamond, pentagon, hexagon, octagon, heart, gear, devil
