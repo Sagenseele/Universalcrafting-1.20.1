@@ -11,20 +11,9 @@
 	quests: [
 		{
 			dependencies: ["06B32FE435519E72"]
+			disable_toast: true
 			hide_until_deps_complete: true
 			id: "0AF2FE192BE0715D"
-			rewards: [
-				{
-					id: "36BAEF11FCA2F900"
-					item: "botania:lexicon"
-					type: "item"
-				}
-				{
-					id: "1BC61129CF4EACD5"
-					item: "kubejs:universal_badge"
-					type: "item"
-				}
-			]
 			tasks: [{
 				id: "591B7875F3CD97D4"
 				item: "botania:apothecary_default"
@@ -390,29 +379,6 @@
 			}]
 			x: 2.0d
 			y: -4.0d
-		}
-		{
-			dependencies: ["0AF2FE192BE0715D"]
-			description: ["&oI found a way to infuse the simple gateway pearl I produced earlier into a special Gateway Pearl. If I can endure the trial and be victorious. I think the reward is some &2livestock&r&o, which I need desperately.&r"]
-			id: "37E46535A384521B"
-			rewards: [{
-				id: "397317459F995548"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
-			tasks: [{
-				id: "5FD2EED991D546C9"
-				item: {
-					Count: 1
-					id: "gateways:gate_pearl"
-					tag: {
-						gateway: "gateways:emerald_grove"
-					}
-				}
-				type: "item"
-			}]
-			x: -3.0d
-			y: -0.5d
 		}
 	]
 	title: "Botania"

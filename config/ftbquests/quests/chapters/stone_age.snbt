@@ -188,7 +188,7 @@
 		}
 		{
 			dependencies: ["4FA8C9D3999330D8"]
-			description: ["Some simple geological formation, nearly dirt but not as dirty and maybe it has some resources I can use."]
+			description: ["&oSome simple geological formation, nearly dirt but not as dirty and maybe it has some resources I can use."]
 			id: "7735286F9FF3CDFF"
 			rewards: [{
 				id: "47BF73BAD63EF882"
@@ -403,11 +403,18 @@
 		{
 			dependencies: ["5AB028534AC6ECF5"]
 			id: "06B32FE435519E72"
-			rewards: [{
-				id: "311B0850C1034894"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "65F8801B628EE951"
+					item: "botania:lexicon"
+					type: "item"
+				}
+				{
+					id: "2AD34B319668CEF2"
+					item: "kubejs:universal_badge"
+					type: "item"
+				}
+			]
 			shape: "gear"
 			size: 1.5d
 			subtitle: "Unlocks &dBotania&r Chapter"
@@ -417,7 +424,7 @@
 				type: "item"
 			}]
 			title: "&2Petal Apothecary"
-			x: 6.5d
+			x: 6.0d
 			y: 3.0d
 		}
 		{
@@ -429,12 +436,13 @@
 				type: "item"
 			}]
 			tasks: [{
+				count: 6L
 				id: "26CC00BEA5ACDD06"
 				item: "minecraft:kelp"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 5.0d
+			x: 1.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["423E9F0B412F16B4"]
@@ -445,12 +453,13 @@
 				type: "item"
 			}]
 			tasks: [{
+				count: 6L
 				id: "6FEC4D57E515ABA1"
 				item: "minecraft:dried_kelp"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 5.5d
+			x: 3.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["614746BDE83A205E"]
@@ -466,7 +475,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 3.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["1E6DA3CA610416B1"]
@@ -490,8 +499,8 @@
 				type: "item"
 			}]
 			title: "Mystical Flowers"
-			x: 4.5d
-			y: 3.0d
+			x: 4.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["135FEC8E09C68EB0"]
@@ -528,6 +537,34 @@
 			title: "Hoes"
 			x: -1.5d
 			y: 2.5d
+		}
+		{
+			dependencies: [
+				"06B32FE435519E72"
+				"7A1C76596F111A92"
+			]
+			description: ["&oI found a way to infuse the simple gateway pearl I produced earlier into a special Gateway Pearl. If I can endure the trial and be victorious. I think the reward is some &2livestock&r&o, which I need desperately.&r"]
+			id: "37E46535A384521B"
+			rewards: [{
+				id: "397317459F995548"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			shape: "devil"
+			size: 1.25d
+			tasks: [{
+				id: "5FD2EED991D546C9"
+				item: {
+					Count: 1
+					id: "gateways:gate_pearl"
+					tag: {
+						gateway: "gateways:emerald_grove"
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
 		}
 	]
 	title: "&l&2Introduction"
