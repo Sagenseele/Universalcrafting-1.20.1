@@ -1,0 +1,50 @@
+{
+  "additional_requirements": {
+    "forge_tier": 2
+  },
+  "essences": {
+    "aureal": 82,
+    "blood": 1000,
+    "experience": 0,
+    "souls": 1
+  },
+  "inputs": [
+    {
+      "amount": 1,
+      "ingredient": {
+        "type": "forge:nbt",
+        "item": "ironjetpacks:capacitor",
+        "nbt": "{Id:\"ironjetpacks:bronze\"}"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "type": "forge:nbt",
+        "item": "ironjetpacks:thruster",
+        "nbt": "{Id:\"ironjetpacks:bronze\"}"
+      }
+    },
+    {
+      "amount": 4,
+      "ingredient": {
+        "tag": "forge:storage_blocks/bronze"
+      }
+    }
+  ],
+  "main_ingredient": {
+    "type": "forge:nbt",
+    "item": "ironjetpacks:jetpack",
+    "nbt": "{Id:\"ironjetpacks:copper\"}"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "Count": 1,
+      "id": "ironjetpacks:jetpack",
+      "tag": {
+        "Id": "ironjetpacks:bronze"
+      }
+    }
+  }
+}
