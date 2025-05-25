@@ -28,4 +28,8 @@ StartupEvents.registry('block', event => {
     kubejs_ore('catericite')
     kubejs_ore('darthium')
     kubejs_ore('ecolinit')
+    kubejs_ore('platinum')
+    kubejs_ore('titanium')
+    kubejs_ore('mangan')
+    kubejs_ore('cobalt')
 })

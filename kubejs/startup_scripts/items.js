@@ -18,31 +18,31 @@ StartupEvents.registry('item', event => {
 
     function raw (name) {
         var raw = 'raw_' + name 
-        event.create(raw).texture('kubejs:item/' + raw)
+        event.create(raw).texture('kubejs:item/' + raw).tag("forge:raw_materials/" + name)
     }
     function crushed (name) {
         var crushed = 'crushed_' + name 
-        event.create(crushed).texture('kubejs:item/' + crushed)
+        event.create(crushed).texture('kubejs:item/' + crushed).tag("forge:crushed_raw_materials/" + name)
     }
     function ingot (name) {
         var ingot = name + '_ingot'
-        event.create(ingot).texture('kubejs:item/' + ingot)
+        event.create(ingot).texture('kubejs:item/' + ingot).tag("forge:ingots/" + name)
     }
     function plate (name) {
         var plate = name + '_plate'
-        event.create(plate).texture('kubejs:item/' + plate)
+        event.create(plate).texture('kubejs:item/' + plate).tag("forge:plates/" + name)
     }
     function rod (name) {
         var rod = name + '_rod'
-        event.create(rod).texture('kubejs:item/' + rod)
+        event.create(rod).texture('kubejs:item/' + rod).tag("forge:rods/" + name)
     }
     function dust (name) {
         var dust = name + '_dust'
-        event.create(dust).texture('kubejs:item/' + dust)
+        event.create(dust).texture('kubejs:item/' + dust).tag("forge:dusts/" + name)
     }
     function nugget (name) {
         var nugget = name + '_nugget'
-        event.create(nugget).texture('kubejs:item/' + nugget)
+        event.create(nugget).texture('kubejs:item/' + nugget).tag("forge:nuggets/" + name)
     }
 
     function standard_material(name) {
@@ -91,6 +91,11 @@ StartupEvents.registry('item', event => {
     standard_ore('mangan')
     standard_ore('cobalt')
     standard_ore('platinum')
+
+    crushed('antimatter')
+    ingot('antimatter')
+
+    ingot('infinitum')
     
     event.create('wood_splinter').texture('kubejs:item/wood_splinter')
     event.create('rotor').texture('kubejs:item/rotor')
