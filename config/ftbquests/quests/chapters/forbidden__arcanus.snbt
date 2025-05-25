@@ -28,8 +28,8 @@
 				item: "forbidden_arcanus:aurum_sapling"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 1.0d
+			x: 0.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["4D760CD654E28125"]
@@ -91,11 +91,14 @@
 				item: "forbidden_arcanus:deorum_ingot"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -0.5d
+			x: 0.0d
+			y: 2.5d
 		}
 		{
-			dependencies: ["06581950221710F7"]
+			dependencies: [
+				"06581950221710F7"
+				"3D8B798A46AD5763"
+			]
 			description: ["There are &e14&r different tiers of jetpacks."]
 			id: "400B4EE39205D383"
 			rewards: [{
@@ -104,7 +107,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "3C25E612A16215BD"
+				id: "01E45C0172962C75"
 				item: {
 					Count: 1
 					id: "ironjetpacks:jetpack"
@@ -115,8 +118,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.1428571428571459d
-			y: -1.830357142857153d
+			x: -2.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["06581950221710F7"]
@@ -132,8 +135,8 @@
 				item: "reliquary:mob_charm_belt"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -2.0d
+			x: 4.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["06581950221710F7"]
@@ -151,8 +154,8 @@
 				type: "item"
 			}]
 			title: "Heart Amulet"
-			x: 4.642857142857139d
-			y: 0.5d
+			x: 5.6785714285714235d
+			y: 1.0d
 		}
 		{
 			dependencies: ["67E45A1B7C971527"]
@@ -168,8 +171,8 @@
 				item: { Count: 10, id: "bhc:red_heart_canister" }
 				type: "item"
 			}]
-			x: 5.642857142857139d
-			y: -0.5d
+			x: 6.6785714285714235d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5A03E0DC2CD49A59"]
@@ -185,8 +188,8 @@
 				item: { Count: 10, id: "bhc:yellow_heart_canister" }
 				type: "item"
 			}]
-			x: 6.142857142857139d
-			y: 0.5d
+			x: 7.1785714285714235d
+			y: 1.0d
 		}
 		{
 			dependencies: ["1DFA525DD43BAC05"]
@@ -202,8 +205,8 @@
 				item: { Count: 10, id: "bhc:green_heart_canister" }
 				type: "item"
 			}]
-			x: 5.75d
-			y: 1.5892857142857153d
+			x: 6.785714285714285d
+			y: 2.0892857142857153d
 		}
 		{
 			dependencies: ["3BD2F2915C36695C"]
@@ -219,8 +222,8 @@
 				item: { Count: 10, id: "bhc:blue_heart_canister" }
 				type: "item"
 			}]
-			x: 4.642857142857139d
-			y: 2.125d
+			x: 5.6785714285714235d
+			y: 2.625d
 		}
 		{
 			dependencies: ["2921570C34D393F3"]
@@ -236,8 +239,339 @@
 				item: { Count: 10, id: "bhc:soul_heart_canister" }
 				type: "item"
 			}]
-			x: 3.4642857142857153d
-			y: 1.6339285714285694d
+			x: 4.5d
+			y: 2.1339285714285694d
+		}
+		{
+			dependencies: ["06581950221710F7"]
+			id: "3D8B798A46AD5763"
+			tasks: [{
+				id: "78AB841819C40837"
+				item: "forbidden_arcanus:artisan_relic"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["06581950221710F7"]
+			description: [
+				"The Hephaestus Forge comes in 5 different tiers. When you first create it, it will be tier 1 which is enough for simple rituals but won't suffice for executing more advanced rituals. Upgrading your Forge tier will allow you to store a larger number of essences in the Hephaestus Forge and thus allow you to execute new rituals."
+				""
+				"The upgrading needs to be started with special upgrading rituals. Unlike default rituals, these won't create a result item, but advance your Hephaestus Forge by one tier after they have been completed."
+				""
+				"Click on the link in the picture below to get more information about the forge."
+			]
+			icon: "forbidden_arcanus:hephaestus_forge"
+			id: "415D4A65EBD272AB"
+			shape: "octagon"
+			size: 1.25d
+			title: "Hephaestus Forge Tier I"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["415D4A65EBD272AB"]
+			description: [
+				"The Hephaestus Forge comes in 5 different tiers. When you first create it, it will be tier 1 which is enough for simple rituals but won't suffice for executing more advanced rituals. Upgrading your Forge tier will allow you to store a larger number of essences in the Hephaestus Forge and thus allow you to execute new rituals."
+				""
+				"The upgrading needs to be started with special upgrading rituals. Unlike default rituals, these won't create a result item, but advance your Hephaestus Forge by one tier after they have been completed."
+				""
+				"Click on the link in the picture below to get more information about the forge."
+			]
+			icon: "forbidden_arcanus:hephaestus_forge"
+			id: "4B19CA35F30BFAF4"
+			shape: "octagon"
+			size: 1.25d
+			title: "Hephaestus Forge Tier I"
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4B19CA35F30BFAF4"]
+			description: [
+				"The Hephaestus Forge comes in 5 different tiers. When you first create it, it will be tier 1 which is enough for simple rituals but won't suffice for executing more advanced rituals. Upgrading your Forge tier will allow you to store a larger number of essences in the Hephaestus Forge and thus allow you to execute new rituals."
+				""
+				"The upgrading needs to be started with special upgrading rituals. Unlike default rituals, these won't create a result item, but advance your Hephaestus Forge by one tier after they have been completed."
+				""
+				"Click on the link in the picture below to get more information about the forge."
+			]
+			icon: "forbidden_arcanus:hephaestus_forge"
+			id: "7BAA380D277307E1"
+			shape: "octagon"
+			size: 1.25d
+			title: "Hephaestus Forge Tier I"
+			x: 1.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["7BAA380D277307E1"]
+			description: [
+				"The Hephaestus Forge comes in 5 different tiers. When you first create it, it will be tier 1 which is enough for simple rituals but won't suffice for executing more advanced rituals. Upgrading your Forge tier will allow you to store a larger number of essences in the Hephaestus Forge and thus allow you to execute new rituals."
+				""
+				"The upgrading needs to be started with special upgrading rituals. Unlike default rituals, these won't create a result item, but advance your Hephaestus Forge by one tier after they have been completed."
+				""
+				"Click on the link in the picture below to get more information about the forge."
+			]
+			icon: "forbidden_arcanus:hephaestus_forge"
+			id: "04C1800BC7618BF7"
+			shape: "octagon"
+			size: 1.25d
+			title: "Hephaestus Forge Tier I"
+			x: 1.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["400B4EE39205D383"]
+			description: [""]
+			id: "69A726A46EC5648D"
+			rewards: [{
+				id: "7AA26EEE99877D12"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "40E06415743CC322"
+				item: {
+					Count: 1
+					id: "ironjetpacks:jetpack"
+					tag: {
+						Id: "ironjetpacks:stone"
+						Throttle: 1.0d
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["69A726A46EC5648D"]
+			id: "6893C11F6FCFE86D"
+			tasks: [{
+				id: "60DD50990EA240DB"
+				item: {
+					Count: 1
+					id: "ironjetpacks:jetpack"
+					tag: {
+						Id: "ironjetpacks:copper"
+						Throttle: 1.0d
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"415D4A65EBD272AB"
+				"6893C11F6FCFE86D"
+			]
+			id: "23DEE377A0D605AB"
+			tasks: [{
+				id: "52FB629F35574F44"
+				item: {
+					Count: 1
+					id: "ironjetpacks:jetpack"
+					tag: {
+						Id: "ironjetpacks:bronze"
+						Throttle: 1.0d
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["23DEE377A0D605AB"]
+			id: "24A29863C9F9EFD1"
+			tasks: [{
+				id: "73C87194D0BE4046"
+				item: {
+					Count: 1
+					id: "ironjetpacks:jetpack"
+					tag: {
+						Id: "ironjetpacks:iron"
+						Throttle: 1.0d
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["24A29863C9F9EFD1"]
+			id: "088064CCA0DD4914"
+			tasks: [{
+				id: "2E1D57B1E542E7BF"
+				item: {
+					Count: 1
+					id: "ironjetpacks:jetpack"
+					tag: {
+						Id: "ironjetpacks:silver"
+						Throttle: 1.0d
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"4B19CA35F30BFAF4"
+				"088064CCA0DD4914"
+			]
+			id: "2FEEB9C8ACC01340"
+			tasks: [{
+				id: "3DFB94C2125F13BB"
+				item: {
+					Count: 1
+					id: "ironjetpacks:jetpack"
+					tag: {
+						Id: "ironjetpacks:gold"
+						Throttle: 1.0d
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2FEEB9C8ACC01340"]
+			id: "41EFA591CDDD2BCC"
+			tasks: [{
+				id: "474B34F2FAAE0CA7"
+				item: {
+					Count: 1
+					id: "ironjetpacks:jetpack"
+					tag: {
+						Id: "ironjetpacks:electrum"
+						Throttle: 1.0d
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["41EFA591CDDD2BCC"]
+			id: "4195F9DE5DAA67CF"
+			tasks: [{
+				id: "5C576F486135DCDB"
+				item: {
+					Count: 1
+					id: "ironjetpacks:jetpack"
+					tag: {
+						Id: "ironjetpacks:invar"
+						Throttle: 1.0d
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"7BAA380D277307E1"
+				"4195F9DE5DAA67CF"
+			]
+			id: "53877D1E1C5C1A57"
+			tasks: [{
+				id: "34F9FD8D1B413E3F"
+				item: {
+					Count: 1
+					id: "ironjetpacks:jetpack"
+					tag: {
+						Id: "ironjetpacks:steel"
+						Throttle: 1.0d
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["53877D1E1C5C1A57"]
+			id: "337978F5B8C88EBD"
+			tasks: [{
+				id: "0B1039562FAE55FD"
+				item: {
+					Count: 1
+					id: "ironjetpacks:jetpack"
+					tag: {
+						Id: "ironjetpacks:diamond"
+						Throttle: 1.0d
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["337978F5B8C88EBD"]
+			id: "3A4656D3D57C097D"
+			tasks: [{
+				id: "31910B2CEB282DD9"
+				item: {
+					Count: 1
+					id: "ironjetpacks:jetpack"
+					tag: {
+						Id: "ironjetpacks:platinum"
+						Throttle: 1.0d
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -10.0d
+		}
+		{
+			dependencies: [
+				"3A4656D3D57C097D"
+				"04C1800BC7618BF7"
+			]
+			id: "4C8F854FE04B293E"
+			tasks: [{
+				id: "4BADF61EE70E7628"
+				item: {
+					Count: 1
+					id: "ironjetpacks:jetpack"
+					tag: {
+						Id: "ironjetpacks:emerald"
+						Throttle: 1.0d
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["4C8F854FE04B293E"]
+			id: "253A72B513F09C6E"
+			tasks: [{
+				id: "2789A689821C5039"
+				item: {
+					Count: 1
+					id: "ironjetpacks:jetpack"
+					tag: {
+						Id: "ironjetpacks:netherite"
+						Throttle: 1.0d
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -12.0d
 		}
 	]
 	title: "Forbidden \\& Arcanus"

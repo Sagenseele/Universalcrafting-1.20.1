@@ -362,7 +362,7 @@
 		}
 		{
 			dependencies: ["48FBE98368A0D438"]
-			description: ["&oIt hurts my soul to sacrifice my beloved tea leaves, but for now I need the dye. With some Water Essence I could make kelp and therefore cooked kelp, which is not as delicious as tea, but better than starving to death.&r"]
+			description: ["&oIt hurts my soul to sacrifice my beloved tea leaves, but for now I need the dye. With some Water Essence I could make kelp and therefore dried kelp, which is not as delicious as tea, but better than starving to death.&r"]
 			id: "614746BDE83A205E"
 			rewards: [{
 				id: "40AD7415A5500DF1"
@@ -541,7 +541,7 @@
 		{
 			dependencies: [
 				"06B32FE435519E72"
-				"7A1C76596F111A92"
+				"3769A09966F7D776"
 			]
 			description: ["&oI found a way to infuse the simple gateway pearl I produced earlier into a special Gateway Pearl. If I can endure the trial and be victorious. I think the reward is some &2livestock&r&o, which I need desperately.&r"]
 			id: "37E46535A384521B"
@@ -563,9 +563,25 @@
 				}
 				type: "item"
 			}]
+			x: 8.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7A1C76596F111A92"]
+			description: [
+				"Can be used to craft these Gateways:"
+				""
+				"{ \"text\": \"Gateway of the Emerald Grove\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"37E46535A384521B\" } }"
+			]
+			id: "3769A09966F7D776"
+			tasks: [{
+				id: "37F9C39F4CA05610"
+				item: "kubejs:simple_gateway_core"
+				type: "item"
+			}]
 			x: 7.5d
-			y: 1.5d
+			y: 1.0d
 		}
 	]
-	title: "&l&2Introduction"
+	title: "&l&3Introduction"
 }

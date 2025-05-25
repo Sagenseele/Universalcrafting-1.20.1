@@ -38,6 +38,16 @@
 			x: 8.0d
 			y: -10.0d
 		}
+		{
+			click: "#2EA5315E1FCC977A"
+			height: 0.8d
+			hover: ["Lava can be obtained via the Lava Sigil in Blood Magic"]
+			image: "bloodmagic:item/lavasigil"
+			rotation: 0.0d
+			width: 0.8d
+			x: -1.0d
+			y: -2.0d
+		}
 	]
 	order_index: 1
 	quest_links: [ ]
@@ -91,7 +101,13 @@
 				"48AF2A3A4CB1AC9E"
 				"3F6E0421CBB60E0C"
 			]
-			description: ["The Main source for resources."]
+			description: [
+				"&oI got a marvelous idea! Those crushing wheels reminded me of some machines we used to break materials down to their raw resources, which could be processed further. If I remember correctly it takes a lot of effort, but I think it will be worth it. My first mechanical monstrous machine!&r"
+				""
+				"Your first roadblock, use the &6Kinetic Crusher&r to &egenerate Resources&r. It takes &9a lot&r of &1blueish ingots&r to craft, but if provided with enough rotational force and stress, you can generate some resources depending on the input material."
+				""
+				"I would advise you to automate the creation of gravel. If you struggle to find a good design, look at the Schematics quest and the website I linked there."
+			]
 			icon: "mbd2:kinetic_crusher"
 			id: "34D115B6E61D1234"
 			rewards: [{
@@ -135,13 +151,13 @@
 					type: "item"
 				}
 				{
-					count: 34L
+					count: 23L
 					id: "1D9C699709CA8172"
 					item: "kubejs:multiblock_tier_1"
 					type: "item"
 				}
 				{
-					count: 24L
+					count: 11L
 					id: "55CB4037E23A4931"
 					item: "kubejs:frame_tier_1"
 					type: "item"
@@ -177,17 +193,25 @@
 		}
 		{
 			dependencies: ["46C0E33966D05CC5"]
+			icon: "create:mechanical_press"
 			id: "52CCCBA9EF914842"
 			rewards: [{
 				id: "2D71150D9A262522"
 				item: "kubejs:universal_badge"
 				type: "item"
 			}]
-			tasks: [{
-				id: "141C7D713859DAD2"
-				item: "create:mechanical_press"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "141C7D713859DAD2"
+					item: "create:mechanical_press"
+					type: "item"
+				}
+				{
+					id: "0BF791BE3FB2A552"
+					item: "create:depot"
+					type: "item"
+				}
+			]
 			x: 1.5d
 			y: -5.0d
 		}
@@ -219,6 +243,7 @@
 				type: "item"
 			}]
 			tasks: [{
+				count: 4L
 				id: "73E3629201D5D020"
 				item: "thermal:steel_ingot"
 				type: "item"
@@ -368,13 +393,13 @@
 			id: "46C0E33966D05CC5"
 			rewards: [
 				{
-					count: 4
+					count: 5
 					id: "2B823A7D9A5971EA"
 					item: "create:cogwheel"
 					type: "item"
 				}
 				{
-					count: 2
+					count: 5
 					id: "75DC19BFBB024333"
 					item: "create:large_cogwheel"
 					type: "item"
@@ -396,11 +421,23 @@
 		{
 			dependencies: ["46C0E33966D05CC5"]
 			id: "0675EFF9361D5C01"
-			rewards: [{
-				id: "02F4A5DC9006D996"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "02F4A5DC9006D996"
+					item: "kubejs:universal_badge"
+					type: "item"
+				}
+				{
+					id: "513CDDF5BEA7E7E0"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					id: "0DC3216C1990E31E"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "6AED58FADC4DC596"
 				item: "create:large_water_wheel"
@@ -430,7 +467,7 @@
 				item: "silentgear:blueprint_paper"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 4.5d
 			y: -3.5d
 		}
 		{
@@ -451,33 +488,68 @@
 		}
 		{
 			dependencies: ["52CCCBA9EF914842"]
+			icon: "create:encased_fan"
 			id: "377886B31A4BEB4D"
 			rewards: [{
 				id: "37A0A4EE38C2C95A"
 				item: "kubejs:universal_badge"
 				type: "item"
 			}]
-			tasks: [{
-				id: "0DA0722B0424DA5A"
-				item: "create:encased_fan"
-				type: "item"
-			}]
-			x: 3.0d
+			tasks: [
+				{
+					id: "0DA0722B0424DA5A"
+					item: "create:encased_fan"
+					type: "item"
+				}
+				{
+					id: "62DF36F3F6688EF0"
+					item: "create:depot"
+					type: "item"
+				}
+				{
+					id: "74E53CF77EE7785C"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+			]
+			x: 1.5d
 			y: -6.5d
 		}
 		{
 			dependencies: ["46C0E33966D05CC5"]
+			icon: "create:crushing_wheel"
 			id: "5072F80080915A61"
+			progression_mode: "linear"
 			rewards: [{
 				id: "7EFCE3D426C40C21"
 				item: "kubejs:universal_badge"
 				type: "item"
 			}]
-			tasks: [{
-				id: "313766F55352525F"
-				item: "create:crushing_wheel"
-				type: "item"
-			}]
+			tasks: [
+				{
+					count: 2L
+					id: "313766F55352525F"
+					item: "create:crushing_wheel"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "67E3F53BF1CC8716"
+					item: { Count: 2, id: "create:cogwheel" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "7438BC4B75E7E457"
+					item: { Count: 2, id: "create:shaft" }
+					type: "item"
+				}
+				{
+					id: "7E1E92AF1CA856BE"
+					item: "create:belt_connector"
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: -5.0d
 		}
@@ -541,7 +613,7 @@
 				item: "minecraft:paper"
 				type: "item"
 			}]
-			x: 6.5d
+			x: 6.0d
 			y: -5.0d
 		}
 		{
@@ -558,7 +630,7 @@
 				item: "farmersdelight:tree_bark"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 4.5d
 			y: -6.5d
 		}
 		{
@@ -575,7 +647,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -3.5d
+			y: -5.0d
 		}
 		{
 			dependencies: [
@@ -593,7 +665,7 @@
 				item: "create:crushed_raw_iron"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 0.0d
 			y: -8.0d
 		}
 		{
@@ -627,7 +699,7 @@
 				match_nbt: false
 				type: "item"
 			}]
-			x: 6.5d
+			x: 6.0d
 			y: -3.5d
 		}
 		{
@@ -800,7 +872,9 @@
 				""
 				"https://createmod.com/schematics"
 				""
-				"Write the schematic in the table, place it in the world and put the written schematic into a Schematicannon to build the structure automatically, providing the blocks in a adjacent chest."
+				"Put the schematic in the table and save a downloaded or previously saved structure, then place the hologram in the world. Put the schematic into a Schematicannon. To build the structure automatically, provide the blocks in an adjacent chest. The Schematiccannon will tell you which blocks are missing."
+				""
+				"&cThe Steam Engine may crash the client if placed by the Schematiccannon. To be safe place this block manually in your schematic. If you experience another crash by a block, reach out to me on github.&r"
 			]
 			icon: "create:empty_schematic"
 			id: "662E7ACC0897CD7D"
@@ -831,12 +905,31 @@
 				{
 					disable_toast: true
 					id: "649D0A3354C4C0B7"
-					item: "quark:oak_chest"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:chests"
+						}
+					}
+					title: "Any #forge:chests"
 					type: "item"
 				}
 			]
 			title: "SCHEMATIC GO!"
-			x: 5.0d
+			x: 4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5072F80080915A61"]
+			description: ["Chutes Drop 16 items at maximum at a time. They are especially usefull to put items in and out of the crushing wheels. Extracts from the inventory above or insert in the inventory below."]
+			id: "08A5193D16056744"
+			tasks: [{
+				id: "73EE875778A69E43"
+				item: "create:chute"
+				type: "item"
+			}]
+			x: -1.5d
 			y: -5.0d
 		}
 	]
