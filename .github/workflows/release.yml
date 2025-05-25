@@ -1,5 +1,3 @@
-# This is a basic workflow that is manually triggered
-
 name: Create release
 
 on:
@@ -12,16 +10,15 @@ permissions:
 
 jobs:
   release:
-    name: Release latest
+    name: Release pushed tag
     runs-on: ubuntu-latest
     steps:
-      - name: Create Release
+      - name: Create release
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN}}
-          tag: ${{ github.reg_name }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          tag: ${{ github.ref_name }}
         run: |
           gh release create "$tag" \
-            --repo"$GITHUB_REPOSITORY" \
-            --title="${tag#v} \
-            --generate-notes
-      
+              --repo="$GITHUB_REPOSITORY" \
+              --title="${tag#v}" \
+              --generate-notes
