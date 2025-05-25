@@ -15,5 +15,5 @@
 	#Enable default recipes for Capacitors?
 	capacitors = true
 	#Enable default recipes for Jetpacks?
-	jetpacks = true
+	jetpacks = false
 

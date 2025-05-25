@@ -5,7 +5,7 @@
   "color": "ee825b",
   "armorPoints": 2,
   "enchantability": 12,
-  "craftingMaterial": "minecraft:copper_ingot",
+  "craftingMaterial": "tag:forge:ingots/copper",
   "creative": false,
   "rarity": 0,
   "toughness": 0.0,

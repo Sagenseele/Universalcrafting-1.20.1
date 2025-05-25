@@ -6,25 +6,25 @@ ServerEvents.recipes(event => {
 
   function level_up_10(list) {
     list.forEach(relic => {
-        event.shapeless(
+      event.shapeless(
+        Item.of(relic),
+        [
           Item.of(relic),
-          [
-            Item.of(relic),
-            'kubejs:relic_level_up'
-          ]).modifyResult((grid, result) => {
-            let item = grid.find(relic)
-            let nbt_data = item.getNbt()
-            if (nbt_data['leveling'] === undefined) { nbt_data['leveling'] = { experience: 0, level: 0, points: 0 } }
-            if (nbt_data.leveling['level'] === undefined) { nbt_data['leveling']['level'] = 0; nbt_data['leveling']['points'] = 0 }
-            if (nbt_data.leveling.level < 10) {
-              nbt_data.leveling.level = nbt_data.leveling.level + 1
-              nbt_data.leveling.points = nbt_data.leveling.points + 1
-            }
-            return result.withNBT(nbt_data)
-          })
-      })
+          'kubejs:relic_level_up'
+        ]).modifyResult((grid, result) => {
+          let item = grid.find(relic)
+          let nbt_data = item.getNbt()
+          if (nbt_data['leveling'] === undefined) { nbt_data['leveling'] = { experience: 0, level: 0, points: 0 } }
+          if (nbt_data.leveling['level'] === undefined) { nbt_data['leveling']['level'] = 0; nbt_data['leveling']['points'] = 0 }
+          if (nbt_data.leveling.level < 10) {
+            nbt_data.leveling.level = nbt_data.leveling.level + 1
+            nbt_data.leveling.points = nbt_data.leveling.points + 1
+          }
+          return result.withNBT(nbt_data)
+        })
+    })
   }
-  level_up_10(['artifacts:snorkel','artifacts:villager_hat','artifacts:superstitious_hat','artifacts:anglers_hat','artifacts:lucky_scarf','artifacts:scarf_of_invisibility'])
+  level_up_10(['artifacts:snorkel', 'artifacts:villager_hat', 'artifacts:superstitious_hat', 'artifacts:anglers_hat', 'artifacts:lucky_scarf', 'artifacts:scarf_of_invisibility'])
 
   let relics = Ingredient.of(/^relics:(?!.*(researching|relic_experience))/).itemIds
   level_up_10(relics)
@@ -344,7 +344,7 @@ ServerEvents.recipes(event => {
   // Blueish
   event.recipes.create.milling('thermal:iron_dust', '#forge:ingots/iron')
   event.shapeless(
-    Item.of('kubejs:blueish_dust', 2),
+    Item.of('kubejs:blueish_dust', 5),
     [
       '3x thermal:lapis_dust',
       '2x #forge:dusts/iron'
@@ -1007,7 +1007,13 @@ ServerEvents.recipes(event => {
     'forbidden_arcanus:aurum_log'
   )
 
-  //Gateways
+  //Thermal
+  // Dynamos
+  event.replaceInput(
+    { output: /thermal:dynamo_.*/ },
+    /thermal:.*_gear/,
+    'thermal:machine_frame'
+  )
 
 
   //Solar Flux
@@ -1023,8 +1029,6 @@ ServerEvents.recipes(event => {
   //event.forEachRecipe({output: /mysticalagriculture:.*/}, r => {
   //  console.log("recipe", r.json.toString())
   //})
-
-  // Kelp
 
   // Tea Leaves
   event.recipes.farmersdelight.cutting('#minecraft:saplings', '#forge:tools/knives', ['1x delightful:green_tea_leaf'])
