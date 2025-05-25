@@ -6,25 +6,25 @@ ServerEvents.recipes(event => {
 
   function level_up_10(list) {
     list.forEach(relic => {
-        event.shapeless(
+      event.shapeless(
+        Item.of(relic),
+        [
           Item.of(relic),
-          [
-            Item.of(relic),
-            'kubejs:relic_level_up'
-          ]).modifyResult((grid, result) => {
-            let item = grid.find(relic)
-            let nbt_data = item.getNbt()
-            if (nbt_data['leveling'] === undefined) { nbt_data['leveling'] = { experience: 0, level: 0, points: 0 } }
-            if (nbt_data.leveling['level'] === undefined) { nbt_data['leveling']['level'] = 0; nbt_data['leveling']['points'] = 0 }
-            if (nbt_data.leveling.level < 10) {
-              nbt_data.leveling.level = nbt_data.leveling.level + 1
-              nbt_data.leveling.points = nbt_data.leveling.points + 1
-            }
-            return result.withNBT(nbt_data)
-          })
-      })
+          'kubejs:relic_level_up'
+        ]).modifyResult((grid, result) => {
+          let item = grid.find(relic)
+          let nbt_data = item.getNbt()
+          if (nbt_data['leveling'] === undefined) { nbt_data['leveling'] = { experience: 0, level: 0, points: 0 } }
+          if (nbt_data.leveling['level'] === undefined) { nbt_data['leveling']['level'] = 0; nbt_data['leveling']['points'] = 0 }
+          if (nbt_data.leveling.level < 10) {
+            nbt_data.leveling.level = nbt_data.leveling.level + 1
+            nbt_data.leveling.points = nbt_data.leveling.points + 1
+          }
+          return result.withNBT(nbt_data)
+        })
+    })
   }
-  level_up_10(['artifacts:snorkel','artifacts:villager_hat','artifacts:superstitious_hat','artifacts:anglers_hat','artifacts:lucky_scarf','artifacts:scarf_of_invisibility'])
+  level_up_10(['artifacts:snorkel', 'artifacts:villager_hat', 'artifacts:superstitious_hat', 'artifacts:anglers_hat', 'artifacts:lucky_scarf', 'artifacts:scarf_of_invisibility'])
 
   let relics = Ingredient.of(/^relics:(?!.*(researching|relic_experience))/).itemIds
   level_up_10(relics)
@@ -1007,7 +1007,13 @@ ServerEvents.recipes(event => {
     'forbidden_arcanus:aurum_log'
   )
 
-  //Gateways
+  //Thermal
+  // Dynamos
+  event.replaceInput(
+    { output: /thermal:dynamo_.*/ },
+    /thermal:.*_gear/,
+    'thermal:machine_frame'
+  )
 
 
   //Solar Flux
