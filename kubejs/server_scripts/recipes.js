@@ -344,7 +344,7 @@ ServerEvents.recipes(event => {
   // Blueish
   event.recipes.create.milling('thermal:iron_dust', '#forge:ingots/iron')
   event.shapeless(
-    Item.of('kubejs:blueish_dust', 2),
+    Item.of('kubejs:blueish_dust', 5),
     [
       '3x thermal:lapis_dust',
       '2x #forge:dusts/iron'
@@ -1023,8 +1023,6 @@ ServerEvents.recipes(event => {
   //event.forEachRecipe({output: /mysticalagriculture:.*/}, r => {
   //  console.log("recipe", r.json.toString())
   //})
-
-  // Kelp
 
   // Tea Leaves
   event.recipes.farmersdelight.cutting('#minecraft:saplings', '#forge:tools/knives', ['1x delightful:green_tea_leaf'])
