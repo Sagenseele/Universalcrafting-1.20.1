@@ -3,6 +3,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	default_repeatable_quest: true
+	disable_toast: true
 	filename: "shop"
 	group: ""
 	icon: "kubejs:universal_badge"

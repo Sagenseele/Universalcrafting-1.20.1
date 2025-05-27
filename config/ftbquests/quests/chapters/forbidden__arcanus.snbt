@@ -29,7 +29,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 4.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["4D760CD654E28125"]
@@ -43,7 +43,7 @@
 			icon: "forbidden_arcanus:hephaestus_forge"
 			id: "06581950221710F7"
 			shape: "octagon"
-			size: 1.25d
+			size: 1.0d
 			tasks: [
 				{
 					count: 48L
@@ -81,7 +81,7 @@
 			]
 			title: "Hephaestus Forge Tier I"
 			x: 1.5d
-			y: 0.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["78AA8E997221A3C6"]
@@ -92,13 +92,10 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 2.5d
+			y: -0.5d
 		}
 		{
-			dependencies: [
-				"06581950221710F7"
-				"3D8B798A46AD5763"
-			]
+			dependencies: ["06581950221710F7"]
 			description: ["There are &e14&r different tiers of jetpacks."]
 			id: "400B4EE39205D383"
 			rewards: [{
@@ -118,8 +115,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
-			y: 1.0d
+			x: 1.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["06581950221710F7"]
@@ -135,8 +132,8 @@
 				item: "reliquary:mob_charm_belt"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -0.5d
+			x: 2.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["06581950221710F7"]
@@ -250,8 +247,8 @@
 				item: "forbidden_arcanus:artisan_relic"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 2.5d
+			x: 0.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["06581950221710F7"]
@@ -265,10 +262,10 @@
 			icon: "forbidden_arcanus:hephaestus_forge"
 			id: "415D4A65EBD272AB"
 			shape: "octagon"
-			size: 1.25d
+			size: 1.0d
 			title: "Hephaestus Forge Tier I"
-			x: 1.5d
-			y: -3.0d
+			x: 4.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["415D4A65EBD272AB"]
@@ -282,10 +279,10 @@
 			icon: "forbidden_arcanus:hephaestus_forge"
 			id: "4B19CA35F30BFAF4"
 			shape: "octagon"
-			size: 1.25d
+			size: 1.0d
 			title: "Hephaestus Forge Tier I"
-			x: 1.5d
-			y: -6.0d
+			x: 7.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["4B19CA35F30BFAF4"]
@@ -299,10 +296,10 @@
 			icon: "forbidden_arcanus:hephaestus_forge"
 			id: "7BAA380D277307E1"
 			shape: "octagon"
-			size: 1.25d
+			size: 1.0d
 			title: "Hephaestus Forge Tier I"
-			x: 1.5d
-			y: -9.0d
+			x: 10.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["7BAA380D277307E1"]
@@ -316,10 +313,10 @@
 			icon: "forbidden_arcanus:hephaestus_forge"
 			id: "04C1800BC7618BF7"
 			shape: "octagon"
-			size: 1.25d
+			size: 1.0d
 			title: "Hephaestus Forge Tier I"
-			x: 1.5d
-			y: -12.0d
+			x: 13.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["400B4EE39205D383"]
@@ -342,8 +339,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
-			y: 0.0d
+			x: 2.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["69A726A46EC5648D"]
@@ -360,8 +357,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
-			y: -1.0d
+			x: 3.5d
+			y: -3.5d
 		}
 		{
 			dependencies: [
@@ -381,8 +378,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
-			y: -2.0d
+			x: 4.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["23DEE377A0D605AB"]
@@ -399,8 +396,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
-			y: -3.0d
+			x: 5.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["24A29863C9F9EFD1"]
@@ -417,8 +414,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
-			y: -4.0d
+			x: 6.5d
+			y: -3.5d
 		}
 		{
 			dependencies: [
@@ -438,8 +435,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
-			y: -5.0d
+			x: 7.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["2FEEB9C8ACC01340"]
@@ -456,8 +453,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
-			y: -6.0d
+			x: 8.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["41EFA591CDDD2BCC"]
@@ -474,8 +471,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
-			y: -7.0d
+			x: 9.5d
+			y: -3.5d
 		}
 		{
 			dependencies: [
@@ -495,8 +492,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
-			y: -8.0d
+			x: 10.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["53877D1E1C5C1A57"]
@@ -513,8 +510,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
-			y: -9.0d
+			x: 11.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["337978F5B8C88EBD"]
@@ -531,8 +528,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
-			y: -10.0d
+			x: 12.5d
+			y: -3.5d
 		}
 		{
 			dependencies: [
@@ -552,8 +549,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
-			y: -11.0d
+			x: 13.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["4C8F854FE04B293E"]
@@ -570,8 +567,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
-			y: -12.0d
+			x: 14.5d
+			y: -3.5d
 		}
 	]
 	title: "Forbidden \\& Arcanus"

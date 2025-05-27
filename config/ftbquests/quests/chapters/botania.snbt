@@ -284,6 +284,13 @@
 		}
 		{
 			dependencies: ["0AF2FE192BE0715D"]
+			description: [
+				"Unlocks the Hephaestus Forge, which can be used to craft equipment:"
+				""
+				"- &6Jetpacks&r"
+				"- &eCharm Belt&r"
+				"- &4Heart Canisters&r"
+			]
 			icon_scale: 0.8d
 			id: "0EB66214FC3BEB89"
 			rewards: [{

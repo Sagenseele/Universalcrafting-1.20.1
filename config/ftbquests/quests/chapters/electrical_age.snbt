@@ -19,7 +19,7 @@
 			image: "kubejs:block/washing_facility_active"
 			rotation: 0.0d
 			width: 1.0d
-			x: -5.0d
+			x: -6.5d
 			y: 7.0d
 		}
 		{
@@ -84,7 +84,7 @@
 			image: "immersiveengineering:item/metal_ingot_aluminum"
 			rotation: 0.0d
 			width: 1.0d
-			x: -2.0d
+			x: -5.0d
 			y: 5.5d
 		}
 		{
@@ -93,7 +93,7 @@
 			image: "thermal:item/niter"
 			rotation: 0.0d
 			width: 1.0d
-			x: -5.0d
+			x: -6.5d
 			y: 5.5d
 		}
 		{
@@ -102,7 +102,7 @@
 			image: "thermal:item/nickel_ingot"
 			rotation: 0.0d
 			width: 1.0d
-			x: -2.0d
+			x: -5.0d
 			y: 4.0d
 		}
 		{
@@ -111,7 +111,7 @@
 			image: "immersiveengineering:item/metal_ingot_uranium"
 			rotation: 0.0d
 			width: 1.0d
-			x: -5.0d
+			x: -6.5d
 			y: 4.0d
 		}
 		{
@@ -120,7 +120,7 @@
 			image: "thermal:item/tin_ingot"
 			rotation: 0.0d
 			width: 1.0d
-			x: -2.0d
+			x: -5.0d
 			y: 8.5d
 		}
 		{
@@ -129,7 +129,7 @@
 			image: "mekanism:item/ingot_osmium"
 			rotation: 0.0d
 			width: 1.0d
-			x: -2.0d
+			x: -5.0d
 			y: 10.0d
 		}
 		{
@@ -138,7 +138,7 @@
 			image: "thermal:item/lead_ingot"
 			rotation: 0.0d
 			width: 1.0d
-			x: -5.0d
+			x: -6.5d
 			y: 8.5d
 		}
 		{
@@ -147,7 +147,7 @@
 			image: "thermal:item/silver_ingot"
 			rotation: 0.0d
 			width: 1.0d
-			x: -5.0d
+			x: -6.5d
 			y: 10.0d
 		}
 		{
@@ -155,7 +155,7 @@
 			image: "minecraft:block/blast_furnace_front_on"
 			rotation: 0.0d
 			width: 1.0d
-			x: -2.0d
+			x: -5.0d
 			y: 7.0d
 		}
 		{
@@ -1183,7 +1183,7 @@
 				type: "choice"
 			}]
 			shape: "square"
-			size: 1.1d
+			size: 1.0d
 			tasks: [
 				{
 					disable_toast: true
@@ -1237,7 +1237,7 @@
 					type: "item"
 				}
 			]
-			x: -3.5d
+			x: -2.0d
 			y: 7.0d
 		}
 		{
@@ -1305,7 +1305,7 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			size: 1.1d
+			size: 1.5d
 			tasks: [{
 				id: "7AC3208C498010D8"
 				item: "mekanismgenerators:heat_generator"

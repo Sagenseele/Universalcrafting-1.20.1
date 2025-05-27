@@ -48,6 +48,16 @@
 			x: -1.0d
 			y: -2.0d
 		}
+		{
+			click: "#0AA5E82EED8D8EAD"
+			height: 1.0d
+			hover: ["Early Game Item Pipezzz"]
+			image: "pipez:item/wrench"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: -3.5d
+		}
 	]
 	order_index: 1
 	quest_links: [ ]
@@ -423,11 +433,6 @@
 			id: "0675EFF9361D5C01"
 			rewards: [
 				{
-					id: "02F4A5DC9006D996"
-					item: "kubejs:universal_badge"
-					type: "item"
-				}
-				{
 					id: "513CDDF5BEA7E7E0"
 					item: "create:cogwheel"
 					type: "item"
@@ -435,6 +440,11 @@
 				{
 					id: "0DC3216C1990E31E"
 					item: "create:large_cogwheel"
+					type: "item"
+				}
+				{
+					id: "1911B898DEEDBE50"
+					item: "kubejs:universal_badge"
 					type: "item"
 				}
 			]
@@ -932,6 +942,105 @@
 			}]
 			x: -1.5d
 			y: -5.0d
+		}
+		{
+			dependencies: ["5072F80080915A61"]
+			icon: "create:mechanical_mixer"
+			id: "0A7C8BD8A7BA2D18"
+			rewards: [{
+				id: "4B91476AD895A591"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0F4777CA8A80AC2E"
+					item: "create:mechanical_mixer"
+					type: "item"
+				}
+				{
+					id: "70DAB167F34E84B9"
+					item: "create:basin"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["0A7C8BD8A7BA2D18"]
+			icon: "create:item_vault"
+			id: "7AC56523333951F1"
+			rewards: [
+				{
+					id: "334E538A38160BE9"
+					item: "kubejs:universal_badge"
+					type: "item"
+				}
+				{
+					command: "/summon firework_rocket ~ ~5 ~ {LifeTime:20,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:2,Explosions:[{Type:2,Flicker:1,Trail:0,Colors:[I;11743532,4408131,4312372],FadeColors:[I;15435844]},{Type:0,Flicker:0,Trail:0,Colors:[I;11743532,15435844],FadeColors:[I;4312372,14602026]}]}}}}"
+					id: "07472F0C63602777"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					count: 9L
+					id: "6FED41230E773447"
+					item: "create:item_vault"
+					type: "item"
+				}
+				{
+					id: "3B9DA186D064859F"
+					item: "create:stock_ticker"
+					type: "item"
+				}
+				{
+					id: "602879F44AEEC18B"
+					item: "create:item_hatch"
+					type: "item"
+				}
+				{
+					id: "607197290E3EDAF1"
+					item: "create:packager"
+					type: "item"
+				}
+				{
+					id: "3B766EE0B49E05D7"
+					item: "create:package_frogport"
+					type: "item"
+				}
+				{
+					id: "474C6A6FA4AE90DA"
+					item: "create:stock_link"
+					type: "item"
+				}
+				{
+					id: "32C9210FB1D95422"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "create:seats"
+						}
+					}
+					title: "Any #create:seats"
+					type: "item"
+				}
+			]
+			title: "Multiblock Storage"
+			x: -3.0d
+			y: -6.5d
+		}
+		{
+			id: "3BAC2BDA96540BEE"
+			tasks: [{
+				id: "33F9E422F76494FE"
+				item: "kubejs:simple_matter_extraction_device"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -2.0d
 		}
 	]
 	title: "&l&6Industrial Age"

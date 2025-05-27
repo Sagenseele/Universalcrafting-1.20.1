@@ -293,6 +293,7 @@
 			y: 2.5d
 		}
 		{
+			icon: "modularrouters:modular_router"
 			id: "38723085E65E3D8F"
 			rewards: [
 				{
@@ -312,13 +313,20 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "133EEBBC2134A87D"
-				item: "modularrouters:modular_router"
-				type: "item"
-			}]
-			x: 0.5d
-			y: -4.0d
+			tasks: [
+				{
+					id: "133EEBBC2134A87D"
+					item: "modularrouters:modular_router"
+					type: "item"
+				}
+				{
+					id: "7BDEF7457041536F"
+					item: "modularrouters:security_upgrade"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -6.5d
 		}
 		{
 			id: "59971A1DA15AC8FD"
@@ -388,6 +396,7 @@
 			y: 2.5d
 		}
 		{
+			icon: "storagedrawers:oak_full_drawers_4"
 			id: "2BDCA4985F99A0C3"
 			rewards: [{
 				id: "682E8ED520B2178F"
@@ -396,9 +405,17 @@
 			}]
 			tasks: [{
 				id: "4B70DD3344231F52"
-				item: "storagedrawers:oak_full_drawers_1"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "storagedrawers:drawers"
+					}
+				}
+				title: "Any #storagedrawers:drawers"
 				type: "item"
 			}]
+			title: "Storage Drawers"
 			x: -1.5d
 			y: 1.5d
 		}
@@ -545,6 +562,8 @@
 				"&cThere seems to be a bug in the current version. If you connect energy conduits to some machines, make sure to enable the correct IO. E.g. Input only for Thermal Machines, Output only for Energy Producing machines.&r"
 				""
 				"&4The energy will be deleted otherwise.&r"
+				""
+				"Make EnderIO great again. :/"
 			]
 			id: "29FA058EE1F64B8F"
 			rewards: [{
@@ -985,6 +1004,7 @@
 				id: "19358B64E00B049C"
 				item: "sophisticatedbackpacks:backpack"
 				type: "item"
+				weak_nbt_match: true
 			}]
 			x: -6.5d
 			y: -6.0d
@@ -1001,6 +1021,7 @@
 				id: "47843FF9B2864FF2"
 				item: "sophisticatedbackpacks:iron_backpack"
 				type: "item"
+				weak_nbt_match: true
 			}]
 			x: -5.5d
 			y: -5.0d
@@ -1017,6 +1038,7 @@
 				id: "116FF939FC654246"
 				item: "sophisticatedbackpacks:gold_backpack"
 				type: "item"
+				weak_nbt_match: true
 			}]
 			x: -4.5d
 			y: -6.0d
@@ -1033,6 +1055,7 @@
 				id: "154D9F4A7C93DA2E"
 				item: "sophisticatedbackpacks:diamond_backpack"
 				type: "item"
+				weak_nbt_match: true
 			}]
 			x: -3.5d
 			y: -5.0d
@@ -1192,7 +1215,7 @@
 				item: "sophisticatedbackpacks:pickup_upgrade"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -3.5d
 			y: -10.0d
 		}
 		{
@@ -1207,7 +1230,7 @@
 				item: "sophisticatedbackpacks:upgrade_base"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -4.5d
 			y: -9.0d
 		}
 		{
@@ -1223,7 +1246,7 @@
 				item: "sophisticatedbackpacks:feeding_upgrade"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -5.5d
 			y: -10.0d
 		}
 		{
@@ -1239,7 +1262,7 @@
 				item: "sophisticatedbackpacks:stack_upgrade_starter_tier"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -5.5d
 			y: -8.0d
 		}
 		{
@@ -1255,7 +1278,7 @@
 				item: "sophisticatedbackpacks:magnet_upgrade"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -3.5d
 			y: -8.0d
 		}
 		{
@@ -1271,8 +1294,23 @@
 				item: "sophisticatedbackpacks:smithing_upgrade"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -4.5d
 			y: -7.5d
+		}
+		{
+			id: "6362B0DBBD9321C2"
+			rewards: [{
+				id: "0B62D864C5C6CA5E"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "73C75D96C59DFD82"
+				item: "pipez:wrench"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -3.5d
 		}
 	]
 	title: "Utility"
