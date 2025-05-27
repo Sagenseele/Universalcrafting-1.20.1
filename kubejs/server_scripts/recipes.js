@@ -1030,6 +1030,10 @@ ServerEvents.recipes(event => {
   //  console.log("recipe", r.json.toString())
   //})
 
+  // Gold Dust
+  event.recipes.create.milling('thermal:gold_dust', '#forge:ingots/gold')
+
+
   // Tea Leaves
   event.recipes.farmersdelight.cutting('#minecraft:saplings', '#forge:tools/knives', ['1x delightful:green_tea_leaf'])
 
@@ -1042,6 +1046,17 @@ ServerEvents.recipes(event => {
     {
       A: 'mysticalagriculture:dirt_essence',
       B: 'minecraft:green_dye',
+    }
+  )
+
+  event.shaped(
+    Item.of('minecraft:dirt', 12),
+    [
+      'AA',
+      'AA'
+    ],
+    {
+      A: 'mysticalagriculture:dirt_essence'
     }
   )
 

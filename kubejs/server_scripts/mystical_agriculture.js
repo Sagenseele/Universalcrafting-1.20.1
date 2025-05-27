@@ -47,7 +47,7 @@ ServerEvents.recipes((event) => {
     
     // Crystallizer (?)
     //mods.nuclearcraft.crystallizer.addRecipe([<liquid:water_prudentium> * 200, <mysticalagriculture:crafting:1>]);    
-    event.recipes.thermal.chiller('mysticalagriculture:prudentium_essence', [Fluid.of('kubejs:prudentium_water', 200)])
+    event.recipes.thermal.chiller('mysticalagriculture:prudentium_essence', [Fluid.of('kubejs:prudentium_enriched_water', 200)])
 
     //Salt Mixer (?)
     //mods.nuclearcraft.salt_mixer.addRecipe([<liquid:water_prudentium> * 500, <liquid:water_inferium> * 500, <liquid:solution_prudiferium> * 1000]);
