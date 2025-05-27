@@ -1,6 +1,11 @@
 // priority: 0
 
 StartupEvents.registry('item', event => { 
+
+    // Rename Kubejs/Multiblocked2
+    Platform.mods.kubejs.name = 'Universal Crafting'
+    Platform.mods.mbd2.name = 'Universal Crafting'
+
     event.create('nutrient_pulp').texture('kubejs:item/nutrient_pulp')
     event.create('nutrient_bar').food(food => {
         food
