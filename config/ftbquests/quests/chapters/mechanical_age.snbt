@@ -851,6 +851,7 @@
 		}
 		{
 			dependencies: ["31F85638C4B2A0DC"]
+			description: ["Brass Alloy as a silent gear material has Silk Touch."]
 			id: "539E5B30F359A02C"
 			rewards: [{
 				id: "686A24000A75C58F"
