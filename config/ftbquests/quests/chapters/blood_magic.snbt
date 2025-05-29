@@ -647,7 +647,7 @@
 		}
 		{
 			dependencies: ["3D9F34C1D4D4A111"]
-			description: ["Gives information about the altar or the blood network."]
+			description: ["Gives information about the altar or your blood network."]
 			id: "73718B22DA9990B6"
 			rewards: [{
 				id: "0308CA185C681916"
@@ -681,6 +681,7 @@
 		}
 		{
 			dependencies: ["3D9F34C1D4D4A111"]
+			description: ["Costs 150 LP every 5 seconds to generate additional growth ticks."]
 			id: "1AB89869C550C052"
 			rewards: [{
 				id: "351D494373CC2E2C"
@@ -798,6 +799,7 @@
 		}
 		{
 			dependencies: ["3D9F34C1D4D4A111"]
+			description: ["Uses 1000 LP to create one lava tile."]
 			id: "2EA5315E1FCC977A"
 			tasks: [{
 				id: "13AADE774A782F59"
@@ -806,6 +808,17 @@
 			}]
 			x: -2.5d
 			y: -1.5d
+		}
+		{
+			dependencies: ["1F4A0441461B7D12"]
+			id: "4C9896F0E983A57E"
+			tasks: [{
+				id: "26CAFCF6095B2C21"
+				item: "bloodmagic:incensealtar"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
 		}
 	]
 	title: "Blood Magic"

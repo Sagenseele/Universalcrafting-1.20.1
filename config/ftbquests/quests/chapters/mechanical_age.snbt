@@ -45,7 +45,7 @@
 			image: "bloodmagic:item/lavasigil"
 			rotation: 0.0d
 			width: 0.8d
-			x: -1.0d
+			x: -2.5d
 			y: -2.0d
 		}
 		{
@@ -55,7 +55,7 @@
 			image: "pipez:item/wrench"
 			rotation: 0.0d
 			width: 1.0d
-			x: -1.5d
+			x: -2.5d
 			y: -3.5d
 		}
 	]
@@ -112,9 +112,9 @@
 				"3F6E0421CBB60E0C"
 			]
 			description: [
-				"&oI got a marvelous idea! Those crushing wheels reminded me of some machines we used to break materials down to their raw resources, which could be processed further. If I remember correctly it takes a lot of effort, but I think it will be worth it. My first mechanical monstrous machine!&r"
+				"&oI got a marvelous idea! Those crushing wheels reminded me of some machines we used to break materials down to their raw resources, which could be recycled further. My idea will take a lot of effort, but I think it will be worth it. My first mechanical monstrous machine!&r"
 				""
-				"Your first roadblock, use the &6Kinetic Crusher&r to &egenerate Resources&r. It takes &9a lot&r of &1blueish ingots&r to craft, but if provided with enough rotational force and stress, you can generate some resources depending on the input material."
+				"Your first roadblock, use the &6Kinetic Crusher&r to &egenerate Resources&r. It takes &9a lot&r of &9blueish ingots&r to craft, but if provided with &6256 SU&r at &a64 RPM&r, you can generate some resources depending on the input material."
 				""
 				"I would advise you to automate the creation of gravel. If you struggle to find a good design, look at the Schematics quest and the website I linked there."
 			]
@@ -399,27 +399,13 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["2CA8C43B77E48553"]
+			dependencies: ["66E807F8876802C6"]
 			id: "46C0E33966D05CC5"
-			rewards: [
-				{
-					count: 5
-					id: "2B823A7D9A5971EA"
-					item: "create:cogwheel"
-					type: "item"
-				}
-				{
-					count: 5
-					id: "75DC19BFBB024333"
-					item: "create:large_cogwheel"
-					type: "item"
-				}
-				{
-					id: "2A784FF04209135A"
-					item: "kubejs:universal_badge"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "2A784FF04209135A"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6B69C74A5D6B9E87"
 				item: "create:water_wheel"
@@ -431,29 +417,17 @@
 		{
 			dependencies: ["46C0E33966D05CC5"]
 			id: "0675EFF9361D5C01"
-			rewards: [
-				{
-					id: "513CDDF5BEA7E7E0"
-					item: "create:cogwheel"
-					type: "item"
-				}
-				{
-					id: "0DC3216C1990E31E"
-					item: "create:large_cogwheel"
-					type: "item"
-				}
-				{
-					id: "1911B898DEEDBE50"
-					item: "kubejs:universal_badge"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "1911B898DEEDBE50"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6AED58FADC4DC596"
 				item: "create:large_water_wheel"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 3.0d
 			y: -3.5d
 		}
 		{
@@ -561,7 +535,7 @@
 				}
 			]
 			x: 0.0d
-			y: -5.0d
+			y: -3.5d
 		}
 		{
 			id: "3B0345242B7CEDEE"
@@ -837,11 +811,11 @@
 				item: "create:andesite_casing"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 0.0d
 			y: -0.5d
 		}
 		{
-			dependencies: ["2CA8C43B77E48553"]
+			dependencies: ["66E807F8876802C6"]
 			description: ["Can be used to create different type of Stones, depending on selected Stones."]
 			id: "2D1182F120C39D71"
 			rewards: [{
@@ -856,7 +830,7 @@
 				item: "mbd2:cobblestone_generator_tier1"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -1.5d
 			y: -2.0d
 		}
 		{
@@ -941,7 +915,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: -5.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["5072F80080915A61"]
@@ -965,10 +939,38 @@
 				}
 			]
 			x: -1.5d
-			y: -6.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["0A7C8BD8A7BA2D18"]
+			description: [
+				"Place Vaults in a 3x3 vertical Square"
+				""
+				"VVV"
+				"VVV"
+				"VVV"
+				""
+				"Infront of that place the following things:"
+				""
+				"T = Stock Ticker"
+				"P = Packager"
+				"F = Package Frogport"
+				"L = Stocklink"
+				"S = Seat"
+				"N = NONE"
+				""
+				"NNN"
+				"FNN"
+				"PST"
+				""
+				"Link the Stocklink to the Stock Ticker and place it adjacent to the Packager."
+				""
+				"{@pagebreak}"
+				"You can attach more vaults and the back to your existing vault to increase the capacity."
+				"Place any mob on the seat and interact with it to access your storage."
+				""
+				"It has interactions with JEI. If you got all items necessary for a recipe, you can request them all together with one click in JEI."
+			]
 			icon: "create:item_vault"
 			id: "7AC56523333951F1"
 			rewards: [
@@ -980,9 +982,11 @@
 				{
 					command: "/summon firework_rocket ~ ~5 ~ {LifeTime:20,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:2,Explosions:[{Type:2,Flicker:1,Trail:0,Colors:[I;11743532,4408131,4312372],FadeColors:[I;15435844]},{Type:0,Flicker:0,Trail:0,Colors:[I;11743532,15435844],FadeColors:[I;4312372,14602026]}]}}}}"
 					id: "07472F0C63602777"
+					title: "Fireworks!"
 					type: "command"
 				}
 			]
+			subtitle: "Solving the early Storage Problem!"
 			tasks: [
 				{
 					count: 9L
@@ -1030,7 +1034,7 @@
 			]
 			title: "Multiblock Storage"
 			x: -3.0d
-			y: -6.5d
+			y: -5.0d
 		}
 		{
 			id: "3BAC2BDA96540BEE"
@@ -1040,6 +1044,93 @@
 				type: "item"
 			}]
 			x: 16.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2CA8C43B77E48553"]
+			description: [
+				"&dCreate&r is an interesting mod. It has two units, which will have a special role, &6Stress Units&r (&6SU&r) and &aRotation&r (&aRPM&r). Any &dCreate&r machine, which specifies it, uses both units. "
+				""
+				"&6SU&r are necessary to run any machine."
+				"&aRPM&r defines how fast a machine is working. "
+				""
+				"&aMore RPM = more Speed&r, but also &6more SU consumption&r."
+				""
+				"&eWater Wheels&r are the first blocks, which create &6SU&r. It can be transferred via &eshafts&r to the machines. They have a rotation based on the waterflow and this is represented in which direction the shaft is rotating."
+				"{@pagebreak}"
+				""
+				"You can &aincrease the RPM&r by &egear ratios&r. Put a &elarge cogwheel&r on a &6SU producer&r an place a &esmall cogwheel&r &bdiagonally&r to the &elarge cogwheel&r. The small one is rotating faster. Then place a &elarge cogwheel&r on the small one and so on."
+				""
+				"For maximum speed, chain this until the small cogwheel breaks automatically."
+				""
+				"{@pagebreak}"
+				"If you need any &einstruction&r on &ehow to use a Create machine&r, you can hover over the items and hold &eW for \"ponder\"&r, which shows a small preview and use of the machine."
+				""
+				"In this modpack, we &cdon't dive into contraptions&r, a complex way to automate different tasks like a treefarm or an automatic miner, but if you are interested, I suggest you look those up."
+				""
+				""
+				"{@pagebreak}"
+			]
+			id: "66E807F8876802C6"
+			rewards: [
+				{
+					count: 16
+					id: "2973E19E65B4C024"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5249EF770AA0C826"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "30D89A4E9BAFBC2C"
+					item: "create:shaft"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "11E67ECFE967780F"
+					item: "create:gearbox"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "0D8A0DE25404C754"
+					item: "create:encased_chain_drive"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "Mechanical Processing"
+			tasks: [{
+				id: "193D7EC8E5B7B29A"
+				item: "create:wrench"
+				type: "item"
+			}]
+			title: "&dCreate&r"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["66E807F8876802C6"]
+			description: ["&eMechanical belts&r can be attached to &eshafts&r and &bpass the rotation along&r. Maximum length is &b20 blocks&r."]
+			id: "59162EEDF0B6F1F8"
+			rewards: [{
+				id: "670653328335814F"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "46D26E2854EB80EB"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			x: 1.5d
 			y: -2.0d
 		}
 	]
