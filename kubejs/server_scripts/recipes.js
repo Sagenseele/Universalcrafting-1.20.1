@@ -274,6 +274,19 @@ ServerEvents.recipes(event => {
     'create:andesite_casing'
   )
 
+  // Wrench
+  event.replaceInput(
+    { output: 'create:wrench' },
+    '#forge:plates/gold',
+    'create:andesite_alloy'
+  )
+
+  event.replaceInput(
+    { output: 'create:wrench' },
+    'create:cogwheel',
+    '#forge:rods/wooden'
+  )
+
   // Crushing Wheel
   event.remove({ id: 'create:mechanical_crafting/crushing_wheel' })
   event.shaped(
@@ -692,7 +705,7 @@ ServerEvents.recipes(event => {
     {
       A: 'minecraft:lava_bucket',
       B: 'minecraft:water_bucket',
-      C: 'minecraft:cobblestone',
+      C: '#forge:stones',
       D: 'create:andesite_casing'
     }
   )
@@ -1029,6 +1042,20 @@ ServerEvents.recipes(event => {
   //event.forEachRecipe({output: /mysticalagriculture:.*/}, r => {
   //  console.log("recipe", r.json.toString())
   //})
+  // Sculk Alloy
+  event.remove({ id: 'silentcompat:sculk_alloy_ingot' })
+  event.shaped(
+    Item.of('silentcompat:sculk_alloy_ingot', 1),
+    [
+      'AB',
+      'CC'
+    ],
+    {
+      A: '#forge:shards/echo',
+      B: 'apotheosis:warden_tendril',
+      C: '#forge:obsidian'
+    }
+  )
 
   // Gold Dust
   event.recipes.create.milling('thermal:gold_dust', '#forge:ingots/gold')
