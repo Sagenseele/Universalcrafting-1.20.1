@@ -13,7 +13,7 @@
 			rotation: 0.0d
 			width: 2.0d
 			x: 4.0d
-			y: 2.0d
+			y: 4.0d
 		}
 		{
 			height: 2.0d
@@ -21,7 +21,7 @@
 			rotation: 0.0d
 			width: 2.0d
 			x: 7.0d
-			y: 2.0d
+			y: 4.0d
 		}
 		{
 			height: 2.0d
@@ -29,7 +29,7 @@
 			rotation: 0.0d
 			width: 2.0d
 			x: 10.0d
-			y: 2.0d
+			y: 4.0d
 		}
 		{
 			height: 2.0d
@@ -37,7 +37,7 @@
 			rotation: 0.0d
 			width: 2.0d
 			x: 13.5d
-			y: 2.0d
+			y: 4.0d
 		}
 		{
 			height: 2.0d
@@ -45,7 +45,7 @@
 			rotation: 0.0d
 			width: 2.0d
 			x: 17.0d
-			y: 2.0d
+			y: 4.0d
 		}
 		{
 			click: "#149FA53631B4E30C"
@@ -136,7 +136,7 @@
 				item: "bloodmagic:apprenticebloodorb"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 8.0d
 			y: -2.0d
 		}
 		{
@@ -152,8 +152,8 @@
 				item: "bloodmagic:magicianbloodorb"
 				type: "item"
 			}]
-			x: 9.5d
-			y: -2.0d
+			x: 10.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["575CA4B4D57D30B3"]
@@ -168,7 +168,7 @@
 				item: "bloodmagic:masterbloodorb"
 				type: "item"
 			}]
-			x: 13.5d
+			x: 14.0d
 			y: -2.0d
 		}
 		{
@@ -189,7 +189,7 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["416EB4DBBC95A5FD"]
+			dependencies: ["386C25A5170DFAED"]
 			id: "20B6EC4AEC95DC61"
 			rewards: [{
 				id: "0120E86CA68623E6"
@@ -207,8 +207,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.5d
-			y: 2.0d
+			x: -2.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["20B6EC4AEC95DC61"]
@@ -229,8 +229,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.5d
-			y: 3.5d
+			x: -2.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["1EA23C6C9238E8EB"]
@@ -251,8 +251,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.5d
-			y: 5.0d
+			x: -2.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["6DEE16FAE9EBF81D"]
@@ -273,8 +273,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.5d
-			y: 6.5d
+			x: -2.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["1F4A0441461B7D12"]
@@ -313,7 +313,7 @@
 				{
 					count: 8L
 					id: "4678DAD4482433E4"
-					item: "minecraft:glass"
+					item: "minecraft:stone_bricks"
 					type: "item"
 				}
 				{
@@ -346,7 +346,7 @@
 				{
 					count: 16L
 					id: "041C3A79382D9C36"
-					item: "minecraft:glass"
+					item: "minecraft:stone_bricks"
 					type: "item"
 				}
 				{
@@ -464,8 +464,8 @@
 				item: "bloodmagic:soulforge"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 1.5d
+			x: 0.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["065B166C43E6BBC9"]
@@ -481,8 +481,8 @@
 				item: "bloodmagic:demoncrystallizer"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 4.5d
+			x: 0.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["416EB4DBBC95A5FD"]
@@ -498,8 +498,8 @@
 				item: "bloodmagic:demoncrucible"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 3.0d
+			x: 0.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["20B6EC4AEC95DC61"]
@@ -521,8 +521,8 @@
 				}
 				type: "item"
 			}]
-			x: -1.0d
-			y: 2.5d
+			x: -4.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["6BD371363843E3E2"]
@@ -713,7 +713,7 @@
 				item: "bloodmagic:daggerofsacrifice"
 				type: "item"
 			}]
-			x: 6.5d
+			x: 7.0d
 			y: -2.0d
 		}
 		{
@@ -739,8 +739,8 @@
 				}
 				type: "item"
 			}]
-			x: 11.0d
-			y: -2.0d
+			x: 10.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["1F4A0441461B7D12"]
@@ -750,8 +750,8 @@
 				item: "bloodmagic:blankslate"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 0.5d
+			x: 4.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["27D2258AFDF8911B"]
@@ -761,8 +761,8 @@
 				item: "bloodmagic:reinforcedslate"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 0.5d
+			x: 6.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["3386BB1B8E96DDCA"]
@@ -772,8 +772,8 @@
 				item: "bloodmagic:infusedslate"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 0.5d
+			x: 9.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["575CA4B4D57D30B3"]
@@ -783,8 +783,8 @@
 				item: "bloodmagic:demonslate"
 				type: "item"
 			}]
-			x: 13.5d
-			y: 0.5d
+			x: 13.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["049E16597B244090"]
@@ -794,8 +794,8 @@
 				item: "bloodmagic:etherealslate"
 				type: "item"
 			}]
-			x: 17.0d
-			y: 0.5d
+			x: 16.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["3D9F34C1D4D4A111"]
@@ -812,13 +812,233 @@
 		{
 			dependencies: ["1F4A0441461B7D12"]
 			id: "4C9896F0E983A57E"
+			rewards: [{
+				id: "43C96AD49D706CC3"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "26CAFCF6095B2C21"
 				item: "bloodmagic:incensealtar"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4C9896F0E983A57E"]
+			id: "436FEA7556CB9D88"
+			rewards: [{
+				id: "7BBE15DD18E36B08"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			tasks: [{
+				count: 36L
+				id: "18E2EE10182BA949"
+				item: { Count: 36, id: "bloodmagic:woodbrickpath" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["436FEA7556CB9D88"]
+			id: "0375C70313EA184B"
+			rewards: [{
+				id: "4911073633C7C623"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			tasks: [{
+				count: 24L
+				id: "3A94F7C8E9C31760"
+				item: { Count: 24, id: "bloodmagic:stonebrickpath" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0375C70313EA184B"]
+			id: "670D3CEB98E2B0BA"
+			rewards: [{
+				id: "07EB167A86B9E4CD"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "519E7CD007956573"
+				item: "bloodmagic:obsidianbrickpath"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3386BB1B8E96DDCA"]
+			id: "225F35F3A95E660E"
+			tasks: [{
+				id: "792F8A26D4E08531"
+				item: "bloodmagic:reagentbinding"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["225F35F3A95E660E"]
+			icon: {
+				Count: 1
+				id: "bloodmagic:livinghelmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "73A15C95674685A1"
+			rewards: [{
+				id: "4A2E3E92F980CDEE"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "48511E3F74EA0365"
+					item: {
+						Count: 1
+						id: "bloodmagic:livinghelmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6E798CCC60A4E4C7"
+					item: {
+						Count: 1
+						id: "bloodmagic:livingplate"
+						tag: {
+							Damage: 0
+							livingStats: {
+								maxPoints: 100
+								upgrades: [ ]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "301E947C2F39CCBD"
+					item: {
+						Count: 1
+						id: "bloodmagic:livingleggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2753632E96DFFB02"
+					item: {
+						Count: 1
+						id: "bloodmagic:livingboots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["575CA4B4D57D30B3"]
+			id: "32F2C03543C900A7"
+			tasks: [{
+				id: "25CDF8690305A5EF"
+				item: "bloodmagic:ritualdivinerdusk"
+				type: "item"
+			}]
+			x: 12.0d
 			y: -2.0d
+		}
+		{
+			dependencies: ["72622E6BCCAF8624"]
+			id: "0B47277C5DFB0AB9"
+			tasks: [
+				{
+					id: "279638AD6E12D4B4"
+					item: "bloodmagic:masterritualstone"
+					type: "item"
+				}
+				{
+					count: 36L
+					id: "6AEA047DB0DFD0C6"
+					item: { Count: 36, id: "bloodmagic:ritualstone" }
+					type: "item"
+				}
+			]
+			title: "Edge of the Hidden Realm"
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["192891D0CEE1B5E5"]
+			id: "10BCBB74903865BE"
+			rewards: [{
+				id: "7EF3D1BCEA64A1CA"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4A6282719328A58F"
+				item: "bloodmagic:alchemicalreactionchamber"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["10BCBB74903865BE"]
+			id: "5DDAFE2E0FFBD33A"
+			rewards: [{
+				id: "7EA4C3A7E7BB0F82"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2EA0D725788ACE58"
+				item: {
+					Count: 1
+					id: "bloodmagic:sanguinereverter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["416EB4DBBC95A5FD"]
+			id: "386C25A5170DFAED"
+			rewards: [{
+				id: "3330AE2B5BE78D0D"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "0BDB6DA6359DD794"
+				item: { Count: 4, id: "bloodmagic:soulsnare" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.5d
 		}
 	]
 	title: "Blood Magic"

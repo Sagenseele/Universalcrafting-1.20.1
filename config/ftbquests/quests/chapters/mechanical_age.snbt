@@ -58,6 +58,14 @@
 			x: -2.5d
 			y: -3.5d
 		}
+		{
+			height: 0.8d
+			image: "kubejs:item/simple_matter_extraction_device"
+			rotation: 0.0d
+			width: 0.8d
+			x: 16.0d
+			y: -2.5d
+		}
 	]
 	order_index: 1
 	quest_links: [ ]
@@ -1037,16 +1045,6 @@
 			y: -5.0d
 		}
 		{
-			id: "3BAC2BDA96540BEE"
-			tasks: [{
-				id: "33F9E422F76494FE"
-				item: "kubejs:simple_matter_extraction_device"
-				type: "item"
-			}]
-			x: 16.5d
-			y: -2.0d
-		}
-		{
 			dependencies: ["2CA8C43B77E48553"]
 			description: [
 				"&dCreate&r is an interesting mod. It has two units, which will have a special role, &6Stress Units&r (&6SU&r) and &aRotation&r (&aRPM&r). Any &dCreate&r machine, which specifies it, uses both units. "
@@ -1067,9 +1065,6 @@
 				"If you need any &einstruction&r on &ehow to use a Create machine&r, you can hover over the items and hold &eW for \"ponder\"&r, which shows a small preview and use of the machine."
 				""
 				"In this modpack, we &cdon't dive into contraptions&r, a complex way to automate different tasks like a treefarm or an automatic miner, but if you are interested, I suggest you look those up."
-				""
-				""
-				"{@pagebreak}"
 			]
 			id: "66E807F8876802C6"
 			rewards: [
