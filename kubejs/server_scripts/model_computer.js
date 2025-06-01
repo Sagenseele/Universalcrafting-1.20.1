@@ -84,11 +84,4 @@ ServerEvents.recipes((event) => {
                 }
             }))
     });
-
-    event.recipes.mbd2.blast_furnace()
-        .id('mbd2:blast_furnace/quartz_alloy_block')
-        .duration(200)
-        .priority(0)
-        .inputItems('4x ae2:certus_quartz_crystal', '4x minecraft:quartz', '1x pneumaticcraft:plastic')
-        .outputItems('1x kubejs:quartz_alloy_block')
 })
