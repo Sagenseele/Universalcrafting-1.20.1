@@ -83,7 +83,12 @@
                         {
                             "item": "minecraft:bamboo",
                             "count": 16
+                        },
+                        {
+                            "item": "minecraft:melon",
+                            "count": 2
                         }
+
                     ]
                 }
             ],
