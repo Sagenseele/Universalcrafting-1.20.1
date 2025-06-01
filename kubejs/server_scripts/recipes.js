@@ -705,7 +705,7 @@ ServerEvents.recipes(event => {
     {
       A: 'minecraft:lava_bucket',
       B: 'minecraft:water_bucket',
-      C: '#forge:stones',
+      C: '#forge:stone',
       D: 'create:andesite_casing'
     }
   )
@@ -896,6 +896,21 @@ ServerEvents.recipes(event => {
     '#minecraft:planks',
     'kubejs:electrical_machine_casing'
   )
+
+  // Mekanism Heat Generator
+  event.replaceInput(
+    { output: 'mekanismgenerators:heat_generator' },
+    '#forge:ingots/osmium',
+    'thermal:machine_frame'
+  )
+
+  // Metallurgic Infuser
+  event.replaceInput(
+    { output: 'mekanism:metallurgic_infuser' },
+    '#forge:ingots/osmium',
+    'thermal:machine_frame'
+  )
+
   //Ad_Astra
   // Fuel Refinery
   event.replaceInput(
