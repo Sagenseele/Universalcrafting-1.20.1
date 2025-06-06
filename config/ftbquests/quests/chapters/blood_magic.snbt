@@ -207,7 +207,7 @@
 				}
 				type: "item"
 			}]
-			x: -2.5d
+			x: -1.5d
 			y: 3.0d
 		}
 		{
@@ -229,7 +229,7 @@
 				}
 				type: "item"
 			}]
-			x: -2.5d
+			x: -1.5d
 			y: 4.5d
 		}
 		{
@@ -251,7 +251,7 @@
 				}
 				type: "item"
 			}]
-			x: -2.5d
+			x: -1.5d
 			y: 6.0d
 		}
 		{
@@ -273,7 +273,7 @@
 				}
 				type: "item"
 			}]
-			x: -2.5d
+			x: -1.5d
 			y: 7.5d
 		}
 		{
@@ -464,7 +464,7 @@
 				item: "bloodmagic:soulforge"
 				type: "item"
 			}]
-			x: 0.5d
+			x: 1.5d
 			y: 2.0d
 		}
 		{
@@ -481,7 +481,7 @@
 				item: "bloodmagic:demoncrystallizer"
 				type: "item"
 			}]
-			x: 0.5d
+			x: 1.5d
 			y: 5.0d
 		}
 		{
@@ -498,7 +498,7 @@
 				item: "bloodmagic:demoncrucible"
 				type: "item"
 			}]
-			x: 0.5d
+			x: 1.5d
 			y: 3.5d
 		}
 		{
@@ -521,7 +521,7 @@
 				}
 				type: "item"
 			}]
-			x: -4.0d
+			x: -3.0d
 			y: 3.5d
 		}
 		{
@@ -998,7 +998,7 @@
 				item: "bloodmagic:alchemicalreactionchamber"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -4.0d
 			y: 4.5d
 		}
 		{
@@ -1020,7 +1020,7 @@
 				}
 				type: "item"
 			}]
-			x: -5.0d
+			x: -4.0d
 			y: 6.0d
 		}
 		{
@@ -1037,7 +1037,7 @@
 				item: { Count: 4, id: "bloodmagic:soulsnare" }
 				type: "item"
 			}]
-			x: -1.0d
+			x: 0.0d
 			y: 2.5d
 		}
 	]

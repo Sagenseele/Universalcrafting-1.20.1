@@ -41,7 +41,7 @@
 		}
 		{
 			dependencies: ["61D44A53B8E85FD4"]
-			description: ["While holding the sickle in either hand, &6kill&r a fox, wolf or an ocelot to get &eSharp Fangs&r."]
+			description: ["While holding the sickle in either hand, &6kill&r a &efox&r, &ewolf&r or an &eocelot&r to get &eSharp Fang&r."]
 			id: "0B1227990E93072C"
 			tasks: [{
 				id: "2F032AB77CAB2BD2"
