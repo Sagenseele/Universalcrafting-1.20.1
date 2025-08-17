@@ -543,7 +543,9 @@
 		{
 			dependencies: ["3124EA08BA72043F"]
 			description: [
-				"Your first ritual for unlimited lava. Place the Ritual Stones in a + Pattern with the Master Ritual Stone in the middle. Paint the outside 4 Ritual Stones with the Inscription Tool: Fire and right click with the Activation Crystal to enable the ritual. It costs 20.000 LF from your network and 500 LF per Lava tile (Above the Master Ritual Stone)."
+				"&oMy first ritual for unlimited lava.&r"
+				""
+				"Place the Ritual Stones in a + Pattern with the Master Ritual Stone in the middle. Paint the outside 4 Ritual Stones with the Inscription Tool: Fire and right click with the Activation Crystal to enable the ritual. It costs 20.000 LF from your network and 500 LF per Lava tile (Above the Master Ritual Stone)."
 				""
 				"&8A&rR&8A&r"
 				"R&4M&rR"

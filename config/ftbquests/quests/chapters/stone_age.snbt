@@ -99,7 +99,7 @@
 				"6F1284BEAE967BB1"
 			]
 			description: [
-				"&oOuch, that really, really hurt. But at last I can make some raw iron with the splinter as a catalyst an the blood. Its' iron growing around the splinter like a crystal is the first step for me into a better age.&r"
+				"&oOuch, that really, really hurt. But at last I can make some raw iron with the splinter as a catalyst and the blood. Its' iron growing around the splinter like a crystal is the first step for me into a better age.&r"
 				""
 				"Use the &esacrifical dagger&r at least 2 blocks near the &eBlood Altar&r to get &4life essence&r. Right click with the &ewood splinter&r onto the altar to get &eraw iron&r."
 			]
@@ -120,7 +120,7 @@
 		}
 		{
 			dependencies: ["04C04D6FBB67AAC3"]
-			description: ["&oMy first magic contraption I built myself. If I pick my fingers and deposit some of my blood, the Altar will fill and make some infusions possible. My first goal should be Iron to improve my tools and maybe some worldy contraptions which will come in handy without hurting myself...&r"]
+			description: ["&oMy first magic contraption I can build myself. If I pick my fingers and deposit some of my blood, the Altar will fill and make some infusions possible. My first goal should be Iron to improve my tools and maybe some worldy contraptions which will come in handy without hurting myself...&r"]
 			id: "7A1C76596F111A92"
 			rewards: [{
 				id: "6B848CED5C52745F"
@@ -222,7 +222,7 @@
 		}
 		{
 			dependencies: ["18FC621109276DA1"]
-			description: ["When I look at the resources that I have available, I see a way to create some raw Iron from magic. But I know for sure that it will hurt. And I don't know if I can handle that much pain in the long term."]
+			description: ["&oWhen I look at the resources that I have available, I see a way to create some raw Iron from magic. But I know for sure that it will hurt. And I don't know if I can handle that much pain in the long term."]
 			id: "04C04D6FBB67AAC3"
 			rewards: [{
 				id: "70E0AB444CF0CDB1"
@@ -288,8 +288,8 @@
 		{
 			dependencies: ["183FD7820BAED84B"]
 			description: [
-				"&oThis is the result of my early and rudimentary plans to get to the Infinity Token. It took some sweat and pain but finally I got.&r"
-				"&oWhile I was studying in the &6Spacefarers' Guild&r&o, I found some historical blueprints of machines. If think I can rebuild some of them from my memory. But maybe I can find a way to write them down for future uses.&r"
+				"&oThis is the result of my early and rudimentary plans to get to the Infinity Token. It took some sweat and pain but finally I got it.&r"
+				"&oWhile I was studying in the &6Spacefarers' Guild&r&o, I found some historical blueprints of machines. I think I can rebuild some of them from my memory. But maybe I can find a way to write them down for future uses.&r"
 				""
 				"&oBut now it's time to progress to the Early &3Industrial Age&r."
 			]
@@ -317,7 +317,7 @@
 				""
 				"&oLet's see if the guild's teachings help me survive on this planet. I should use my wordly and otherworldy knowledge to overcome this situation.&r"
 				""
-				"&oThey gave me a &epiece of dirt&r &oand left me with my &2Matter Extraction Device&r&o. Despite its' simple nature, it should help me in my endeavours.&r"
+				"&oThey gave me a &epiece of dirt&r &oand and &eoak sapling&r and left me with my &2Matter Extraction Device&r&o. Despite its' simple nature, it should help me in my endeavours.&r"
 			]
 			id: "4E8852849B2AE129"
 			rewards: [
@@ -429,6 +429,7 @@
 		}
 		{
 			dependencies: ["614746BDE83A205E"]
+			description: ["&oWith these essence I gathered earlier I can create some Kelp, a multipurpose greenery."]
 			id: "423E9F0B412F16B4"
 			rewards: [{
 				id: "3D18143A6487F8D1"
@@ -446,6 +447,7 @@
 		}
 		{
 			dependencies: ["423E9F0B412F16B4"]
+			description: ["&oEdible, but maybe... I can use them for some machines."]
 			id: "192F1E8EE9B1E1EA"
 			rewards: [{
 				id: "77FB1DF7F54C4D93"
@@ -567,7 +569,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["7A1C76596F111A92"]
+			dependencies: ["183FD7820BAED84B"]
 			description: [
 				"Can be used to craft these Gateways:"
 				""

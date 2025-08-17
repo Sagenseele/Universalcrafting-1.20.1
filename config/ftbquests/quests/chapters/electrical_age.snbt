@@ -103,7 +103,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: -5.0d
-			y: 4.0d
+			y: 4.5d
 		}
 		{
 			height: 1.0d
@@ -112,7 +112,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: -6.5d
-			y: 4.0d
+			y: 4.5d
 		}
 		{
 			height: 1.0d
@@ -130,7 +130,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: -5.0d
-			y: 10.0d
+			y: 9.5d
 		}
 		{
 			height: 1.0d
@@ -148,7 +148,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: -6.5d
-			y: 10.0d
+			y: 9.5d
 		}
 		{
 			height: 1.0d
@@ -219,6 +219,7 @@
 			y: 0.5d
 		}
 		{
+			dependencies: ["109099A9933B4917"]
 			disable_toast: true
 			id: "2468A11BD78A5360"
 			shape: "rsquare"
@@ -542,7 +543,7 @@
 			}]
 			title: "They..."
 			x: -3.5d
-			y: 4.0d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -567,6 +568,7 @@
 		}
 		{
 			dependencies: ["2468A11BD78A5360"]
+			description: ["Can be used to rotate and disassemble machines and specific blocks."]
 			id: "46CA8F1E6E5BCC3E"
 			rewards: [{
 				id: "1890A38CAA140B07"
@@ -669,7 +671,7 @@
 				item: "immersiveengineering:biodiesel_bucket"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 9.5d
 			y: 6.0d
 		}
 		{
@@ -1129,7 +1131,7 @@
 			}]
 			title: "...Marie!"
 			x: -3.5d
-			y: 10.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["4F8EFACB168588F2"]
@@ -1297,7 +1299,7 @@
 		}
 		{
 			dependencies: ["2468A11BD78A5360"]
-			description: ["Your first energy source. Put lava around the generator for passive energy production and in the generator for active energy production."]
+			description: ["&oThis should be my first energy source. I can put lava around the generator for passive energy production and into the generator for active energy production."]
 			id: "161AC0559A6E6D68"
 			rewards: [{
 				id: "18899180504F7F45"
