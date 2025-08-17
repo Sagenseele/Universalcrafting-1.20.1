@@ -49,10 +49,10 @@ ServerEvents.recipes(event => {
     event.shapeless(
       Item.of(dust, 1),
       [
-        Item.of('kubejs:crushing_hammer'),
+        Item.of('silentgear:prospector_hammer'),
         raw
       ]
-    ).damageIngredient(0).keepIngredient('kubejs:crushing_hammer')
+    ).damageIngredient(0).keepIngredient('silentgear:prospector_hammer')
   }
   function kubejs_crushing(name) {
     var crushed = 'kubejs:crushed_' + name
@@ -273,6 +273,10 @@ ServerEvents.recipes(event => {
     'create:shaft',
     'create:andesite_casing'
   )
+
+  // Mechanical Saw
+    event.remove({ id: 'create:crafting/kinetics/mechanical_saw' })
+
 
   // Wrench
   event.replaceInput(

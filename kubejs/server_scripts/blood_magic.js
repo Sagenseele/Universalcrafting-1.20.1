@@ -32,7 +32,7 @@ ServerEvents.recipes(event => {
     )
     // Weak Blood Orb
     event.remove({ id: 'bloodmagic:altar/weakbloodorb' })
-    event.recipes.bloodmagic.altar('bloodmagic:weakbloodorb', 'create:andesite_alloy').upgradeLevel(0).altarSyphon(2000).consumptionRate(100).drainRate(0)
+    event.recipes.bloodmagic.altar('bloodmagic:weakbloodorb', 'kubejs:simple_gateway_core').upgradeLevel(0).altarSyphon(2000).consumptionRate(100).drainRate(0)
 
     // Amethyst
     event.recipes.bloodmagic.altar('minecraft:budding_amethyst', 'minecraft:amethyst_block').upgradeLevel(2).altarSyphon(10000).consumptionRate(500).drainRate(50)
@@ -61,6 +61,6 @@ ServerEvents.recipes(event => {
     event.recipes.bloodmagic.altar('bloodmagic:waterscribetool', '#forge:storage_blocks/lapis').upgradeLevel(1).altarSyphon(1000).consumptionRate(5).drainRate(5)
 
     // Simple Gateway Core
-    event.recipes.bloodmagic.altar('kubejs:simple_gateway_core', 'create:andesite_casing').upgradeLevel(0).altarSyphon(2000).consumptionRate(5).drainRate(5)
+    event.recipes.bloodmagic.altar('kubejs:simple_gateway_core', 'create:andesite_alloy').upgradeLevel(0).altarSyphon(2000).consumptionRate(5).drainRate(5)
 
 })

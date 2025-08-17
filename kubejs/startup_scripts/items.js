@@ -92,7 +92,7 @@ StartupEvents.registry('item', event => {
     intermediate_ore('darthium')
     intermediate_ore('ecolinit')
     intermediate_ore('milothium')
-    standard_ore('titan')
+    standard_ore('titanium')
     standard_ore('mangan')
     standard_ore('cobalt')
     standard_ore('platinum')
