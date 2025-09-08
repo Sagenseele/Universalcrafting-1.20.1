@@ -389,16 +389,7 @@
 		}
 		{
 			dependencies: ["31D5DDBCBDCB40A3"]
-			description: [
-				"Acts as a portal activator for the Twilight Forest."
-				""
-				"Place flowers around a 2x2 water source block and throw the lava crystal inside."
-				""
-				"FFFF"
-				"FWWF"
-				"FWWF"
-				"FFFF"
-			]
+			description: ["Acts as a portal activator for the Twilight Forest."]
 			id: "72898EE4AC216E24"
 			rewards: [{
 				id: "29F8D5B39FA82EB1"
@@ -415,6 +406,30 @@
 		}
 		{
 			dependencies: ["72898EE4AC216E24"]
+			description: [
+				"Place the following layers: "
+				""
+				"Bottom Layer:"
+				""
+				"DDDD"
+				"DWWD"
+				"DWWD"
+				"DDDD"
+				""
+				"Top Layer:"
+				""
+				"FFFF"
+				"FAAF"
+				"FAAF"
+				"FFFF"
+				""
+				"D = Dirt or Grass"
+				"W = Water Block"
+				"F = Flower"
+				"A = Air"
+				""
+				"Place Flowers around a 2x2 water source block and throw the lava crystal inside."
+			]
 			icon: "twilightforest:twilight_portal_miniature_structure"
 			icon_scale: 0.8d
 			id: "37B32C20370A246E"
@@ -953,6 +968,7 @@
 					type: "item"
 				}
 			]
+			title: "Living Armor"
 			x: 8.5d
 			y: 0.5d
 		}
