@@ -1,0 +1,10 @@
+{
+    "ctm": {
+        "ctm_version": 1,
+        "type": "ctm",
+        "layer": "SOLID",
+        "textures": [
+            "kubejs:block/multiblock_tier_3_ctm"
+        ]
+    }
+}

@@ -625,6 +625,55 @@ ServerEvents.recipes(event => {
       B: 'kubejs:turquoise_plate'
     }
   )
+  event.shaped(
+    Item.of('mbd2:item_input_tier_3', 1),
+    [
+      ' A ',
+      'ABA',
+      ' A '
+    ],
+    {
+      A: 'kubejs:turquoise_plate',
+      B: 'minecraft:chest'
+
+    }
+  )
+  event.shaped(
+    Item.of('mbd2:item_output_tier_3', 1),
+    [
+      ' A ',
+      'ABA',
+      ' A '
+    ],
+    {
+      A: 'kubejs:turquoise_plate',
+      B: 'minecraft:hopper'
+    }
+  )
+  event.shaped(
+    Item.of('mbd2:fluid_input_tier_3', 1),
+    [
+      ' A ',
+      'ABA',
+      ' A '
+    ],
+    {
+      A: 'kubejs:turquoise_plate',
+      B: 'minecraft:bucket'
+    }
+  )
+  event.shaped(
+    Item.of('mbd2:energy_input_tier_3', 1),
+    [
+      ' A ',
+      'ABA',
+      ' A '
+    ],
+    {
+      A: 'kubejs:turquoise_plate',
+      B: 'minecraft:redstone_block'
+    }
+  )
 
   event.shaped(
     Item.of('mbd2:magnetizer', 1),
