@@ -889,6 +889,9 @@ ServerEvents.recipes(event => {
     }
   )
 
+  // Energy Conduit
+  event.remove({ id: "enderio:energy_conduit" })
+  event.replaceInput({ input: "enderio:energy_conduit" }, "enderio:energy_conduit", "mekanism:basic_energy_cube")
 
   // Grains of Infinity
   event.recipes.thermal.centrifuge([Item.of('minecraft:stone'), Item.of('enderio:grains_of_infinity').withChance(0.1)], 'minecraft:deepslate')

@@ -566,6 +566,8 @@
 				"Make EnderIO great again. :/"
 			]
 			id: "29FA058EE1F64B8F"
+			invisible: true
+			optional: true
 			rewards: [{
 				id: "7A027551280DDD6E"
 				item: "kubejs:universal_badge"
