@@ -63,4 +63,7 @@ ServerEvents.recipes(event => {
     // Simple Gateway Core
     event.recipes.bloodmagic.altar('kubejs:simple_gateway_core', 'create:andesite_alloy').upgradeLevel(0).altarSyphon(2000).consumptionRate(5).drainRate(5)
 
+    // FA Test Tube
+    event.recipes.bloodmagic.altar(Item.of('forbidden_arcanus:blood_test_tube', '{Blood:3000}'),'forbidden_arcanus:test_tube').upgradeLevel(0).altarSyphon(3000).consumptionRate(150).drainRate(5)
+
 })

@@ -1,0 +1,43 @@
+{
+  "additional_requirements": {
+    "forge_tier": 3
+  },
+  "essences": {
+    "aureal": 100,
+    "blood": 7000,
+    "experience": 100,
+    "souls": 10
+  },
+  "inputs": [
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "reliquary:witch_hat"
+      }
+    },
+    {
+      "amount": 4,
+      "ingredient": {
+        "tag": "forge:leather"
+      }
+    },
+    {
+      "amount": 3,
+      "ingredient": {
+        "item": "forbidden_arcanus:rune"
+      }
+    }
+  ],
+  "main_ingredient": {
+    "item": "ironjetpacks:strap"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "Count": 1,
+      "id": "reliquary:mob_charm_belt",
+      "tag": {
+      }
+    }
+  }
+}

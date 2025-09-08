@@ -3,10 +3,10 @@
     "forge_tier": 1
   },
   "essences": {
-    "aureal": 82,
-    "blood": 1000,
-    "experience": 0,
-    "souls": 1
+    "aureal": 0,
+    "blood": 3000,
+    "experience": 50,
+    "souls": 0
   },
   "inputs": [
     {

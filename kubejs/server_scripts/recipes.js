@@ -275,7 +275,7 @@ ServerEvents.recipes(event => {
   )
 
   // Mechanical Saw
-    event.remove({ id: 'create:crafting/kinetics/mechanical_saw' })
+  event.remove({ id: 'create:crafting/kinetics/mechanical_saw' })
 
 
   // Wrench
@@ -1124,6 +1124,13 @@ ServerEvents.recipes(event => {
       C: '#forge:obsidian'
     }
   )
+
+  //Reliquary
+  event.remove({ id: 'reliquary:mob_charm_belt' })
+
+  // BHC
+  event.remove({ id: 'bhc:heart_amulet' })
+  event.remove({ id: 'bhc:soul_heart_amulet' })
 
   // Gold Dust
   event.recipes.create.milling('thermal:gold_dust', '#forge:ingots/gold')

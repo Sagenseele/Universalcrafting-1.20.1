@@ -1,0 +1,39 @@
+{
+  "additional_requirements": {
+    "forge_tier": 3
+  },
+  "essences": {
+    "aureal": 100,
+    "blood": 7000,
+    "experience": 100,
+    "souls": 10
+  },
+  "inputs": [
+    {
+      "amount": 3,
+      "ingredient": {
+        "tag": "bhc:soul_heart_crystal"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "botania:spell_cloth"
+      }
+    }
+  ],
+  "main_ingredient": {
+    "type": "forge:nbt",
+    "item": "bhc:heart_amulet",
+    "nbt": "{bhc_itemlist:{Items:[],Size:4},heart_amount:[I;0,0,0,0]}"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "Count": 1,
+      "id": "bhc:soul_heart_amulet",
+      "tag": {
+      }
+    }
+  }
+}

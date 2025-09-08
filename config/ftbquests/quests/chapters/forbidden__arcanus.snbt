@@ -78,6 +78,26 @@
 					item: "minecraft:smithing_table"
 					type: "item"
 				}
+				{
+					count: 8L
+					disable_toast: true
+					id: "0AD4C6119279EE51"
+					item: { Count: 8, id: "forbidden_arcanus:darkstone_pedestal" }
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "580C1D3BCEA3279C"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forbidden_arcanus:blacksmith_gavel"
+						}
+					}
+					title: "Any #forbidden_arcanus:blacksmith_gavel"
+					type: "item"
+				}
 			]
 			title: "Hephaestus Forge Tier I"
 			x: 1.5d
@@ -116,7 +136,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: -3.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["06581950221710F7"]
@@ -132,27 +152,26 @@
 				item: "reliquary:mob_charm_belt"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 0.0d
+			x: 3.0d
+			y: -0.5d
 		}
 		{
-			dependencies: ["06581950221710F7"]
+			dependencies: ["415D4A65EBD272AB"]
 			id: "67E45A1B7C971527"
-			invisible: true
 			rewards: [{
 				id: "42F835BBE330E36F"
 				item: "kubejs:universal_badge"
 				type: "item"
 			}]
-			size: 1.25d
+			size: 1.0d
 			tasks: [{
 				id: "117AC7FF61D3E3C0"
 				item: "bhc:heart_amulet"
 				type: "item"
 			}]
 			title: "Heart Amulet"
-			x: 5.6785714285714235d
-			y: 1.0d
+			x: 5.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["67E45A1B7C971527"]
@@ -168,8 +187,8 @@
 				item: { Count: 10, id: "bhc:red_heart_canister" }
 				type: "item"
 			}]
-			x: 6.6785714285714235d
-			y: 0.0d
+			x: 4.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["5A03E0DC2CD49A59"]
@@ -185,8 +204,8 @@
 				item: { Count: 10, id: "bhc:yellow_heart_canister" }
 				type: "item"
 			}]
-			x: 7.1785714285714235d
-			y: 1.0d
+			x: 5.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["1DFA525DD43BAC05"]
@@ -202,8 +221,8 @@
 				item: { Count: 10, id: "bhc:green_heart_canister" }
 				type: "item"
 			}]
-			x: 6.785714285714285d
-			y: 2.0892857142857153d
+			x: 6.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["3BD2F2915C36695C"]
@@ -219,11 +238,11 @@
 				item: { Count: 10, id: "bhc:blue_heart_canister" }
 				type: "item"
 			}]
-			x: 5.6785714285714235d
-			y: 2.625d
+			x: 7.0d
+			y: 2.0d
 		}
 		{
-			dependencies: ["2921570C34D393F3"]
+			dependencies: ["5581EF03F2C7B4FB"]
 			id: "4165D685920E4ADE"
 			rewards: [{
 				id: "1AFBA95A7036D51C"
@@ -236,8 +255,8 @@
 				item: { Count: 10, id: "bhc:soul_heart_canister" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: 2.1339285714285694d
+			x: 7.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["06581950221710F7"]
@@ -259,11 +278,19 @@
 				""
 				"Click on the link in the picture below to get more information about the forge."
 			]
-			icon: "forbidden_arcanus:hephaestus_forge"
+			icon: {
+				Count: 1
+				id: "forbidden_arcanus:hephaestus_forge"
+				tag: {
+					BlockStateTag: {
+						tier: 2
+					}
+				}
+			}
 			id: "415D4A65EBD272AB"
 			shape: "octagon"
 			size: 1.0d
-			title: "Hephaestus Forge Tier I"
+			title: "Hephaestus Forge Tier II"
 			x: 4.5d
 			y: -2.0d
 		}
@@ -276,11 +303,19 @@
 				""
 				"Click on the link in the picture below to get more information about the forge."
 			]
-			icon: "forbidden_arcanus:hephaestus_forge"
+			icon: {
+				Count: 1
+				id: "forbidden_arcanus:hephaestus_forge"
+				tag: {
+					BlockStateTag: {
+						tier: 3
+					}
+				}
+			}
 			id: "4B19CA35F30BFAF4"
 			shape: "octagon"
 			size: 1.0d
-			title: "Hephaestus Forge Tier I"
+			title: "Hephaestus Forge Tier III"
 			x: 7.5d
 			y: -2.0d
 		}
@@ -293,11 +328,19 @@
 				""
 				"Click on the link in the picture below to get more information about the forge."
 			]
-			icon: "forbidden_arcanus:hephaestus_forge"
+			icon: {
+				Count: 1
+				id: "forbidden_arcanus:hephaestus_forge"
+				tag: {
+					BlockStateTag: {
+						tier: 4
+					}
+				}
+			}
 			id: "7BAA380D277307E1"
 			shape: "octagon"
 			size: 1.0d
-			title: "Hephaestus Forge Tier I"
+			title: "Hephaestus Forge Tier IV"
 			x: 10.5d
 			y: -2.0d
 		}
@@ -310,7 +353,15 @@
 				""
 				"Click on the link in the picture below to get more information about the forge."
 			]
-			icon: "forbidden_arcanus:hephaestus_forge"
+			icon: {
+				Count: 1
+				id: "forbidden_arcanus:hephaestus_forge"
+				tag: {
+					BlockStateTag: {
+						tier: 5
+					}
+				}
+			}
 			id: "04C1800BC7618BF7"
 			shape: "octagon"
 			size: 1.0d
@@ -340,7 +391,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: -3.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["69A726A46EC5648D"]
@@ -358,7 +409,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: -3.5d
+			y: -4.5d
 		}
 		{
 			dependencies: [
@@ -379,7 +430,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: -3.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["23DEE377A0D605AB"]
@@ -397,7 +448,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: -3.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["24A29863C9F9EFD1"]
@@ -415,7 +466,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: -3.5d
+			y: -4.5d
 		}
 		{
 			dependencies: [
@@ -436,7 +487,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: -3.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["2FEEB9C8ACC01340"]
@@ -454,7 +505,7 @@
 				type: "item"
 			}]
 			x: 8.5d
-			y: -3.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["41EFA591CDDD2BCC"]
@@ -472,7 +523,7 @@
 				type: "item"
 			}]
 			x: 9.5d
-			y: -3.5d
+			y: -4.5d
 		}
 		{
 			dependencies: [
@@ -493,7 +544,7 @@
 				type: "item"
 			}]
 			x: 10.5d
-			y: -3.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["53877D1E1C5C1A57"]
@@ -511,7 +562,7 @@
 				type: "item"
 			}]
 			x: 11.5d
-			y: -3.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["337978F5B8C88EBD"]
@@ -529,7 +580,7 @@
 				type: "item"
 			}]
 			x: 12.5d
-			y: -3.5d
+			y: -4.5d
 		}
 		{
 			dependencies: [
@@ -550,7 +601,7 @@
 				type: "item"
 			}]
 			x: 13.5d
-			y: -3.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["4C8F854FE04B293E"]
@@ -568,7 +619,87 @@
 				type: "item"
 			}]
 			x: 14.5d
-			y: -3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4B19CA35F30BFAF4"]
+			id: "5581EF03F2C7B4FB"
+			rewards: [{
+				id: "2C1B42C2275A46DF"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "113553B29C2E0CA7"
+				item: "bhc:soul_heart_amulet"
+				type: "item"
+			}]
+			title: "Heart Amulet"
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["06581950221710F7"]
+			description: [
+				"You need 4 additional ingredients for rituals. There are multiple ways to achieve this"
+				""
+				"&bSouls&r:"
+				"- Soul Extractor"
+				""
+				"&4Blood&r:"
+				"- Sacrifice mobs near the altar"
+				"- Hurt mobs with Mystical Dagger while having Test Tube in Inventory (Can be filled via Blood Magic Altar)"
+				""
+				"&aExperience&r:"
+				"- Xpetrified Orb"
+				"- Put enchanted Item"
+				""
+				"&bAureal&r:"
+				"- Aureal Bottle"
+			]
+			id: "2860BE437E6DB11F"
+			tasks: [
+				{
+					id: "156002936A1BF31B"
+					item: {
+						Count: 1
+						id: "forbidden_arcanus:soul_extractor"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1AC55DB4E1900B5B"
+					item: {
+						Count: 1
+						id: "forbidden_arcanus:mystical_dagger"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "365553D29726B9EA"
+					item: "forbidden_arcanus:test_tube"
+					type: "item"
+				}
+				{
+					id: "6527695AFB12658F"
+					item: "forbidden_arcanus:xpetrified_orb"
+					type: "item"
+				}
+				{
+					id: "44420EF882586E03"
+					item: "forbidden_arcanus:aureal_bottle"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -2.0d
 		}
 	]
 	title: "Forbidden \\& Arcanus"

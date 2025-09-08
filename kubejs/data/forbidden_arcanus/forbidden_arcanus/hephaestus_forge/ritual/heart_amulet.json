@@ -1,0 +1,43 @@
+{
+  "additional_requirements": {
+    "forge_tier": 2
+  },
+  "essences": {
+    "aureal": 50,
+    "blood": 4500,
+    "experience": 50,
+    "souls": 5
+  },
+  "inputs": [
+    {
+      "amount": 3,
+      "ingredient": {
+        "tag": "forge:glass"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "bloodmagic:reinforcedslate"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "botania:mana_string"
+      }
+    }
+  ],
+  "main_ingredient": {
+    "tag": "forge:heart"
+  },  
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "Count": 1,
+      "id": "bhc:heart_amulet",
+      "tag": {
+    }
+    }
+  }
+}

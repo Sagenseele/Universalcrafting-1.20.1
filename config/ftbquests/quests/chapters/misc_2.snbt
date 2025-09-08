@@ -30,7 +30,7 @@
 			image: "botania:item/cosmetic_questgiver_mark"
 			rotation: 0.0d
 			width: 1.0d
-			x: -5.5d
+			x: -4.5d
 			y: -3.5d
 		}
 		{
@@ -554,7 +554,7 @@
 				item: "enderio:item_conduit"
 				type: "item"
 			}]
-			x: -5.5d
+			x: -4.5d
 			y: -2.5d
 		}
 		{
@@ -578,7 +578,7 @@
 				type: "item"
 			}]
 			title: "&4BUG - Energy Conduits&r"
-			x: -5.5d
+			x: -4.5d
 			y: -0.5d
 		}
 		{
@@ -593,7 +593,7 @@
 				item: "enderio:fluid_conduit"
 				type: "item"
 			}]
-			x: -5.5d
+			x: -4.5d
 			y: -1.5d
 		}
 		{
@@ -608,7 +608,7 @@
 				item: "enderio:me_conduit"
 				type: "item"
 			}]
-			x: -5.5d
+			x: -4.5d
 			y: 3.5d
 		}
 		{
@@ -623,7 +623,7 @@
 				item: "enderio:redstone_conduit"
 				type: "item"
 			}]
-			x: -5.5d
+			x: -4.5d
 			y: 0.5d
 		}
 		{
@@ -653,7 +653,7 @@
 				item: "enderio:chemical_conduit"
 				type: "item"
 			}]
-			x: -5.5d
+			x: -4.5d
 			y: 1.5d
 		}
 		{
@@ -668,7 +668,7 @@
 				item: "enderio:refined_storage_conduit"
 				type: "item"
 			}]
-			x: -5.5d
+			x: -4.5d
 			y: 4.5d
 		}
 		{
@@ -930,7 +930,7 @@
 				item: "mekanism:basic_universal_cable"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -5.5d
 			y: -0.5d
 		}
 		{
@@ -945,7 +945,7 @@
 				item: "mekanism:basic_mechanical_pipe"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -5.5d
 			y: -1.5d
 		}
 		{
@@ -960,7 +960,7 @@
 				item: "mekanism:basic_pressurized_tube"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -5.5d
 			y: 1.5d
 		}
 		{
@@ -975,7 +975,7 @@
 				item: "mekanism:basic_logistical_transporter"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -5.5d
 			y: -2.5d
 		}
 		{
@@ -990,7 +990,7 @@
 				item: "mekanism:basic_thermodynamic_conductor"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -5.5d
 			y: 2.5d
 		}
 		{
