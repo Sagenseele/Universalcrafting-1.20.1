@@ -38,7 +38,7 @@ ServerEvents.recipes((event) => {
     event.recipes.thermal.refinery([Fluid.of('kubejs:inferium_enriched_water', 200), '1x kubejs:crystal_inferium'], Fluid.of('kubejs:inferium_sludge', 500))
 
     // Prudentium Crystal
-    mixer('kubejs:prudiferium_solution', 100, 'kubejs:inferium_enriched_water', 50, ['mysticalagriculture:prudentium_essence', 'mysticalagriculture:prudentium_essence', 'mysticalagriculture:prudentium_essence'], 2048)
+    mixer('kubejs:prudiferium_solution', 100, 'forge:fluid/inferium_enriched_water', 50, ['mysticalagriculture:prudentium_essence', 'mysticalagriculture:prudentium_essence', 'mysticalagriculture:prudentium_essence'], 2048)
     event.recipes.thermal.chiller('kubejs:crystal_prudentium', [Fluid.of('kubejs:prudiferium_solution', 250)])
 
     //Salt Mixer (?)
