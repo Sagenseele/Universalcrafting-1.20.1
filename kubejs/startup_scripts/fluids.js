@@ -1,10 +1,10 @@
 StartupEvents.registry('fluid', event => {
 
     function thickFluid(name, color) {
-        event.create(name).thickTexture(color)
+        event.create(name).thickTexture(color).tag("forge:fluid/" + name)
     }
     function thinFluid(name, color) {
-        event.create(name).thinTexture(color)
+        event.create(name).thinTexture(color).tag("forge:fluid/" + name)
     }
     const liquid_metal = [
         { material: "iron", color: 0xffffff },
@@ -104,7 +104,7 @@ StartupEvents.registry('fluid', event => {
         { material: "platinum", color: 0xffffff },
     ]
     liquid_metal.forEach(element => {
-        event.create('molten_' + element.material).thickTexture(element.color).tag('forge:molten/'+element.material)
+        event.create('molten_' + element.material).thickTexture(element.color).tag('forge:molten/' + element.material)
 
     });
 
