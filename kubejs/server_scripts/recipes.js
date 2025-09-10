@@ -1198,4 +1198,10 @@ ServerEvents.recipes(event => {
       '3x minecraft:gravel'
     ]
   )
+
+  // Draconic Evolution
+  event.remove({ id: "draconicevolution:components/draconium_ingot_from_ore"})
+  event.remove({ id: "draconicevolution:components/draconium_ingot_from_dust"})
+  event.remove({ id: "enderio:smelting/draconicevolution/components/draconium_ingot_from_ore"})
+  event.remove({ id: "enderio:smelting/draconicevolution/components/draconium_ingot_from_dust"})
 })
