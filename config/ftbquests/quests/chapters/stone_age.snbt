@@ -222,7 +222,11 @@
 		}
 		{
 			dependencies: ["18FC621109276DA1"]
-			description: ["&oWhen I look at the resources that I have available, I see a way to create some raw Iron from magic. But I know for sure that it will hurt. And I don't know if I can handle that much pain in the long term."]
+			description: [
+				"&oWhen I look at the resources that I have available, I see a way to create some raw Iron from magic. But I know for sure that it will hurt. And I don't know if I can handle that much pain in the long term.&r"
+				""
+				"Right click near the Altar to hurt yourself and gain 200 mB of Blood in the Altar. Boostable by self-sacrifice runes."
+			]
 			id: "04C04D6FBB67AAC3"
 			rewards: [{
 				id: "70E0AB444CF0CDB1"

@@ -199,7 +199,7 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["6EB31D4642BBB1FE"]
+			dependencies: ["7A4EE59D1B97D9A2"]
 			description: ["Put in your inventory to repair your gear by 1 durability per second."]
 			id: "24322269F7AD2AC0"
 			rewards: [{
@@ -218,8 +218,8 @@
 				}
 				type: "item"
 			}]
-			x: 7.5d
-			y: -1.0d
+			x: 14.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["5043FB07729FD645"]
@@ -386,6 +386,17 @@
 			}]
 			x: 2.0d
 			y: -4.0d
+		}
+		{
+			dependencies: ["6EB31D4642BBB1FE"]
+			id: "37831DF0312360A0"
+			tasks: [{
+				id: "17AE112BAD0F21F7"
+				item: "forbidden_arcanus:rune"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -4.5d
 		}
 	]
 	title: "Botania"

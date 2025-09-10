@@ -272,11 +272,9 @@
 		{
 			dependencies: ["06581950221710F7"]
 			description: [
-				"The Hephaestus Forge comes in 5 different tiers. When you first create it, it will be tier 1 which is enough for simple rituals but won't suffice for executing more advanced rituals. Upgrading your Forge tier will allow you to store a larger number of essences in the Hephaestus Forge and thus allow you to execute new rituals."
-				""
-				"The upgrading needs to be started with special upgrading rituals. Unlike default rituals, these won't create a result item, but advance your Hephaestus Forge by one tier after they have been completed."
-				""
-				"Click on the link in the picture below to get more information about the forge."
+				"&bSouls&r: 10"
+				"&4Blood&r: 6000"
+				"&9Aureal&r: 500"
 			]
 			icon: {
 				Count: 1
@@ -290,6 +288,10 @@
 			id: "415D4A65EBD272AB"
 			shape: "octagon"
 			size: 1.0d
+			tasks: [{
+				id: "776E560DF7D0EC15"
+				type: "checkmark"
+			}]
 			title: "Hephaestus Forge Tier II"
 			x: 4.5d
 			y: -2.0d
@@ -297,11 +299,9 @@
 		{
 			dependencies: ["415D4A65EBD272AB"]
 			description: [
-				"The Hephaestus Forge comes in 5 different tiers. When you first create it, it will be tier 1 which is enough for simple rituals but won't suffice for executing more advanced rituals. Upgrading your Forge tier will allow you to store a larger number of essences in the Hephaestus Forge and thus allow you to execute new rituals."
-				""
-				"The upgrading needs to be started with special upgrading rituals. Unlike default rituals, these won't create a result item, but advance your Hephaestus Forge by one tier after they have been completed."
-				""
-				"Click on the link in the picture below to get more information about the forge."
+				"&bSouls&r: 50"
+				"&4Blood&r: 9000"
+				"&9Aureal&r: 1000"
 			]
 			icon: {
 				Count: 1
@@ -315,6 +315,10 @@
 			id: "4B19CA35F30BFAF4"
 			shape: "octagon"
 			size: 1.0d
+			tasks: [{
+				id: "774A311BADB6D532"
+				type: "checkmark"
+			}]
 			title: "Hephaestus Forge Tier III"
 			x: 7.5d
 			y: -2.0d
@@ -322,11 +326,9 @@
 		{
 			dependencies: ["4B19CA35F30BFAF4"]
 			description: [
-				"The Hephaestus Forge comes in 5 different tiers. When you first create it, it will be tier 1 which is enough for simple rituals but won't suffice for executing more advanced rituals. Upgrading your Forge tier will allow you to store a larger number of essences in the Hephaestus Forge and thus allow you to execute new rituals."
-				""
-				"The upgrading needs to be started with special upgrading rituals. Unlike default rituals, these won't create a result item, but advance your Hephaestus Forge by one tier after they have been completed."
-				""
-				"Click on the link in the picture below to get more information about the forge."
+				"&bSouls&r: 100"
+				"&4Blood&r: 12.000"
+				"&9Aureal&r: 2000"
 			]
 			icon: {
 				Count: 1
@@ -340,6 +342,10 @@
 			id: "7BAA380D277307E1"
 			shape: "octagon"
 			size: 1.0d
+			tasks: [{
+				id: "63D0F64A752FF6F6"
+				type: "checkmark"
+			}]
 			title: "Hephaestus Forge Tier IV"
 			x: 10.5d
 			y: -2.0d
@@ -347,11 +353,9 @@
 		{
 			dependencies: ["7BAA380D277307E1"]
 			description: [
-				"The Hephaestus Forge comes in 5 different tiers. When you first create it, it will be tier 1 which is enough for simple rituals but won't suffice for executing more advanced rituals. Upgrading your Forge tier will allow you to store a larger number of essences in the Hephaestus Forge and thus allow you to execute new rituals."
-				""
-				"The upgrading needs to be started with special upgrading rituals. Unlike default rituals, these won't create a result item, but advance your Hephaestus Forge by one tier after they have been completed."
-				""
-				"Click on the link in the picture below to get more information about the forge."
+				"&bSouls&r: 500"
+				"&4Blood&r: 20.000"
+				"&9Aureal&r: 5000"
 			]
 			icon: {
 				Count: 1
@@ -365,6 +369,10 @@
 			id: "04C1800BC7618BF7"
 			shape: "octagon"
 			size: 1.0d
+			tasks: [{
+				id: "1ACE98609B60ABA3"
+				type: "checkmark"
+			}]
 			title: "Hephaestus Forge Tier I"
 			x: 13.5d
 			y: -2.0d
@@ -653,9 +661,9 @@
 				""
 				"&aExperience&r:"
 				"- Xpetrified Orb"
-				"- Put enchanted Item"
+				"- Put enchanted Item in the Slot"
 				""
-				"&bAureal&r:"
+				"&9Aureal&r:"
 				"- Aureal Bottle"
 			]
 			id: "2860BE437E6DB11F"
