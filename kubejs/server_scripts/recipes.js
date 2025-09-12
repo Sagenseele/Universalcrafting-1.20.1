@@ -1141,6 +1141,7 @@ ServerEvents.recipes(event => {
 
   // Tea Leaves
   event.recipes.farmersdelight.cutting('#minecraft:saplings', '#forge:tools/knives', ['1x delightful:green_tea_leaf'])
+  event.recipes.farmersdelight.cutting('#forge:tea_leaves', '#forge:shovels', ['1x minecraft:green_dye', Item.of('1x delightful:matcha').withChance(0.4)])
 
   // Kelp
   event.shaped(
@@ -1165,6 +1166,23 @@ ServerEvents.recipes(event => {
     }
   )
 
+  // Pipez
+  event.remove({ id: 'pipez:basic_upgrade'})
+  event.remove({ id: 'pipez:improved_upgrade'})
+  event.remove({ id: 'pipez:advanced_upgrade'})
+  event.shaped(
+    Item.of('pipez:advanced_upgrade', 1),
+    [
+      'ABA',
+      'BCB',
+      'ABA',
+    ],
+    {
+      A: 'minecraft:lapis_lazuli',
+      B: 'minecraft:paper',
+      C: 'kubejs:blueish_ingot'
+    }
+  )
   // Cardboard
   event.recipes.thermal.press('create:cardboard', 'create:pulp')
 
