@@ -1291,8 +1291,8 @@
 		}
 		{
 			description: [
-				"&eSpawners&r are very peculiar. It seems they can be improved with some items."
-				"If I can create a complety buffed spawner, that would just be &6overpowered&r."
+				"&o&eSpawners&r &oare very peculiar. It seems they can be improved with some items."
+				"&oIf I can create a complety buffed spawner, that would just be &6overpowered&r."
 			]
 			icon: "minecraft:spawner"
 			id: "07276B91EEA409E6"

@@ -675,10 +675,7 @@
 			y: 6.0d
 		}
 		{
-			dependencies: [
-				"1445775C649FB704"
-				"476F4C0DE86B9ED8"
-			]
+			dependencies: ["1445775C649FB704"]
 			id: "782D125E1BE4CAF5"
 			rewards: [{
 				id: "15AC1CFB63119E32"
@@ -1332,22 +1329,6 @@
 			}]
 			x: -1.5d
 			y: 0.0d
-		}
-		{
-			dependencies: ["2468A11BD78A5360"]
-			id: "476F4C0DE86B9ED8"
-			rewards: [{
-				id: "569EB577A450F306"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
-			tasks: [{
-				id: "5C30BAA47BFE9499"
-				item: "mekanism:sulfuric_acid_bucket"
-				type: "item"
-			}]
-			x: 1.5d
-			y: 4.0d
 		}
 		{
 			dependencies: ["3730C6F65704087D"]

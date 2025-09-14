@@ -350,6 +350,7 @@
 		{
 			dependencies: ["37B32C20370A246E"]
 			disable_toast: true
+			hide_until_deps_complete: true
 			icon: "twilightforest:twilight_portal_miniature_structure"
 			id: "50239BC15503E0D2"
 			rewards: [{

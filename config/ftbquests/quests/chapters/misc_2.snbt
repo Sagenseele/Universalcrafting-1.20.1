@@ -464,8 +464,8 @@
 				item: "botanypots:terracotta_hopper_botany_pot"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -2.5d
+			x: 0.0d
+			y: -4.5d
 		}
 		{
 			id: "3B707DE8CEA7626D"
@@ -672,107 +672,6 @@
 			}]
 			x: -4.5d
 			y: 4.5d
-		}
-		{
-			id: "6EF4A97259AF071E"
-			rewards: [{
-				id: "52DE2E8B99D7B479"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
-			tasks: [{
-				id: "6F799375FFF0EC74"
-				item: {
-					Count: 1
-					id: "sophisticatedstorage:barrel"
-					tag: {
-						woodType: "oak"
-					}
-				}
-				type: "item"
-			}]
-			x: 0.5d
-			y: 0.5d
-		}
-		{
-			dependencies: ["6EF4A97259AF071E"]
-			id: "576A85B1FCA1360E"
-			rewards: [{
-				id: "46641744DCB72BF7"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
-			tasks: [{
-				id: "0F2233647BB18421"
-				item: "sophisticatedstorage:void_upgrade"
-				type: "item"
-			}]
-			x: 1.5d
-			y: -0.5d
-		}
-		{
-			dependencies: ["6EF4A97259AF071E"]
-			id: "699521E765A30C1E"
-			rewards: [{
-				id: "6BBF65E8ABD94584"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
-			tasks: [{
-				id: "0610DD7CB6040DC6"
-				item: "sophisticatedstorage:controller"
-				type: "item"
-			}]
-			x: -0.5d
-			y: -0.5d
-		}
-		{
-			dependencies: ["699521E765A30C1E"]
-			id: "0E8AD803EDEE440D"
-			rewards: [{
-				id: "1CF95F98B7BA4E78"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
-			tasks: [{
-				id: "1FE6B9EC74C6FE7C"
-				item: "sophisticatedstorage:storage_input"
-				type: "item"
-			}]
-			x: -0.5d
-			y: -1.5d
-		}
-		{
-			dependencies: ["699521E765A30C1E"]
-			id: "3AA82296DB0C8455"
-			rewards: [{
-				id: "3FF402C9F39C17F0"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
-			tasks: [{
-				id: "10DF7FB777FBA3B9"
-				item: "sophisticatedstorage:storage_output"
-				type: "item"
-			}]
-			x: -1.5d
-			y: -0.5d
-		}
-		{
-			dependencies: ["6EF4A97259AF071E"]
-			id: "6704031C5FF940CE"
-			rewards: [{
-				id: "782098FC36E30225"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
-			tasks: [{
-				id: "0B37B4BBB0805FD5"
-				item: "sophisticatedstorage:crafting_upgrade"
-				type: "item"
-			}]
-			x: 0.5d
-			y: -1.0d
 		}
 		{
 			id: "60F2A8C0B00A1D7B"

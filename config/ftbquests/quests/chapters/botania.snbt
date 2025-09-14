@@ -103,8 +103,8 @@
 				item: "botania:hydroangeas"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -4.0d
+			x: -1.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["0AF2FE192BE0715D"]
@@ -121,23 +121,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["0AF2FE192BE0715D"]
-			id: "1B10754A25324D69"
-			rewards: [{
-				id: "3CE813ED32A90CD4"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
-			tasks: [{
-				id: "42C181ECC54857C0"
-				item: "botania:kekimurus"
-				type: "item"
-			}]
-			x: -1.0d
-			y: -4.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["6EB31D4642BBB1FE"]

@@ -35,7 +35,7 @@
 			image: "kubejs:item/images/industrial_age"
 			rotation: 0.0d
 			width: 16.125984251968504d
-			x: 8.0d
+			x: 5.0d
 			y: -10.0d
 		}
 		{
@@ -55,8 +55,8 @@
 			image: "pipez:item/wrench"
 			rotation: 0.0d
 			width: 1.0d
-			x: -2.5d
-			y: -3.5d
+			x: 7.5d
+			y: -3.0d
 		}
 		{
 			height: 0.8d
@@ -202,6 +202,7 @@
 				type: "item"
 			}]
 			tasks: [{
+				count: 15L
 				id: "33B80171BDA6978D"
 				item: "kubejs:electric_motor"
 				type: "item"
@@ -718,6 +719,7 @@
 			dependencies: ["5519231F5651F67D"]
 			icon: "mbd2:blast_furnace"
 			id: "20E1FE382D42E846"
+			require_sequential_tasks: true
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "15AD39F6BF53C7B3"
@@ -981,6 +983,9 @@
 				"Place any mob on the seat and interact with it to access your storage."
 				""
 				"It has interactions with JEI. If you got all items necessary for a recipe, you can request them all together with one click in JEI."
+				""
+				"You can instead use the Storage Terminal or Crafting Terminal from "
+				"{ \"text\": \"Toms' Simple Storage\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"17C7F7BC85E4AD58\" } }"
 			]
 			icon: "create:item_vault"
 			id: "7AC56523333951F1"
@@ -997,7 +1002,7 @@
 					type: "command"
 				}
 			]
-			subtitle: "Solving the early Storage Problem!"
+			subtitle: "One Solution for Storage!"
 			tasks: [
 				{
 					count: 9L
@@ -1044,8 +1049,8 @@
 				}
 			]
 			title: "Multiblock Storage"
-			x: -3.0d
-			y: -5.0d
+			x: -1.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["2CA8C43B77E48553"]
@@ -1129,7 +1134,131 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["48AF2A3A4CB1AC9E"]
+			id: "6EF4A97259AF071E"
+			rewards: [{
+				id: "52DE2E8B99D7B479"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6F799375FFF0EC74"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:barrel"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["6EF4A97259AF071E"]
+			id: "699521E765A30C1E"
+			rewards: [{
+				id: "6BBF65E8ABD94584"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0610DD7CB6040DC6"
+				item: "sophisticatedstorage:controller"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["699521E765A30C1E"]
+			id: "0E8AD803EDEE440D"
+			rewards: [{
+				id: "1CF95F98B7BA4E78"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1FE6B9EC74C6FE7C"
+				item: "sophisticatedstorage:storage_input"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["699521E765A30C1E"]
+			id: "3AA82296DB0C8455"
+			rewards: [{
+				id: "3FF402C9F39C17F0"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "10DF7FB777FBA3B9"
+				item: "sophisticatedstorage:storage_output"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["6EF4A97259AF071E"]
+			id: "6704031C5FF940CE"
+			rewards: [{
+				id: "782098FC36E30225"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0B37B4BBB0805FD5"
+				item: "sophisticatedstorage:crafting_upgrade"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["699521E765A30C1E"]
+			id: "17C7F7BC85E4AD58"
+			tasks: [{
+				id: "67C498374D2278FE"
+				item: "toms_storage:ts.storage_terminal"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["17C7F7BC85E4AD58"]
+			id: "06CC736E3E21C6BF"
+			tasks: [{
+				id: "05AA066955BA66CC"
+				item: "toms_storage:ts.crafting_terminal"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["6EF4A97259AF071E"]
+			id: "576A85B1FCA1360E"
+			rewards: [{
+				id: "46641744DCB72BF7"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0F2233647BB18421"
+				item: "sophisticatedstorage:void_upgrade"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -7.0d
 		}
 	]
 	title: "&l&6Industrial Age"
