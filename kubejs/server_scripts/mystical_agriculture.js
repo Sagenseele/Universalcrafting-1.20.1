@@ -1,5 +1,27 @@
 ServerEvents.recipes((event) => {
-
+    /**
+     * @param {String} result - Result IIngredient
+     * @param {String} input - Input IIngredient
+     * @param {Array} ingArray - Input Array with IIngredients
+    */
+    function infusion(result, input, ingredientsArray) {
+        var inputs = []
+        ingredientsArray.forEach(item => {
+            inputs.push({ "item": item.toString() })
+        })
+        var recipe = {
+            "type": "mysticalagriculture:infusion",
+            "input": {
+                "item": input.toString()
+            },
+            "ingredients": inputs,
+            "result": {
+                "item": result.toString()
+            }
+        }
+        console.log(recipe)
+        event.custom(recipe)
+    }
     function squeezer(output, output_amount, input, energy) {
         event.custom({
             type: "immersiveengineering:squeezer",
@@ -30,7 +52,6 @@ ServerEvents.recipes((event) => {
                 "fluid": fluid_output.toString()
             }
         }
-        console.log(recipe)
         event.custom(recipe)
     }
     // Inferium Crystal
@@ -43,14 +64,7 @@ ServerEvents.recipes((event) => {
 
     //Salt Mixer (?)
     //mods.nuclearcraft.salt_mixer.addRecipe([<liquid:water_prudentium> * 500, <liquid:water_inferium> * 500, <liquid:solution_prudiferium> * 1000]);
-
-
-    //event.remove({type:"mysticalagriculture:infusion"})
-    //event.forEachRecipe({ type: "immersiveengineering:squeezer" }, recipe => {
-    //    recipe = recipe.json.toString()
-    //    console.log(recipe)
-    //})
-
+   
     // Tertium Crystal
 
     // Superium Crystal
@@ -63,26 +77,30 @@ ServerEvents.recipes((event) => {
     event.replaceInput(
         { output: 'mysticalagriculture:infusion_altar' },
         'minecraft:gold_ingot',
-        'kubejs:electrical_machine_casing'
+        'kubejs:crystal_inferium'
     )
     event.replaceInput(
         { output: 'mysticalagriculture:infusion_pedestal' },
         'minecraft:gold_ingot',
-        'kubejs:electrical_machine_casing'
+        'kubejs:crystal_inferium'
     )
     event.replaceInput(
         { output: 'mysticalagriculture:awakening_altar' },
         'minecraft:gold_ingot',
-        'kubejs:electrical_machine_casing'
+        'kubejs:crystal_inferium'
     )
     event.replaceInput(
         { output: 'mysticalagriculture:awakening_pedestal' },
         'minecraft:gold_ingot',
-        'kubejs:electrical_machine_casing'
+        'kubejs:crystal_inferium'
     )
     event.replaceInput(
         { output: 'mysticalagriculture:essence_vessel' },
         'minecraft:gold_ingot',
-        'kubejs:electrical_machine_casing'
+        'kubejs:crystal_inferium'
     )
+
+    event.remove({ id: "biomancy:crafting/despoil_sickle"})
+    infusion("biomancy:despoil_sickle","kubejs:dark_spiritual_core", ["minecraft:rotten_flesh","minecraft:porkchop","minecraft:rotten_flesh","minecraft:beef","minecraft:rotten_flesh","minecraft:mutton","minecraft:rotten_flesh","minecraft:chicken"])
+    infusion("kubejs:dark_spiritual_core", "kubejs:simple_spiritual_core", ["bloodmagic:reinforcedslate","minecraft:black_candle","bloodmagic:reinforcedslate","minecraft:red_candle","bloodmagic:reinforcedslate","minecraft:black_candle","bloodmagic:reinforcedslate","minecraft:red_candle"])
 })

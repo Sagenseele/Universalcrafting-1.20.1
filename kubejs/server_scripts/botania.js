@@ -28,7 +28,7 @@ ServerEvents.recipes(event => {
             { tag: "minecraft:flowers" }
         ],
         output: { item: "gateways:gate_pearl", "nbt": { gateway: "gateways:emerald_grove" } },
-        reagent: { item: "kubejs:simple_gateway_core" }
+        reagent: { item: "kubejs:simple_spiritual_core" }
     })
 
     // Infused Seashelf

@@ -1082,6 +1082,16 @@ ServerEvents.recipes(event => {
     'minecraft:diamond',
     'projecte:philosophers_stone'
   )
+
+  // Energy Collector
+
+  event.replaceInput(
+    { output: 'projecte:collector_mk1' },
+    'minecraft:furnace',
+    'projecte:dm_furnace'
+  )
+
+
   //Forbidden & Arcanus
 
   // Deorum
@@ -1167,9 +1177,9 @@ ServerEvents.recipes(event => {
   )
 
   // Pipez
-  event.remove({ id: 'pipez:basic_upgrade'})
-  event.remove({ id: 'pipez:improved_upgrade'})
-  event.remove({ id: 'pipez:advanced_upgrade'})
+  event.remove({ id: 'pipez:basic_upgrade' })
+  event.remove({ id: 'pipez:improved_upgrade' })
+  event.remove({ id: 'pipez:advanced_upgrade' })
   event.shaped(
     Item.of('pipez:advanced_upgrade', 1),
     [
@@ -1218,8 +1228,8 @@ ServerEvents.recipes(event => {
   )
 
   // Draconic Evolution
-  event.remove({ id: "draconicevolution:components/draconium_ingot_from_ore"})
-  event.remove({ id: "draconicevolution:components/draconium_ingot_from_dust"})
-  event.remove({ id: "enderio:smelting/draconicevolution/components/draconium_ingot_from_ore"})
-  event.remove({ id: "enderio:smelting/draconicevolution/components/draconium_ingot_from_dust"})
+  event.remove({ id: "draconicevolution:components/draconium_ingot_from_ore" })
+  event.remove({ id: "draconicevolution:components/draconium_ingot_from_dust" })
+  event.remove({ id: "enderio:smelting/draconicevolution/components/draconium_ingot_from_ore" })
+  event.remove({ id: "enderio:smelting/draconicevolution/components/draconium_ingot_from_dust" })
 })
