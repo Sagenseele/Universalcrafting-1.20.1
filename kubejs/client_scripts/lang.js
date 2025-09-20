@@ -16,7 +16,7 @@ ClientEvents.lang('en_us', event => {
     event.add('block.mbd2.multiplex_hatch_mark_1', 'Multiplex Hatch Mark I')
     event.add('block.mbd2.multiplex_hatch_mark_2', 'Multiplex Hatch Mark II')
     event.add('block.mbd2.multiplex_hatch_mark_3', 'Multiplex Hatch Mark III')
-    event.add('block.mbd2.cobblestone_generator_tier1', 'Stone Generator')
+    event.add('block.mbd2.matter_replicator', 'Matter Replicator')
     event.add('block.mbd2.magnetizer', 'Magnetizer')
     event.add('block.mbd2.drill_mk_i', 'Deep Drill')
     event.add('block.mbd2.assembler', 'Assembler')
