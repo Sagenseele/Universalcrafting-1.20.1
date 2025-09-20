@@ -341,7 +341,8 @@ ServerEvents.recipes(event => {
       { item: 'minecraft:flint' }
     ],
     results: [
-      { item: 'minecraft:iron_nugget', chance: 0.6 },
+      { item: 'minecraft:iron_nugget'},
+      { item: 'minecraft:iron_nugget', chance: 0.15},
       { item: 'minecraft:lapis_lazuli', chance: 0.2 }
     ],
     id: 'custom:splashing/flint'
@@ -1140,6 +1141,7 @@ ServerEvents.recipes(event => {
   // Tea Leaves
   event.recipes.farmersdelight.cutting('#minecraft:saplings', '#forge:tools/knives', ['1x delightful:green_tea_leaf'])
   event.recipes.farmersdelight.cutting('#forge:tea_leaves', '#forge:shovels', ['1x minecraft:green_dye', Item.of('1x delightful:matcha').withChance(0.4)])
+  event.recipes.farmersdelight.cutting('#farmersdelight:barks', '#forge:tools/knives', ['1x minecraft:bone_meal'])
 
   // Kelp
   event.shaped(
@@ -1153,6 +1155,7 @@ ServerEvents.recipes(event => {
     }
   )
 
+  // Dirt
   event.shaped(
     Item.of('minecraft:dirt', 12),
     [
@@ -1161,6 +1164,29 @@ ServerEvents.recipes(event => {
     ],
     {
       A: 'mysticalagriculture:dirt_essence'
+    }
+  )
+
+  // Calcite
+  event.replaceInput({ output: 'minecraft:calcite' },
+    'mysticalagriculture:amethyst_essence',
+    'mysticalagriculture:nether_quartz_essence'
+  )
+
+  // Advanced Compacting Upgrade
+  event.remove({ output: 'sophisticatedstorage:advanced_compacting_upgrade' })
+  event.shaped(
+    Item.of('sophisticatedstorage:advanced_compacting_upgrade', 1),
+    [
+      ' A ',
+      'BCB',
+      'DDD',
+    ],
+    {
+      A: 'create:chute',
+      B: 'kubejs:blueish_ingot',
+      C: 'sophisticatedstorage:compacting_upgrade',
+      D: 'minecraft:redstone'
     }
   )
 
