@@ -1,6 +1,7 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: "square"
+	disable_toast: true
 	filename: "introduction"
 	group: ""
 	icon: "storagedrawers:creative_vending_upgrade"

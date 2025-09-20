@@ -164,7 +164,7 @@
 			rotation: 0.0d
 			width: 16.125984251968504d
 			x: -2.5d
-			y: 12.0d
+			y: 11.5d
 		}
 	]
 	order_index: 2
@@ -249,7 +249,7 @@
 				item: "pneumaticcraft:plastic"
 				type: "item"
 			}]
-			x: 10.5d
+			x: 10.0d
 			y: 11.5d
 		}
 		{
@@ -1406,7 +1406,7 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: 13.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["012C411B18208096"]

@@ -35,8 +35,8 @@
 			image: "kubejs:item/images/industrial_age"
 			rotation: 0.0d
 			width: 16.125984251968504d
-			x: 5.0d
-			y: -10.0d
+			x: 4.0d
+			y: 1.5d
 		}
 		{
 			click: "#2EA5315E1FCC977A"
@@ -45,7 +45,7 @@
 			image: "bloodmagic:item/lavasigil"
 			rotation: 0.0d
 			width: 0.8d
-			x: -2.5d
+			x: -0.5d
 			y: -2.0d
 		}
 		{
@@ -55,16 +55,8 @@
 			image: "pipez:item/wrench"
 			rotation: 0.0d
 			width: 1.0d
-			x: 7.5d
-			y: -3.0d
-		}
-		{
-			height: 0.8d
-			image: "kubejs:item/simple_matter_extraction_device"
-			rotation: 0.0d
-			width: 0.8d
-			x: 16.0d
-			y: -2.5d
+			x: 4.5d
+			y: -2.0d
 		}
 	]
 	order_index: 1
@@ -88,7 +80,6 @@
 		}
 		{
 			dependencies: [
-				"3B0345242B7CEDEE"
 				"3E8359A7FAB86AFB"
 				"3F6E0421CBB60E0C"
 			]
@@ -112,7 +103,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: -0.5d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -231,7 +222,7 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
+			x: 2.0d
 			y: -5.0d
 		}
 		{
@@ -247,7 +238,7 @@
 			}]
 			tasks: [{
 				id: "5CF1D342A0659368"
-				item: "kubejs:yellow_ingot"
+				item: "kubejs:sulfeel_ingot"
 				type: "item"
 			}]
 			x: 15.0d
@@ -291,10 +282,7 @@
 			y: -2.0d
 		}
 		{
-			dependencies: [
-				"0DA090A2DBE0219D"
-				"20E1FE382D42E846"
-			]
+			dependencies: ["0DA090A2DBE0219D"]
 			dependency_requirement: "one_completed"
 			id: "0EEA4E17F4A5D4EF"
 			rewards: [{
@@ -330,7 +318,7 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["0F892682DE356146"]
+			dependencies: ["48AF2A3A4CB1AC9E"]
 			id: "15D08F47009082A6"
 			rewards: [{
 				id: "70163E115F589361"
@@ -346,53 +334,8 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["159CA0147B49AD25"]
-			id: "0F892682DE356146"
-			rewards: [{
-				id: "7DB3F50E6C519638"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
-			tasks: [{
-				id: "471E2DB33637478B"
-				item: "create:polished_rose_quartz"
-				type: "item"
-			}]
-			x: 10.5d
-			y: -5.0d
-		}
-		{
-			dependencies: ["48AF2A3A4CB1AC9E"]
-			icon: "create:rose_quartz"
-			id: "159CA0147B49AD25"
-			rewards: [{
-				id: "5070D4F4EC3C8224"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "79438321A799EA08"
-					item: "create:rose_quartz"
-					type: "item"
-				}
-				{
-					id: "63030D3D6DE7B759"
-					item: {
-						Count: 1
-						id: "create:sand_paper"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			x: 10.5d
-			y: -6.5d
-		}
-		{
 			dependencies: ["46C0E33966D05CC5"]
+			description: ["You can use the millstone to process the &eCobblestone&r into &eGravel&r into &eFlint&r. Flint can be washed for &eIron Nuggets&r and &eLapis Lazuli&r. Which coincidentally are used in the next product."]
 			id: "225C42CA4F5126B9"
 			rewards: [{
 				id: "46F5A3531BD632F6"
@@ -404,8 +347,9 @@
 				item: "create:millstone"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -2.0d
+			title: "Automated Basic Resources"
+			x: 3.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["66E807F8876802C6"]
@@ -420,7 +364,7 @@
 				item: "create:water_wheel"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.0d
 			y: -3.5d
 		}
 		{
@@ -436,7 +380,7 @@
 				item: "create:large_water_wheel"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 0.5d
 			y: -3.5d
 		}
 		{
@@ -460,8 +404,8 @@
 				item: "silentgear:blueprint_paper"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -3.5d
+			x: -1.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["229865236113B955"]
@@ -477,7 +421,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: -8.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["52CCCBA9EF914842"]
@@ -505,7 +449,7 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
+			x: 2.0d
 			y: -6.5d
 		}
 		{
@@ -543,23 +487,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: -3.5d
-		}
-		{
-			id: "3B0345242B7CEDEE"
-			rewards: [{
-				id: "1093FCF435AC20A1"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
-			tasks: [{
-				id: "61B9E1CBA47DCE52"
-				item: "minecraft:sand"
-				type: "item"
-			}]
-			x: 7.5d
-			y: -0.5d
+			x: 5.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["225C42CA4F5126B9"]
@@ -571,11 +500,11 @@
 			}]
 			tasks: [{
 				id: "31701DC3C74AE30F"
-				item: "kubejs:blueish_dust"
+				item: "kubejs:blueish_ingot"
 				type: "item"
 			}]
 			x: 7.5d
-			y: -2.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["0EEA4E17F4A5D4EF"]
@@ -606,7 +535,7 @@
 				item: "minecraft:paper"
 				type: "item"
 			}]
-			x: 6.0d
+			x: -1.0d
 			y: -5.0d
 		}
 		{
@@ -623,8 +552,8 @@
 				item: "farmersdelight:tree_bark"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -6.5d
+			x: 0.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["377886B31A4BEB4D"]
@@ -639,13 +568,13 @@
 				item: "minecraft:lapis_lazuli"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -5.0d
+			x: 0.5d
+			y: -8.0d
 		}
 		{
 			dependencies: [
-				"5072F80080915A61"
 				"377886B31A4BEB4D"
+				"5072F80080915A61"
 			]
 			id: "229865236113B955"
 			rewards: [{
@@ -658,8 +587,8 @@
 				item: "create:crushed_raw_iron"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -8.0d
+			x: 7.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["13D7656F2F625BB4"]
@@ -669,6 +598,7 @@
 				item: "kubejs:universal_badge"
 				type: "item"
 			}]
+			shape: "hexagon"
 			tasks: [{
 				id: "6970BC53C1C4F44A"
 				item: {
@@ -692,8 +622,8 @@
 				match_nbt: false
 				type: "item"
 			}]
-			x: 6.0d
-			y: -3.5d
+			x: 0.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["45D3A3893156DB25"]
@@ -783,7 +713,7 @@
 			}]
 			title: "Alloy Kiln"
 			x: 15.0d
-			y: -5.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["2CA8C43B77E48553"]
@@ -809,8 +739,8 @@
 				}
 				type: "item"
 			}]
-			x: 12.5d
-			y: -5.5d
+			x: 12.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["3CF4FA8961C6D743"]
@@ -824,7 +754,7 @@
 				item: "create:andesite_casing"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 2.0d
 			y: -0.5d
 		}
 		{
@@ -840,10 +770,10 @@
 			size: 1.1d
 			tasks: [{
 				id: "74E1FB360FE5FDC9"
-				item: "mbd2:cobblestone_generator_tier1"
+				item: "mbd2:matter_replicator"
 				type: "item"
 			}]
-			x: -1.5d
+			x: 0.5d
 			y: -2.0d
 		}
 		{
@@ -915,11 +845,11 @@
 				}
 			]
 			title: "SCHEMATIC GO!"
-			x: 4.5d
+			x: -2.5d
 			y: -5.0d
 		}
 		{
-			dependencies: ["5072F80080915A61"]
+			dependencies: ["66E807F8876802C6"]
 			description: ["Chutes Drop 16 items at maximum at a time. They are especially usefull to put items in and out of the crushing wheels. Extracts from the inventory above or insert in the inventory below."]
 			id: "08A5193D16056744"
 			tasks: [{
@@ -927,35 +857,11 @@
 				item: "create:chute"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -3.5d
+			x: 3.5d
+			y: -2.0d
 		}
 		{
-			dependencies: ["5072F80080915A61"]
-			icon: "create:mechanical_mixer"
-			id: "0A7C8BD8A7BA2D18"
-			rewards: [{
-				id: "4B91476AD895A591"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "0F4777CA8A80AC2E"
-					item: "create:mechanical_mixer"
-					type: "item"
-				}
-				{
-					id: "70DAB167F34E84B9"
-					item: "create:basin"
-					type: "item"
-				}
-			]
-			x: -1.5d
-			y: -5.0d
-		}
-		{
-			dependencies: ["0A7C8BD8A7BA2D18"]
+			dependencies: ["6EF4A97259AF071E"]
 			description: [
 				"Place Vaults in a 3x3 vertical Square"
 				""
@@ -989,19 +895,11 @@
 			]
 			icon: "create:item_vault"
 			id: "7AC56523333951F1"
-			rewards: [
-				{
-					id: "334E538A38160BE9"
-					item: "kubejs:universal_badge"
-					type: "item"
-				}
-				{
-					command: "/summon firework_rocket ~ ~5 ~ {LifeTime:20,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:2,Explosions:[{Type:2,Flicker:1,Trail:0,Colors:[I;11743532,4408131,4312372],FadeColors:[I;15435844]},{Type:0,Flicker:0,Trail:0,Colors:[I;11743532,15435844],FadeColors:[I;4312372,14602026]}]}}}}"
-					id: "07472F0C63602777"
-					title: "Fireworks!"
-					type: "command"
-				}
-			]
+			rewards: [{
+				id: "334E538A38160BE9"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			subtitle: "One Solution for Storage!"
 			tasks: [
 				{
@@ -1049,8 +947,8 @@
 				}
 			]
 			title: "Multiblock Storage"
-			x: -1.5d
-			y: -6.5d
+			x: 6.5d
+			y: -8.0d
 		}
 		{
 			dependencies: ["2CA8C43B77E48553"]
@@ -1116,24 +1014,34 @@
 				type: "item"
 			}]
 			title: "&dCreate&r"
-			x: 0.0d
+			x: 2.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["66E807F8876802C6"]
 			description: ["&eMechanical belts&r can be attached to &eshafts&r and &bpass the rotation along&r. Maximum length is &b20 blocks&r."]
+			icon: "create:belt_connector"
 			id: "59162EEDF0B6F1F8"
+			require_sequential_tasks: true
 			rewards: [{
 				id: "670653328335814F"
 				item: "kubejs:universal_badge"
 				type: "item"
 			}]
-			tasks: [{
-				id: "46D26E2854EB80EB"
-				item: "create:belt_connector"
-				type: "item"
-			}]
-			x: 1.5d
+			tasks: [
+				{
+					id: "46D26E2854EB80EB"
+					item: "create:belt_connector"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "0E972DF88F4C56AC"
+					item: { Count: 2, id: "create:shaft" }
+					type: "item"
+				}
+			]
+			x: 3.5d
 			y: -0.5d
 		}
 		{
@@ -1155,8 +1063,8 @@
 				}
 				type: "item"
 			}]
-			x: 12.0d
-			y: -8.0d
+			x: 7.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["6EF4A97259AF071E"]
@@ -1171,7 +1079,7 @@
 				item: "sophisticatedstorage:controller"
 				type: "item"
 			}]
-			x: 14.0d
+			x: 9.5d
 			y: -8.0d
 		}
 		{
@@ -1187,8 +1095,8 @@
 				item: "sophisticatedstorage:storage_input"
 				type: "item"
 			}]
-			x: 15.0d
-			y: -9.0d
+			x: 11.0d
+			y: -9.5d
 		}
 		{
 			dependencies: ["699521E765A30C1E"]
@@ -1203,7 +1111,7 @@
 				item: "sophisticatedstorage:storage_output"
 				type: "item"
 			}]
-			x: 15.5d
+			x: 11.5d
 			y: -8.0d
 		}
 		{
@@ -1219,30 +1127,40 @@
 				item: "sophisticatedstorage:crafting_upgrade"
 				type: "item"
 			}]
-			x: 13.0d
-			y: -9.0d
+			x: 7.5d
+			y: -8.5d
 		}
 		{
 			dependencies: ["699521E765A30C1E"]
 			id: "17C7F7BC85E4AD58"
+			rewards: [{
+				id: "0AD5D090D9D9F81A"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "67C498374D2278FE"
 				item: "toms_storage:ts.storage_terminal"
 				type: "item"
 			}]
-			x: 14.5d
-			y: -7.0d
+			x: 10.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["17C7F7BC85E4AD58"]
 			id: "06CC736E3E21C6BF"
+			rewards: [{
+				id: "51E75CBBA9ACE4E3"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "05AA066955BA66CC"
 				item: "toms_storage:ts.crafting_terminal"
 				type: "item"
 			}]
-			x: 16.0d
-			y: -7.0d
+			x: 12.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["6EF4A97259AF071E"]
@@ -1257,8 +1175,41 @@
 				item: "sophisticatedstorage:void_upgrade"
 				type: "item"
 			}]
-			x: 13.0d
-			y: -7.0d
+			x: 9.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["7A53066E10590290"]
+			id: "283582B5E2DB841F"
+			require_sequential_tasks: true
+			rewards: [{
+				id: "062B7171F7EAFFD8"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "54E0A84F6854236E"
+				item: "kubejs:simple_matter_extraction_device"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6EF4A97259AF071E"]
+			id: "4C6FC714B7AB7751"
+			rewards: [{
+				id: "089D004C29B4D6C8"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "459AD81FA90C37C2"
+				item: "sophisticatedstorage:advanced_compacting_upgrade"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -9.0d
 		}
 	]
 	title: "&l&6Industrial Age"

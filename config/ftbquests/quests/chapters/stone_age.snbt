@@ -27,11 +27,11 @@
 				item: "mysticalagriculture:dirt_essence"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -1.5d
+			x: -2.5d
+			y: 0.0d
 		}
 		{
-			dependencies: ["4E8852849B2AE129"]
+			dependencies: ["3BACAF9E71A3524F"]
 			icon: "minecraft:oak_log"
 			id: "135FEC8E09C68EB0"
 			rewards: [{
@@ -53,7 +53,7 @@
 			}]
 			title: "Any Log"
 			x: -1.5d
-			y: 0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["45346209AF744497"]
@@ -162,15 +162,9 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"135FEC8E09C68EB0"
-				"3BACAF9E71A3524F"
-			]
-			description: [
-				"&oWith the magical properties of dirt essence I can enhance an log to create replenishable organic and geological matter. At least in a limited range. But it should help. I think...&r"
-				""
-				"Can be crafted from any &e#minecraft:logs&r"
-			]
+			dependencies: ["135FEC8E09C68EB0"]
+			description: ["&oWith the magical properties of dirt essence I can enhance an log to create replenishable organic and geological matter. At least in a limited range. But it should help. I think...&r"]
+			icon: "kubejs:overgrown_wood_log"
 			id: "45346209AF744497"
 			rewards: [{
 				id: "6EAF7417FFF5BC3B"
@@ -179,10 +173,14 @@
 			}]
 			subtitle: "Log infused with dirt or dirt infused with logs?"
 			tasks: [{
-				id: "1260A039B9B00A90"
-				item: "kubejs:overgrown_wood_log"
-				type: "item"
+				disable_toast: true
+				id: "1E6F19611B74BF0D"
+				observe_type: 0
+				timer: 0L
+				to_observe: "kubejs:overgrown_wood_log"
+				type: "observation"
 			}]
+			title: "Overgrown Wood Log"
 			x: 0.0d
 			y: -1.0d
 		}
@@ -265,8 +263,8 @@
 				item: "kubejs:wood_splinter"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -2.5d
+			x: 3.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["45346209AF744497"]
@@ -336,19 +334,17 @@
 					type: "item"
 				}
 			]
+			size: 1.25d
 			tasks: [{
 				id: "446587635ABE4CAD"
 				type: "checkmark"
 			}]
 			title: "Stranded on a planet"
-			x: -4.0d
-			y: -0.5d
+			x: -3.5d
+			y: 1.0d
 		}
 		{
-			dependencies: [
-				"27B3EEFC7BE79211"
-				"030FEFD019AA9EB7"
-			]
+			dependencies: ["030FEFD019AA9EB7"]
 			description: ["&oFresh tea leaves. Makes me remember my home where I chucked some tea almost everyday. It was a pleasure then. I hope I find a way to make me some tea again.&r"]
 			id: "48FBE98368A0D438"
 			rewards: [{
@@ -362,7 +358,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 4.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["48FBE98368A0D438"]
@@ -379,8 +375,8 @@
 				item: "minecraft:green_dye"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 3.5d
+			x: 0.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["135FEC8E09C68EB0"]
@@ -390,11 +386,18 @@
 				"You can place a hopper above the cutting board to input items automatically."
 			]
 			id: "030FEFD019AA9EB7"
-			rewards: [{
-				id: "29BDE5E2BD3ABCF6"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "29BDE5E2BD3ABCF6"
+					item: "kubejs:universal_badge"
+					type: "item"
+				}
+				{
+					id: "3BA4120972E0469F"
+					item: "cookingforblockheads:tool_rack"
+					type: "item"
+				}
+			]
 			size: 1.0d
 			tasks: [{
 				id: "064566987544E790"
@@ -468,7 +471,10 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["614746BDE83A205E"]
+			dependencies: [
+				"614746BDE83A205E"
+				"52E491D3D9117580"
+			]
 			id: "1E6DA3CA610416B1"
 			rewards: [{
 				id: "28A3394D09207B21"
@@ -509,7 +515,7 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["135FEC8E09C68EB0"]
+			dependencies: ["4E8852849B2AE129"]
 			description: [
 				"&oI need to create my own farm in order to survive. I think a hoe will come in handy to till the lands.&r"
 				""
@@ -524,25 +530,17 @@
 			}
 			id: "27B3EEFC7BE79211"
 			rewards: [{
-				id: "3892619BAD42E3B9"
+				id: "09B5C3183FCC7C09"
 				item: "kubejs:universal_badge"
 				type: "item"
 			}]
 			tasks: [{
-				id: "0AB33B46BF60330A"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "forge:hoes"
-					}
-				}
-				title: "Any #forge:hoes"
-				type: "item"
+				id: "15AD6576B751CE2E"
+				type: "checkmark"
 			}]
-			title: "Hoes"
-			x: -1.5d
-			y: 2.5d
+			title: "Speedy Growzales"
+			x: -2.5d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -587,6 +585,17 @@
 			}]
 			x: 7.5d
 			y: 1.0d
+		}
+		{
+			dependencies: ["030FEFD019AA9EB7"]
+			id: "52E491D3D9117580"
+			tasks: [{
+				id: "2EC412E3801CFEF5"
+				item: "minecraft:bone_meal"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
 		}
 	]
 	title: "&l&3Introduction"
