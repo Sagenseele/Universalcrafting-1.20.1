@@ -110,7 +110,7 @@ ServerEvents.recipes((event) => {
         { material: "redish" },
         { material: "soilent" },
         { material: "turquoise" },
-        { material: "yellow" },
+        { material: "sulfeel" },
         { material: "titan" },
         { material: "mangan" },
         { material: "cobalt" },

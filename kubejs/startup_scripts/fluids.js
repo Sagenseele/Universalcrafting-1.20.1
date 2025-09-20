@@ -97,7 +97,7 @@ StartupEvents.registry('fluid', event => {
         { material: "redish", color: 0xffffff },
         { material: "soilent", color: 0xffffff },
         { material: "turquoise", color: 0xffffff },
-        { material: "yellow", color: 0xffffff },
+        { material: "sulfeel", color: 0xffffff },
         { material: "titanium", color: 0xffffff },
         { material: "mangan", color: 0xffffff },
         { material: "cobalt", color: 0xffffff },

@@ -254,18 +254,7 @@ ServerEvents.recipes(event => {
   )
 
   // Overgrown Wood Log
-  event.shaped(
-    Item.of('kubejs:overgrown_wood_log', 1),
-    [
-      'BBB',
-      'BAB',
-      'BBB'
-    ],
-    {
-      A: '#minecraft:logs',
-      B: 'mysticalagriculture:dirt_essence'
-    }
-  )
+  // Look for Datapack...
 
   // Water Wheel
   event.replaceInput(
@@ -353,7 +342,7 @@ ServerEvents.recipes(event => {
     ],
     results: [
       { item: 'minecraft:iron_nugget', chance: 0.6 },
-      { item: 'minecraft:lapis_lazuli', chance: 0.4 }
+      { item: 'minecraft:lapis_lazuli', chance: 0.2 }
     ],
     id: 'custom:splashing/flint'
   });
@@ -369,11 +358,11 @@ ServerEvents.recipes(event => {
   )
   kubejs_items('blueish')
 
-  // Yellow
-  default_plate('kubejs:yellow_plate', 'kubejs:yellow_ingot')
-  default_rod('kubejs:yellow_rod', 'kubejs:yellow_ingot')
-  default_compacting('kubejs:yellow_nugget', 'kubejs:yellow_ingot')
-  default_2alloys('kubejs:yellow_ingot', 5000, '#forge:dusts/sulfur', '2x kubejs:blueish_ingot')
+  // sulfeel
+  default_plate('kubejs:sulfeel_plate', 'kubejs:sulfeel_ingot')
+  default_rod('kubejs:sulfeel_rod', 'kubejs:sulfeel_ingot')
+  default_compacting('kubejs:sulfeel_nugget', 'kubejs:sulfeel_ingot')
+  default_2alloys('kubejs:sulfeel_ingot', 5000, '#forge:dusts/sulfur', '2x kubejs:blueish_ingot')
 
 
   // Turquoise
@@ -507,7 +496,7 @@ ServerEvents.recipes(event => {
       'A A'
     ],
     {
-      A: 'kubejs:yellow_rod',
+      A: 'kubejs:sulfeel_rod',
       B: 'kubejs:blueish_ingot',
     }
   )
@@ -520,7 +509,7 @@ ServerEvents.recipes(event => {
     ],
     {
       A: 'kubejs:frame_tier_2',
-      B: 'kubejs:yellow_plate'
+      B: 'kubejs:sulfeel_plate'
     }
   )
   event.shaped(
@@ -532,8 +521,8 @@ ServerEvents.recipes(event => {
     ],
     {
       A: 'mekanism:steel_casing',
-      B: 'kubejs:yellow_plate',
-      C: 'kubejs:yellow_rod'
+      B: 'kubejs:sulfeel_plate',
+      C: 'kubejs:sulfeel_rod'
     }
   )
   event.shaped(
@@ -544,7 +533,7 @@ ServerEvents.recipes(event => {
       ' A '
     ],
     {
-      A: 'kubejs:yellow_plate',
+      A: 'kubejs:sulfeel_plate',
       B: 'minecraft:chest'
 
     }
@@ -557,7 +546,7 @@ ServerEvents.recipes(event => {
       ' A '
     ],
     {
-      A: 'kubejs:yellow_plate',
+      A: 'kubejs:sulfeel_plate',
       B: 'minecraft:hopper'
     }
   )
@@ -569,7 +558,7 @@ ServerEvents.recipes(event => {
       ' A '
     ],
     {
-      A: 'kubejs:yellow_plate',
+      A: 'kubejs:sulfeel_plate',
       B: 'minecraft:bucket'
     }
   )
@@ -581,7 +570,7 @@ ServerEvents.recipes(event => {
       ' A '
     ],
     {
-      A: 'kubejs:yellow_plate',
+      A: 'kubejs:sulfeel_plate',
       B: 'minecraft:redstone_block'
     }
   )
@@ -600,7 +589,7 @@ ServerEvents.recipes(event => {
     }
   )
   // Multiblock Tier 3
-  event.recipes.thermal.bottler('kubejs:turquoise_ingot', [Fluid.of('pneumaticcraft:plastic', 50), 'kubejs:yellow_ingot'])
+  event.recipes.thermal.bottler('kubejs:turquoise_ingot', [Fluid.of('pneumaticcraft:plastic', 50), 'kubejs:sulfeel_ingot'])
   event.shaped(
     Item.of('kubejs:frame_tier_3', 1),
     [
@@ -610,7 +599,7 @@ ServerEvents.recipes(event => {
     ],
     {
       A: 'kubejs:turquoise_rod',
-      B: 'kubejs:yellow_ingot',
+      B: 'kubejs:sulfeel_ingot',
     }
   )
   event.shaped(
@@ -715,7 +704,7 @@ ServerEvents.recipes(event => {
       'A A'
     ],
     {
-      A: 'kubejs:yellow_plate',
+      A: 'kubejs:sulfeel_plate',
       B: 'kubejs:coil_tier_1'
     }
   )
@@ -747,19 +736,18 @@ ServerEvents.recipes(event => {
     }
   )
 
-  // Cobblestone Generator
+  // Matter Replicator
   event.shaped(
-    Item.of('mbd2:cobblestone_generator_tier1', 1),
+    Item.of('mbd2:matter_replicator', 1),
     [
-      'CCC',
-      'ADB',
-      'CCC'
+      'BBB',
+      'ACA',
+      'BBB'
     ],
     {
-      A: 'minecraft:lava_bucket',
-      B: 'minecraft:water_bucket',
-      C: '#forge:stone',
-      D: 'create:andesite_casing'
+      A: 'bloodmagic:blankslate',
+      B: '#forge:stone',
+      C: 'create:andesite_casing'
     }
   )
 
@@ -773,7 +761,7 @@ ServerEvents.recipes(event => {
     {
       A: 'mekanism:steel_casing',
       B: '#forge:plates/steel',
-      C: 'kubejs:yellow_rod'
+      C: 'kubejs:sulfeel_rod'
     }
   )
 

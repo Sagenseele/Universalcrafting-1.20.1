@@ -87,7 +87,7 @@ StartupEvents.registry('item', event => {
     standard_material('redish')
     standard_material('soilent')
     standard_material('turquoise')
-    standard_material('yellow')
+    standard_material('sulfeel')
     
     intermediate_ore('catericite')
     intermediate_ore('darthium')
