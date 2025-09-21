@@ -27,8 +27,8 @@
 			image: "kubejs:block/kinetic_crusher_active"
 			rotation: 0.0d
 			width: 1.0d
-			x: 10.0d
-			y: -3.5d
+			x: 9.0d
+			y: -2.5d
 		}
 		{
 			height: 2.0d
@@ -103,7 +103,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: -2.0d
+			y: -0.5d
 		}
 		{
 			dependencies: [
@@ -113,9 +113,9 @@
 			description: [
 				"&oI got a marvelous idea! Those crushing wheels reminded me of some machines we used to break materials down to their raw resources, which could be recycled further. My idea will take a lot of effort, but I think it will be worth it. My first mechanical monstrous machine!&r"
 				""
-				"Your first roadblock, use the &6Kinetic Crusher&r to &egenerate Resources&r. It takes &9a lot&r of &9blueish ingots&r to craft, but if provided with &6256 SU&r at &a64 RPM&r, you can generate some resources depending on the input material."
+				"Use the &6Kinetic Crusher&r to &egenerate Resources&r. It takes &9a lot&r of &9blueish ingots&r to craft, but if provided with &6256 SU&r at &a64 RPM&r, you can generate some resources depending on the input material."
 				""
-				"I would advise you to automate the creation of gravel. If you struggle to find a good design, look at the Schematics quest and the website I linked there."
+				"I would advise you to automate the processing of cobblestone to gravel and sand. If you struggle to find a good design, look at the Schematics quest and the website I linked there."
 			]
 			icon: "mbd2:kinetic_crusher"
 			id: "34D115B6E61D1234"
@@ -318,7 +318,7 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["48AF2A3A4CB1AC9E"]
+			dependencies: ["34D115B6E61D1234"]
 			id: "15D08F47009082A6"
 			rewards: [{
 				id: "70163E115F589361"
@@ -801,8 +801,6 @@
 				"https://createmod.com/schematics"
 				""
 				"Put the schematic in the table and save a downloaded or previously saved structure, then place the hologram in the world. Put the schematic into a Schematicannon. To build the structure automatically, provide the blocks in an adjacent chest. The Schematiccannon will tell you which blocks are missing."
-				""
-				"&cThe Steam Engine may crash the client if placed by the Schematiccannon. To be safe place this block manually in your schematic. If you experience another crash by a block, reach out to me on github.&r"
 			]
 			icon: "create:empty_schematic"
 			id: "662E7ACC0897CD7D"
