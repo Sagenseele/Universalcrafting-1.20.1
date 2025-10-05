@@ -2,10 +2,19 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "applied_energistics_2"
-	group: "0F98F552A8423A4B"
+	group: "007FE974211D2B02"
 	icon: "ae2:charger"
 	id: "15868FDF76229072"
-	order_index: 3
+	images: [{
+		click: "#397244BF016E5253"
+		height: 1.0d
+		image: "kubejs:item/infinity_token"
+		rotation: 0.0d
+		width: 1.0d
+		x: -11.5d
+		y: -5.5d
+	}]
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{

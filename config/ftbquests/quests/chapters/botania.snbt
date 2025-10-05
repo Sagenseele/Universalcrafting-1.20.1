@@ -6,6 +6,14 @@
 	hide_quest_until_deps_visible: true
 	icon: "botania:apothecary_default"
 	id: "1B6B09623D483DD3"
+	images: [{
+		height: 2.0d
+		image: "botania:block/pure_daisy"
+		rotation: 0.0d
+		width: 2.0d
+		x: -1.5d
+		y: -5.0d
+	}]
 	order_index: 2
 	quest_links: [ ]
 	quests: [

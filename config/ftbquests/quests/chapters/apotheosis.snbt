@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: "hexagon"
 	filename: "apotheosis"
-	group: "0F98F552A8423A4B"
+	group: "007FE974211D2B02"
 	icon: "apotheosis:gem_dust"
 	id: "4AD64A743FBC0F19"
 	images: [{
@@ -12,9 +12,9 @@
 		rotation: 0.0d
 		width: 1.0d
 		x: 19.0d
-		y: 7.0d
+		y: 4.0d
 	}]
-	order_index: 2
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
@@ -777,13 +777,21 @@
 				"30969E8E43163951"
 			]
 			dependency_requirement: "one_completed"
+			icon_scale: 1.5d
 			id: "52DF45F0AC96374F"
-			rewards: [{
-				id: "6A6AA3405979C44A"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
-			shape: "circle"
+			rewards: [
+				{
+					id: "6A6AA3405979C44A"
+					item: "kubejs:universal_badge"
+					type: "item"
+				}
+				{
+					id: "6939DEE5B088FDDF"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			shape: "none"
 			size: 1.5d
 			tasks: [{
 				id: "35B023BE97677D9B"
@@ -791,15 +799,23 @@
 				type: "item"
 			}]
 			x: 18.0d
-			y: 8.0d
+			y: 5.0d
 		}
 		{
+			dependencies: ["2EB9AB7F8F1CAD40"]
 			id: "5F98EAC5549D6639"
-			rewards: [{
-				id: "10F0A8E466F6D4A7"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "10F0A8E466F6D4A7"
+					item: "kubejs:universal_badge"
+					type: "item"
+				}
+				{
+					id: "3C74CEDD8368E9FF"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [{
@@ -807,17 +823,24 @@
 				item: "apotheosis:hellshelf"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 8.0d
+			x: 2.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["5F98EAC5549D6639"]
 			id: "3B2867F02D680353"
-			rewards: [{
-				id: "7E9CAE539F2D784A"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "7E9CAE539F2D784A"
+					item: "kubejs:universal_badge"
+					type: "item"
+				}
+				{
+					id: "58100B59CF976AFE"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [{
@@ -826,7 +849,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 8.0d
+			y: 6.0d
 		}
 		{
 			description: [
@@ -875,11 +898,18 @@
 		{
 			dependencies: ["2EE837FA34101A85"]
 			id: "1D81130769B2BF4D"
-			rewards: [{
-				id: "507250F2C470CA27"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "507250F2C470CA27"
+					item: "kubejs:universal_badge"
+					type: "item"
+				}
+				{
+					id: "7B799855EF91EF5D"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [{
@@ -888,16 +918,23 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 5.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["1D81130769B2BF4D"]
 			id: "2FA4D3F9F345B372"
-			rewards: [{
-				id: "5085AD92BC774C6E"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "5085AD92BC774C6E"
+					item: "kubejs:universal_badge"
+					type: "item"
+				}
+				{
+					id: "69FA93AEBA6D0871"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [{
@@ -906,7 +943,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: 5.5d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -917,11 +954,18 @@
 			]
 			id: "006BF79E0D2988C2"
 			min_required_dependencies: 2
-			rewards: [{
-				id: "484613021382A948"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "484613021382A948"
+					item: "kubejs:universal_badge"
+					type: "item"
+				}
+				{
+					id: "696CC86BEB054666"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [{
@@ -930,16 +974,23 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 10.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["006BF79E0D2988C2"]
 			id: "23AF1FCAC38BE468"
-			rewards: [{
-				id: "57A9CC489B89F2B1"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "57A9CC489B89F2B1"
+					item: "kubejs:universal_badge"
+					type: "item"
+				}
+				{
+					id: "102266CFA5AF92A5"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+			]
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [{
@@ -948,16 +999,23 @@
 				type: "item"
 			}]
 			x: 11.0d
-			y: 10.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["23AF1FCAC38BE468"]
 			id: "05FF9796CB8063A5"
-			rewards: [{
-				id: "3648BFD37E99BA4D"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "3648BFD37E99BA4D"
+					item: "kubejs:universal_badge"
+					type: "item"
+				}
+				{
+					id: "33AEE77CB886FB27"
+					type: "xp_levels"
+					xp_levels: 7
+				}
+			]
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [{
@@ -966,7 +1024,7 @@
 				type: "item"
 			}]
 			x: 13.0d
-			y: 10.0d
+			y: 7.5d
 		}
 		{
 			dependencies: [
@@ -975,11 +1033,18 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "26C41ADBA549EED6"
-			rewards: [{
-				id: "6F8A8B837DF9CD7F"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "6F8A8B837DF9CD7F"
+					item: "kubejs:universal_badge"
+					type: "item"
+				}
+				{
+					id: "6839B8E4F397CF48"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+			]
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [{
@@ -988,16 +1053,23 @@
 				type: "item"
 			}]
 			x: 15.0d
-			y: 10.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["26C41ADBA549EED6"]
 			id: "2ACFD189689CCF25"
-			rewards: [{
-				id: "62EC9D4AF807BC55"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "62EC9D4AF807BC55"
+					item: "kubejs:universal_badge"
+					type: "item"
+				}
+				{
+					id: "5C26B231EFDBEA27"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [{
@@ -1006,16 +1078,23 @@
 				type: "item"
 			}]
 			x: 18.0d
-			y: 10.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["006BF79E0D2988C2"]
 			id: "341EF972925148A8"
-			rewards: [{
-				id: "3885F5E8BD50015D"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "3885F5E8BD50015D"
+					item: "kubejs:universal_badge"
+					type: "item"
+				}
+				{
+					id: "4FBF4BEE051D3A7D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [{
@@ -1024,16 +1103,23 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 11.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["26C41ADBA549EED6"]
 			id: "21B29B10AF07CFDA"
-			rewards: [{
-				id: "7FD4970A03B1E82B"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "7FD4970A03B1E82B"
+					item: "kubejs:universal_badge"
+					type: "item"
+				}
+				{
+					id: "21F778AFEE6EF0FF"
+					type: "xp_levels"
+					xp_levels: 9
+				}
+			]
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [{
@@ -1042,7 +1128,7 @@
 				type: "item"
 			}]
 			x: 16.5d
-			y: 10.5d
+			y: 8.0d
 		}
 		{
 			dependencies: [
@@ -1053,11 +1139,18 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "30969E8E43163951"
-			rewards: [{
-				id: "4A666CD05329207E"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "4A666CD05329207E"
+					item: "kubejs:universal_badge"
+					type: "item"
+				}
+				{
+					id: "40C395D8F0A5E05A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [{
@@ -1066,15 +1159,23 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 8.0d
+			y: 5.0d
 		}
 		{
+			dependencies: ["2EB9AB7F8F1CAD40"]
 			id: "2EE837FA34101A85"
-			rewards: [{
-				id: "12943B57EE658D12"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "12943B57EE658D12"
+					item: "kubejs:universal_badge"
+					type: "item"
+				}
+				{
+					id: "2513E1754F159784"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [{
@@ -1082,70 +1183,98 @@
 				item: "apotheosis:seashelf"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 5.5d
+			x: 2.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["1D81130769B2BF4D"]
 			id: "3B51BC12AAB80080"
-			rewards: [{
-				id: "4DFB6F780A41AEAC"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "4DFB6F780A41AEAC"
+					item: "kubejs:universal_badge"
+					type: "item"
+				}
+				{
+					id: "1760EBFBAF56FA92"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
 			shape: "rsquare"
-			size: 0.9d
+			size: 1.0d
 			tasks: [{
 				id: "36ED847FEC636DC3"
 				item: "apotheosis:filtering_shelf"
 				type: "item"
 			}]
 			x: 4.0d
-			y: 4.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["25E221C0894F9502"]
 			id: "275BE61EDB878E4C"
-			rewards: [{
-				id: "30C01C682CF21D62"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "30C01C682CF21D62"
+					item: "kubejs:universal_badge"
+					type: "item"
+				}
+				{
+					id: "4AB5D1FE3CE6AA35"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
 			shape: "rsquare"
-			size: 0.9d
+			size: 1.0d
 			tasks: [{
 				id: "765E4C97339AC3EE"
 				item: "apotheosis:rectifier_t2"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 3.5d
+			x: 7.0d
+			y: 3.0d
 		}
 		{
 			id: "1DB5D7E134E67680"
-			rewards: [{
-				id: "5C15DA05EE7FB988"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
-			shape: "rsquare"
+			rewards: [
+				{
+					id: "5C15DA05EE7FB988"
+					item: "kubejs:universal_badge"
+					type: "item"
+				}
+				{
+					id: "3A6938B27C0F391D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "hexagon"
 			size: 1.0d
 			tasks: [{
 				id: "2368A42AF47F1E02"
 				item: "apotheosis:dormant_deepshelf"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 10.5d
+			x: 0.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["3B2867F02D680353"]
 			id: "216C49DAF5486BC7"
-			rewards: [{
-				id: "29231F84D029A5C2"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "29231F84D029A5C2"
+					item: "kubejs:universal_badge"
+					type: "item"
+				}
+				{
+					id: "192E8CC7BCAECD0D"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [{
@@ -1154,16 +1283,23 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: 7.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["3B2867F02D680353"]
 			id: "24B283D3CE7E4032"
-			rewards: [{
-				id: "2849329E7B96BA68"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "2849329E7B96BA68"
+					item: "kubejs:universal_badge"
+					type: "item"
+				}
+				{
+					id: "00FAA503CB75D748"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [{
@@ -1172,36 +1308,50 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: 8.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["3B2867F02D680353"]
 			id: "64964B3E641A46D5"
-			rewards: [{
-				id: "3ED165C53643A60A"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "3ED165C53643A60A"
+					item: "kubejs:universal_badge"
+					type: "item"
+				}
+				{
+					id: "27A67F19F9735494"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
 			shape: "rsquare"
-			size: 0.9d
+			size: 1.0d
 			tasks: [{
 				id: "605C2AEFAF238286"
 				item: "apotheosis:sightshelf"
 				type: "item"
 			}]
 			x: 4.0d
-			y: 9.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["64964B3E641A46D5"]
 			id: "7EBA537BC3892F01"
-			rewards: [{
-				id: "1FB3233F4C9BC585"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "1FB3233F4C9BC585"
+					item: "kubejs:universal_badge"
+					type: "item"
+				}
+				{
+					id: "32DF9F7048AB3923"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
 			shape: "rsquare"
-			size: 0.9d
+			size: 1.0d
 			tasks: [
 				{
 					id: "10D7B87A1390B808"
@@ -1215,52 +1365,73 @@
 				}
 			]
 			x: 5.0d
-			y: 9.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["1D81130769B2BF4D"]
 			id: "25E221C0894F9502"
-			rewards: [{
-				id: "5CB1D125AAF13998"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "5CB1D125AAF13998"
+					item: "kubejs:universal_badge"
+					type: "item"
+				}
+				{
+					id: "7CB49AAB01B9C472"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
 			shape: "rsquare"
-			size: 0.9d
+			size: 1.0d
 			tasks: [{
 				id: "00998FC6220DA3AD"
 				item: "apotheosis:rectifier"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 4.5d
+			x: 4.95d
+			y: 3.0d
 		}
 		{
 			dependencies: ["275BE61EDB878E4C"]
 			id: "4B9F3405D22CC102"
-			rewards: [{
-				id: "7A4D4204FD8B5D6A"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "7A4D4204FD8B5D6A"
+					item: "kubejs:universal_badge"
+					type: "item"
+				}
+				{
+					id: "70047F89CA067E4C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 			shape: "rsquare"
-			size: 0.9d
+			size: 1.0d
 			tasks: [{
 				id: "4438F04E6B2B802A"
 				item: "apotheosis:rectifier_t3"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 2.5d
+			x: 9.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["006BF79E0D2988C2"]
 			id: "3F43BDD803F6B8ED"
-			rewards: [{
-				id: "3AE0E0708F7F3F7F"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "3AE0E0708F7F3F7F"
+					item: "kubejs:universal_badge"
+					type: "item"
+				}
+				{
+					id: "279FBAFEBD63BF96"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+			]
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [{
@@ -1269,16 +1440,23 @@
 				type: "item"
 			}]
 			x: 11.0d
-			y: 11.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["3F43BDD803F6B8ED"]
 			id: "4E631A4819B50A18"
-			rewards: [{
-				id: "3959EED1ACE55877"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "3959EED1ACE55877"
+					item: "kubejs:universal_badge"
+					type: "item"
+				}
+				{
+					id: "343B7802BDDFD8E6"
+					type: "xp_levels"
+					xp_levels: 7
+				}
+			]
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [{
@@ -1287,7 +1465,7 @@
 				type: "item"
 			}]
 			x: 13.0d
-			y: 11.0d
+			y: 8.5d
 		}
 		{
 			description: [
@@ -1306,6 +1484,22 @@
 			title: "Spawner"
 			x: 6.5d
 			y: 0.5d
+		}
+		{
+			id: "2EB9AB7F8F1CAD40"
+			rewards: [{
+				id: "10A1BB86FA1C330C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				count: 15L
+				id: "4E7AD3B6C9CEE27D"
+				item: { Count: 15, id: "minecraft:bookshelf" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.0d
 		}
 	]
 	title: "Apotheosis"

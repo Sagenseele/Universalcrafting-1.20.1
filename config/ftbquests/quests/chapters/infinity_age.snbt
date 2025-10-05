@@ -32,7 +32,9 @@
 				"149FA53631B4E30C"
 				"397244BF016E5253"
 			]
+			icon_scale: 1.5d
 			id: "16407104C2D7A594"
+			shape: "none"
 			size: 2.0d
 			tasks: [{
 				id: "7E464B70CB42E035"
@@ -149,9 +151,9 @@
 			disable_toast: true
 			id: "397244BF016E5253"
 			tasks: [{
-				id: "2ACADBB13D0AAF28"
-				title: "Universal Disk"
-				type: "checkmark"
+				id: "2D62EE8F7E6C058E"
+				item: "ae2:cell_component_256k"
+				type: "item"
 			}]
 			x: 0.0d
 			y: 0.0d

@@ -121,14 +121,15 @@
 		{
 			dependencies: ["04C04D6FBB67AAC3"]
 			description: ["&oMy first magic contraption I can build myself. If I pick my fingers and deposit some of my blood, the Altar will fill and make some infusions possible. My first goal should be Iron to improve my tools and maybe some worldy contraptions which will come in handy without hurting myself...&r"]
+			icon_scale: 2.0d
 			id: "7A1C76596F111A92"
 			rewards: [{
 				id: "6B848CED5C52745F"
 				item: "kubejs:universal_badge"
 				type: "item"
 			}]
-			shape: "gear"
-			size: 1.5d
+			shape: "none"
+			size: 1.25d
 			subtitle: "Unlocks &dBlood Magic&r Chapter"
 			tasks: [{
 				id: "22DBB06F39B42656"
@@ -409,6 +410,7 @@
 		}
 		{
 			dependencies: ["5AB028534AC6ECF5"]
+			icon_scale: 2.0d
 			id: "06B32FE435519E72"
 			rewards: [
 				{
@@ -422,8 +424,8 @@
 					type: "item"
 				}
 			]
-			shape: "gear"
-			size: 1.5d
+			shape: "none"
+			size: 1.25d
 			subtitle: "Unlocks &dBotania&r Chapter"
 			tasks: [{
 				id: "0F04684A0ABD280B"
@@ -598,5 +600,5 @@
 			y: 3.0d
 		}
 	]
-	title: "&l&3Introduction"
+	title: "&l&3Chapter 1"
 }

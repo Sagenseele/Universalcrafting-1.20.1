@@ -29,10 +29,14 @@
 	quests: [
 		{
 			dependencies: ["408326254AF9D128"]
-			description: ["Goal is the &l&4I&r&l&cn&r&l&df&r&l&5i&r&l&1n&r&l&9i&r&l&bt&r&l&3y&r &l&eT&r&l&6o&r&l&4k&r&l&ce&r&l&dn&r."]
+			description: [
+				"To prove yourself in the eyes of the &6Spacefarers Guild&r, your goal is to craft the"
+				""
+				"&l&4I&r&l&cn&r&l&df&r&l&5i&r&l&1n&r&l&9i&r&l&bt&r&l&3y&r &l&eT&r&l&6o&r&l&4k&r&l&ce&r&l&dn&r."
+			]
 			disable_toast: true
 			icon: "kubejs:infinity_token"
-			icon_scale: 0.9d
+			icon_scale: 2.0d
 			id: "3D967ABE59777793"
 			shape: "gear"
 			size: 1.5d
@@ -42,7 +46,7 @@
 			}]
 			title: "The &5Goal&r"
 			x: 0.0d
-			y: 1.5d
+			y: 3.0d
 		}
 		{
 			description: [
@@ -186,6 +190,17 @@
 			}]
 			x: 2.5d
 			y: -1.0d
+		}
+		{
+			description: ["Ore generation has been tweaked, you will find ores deeper in the world but instead of small veins, there are big clusters down in the deepslate area."]
+			id: "727E4CC97B021F8A"
+			tasks: [{
+				id: "163456C8683FF502"
+				title: "Ore Generation"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 2.0d
 		}
 	]
 	title: "Welcome!"

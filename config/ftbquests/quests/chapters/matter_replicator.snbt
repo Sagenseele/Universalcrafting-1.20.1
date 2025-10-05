@@ -1,0 +1,182 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "matter_replicator"
+	group: "4BF8C5B9E64BC8F2"
+	icon: "mbd2:matter_replicator"
+	id: "00B1D0CD2CF2F165"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2D1182F120C39D71"]
+			description: ["The Matter replicator can be used to duplicate some blocks or essences usually created by the Matter Replication Device. Look in JEI for further information"]
+			hide_until_deps_complete: true
+			id: "0B72CC09D2113BFC"
+			size: 1.25d
+			tasks: [{
+				id: "41F0A21E60D866A5"
+				item: "mbd2:matter_replicator"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0B72CC09D2113BFC"]
+			icon_scale: 2.0d
+			id: "60184E3C2B29D649"
+			tasks: [{
+				id: "437BCDEDDC7C3B4E"
+				item: "kubejs:simple_matter_extraction_device"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["60184E3C2B29D649"]
+			id: "0CD42E456ABFF1F1"
+			tasks: [{
+				id: "74FFC7805C3B86AE"
+				item: "mysticalagriculture:dirt_essence"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["60184E3C2B29D649"]
+			id: "054F3D669A3742D7"
+			tasks: [{
+				id: "7D7BC7A4A9E3FE0A"
+				item: "mysticalagriculture:stone_essence"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["60184E3C2B29D649"]
+			id: "552A4A0ED229674D"
+			tasks: [{
+				id: "67E610EEA1C8CEB1"
+				item: "kubejs:wood_splinter"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0B72CC09D2113BFC"]
+			id: "6FE260B2C7F19669"
+			tasks: [{
+				id: "4880D637523DBA26"
+				item: "minecraft:calcite"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0B72CC09D2113BFC"]
+			id: "7DE169C44C4C2DED"
+			tasks: [{
+				id: "7A02649ADFF0EC93"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0B72CC09D2113BFC"]
+			id: "588EB8A577747A31"
+			tasks: [{
+				id: "17CEB25E5E610990"
+				item: "minecraft:andesite"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0B72CC09D2113BFC"]
+			id: "47B64D1A5D922D54"
+			tasks: [{
+				id: "0D5565740E259110"
+				item: "minecraft:granite"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0B72CC09D2113BFC"]
+			id: "1791D0C5ED798CBF"
+			tasks: [{
+				id: "11EAF7D5C71D51AD"
+				item: "minecraft:diorite"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0B72CC09D2113BFC"]
+			id: "2DD1B7C26744E1B1"
+			tasks: [{
+				id: "725FCFE587FF794B"
+				item: "minecraft:cobbled_deepslate"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0B72CC09D2113BFC"]
+			id: "268D1EE78E875377"
+			tasks: [{
+				id: "1659E7E6DB41111E"
+				item: "minecraft:tuff"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["60184E3C2B29D649"]
+			id: "4781C8D0231EA72B"
+			tasks: [{
+				id: "592F6E67D63AF59A"
+				item: "mysticalagriculture:water_essence"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["60184E3C2B29D649"]
+			icon_scale: 2.0d
+			id: "6FFE99DE1C377905"
+			tasks: [{
+				id: "4EBAD7B28CAD2F7B"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6FFE99DE1C377905"]
+			icon_scale: 2.0d
+			id: "39DCE4A1171F8961"
+			tasks: [{
+				id: "2DA25C1123458A47"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+	]
+	title: "Matter Replicator"
+}

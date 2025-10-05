@@ -13,7 +13,7 @@
 		{ Count: 1, id: "minecraft:dirt" }
 		{ Count: 1, id: "minecraft:oak_sapling" }
 	]
-	emergency_items_cooldown: 300
+	emergency_items_cooldown: 120
 	grid_scale: 0.5d
 	icon: "ftbquests:book"
 	lock_message: ""
