@@ -1,23 +1,44 @@
+MBDMachineEvents.onBeforeRecipeModify('mbd2:matter_replicator', (event) => {
+    const mbdEvent = event.event;
+    const { machine, recipe } = mbdEvent;
+
+    let itemTrait = machine.getTraitByName("upgrade_card");
+    if (itemTrait == null) return;
+    let storage = itemTrait.storage;
+    let upgradeCount = storage.getStackInSlot(0).count;
+
+    //parallel recipe modifiers, the more upgrades in the upgrade slot, the more recipes processed in parallel
+    let parallelRecipe = machine.applyParallel(recipe, upgradeCount);
+    let copyRecipe = parallelRecipe.copy();
+
+    mbdEvent.setRecipe(copyRecipe);
+});
+
+MBDMachineEvents.onOpenUI("mbd2:matter_replicator", e => {
+    let event = e.event; // NOTE! you have to use it to get the actual event instance.
+    let machine = event.machine;
+    let machienID = machine.getDefinition().id();
+    console.log("Open UI!! id: " + machienID)
+})
+
 ServerEvents.recipes((event) => {
 
     const sorting1 = [
-        { material: "1x kubejs:crushed_darthium"}
+        { material: "1x kubejs:crushed_darthium" }
     ]
-    
+
     sorting1.forEach(item => {
         event.recipes.mbd2.sorter()
-        .id('mbd2:sorter/'+item.material.split(':')[1])
-        .duration(60)
-        .priority(0)
-        .inputItems(item.material)
-        .outputItems('1x kubejs:red_dust', '1x thermal:cinnabar_dust')
-        .perTick(builder => builder
-            .inputStress(128)
-        )
-        .machineLevel(1)
+            .id('mbd2:sorter/' + item.material.split(':')[1])
+            .duration(60)
+            .priority(0)
+            .inputItems(item.material)
+            .outputItems('1x kubejs:red_dust', '1x thermal:cinnabar_dust')
+            .perTick(builder => builder
+                .inputStress(128)
+            )
+            .machineLevel(1)
     })
-    
-    
 
     const metals = [
         { material: "iron" },
@@ -101,7 +122,7 @@ ServerEvents.recipes((event) => {
         { material: "soularium" },
         { material: "end_steel" },
         { material: "blue" },
-        { material: "blueish" },
+        { material: "lapiron" },
         { material: "galvanized" },
         { material: "orangeish" },
         { material: "pale_green" },

@@ -304,7 +304,7 @@ ServerEvents.recipes(event => {
   event.replaceInput(
     { output: 'immersiveengineering:cokebrick' },
     'minecraft:clay_ball',
-    'kubejs:blueish_plate'
+    'kubejs:lapiron_plate'
   )
 
   // Blast Bricks
@@ -348,22 +348,22 @@ ServerEvents.recipes(event => {
     id: 'custom:splashing/flint'
   });
 
-  // Blueish
+  // lapiron
   event.recipes.create.milling('thermal:iron_dust', '#forge:ingots/iron')
   event.shapeless(
-    Item.of('kubejs:blueish_dust', 5),
+    Item.of('kubejs:lapiron_dust', 5),
     [
       '3x thermal:lapis_dust',
       '2x #forge:dusts/iron'
     ]
   )
-  kubejs_items('blueish')
+  kubejs_items('lapiron')
 
   // sulfeel
   default_plate('kubejs:sulfeel_plate', 'kubejs:sulfeel_ingot')
   default_rod('kubejs:sulfeel_rod', 'kubejs:sulfeel_ingot')
   default_compacting('kubejs:sulfeel_nugget', 'kubejs:sulfeel_ingot')
-  default_2alloys('kubejs:sulfeel_ingot', 5000, '#forge:dusts/sulfur', '2x kubejs:blueish_ingot')
+  default_2alloys('kubejs:sulfeel_ingot', 5000, '#forge:dusts/sulfur', '2x kubejs:lapiron_ingot')
 
 
   // Turquoise
@@ -381,7 +381,7 @@ ServerEvents.recipes(event => {
       'A A'
     ],
     {
-      A: 'kubejs:blueish_rod',
+      A: 'kubejs:lapiron_rod',
       B: '#forge:ingots/iron',
     }
   )
@@ -394,7 +394,7 @@ ServerEvents.recipes(event => {
     ],
     {
       A: 'kubejs:frame_tier_1',
-      B: 'kubejs:blueish_plate'
+      B: 'kubejs:lapiron_plate'
     }
   )
   event.shaped(
@@ -406,8 +406,8 @@ ServerEvents.recipes(event => {
     ],
     {
       A: 'minecraft:comparator',
-      B: 'kubejs:blueish_plate',
-      C: 'kubejs:blueish_rod'
+      B: 'kubejs:lapiron_plate',
+      C: 'kubejs:lapiron_rod'
     }
   )
   event.shaped(
@@ -420,7 +420,7 @@ ServerEvents.recipes(event => {
     {
       A: 'kubejs:multiblock_tier_1',
       B: '#forge:ingots/steel',
-      C: 'kubejs:blueish_rod'
+      C: 'kubejs:lapiron_rod'
     }
   )
   event.shaped(
@@ -444,7 +444,7 @@ ServerEvents.recipes(event => {
       ' A '
     ],
     {
-      A: 'kubejs:blueish_plate',
+      A: 'kubejs:lapiron_plate',
       B: '#forge:chests'
 
     }
@@ -457,7 +457,7 @@ ServerEvents.recipes(event => {
       ' A '
     ],
     {
-      A: 'kubejs:blueish_plate',
+      A: 'kubejs:lapiron_plate',
       B: 'minecraft:hopper'
     }
   )
@@ -498,7 +498,7 @@ ServerEvents.recipes(event => {
     ],
     {
       A: 'kubejs:sulfeel_rod',
-      B: 'kubejs:blueish_ingot',
+      B: 'kubejs:lapiron_ingot',
     }
   )
   event.shaped(
@@ -718,7 +718,7 @@ ServerEvents.recipes(event => {
       ' A '
     ],
     {
-      A: 'kubejs:blueish_rod'
+      A: 'kubejs:lapiron_rod'
     }
   )
 
@@ -733,7 +733,7 @@ ServerEvents.recipes(event => {
       A: 'kubejs:stator',
       B: 'kubejs:rotor',
       C: '#forge:plates/iron',
-      D: 'create:precision_mechanism'
+      D: '#uc:components/electric_motor'
     }
   )
 
@@ -1184,7 +1184,7 @@ ServerEvents.recipes(event => {
     ],
     {
       A: 'create:chute',
-      B: 'kubejs:blueish_ingot',
+      B: 'kubejs:lapiron_ingot',
       C: 'sophisticatedstorage:compacting_upgrade',
       D: 'minecraft:redstone'
     }
@@ -1204,7 +1204,7 @@ ServerEvents.recipes(event => {
     {
       A: 'minecraft:lapis_lazuli',
       B: 'minecraft:paper',
-      C: 'kubejs:blueish_ingot'
+      C: 'kubejs:lapiron_ingot'
     }
   )
   // Cardboard

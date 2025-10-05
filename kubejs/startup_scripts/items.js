@@ -71,14 +71,22 @@ StartupEvents.registry('item', event => {
 
     }
 
-    event.create('simple_matter_extraction_device')
+    event.create('simple_matter_extraction_device').tag("uc:med/tier1")
+    event.create('reinforced_matter_extraction_device').tag("uc:med/tier1").tag("uc:med/tier2")
+    event.create('hellish_matter_extraction_device').tag("uc:med/tier1").tag("uc:med/tier2").tag("uc:med/tier3")
+    event.create('magical_matter_extraction_device').tag("uc:med/tier1").tag("uc:med/tier2").tag("uc:med/tier3").tag("uc:med/tier4")
+    event.create('overloaded_matter_extraction_device').tag("uc:med/tier1").tag("uc:med/tier2").tag("uc:med/tier3").tag("uc:med/tier4").tag("uc:med/tier5")
+    event.create('transcendental_matter_extraction_device').tag("uc:med/tier1").tag("uc:med/tier2").tag("uc:med/tier3").tag("uc:med/tier4").tag("uc:med/tier5").tag("uc:med/tier6")
+    event.create('floralized_matter_extraction_device').tag("uc:med/tier1").tag("uc:med/tier2").tag("uc:med/tier3").tag("uc:med/tier4").tag("uc:med/tier5").tag("uc:med/tier6")
+    event.create('digital_matter_extraction_device').tag("uc:med/tier1").tag("uc:med/tier2").tag("uc:med/tier3").tag("uc:med/tier4").tag("uc:med/tier5").tag("uc:med/tier6")
+    event.create('universal_matter_extraction_device').tag("uc:med/tier1").tag("uc:med/tier2").tag("uc:med/tier3").tag("uc:med/tier4").tag("uc:med/tier5").tag("uc:med/tier6").tag("uc:med/tier7")
     event.create('simple_spiritual_core')
     event.create('dark_spiritual_core')
 
     event.create('crushing_hammer').tooltip('Crush ores into dust.').maxDamage(64).texture('kubejs:item/crushing_hammer')
     
     standard_material('blue')
-    standard_material('blueish')
+    standard_material('lapiron')
     standard_material('galvanized')
     standard_material('orangeish')
     standard_material('pale_green')

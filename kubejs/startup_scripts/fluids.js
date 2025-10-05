@@ -88,7 +88,7 @@ StartupEvents.registry('fluid', event => {
         { material: "soularium", color: 0xffffff },
         { material: "end_steel", color: 0xffffff },
         { material: "blue", color: 0xffffff },
-        { material: "blueish", color: 0xffffff },
+        { material: "lapiron", color: 0xffffff },
         { material: "galvanized", color: 0xffffff },
         { material: "orangeish", color: 0xffffff },
         { material: "pale_green", color: 0xffffff },
