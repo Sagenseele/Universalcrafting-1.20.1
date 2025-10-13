@@ -1,0 +1,46 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "modular_router"
+	group: "42309822505DB028"
+	id: "12E1FC2CD6253504"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		icon: "modularrouters:modular_router"
+		id: "38723085E65E3D8F"
+		rewards: [
+			{
+				id: "107C46630845BA79"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "modularrouters:book"
+					}
+				}
+				type: "item"
+			}
+			{
+				id: "1BAF7A3DF8A66BAD"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}
+		]
+		tasks: [
+			{
+				id: "133EEBBC2134A87D"
+				item: "modularrouters:modular_router"
+				type: "item"
+			}
+			{
+				id: "7BDEF7457041536F"
+				item: "modularrouters:security_upgrade"
+				type: "item"
+			}
+		]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Modular Router"
+}

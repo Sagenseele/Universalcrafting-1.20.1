@@ -5,89 +5,6 @@
 	group: "0F98F552A8423A4B"
 	icon: "minecraft:poppy"
 	id: "3AFC4BD2D8B4995D"
-	images: [
-		{
-			height: 1.25d
-			hover: ["Forge Energy (RF)"]
-			image: "thermal:block/cells/energy_cell_level_8"
-			rotation: 0.0d
-			width: 1.25d
-			x: -8.5d
-			y: -0.5d
-		}
-		{
-			height: 1.0d
-			hover: ["Fluids"]
-			image: "minecraft:item/bucket"
-			rotation: 0.0d
-			width: 1.0d
-			x: -8.5d
-			y: -1.5d
-		}
-		{
-			height: 1.0d
-			hover: ["Ender IO Conduits can all be placed in one single block."]
-			image: "botania:item/cosmetic_questgiver_mark"
-			rotation: 0.0d
-			width: 1.0d
-			x: -4.5d
-			y: -3.5d
-		}
-		{
-			height: 1.0d
-			hover: ["Items"]
-			image: "almostunified:textures/ingot.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: -8.5d
-			y: -2.5d
-		}
-		{
-			height: 1.0d
-			hover: ["AE2 Channels"]
-			image: "ae2:block/controller_lights"
-			rotation: 0.0d
-			width: 1.0d
-			x: -8.5d
-			y: 3.5d
-		}
-		{
-			height: 1.0d
-			hover: ["Redstone"]
-			image: "minecraft:item/redstone"
-			rotation: 0.0d
-			width: 1.0d
-			x: -8.5d
-			y: 0.5d
-		}
-		{
-			height: 1.0d
-			hover: ["Mekanism Gas"]
-			image: "mekanism:item/upgrade_gas"
-			rotation: 0.0d
-			width: 1.0d
-			x: -8.5d
-			y: 1.5d
-		}
-		{
-			height: 1.0d
-			hover: ["Refined Storage"]
-			image: "refinedstorage:item/wireless_crafting_monitor_connected"
-			rotation: 0.0d
-			width: 1.0d
-			x: -8.5d
-			y: 4.5d
-		}
-		{
-			height: 1.0d
-			hover: ["Mekanism Heat"]
-			image: "decorative_blocks:block/fire"
-			rotation: 0.0d
-			width: 1.0d
-			x: -8.5d
-			y: 2.5d
-		}
-	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -293,42 +210,6 @@
 			y: 2.5d
 		}
 		{
-			icon: "modularrouters:modular_router"
-			id: "38723085E65E3D8F"
-			rewards: [
-				{
-					id: "107C46630845BA79"
-					item: {
-						Count: 1
-						id: "patchouli:guide_book"
-						tag: {
-							"patchouli:book": "modularrouters:book"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "1BAF7A3DF8A66BAD"
-					item: "kubejs:universal_badge"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "133EEBBC2134A87D"
-					item: "modularrouters:modular_router"
-					type: "item"
-				}
-				{
-					id: "7BDEF7457041536F"
-					item: "modularrouters:security_upgrade"
-					type: "item"
-				}
-			]
-			x: 8.0d
-			y: -6.5d
-		}
-		{
 			id: "59971A1DA15AC8FD"
 			rewards: [{
 				id: "503756FDBF523118"
@@ -468,320 +349,6 @@
 			y: -4.5d
 		}
 		{
-			id: "3B707DE8CEA7626D"
-			rewards: [{
-				id: "5D1578060FABAB44"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
-			tasks: [{
-				id: "739FD3E9E391B40B"
-				item: "thermal:energy_duct"
-				type: "item"
-			}]
-			x: -6.5d
-			y: -0.5d
-		}
-		{
-			id: "0670EAA353449AF9"
-			rewards: [{
-				id: "7EAFED06DEC1C53E"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
-			tasks: [{
-				id: "4288A0804509515F"
-				item: "thermal:fluid_duct"
-				type: "item"
-			}]
-			x: -6.5d
-			y: -1.5d
-		}
-		{
-			id: "0AA5E82EED8D8EAD"
-			rewards: [{
-				id: "0BE2B789C23AD587"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
-			tasks: [{
-				id: "110F4A6EB5C9365F"
-				item: "pipez:item_pipe"
-				type: "item"
-			}]
-			x: -7.5d
-			y: -2.5d
-		}
-		{
-			id: "0200EB7677A6D731"
-			rewards: [{
-				id: "3168262BDB69AE40"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
-			tasks: [{
-				id: "2550CACE59820D72"
-				item: "pipez:fluid_pipe"
-				type: "item"
-			}]
-			x: -7.5d
-			y: -1.5d
-		}
-		{
-			id: "188FAFB540C9717B"
-			rewards: [{
-				id: "040D6011D60E4E3C"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
-			tasks: [{
-				id: "6EA9CB9088CDB7E3"
-				item: "pipez:energy_pipe"
-				type: "item"
-			}]
-			x: -7.5d
-			y: -0.5d
-		}
-		{
-			id: "1D5A0E2923D3D403"
-			rewards: [{
-				id: "5E8C92F4AEA42CB1"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
-			tasks: [{
-				id: "296670714697CDD4"
-				item: "enderio:item_conduit"
-				type: "item"
-			}]
-			x: -4.5d
-			y: -2.5d
-		}
-		{
-			description: [
-				"&cThere seems to be a bug in the current version. If you connect energy conduits to some machines, make sure to enable the correct IO. E.g. Input only for Thermal Machines, Output only for Energy Producing machines.&r"
-				""
-				"&4The energy will be deleted otherwise.&r"
-				""
-				"Make EnderIO great again. :/"
-			]
-			id: "29FA058EE1F64B8F"
-			invisible: true
-			optional: true
-			rewards: [{
-				id: "7A027551280DDD6E"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
-			shape: "diamond"
-			tasks: [{
-				id: "4831689B596B84F3"
-				item: "enderio:energy_conduit"
-				type: "item"
-			}]
-			title: "&4BUG - Energy Conduits&r"
-			x: -4.5d
-			y: -0.5d
-		}
-		{
-			id: "334FDFC728DFECE5"
-			rewards: [{
-				id: "3225AFE71A7AEA95"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
-			tasks: [{
-				id: "513424DF7E24DC88"
-				item: "enderio:fluid_conduit"
-				type: "item"
-			}]
-			x: -4.5d
-			y: -1.5d
-		}
-		{
-			id: "204E0A91D4BB65F5"
-			rewards: [{
-				id: "3013A3DDCE3989F1"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
-			tasks: [{
-				id: "117FA834F5B7D548"
-				item: "enderio:me_conduit"
-				type: "item"
-			}]
-			x: -4.5d
-			y: 3.5d
-		}
-		{
-			id: "3AF39D1C4A44B7FD"
-			rewards: [{
-				id: "00CF24B2F3CA7729"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
-			tasks: [{
-				id: "73853C244890AF89"
-				item: "enderio:redstone_conduit"
-				type: "item"
-			}]
-			x: -4.5d
-			y: 0.5d
-		}
-		{
-			id: "1E16B811665E2C98"
-			rewards: [{
-				id: "62BE35937E452E3A"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
-			tasks: [{
-				id: "1C2880191BD6BFAF"
-				item: "pipez:gas_pipe"
-				type: "item"
-			}]
-			x: -7.5d
-			y: 1.5d
-		}
-		{
-			id: "56682BFD222BD020"
-			rewards: [{
-				id: "303EA0BDC6CC43C0"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
-			tasks: [{
-				id: "62545335D4E76290"
-				item: "enderio:chemical_conduit"
-				type: "item"
-			}]
-			x: -4.5d
-			y: 1.5d
-		}
-		{
-			id: "1FFA9E379AE35C4B"
-			rewards: [{
-				id: "1B01EB70EB158DA5"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
-			tasks: [{
-				id: "3F57D783E125349B"
-				item: "enderio:refined_storage_conduit"
-				type: "item"
-			}]
-			x: -4.5d
-			y: 4.5d
-		}
-		{
-			id: "60F2A8C0B00A1D7B"
-			rewards: [{
-				id: "1F8C05A75C6635E8"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
-			subtitle: "Thermal Machine Upgrades!"
-			tasks: [{
-				id: "5A0AD6026A4E100D"
-				item: "thermal:upgrade_augment_1"
-				type: "item"
-			}]
-			x: -2.5d
-			y: -3.0d
-		}
-		{
-			dependencies: ["60F2A8C0B00A1D7B"]
-			id: "5094869D7188A3F3"
-			rewards: [{
-				id: "2CEB8CF0BB10057B"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
-			tasks: [{
-				id: "19CF779D83D8758B"
-				item: "thermal:upgrade_augment_2"
-				type: "item"
-			}]
-			x: -2.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["5094869D7188A3F3"]
-			id: "1BE1AC86E84FA5EB"
-			rewards: [{
-				id: "4DA0335FD63207A5"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
-			tasks: [{
-				id: "012F3321C26B9E0F"
-				item: "thermal:upgrade_augment_3"
-				type: "item"
-			}]
-			x: -1.5d
-			y: -3.0d
-		}
-		{
-			id: "7C76E98E598F44E1"
-			rewards: [{
-				id: "00670D7ACA912D4A"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
-			tasks: [{
-				id: "65E778DF62374DC5"
-				item: "mob_grinding_utils:saw"
-				type: "item"
-			}]
-			x: 4.5d
-			y: -7.0d
-		}
-		{
-			id: "0B9BEA6420EE25B7"
-			rewards: [{
-				id: "100F18E0BF8F32A2"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
-			tasks: [{
-				id: "50FBEB8F5963FA2E"
-				item: "mob_grinding_utils:fan"
-				type: "item"
-			}]
-			x: 5.0d
-			y: -8.0d
-		}
-		{
-			id: "0A08FBB82CEBCCD4"
-			rewards: [{
-				id: "508C4D4233206E13"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
-			tasks: [{
-				id: "2801F39529C29401"
-				item: "mob_grinding_utils:tank_sink"
-				type: "item"
-			}]
-			x: 4.0d
-			y: -8.0d
-		}
-		{
-			id: "25660DD1E97D90BC"
-			rewards: [{
-				id: "546A24C4154A4864"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
-			tasks: [{
-				id: "2065F34CBBC200FC"
-				item: "mob_grinding_utils:gm_chicken_feed"
-				type: "item"
-			}]
-			x: 4.5d
-			y: -9.0d
-		}
-		{
 			id: "3DCA368C8DFF6AB4"
 			rewards: [{
 				id: "0EA5510A91D79E9F"
@@ -818,81 +385,6 @@
 			}]
 			x: 2.0d
 			y: -5.0d
-		}
-		{
-			id: "5871424370ADBE45"
-			rewards: [{
-				id: "6F0D89BA5FDBA77D"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
-			tasks: [{
-				id: "0249FF3ED6EE6097"
-				item: "mekanism:basic_universal_cable"
-				type: "item"
-			}]
-			x: -5.5d
-			y: -0.5d
-		}
-		{
-			id: "5F51E3D803739CBD"
-			rewards: [{
-				id: "0B97B84D3F74785D"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
-			tasks: [{
-				id: "36BEC57A18FB7B0B"
-				item: "mekanism:basic_mechanical_pipe"
-				type: "item"
-			}]
-			x: -5.5d
-			y: -1.5d
-		}
-		{
-			id: "4AC704CB15659854"
-			rewards: [{
-				id: "32FB331D455E5F29"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
-			tasks: [{
-				id: "3C7E572ED0CCCEA1"
-				item: "mekanism:basic_pressurized_tube"
-				type: "item"
-			}]
-			x: -5.5d
-			y: 1.5d
-		}
-		{
-			id: "5A81DC518CDEB144"
-			rewards: [{
-				id: "551287444402319D"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
-			tasks: [{
-				id: "408A45DB89D907C1"
-				item: "mekanism:basic_logistical_transporter"
-				type: "item"
-			}]
-			x: -5.5d
-			y: -2.5d
-		}
-		{
-			id: "438DE2B067466FC1"
-			rewards: [{
-				id: "7BAD0F5B5C307B94"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
-			tasks: [{
-				id: "164D7D235FB6D857"
-				item: "mekanism:basic_thermodynamic_conductor"
-				type: "item"
-			}]
-			x: -5.5d
-			y: 2.5d
 		}
 		{
 			id: "0CE2DF6CADB18A4A"
@@ -1199,21 +691,6 @@
 			y: -7.5d
 		}
 		{
-			id: "6362B0DBBD9321C2"
-			rewards: [{
-				id: "0B62D864C5C6CA5E"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
-			tasks: [{
-				id: "73C75D96C59DFD82"
-				item: "pipez:wrench"
-				type: "item"
-			}]
-			x: -7.5d
-			y: -3.5d
-		}
-		{
 			id: "6EF4A97259AF071E"
 			rewards: [{
 				id: "52DE2E8B99D7B479"
@@ -1333,6 +810,58 @@
 			}]
 			x: 0.5d
 			y: -2.0d
+		}
+		{
+			description: [
+				"Create a schematic from scratch or download an existing one from:"
+				""
+				"https://createmod.com/schematics"
+				""
+				"Put the schematic in the table and save a downloaded or previously saved structure, then place the hologram in the world. Put the schematic into a Schematicannon. To build the structure automatically, provide the blocks in an adjacent chest. The Schematiccannon will tell you which blocks are missing."
+			]
+			icon: "create:empty_schematic"
+			id: "662E7ACC0897CD7D"
+			rewards: [{
+				id: "3B9D94E4C50635E3"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			tasks: [
+				{
+					disable_toast: true
+					id: "62C7336459E2724D"
+					item: "create:empty_schematic"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "6E31878CA3A48C0A"
+					item: "create:schematic_table"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "0EC095EC7EA330A7"
+					item: "create:schematicannon"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "649D0A3354C4C0B7"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:chests"
+						}
+					}
+					title: "Any #forge:chests"
+					type: "item"
+				}
+			]
+			title: "SCHEMATIC GO!"
+			x: 4.5d
+			y: -7.0d
 		}
 	]
 	title: "Utility"

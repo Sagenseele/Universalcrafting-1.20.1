@@ -1,0 +1,399 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "pipes_and_cables"
+	group: "42309822505DB028"
+	icon: "pipez:wrench"
+	id: "694F12978376376F"
+	images: [
+		{
+			height: 1.25d
+			hover: ["Forge Energy (RF)"]
+			image: "thermal:block/cells/energy_cell_level_8"
+			rotation: 0.0d
+			width: 1.25d
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			hover: ["Fluids"]
+			image: "minecraft:item/water_bucket"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			hover: ["Items"]
+			image: "minecraft:item/iron_ingot"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			hover: ["AE2 Channels"]
+			image: "ae2:block/controller_lights"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			hover: ["Redstone"]
+			image: "minecraft:item/redstone"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			hover: ["Mekanism Gas"]
+			image: "mekanism:item/upgrade_gas"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			hover: ["Refined Storage"]
+			image: "refinedstorage:item/wireless_crafting_monitor_connected"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			hover: ["Mekanism Heat"]
+			image: "decorative_blocks:block/fire"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 2.0d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "3B707DE8CEA7626D"
+			rewards: [{
+				id: "5D1578060FABAB44"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "739FD3E9E391B40B"
+				item: "thermal:energy_duct"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			id: "0670EAA353449AF9"
+			rewards: [{
+				id: "7EAFED06DEC1C53E"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4288A0804509515F"
+				item: "thermal:fluid_duct"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			id: "0AA5E82EED8D8EAD"
+			rewards: [{
+				id: "0BE2B789C23AD587"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "110F4A6EB5C9365F"
+				item: "pipez:item_pipe"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			id: "0200EB7677A6D731"
+			rewards: [{
+				id: "3168262BDB69AE40"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2550CACE59820D72"
+				item: "pipez:fluid_pipe"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			id: "188FAFB540C9717B"
+			rewards: [{
+				id: "040D6011D60E4E3C"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6EA9CB9088CDB7E3"
+				item: "pipez:energy_pipe"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			id: "1D5A0E2923D3D403"
+			rewards: [{
+				id: "5E8C92F4AEA42CB1"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "296670714697CDD4"
+				item: "enderio:item_conduit"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"&cThere seems to be a bug in the current version. If you connect energy conduits to some machines, make sure to enable the correct IO. E.g. Input only for Thermal Machines, Output only for Energy Producing machines.&r"
+				""
+				"&4The energy will be deleted otherwise.&r"
+				""
+				"Make EnderIO great again. :/"
+			]
+			id: "29FA058EE1F64B8F"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "7A027551280DDD6E"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "4831689B596B84F3"
+				item: "enderio:energy_conduit"
+				type: "item"
+			}]
+			title: "&4BUG - Energy Conduits&r"
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			id: "334FDFC728DFECE5"
+			rewards: [{
+				id: "3225AFE71A7AEA95"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "513424DF7E24DC88"
+				item: "enderio:fluid_conduit"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			id: "204E0A91D4BB65F5"
+			rewards: [{
+				id: "3013A3DDCE3989F1"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "117FA834F5B7D548"
+				item: "enderio:me_conduit"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			id: "3AF39D1C4A44B7FD"
+			rewards: [{
+				id: "00CF24B2F3CA7729"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "73853C244890AF89"
+				item: "enderio:redstone_conduit"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "1E16B811665E2C98"
+			rewards: [{
+				id: "62BE35937E452E3A"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1C2880191BD6BFAF"
+				item: "pipez:gas_pipe"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			id: "56682BFD222BD020"
+			rewards: [{
+				id: "303EA0BDC6CC43C0"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "62545335D4E76290"
+				item: "enderio:chemical_conduit"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			id: "1FFA9E379AE35C4B"
+			rewards: [{
+				id: "1B01EB70EB158DA5"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3F57D783E125349B"
+				item: "enderio:refined_storage_conduit"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			id: "5871424370ADBE45"
+			rewards: [{
+				id: "6F0D89BA5FDBA77D"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0249FF3ED6EE6097"
+				item: "mekanism:basic_universal_cable"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			id: "5F51E3D803739CBD"
+			rewards: [{
+				id: "0B97B84D3F74785D"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "36BEC57A18FB7B0B"
+				item: "mekanism:basic_mechanical_pipe"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			id: "4AC704CB15659854"
+			rewards: [{
+				id: "32FB331D455E5F29"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3C7E572ED0CCCEA1"
+				item: "mekanism:basic_pressurized_tube"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			id: "5A81DC518CDEB144"
+			rewards: [{
+				id: "551287444402319D"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "408A45DB89D907C1"
+				item: "mekanism:basic_logistical_transporter"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			id: "438DE2B067466FC1"
+			rewards: [{
+				id: "7BAD0F5B5C307B94"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "164D7D235FB6D857"
+				item: "mekanism:basic_thermodynamic_conductor"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			id: "6362B0DBBD9321C2"
+			rewards: [{
+				id: "0B62D864C5C6CA5E"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "73C75D96C59DFD82"
+				item: "pipez:wrench"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			description: ["Ender IO Conduits can be placed all in the same block."]
+			id: "3808E1F7B2F709AC"
+			subtitle: "All in One"
+			tasks: [{
+				id: "2AEC93E00BB3FA3F"
+				item: {
+					Count: 1
+					id: "enderio:conduit_probe"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+	]
+	title: "Pipes and Cables"
+}

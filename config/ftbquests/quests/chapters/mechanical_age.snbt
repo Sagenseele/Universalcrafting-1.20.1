@@ -11,7 +11,7 @@
 			image: "create:block/depot_side"
 			rotation: 0.0d
 			width: 1.0d
-			x: 16.5d
+			x: 18.0d
 			y: -3.5d
 		}
 		{
@@ -19,7 +19,7 @@
 			image: "kubejs:block/blast_furnace_active"
 			rotation: 0.0d
 			width: 1.0d
-			x: 15.0d
+			x: 16.5d
 			y: -1.0d
 		}
 		{
@@ -27,7 +27,7 @@
 			image: "kubejs:block/kinetic_crusher_active"
 			rotation: 0.0d
 			width: 1.0d
-			x: 12.0d
+			x: 13.5d
 			y: -7.0d
 		}
 		{
@@ -62,7 +62,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["31F85638C4B2A0DC"]
+			dependencies: ["44405C37492B265B"]
 			id: "7A53066E10590290"
 			optional: true
 			rewards: [{
@@ -75,7 +75,7 @@
 				item: "create:precision_mechanism"
 				type: "item"
 			}]
-			x: 16.5d
+			x: 18.0d
 			y: -4.0d
 		}
 		{
@@ -83,6 +83,7 @@
 				"3E8359A7FAB86AFB"
 				"52CCCBA9EF914842"
 			]
+			description: ["Will be used for producing &3Creosote Oil&r and &eCoal Coke&r."]
 			icon: "immersiveengineering:coke_oven"
 			icon_scale: 2.0d
 			id: "0DA090A2DBE0219D"
@@ -105,7 +106,7 @@
 				type: "item"
 			}]
 			title: "Coke Oven"
-			x: 9.0d
+			x: 10.5d
 			y: -2.0d
 		}
 		{
@@ -178,7 +179,7 @@
 					type: "item"
 				}
 			]
-			x: 11.0d
+			x: 12.5d
 			y: -7.0d
 		}
 		{
@@ -201,7 +202,7 @@
 				item: "kubejs:electric_motor"
 				type: "item"
 			}]
-			x: 18.5d
+			x: 20.0d
 			y: -2.0d
 		}
 		{
@@ -225,7 +226,7 @@
 					type: "item"
 				}
 			]
-			x: 6.5d
+			x: 8.0d
 			y: -2.0d
 		}
 		{
@@ -241,7 +242,7 @@
 				item: "kubejs:sulfeel_ingot"
 				type: "item"
 			}]
-			x: 16.5d
+			x: 18.0d
 			y: -2.0d
 		}
 		{
@@ -258,7 +259,7 @@
 				item: "thermal:steel_ingot"
 				type: "item"
 			}]
-			x: 13.0d
+			x: 14.5d
 			y: -2.0d
 		}
 		{
@@ -281,7 +282,7 @@
 				type: "item"
 			}]
 			title: "Crude Blast Furnace"
-			x: 11.0d
+			x: 12.5d
 			y: -2.0d
 		}
 		{
@@ -353,11 +354,11 @@
 				item: "silentgear:blueprint_paper"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 9.5d
 			y: -3.5d
 		}
 		{
-			dependencies: ["225C42CA4F5126B9"]
+			dependencies: ["0AB7A918CC24B33A"]
 			id: "3F6E0421CBB60E0C"
 			rewards: [{
 				id: "3408EBDDC6606291"
@@ -366,10 +367,10 @@
 			}]
 			tasks: [{
 				id: "31701DC3C74AE30F"
-				item: "kubejs:blueish_ingot"
+				item: "kubejs:lapiron_ingot"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 6.5d
 			y: -3.5d
 		}
 		{
@@ -404,7 +405,7 @@
 				match_nbt: false
 				type: "item"
 			}]
-			x: 8.5d
+			x: 10.0d
 			y: -6.0d
 		}
 		{
@@ -424,7 +425,7 @@
 				item: "thermal:machine_frame"
 				type: "item"
 			}]
-			x: 20.5d
+			x: 22.0d
 			y: -2.0d
 		}
 		{
@@ -475,7 +476,7 @@
 					type: "item"
 				}
 			]
-			x: 15.0d
+			x: 16.5d
 			y: -2.0d
 		}
 		{
@@ -495,7 +496,7 @@
 				type: "item"
 			}]
 			title: "Alloy Kiln"
-			x: 13.5d
+			x: 15.0d
 			y: -4.0d
 		}
 		{
@@ -520,7 +521,7 @@
 				}
 				type: "item"
 			}]
-			x: 10.0d
+			x: 11.5d
 			y: -4.5d
 		}
 		{
@@ -540,7 +541,7 @@
 		}
 		{
 			dependencies: ["59806AD6FB9191C4"]
-			description: ["Can be used to create different type of Stones, depending on selected Stones."]
+			description: ["Can be used to create different type of resources."]
 			id: "2D1182F120C39D71"
 			rewards: [{
 				id: "236B4A5E042DF614"
@@ -556,58 +557,6 @@
 			}]
 			x: -1.0d
 			y: -2.0d
-		}
-		{
-			description: [
-				"Create a schematic from scratch or download an existing one from:"
-				""
-				"https://createmod.com/schematics"
-				""
-				"Put the schematic in the table and save a downloaded or previously saved structure, then place the hologram in the world. Put the schematic into a Schematicannon. To build the structure automatically, provide the blocks in an adjacent chest. The Schematiccannon will tell you which blocks are missing."
-			]
-			icon: "create:empty_schematic"
-			id: "662E7ACC0897CD7D"
-			rewards: [{
-				id: "3B9D94E4C50635E3"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
-			tasks: [
-				{
-					disable_toast: true
-					id: "62C7336459E2724D"
-					item: "create:empty_schematic"
-					type: "item"
-				}
-				{
-					disable_toast: true
-					id: "6E31878CA3A48C0A"
-					item: "create:schematic_table"
-					type: "item"
-				}
-				{
-					disable_toast: true
-					id: "0EC095EC7EA330A7"
-					item: "create:schematicannon"
-					type: "item"
-				}
-				{
-					disable_toast: true
-					id: "649D0A3354C4C0B7"
-					item: {
-						Count: 1
-						id: "itemfilters:tag"
-						tag: {
-							value: "forge:chests"
-						}
-					}
-					title: "Any #forge:chests"
-					type: "item"
-				}
-			]
-			title: "SCHEMATIC GO!"
-			x: 12.5d
-			y: -0.5d
 		}
 		{
 			dependencies: ["66E807F8876802C6"]
@@ -729,7 +678,7 @@
 				item: "kubejs:simple_matter_extraction_device"
 				type: "item"
 			}]
-			x: 18.5d
+			x: 20.0d
 			y: -4.0d
 		}
 		{
@@ -744,61 +693,10 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["3E8359A7FAB86AFB"]
-			icon: "immersiveengineering:auto_workbench"
-			icon_scale: 2.0d
-			id: "1FBEC6C74EE0C32C"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "33E4B59D52D8852F"
-				table_id: 1003551246795076371L
-				type: "choice"
-			}]
-			shape: "none"
-			size: 1.0d
-			tasks: [
-				{
-					count: 4L
-					id: "7ECF668DA463048E"
-					item: { Count: 4, id: "immersiveengineering:conveyor_basic" }
-					type: "item"
-				}
-				{
-					count: 4L
-					id: "45A6D2C8CAEDEC13"
-					item: { Count: 4, id: "immersiveengineering:light_engineering" }
-					type: "item"
-				}
-				{
-					id: "16CC27B5F71A72E7"
-					item: "immersiveengineering:rs_engineering"
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "30CF59E3372B36E7"
-					item: { Count: 2, id: "immersiveengineering:heavy_engineering" }
-					type: "item"
-				}
-				{
-					count: 5L
-					id: "4753F7254B221DD7"
-					item: { Count: 5, id: "immersiveengineering:steel_scaffolding_standard" }
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "51A7AFE180737B98"
-					item: { Count: 2, id: "immersiveengineering:slab_treated_wood_horizontal" }
-					type: "item"
-				}
+			dependencies: [
+				"31F85638C4B2A0DC"
+				"1F04586347B94677"
 			]
-			title: "Automated Engineer's Workbench"
-			x: 13.5d
-			y: -5.5d
-		}
-		{
-			dependencies: ["1FBEC6C74EE0C32C"]
 			id: "43AAE51466CAE99F"
 			optional: true
 			tasks: [{
@@ -806,7 +704,124 @@
 				item: "immersiveengineering:component_electronic"
 				type: "item"
 			}]
+			x: 18.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["225C42CA4F5126B9"]
+			id: "0AB7A918CC24B33A"
+			tasks: [{
+				id: "5CD775C2217BE57F"
+				item: "create:encased_fan"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["31F85638C4B2A0DC"]
+			id: "44405C37492B265B"
+			tasks: [{
+				id: "7A0FEC0D956B18A9"
+				item: "create:deployer"
+				type: "item"
+			}]
 			x: 16.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0DA090A2DBE0219D"]
+			id: "69C692DE51876546"
+			tasks: [{
+				id: "6F2547AA1FFED240"
+				item: "immersiveengineering:creosote_bucket"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0DA090A2DBE0219D"]
+			id: "7225988229BC1B48"
+			tasks: [{
+				id: "4F7EDACB283CECDD"
+				item: "immersiveengineering:coal_coke"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"7A53066E10590290"
+				"43AAE51466CAE99F"
+			]
+			dependency_requirement: "one_completed"
+			id: "1C18954BA4319F57"
+			tasks: [{
+				id: "2E0A7DB0A353C1DB"
+				item: "mbd2:mbd_gadgets"
+				type: "item"
+			}]
+			x: 20.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["69C692DE51876546"]
+			id: "2AAC3CA268E67ECA"
+			rewards: [{
+				id: "6FC4CCD804D0F2B0"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "71178ED80EFD77E4"
+				item: "immersiveengineering:treated_wood_horizontal"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2AAC3CA268E67ECA"]
+			id: "22C5A54B707BB1C0"
+			rewards: [{
+				id: "7EBA22182E820FAC"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "667CC7E8114DEF1A"
+				item: "immersiveengineering:stick_treated"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"22C5A54B707BB1C0"
+				"3E8359A7FAB86AFB"
+			]
+			id: "1F04586347B94677"
+			rewards: [
+				{
+					id: "1EAF178009AA0180"
+					item: "immersiveengineering:manual"
+					type: "item"
+				}
+				{
+					id: "0DF3F7A8D0FE057F"
+					item: "kubejs:universal_badge"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1FB85B05F5216F35"
+				item: "immersiveengineering:workbench"
+				type: "item"
+			}]
+			x: 15.5d
 			y: -5.5d
 		}
 	]

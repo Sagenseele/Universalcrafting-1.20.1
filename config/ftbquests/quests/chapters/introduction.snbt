@@ -192,7 +192,7 @@
 			y: -1.0d
 		}
 		{
-			description: ["Ore generation has been tweaked, you will find ores deeper in the world but instead of small veins, there are big clusters down in the deepslate area."]
+			description: ["Ore generation has been tweaked, you will find ores deeper in the world but instead of small veins, there are big clusters down in the deepslate area. Between -64 and 0"]
 			id: "727E4CC97B021F8A"
 			tasks: [{
 				id: "163456C8683FF502"

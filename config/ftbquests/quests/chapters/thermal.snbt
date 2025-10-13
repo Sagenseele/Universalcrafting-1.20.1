@@ -1,0 +1,236 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "thermal"
+	group: "007FE974211D2B02"
+	icon: "thermal:machine_frame"
+	id: "51836C9F9A18298C"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			id: "73DD87B35583C4E3"
+			tasks: [{
+				id: "4F1FA225530C8F91"
+				item: "thermal:machine_frame"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["73DD87B35583C4E3"]
+			id: "5652840FD44EB774"
+			tasks: [{
+				id: "0050A80B817D966B"
+				item: "thermal:machine_furnace"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["73DD87B35583C4E3"]
+			id: "21A8BFEBCF2C7E08"
+			tasks: [{
+				id: "0435B5076EA22856"
+				item: "thermal:machine_sawmill"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["73DD87B35583C4E3"]
+			id: "563183BDB771C710"
+			tasks: [{
+				id: "2F2F7FCC5462B2F2"
+				item: "thermal:machine_pulverizer"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["73DD87B35583C4E3"]
+			id: "42A4E32E6FDD0A7C"
+			tasks: [{
+				id: "7DC3D8BE9A7938B5"
+				item: "thermal:machine_smelter"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["73DD87B35583C4E3"]
+			id: "1BB208DF846091DF"
+			tasks: [{
+				id: "6FC77F58BC7334BB"
+				item: "thermal:machine_insolator"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["73DD87B35583C4E3"]
+			id: "7129B391222F8D7C"
+			tasks: [{
+				id: "5BC9B66A80B86492"
+				item: "thermal:machine_centrifuge"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["73DD87B35583C4E3"]
+			id: "212E95154851A375"
+			tasks: [{
+				id: "0383454E1092168C"
+				item: "thermal:machine_press"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["73DD87B35583C4E3"]
+			id: "451CAE7FD39033D1"
+			tasks: [{
+				id: "3780B5FC18A0B53C"
+				item: "thermal:machine_crucible"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["73DD87B35583C4E3"]
+			id: "545E3AA6767B19DD"
+			tasks: [{
+				id: "5C740454811C86A2"
+				item: "thermal:machine_chiller"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["73DD87B35583C4E3"]
+			id: "56F446A53D9F9DA0"
+			tasks: [{
+				id: "3C1E65FD0BCD944C"
+				item: "thermal:machine_refinery"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["73DD87B35583C4E3"]
+			id: "398FFEE600C9934F"
+			tasks: [{
+				id: "3CEC92601C180546"
+				item: "thermal:machine_pyrolyzer"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["73DD87B35583C4E3"]
+			id: "2ADC92D168278D3F"
+			tasks: [{
+				id: "69D7970554F05275"
+				item: "thermal:machine_bottler"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["73DD87B35583C4E3"]
+			id: "02B06A006A67EF43"
+			tasks: [{
+				id: "2BF007D9C7B80EE9"
+				item: "thermal:machine_brewer"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["73DD87B35583C4E3"]
+			id: "07E624FC2CC2694A"
+			tasks: [{
+				id: "4075EEC737DC90F9"
+				item: "thermal:machine_crystallizer"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["73DD87B35583C4E3"]
+			id: "6FCCFC503BF528C9"
+			tasks: [{
+				id: "374242034597A465"
+				item: "thermal:machine_crafter"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			id: "60F2A8C0B00A1D7B"
+			rewards: [{
+				id: "1F8C05A75C6635E8"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			subtitle: "Thermal Machine Upgrades!"
+			tasks: [{
+				id: "5A0AD6026A4E100D"
+				item: "thermal:upgrade_augment_1"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["60F2A8C0B00A1D7B"]
+			id: "5094869D7188A3F3"
+			rewards: [{
+				id: "2CEB8CF0BB10057B"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "19CF779D83D8758B"
+				item: "thermal:upgrade_augment_2"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5094869D7188A3F3"]
+			id: "1BE1AC86E84FA5EB"
+			rewards: [{
+				id: "4DA0335FD63207A5"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "012F3321C26B9E0F"
+				item: "thermal:upgrade_augment_3"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.0d
+		}
+	]
+	title: "Thermal"
+}

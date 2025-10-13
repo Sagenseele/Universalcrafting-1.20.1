@@ -1,0 +1,137 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mob_grinding_utils"
+	group: "4BF8C5B9E64BC8F2"
+	icon: "mob_grinding_utils:saw"
+	id: "62664E12048BE0B7"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "53F4FD235E8EA158"
+			tasks: [{
+				id: "71B1CC55BBFA8619"
+				item: "mob_grinding_utils:saw"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["53F4FD235E8EA158"]
+			id: "6873D7ED25029C2A"
+			tasks: [{
+				id: "4874C26622D32B90"
+				item: "mob_grinding_utils:saw_upgrade_beheading"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["53F4FD235E8EA158"]
+			id: "2277F4F07665B743"
+			tasks: [{
+				id: "1F288A42204D812D"
+				item: "mob_grinding_utils:saw_upgrade_looting"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["53F4FD235E8EA158"]
+			id: "7F3FB944663830F5"
+			tasks: [{
+				id: "5C4DCF1A834DFCA1"
+				item: "mob_grinding_utils:saw_upgrade_sharpness"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			id: "3D26E7D6A94B5279"
+			tasks: [{
+				id: "540EA27CC2A5D385"
+				item: "mob_grinding_utils:fan"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3D26E7D6A94B5279"]
+			id: "41BED449BF42419F"
+			tasks: [{
+				id: "368CA72B928C9D85"
+				item: "mob_grinding_utils:fan_upgrade_height"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3D26E7D6A94B5279"]
+			id: "26807CEF464F19C6"
+			tasks: [{
+				id: "66B7A97920B331AB"
+				item: "mob_grinding_utils:fan_upgrade_width"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3D26E7D6A94B5279"]
+			id: "7E6B9FDA17233B74"
+			tasks: [{
+				id: "46605AC6478200B4"
+				item: "mob_grinding_utils:fan_upgrade_speed"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			description: ["Blocks light and is wither resistant."]
+			id: "0117F7CA378DD3E5"
+			tasks: [{
+				id: "5815A53A6A942C64"
+				item: "mob_grinding_utils:tinted_glass"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			description: ["Craft with a bucket of XP and a seed and feed it to a chicken... Happy Birthday. &4O_O&r"]
+			id: "74381DE113C03C47"
+			tasks: [{
+				id: "2E0D6013667A7576"
+				item: "mob_grinding_utils:mob_swab"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["74381DE113C03C47"]
+			id: "25660DD1E97D90BC"
+			rewards: [{
+				id: "546A24C4154A4864"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2065F34CBBC200FC"
+				item: "mob_grinding_utils:gm_chicken_feed"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+	]
+	title: "Mob Grinding Utils"
+}

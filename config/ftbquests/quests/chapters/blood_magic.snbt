@@ -637,7 +637,7 @@
 				item: "bloodmagic:alchemytable"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 1.0d
 			y: -0.5d
 		}
 		{
@@ -735,15 +735,15 @@
 		}
 		{
 			dependencies: ["3386BB1B8E96DDCA"]
-			icon_scale: 0.8d
+			icon_scale: 2.0d
 			id: "76F416B376BE0778"
 			rewards: [{
 				id: "497F0F7101713B69"
 				item: "kubejs:universal_badge"
 				type: "item"
 			}]
-			shape: "gear"
-			size: 1.5d
+			shape: "none"
+			size: 1.0d
 			subtitle: "Unlocks &dBiomancy&r Chapter"
 			tasks: [{
 				id: "6FA439CC6D1DA3EF"
