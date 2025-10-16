@@ -839,7 +839,7 @@
 				"5E734D4D2784738C"
 				"1903E571222588E1"
 			]
-			description: ["The Catalyst will not be consumed."]
+			description: ["The Catalyst in the recipes won't be consumed."]
 			icon: "immersiveengineering:refinery"
 			icon_scale: 2.0d
 			id: "35855C390FC01279"

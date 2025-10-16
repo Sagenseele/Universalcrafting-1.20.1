@@ -789,7 +789,7 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["324F572E9D4D8F19"]
+			dependencies: ["72EE3D1A5886F901"]
 			id: "6F1FE8BFFB5B56B6"
 			rewards: [{
 				id: "52075DBC4636A614"
@@ -801,8 +801,8 @@
 				item: "ae2wtlib:quantum_bridge_card"
 				type: "item"
 			}]
-			x: -7.5d
-			y: -6.5d
+			x: -0.5d
+			y: -2.5d
 		}
 		{
 			dependencies: [
@@ -1016,6 +1016,17 @@
 			}]
 			x: -9.5d
 			y: -2.5d
+		}
+		{
+			dependencies: ["146CBE384DD72A1A"]
+			id: "72EE3D1A5886F901"
+			tasks: [{
+				id: "7E8C7755193C9F15"
+				item: "ae2:wireless_access_point"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
 		}
 	]
 	title: "AE2/RS"

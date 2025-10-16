@@ -15,7 +15,7 @@
 		rotation: 0.0d
 		width: 8.808602150537636d
 		x: -8.0d
-		y: -10.5d
+		y: -11.5d
 	}]
 	order_index: 3
 	quest_links: [ ]
@@ -117,7 +117,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: -4.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["6FD9146F55E2EF69"]
@@ -131,48 +131,15 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["0822D70343B3C9B8"]
-			id: "7B3BBA692C7B2851"
-			tasks: [{
-				id: "043BFACB7F69C109"
-				item: "mbd2:magnetizer"
-				type: "item"
-			}]
-			x: -5.5d
-			y: -6.0d
-		}
-		{
-			dependencies: ["7B3BBA692C7B2851"]
-			id: "52EB5064E4394DC1"
-			tasks: [{
-				id: "5EB1D01B9A55D448"
-				item: "ad_astra:calorite_nugget"
-				type: "item"
-			}]
-			x: -7.5d
-			y: -5.5d
-		}
-		{
-			dependencies: ["7B3BBA692C7B2851"]
-			id: "3E5DDDCFF0785737"
-			tasks: [{
-				id: "60AA62E9D28F1447"
-				item: "ad_astra:ostrum_nugget"
-				type: "item"
-			}]
-			x: -7.5d
-			y: -6.5d
-		}
-		{
-			dependencies: ["3D92FC7109907464"]
+			dependencies: ["5C195BF8AE2B7BAC"]
 			id: "1235585CA6D04B39"
 			tasks: [{
 				id: "241FBD0E5B3E425F"
 				item: "hostilenetworks:sim_chamber"
 				type: "item"
 			}]
-			x: -9.0d
-			y: -8.5d
+			x: -6.0d
+			y: -9.5d
 		}
 		{
 			dependencies: ["35FEBC636877D245"]
@@ -293,17 +260,6 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["7B3BBA692C7B2851"]
-			id: "3D92FC7109907464"
-			tasks: [{
-				id: "71D9863579AD7F01"
-				item: "ad_astra:etrium_nugget"
-				type: "item"
-			}]
-			x: -7.5d
-			y: -7.5d
-		}
-		{
 			dependencies: ["5C195BF8AE2B7BAC"]
 			id: "5BB8EA17A1644283"
 			tasks: [{
@@ -311,8 +267,8 @@
 				item: "kubejs:probe_mk_i"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -10.0d
+			x: -2.5d
+			y: -11.0d
 		}
 		{
 			dependencies: ["5B3B743084BC7402"]
@@ -322,40 +278,78 @@
 				item: "mekanism:advanced_tier_installer"
 				type: "item"
 			}]
-			x: -5.5d
-			y: -4.0d
+			x: -5.0d
+			y: -2.5d
 		}
 		{
-			dependencies: ["4A582AC42262514A"]
+			dependencies: ["636D5DC43180B027"]
 			id: "10663BA6A4B0CDAD"
 			tasks: [{
 				id: "1DF7B7737384D041"
 				item: "hostilenetworks:loot_fabricator"
 				type: "item"
 			}]
-			x: -9.0d
-			y: -3.5d
-		}
-		{
-			dependencies: ["7B3BBA692C7B2851"]
-			id: "4A582AC42262514A"
-			tasks: [{
-				id: "7AC415896D9E4A78"
-				item: "ad_astra:desh_nugget"
-				type: "item"
-			}]
-			x: -7.5d
+			x: -6.0d
 			y: -4.5d
 		}
 		{
-			dependencies: ["52EB5064E4394DC1"]
+			dependencies: ["0822D70343B3C9B8"]
 			id: "4D8879745A22E122"
 			tasks: [{
 				id: "3F46B36482AFEE64"
 				item: "hostilenetworks:prediction_matrix"
 				type: "item"
 			}]
+			x: -5.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3AAFBA91A16095CA"]
+			id: "5CB2EA83DECB7581"
+			tasks: [{
+				id: "5824F4FA4326965D"
+				item: "hostilenetworks:blank_data_model"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"5CB2EA83DECB7581"
+				"1235585CA6D04B39"
+			]
+			id: "03AB0CEEC929D789"
+			tasks: [{
+				id: "33F21FCCF451F248"
+				item: "mbd2:crystal_cutter"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["03AB0CEEC929D789"]
+			id: "565D209CEAF7B4A5"
+			tasks: [{
+				id: "4EEB12C706498787"
+				item: "kubejs:machine_learning_processor"
+				type: "item"
+			}]
 			x: -9.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["636D5DC43180B027"]
+			icon_scale: 1.5d
+			id: "157FA7717F851AA6"
+			shape: "none"
+			tasks: [{
+				id: "62FB180F15CBBA4A"
+				item: "kubejs:crystal_tertium"
+				type: "item"
+			}]
+			x: -3.0d
 			y: -5.0d
 		}
 	]

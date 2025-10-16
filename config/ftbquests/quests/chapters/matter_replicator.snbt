@@ -441,16 +441,6 @@
 			y: -2.5d
 		}
 		{
-			id: "31C673ECD5E8AEF4"
-			tasks: [{
-				id: "43288638CB70B092"
-				item: "mysticalagriculture:energetic_alloy_essence"
-				type: "item"
-			}]
-			x: 11.0d
-			y: 4.5d
-		}
-		{
 			dependencies: ["6CDDE4ECE4D4E5D7"]
 			id: "08ECCE365FC984D5"
 			tasks: [{

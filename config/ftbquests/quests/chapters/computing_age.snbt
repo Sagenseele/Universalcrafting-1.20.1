@@ -5,15 +5,6 @@
 	group: "0D67931F734E7CE2"
 	icon: "powah:energizing_rod_nitro"
 	id: "1101A818A111E8D1"
-	images: [{
-		alpha: 192
-		height: 8.0d
-		image: "ae2:item/calculation_processor"
-		rotation: 0.0d
-		width: 8.0d
-		x: -7.5d
-		y: -1.5d
-	}]
 	order_index: 4
 	quest_links: [ ]
 	quests: [
@@ -416,6 +407,7 @@
 				"00A1B85D77D0BFF7"
 				"4009767761B58227"
 			]
+			dependency_requirement: "one_completed"
 			id: "189A35F9C6AE6246"
 			tasks: [{
 				id: "3142ADD20D9BBC4F"
@@ -431,6 +423,7 @@
 				"7EDA381C7C7E729C"
 				"2F4AF49D17ABE1B2"
 			]
+			dependency_requirement: "one_completed"
 			id: "51F502D1F9D3EC33"
 			tasks: [{
 				id: "749C6B6945AE8489"
@@ -446,6 +439,7 @@
 				"1AAB348292132F3F"
 				"31DA16421A7D869D"
 			]
+			dependency_requirement: "one_completed"
 			id: "7328560B5D43C60B"
 			tasks: [{
 				id: "6FDCF82BF806162C"
@@ -461,6 +455,7 @@
 				"56A4836F999463AA"
 				"081C7C72B558F070"
 			]
+			dependency_requirement: "one_completed"
 			id: "30D6E4D08A7DF452"
 			tasks: [{
 				id: "364994E525B3DA5D"
