@@ -123,6 +123,9 @@ ServerEvents.recipes(event => {
     )
   }
 
+  // Tertium Crystal
+  default_2alloys("kubejs:crystal_tertium", 5000, "mekanism:crystal_gold", "4x ad_astra:desh_ingot")
+
   //advanced Material Data Card
   event.shaped(
     Item.of('kubejs:advanced_material_data_card', 1),
@@ -341,8 +344,8 @@ ServerEvents.recipes(event => {
       { item: 'minecraft:flint' }
     ],
     results: [
-      { item: 'minecraft:iron_nugget'},
-      { item: 'minecraft:iron_nugget', chance: 0.15},
+      { item: 'minecraft:iron_nugget' },
+      { item: 'minecraft:iron_nugget', chance: 0.15 },
       { item: 'minecraft:lapis_lazuli', chance: 0.2 }
     ],
     id: 'custom:splashing/flint'
@@ -670,13 +673,12 @@ ServerEvents.recipes(event => {
     [
       ' B ',
       'CDC',
-      'EFG'
+      'GFG'
     ],
     {
       B: 'kubejs:turquoise_plate',
       C: 'kubejs:coil_tier_1',
       D: 'kubejs:electrical_machine_casing',
-      E: 'kubejs:electric_motor',
       F: 'ad_astra:ostrum_block',
       G: 'mekanism:advanced_induction_provider'
     }
@@ -773,12 +775,7 @@ ServerEvents.recipes(event => {
     'kubejs:electric_motor'
   )
 
-  // Steel Casing (Mekanism)
-  event.replaceInput(
-    { output: 'mekanism:steel_casing' },
-    'mekanism:ingot_osmium',
-    'thermal:machine_frame'
-  )
+
 
   // Redstone Engineering Block
   event.replaceInput(
@@ -815,36 +812,6 @@ ServerEvents.recipes(event => {
     'twilightforest:fiery_block'
   )
 
-  // charger
-  event.replaceInput(
-    { output: 'ae2:charger' },
-    'minecraft:iron_ingot',
-    'pneumaticcraft:plastic'
-  )
-
-  // inscriber
-  event.replaceInput(
-    { output: 'ae2:inscriber' },
-    'minecraft:iron_ingot',
-    'pneumaticcraft:plastic'
-  )
-
-  // Steel Bore Head
-  event.shaped(
-    Item.of('kubejs:steel_bore_head', 1),
-    [
-      'DCD',
-      ' A ',
-      ' B '
-    ],
-    {
-      A: 'mekanism:steel_casing',
-      B: 'immersiveengineering:drillhead_steel',
-      C: 'immersiveengineering:stick_steel',
-      D: 'immersiveengineering:component_iron'
-    }
-  )
-
   // Assembler
   event.shaped(
     Item.of('mbd2:assembler', 1),
@@ -861,22 +828,10 @@ ServerEvents.recipes(event => {
     }
   ).replaceIngredient('pneumaticcraft:lubricant_bucket', 'minecraft:bucket')
 
-  // Crystal Chamber
-  event.shaped(
-    Item.of('mbd2:crystal_chamber', 1),
-    [
-      'DDD',
-      'EAE',
-      'CBC'
-    ],
-    {
-      A: 'ae2:fluix_pearl',
-      B: 'ae2:fluix_block',
-      C: 'kubejs:turquoise_plate',
-      D: 'ae2:cut_quartz_slab',
-      E: 'mekanism:block_osmium'
-    }
-  )
+  // Etrium Ingot
+  default_compacting('ad_astra:etrium_nugget', 'ad_astra:etrium_ingot')
+  default_plate('ad_astra:etrium_plate', 'ad_astra:etrium_ingot')
+  default_plate('ad_astra:etrium_rod', 'ad_astra:etrium_ingot')
 
   // Energy Conduit
   event.remove({ id: "enderio:energy_conduit" })
@@ -910,185 +865,9 @@ ServerEvents.recipes(event => {
   // Lubricant
   event.recipes.thermal.refinery([Fluid.of('pneumaticcraft:lubricant', 1000)], Fluid.of('immersiveengineering:biodiesel', 1000))
 
-  //Mekanism
-  // Advanced
-  event.remove({ id: 'mekanism:control_circuit/advanced' })
-
-  event.shaped(
-    Item.of('mekanism:advanced_control_circuit', 1),
-    [
-      'ABA'
-    ],
-    {
-      A: 'ad_astra:desh_ingot',
-      B: 'mekanism:basic_control_circuit'
-    }
-  )
-
-  // Elite
-  event.remove({ id: 'mekanism:control_circuit/elite' })
-  event.recipes.powah.energizing(['mekanism:advanced_control_circuit', 'powah_niotic_crystal_block'], 'mekanism:elite_control_circuit', 50000)
-
-  // Ultimate
-  event.replaceInput(
-    { output: 'mekanism:ultimate_control_circuit' },
-    'mekanism:alloy_atomic',
-    'draconicevolution:wyvern_core'
-  )
-  // Mekanism Advanced Tier Installer
-  event.replaceInput(
-    { output: 'mekanism:advanced_tier_installer' },
-    '#minecraft:planks',
-    'kubejs:electrical_machine_casing'
-  )
-
-  // Mekanism Heat Generator
-  event.replaceInput(
-    { output: 'mekanismgenerators:heat_generator' },
-    '#forge:ingots/osmium',
-    'thermal:machine_frame'
-  )
-
-  // Metallurgic Infuser
-  event.replaceInput(
-    { output: 'mekanism:metallurgic_infuser' },
-    '#forge:ingots/osmium',
-    'thermal:machine_frame'
-  )
-
-  //Ad_Astra
-  // Fuel Refinery
-  event.replaceInput(
-    { output: 'ad_astra:fuel_refinery' },
-    'minecraft:furnace',
-    'kubejs:electrical_machine_casing'
-  )
-  // Oxygen Loader
-  event.replaceInput(
-    { output: 'ad_astra:oxygen_loader' },
-    'minecraft:lightning_rod',
-    'kubejs:electrical_machine_casing'
-  )
-  // NASA Workbench
-  event.replaceInput(
-    { output: 'ad_astra:nasa_workbench' },
-    'minecraft:redstone_torch',
-    '#forge:plates/copper'
-  )
-  event.replaceInput(
-    { output: 'ad_astra:nasa_workbench' },
-    'minecraft:crafting_table',
-    'kubejs:electrical_machine_casing'
-  )
-  // Etrium Ingot
-  default_compacting('ad_astra:etrium_nugget', 'ad_astra:etrium_ingot')
-  default_plate('ad_astra:etrium_plate', 'ad_astra:etrium_ingot')
-  default_plate('ad_astra:etrium_rod', 'ad_astra:etrium_ingot')
-  event.shaped(
-    Item.of('ad_astra:etrium_factory_block', 64),
-    [
-      'AAA',
-      'ABA',
-      'AAA'
-    ],
-    {
-      A: 'ad_astra:etrium_plate',
-      B: 'ad_astra:etrium_ingot'
-    }
-  )
-  event.shaped(
-    Item.of('ad_astra:encased_etrium_block', 64),
-    [
-      'BBB',
-      'AAA',
-      'BBB'
-    ],
-    {
-      A: 'ad_astra:etrium_plate',
-      B: '#forge:ingots/steel'
-    }
-  )
-  event.shaped(
-    Item.of('ad_astra:etrium_plateblock', 64),
-    [
-      'AAA',
-      'ABA',
-      'AAA'
-    ],
-    {
-      A: 'ad_astra:etrium_plate',
-      B: '#forge:rods/steel'
-    }
-  )
-  event.shaped(
-    Item.of('ad_astra:etrium_panel', 64),
-    [
-      'ABA',
-      'BBB',
-      'ABA'
-    ],
-    {
-      A: 'ad_astra:etrium_plate',
-      B: 'ad_astra:etrium_ingot'
-    }
-  )
-  event.shaped(
-    Item.of('ad_astra:etrium_block', 1),
-    [
-      'BBB',
-      'BBB',
-      'BBB'
-    ],
-    {
-      B: 'ad_astra:etrium_ingot'
-    }
-  )
-
-  //Powah
-
-  //ProjectE
-  //Philosopher's Stone
-  event.remove({ id: 'projecte:philosophers_stone_alt' })
-  event.replaceInput(
-    { output: 'projecte:philosophers_stone' },
-    'minecraft:diamond',
-    'bloodmagic:archmagebloodorb'
-  )
-  event.replaceInput(
-    { output: 'projecte:philosophers_stone' },
-    'minecraft:glowstone_dust',
-    'botania:gaia_ingot'
-  )
-  event.replaceInput(
-    { output: 'projecte:philosophers_stone' },
-    'minecraft:redstone',
-    'twilightforest:carminite'
-  )
-
-  // Alchemical Chest
-  event.replaceInput(
-    { output: 'projecte:alchemical_chest' },
-    'minecraft:diamond',
-    'projecte:philosophers_stone'
-  )
-
-  // Energy Collector
-
-  event.replaceInput(
-    { output: 'projecte:collector_mk1' },
-    'minecraft:furnace',
-    'projecte:dm_furnace'
-  )
 
 
-  //Forbidden & Arcanus
-
-  // Deorum
-  event.replaceInput(
-    { output: 'forbidden_arcanus:deorum_ingot' },
-    'minecraft:charcoal',
-    'forbidden_arcanus:aurum_log'
-  )
+  //Powah  
 
   //Thermal
   // Dynamos

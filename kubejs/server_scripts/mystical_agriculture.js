@@ -66,6 +66,7 @@ ServerEvents.recipes((event) => {
     //mods.nuclearcraft.salt_mixer.addRecipe([<liquid:water_prudentium> * 500, <liquid:water_inferium> * 500, <liquid:solution_prudiferium> * 1000]);
    
     // Tertium Crystal
+    
 
     // Superium Crystal
 

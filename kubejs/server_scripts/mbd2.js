@@ -14,14 +14,78 @@ MBDMachineEvents.onBeforeRecipeModify('mbd2:matter_replicator', (event) => {
     mbdEvent.setRecipe(copyRecipe);
 });
 
-MBDMachineEvents.onOpenUI("mbd2:matter_replicator", e => {
-    let event = e.event; // NOTE! you have to use it to get the actual event instance.
-    let machine = event.machine;
-    let machienID = machine.getDefinition().id();
-    console.log("Open UI!! id: " + machienID)
-})
+
+/*MBDMachineEvents.onBeforeRecipeModify("mbd2:crystal_cutter", event => {
+    let e = event.getEvent()
+    let machine = e.machine
+    let machinePos = machine.pos
+
+    const offsets = [
+        { x: 1, y: 3, z: 0 }
+    ]
+
+    for (const offset of offsets) {
+        const adjacentBlock = machinePos.offset(offset.x, offset.y, offset.z)
+        if (machine.getLevel().getBlock(adjacentBlock).id == 'forbidden_arcanus:dark_netherstar_block') {
+            let parallelRecipe = machine.applyParallel(recipe, 4);
+            let copyRecipe = parallelRecipe.copy();
+            console.log("test")
+            e.setRecipe(copyRecipe)
+        }
+    }
+})*/
 
 ServerEvents.recipes((event) => {
+    // Crystal Chamber
+    event.shaped(
+        Item.of('mbd2:crystal_chamber', 1),
+        [
+            'DDD',
+            'EAE',
+            'CBC'
+        ],
+        {
+            A: 'ae2:fluix_pearl',
+            B: 'ae2:fluix_block',
+            C: 'kubejs:turquoise_plate',
+            D: 'ae2:cut_quartz_slab',
+            E: 'mekanism:block_osmium'
+        }
+    )
+
+    // Crystal Cutter
+    event.shaped(
+        Item.of('mbd2:crystal_cutter', 1),
+        [
+            ' D ',
+            'EAE',
+            'CBC'
+        ],
+        {
+            A: 'ae2:fluix_pearl',
+            B: 'ae2:fluix_block',
+            C: 'kubejs:turquoise_plate',
+            D: 'minecraft:stonecutter',
+            E: 'mekanism:block_osmium'
+        }
+    )
+
+    // Model Computation Facility
+    event.shaped(
+        Item.of('mbd2:model_computer', 1),
+        [
+            ' D ',
+            'EAE',
+            'CBC'
+        ],
+        {
+            A: 'ae2:fluix_pearl',
+            B: 'ae2:fluix_block',
+            C: 'kubejs:turquoise_plate',
+            D: 'minecraft:stonecutter',
+            E: 'mekanism:elite_control_circuit'
+        }
+    )
 
     const sorting1 = [
         { material: "1x kubejs:crushed_darthium" }
@@ -40,7 +104,7 @@ ServerEvents.recipes((event) => {
             .machineLevel(1)
     })
 
-    const metals = [
+    /*const metals = [
         { material: "iron" },
         { material: "copper" },
         { material: "gold" },
@@ -136,57 +200,8 @@ ServerEvents.recipes((event) => {
         { material: "mangan" },
         { material: "cobalt" },
         { material: "platinum" },
-    ]
+    ]*/
 
-    //Kinetic Crusher
-    // Crushed --> (?)
-
-    //Processing Resources
-    // Kinetic Wiremill
-
-    // Kinetic Crusher
-
-    // Kinetic Sorter
-
-
-    // Raw Ores
-    // Kinetic Melter
-
-    // Kinetic Foundry
-
-    /*metals.forEach(metal => {
-        var ingot = 'forge:ingots'+metal.material
-        event.recipes.mbd2.foundry()
-            .id("mbd2:casting/" + metal.material)
-            .duration(160)
-            .priority(0)
-            .inputFE(1024)
-            .inputItems(Fluid.of('kubejs:molten'+metal.material, 144))
-            .outputItems(JsonIO.of({
-                "count": 1,
-                "value": {
-                    "type": "item",
-                    "item": ingot
-                }
-            }))
-    });
-
-    metals.forEach(metal => {
-        var ingot = 'forge:ingots'+metal.material
-        event.recipes.mbd2.solidifier()
-            .id("mbd2:casting/" + metal.material)
-            .duration(160)
-            .priority(0)
-            .inputFE(1024)
-            .inputItems(Fluid.of('kubejs:molten'+metal.material, 144))
-            .outputItems(JsonIO.of({
-                "count": 1,
-                "value": {
-                    "type": "item",
-                    "item": ingot
-                }
-            }))
-    });*/
 
     // Blast Furnace
     event.recipes.mbd2.blast_furnace()
@@ -195,6 +210,31 @@ ServerEvents.recipes((event) => {
         .priority(0)
         .inputItems('4x ae2:certus_quartz_crystal', '4x minecraft:quartz', '1x pneumaticcraft:plastic')
         .outputItems('1x kubejs:quartz_alloy_block')
+
+    // Matter Replicator
+    const meds = [
+        { input: "#uc:med/tier2", output: "mysticalagriculture:nature_essence" },
+        { input: "#uc:med/tier2", output: "mysticalagriculture:coal_essence" },
+        { input: "#uc:med/tier2", output: "mysticalagriculture:honey_essence" },
+        { input: "#uc:med/tier2", output: "mysticalagriculture:wood_essence" },
+        { input: "#uc:med/tier3", output: "mysticalagriculture:saltpeter_essence" },
+        { input: "#uc:med/tier3", output: "mysticalagriculture:sulfur_essence" },
+        { input: "#uc:med/tier3", output: "mysticalagriculture:nether_essence" },
+        { input: "#uc:med/tier3", output: "mysticalagriculture:grains_of_infinity_essence" },
+        { input: "#uc:med/tier3", output: "mysticalagriculture:silicon_essence" },
+        { input: "#uc:med/tier4", output: "mysticalagriculture:mystical_flower_essence" },
+        { input: "#uc:med/tier4", output: "mysticalagriculture:steeleaf_essence" },
+        { input: "#uc:med/tier4", output: "mysticalagriculture:ironwood_essence" }
+    ]
+
+    meds.forEach(med => {
+        event.recipes.mbd2.matter_replicator()
+            .id("mbd2:matter_replicator/" + med.output.split(':')[1])
+            .duration(100)
+            .priority(0)
+            .chance(0.0, builder => builder.inputItems("1x " + med.output, "1x " + med.input))
+            .outputItems("1x " + med.output)
+    });
 
     // Model Computer
     const models = [
@@ -271,7 +311,7 @@ ServerEvents.recipes((event) => {
             .duration(6000)
             .priority(0)
             .inputFE(2048)
-            .inputItems('1x hostilenetworks:blank_data_model', '64x hostilenetworks:prediction_matrix', model.ingredient)
+            .inputItems('1x kubejs:machine_learning_processor', '64x hostilenetworks:prediction_matrix', model.ingredient)
             .outputItems(JsonIO.of({
                 "count": 1,
                 "value": {
@@ -281,4 +321,23 @@ ServerEvents.recipes((event) => {
                 }
             }))
     });
+
+    // Crystal Cutter
+    event.recipes.mbd2.crystal_cutter()
+        .id("mbd2:crystal_cutter/ae2_printed_machine_learning_processor")
+        .duration(20)
+        .priority(0)
+        .inputFE(2048)
+        .inputFluids("water 2000")
+        .inputItems("ae2:cell_component_64k", "1x hostilenetworks:blank_data_model")
+        .outputItems("1x kubejs:printed_machine_learning_processor")
+
+    event.recipes.mbd2.crystal_cutter()
+        .id("mbd2:crystal_cutter/rs_printed_machine_learning_processor")
+        .duration(20)
+        .priority(0)
+        .inputFE(2048)
+        .inputFluids("water 2000")
+        .inputItems("refinedstorage:64k_storage_part", "1x hostilenetworks:blank_data_model")
+        .outputItems("1x kubejs:printed_machine_learning_processor")
 })

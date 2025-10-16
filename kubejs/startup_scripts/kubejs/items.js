@@ -1,6 +1,6 @@
 // priority: 0
 
-StartupEvents.registry('item', event => { 
+StartupEvents.registry('item', event => {
 
     // Rename Kubejs/Multiblocked2
     Platform.mods.kubejs.name = 'Universal Crafting'
@@ -9,43 +9,43 @@ StartupEvents.registry('item', event => {
     event.create('nutrient_pulp').texture('kubejs:item/nutrient_pulp')
     event.create('nutrient_bar').food(food => {
         food
-        .hunger(8)
-        .saturation(16)
-        .alwaysEdible()
-        .fastToEat()
+            .hunger(8)
+            .saturation(16)
+            .alwaysEdible()
+            .fastToEat()
     }).texture('kubejs:item/nutrient_bar')
     event.create('cake_amalgamation').food(food => {
         food
-        .hunger(12)
-        .saturation(24)
-        .alwaysEdible()
+            .hunger(12)
+            .saturation(24)
+            .alwaysEdible()
     }).texture('kubejs:item/cake_amalgamation')
 
-    function raw (name) {
-        var raw = 'raw_' + name 
+    function raw(name) {
+        var raw = 'raw_' + name
         event.create(raw).texture('kubejs:item/' + raw).tag("forge:raw_materials/" + name)
     }
-    function crushed (name) {
-        var crushed = 'crushed_' + name 
+    function crushed(name) {
+        var crushed = 'crushed_' + name
         event.create(crushed).texture('kubejs:item/' + crushed).tag("forge:crushed_raw_materials/" + name)
     }
-    function ingot (name) {
+    function ingot(name) {
         var ingot = name + '_ingot'
         event.create(ingot).texture('kubejs:item/' + ingot).tag("forge:ingots/" + name)
     }
-    function plate (name) {
+    function plate(name) {
         var plate = name + '_plate'
         event.create(plate).texture('kubejs:item/' + plate).tag("forge:plates/" + name)
     }
-    function rod (name) {
+    function rod(name) {
         var rod = name + '_rod'
         event.create(rod).texture('kubejs:item/' + rod).tag("forge:rods/" + name)
     }
-    function dust (name) {
+    function dust(name) {
         var dust = name + '_dust'
         event.create(dust).texture('kubejs:item/' + dust).tag("forge:dusts/" + name)
     }
-    function nugget (name) {
+    function nugget(name) {
         var nugget = name + '_nugget'
         event.create(nugget).texture('kubejs:item/' + nugget).tag("forge:nuggets/" + name)
     }
@@ -84,7 +84,7 @@ StartupEvents.registry('item', event => {
     event.create('dark_spiritual_core')
 
     event.create('crushing_hammer').tooltip('Crush ores into dust.').maxDamage(64).texture('kubejs:item/crushing_hammer')
-    
+
     standard_material('blue')
     standard_material('lapiron')
     standard_material('galvanized')
@@ -96,7 +96,7 @@ StartupEvents.registry('item', event => {
     standard_material('soilent')
     standard_material('turquoise')
     standard_material('sulfeel')
-    
+
     intermediate_ore('catericite')
     intermediate_ore('darthium')
     intermediate_ore('ecolinit')
@@ -110,7 +110,7 @@ StartupEvents.registry('item', event => {
     ingot('antimatter')
 
     ingot('infinitum')
-    
+
     event.create('wood_splinter').texture('kubejs:item/wood_splinter')
     event.create('rotor').texture('kubejs:item/rotor')
     event.create('stator').texture('kubejs:item/stator')
@@ -118,7 +118,9 @@ StartupEvents.registry('item', event => {
 
     event.create('probe_mk_i').texture('kubejs:item/probe_mk_i').displayName('Probe MK I')
     event.create('probe_mk_ii').texture('kubejs:item/probe_mk_ii').displayName('Probe MK II')
-
+    
+    event.create('printed_machine_learning_processor').texture('kubejs:item/printed_machine_learning_processor')
+    event.create('machine_learning_processor').texture('kubejs:item/machine_learning_processor')
 
     event.create('crystal_inferium').texture('kubejs:item/crystal_inferium').displayName('Inferium Crystal')
     event.create('crystal_prudentium').texture('kubejs:item/crystal_prudentium').displayName('Prudentium Crystal')
