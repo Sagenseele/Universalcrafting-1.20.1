@@ -151,6 +151,10 @@
     "camo": true,
     "semiblock": true
   },
+  "expatternprovider": {
+    "jade_chamber": true,
+    "jade_wireless": true
+  },
   "apotheosis": {
     "adventure": true,
     "ench": true,
