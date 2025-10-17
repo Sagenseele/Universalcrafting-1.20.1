@@ -6,13 +6,33 @@
 	hide_quest_until_deps_visible: true
 	icon: "biomancy:primordial_cradle"
 	id: "265B22EB85D81087"
+	images: [
+		{
+			height: 2.0d
+			image: "biomancy:item/primordial_core_emissive"
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			height: 2.0d
+			image: "biomancy:item/primordial_core"
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.5d
+			y: -1.5d
+		}
+	]
 	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["61D44A53B8E85FD4"]
 			description: ["Use some &2raw meat&r and two &eHealth Potion I&r or one &eHealth Potion II&r on the &2Primordial Cradle&r to spawn a flesh blob. Feed it and &6kill&r it to get some &eliving flesh&r."]
+			icon_scale: 1.25d
 			id: "659E72D7222E3CEA"
+			shape: "none"
 			tasks: [{
 				id: "5FDDFFBBA4DA4A35"
 				item: "biomancy:primordial_cradle"
@@ -23,6 +43,7 @@
 		}
 		{
 			dependencies: ["76F416B376BE0778"]
+			description: ["You can &6kill&r mobs with the sickle in your &emain hand&r &6or&r put it in your &eoff-hand&r and &6kill&r mobs with another weapon to get additional drops."]
 			hide_until_deps_complete: true
 			id: "61D44A53B8E85FD4"
 			tasks: [{
@@ -41,7 +62,7 @@
 		}
 		{
 			dependencies: ["61D44A53B8E85FD4"]
-			description: ["While holding the sickle in either hand, &6kill&r a &efox&r, &ewolf&r or an &eocelot&r to get &eSharp Fang&r."]
+			description: ["Drops from &eFox&r, &eWolf&r or &eOcelot&r."]
 			id: "0B1227990E93072C"
 			tasks: [{
 				id: "2F032AB77CAB2BD2"
@@ -64,6 +85,7 @@
 		}
 		{
 			dependencies: ["61D44A53B8E85FD4"]
+			description: ["Drops from &eCows&r, &eSheeps&r or &ePiglins&r."]
 			id: "0AEAF21AFD1FBC66"
 			tasks: [{
 				id: "579AAE2A71D2EF25"
@@ -75,6 +97,7 @@
 		}
 		{
 			dependencies: ["61D44A53B8E85FD4"]
+			description: ["Drops from &eSkeletons&r."]
 			id: "415F65C0F7FFC94F"
 			tasks: [{
 				id: "29AAC5DCE62BECAD"
@@ -86,6 +109,7 @@
 		}
 		{
 			dependencies: ["61D44A53B8E85FD4"]
+			description: ["Drops from &eWither Skeletons&r."]
 			id: "1A64ECEED032AE13"
 			tasks: [{
 				id: "09D338AB455264C2"
@@ -97,6 +121,7 @@
 		}
 		{
 			dependencies: ["61D44A53B8E85FD4"]
+			description: ["Drops from &eSheeps&r, &eSpiders&r or &ePiglins&r."]
 			id: "5E3A95F634F715E1"
 			tasks: [{
 				id: "7D7B0278A87B2748"
@@ -108,7 +133,9 @@
 		}
 		{
 			dependencies: ["75FA801A926D74B2"]
+			icon_scale: 1.5d
 			id: "7E01C5ECF3A1D29F"
+			shape: "none"
 			tasks: [{
 				id: "515CA814A3488892"
 				item: "biomancy:bio_lab"
@@ -119,7 +146,9 @@
 		}
 		{
 			dependencies: ["7CD61DAA3648BEAE"]
+			icon_scale: 1.25d
 			id: "75FA801A926D74B2"
+			shape: "none"
 			tasks: [{
 				id: "03AA4C2F7351FB07"
 				item: "biomancy:bio_forge"
@@ -129,7 +158,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["61D44A53B8E85FD4"]
+			dependencies: ["71C0B87D392E11BF"]
 			id: "7D7B705E1EC35429"
 			tasks: [{
 				id: "13FB94FB043D2C78"
@@ -137,7 +166,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 2.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["659E72D7222E3CEA"]
@@ -152,14 +181,16 @@
 		}
 		{
 			dependencies: ["7CD61DAA3648BEAE"]
+			icon_scale: 1.25d
 			id: "71C0B87D392E11BF"
+			shape: "none"
 			tasks: [{
 				id: "6A13F6DE23C58FA3"
 				item: "biomancy:decomposer"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -1.5d
+			x: 3.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["75FA801A926D74B2"]
@@ -173,15 +204,417 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["7E01C5ECF3A1D29F"]
-			id: "46562B909787FB48"
+			dependencies: ["61D44A53B8E85FD4"]
+			description: ["Drops from &eCreepers&r."]
+			id: "376AD625B9125FE7"
 			tasks: [{
-				id: "710F89B5D58AA108"
+				id: "25ED6518C1DD7BA5"
+				item: "biomancy:volatile_gland"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["61D44A53B8E85FD4"]
+			description: ["Drops from &eCave Spiders&r."]
+			id: "584F773451A4A761"
+			tasks: [{
+				id: "412FF44CAF453A85"
+				item: "biomancy:toxin_gland"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["71C0B87D392E11BF"]
+			id: "5F7BA16B3638BFB8"
+			tasks: [{
+				id: "10CBEAF4FE3A19DD"
+				item: "biomancy:bone_fragments"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["71C0B87D392E11BF"]
+			id: "30C5086E6366BE26"
+			tasks: [{
+				id: "71D2C9E51718DD2B"
+				item: "biomancy:tough_fibers"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["71C0B87D392E11BF"]
+			id: "497CF81519D0779F"
+			tasks: [{
+				id: "1BECB1AB16048904"
+				item: "biomancy:elastic_fibers"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["71C0B87D392E11BF"]
+			id: "68603B6F5884758E"
+			tasks: [{
+				id: "6CB6F3FF7C7AE536"
+				item: "biomancy:mineral_fragment"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["71C0B87D392E11BF"]
+			id: "4BEFF00A714F01C4"
+			tasks: [{
+				id: "3A6DF216013282BB"
+				item: "biomancy:gem_fragments"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["71C0B87D392E11BF"]
+			id: "386DC9716F7B7DAD"
+			tasks: [{
+				id: "42D305B53FE9703E"
+				item: "biomancy:nutrients"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["71C0B87D392E11BF"]
+			id: "715A88F4D2F778C4"
+			tasks: [{
+				id: "2BEE38A61B900F7F"
+				item: "biomancy:organic_matter"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["71C0B87D392E11BF"]
+			id: "150252503513C5B8"
+			tasks: [{
+				id: "4DC4D9AC290F73C3"
+				item: "biomancy:bio_lumens"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["71C0B87D392E11BF"]
+			id: "74965F3995054DD1"
+			tasks: [{
+				id: "0D2BE3AF34386DE2"
+				item: "biomancy:exotic_dust"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["71C0B87D392E11BF"]
+			id: "3FDFE1EE4891055B"
+			tasks: [{
+				id: "207C6953780920D3"
+				item: "biomancy:stone_powder"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["71C0B87D392E11BF"]
+			id: "685307D00E6FD6F5"
+			tasks: [{
+				id: "4EB004169908BEF7"
+				item: "biomancy:regenerative_fluid"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["71C0B87D392E11BF"]
+			id: "28CC2AEFE5EB4194"
+			tasks: [{
+				id: "441236CCF51B79E0"
+				item: "biomancy:withering_ooze"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["71C0B87D392E11BF"]
+			id: "56E0B8D5BDAE47B1"
+			tasks: [{
+				id: "6B8B9CF0B6310F2F"
+				item: "biomancy:hormone_secretion"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["71C0B87D392E11BF"]
+			id: "2EF90B019A6FC32B"
+			tasks: [{
+				id: "71CC2BFF80149C68"
+				item: "biomancy:toxin_extract"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["71C0B87D392E11BF"]
+			id: "02139E90B39BDA97"
+			tasks: [{
+				id: "6AC9EDC610ED1020"
+				item: "biomancy:bile"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["71C0B87D392E11BF"]
+			id: "5D1540669B3FE2B5"
+			tasks: [{
+				id: "7D229C324D9F9EFF"
+				item: "biomancy:volatile_fluid"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7E01C5ECF3A1D29F"]
+			id: "5AD8950245C98547"
+			tasks: [{
+				id: "7F78A94B89DA4BBE"
+				item: "biomancy:organic_compound"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7E01C5ECF3A1D29F"]
+			id: "0F519DFAA02F3F00"
+			tasks: [{
+				id: "3BC8773CDA2E3278"
+				item: "biomancy:unstable_compound"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7E01C5ECF3A1D29F"]
+			id: "1C631C99FEE23214"
+			tasks: [{
+				id: "61A936CB856A0880"
+				item: "biomancy:genetic_compound"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7E01C5ECF3A1D29F"]
+			id: "798BC470CBCF2FCD"
+			tasks: [{
+				id: "0EB62DF75597AC2D"
 				item: "biomancy:exotic_compound"
 				type: "item"
 			}]
+			x: 10.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7E01C5ECF3A1D29F"]
+			id: "66A1E7B59189D0BE"
+			tasks: [{
+				id: "540C52718E5989EE"
+				item: "biomancy:healing_additive"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7E01C5ECF3A1D29F"]
+			id: "649FFF83445B55FF"
+			tasks: [{
+				id: "39ACE6CB0C45DCA2"
+				item: "biomancy:decaying_additive"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7E01C5ECF3A1D29F"]
+			id: "043945DF62A59830"
+			tasks: [{
+				id: "6A0B8029B46D832F"
+				item: "biomancy:rejuvenation_serum"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7E01C5ECF3A1D29F"]
+			id: "5D3190A732E4D502"
+			tasks: [{
+				id: "4E864FAC06E17EA6"
+				item: "biomancy:ageing_serum"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7E01C5ECF3A1D29F"]
+			id: "0089A7A2C13110C4"
+			tasks: [{
+				id: "126BD7555E43297F"
+				item: "biomancy:enlargement_serum"
+				type: "item"
+			}]
 			x: 8.0d
-			y: -3.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7E01C5ECF3A1D29F"]
+			id: "2A6C759932173161"
+			tasks: [{
+				id: "1F492024385F7DB0"
+				item: "biomancy:shrinking_serum"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7E01C5ECF3A1D29F"]
+			id: "5E613A1480700294"
+			tasks: [{
+				id: "5ED0BF8750CB9B17"
+				item: "biomancy:breeding_stimulant"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7E01C5ECF3A1D29F"]
+			id: "38A034B348F33243"
+			tasks: [{
+				id: "0C1DB9224E1A0AE1"
+				item: "biomancy:absorption_boost"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7E01C5ECF3A1D29F"]
+			id: "5DB389B466CFA358"
+			tasks: [{
+				id: "578D3AE340F8763C"
+				item: "biomancy:cleansing_serum"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7E01C5ECF3A1D29F"]
+			id: "5107008068C440AE"
+			tasks: [{
+				id: "26D7CFB8E3D59686"
+				item: "biomancy:insomnia_cure"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7E01C5ECF3A1D29F"]
+			id: "3D78565A6F0EBB3F"
+			tasks: [{
+				id: "4D90DB6EE4570630"
+				item: "biomancy:frenzy_serum"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["75FA801A926D74B2"]
+			id: "598961207A49C8A5"
+			tasks: [{
+				id: "684CAEB1ECB70F62"
+				item: {
+					Count: 1
+					id: "biomancy:ravenous_claws"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["75FA801A926D74B2"]
+			id: "590BB0DC371ACE39"
+			tasks: [{
+				id: "011C295BAF13DAA9"
+				item: "biomancy:digester"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["590BB0DC371ACE39"]
+			id: "630BD77761BC399C"
+			tasks: [{
+				id: "2A2CD89FCF31E561"
+				item: "biomancy:nutrient_paste"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["630BD77761BC399C"]
+			id: "2729F74AB0D36DDE"
+			tasks: [{
+				id: "589AA27BF8FDFBF8"
+				item: "biomancy:nutrient_bar"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 1.5d
 		}
 	]
 	title: "Biomancy"

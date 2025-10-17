@@ -1008,6 +1008,7 @@
 				"426CFE1736BC8A1E"
 				"754FF06DAAAEAEAB"
 			]
+			icon_scale: 2.0d
 			id: "35FEBC636877D245"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1015,7 +1016,7 @@
 				table_id: 7938350547759728332L
 				type: "choice"
 			}]
-			shape: "rsquare"
+			shape: "none"
 			size: 1.25d
 			subtitle: "Progress to &3Space Age&r"
 			tasks: [{

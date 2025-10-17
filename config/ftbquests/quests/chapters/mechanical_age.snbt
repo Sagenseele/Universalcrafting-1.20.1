@@ -410,6 +410,7 @@
 		}
 		{
 			dependencies: ["45D3A3893156DB25"]
+			icon_scale: 2.0d
 			id: "109099A9933B4917"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -417,7 +418,7 @@
 				table_id: 7938350547759728332L
 				type: "choice"
 			}]
-			shape: "rsquare"
+			shape: "none"
 			size: 1.25d
 			subtitle: "Progress to &3Electrical Age&r"
 			tasks: [{

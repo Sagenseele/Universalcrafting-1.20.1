@@ -451,6 +451,28 @@
 			x: 9.5d
 			y: -1.0d
 		}
+		{
+			dependencies: ["6CDDE4ECE4D4E5D7"]
+			id: "6F57308D747ACCF5"
+			tasks: [{
+				id: "385B72C5FF18D5AC"
+				item: "mysticalagriculture:prismarine_essence"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6CDDE4ECE4D4E5D7"]
+			id: "67BD11FF2AF3C11C"
+			tasks: [{
+				id: "352209A00DD0E78A"
+				item: "mysticalagriculture:experience_essence"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -2.0d
+		}
 	]
 	title: "Matter Replicator"
 }

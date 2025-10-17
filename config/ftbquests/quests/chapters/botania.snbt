@@ -6,14 +6,24 @@
 	hide_quest_until_deps_visible: true
 	icon: "botania:apothecary_default"
 	id: "1B6B09623D483DD3"
-	images: [{
-		height: 2.0d
-		image: "botania:block/pure_daisy"
-		rotation: 0.0d
-		width: 2.0d
-		x: -1.5d
-		y: -5.0d
-	}]
+	images: [
+		{
+			height: 2.0d
+			image: "botania:block/pure_daisy"
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.5d
+			y: -5.0d
+		}
+		{
+			height: 2.0d
+			image: "botania:block/rosa_arcana"
+			rotation: 0.0d
+			width: 2.0d
+			x: 8.0d
+			y: -6.5d
+		}
+	]
 	order_index: 2
 	quest_links: [ ]
 	quests: [
@@ -275,7 +285,7 @@
 			y: -6.5d
 		}
 		{
-			dependencies: ["0AF2FE192BE0715D"]
+			dependencies: ["00E2DD6737806134"]
 			description: [
 				"Unlocks the Hephaestus Forge, which can be used to craft equipment:"
 				""
@@ -283,15 +293,15 @@
 				"- &eCharm Belt&r"
 				"- &4Heart Canisters&r"
 			]
-			icon_scale: 0.8d
+			icon_scale: 2.0d
 			id: "0EB66214FC3BEB89"
 			rewards: [{
 				id: "4C9AE47392F6FBEB"
 				item: "kubejs:universal_badge"
 				type: "item"
 			}]
-			shape: "gear"
-			size: 1.5d
+			shape: "none"
+			size: 1.0d
 			subtitle: "Unlocks &dForbidden \\& Arcanus&r Chapter"
 			tasks: [{
 				id: "48D85BA9ADCE78E8"
@@ -299,8 +309,8 @@
 				type: "item"
 			}]
 			title: "Forbidden \\& Arcanus"
-			x: -3.0d
-			y: -2.5d
+			x: 0.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["6A2B0C771BC48118"]
@@ -387,8 +397,19 @@
 				item: "forbidden_arcanus:rune"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 8.5d
 			y: -4.5d
+		}
+		{
+			dependencies: ["6EB31D4642BBB1FE"]
+			id: "6492640D57F7C261"
+			tasks: [{
+				id: "41AC18E0F436A82D"
+				item: "botania:rosa_arcana"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -5.0d
 		}
 	]
 	title: "Botania"

@@ -1,0 +1,160 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "laser_io"
+	group: "42309822505DB028"
+	icon: "laserio:laser_node"
+	id: "0B68518330BC586C"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			icon_scale: 2.0d
+			id: "083826F084C8AA50"
+			shape: "none"
+			size: 1.0d
+			tasks: [{
+				id: "17B343667773D2D6"
+				item: "laserio:laser_node"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["083826F084C8AA50"]
+			id: "412F47580BCED856"
+			tasks: [{
+				id: "72063E549BBDFE60"
+				item: "laserio:card_item"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["083826F084C8AA50"]
+			id: "0B4F1BD381996140"
+			tasks: [{
+				id: "7A2B049D4255FAA9"
+				item: "laserio:card_fluid"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["083826F084C8AA50"]
+			id: "57384206FD7B9F41"
+			tasks: [{
+				id: "2FCCACCC797AB34E"
+				item: "laserio:card_energy"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["083826F084C8AA50"]
+			id: "26709940EF9DC87F"
+			tasks: [{
+				id: "06BD00B06128E93C"
+				item: "laserio:card_redstone"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["083826F084C8AA50"]
+			id: "6EF791C52F38FDC9"
+			tasks: [{
+				id: "5CFC75A237499999"
+				item: "laserio:filter_basic"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["083826F084C8AA50"]
+			id: "70A4584D1B9D1BF2"
+			tasks: [{
+				id: "4C4A6FEBC45B0C2D"
+				item: "laserio:filter_count"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["083826F084C8AA50"]
+			id: "2EE87EB5658CE9E6"
+			tasks: [{
+				id: "111432E176CEDF72"
+				item: "laserio:filter_tag"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["083826F084C8AA50"]
+			id: "2A0CFB92E17C0F37"
+			tasks: [{
+				id: "01637BDC438C53AA"
+				item: "laserio:filter_nbt"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["083826F084C8AA50"]
+			id: "54F07AEE7ABB3E31"
+			tasks: [{
+				id: "5EBB5912F9DEBD49"
+				item: "laserio:filter_mod"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["083826F084C8AA50"]
+			icon_scale: 1.25d
+			id: "27100AC918E9607D"
+			shape: "none"
+			tasks: [{
+				id: "63F6F621CF3DF0DF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 15
+						}
+					}
+					id: "laserio:card_holder"
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["083826F084C8AA50"]
+			icon_scale: 1.25d
+			id: "4848C7B4E648EC4A"
+			shape: "none"
+			tasks: [{
+				id: "17A080ECCC2E3BA9"
+				item: "laserio:card_cloner"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+	]
+	title: "Laser IO"
+}

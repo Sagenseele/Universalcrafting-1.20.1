@@ -3,44 +3,157 @@
 	default_quest_shape: ""
 	filename: "modular_router"
 	group: "42309822505DB028"
+	icon: "modularrouters:modular_router"
 	id: "12E1FC2CD6253504"
 	order_index: 0
 	quest_links: [ ]
-	quests: [{
-		icon: "modularrouters:modular_router"
-		id: "38723085E65E3D8F"
-		rewards: [
-			{
-				id: "107C46630845BA79"
-				item: {
-					Count: 1
-					id: "patchouli:guide_book"
-					tag: {
-						"patchouli:book": "modularrouters:book"
+	quests: [
+		{
+			icon: "modularrouters:modular_router"
+			id: "38723085E65E3D8F"
+			rewards: [
+				{
+					id: "107C46630845BA79"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "modularrouters:book"
+						}
 					}
+					type: "item"
 				}
+				{
+					id: "1BAF7A3DF8A66BAD"
+					item: "kubejs:universal_badge"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "133EEBBC2134A87D"
+					item: "modularrouters:modular_router"
+					type: "item"
+				}
+				{
+					id: "7BDEF7457041536F"
+					item: "modularrouters:security_upgrade"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["38723085E65E3D8F"]
+			id: "2FEE8A3DD8594EE8"
+			tasks: [{
+				id: "65793142AF5455DA"
+				item: "modularrouters:breaker_module"
 				type: "item"
-			}
-			{
-				id: "1BAF7A3DF8A66BAD"
-				item: "kubejs:universal_badge"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["38723085E65E3D8F"]
+			id: "0822A3154167638A"
+			tasks: [{
+				id: "048DFEE62D447D21"
+				item: "modularrouters:distributor_module"
 				type: "item"
-			}
-		]
-		tasks: [
-			{
-				id: "133EEBBC2134A87D"
-				item: "modularrouters:modular_router"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["38723085E65E3D8F"]
+			id: "2D64AE8FF7A6F18F"
+			tasks: [{
+				id: "524CFC7B78DF2B7F"
+				item: "modularrouters:sender_module_1"
 				type: "item"
-			}
-			{
-				id: "7BDEF7457041536F"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2D64AE8FF7A6F18F"]
+			id: "175AB84EF2FC321A"
+			tasks: [{
+				id: "38E0A2F3784922BA"
+				item: "modularrouters:sender_module_2"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["175AB84EF2FC321A"]
+			id: "1A35B3C6B7658CA8"
+			tasks: [{
+				id: "1B62FFB0E662FD23"
+				item: "modularrouters:sender_module_3"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["38723085E65E3D8F"]
+			id: "39C01B3B24362492"
+			tasks: [{
+				id: "2FCDCE87346BE14D"
+				item: "modularrouters:speed_upgrade"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["38723085E65E3D8F"]
+			id: "0BA3AFBF8CE016F1"
+			tasks: [{
+				id: "311494AE7EC7BD19"
 				item: "modularrouters:security_upgrade"
 				type: "item"
-			}
-		]
-		x: 0.0d
-		y: 0.0d
-	}]
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["38723085E65E3D8F"]
+			id: "242F9211344F80EC"
+			tasks: [{
+				id: "0C253651BE906496"
+				item: "modularrouters:puller_module_1"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["242F9211344F80EC"]
+			id: "5DDB2457F53AFCAC"
+			tasks: [{
+				id: "174E6AD825CF5FD5"
+				item: "modularrouters:puller_module_2"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["38723085E65E3D8F"]
+			id: "658CEC3BF47DE2D2"
+			tasks: [{
+				id: "32C4D717EF7D4997"
+				item: "modularrouters:placer_module"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+	]
 	title: "Modular Router"
 }

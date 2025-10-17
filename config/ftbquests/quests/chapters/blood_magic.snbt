@@ -463,7 +463,7 @@
 				item: "bloodmagic:weakbloodshard"
 				type: "item"
 			}]
-			x: 8.5d
+			x: 6.5d
 			y: -5.0d
 		}
 		{
@@ -621,7 +621,7 @@
 				item: "bloodmagic:ritualdiviner"
 				type: "item"
 			}]
-			x: 6.5d
+			x: 8.5d
 			y: -5.0d
 		}
 		{
@@ -732,32 +732,6 @@
 			}]
 			x: 7.0d
 			y: -2.0d
-		}
-		{
-			dependencies: ["3386BB1B8E96DDCA"]
-			icon_scale: 2.0d
-			id: "76F416B376BE0778"
-			rewards: [{
-				id: "497F0F7101713B69"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
-			shape: "none"
-			size: 1.0d
-			subtitle: "Unlocks &dBiomancy&r Chapter"
-			tasks: [{
-				id: "6FA439CC6D1DA3EF"
-				item: {
-					Count: 1
-					id: "biomancy:despoil_sickle"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 10.0d
-			y: -3.0d
 		}
 		{
 			dependencies: ["1F4A0441461B7D12"]
@@ -978,15 +952,18 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["575CA4B4D57D30B3"]
+			dependencies: [
+				"575CA4B4D57D30B3"
+				"72622E6BCCAF8624"
+			]
 			id: "32F2C03543C900A7"
 			tasks: [{
 				id: "25CDF8690305A5EF"
 				item: "bloodmagic:ritualdivinerdusk"
 				type: "item"
 			}]
-			x: 12.0d
-			y: -2.0d
+			x: 12.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["72622E6BCCAF8624"]
@@ -1006,8 +983,8 @@
 				}
 			]
 			title: "Edge of the Hidden Realm"
-			x: 6.0d
-			y: -4.0d
+			x: 9.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["192891D0CEE1B5E5"]
@@ -1081,7 +1058,7 @@
 				""
 				"Automate the Life Essence with the Well of Suffering Ritual."
 				""
-				"The inventory can be anything, which allows inserting and extraction."
+				"The inventory can be anything which allows inserting and extraction."
 			]
 			icon: "laserio:card_item"
 			id: "6D94027A7F84581C"
@@ -1116,6 +1093,46 @@
 			title: "Blood Altar Automation"
 			x: 1.5d
 			y: -2.0d
+		}
+		{
+			dependencies: [
+				"4E2029E6CF84DE97"
+				"58E46F397D4109F4"
+			]
+			icon_scale: 2.0d
+			id: "76F416B376BE0778"
+			rewards: [{
+				id: "497F0F7101713B69"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			shape: "none"
+			size: 1.0d
+			subtitle: "Unlocks &dBiomancy&r Chapter"
+			tasks: [{
+				id: "6FA439CC6D1DA3EF"
+				item: {
+					Count: 1
+					id: "biomancy:despoil_sickle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["43BD0BC783AF9753"]
+			id: "58E46F397D4109F4"
+			tasks: [{
+				id: "760A2597F7E3E9D2"
+				item: "kubejs:dark_spiritual_core"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.5d
 		}
 	]
 	title: "Blood Magic"

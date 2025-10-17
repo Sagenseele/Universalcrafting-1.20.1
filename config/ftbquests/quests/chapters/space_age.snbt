@@ -14,8 +14,8 @@
 		image: "kubejs:item/images/space_age"
 		rotation: 0.0d
 		width: 8.808602150537636d
-		x: -8.0d
-		y: -11.5d
+		x: -7.0d
+		y: 0.0d
 	}]
 	order_index: 3
 	quest_links: [ ]
@@ -37,13 +37,17 @@
 				"28AF4E7DE38DCC3C"
 				"79CEB3C9D69B5EF8"
 				"27B8850FC0C922D2"
+				"069BCBEE421B0145"
 			]
 			icon: {
 				Count: 1
 				id: "ad_astra:tier_1_rocket"
 				tag: { }
 			}
+			icon_scale: 2.0d
 			id: "1F0FDA98F543C26F"
+			shape: "none"
+			size: 1.25d
 			tasks: [
 				{
 					id: "797E45823D334288"
@@ -65,7 +69,10 @@
 		}
 		{
 			dependencies: ["1F0FDA98F543C26F"]
+			icon_scale: 2.0d
 			id: "0AC598705D877D4C"
+			shape: "none"
+			size: 1.5d
 			tasks: [{
 				id: "155CDBD2F9085385"
 				item: {
@@ -75,12 +82,15 @@
 				}
 				type: "item"
 			}]
-			x: 0.5d
-			y: -6.0d
+			x: 1.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["2B56D1050F78FA4D"]
+			icon_scale: 2.0d
 			id: "6EF6C744811172D7"
+			shape: "none"
+			size: 2.0d
 			tasks: [{
 				id: "45EFECA44CF24F99"
 				item: {
@@ -90,12 +100,15 @@
 				}
 				type: "item"
 			}]
-			x: 0.5d
-			y: -10.0d
+			x: 1.5d
+			y: -15.0d
 		}
 		{
 			dependencies: ["0AC598705D877D4C"]
+			icon_scale: 2.0d
 			id: "2B56D1050F78FA4D"
+			shape: "none"
+			size: 1.75d
 			tasks: [{
 				id: "67BE704F620BD976"
 				item: {
@@ -105,19 +118,19 @@
 				}
 				type: "item"
 			}]
-			x: -0.5d
-			y: -8.0d
+			x: 0.0d
+			y: -11.0d
 		}
 		{
-			dependencies: ["636D5DC43180B027"]
+			dependencies: ["0822D70343B3C9B8"]
 			id: "5B3B743084BC7402"
 			tasks: [{
 				id: "4A13BFEE2CADED02"
 				item: "mekanism:advanced_control_circuit"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -3.5d
+			x: -2.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["6FD9146F55E2EF69"]
@@ -131,15 +144,18 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["5C195BF8AE2B7BAC"]
+			dependencies: [
+				"5C195BF8AE2B7BAC"
+				"4D8879745A22E122"
+			]
 			id: "1235585CA6D04B39"
 			tasks: [{
 				id: "241FBD0E5B3E425F"
 				item: "hostilenetworks:sim_chamber"
 				type: "item"
 			}]
-			x: -6.0d
-			y: -9.5d
+			x: -4.5d
+			y: -14.5d
 		}
 		{
 			dependencies: ["35FEBC636877D245"]
@@ -174,8 +190,8 @@
 				item: "ad_astra:ostrum_ingot"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -6.0d
+			x: -1.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["2B56D1050F78FA4D"]
@@ -185,8 +201,8 @@
 				item: "ad_astra:calorite_ingot"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -8.0d
+			x: -2.0d
+			y: -11.0d
 		}
 		{
 			dependencies: ["6EF6C744811172D7"]
@@ -197,7 +213,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: -10.0d
+			y: -15.5d
 		}
 		{
 			dependencies: ["6FD9146F55E2EF69"]
@@ -207,7 +223,7 @@
 				item: "ad_astra:fuel_refinery"
 				type: "item"
 			}]
-			x: 0.5d
+			x: 0.0d
 			y: -2.0d
 		}
 		{
@@ -256,19 +272,8 @@
 				}
 			]
 			title: "Space Suit"
-			x: 2.0d
+			x: 1.5d
 			y: -2.0d
-		}
-		{
-			dependencies: ["5C195BF8AE2B7BAC"]
-			id: "5BB8EA17A1644283"
-			tasks: [{
-				id: "0B0D643ADC39C9F0"
-				item: "kubejs:probe_mk_i"
-				type: "item"
-			}]
-			x: -2.5d
-			y: -11.0d
 		}
 		{
 			dependencies: ["5B3B743084BC7402"]
@@ -278,8 +283,8 @@
 				item: "mekanism:advanced_tier_installer"
 				type: "item"
 			}]
-			x: -5.0d
-			y: -2.5d
+			x: -3.5d
+			y: -9.0d
 		}
 		{
 			dependencies: ["636D5DC43180B027"]
@@ -289,30 +294,30 @@
 				item: "hostilenetworks:loot_fabricator"
 				type: "item"
 			}]
-			x: -6.0d
-			y: -4.5d
+			x: -5.5d
+			y: -4.0d
 		}
 		{
-			dependencies: ["0822D70343B3C9B8"]
+			dependencies: ["3AAFBA91A16095CA"]
 			id: "4D8879745A22E122"
 			tasks: [{
 				id: "3F46B36482AFEE64"
 				item: "hostilenetworks:prediction_matrix"
 				type: "item"
 			}]
-			x: -5.0d
-			y: -6.0d
+			x: -4.0d
+			y: -11.0d
 		}
 		{
-			dependencies: ["3AAFBA91A16095CA"]
+			dependencies: ["0822D70343B3C9B8"]
 			id: "5CB2EA83DECB7581"
 			tasks: [{
 				id: "5824F4FA4326965D"
 				item: "hostilenetworks:blank_data_model"
 				type: "item"
 			}]
-			x: -5.0d
-			y: -8.0d
+			x: -4.5d
+			y: -7.0d
 		}
 		{
 			dependencies: [
@@ -325,8 +330,8 @@
 				item: "mbd2:crystal_cutter"
 				type: "item"
 			}]
-			x: -7.0d
-			y: -7.0d
+			x: -6.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["03AB0CEEC929D789"]
@@ -336,11 +341,11 @@
 				item: "kubejs:machine_learning_processor"
 				type: "item"
 			}]
-			x: -9.0d
-			y: -7.0d
+			x: -8.0d
+			y: -10.0d
 		}
 		{
-			dependencies: ["636D5DC43180B027"]
+			dependencies: ["3AAFBA91A16095CA"]
 			icon_scale: 1.5d
 			id: "157FA7717F851AA6"
 			shape: "none"
@@ -349,8 +354,94 @@
 				item: "kubejs:crystal_tertium"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -2.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["6FD9146F55E2EF69"]
+			icon: "waystones:waystone"
+			id: "069BCBEE421B0145"
+			optional: true
+			tasks: [{
+				id: "058BB1767B709D5E"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "waystones:waystones"
+					}
+				}
+				title: "Any #waystones:waystones"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0822D70343B3C9B8"]
+			id: "6395672D569A6385"
+			tasks: [{
+				id: "15046741B5556D2A"
+				item: "bigreactors:basic_reactorcontroller"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["636D5DC43180B027"]
+			id: "3F5E1058625BAB62"
+			tasks: [{
+				id: "734CFF4877704FFD"
+				item: "mekanism:chemical_injection_chamber"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["636D5DC43180B027"]
+			id: "6A1B5E422DE15750"
+			tasks: [{
+				id: "13D179A5DDB1D16B"
+				item: "mekanism:chemical_dissolution_chamber"
+				type: "item"
+			}]
+			x: -3.5d
 			y: -5.0d
+		}
+		{
+			dependencies: ["636D5DC43180B027"]
+			id: "5386379C49DF4D57"
+			tasks: [{
+				id: "05A8C8C28CFC8F70"
+				item: "mekanism:chemical_washer"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["636D5DC43180B027"]
+			id: "5042CB405484C81D"
+			tasks: [{
+				id: "31BB01CF8450749F"
+				item: "mekanism:chemical_crystallizer"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["636D5DC43180B027"]
+			id: "67D425857A1B2E95"
+			tasks: [{
+				id: "3C3666A0BE62FC9C"
+				item: "mekanism:osmium_compressor"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.5d
 		}
 	]
 	title: "&l&eChapter 4"
