@@ -1,0 +1,55 @@
+{
+  "type": "mysticalagriculture:infusion",
+  "conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:honey"
+    },
+    {
+      "type": "mysticalagriculture:crop_has_material",
+      "crop": "mysticalagriculture:honey"
+    }
+  ],
+  "ingredients": [
+    {
+      "type": "mysticalagriculture:crop_component",
+      "component": "material",
+      "crop": "mysticalagriculture:honey"
+    },
+    {
+      "item": "kubejs:crystal_prudentium"
+    },
+    {
+      "type": "mysticalagriculture:crop_component",
+      "component": "material",
+      "crop": "mysticalagriculture:honey"
+    },
+    {
+      "item": "kubejs:crystal_prudentium"
+    },
+    {
+      "type": "mysticalagriculture:crop_component",
+      "component": "material",
+      "crop": "mysticalagriculture:honey"
+    },
+    {
+      "item": "kubejs:crystal_prudentium"
+    },
+    {
+      "type": "mysticalagriculture:crop_component",
+      "component": "material",
+      "crop": "mysticalagriculture:honey"
+    },
+    {
+      "item": "kubejs:crystal_prudentium"
+    }
+  ],
+  "input": {
+    "type": "mysticalagriculture:crop_component",
+    "component": "seed",
+    "crop": "mysticalagriculture:honey"
+  },
+  "result": {
+    "item": "mysticalagriculture:honey_seeds"
+  }
+}

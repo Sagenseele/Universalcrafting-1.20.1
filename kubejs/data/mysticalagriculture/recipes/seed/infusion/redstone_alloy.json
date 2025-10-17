@@ -1,0 +1,55 @@
+{
+  "type": "mysticalagriculture:infusion",
+  "conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:redstone_alloy"
+    },
+    {
+      "type": "mysticalagriculture:crop_has_material",
+      "crop": "mysticalagriculture:redstone_alloy"
+    }
+  ],
+  "ingredients": [
+    {
+      "type": "mysticalagriculture:crop_component",
+      "component": "material",
+      "crop": "mysticalagriculture:redstone_alloy"
+    },
+    {
+      "item": "kubejs:crystal_tertium"
+    },
+    {
+      "type": "mysticalagriculture:crop_component",
+      "component": "material",
+      "crop": "mysticalagriculture:redstone_alloy"
+    },
+    {
+      "item": "kubejs:crystal_tertium"
+    },
+    {
+      "type": "mysticalagriculture:crop_component",
+      "component": "material",
+      "crop": "mysticalagriculture:redstone_alloy"
+    },
+    {
+      "item": "kubejs:crystal_tertium"
+    },
+    {
+      "type": "mysticalagriculture:crop_component",
+      "component": "material",
+      "crop": "mysticalagriculture:redstone_alloy"
+    },
+    {
+      "item": "kubejs:crystal_tertium"
+    }
+  ],
+  "input": {
+    "type": "mysticalagriculture:crop_component",
+    "component": "seed",
+    "crop": "mysticalagriculture:redstone_alloy"
+  },
+  "result": {
+    "item": "mysticalagriculture:redstone_alloy_seeds"
+  }
+}
