@@ -63,8 +63,8 @@ ServerEvents.recipes((event) => {
         ],
         {
             A: 'ae2:fluix_pearl',
-            B: 'ae2:fluix_block',
-            C: 'kubejs:turquoise_plate',
+            B: 'hostilenetworks:sim_chamber',
+            C: 'kubejs:electrical_machine_casing',
             D: 'minecraft:stonecutter',
             E: 'mekanism:block_osmium'
         }

@@ -124,7 +124,7 @@ ServerEvents.recipes(event => {
   }
 
   // Tertium Crystal
-  default_2alloys("kubejs:crystal_tertium", 5000, "mekanism:crystal_gold", "4x ad_astra:desh_ingot")
+  default_2alloys("kubejs:crystal_tertium", 5000, "mekanism:crystal_gold", "4x ad_astra:calorite_ingot")
 
   //advanced Material Data Card
   event.shaped(

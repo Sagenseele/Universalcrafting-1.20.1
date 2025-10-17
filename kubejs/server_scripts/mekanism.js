@@ -53,8 +53,8 @@ ServerEvents.recipes(event => {
     )
 
     event.replaceInput(
-        { output: 'mekanismgenerators:wind_generator' },
-        '#forge:ingots/osmium',
-        'thermal:machine_frame'
+        { output: 'mekanism:chemical_crystallizer' },
+        /.*_control_circuit/,
+        'ad_astra:desh_ingot'
     )
 })
