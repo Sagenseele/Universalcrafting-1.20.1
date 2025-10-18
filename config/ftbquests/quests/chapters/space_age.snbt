@@ -28,7 +28,7 @@
 				item: "ad_astra:nasa_workbench"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -2.0d
 			y: -2.0d
 		}
 		{
@@ -140,7 +140,7 @@
 				item: "ad_astra:oxygen_loader"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -3.5d
 			y: -2.0d
 		}
 		{
@@ -160,8 +160,9 @@
 		{
 			dependencies: ["35FEBC636877D245"]
 			disable_toast: true
+			icon_scale: 2.0d
 			id: "6FD9146F55E2EF69"
-			shape: "rsquare"
+			shape: "none"
 			size: 1.25d
 			tasks: [{
 				id: "655C018FE76F5A30"
@@ -223,7 +224,7 @@
 				item: "ad_astra:fuel_refinery"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -0.5d
 			y: -2.0d
 		}
 		{
@@ -272,7 +273,7 @@
 				}
 			]
 			title: "Space Suit"
-			x: 1.5d
+			x: 1.0d
 			y: -2.0d
 		}
 		{
@@ -305,7 +306,7 @@
 				item: "hostilenetworks:prediction_matrix"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -3.5d
 			y: -11.0d
 		}
 		{
@@ -335,12 +336,16 @@
 		}
 		{
 			dependencies: ["03AB0CEEC929D789"]
+			icon_scale: 2.0d
 			id: "565D209CEAF7B4A5"
+			shape: "none"
+			subtitle: "Progress to &3Technology Age&r"
 			tasks: [{
 				id: "4EEB12C706498787"
 				item: "kubejs:machine_learning_processor"
 				type: "item"
 			}]
+			title: "&lMachine Learning Processor&r"
 			x: -8.0d
 			y: -10.0d
 		}
@@ -374,7 +379,7 @@
 				title: "Any #waystones:waystones"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 2.5d
 			y: -2.0d
 		}
 		{
@@ -442,6 +447,17 @@
 			}]
 			x: -2.5d
 			y: -5.5d
+		}
+		{
+			dependencies: ["6395672D569A6385"]
+			id: "5D9EBCCA43492FCB"
+			tasks: [{
+				id: "29CEE97F4D290236"
+				item: "bigreactors:verderium_bucket"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -9.5d
 		}
 	]
 	title: "&l&eChapter 4"

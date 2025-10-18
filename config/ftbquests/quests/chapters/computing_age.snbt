@@ -16,22 +16,22 @@
 				item: "mekanism:elite_control_circuit"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -3.0d
+			x: 3.0d
+			y: -2.5d
 		}
 		{
-			dependencies: ["4753A1C669C0B7FC"]
+			dependencies: ["7206B26CEBFA3B04"]
 			id: "0BBB5C97378221B7"
 			tasks: [{
 				id: "6C481F3EDA60B914"
 				item: "powah:energizing_orb"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 5.0d
 			y: 0.5d
 		}
 		{
-			dependencies: ["7206B26CEBFA3B04"]
+			dependencies: ["0BBB5C97378221B7"]
 			id: "3AA85EA1B267FAB4"
 			tasks: [{
 				id: "2020C6D5FF441F58"
@@ -108,25 +108,18 @@
 			y: -1.5d
 		}
 		{
+			dependencies: ["565D209CEAF7B4A5"]
+			icon_scale: 2.0d
 			id: "7B3B80DA9D462C0F"
+			shape: "none"
+			size: 1.0d
 			tasks: [{
-				id: "6B994EC4C8CA41A1"
-				type: "checkmark"
+				id: "0CB65A7A73DA6127"
+				item: "kubejs:machine_learning_processor"
+				type: "item"
 			}]
-			x: -1.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["4753A1C669C0B7FC"]
-			hide_dependency_lines: true
-			id: "476D9DAD13EEF4CD"
-			tasks: [{
-				id: "0D09AA63A44DCF02"
-				title: "High Speed Computer"
-				type: "checkmark"
-			}]
-			x: -7.5d
-			y: -1.5d
+			x: 1.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["3AA85EA1B267FAB4"]
@@ -138,169 +131,6 @@
 			}]
 			x: 7.5d
 			y: 0.0d
-		}
-		{
-			dependencies: [
-				"73EB173BC1EE04D0"
-				"476D9DAD13EEF4CD"
-			]
-			id: "2F4AF49D17ABE1B2"
-			tasks: [{
-				id: "6BC510F93C451702"
-				item: "kubejs:advanced_material_data_card"
-				type: "item"
-			}]
-			x: -10.0d
-			y: -2.5d
-		}
-		{
-			dependencies: [
-				"73EB173BC1EE04D0"
-				"476D9DAD13EEF4CD"
-			]
-			id: "00A1B85D77D0BFF7"
-			tasks: [{
-				id: "0A12275BE63EAA2E"
-				item: "kubejs:bloody_data_card"
-				type: "item"
-			}]
-			x: -6.5d
-			y: 1.0d
-		}
-		{
-			dependencies: [
-				"73EB173BC1EE04D0"
-				"476D9DAD13EEF4CD"
-			]
-			id: "7EDA381C7C7E729C"
-			tasks: [{
-				id: "2C710B3231B2207E"
-				item: "kubejs:compressed_data_card"
-				type: "item"
-			}]
-			x: -10.0d
-			y: -0.5d
-		}
-		{
-			dependencies: [
-				"73EB173BC1EE04D0"
-				"476D9DAD13EEF4CD"
-			]
-			id: "2211D503A3590BD5"
-			tasks: [{
-				id: "3B342A5F0F6C2ED3"
-				item: "kubejs:culinary_data_card"
-				type: "item"
-			}]
-			x: -7.5d
-			y: -4.0d
-		}
-		{
-			dependencies: [
-				"73EB173BC1EE04D0"
-				"476D9DAD13EEF4CD"
-			]
-			id: "3F4A69E418258E59"
-			tasks: [{
-				id: "0E24A3C63D0DAD70"
-				item: "kubejs:electricity_data_card"
-				type: "item"
-			}]
-			x: -5.0d
-			y: -0.5d
-		}
-		{
-			dependencies: [
-				"73EB173BC1EE04D0"
-				"476D9DAD13EEF4CD"
-			]
-			id: "4009767761B58227"
-			tasks: [{
-				id: "7DD13F86F6013189"
-				item: "kubejs:twilight_data_card"
-				type: "item"
-			}]
-			x: -7.5d
-			y: 1.0d
-		}
-		{
-			dependencies: [
-				"73EB173BC1EE04D0"
-				"476D9DAD13EEF4CD"
-			]
-			id: "081C7C72B558F070"
-			tasks: [{
-				id: "19C4D106B02ACC6F"
-				item: "kubejs:storage_data_card"
-				type: "item"
-			}]
-			x: -5.0d
-			y: -1.5d
-		}
-		{
-			dependencies: [
-				"73EB173BC1EE04D0"
-				"476D9DAD13EEF4CD"
-			]
-			id: "749F6EA116E9E323"
-			tasks: [{
-				id: "12DD5065B97ECE40"
-				item: "kubejs:astral_data_card"
-				type: "item"
-			}]
-			x: -10.0d
-			y: -1.5d
-		}
-		{
-			dependencies: [
-				"73EB173BC1EE04D0"
-				"476D9DAD13EEF4CD"
-			]
-			id: "0BF29FB45AB6421A"
-			tasks: [{
-				id: "5A658D7762421D99"
-				item: "kubejs:gem_data_card"
-				type: "item"
-			}]
-			x: -8.5d
-			y: 1.0d
-		}
-		{
-			dependencies: [
-				"73EB173BC1EE04D0"
-				"476D9DAD13EEF4CD"
-			]
-			id: "56A4836F999463AA"
-			tasks: [{
-				id: "6B152C37AFE3D48D"
-				item: "kubejs:nuclear_data_card"
-				type: "item"
-			}]
-			x: -5.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["4753A1C669C0B7FC"]
-			hide_dependent_lines: true
-			id: "73EB173BC1EE04D0"
-			tasks: [{
-				id: "6E0696287A13DA41"
-				item: "kubejs:blank_data_card"
-				type: "item"
-			}]
-			x: -1.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["7B3B80DA9D462C0F"]
-			id: "4753A1C669C0B7FC"
-			tasks: [{
-				id: "07B7B8A0E0196CCD"
-				title: "electronics fabrication assembly"
-				type: "checkmark"
-			}]
-			x: 2.0d
-			y: -0.5d
 		}
 		{
 			dependencies: ["3E353E52E395B697"]
@@ -326,13 +156,17 @@
 		}
 		{
 			dependencies: ["4AA73F516FA97FD3"]
+			icon_scale: 2.0d
 			id: "0E6D16C22389D367"
+			shape: "none"
+			subtitle: "The Placeholder"
 			tasks: [{
 				id: "40804A5A67B5F424"
 				item: "powah:crystal_nitro"
 				type: "item"
 			}]
-			x: 16.5d
+			title: "&lNitro Crystal&r"
+			x: 15.5d
 			y: 0.0d
 		}
 		{
@@ -398,72 +232,8 @@
 				item: "powah:thermo_generator_nitro"
 				type: "item"
 			}]
-			x: 17.0d
+			x: 16.0d
 			y: 1.5d
-		}
-		{
-			dependencies: [
-				"0BF29FB45AB6421A"
-				"00A1B85D77D0BFF7"
-				"4009767761B58227"
-			]
-			dependency_requirement: "one_completed"
-			id: "189A35F9C6AE6246"
-			tasks: [{
-				id: "3142ADD20D9BBC4F"
-				title: "significant magic data"
-				type: "checkmark"
-			}]
-			x: -7.5d
-			y: 2.5d
-		}
-		{
-			dependencies: [
-				"749F6EA116E9E323"
-				"7EDA381C7C7E729C"
-				"2F4AF49D17ABE1B2"
-			]
-			dependency_requirement: "one_completed"
-			id: "51F502D1F9D3EC33"
-			tasks: [{
-				id: "749C6B6945AE8489"
-				title: "significant material data"
-				type: "checkmark"
-			}]
-			x: -11.5d
-			y: -1.5d
-		}
-		{
-			dependencies: [
-				"2211D503A3590BD5"
-				"1AAB348292132F3F"
-				"31DA16421A7D869D"
-			]
-			dependency_requirement: "one_completed"
-			id: "7328560B5D43C60B"
-			tasks: [{
-				id: "6FDCF82BF806162C"
-				title: "significant yummy data"
-				type: "checkmark"
-			}]
-			x: -7.5d
-			y: -5.5d
-		}
-		{
-			dependencies: [
-				"3F4A69E418258E59"
-				"56A4836F999463AA"
-				"081C7C72B558F070"
-			]
-			dependency_requirement: "one_completed"
-			id: "30D6E4D08A7DF452"
-			tasks: [{
-				id: "364994E525B3DA5D"
-				title: "significant meta data"
-				type: "checkmark"
-			}]
-			x: -3.5d
-			y: -1.5d
 		}
 		{
 			dependencies: ["48147B2375650CBD"]
@@ -473,8 +243,8 @@
 				item: "mekanism:elite_tier_installer"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -4.5d
+			x: 2.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["48147B2375650CBD"]
@@ -534,35 +304,7 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
-			y: -4.5d
-		}
-		{
-			dependencies: [
-				"73EB173BC1EE04D0"
-				"476D9DAD13EEF4CD"
-			]
-			id: "1AAB348292132F3F"
-			tasks: [{
-				id: "0DB2018B4A0EB8E8"
-				item: "kubejs:fleshy_data_card"
-				type: "item"
-			}]
-			x: -6.5d
-			y: -4.0d
-		}
-		{
-			dependencies: [
-				"73EB173BC1EE04D0"
-				"476D9DAD13EEF4CD"
-			]
-			id: "31DA16421A7D869D"
-			tasks: [{
-				id: "0E8EA71386DB84A1"
-				item: "kubejs:culinary_data_card"
-				type: "item"
-			}]
-			x: -8.5d
+			x: 4.0d
 			y: -4.0d
 		}
 		{
@@ -577,17 +319,7 @@
 			y: 1.5d
 		}
 		{
-			id: "38C3B1AB22D680FA"
-			tasks: [{
-				id: "3054A477436D4212"
-				item: "powah:reactor_starter"
-				type: "item"
-			}]
-			x: 7.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["4753A1C669C0B7FC"]
+			dependencies: ["7B3B80DA9D462C0F"]
 			id: "7206B26CEBFA3B04"
 			tasks: [{
 				id: "44F219FF257E6D67"
@@ -595,7 +327,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -1.5d
+			y: -0.5d
 		}
 	]
 	title: "&l&bChapter 5"

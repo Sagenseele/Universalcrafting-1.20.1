@@ -22,8 +22,8 @@
 				item: "ironfurnaces:iron_furnace"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -4.0d
+			x: 2.5d
+			y: -11.5d
 		}
 		{
 			hide_until_deps_complete: true
@@ -39,8 +39,8 @@
 				item: "ironfurnaces:augment_generator"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -3.0d
+			x: 3.5d
+			y: -10.5d
 		}
 		{
 			hide_until_deps_complete: true
@@ -56,8 +56,8 @@
 				item: "ironfurnaces:item_heater"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -2.0d
+			x: 4.0d
+			y: -9.5d
 		}
 		{
 			hide_until_deps_complete: true
@@ -73,8 +73,8 @@
 				item: "ironfurnaces:heater"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -1.5d
+			x: 5.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["55B227943360F468"]
@@ -90,8 +90,8 @@
 				item: "ironfurnaces:netherite_furnace"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -0.5d
+			x: 6.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["102FA5707FE9DC57"]
@@ -107,8 +107,8 @@
 				item: "ironfurnaces:obsidian_furnace"
 				type: "item"
 			}]
-			x: 8.5d
-			y: -2.0d
+			x: 6.5d
+			y: -9.5d
 		}
 		{
 			hide_until_deps_complete: true
@@ -124,8 +124,8 @@
 				item: "ironfurnaces:augment_speed"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -2.5d
+			x: 5.5d
+			y: -10.0d
 		}
 		{
 			id: "25F97006002ADEEC"
@@ -140,8 +140,8 @@
 				item: "ironfurnaces:augment_factory"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -3.5d
+			x: 4.5d
+			y: -11.0d
 		}
 		{
 			dependencies: ["42F15387920981E2"]
@@ -157,8 +157,8 @@
 				item: "ironfurnaces:gold_furnace"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -4.5d
+			x: 4.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["501AD43342685328"]
@@ -174,8 +174,8 @@
 				item: "ironfurnaces:diamond_furnace"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -4.5d
+			x: 5.5d
+			y: -12.0d
 		}
 		{
 			dependencies: ["133FDE70D79AB249"]
@@ -190,24 +190,8 @@
 				item: "ironfurnaces:emerald_furnace"
 				type: "item"
 			}]
-			x: 8.5d
-			y: -3.5d
-		}
-		{
-			dependencies: ["2BDCA4985F99A0C3"]
-			id: "37DDBE968C5A052B"
-			rewards: [{
-				id: "19F937E0FC91B655"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
-			tasks: [{
-				id: "2B64DFFCA6961950"
-				item: "storagedrawers:drawer_key"
-				type: "item"
-			}]
-			x: -1.0d
-			y: 2.5d
+			x: 6.5d
+			y: -11.0d
 		}
 		{
 			id: "59971A1DA15AC8FD"
@@ -222,8 +206,8 @@
 				title: "Ice Maze"
 				type: "structure"
 			}]
-			x: 5.0d
-			y: 0.5d
+			x: -2.0d
+			y: -13.5d
 		}
 		{
 			dependencies: ["59971A1DA15AC8FD"]
@@ -239,8 +223,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 5.5d
-			y: 2.0d
+			x: -1.5d
+			y: -12.0d
 		}
 		{
 			dependencies: ["59971A1DA15AC8FD"]
@@ -256,8 +240,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 6.5d
-			y: 1.0d
+			x: -0.5d
+			y: -13.0d
 		}
 		{
 			dependencies: ["59971A1DA15AC8FD"]
@@ -273,64 +257,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 7.0d
-			y: 2.5d
-		}
-		{
-			icon: "storagedrawers:oak_full_drawers_4"
-			id: "2BDCA4985F99A0C3"
-			rewards: [{
-				id: "682E8ED520B2178F"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
-			tasks: [{
-				id: "4B70DD3344231F52"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "storagedrawers:drawers"
-					}
-				}
-				title: "Any #storagedrawers:drawers"
-				type: "item"
-			}]
-			title: "Storage Drawers"
-			x: -1.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["2BDCA4985F99A0C3"]
-			id: "3C8FA875ECA949C1"
-			rewards: [{
-				id: "0DF4AB113A5D4B49"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
-			tasks: [{
-				id: "3383CCDC797E14C1"
-				item: "storagedrawers:controller"
-				type: "item"
-			}]
-			x: -2.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["2BDCA4985F99A0C3"]
-			id: "3EB38CA5FDA41340"
-			rewards: [{
-				id: "01223A9B22541D88"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
-			tasks: [{
-				id: "4371AE829E3AE9FC"
-				item: "storagedrawers:void_upgrade"
-				type: "item"
-			}]
-			x: -2.0d
-			y: 2.5d
+			x: 0.0d
+			y: -11.5d
 		}
 		{
 			id: "79233C253C685681"
@@ -345,8 +273,8 @@
 				item: "botanypots:terracotta_hopper_botany_pot"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -4.5d
+			x: 6.5d
+			y: -6.0d
 		}
 		{
 			id: "3DCA368C8DFF6AB4"
@@ -355,6 +283,7 @@
 				item: "kubejs:universal_badge"
 				type: "item"
 			}]
+			subtitle: "Show me da biome"
 			tasks: [{
 				id: "48CD8F1AC11FC8AF"
 				item: {
@@ -374,6 +303,7 @@
 				item: "kubejs:universal_badge"
 				type: "item"
 			}]
+			subtitle: "Show me da structure"
 			tasks: [{
 				id: "05B8533178C23CDB"
 				item: {
@@ -689,127 +619,6 @@
 			}]
 			x: -4.5d
 			y: -7.5d
-		}
-		{
-			id: "6EF4A97259AF071E"
-			rewards: [{
-				id: "52DE2E8B99D7B479"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
-			tasks: [{
-				id: "6F799375FFF0EC74"
-				item: {
-					Count: 1
-					id: "sophisticatedstorage:barrel"
-					tag: {
-						woodType: "oak"
-					}
-				}
-				type: "item"
-			}]
-			x: 0.5d
-			y: 0.5d
-		}
-		{
-			dependencies: ["6EF4A97259AF071E"]
-			id: "699521E765A30C1E"
-			rewards: [{
-				id: "6BBF65E8ABD94584"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
-			tasks: [{
-				id: "0610DD7CB6040DC6"
-				item: "sophisticatedstorage:controller"
-				type: "item"
-			}]
-			x: 1.5d
-			y: -0.5d
-		}
-		{
-			dependencies: ["6EF4A97259AF071E"]
-			id: "6704031C5FF940CE"
-			rewards: [{
-				id: "782098FC36E30225"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
-			tasks: [{
-				id: "0B37B4BBB0805FD5"
-				item: "sophisticatedstorage:crafting_upgrade"
-				type: "item"
-			}]
-			x: 0.5d
-			y: -1.0d
-		}
-		{
-			dependencies: ["699521E765A30C1E"]
-			description: ["Place onto an inventory to view with all its contents. Can be used on a storage controller to access every connected barrel or drawer."]
-			id: "17C7F7BC85E4AD58"
-			rewards: [{
-				id: "0AD5D090D9D9F81A"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
-			tasks: [{
-				id: "67C498374D2278FE"
-				item: "toms_storage:ts.storage_terminal"
-				type: "item"
-			}]
-			x: 2.5d
-			y: 0.5d
-		}
-		{
-			dependencies: ["17C7F7BC85E4AD58"]
-			description: ["Place onto an inventory to craft with all its contents. Can be used on a storage controller to access every connected barrel or drawer."]
-			icon_scale: 1.5d
-			id: "06CC736E3E21C6BF"
-			rewards: [{
-				id: "51E75CBBA9ACE4E3"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
-			shape: "none"
-			tasks: [{
-				id: "05AA066955BA66CC"
-				item: "toms_storage:ts.crafting_terminal"
-				type: "item"
-			}]
-			x: 3.5d
-			y: -0.5d
-		}
-		{
-			dependencies: ["6EF4A97259AF071E"]
-			id: "576A85B1FCA1360E"
-			rewards: [{
-				id: "46641744DCB72BF7"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
-			tasks: [{
-				id: "0F2233647BB18421"
-				item: "sophisticatedstorage:void_upgrade"
-				type: "item"
-			}]
-			x: 0.5d
-			y: -3.0d
-		}
-		{
-			dependencies: ["6EF4A97259AF071E"]
-			id: "4C6FC714B7AB7751"
-			rewards: [{
-				id: "089D004C29B4D6C8"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
-			tasks: [{
-				id: "459AD81FA90C37C2"
-				item: "sophisticatedstorage:advanced_compacting_upgrade"
-				type: "item"
-			}]
-			x: 0.5d
-			y: -2.0d
 		}
 		{
 			description: [

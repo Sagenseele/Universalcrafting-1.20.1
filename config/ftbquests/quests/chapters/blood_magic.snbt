@@ -104,6 +104,7 @@
 				item: "bloodmagic:altar"
 				type: "item"
 			}]
+			title: "&lBlood Altar&r"
 			x: 4.0d
 			y: -0.5d
 		}

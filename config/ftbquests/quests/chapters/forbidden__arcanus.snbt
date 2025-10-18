@@ -653,16 +653,17 @@
 				"You need 4 additional ingredients for rituals. There are multiple ways to achieve this"
 				""
 				"&bSouls&r:"
-				"- Soul Extractor"
+				"- Soul Extractor on Soul Sand"
 				""
 				"&4Blood&r:"
 				"- Sacrifice mobs near the altar"
-				"- Hurt mobs with Mystical Dagger while having Test Tube in Inventory "
+				"- Hurt mobs with Mystical Dagger while having Test Tube in Inventory"
 				"- Test Tube can be filled by Blood Magic Altar"
 				""
 				"&aExperience&r:"
 				"- Xpetrified Orb"
 				"- Put enchanted Item in the Slot"
+				"- Bottles o' enchanting in the Slot"
 				""
 				"&9Aureal&r:"
 				"- Aureal Bottle"
@@ -707,6 +708,7 @@
 					type: "item"
 				}
 			]
+			title: "Ingredients for the Forge"
 			x: -0.5d
 			y: -2.0d
 		}

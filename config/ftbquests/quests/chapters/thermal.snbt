@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "thermal"
 	group: "007FE974211D2B02"
+	hide_quest_until_deps_visible: true
 	icon: "thermal:machine_frame"
 	id: "51836C9F9A18298C"
 	order_index: 7
@@ -10,6 +11,7 @@
 	quests: [
 		{
 			dependencies: ["109099A9933B4917"]
+			hide_until_deps_complete: true
 			id: "73DD87B35583C4E3"
 			tasks: [{
 				id: "4F1FA225530C8F91"

@@ -1,9 +1,9 @@
 {
 	chapter_groups: [
-		{ id: "0D67931F734E7CE2", title: "Chapters" }
-		{ id: "007FE974211D2B02", title: "Mods" }
-		{ id: "4BF8C5B9E64BC8F2", title: "Resource Gen" }
-		{ id: "0F98F552A8423A4B", title: "Gear" }
-		{ id: "42309822505DB028", title: "Logistics" }
+		{ id: "0D67931F734E7CE2", title: "&lChapters" }
+		{ id: "007FE974211D2B02", title: "&lMods" }
+		{ id: "4BF8C5B9E64BC8F2", title: "&lResource Gen" }
+		{ id: "0F98F552A8423A4B", title: "&lGear" }
+		{ id: "42309822505DB028", title: "&lLogistics" }
 	]
 }

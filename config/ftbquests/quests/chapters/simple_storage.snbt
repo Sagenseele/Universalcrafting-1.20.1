@@ -1,0 +1,238 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "simple_storage"
+	group: "42309822505DB028"
+	icon: "toms_storage:ts.crafting_terminal"
+	id: "4BDEDC85418E1DD5"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2BDCA4985F99A0C3"]
+			id: "37DDBE968C5A052B"
+			rewards: [{
+				id: "19F937E0FC91B655"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2B64DFFCA6961950"
+				item: "storagedrawers:drawer_key"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			icon: "storagedrawers:oak_full_drawers_4"
+			id: "2BDCA4985F99A0C3"
+			rewards: [{
+				id: "682E8ED520B2178F"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4B70DD3344231F52"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "storagedrawers:drawers"
+					}
+				}
+				title: "Any #storagedrawers:drawers"
+				type: "item"
+			}]
+			title: "Storage Drawers"
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2BDCA4985F99A0C3"]
+			id: "3C8FA875ECA949C1"
+			rewards: [{
+				id: "0DF4AB113A5D4B49"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3383CCDC797E14C1"
+				item: "storagedrawers:controller"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2BDCA4985F99A0C3"]
+			id: "3EB38CA5FDA41340"
+			rewards: [{
+				id: "01223A9B22541D88"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4371AE829E3AE9FC"
+				item: "storagedrawers:void_upgrade"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			id: "6EF4A97259AF071E"
+			rewards: [{
+				id: "52DE2E8B99D7B479"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6F799375FFF0EC74"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:barrel"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6EF4A97259AF071E"]
+			id: "699521E765A30C1E"
+			rewards: [{
+				id: "6BBF65E8ABD94584"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0610DD7CB6040DC6"
+				item: "sophisticatedstorage:controller"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6EF4A97259AF071E"]
+			id: "6704031C5FF940CE"
+			rewards: [{
+				id: "782098FC36E30225"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0B37B4BBB0805FD5"
+				item: "sophisticatedstorage:crafting_upgrade"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["699521E765A30C1E"]
+			description: ["Place onto an inventory to view with all its contents. Can be used on a storage controller to access every connected barrel or drawer."]
+			id: "17C7F7BC85E4AD58"
+			rewards: [{
+				id: "0AD5D090D9D9F81A"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "67C498374D2278FE"
+				item: "toms_storage:ts.storage_terminal"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["17C7F7BC85E4AD58"]
+			description: ["Place onto an inventory to craft with all its contents. Can be used on a storage controller to access every connected barrel or drawer."]
+			icon_scale: 1.4d
+			id: "06CC736E3E21C6BF"
+			rewards: [{
+				id: "51E75CBBA9ACE4E3"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "05AA066955BA66CC"
+				item: "toms_storage:ts.crafting_terminal"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6EF4A97259AF071E"]
+			id: "576A85B1FCA1360E"
+			rewards: [{
+				id: "46641744DCB72BF7"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0F2233647BB18421"
+				item: "sophisticatedstorage:void_upgrade"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6EF4A97259AF071E"]
+			id: "4C6FC714B7AB7751"
+			rewards: [{
+				id: "089D004C29B4D6C8"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "459AD81FA90C37C2"
+				item: "sophisticatedstorage:advanced_compacting_upgrade"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2BDCA4985F99A0C3"]
+			id: "5EFBC35223AC3C59"
+			tasks: [{
+				id: "67D779B37DBCB70C"
+				item: "storagedrawers:quantify_key"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2BDCA4985F99A0C3"]
+			id: "15F8AB584521DB52"
+			tasks: [{
+				id: "230920BFD74B6B3A"
+				item: "storagedrawers:shroud_key"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2BDCA4985F99A0C3"]
+			id: "35D52D893E12BBD8"
+			tasks: [{
+				id: "1C4989F72421A48E"
+				item: "storagedrawers:framing_table"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+	]
+	title: "Simple Storage"
+}

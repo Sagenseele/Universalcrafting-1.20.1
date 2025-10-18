@@ -5,6 +5,15 @@
 	group: "0D67931F734E7CE2"
 	icon: "kubejs:infinity_token"
 	id: "79C04D7CA11D4F86"
+	images: [{
+		click: "#2FFD76E208A4CE63"
+		height: 1.0d
+		image: "kubejs:item/infinity_token"
+		rotation: 0.0d
+		width: 1.0d
+		x: 1.0d
+		y: -9.5d
+	}]
 	order_index: 6
 	quest_links: [ ]
 	quests: [
@@ -23,26 +32,24 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 6.0d
+			y: -7.5d
 		}
 		{
 			dependencies: [
-				"45B8F3585A71750A"
-				"53D00AA8DAE00EC7"
-				"149FA53631B4E30C"
-				"397244BF016E5253"
+				"2EEBDC034B9F5AEF"
+				"3D2007203531AB30"
 			]
 			icon_scale: 2.0d
 			id: "16407104C2D7A594"
 			shape: "none"
-			size: 2.0d
+			size: 1.5d
 			tasks: [{
 				id: "7E464B70CB42E035"
 				item: "kubejs:infinity_token"
 				type: "item"
 			}]
 			x: 3.5d
-			y: -1.4732142857142811d
+			y: 1.5d
 		}
 		{
 			dependencies: ["0E58BC459E28738F"]
@@ -53,7 +60,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 4.5d
+			y: -9.0d
 		}
 		{
 			dependencies: ["3C9E469F8B6598B5"]
@@ -64,7 +71,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 6.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["5E49261FC2520B30"]
@@ -75,7 +82,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 4.5d
+			y: -9.0d
 		}
 		{
 			disable_toast: true
@@ -86,8 +93,8 @@
 				item: "apotheosis:ender_library"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 0.0d
+			x: 6.0d
+			y: -0.5d
 		}
 		{
 			disable_toast: true
@@ -133,8 +140,8 @@
 				}
 				type: "item"
 			}]
-			x: 6.0d
-			y: -4.5d
+			x: 5.0d
+			y: -3.5d
 		}
 		{
 			disable_toast: true
@@ -144,8 +151,8 @@
 				item: "bloodmagic:archmagebloodorb"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -4.5d
+			x: 2.0d
+			y: -3.5d
 		}
 		{
 			disable_toast: true
@@ -155,7 +162,80 @@
 				item: "ae2:cell_component_256k"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			id: "43DFD4917980F3E9"
+			tasks: [{
+				id: "3D15E253C8C8A26D"
+				item: "solarflux:sp_de.chaotic"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			id: "2FFD76E208A4CE63"
+			tasks: [{
+				id: "5C5E7B532B569EAA"
+				item: "projecte:rm_furnace"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5E49261FC2520B30"]
+			id: "2EA631D2AF36CEF8"
+			tasks: [{
+				id: "5F27508AFBC48C6B"
+				item: "projecte:rm_furnace"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"397244BF016E5253"
+				"149FA53631B4E30C"
+				"43DFD4917980F3E9"
+				"2FFD76E208A4CE63"
+				"45B8F3585A71750A"
+				"53D00AA8DAE00EC7"
+				"5CF0255B92030856"
+			]
+			id: "2EEBDC034B9F5AEF"
+			size: 1.5d
+			tasks: [{
+				id: "333411971CE9ABF2"
+				item: "kubejs:inert_infinity_token"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			description: ["&eRight click&r with a Black Lotus on a cow to milk the mana out of the cow."]
+			id: "5CF0255B92030856"
+			tasks: [{
+				id: "0EC6356EF7FCF1F6"
+				item: "botania:blacker_lotus"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1BEA79EF2167F77E"]
+			id: "3D2007203531AB30"
+			tasks: [{
+				id: "471592C0ECF1FC9C"
+				item: "mbd2:gods_forge"
+				type: "item"
+			}]
+			x: 4.5d
 			y: 0.0d
 		}
 	]

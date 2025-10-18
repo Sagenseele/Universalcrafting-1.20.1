@@ -1,0 +1,271 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "placeholder"
+	group: ""
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_complete: true
+	hide_quest_until_deps_visible: true
+	id: "13049D1B95677341"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["73EB173BC1EE04D0"]
+			hide_dependency_lines: true
+			id: "476D9DAD13EEF4CD"
+			tasks: [{
+				id: "0D09AA63A44DCF02"
+				title: "High Speed Computer"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"73EB173BC1EE04D0"
+				"476D9DAD13EEF4CD"
+			]
+			id: "2F4AF49D17ABE1B2"
+			tasks: [{
+				id: "6BC510F93C451702"
+				item: "kubejs:advanced_material_data_card"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"73EB173BC1EE04D0"
+				"476D9DAD13EEF4CD"
+			]
+			id: "00A1B85D77D0BFF7"
+			tasks: [{
+				id: "0A12275BE63EAA2E"
+				item: "kubejs:bloody_data_card"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"73EB173BC1EE04D0"
+				"476D9DAD13EEF4CD"
+			]
+			id: "7EDA381C7C7E729C"
+			tasks: [{
+				id: "2C710B3231B2207E"
+				item: "kubejs:compressed_data_card"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"73EB173BC1EE04D0"
+				"476D9DAD13EEF4CD"
+			]
+			id: "2211D503A3590BD5"
+			tasks: [{
+				id: "3B342A5F0F6C2ED3"
+				item: "kubejs:culinary_data_card"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"73EB173BC1EE04D0"
+				"476D9DAD13EEF4CD"
+			]
+			id: "3F4A69E418258E59"
+			tasks: [{
+				id: "0E24A3C63D0DAD70"
+				item: "kubejs:electricity_data_card"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"73EB173BC1EE04D0"
+				"476D9DAD13EEF4CD"
+			]
+			id: "4009767761B58227"
+			tasks: [{
+				id: "7DD13F86F6013189"
+				item: "kubejs:twilight_data_card"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"73EB173BC1EE04D0"
+				"476D9DAD13EEF4CD"
+			]
+			id: "081C7C72B558F070"
+			tasks: [{
+				id: "19C4D106B02ACC6F"
+				item: "kubejs:storage_data_card"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"73EB173BC1EE04D0"
+				"476D9DAD13EEF4CD"
+			]
+			id: "749F6EA116E9E323"
+			tasks: [{
+				id: "12DD5065B97ECE40"
+				item: "kubejs:astral_data_card"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"73EB173BC1EE04D0"
+				"476D9DAD13EEF4CD"
+			]
+			id: "0BF29FB45AB6421A"
+			tasks: [{
+				id: "5A658D7762421D99"
+				item: "kubejs:gem_data_card"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"73EB173BC1EE04D0"
+				"476D9DAD13EEF4CD"
+			]
+			id: "56A4836F999463AA"
+			tasks: [{
+				id: "6B152C37AFE3D48D"
+				item: "kubejs:nuclear_data_card"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			hide_dependent_lines: true
+			id: "73EB173BC1EE04D0"
+			invisible: true
+			tasks: [{
+				id: "6E0696287A13DA41"
+				item: "kubejs:blank_data_card"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0BF29FB45AB6421A"
+				"00A1B85D77D0BFF7"
+				"4009767761B58227"
+			]
+			dependency_requirement: "one_completed"
+			id: "189A35F9C6AE6246"
+			tasks: [{
+				id: "3142ADD20D9BBC4F"
+				title: "significant magic data"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"749F6EA116E9E323"
+				"7EDA381C7C7E729C"
+				"2F4AF49D17ABE1B2"
+			]
+			dependency_requirement: "one_completed"
+			id: "51F502D1F9D3EC33"
+			tasks: [{
+				id: "749C6B6945AE8489"
+				title: "significant material data"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2211D503A3590BD5"
+				"1AAB348292132F3F"
+				"31DA16421A7D869D"
+			]
+			dependency_requirement: "one_completed"
+			id: "7328560B5D43C60B"
+			tasks: [{
+				id: "6FDCF82BF806162C"
+				title: "significant yummy data"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"3F4A69E418258E59"
+				"56A4836F999463AA"
+				"081C7C72B558F070"
+			]
+			dependency_requirement: "one_completed"
+			id: "30D6E4D08A7DF452"
+			tasks: [{
+				id: "364994E525B3DA5D"
+				title: "significant meta data"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"73EB173BC1EE04D0"
+				"476D9DAD13EEF4CD"
+			]
+			id: "1AAB348292132F3F"
+			tasks: [{
+				id: "0DB2018B4A0EB8E8"
+				item: "kubejs:fleshy_data_card"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"73EB173BC1EE04D0"
+				"476D9DAD13EEF4CD"
+			]
+			id: "31DA16421A7D869D"
+			tasks: [{
+				id: "0E8EA71386DB84A1"
+				item: "kubejs:culinary_data_card"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+	]
+	title: "Placeholder"
+}

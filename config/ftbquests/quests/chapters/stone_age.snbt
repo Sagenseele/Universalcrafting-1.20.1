@@ -136,7 +136,7 @@
 				item: "bloodmagic:altar"
 				type: "item"
 			}]
-			title: "&4Blood Altar"
+			title: "&l&4Blood Altar"
 			x: 6.0625d
 			y: -0.1607142857142847d
 		}
@@ -311,6 +311,7 @@
 				item: "create:andesite_casing"
 				type: "item"
 			}]
+			title: "&lAndesite Casing&r"
 			x: 9.5d
 			y: 0.0d
 		}
@@ -432,7 +433,7 @@
 				item: "botania:apothecary_default"
 				type: "item"
 			}]
-			title: "&2Petal Apothecary"
+			title: "&l&2Petal Apothecary"
 			x: 6.0d
 			y: 3.0d
 		}

@@ -11,7 +11,7 @@
 			image: "draconicevolution:textures/gui/reactor/core.png"
 			rotation: 0.0d
 			width: 5.0d
-			x: 2.5d
+			x: 0.5d
 			y: -3.0d
 		}
 		{
@@ -19,8 +19,8 @@
 			image: "draconicevolution:textures/gui/light/fusion_slot.png"
 			rotation: 0.0d
 			width: 5.0d
-			x: 8.589285714285722d
-			y: -2.8928571428571423d
+			x: 6.089285714285715d
+			y: -2.892857142857153d
 		}
 		{
 			click: "#53D00AA8DAE00EC7"
@@ -43,10 +43,15 @@
 				item: "draconicevolution:reactor_stabilizer"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -5.0d
+			x: -1.5d
+			y: -3.0d
 		}
 		{
+			dependencies: [
+				"23C664AA238C41B5"
+				"2F1382525B14847C"
+				"08492D5D21CC2181"
+			]
 			id: "604230DC3F471E94"
 			size: 1.25d
 			tasks: [{
@@ -54,7 +59,7 @@
 				item: "draconicevolution:reactor_core"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 0.5d
 			y: -3.0d
 		}
 		{
@@ -64,7 +69,7 @@
 				item: "draconicevolution:reactor_injector"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 0.5d
 			y: -1.0d
 		}
 		{
@@ -78,58 +83,74 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["502F2792F63DE81B"]
+			icon_scale: 2.0d
 			id: "1AA9A1D4176090A3"
+			shape: "none"
+			size: 1.25d
 			tasks: [{
 				id: "322CCE71BA6C6A21"
 				item: "draconicevolution:basic_crafting_injector"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -1.2857142857142883d
+			x: 7.714285714285708d
+			y: -1.321428571428573d
 		}
 		{
+			dependencies: ["502F2792F63DE81B"]
+			icon_scale: 2.0d
 			id: "69FFC8A8224127E0"
-			size: 1.5d
+			shape: "none"
+			size: 1.75d
 			tasks: [{
 				id: "2200C8E6E326B215"
 				item: "draconicevolution:crafting_core"
 				type: "item"
 			}]
-			x: 8.607142857142854d
-			y: -2.8928571428571423d
+			x: 6.107142857142847d
+			y: -2.892857142857153d
 		}
 		{
 			dependencies: ["1EE5EEC8E1B4128F"]
+			icon_scale: 2.0d
 			id: "5828CE73FB5979DF"
+			shape: "none"
+			size: 1.25d
 			tasks: [{
 				id: "33F785F61AA7C4D2"
 				item: "draconicevolution:awakened_crafting_injector"
 				type: "item"
 			}]
-			x: 10.214285714285715d
+			x: 4.5d
 			y: -4.5d
 		}
 		{
 			dependencies: ["1AA9A1D4176090A3"]
+			icon_scale: 2.0d
 			id: "1EE5EEC8E1B4128F"
+			shape: "none"
+			size: 1.25d
 			tasks: [{
 				id: "3E05B47EAECE62CE"
 				item: "draconicevolution:wyvern_crafting_injector"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 7.714285714285708d
 			y: -4.5d
 		}
 		{
 			dependencies: ["5828CE73FB5979DF"]
+			icon_scale: 2.0d
 			id: "08492D5D21CC2181"
+			shape: "none"
+			size: 1.25d
 			tasks: [{
 				id: "351AEB7D1F7C3406"
 				item: "draconicevolution:chaotic_crafting_injector"
 				type: "item"
 			}]
-			x: 10.214285714285715d
-			y: -1.3214285714285658d
+			x: 4.5d
+			y: -1.2857142857142954d
 		}
 		{
 			dependencies: ["77C38C1971A0C76B"]
@@ -149,11 +170,14 @@
 				item: "draconicevolution:dragon_heart"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 8.5d
 			y: 1.5d
 		}
 		{
-			dependencies: ["5D8EF3A8647B9C4E"]
+			dependencies: [
+				"5D8EF3A8647B9C4E"
+				"347DEF8D77482A8B"
+			]
 			id: "502F2792F63DE81B"
 			tasks: [{
 				id: "0BBB9B65B469ADA5"
@@ -175,7 +199,10 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["77C38C1971A0C76B"]
+			dependencies: [
+				"77C38C1971A0C76B"
+				"28507B3CF8CFAC81"
+			]
 			id: "23C6F3FF90D256D6"
 			tasks: [{
 				id: "0F0EF654C9E22B2A"
@@ -198,8 +225,10 @@
 		}
 		{
 			dependencies: ["77C38C1971A0C76B"]
+			description: ["Interact with the stabilizers or energy core to visualize the multiblock structure."]
 			icon: "draconicevolution:energy_core"
 			id: "769FF5430FA9A97D"
+			require_sequential_tasks: true
 			tasks: [
 				{
 					id: "7072E018097AB9BB"
@@ -210,6 +239,18 @@
 					count: 4L
 					id: "379E69AD7287A932"
 					item: { Count: 4, id: "draconicevolution:energy_core_stabilizer" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "458368F74F7967C4"
+					item: { Count: 2, id: "draconicevolution:energy_pylon" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "249502D4D0548A8A"
+					item: { Count: 2, id: "minecraft:glass" }
 					type: "item"
 				}
 			]
@@ -379,6 +420,31 @@
 			}]
 			x: 7.0d
 			y: 4.5d
+		}
+		{
+			icon_scale: 2.0d
+			id: "347DEF8D77482A8B"
+			shape: "none"
+			tasks: [{
+				id: "5F7B46BCA2B7DD5F"
+				item: "powah:crystal_nitro"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["604230DC3F471E94"]
+			icon_scale: 2.0d
+			id: "1BEA79EF2167F77E"
+			shape: "none"
+			tasks: [{
+				id: "4E929B9FDA72B01C"
+				item: "mbd2:gods_forge"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.0d
 		}
 	]
 	title: "&l&5Chapter 6"

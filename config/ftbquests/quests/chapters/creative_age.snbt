@@ -9,7 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["6E33A55B938CC53C"]
+			dependencies: ["5812511C5B6F5D36"]
 			id: "7A5494E6BD226314"
 			tasks: [{
 				id: "263D21652DE9C59B"
@@ -17,39 +17,41 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 0.0d
+			y: -0.5d
 		}
 		{
-			dependencies: ["6E33A55B938CC53C"]
+			dependencies: ["5812511C5B6F5D36"]
 			id: "177BAFDEE34E1626"
 			tasks: [{
 				id: "6C7D286919DC6D2B"
 				item: "create:creative_motor"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 0.5d
+			x: 0.5d
+			y: 0.0d
 		}
 		{
-			dependencies: ["16407104C2D7A594"]
-			hide_until_deps_complete: true
-			id: "6E33A55B938CC53C"
-			tasks: [{
-				id: "2980BFA9C4795AD4"
-				type: "checkmark"
-			}]
-			x: -1.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["6E33A55B938CC53C"]
+			dependencies: ["5812511C5B6F5D36"]
 			id: "5880AC65339DC1E6"
 			tasks: [{
 				id: "799415DD9BA3017B"
 				item: "botania:creative_pool"
 				type: "item"
 			}]
-			x: 0.5d
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			icon_scale: 2.0d
+			id: "5812511C5B6F5D36"
+			shape: "none"
+			size: 1.5d
+			tasks: [{
+				id: "557AC365644DE212"
+				item: "kubejs:infinity_token"
+				type: "item"
+			}]
+			x: -1.0d
 			y: 1.5d
 		}
 	]

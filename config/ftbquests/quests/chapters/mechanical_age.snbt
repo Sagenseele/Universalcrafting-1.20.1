@@ -50,6 +50,7 @@
 				"For early game inventory management"
 				"you can check out Toms' Storage"
 				"combined with Sophisticated Storage"
+				"or any other inventory."
 			]
 			image: "toms_storage:block/crafting_terminal_front"
 			rotation: 0.0d
@@ -99,13 +100,14 @@
 					type: "item"
 				}
 			]
+			subtitle: "Now with more &fSpeed&r!"
 			tasks: [{
 				count: 27L
 				id: "7E3DC8DC09700D99"
 				item: "immersiveengineering:cokebrick"
 				type: "item"
 			}]
-			title: "Coke Oven"
+			title: "&lCoke Oven"
 			x: 10.5d
 			y: -2.0d
 		}
@@ -275,13 +277,14 @@
 				item: "kubejs:universal_badge"
 				type: "item"
 			}]
+			subtitle: "&fFaster&r than ever before!"
 			tasks: [{
 				count: 27L
 				id: "56317D6A60A8DE21"
 				item: "immersiveengineering:blastbrick"
 				type: "item"
 			}]
-			title: "Crude Blast Furnace"
+			title: "&lCrude Blast Furnace"
 			x: 12.5d
 			y: -2.0d
 		}
@@ -354,6 +357,7 @@
 				item: "silentgear:blueprint_paper"
 				type: "item"
 			}]
+			title: "&lBlueprint Paper"
 			x: 9.5d
 			y: -3.5d
 		}
@@ -426,6 +430,7 @@
 				item: "thermal:machine_frame"
 				type: "item"
 			}]
+			title: "&lMachine Frame&r"
 			x: 22.0d
 			y: -2.0d
 		}
@@ -496,7 +501,7 @@
 				item: { Count: 8, id: "immersiveengineering:alloybrick" }
 				type: "item"
 			}]
-			title: "Alloy Kiln"
+			title: "&lAlloy Kiln"
 			x: 15.0d
 			y: -4.0d
 		}

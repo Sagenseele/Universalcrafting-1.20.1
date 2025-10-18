@@ -852,6 +852,7 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["43AECD3D79C2838B"]
 			description: [
 				"Let an &eanvil&r fall on a &dAptheosis&r &egem&r to get dust."
 				""
@@ -1237,6 +1238,8 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["43AECD3D79C2838B"]
+			hide_dependency_lines: true
 			id: "1DB5D7E134E67680"
 			rewards: [
 				{
@@ -1468,6 +1471,7 @@
 			y: 8.5d
 		}
 		{
+			dependencies: ["43AECD3D79C2838B"]
 			description: [
 				"&o&eSpawners&r &oare very peculiar. It seems they can be improved with some items."
 				"&oIf I can create a complety buffed spawner, that would just be &6overpowered&r."
@@ -1486,6 +1490,8 @@
 			y: 0.5d
 		}
 		{
+			dependencies: ["43AECD3D79C2838B"]
+			hide_dependency_lines: true
 			id: "2EB9AB7F8F1CAD40"
 			rewards: [{
 				id: "10A1BB86FA1C330C"
@@ -1500,6 +1506,29 @@
 			}]
 			x: 0.5d
 			y: 6.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:mythic"
+					}
+					gem: "apotheosis:core/lunar"
+				}
+			}
+			id: "43AECD3D79C2838B"
+			invisible: true
+			subtitle: "A little strong, don't you think?"
+			tasks: [{
+				advancement: "apotheosis:affix/root"
+				criterion: ""
+				id: "0732524FA8BE2369"
+				type: "advancement"
+			}]
+			x: 7.514859693877554d
+			y: -0.9360331632653001d
 		}
 	]
 	title: "Apotheosis"
