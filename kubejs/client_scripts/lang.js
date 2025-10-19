@@ -21,7 +21,9 @@ ClientEvents.lang('en_us', event => {
     event.add('block.mbd2.drill_mk_i', 'Deep Drill')
     event.add('block.mbd2.assembler', 'Assembler')
     event.add('block.mbd2.crystal_chamber', 'Crystal Chamber')
+    event.add('block.mbd2.crystal_cutter', 'Crystal Cutter')
     event.add('block.mbd2.model_computer', 'Model Computation Facility')
+    event.add('block.mbd2.gods_forge', 'Forge of the Infinity')
     event.renameItem('industrialforegoing:plastic', 'Bio-Plastic')
     event.renameItem('kubejs:relic_level_up', 'Spacefarers\' Boon')
 
