@@ -222,9 +222,21 @@ ServerEvents.recipes((event) => {
         { input: "#uc:med/tier3", output: "mysticalagriculture:nether_essence" },
         { input: "#uc:med/tier3", output: "mysticalagriculture:grains_of_infinity_essence" },
         { input: "#uc:med/tier3", output: "mysticalagriculture:silicon_essence" },
+        { input: "#uc:med/tier3", output: "mysticalagriculture:fire_essence" },
         { input: "#uc:med/tier4", output: "mysticalagriculture:mystical_flower_essence" },
         { input: "#uc:med/tier4", output: "mysticalagriculture:steeleaf_essence" },
-        { input: "#uc:med/tier4", output: "mysticalagriculture:ironwood_essence" }
+        { input: "#uc:med/tier4", output: "mysticalagriculture:ironwood_essence" },
+        { input: "#uc:med/tier5", output: "mysticalagriculture:lapis_lazuli_essence" },
+        { input: "#uc:med/tier5", output: "mysticalagriculture:prismarine_essence" },
+        { input: "#uc:med/tier5", output: "mysticalagriculture:experience_essence" },
+        { input: "#uc:med/tier5", output: "mysticalagriculture:gold_essence" },
+        { input: "#uc:med/tier5", output: "mysticalagriculture:iron_essence" },
+        { input: "#uc:med/tier5", output: "mysticalagriculture:diamond_essence" },
+        { input: "kubejs:transcendental_matter_extraction_device", output: "bloodmagic:blankslate" },
+        { input: "kubejs:floralized_matter_extraction_device", output: "botania:mana_diamond" },
+        { input: "kubejs:floralized_matter_extraction_device", output: "botania:mana_string" },
+        { input: "kubejs:floralized_matter_extraction_device", output: "botania:mana_pearl" },
+        { input: "kubejs:floralized_matter_extraction_device", output: "mysticalagriculture:manasteel_essence" }
     ]
 
     meds.forEach(med => {
@@ -243,7 +255,7 @@ ServerEvents.recipes((event) => {
         { name: "cod", data: 6, ingredient: "16x minecraft:cod" },
         { name: "cow", data: 6, ingredient: "64x minecraft:leather" },
         { name: "elder_guardian", data: 6, ingredient: "8x forbidden_arcanus:aquatic_dragon_scale" },
-        { name: "ender_dragon", data: 6, ingredient: "8x forbidden_arcanus:arcane_dragon_egg" },
+        { name: "ender_dragon", data: 6, ingredient: "1x forbidden_arcanus:arcane_dragon_egg" },
         { name: "enderman", data: 6, ingredient: "8x reliquary:nebulous_heart" },
         { name: "rabbit", data: 6, ingredient: "16x minecraft:rabbit_foot" },
         { name: "shulker", data: 6, ingredient: "16x minecraft:shulker_shell" },

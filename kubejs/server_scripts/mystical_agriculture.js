@@ -54,6 +54,10 @@ ServerEvents.recipes((event) => {
         }
         event.custom(recipe)
     }
+
+    // Inert Infinity Token
+    infusion("kubejs:inert_infinity_token", "draconicevolution:chaotic_core", ["projecte:rm_furnace", "draconicevolution:chaotic_capacitor", "apotheosis:ender_library", "solarflux:sp_de.chaotic", "ae2:cell_component_256k", "bloodmagic:archmagebloodorb"])
+
     // Inferium Crystal
     squeezer('kubejs:inferium_sludge', 50, 'mysticalagriculture:inferium_essence', 2048)
     event.recipes.thermal.refinery([Fluid.of('kubejs:inferium_enriched_water', 200), '1x kubejs:crystal_inferium'], Fluid.of('kubejs:inferium_sludge', 500))

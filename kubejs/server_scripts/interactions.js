@@ -36,3 +36,12 @@ BlockEvents.rightClicked('minecraft:stone', event => {
         event.player.give('mysticalagriculture:nether_quartz_essence')
     }
 })
+
+ItemEvents.entityInteracted('botania:black_lotus', event => {
+  if(event.target.type != 'minecraft:cow') return
+  event.player.swing(event.hand, true)
+  event.item.count--
+  event.player.giveInHand('botania:blacker_lotus')
+  event.target.playSound('minecraft:entity.cow.milk')
+})
+

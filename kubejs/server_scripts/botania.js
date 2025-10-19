@@ -31,6 +31,19 @@ ServerEvents.recipes(event => {
         reagent: { item: "kubejs:simple_spiritual_core" }
     })
 
+    event.custom({
+        type: "botania:petal_apothecary",
+        ingredients: [
+            { item: "botania:rune_pride" },
+            { item: "botania:rune_greed" },
+            { item: "botania:rune_mana" },
+            { item: "bloodmagic:etherealslate" },
+            { item: "industrialforegoing:laser_lens15" },
+            { tag: "forge:ingots/sculk_alloy" }
+        ],
+        output: { item: "botania:black_lotus" },
+        reagent: { item: "kubejs:dark_spiritual_core" }
+    })
     
 
     // Rune
