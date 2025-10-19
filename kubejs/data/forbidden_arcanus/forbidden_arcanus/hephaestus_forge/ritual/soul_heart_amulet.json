@@ -12,7 +12,7 @@
     {
       "amount": 3,
       "ingredient": {
-        "tag": "bhc:soul_heart_crystal"
+        "item": "bhc:soul_heart_crystal"
       }
     },
     {
