@@ -1,0 +1,38 @@
+{
+    "entity": "minecraft:wolf",
+    "variants": [],
+    "name": "entity.minecraft.wolf",
+    "name_color": "#05343F",
+    "gui_scale": 0.65,
+    "gui_x_offset": 0.0,
+    "gui_y_offset": -0.15,
+    "gui_z_offset": 0.0,
+    "sim_cost": 2560,
+    "input": {
+        "item": "hostilenetworks:empty_prediction",
+        "count": 1
+    },
+    "base_drop": {
+        "item": "hostilenetworks:overworld_prediction",
+        "count": 1
+    },
+    "trivia": "hostilenetworks.trivia.wolf",
+    "fabricator_drops": [
+        {
+            "item": "biomancy:mob_fang",
+            "count": 4
+        }
+    ],
+    "tier_data": [
+        6,
+        54,
+        354,
+        1254
+    ],
+    "data_per_kill": [
+        1,
+        4,
+        10,
+        18
+    ]
+}
