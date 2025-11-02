@@ -58,8 +58,8 @@
 				item: "mob_grinding_utils:fan"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -1.5d
+			x: -1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["3D26E7D6A94B5279"]
@@ -69,8 +69,8 @@
 				item: "mob_grinding_utils:fan_upgrade_height"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -3.0d
+			x: -1.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["3D26E7D6A94B5279"]
@@ -80,8 +80,8 @@
 				item: "mob_grinding_utils:fan_upgrade_width"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -2.5d
+			x: -2.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["3D26E7D6A94B5279"]
@@ -91,8 +91,8 @@
 				item: "mob_grinding_utils:fan_upgrade_speed"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -1.5d
+			x: -2.5d
+			y: -2.0d
 		}
 		{
 			description: ["Blocks light and is wither resistant."]
@@ -103,7 +103,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -1.5d
+			y: -2.0d
 		}
 		{
 			description: ["Craft with a bucket of XP and a seed and feed it to a chicken... Happy Birthday. &4O_O&r"]
@@ -113,7 +113,7 @@
 				item: "mob_grinding_utils:mob_swab"
 				type: "item"
 			}]
-			x: -0.5d
+			x: -1.0d
 			y: 0.0d
 		}
 		{
@@ -129,9 +129,34 @@
 				item: "mob_grinding_utils:gm_chicken_feed"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -2.0d
 			y: 1.0d
 		}
+		{
+			id: "76D09E01D9AB07DF"
+			tasks: [{
+				id: "7983C7503C93AA83"
+				item: "minecraft:spawner"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			description: ["The egg incubator multiblock takes any spawn egg with some FE and creates some random loot of the input Spawn Egg."]
+			icon_scale: 2.0d
+			id: "6ED4F4CEF45EC1F8"
+			shape: "none"
+			subtitle: "&aLoot Lifecycle"
+			tasks: [{
+				id: "13BBD81C1BD54453"
+				item: "mbd2:egg_incubator"
+				type: "item"
+			}]
+			title: "&lEgg Incubator Multiblock"
+			x: 4.5d
+			y: -2.0d
+		}
 	]
-	title: "Mob Grinding Utils"
+	title: "Mob Loot"
 }
