@@ -266,6 +266,71 @@
 			x: -1.5d
 			y: -2.5d
 		}
+		{
+			dependencies: ["73EB173BC1EE04D0"]
+			icon: "immersiveengineering:bottling_machine"
+			icon_scale: 2.0d
+			id: "646C00545B81508C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6E56D335E66480EA"
+				table_id: 1003551246795076371L
+				type: "choice"
+			}]
+			shape: "none"
+			size: 1.0d
+			tasks: [
+				{
+					disable_toast: true
+					id: "0875648AB2932416"
+					item: "immersiveengineering:fluid_pump"
+					type: "item"
+				}
+				{
+					count: 2L
+					disable_toast: true
+					id: "496F21AAD81C6774"
+					item: "immersiveengineering:sheetmetal_iron"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "4D9D48A648324A9A"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 2L
+					disable_toast: true
+					id: "4909895EE1AA16A7"
+					item: "immersiveengineering:light_engineering"
+					type: "item"
+				}
+				{
+					count: 3L
+					disable_toast: true
+					id: "57AE798F8CCBFC2B"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					type: "item"
+				}
+				{
+					count: 3L
+					disable_toast: true
+					id: "127704F275717FA5"
+					item: "immersiveengineering:conveyor_basic"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "74C642195180FF09"
+					item: "immersiveengineering:mold_plate"
+					type: "item"
+				}
+			]
+			title: "&lBottling Machine"
+			x: 4.0d
+			y: -3.0d
+		}
 	]
 	title: "Placeholder"
 }

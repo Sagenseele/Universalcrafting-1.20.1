@@ -159,7 +159,7 @@
 			id: "397244BF016E5253"
 			tasks: [{
 				id: "2D62EE8F7E6C058E"
-				item: "ae2:cell_component_256k"
+				item: "mekanism:ultimate_tier_installer"
 				type: "item"
 			}]
 			x: 1.0d
@@ -239,5 +239,5 @@
 			y: 0.0d
 		}
 	]
-	title: "&l&4I&r&l&cn&r&l&df&r&l&5i&r&l&1n&r&l&9i&r&l&bt&r&l&3y&r &l&eA&r&l&6g&r&l&4e&r"
+	title: "&l7: &eT&r&l&6o&r &l&4I&r&l&cn&r&l&df&r&l&5i&r&l&1n&r&l&9i&r&l&bt&r&l&3y&r"
 }

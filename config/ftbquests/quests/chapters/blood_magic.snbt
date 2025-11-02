@@ -432,15 +432,15 @@
 				"Place Flowers around a 2x2 water source block and throw the lava crystal inside."
 			]
 			icon: "twilightforest:twilight_portal_miniature_structure"
-			icon_scale: 0.8d
+			icon_scale: 2.0d
 			id: "37B32C20370A246E"
 			rewards: [{
 				id: "7F1100E4E404EB9F"
 				item: "kubejs:universal_badge"
 				type: "item"
 			}]
-			shape: "gear"
-			size: 1.5d
+			shape: "none"
+			size: 1.0d
 			subtitle: "Unlocks &dTwilight Forest&r Chapter"
 			tasks: [{
 				dimension: "twilightforest:twilight_forest"
@@ -1041,59 +1041,6 @@
 			}]
 			x: 0.0d
 			y: 2.5d
-		}
-		{
-			dependencies: ["1F4A0441461B7D12"]
-			description: [
-				"You can automate the Blood Magic Altar with LaserIO. Put an Redstone Lamp underneath the altar. This will make the altar output a redstone signal, when the it finishes a craft."
-				""
-				"&3I&r&cL&r&4A&r"
-				""
-				"&3I = Inventory&r"
-				"&cL = Laser Node&r"
-				"&4A = Altar&r"
-				""
-				"Put two &eItem Cards&r into the side facing the altar. Set one on &einput&r and one on extract. Set the redstone signal on the Extract on HIGH. Put the &eRedstone Card&r on the same site."
-				""
-				"Put the &elast two cards&r on the site facing the inventory. Put the &eCounting Filter&r in the &eExtract Card&r and define the kind and number of items you want to keep in the inventory. Be sure to add at least 1 Stone, otherwise it will not allow the Stone to be transferred."
-				""
-				"Automate the Life Essence with the Well of Suffering Ritual."
-				""
-				"The inventory can be anything which allows inserting and extraction."
-			]
-			icon: "laserio:card_item"
-			id: "6D94027A7F84581C"
-			tasks: [
-				{
-					id: "627EC6D71D2469FA"
-					item: "laserio:laser_node"
-					type: "item"
-				}
-				{
-					count: 4L
-					id: "40D0A6A3A6E398A2"
-					item: { Count: 4, id: "laserio:card_item" }
-					type: "item"
-				}
-				{
-					id: "0353D2B709AD5D74"
-					item: "laserio:card_redstone"
-					type: "item"
-				}
-				{
-					id: "5B8CC8677E2D5F5C"
-					item: "minecraft:redstone_lamp"
-					type: "item"
-				}
-				{
-					id: "5BAD338C2E4AE485"
-					item: "laserio:filter_count"
-					type: "item"
-				}
-			]
-			title: "Blood Altar Automation"
-			x: 1.5d
-			y: -2.0d
 		}
 		{
 			dependencies: [

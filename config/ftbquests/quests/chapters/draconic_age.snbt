@@ -31,6 +31,15 @@
 			x: 11.5d
 			y: 5.5d
 		}
+		{
+			click: "#397244BF016E5253"
+			height: 1.0d
+			image: "kubejs:item/infinity_token"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: 6.5d
+		}
 	]
 	order_index: 5
 	quest_links: [ ]
@@ -447,5 +456,5 @@
 			y: -5.0d
 		}
 	]
-	title: "&l&5Chapter 6"
+	title: "&l&56: Draconia"
 }

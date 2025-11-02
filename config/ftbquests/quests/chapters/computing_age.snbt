@@ -329,6 +329,20 @@
 			x: 3.0d
 			y: -0.5d
 		}
+		{
+			dependencies: ["38F1FFED64928F99"]
+			icon_scale: 1.5d
+			id: "30A3A0BD4FFA7496"
+			shape: "none"
+			size: 1.0d
+			tasks: [{
+				id: "5A0F857CD229D2CE"
+				item: "kubejs:crystal_imperium"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -3.0d
+		}
 	]
-	title: "&l&bChapter 5"
+	title: "&l&b5: DATA!"
 }

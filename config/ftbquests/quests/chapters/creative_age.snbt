@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "creative_age"
 	group: "0D67931F734E7CE2"
+	hide_quest_until_deps_visible: true
 	icon: "storagedrawers:creative_vending_upgrade"
 	id: "1140EEBA9620BA8A"
 	order_index: 7
@@ -42,6 +43,8 @@
 			y: 1.5d
 		}
 		{
+			dependencies: ["16407104C2D7A594"]
+			hide_until_deps_complete: true
 			icon_scale: 2.0d
 			id: "5812511C5B6F5D36"
 			shape: "none"
@@ -55,5 +58,5 @@
 			y: 1.5d
 		}
 	]
-	title: "&l&dCreative Age&r"
+	title: "&l&d8: Bragging Rights&r"
 }

@@ -296,6 +296,7 @@
 				""
 				"&oBut now it's time to progress to the Early &3Industrial Age&r."
 			]
+			icon_scale: 2.0d
 			id: "3CF4FA8961C6D743"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -303,7 +304,7 @@
 				table_id: 7938350547759728332L
 				type: "choice"
 			}]
-			shape: "rsquare"
+			shape: "none"
 			size: 1.25d
 			subtitle: "Progress to &3Industrial Age&r"
 			tasks: [{
@@ -601,5 +602,5 @@
 			y: 3.0d
 		}
 	]
-	title: "&l&3Chapter 1"
+	title: "&l&31: Beginnings"
 }

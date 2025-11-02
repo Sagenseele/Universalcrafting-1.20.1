@@ -129,11 +129,11 @@
 		}
 		{
 			description: [
-				"Multiblock Structures are machines, which the name suggests, which are build with specific blocks. Mods creating these multiblocks are &dMultiblocked2 (MBD2)&r and &dImmersive Engineering (IE)&r. "
+				"Multiblock Structures come mostly from two mods, &dMultiblocked2 (MBD2)&r and &dImmersive Engineering (IE)&r. "
 				""
-				"In the MBD2 preview, you can click on any block and see its' substitutes on the left side. This will help you decide where to put the input/output/energy/fluid/etc. hatches other than the suggested place."
+				"In the &dMBD2&r JEI preview, you can click on any block and see its' components in the bottom and if you click on a block in the preview, you can see the substitutes on the left side. This will help you decide where to put the input/output/energy/fluid/etc. hatches else than the suggested place."
 				""
-				"IE multiblocks are static and must be built as seen in the preview."
+				"&dIE&r multiblocks are static and must be built as seen in the preview."
 			]
 			disable_toast: true
 			id: "5C0B5DB8B09E0DE7"
