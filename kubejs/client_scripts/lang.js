@@ -27,6 +27,7 @@ ClientEvents.lang('en_us', event => {
     event.add('block.mbd2.gods_forge', 'Forge of the Infinity')
     event.add('block.mbd2.mana_input_hatch', 'Mana Input Hatch')
     event.add('block.mbd2.infuser', 'Infuser')
+    event.add('block.mbd2.egg_incubator', 'Egg Incubator')
     event.renameItem('industrialforegoing:plastic', 'Bio-Plastic')
     event.renameItem('kubejs:relic_level_up', 'Spacefarers\' Boon')
 
