@@ -11,6 +11,7 @@ ClientEvents.lang('en_us', event => {
     event.add('block.mbd2.item_output_tier_3', 'Item Output Mark III')
     event.add('block.mbd2.fluid_input_tier_2', 'Fluid Input Mark II')
     event.add('block.mbd2.fluid_input_tier_3', 'Fluid Input Mark III')
+    event.add('block.mbd2.fluid_input_tier_2', 'Fluid Output Mark II')
     event.add('block.mbd2.energy_input_tier_2', 'Energy Input Mark II')
     event.add('block.mbd2.energy_input_tier_3', 'Energy Input Mark III')
     event.add('block.mbd2.multiplex_hatch_mark_1', 'Multiplex Hatch Mark I')
@@ -24,6 +25,8 @@ ClientEvents.lang('en_us', event => {
     event.add('block.mbd2.crystal_cutter', 'Crystal Cutter')
     event.add('block.mbd2.model_computer', 'Model Computation Facility')
     event.add('block.mbd2.gods_forge', 'Forge of the Infinity')
+    event.add('block.mbd2.mana_input_hatch', 'Mana Input Hatch')
+    event.add('block.mbd2.infuser', 'Infuser')
     event.renameItem('industrialforegoing:plastic', 'Bio-Plastic')
     event.renameItem('kubejs:relic_level_up', 'Spacefarers\' Boon')
 
