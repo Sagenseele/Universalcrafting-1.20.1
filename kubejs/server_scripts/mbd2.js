@@ -1,41 +1,29 @@
-MBDMachineEvents.onBeforeRecipeModify('mbd2:matter_replicator', (event) => {
-    const mbdEvent = event.event;
-    const { machine, recipe } = mbdEvent;
-
-    let itemTrait = machine.getTraitByName("upgrade_card");
-    if (itemTrait == null) return;
-    let storage = itemTrait.storage;
-    let upgradeCount = storage.getStackInSlot(0).count;
-
-    //parallel recipe modifiers, the more upgrades in the upgrade slot, the more recipes processed in parallel
-    let parallelRecipe = machine.applyParallel(recipe, upgradeCount);
-    let copyRecipe = parallelRecipe.copy();
-
-    mbdEvent.setRecipe(copyRecipe);
-});
-
-
-/*MBDMachineEvents.onBeforeRecipeModify("mbd2:crystal_cutter", event => {
-    let e = event.getEvent()
-    let machine = e.machine
-    let machinePos = machine.pos
-
-    const offsets = [
-        { x: 1, y: 3, z: 0 }
-    ]
-
-    for (const offset of offsets) {
-        const adjacentBlock = machinePos.offset(offset.x, offset.y, offset.z)
-        if (machine.getLevel().getBlock(adjacentBlock).id == 'forbidden_arcanus:dark_netherstar_block') {
-            let parallelRecipe = machine.applyParallel(recipe, 4);
-            let copyRecipe = parallelRecipe.copy();
-            console.log("test")
-            e.setRecipe(copyRecipe)
-        }
-    }
-})*/
-
 ServerEvents.recipes((event) => {
+    // Infuser
+    event.recipes.mbd2.infuser()
+        .id("mbd2:infuser/infused/crystal_imperium")
+        .duration(200)
+        .priority(0)
+        .perTick(builder => builder
+            .inputFE(2048)
+        )
+        .inputItems("kubejs:crystal_soulless_imperium")
+        .outputItems("1x kubejs:crystal_imperium")
+
+    event.shaped(
+        Item.of('mbd2:infuser', 1),
+        [
+            '   ',
+            'CBC',
+            ' A '
+        ],
+            {
+                A:'ad_astra:etrium_block',
+                B:'powah:niotic_crystal_block',
+                C:'mekanism:elite_control_circuit'
+            }
+    )
+
     // Crystal Chamber
     event.shaped(
         Item.of('mbd2:crystal_chamber', 1),
@@ -74,7 +62,7 @@ ServerEvents.recipes((event) => {
     event.shaped(
         Item.of('mbd2:model_computer', 1),
         [
-            ' D ',
+            '   ',
             'EAE',
             'CBC'
         ],
@@ -82,7 +70,6 @@ ServerEvents.recipes((event) => {
             A: 'ae2:fluix_pearl',
             B: 'ae2:fluix_block',
             C: 'kubejs:turquoise_plate',
-            D: 'minecraft:stonecutter',
             E: 'mekanism:elite_control_circuit'
         }
     )
@@ -324,6 +311,7 @@ ServerEvents.recipes((event) => {
             .priority(0)
             .inputFE(2048)
             .inputItems('1x kubejs:machine_learning_processor', '64x hostilenetworks:prediction_matrix', model.ingredient)
+            .biome("ad_astra:orbit")
             .outputItems(JsonIO.of({
                 "count": 1,
                 "value": {
@@ -341,7 +329,7 @@ ServerEvents.recipes((event) => {
         .priority(0)
         .inputFE(2048)
         .inputFluids("water 2000")
-        .inputItems("ae2:cell_component_64k", "1x hostilenetworks:blank_data_model")
+        .inputItems("ae2:cell_component_64k", "1x kubejs:mob_simulation_data", "1x hostilenetworks:blank_data_model")
         .outputItems("1x kubejs:printed_machine_learning_processor")
 
     event.recipes.mbd2.crystal_cutter()
@@ -352,4 +340,65 @@ ServerEvents.recipes((event) => {
         .inputFluids("water 2000")
         .inputItems("refinedstorage:64k_storage_part", "1x hostilenetworks:blank_data_model")
         .outputItems("1x kubejs:printed_machine_learning_processor")
+})
+
+MBDMachineEvents.onBeforeRecipeModify('mbd2:matter_replicator', (event) => {
+    const mbdEvent = event.event;
+    const { machine, recipe } = mbdEvent;
+
+    let itemTrait = machine.getTraitByName("upgrade_card");
+    if (itemTrait == null) return;
+    let storage = itemTrait.storage;
+    let upgradeCount = storage.getStackInSlot(0).count;
+    let parallelRecipe = machine.applyParallel(recipe, upgradeCount);
+    let copyRecipe = parallelRecipe.copy();
+
+    mbdEvent.setRecipe(copyRecipe);
+});
+// Infuser
+MBDMachineEvents.onBeforeRecipeModify('mbd2:infuser', (event) => {
+
+    var test = Math.random();
+    var item = "";
+    switch (true) {
+        case (test < 0.2):
+            item = "1x bloodmagic:vengefulcrystal";
+            break;
+        case (test < 0.4):
+            item = "1x bloodmagic:corrosivecrystal";
+            break;
+        case (test < 0.6):
+            item = "1x bloodmagic:destructivecrystal";
+            break;
+        case (test < 0.8):
+            item = "1x bloodmagic:steadfastcrystal";
+            break;
+        case (test >= 0.8):
+            item = "1x bloodmagic:defaultcrystal";
+            break;
+    }
+    const mbdEvent = event.getEvent();
+    const { machine, recipe } = mbdEvent;
+
+    if ((/^(?!mbd2:infuser\/infused).*/).test(recipe.getId())) return
+    //if(xyz nicht vorhanden) {machine.setWaiting} else {}
+    let builder = recipe.toBuilder();
+    builder.inputItems(item)
+    let newRecipe = builder.buildMBDRecipe();
+    mbdEvent.setRecipe(newRecipe);
+});
+
+// Forge of the Infinity
+MBDMachineEvents.onRecipeWorking('mbd2:gods_forge', event => {
+    const mbdEvent = event.getEvent();
+    const { machine, recipe, progress } = mbdEvent;
+    let multiplier = 1.01
+    let cM = new ContentModifier(multiplier, 0)
+    let newRecipe = recipe.copy(cM)
+    mbdEvent.setRecipe(newRecipe)
+    //let newRecipe = builder.buildMBDRecipe();
+    //let multiplier = 1.01**progress
+    //let newRecipe = recipe.toBuilder()
+    //let copyRecipe = newRecipe.copy()
+
 })

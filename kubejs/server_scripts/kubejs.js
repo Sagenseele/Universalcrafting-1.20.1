@@ -12,6 +12,19 @@ ServerEvents.recipes(event => {
         }
     )
 
+    event.shaped(
+        Item.of('kubejs:reinforced_matter_extraction_device', 1),
+        [
+            'AAA',
+            'ABA',
+            'AAA'
+        ],
+        {
+            A: '#forge:plates/obsidian',
+            B: 'immersiveengineering:component_electronic_adv'
+        }
+    )
+
     // Steel Bore Head
     event.shaped(
         Item.of('kubejs:steel_bore_head', 1),

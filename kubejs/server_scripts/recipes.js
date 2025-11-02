@@ -563,7 +563,19 @@ ServerEvents.recipes(event => {
     ],
     {
       A: 'kubejs:sulfeel_plate',
-      B: 'minecraft:bucket'
+      B: 'immersiveengineering:fluid_pump'
+    }
+  )
+  event.shaped(
+    Item.of('mbd2:fluid_output_tier_2', 1),
+    [
+      ' A ',
+      'ABA',
+      ' A '
+    ],
+    {
+      A: 'kubejs:sulfeel_plate',
+      B: 'create:fluid_valve'
     }
   )
   event.shaped(
@@ -652,7 +664,7 @@ ServerEvents.recipes(event => {
     ],
     {
       A: 'kubejs:turquoise_plate',
-      B: 'minecraft:bucket'
+      B: 'immersiveengineering:fluid_pump'
     }
   )
   event.shaped(
@@ -697,6 +709,23 @@ ServerEvents.recipes(event => {
       C: 'ae2:crafting_accelerator'
     }
   )
+
+  // Mbd2 Gadgets
+  event.remove({output: 'mbd2:mbd_gadgets'})
+  event.shaped(
+    Item.of('mbd2:mbd_gadgets', 1),
+    [
+      ' BC',
+      'BAB',
+      'CB '
+    ],
+    {
+      A: '#uc:components/electric_motor',
+      B: '#forge:plates/iron',
+      C: 'immersiveengineering:stick_treated'
+    }
+  )
+
   // motorized frame
 
   event.shaped(
@@ -774,8 +803,6 @@ ServerEvents.recipes(event => {
     'thermal:tin_gear',
     'kubejs:electric_motor'
   )
-
-
 
   // Redstone Engineering Block
   event.replaceInput(
@@ -905,6 +932,9 @@ ServerEvents.recipes(event => {
       C: '#forge:obsidian'
     }
   )
+
+  // Soulless Imperium Crystal
+  default_3alloys("kubejs:crystal_soulless_imperium", 25000, '1x powah:crystal_niotic', "2x bloodmagic:ingot_hellforged", "1x kubejs:crystal_tertium")
 
   //Reliquary
   event.remove({ id: 'reliquary:mob_charm_belt' })
