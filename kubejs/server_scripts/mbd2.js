@@ -338,7 +338,7 @@ ServerEvents.recipes((event) => {
         .priority(0)
         .inputFE(2048)
         .inputFluids("water 2000")
-        .inputItems("refinedstorage:64k_storage_part", "1x hostilenetworks:blank_data_model")
+        .inputItems("refinedstorage:64k_storage_part", "1x kubejs:mob_simulation_data", "1x hostilenetworks:blank_data_model")
         .outputItems("1x kubejs:printed_machine_learning_processor")
 })
 
