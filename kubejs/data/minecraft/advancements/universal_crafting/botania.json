@@ -1,0 +1,41 @@
+{
+  "parent": "minecraft:universal_crafting/root",
+  "criteria": {
+    "apothecary_default": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "botania:apothecary_default"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "text": "Look at all those pretty flowers!"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "botania:apothecary_default"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Chapter Botania unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "apothecary_default"
+    ]
+  ],
+  "rewards": {
+    "experience": 50
+  },
+  "sends_telemetry_event": false
+}

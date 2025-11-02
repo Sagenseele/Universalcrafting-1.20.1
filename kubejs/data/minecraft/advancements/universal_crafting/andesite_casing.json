@@ -1,0 +1,41 @@
+{
+  "parent": "minecraft:universal_crafting/root",
+  "criteria": {
+    "andesite_casing": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "create:andesite_casing"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "text": "Create is optional, I hope you're happy."
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "create:andesite_casing"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Industrial Age unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "andesite_casing"
+    ]
+  ],
+  "rewards": {
+    "experience": 50
+  },
+  "sends_telemetry_event": false
+}

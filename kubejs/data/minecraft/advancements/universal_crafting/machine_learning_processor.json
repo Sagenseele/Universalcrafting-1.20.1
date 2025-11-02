@@ -1,0 +1,41 @@
+{
+  "parent": "minecraft:universal_crafting/electrical_machine_casing",
+  "criteria": {
+    "machine_learning_processor": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:machine_learning_processor"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "text": "So much data but so little time"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "kubejs:machine_learning_processor"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Technology Age unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "machine_learning_processor"
+    ]
+  ],
+  "rewards": {
+    "experience": 50
+  },
+  "sends_telemetry_event": false
+}

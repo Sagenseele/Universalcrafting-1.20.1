@@ -1,0 +1,41 @@
+{
+  "parent": "minecraft:universal_crafting/machine_frame",
+  "criteria": {
+    "electrical_machine_casing": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:electrical_machine_casing"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "text": "To infinity and beyond!"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "kubejs:electrical_machine_casing"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Space Age unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "electrical_machine_casing"
+    ]
+  ],
+  "rewards": {
+    "experience": 50
+  },
+  "sends_telemetry_event": false
+}

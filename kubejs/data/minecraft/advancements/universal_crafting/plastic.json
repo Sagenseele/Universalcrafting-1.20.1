@@ -1,0 +1,41 @@
+{
+  "parent": "minecraft:universal_crafting/machine_frame",
+  "criteria": {
+    "plastic": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pneumaticcraft:plastic"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "text": "You're favorite (and necessary) mass storage options."
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "pneumaticcraft:plastic"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Chapter AE2/RS unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "plastic"
+    ]
+  ],
+  "rewards": {
+    "experience": 50
+  },
+  "sends_telemetry_event": false
+}

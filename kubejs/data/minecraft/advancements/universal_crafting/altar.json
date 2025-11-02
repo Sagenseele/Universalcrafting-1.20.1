@@ -1,0 +1,41 @@
+{
+  "parent": "minecraft:universal_crafting/root",
+  "criteria": {
+    "altar": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "bloodmagic:altar"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "text": "This will definitely hurt."
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "bloodmagic:altar"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Chapter Blood Magic unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "altar"
+    ]
+  ],
+  "rewards": {
+    "experience": 50
+  },
+  "sends_telemetry_event": false
+}

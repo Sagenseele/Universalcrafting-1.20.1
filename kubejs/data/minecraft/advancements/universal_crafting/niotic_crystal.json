@@ -1,0 +1,41 @@
+{
+  "parent": "minecraft:universal_crafting/machine_frame",
+  "criteria": {
+    "niotic_crystal": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "powah:niotic_crystal"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "text": "A placeholder for now"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "powah:niotic_crystal"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Draconia Age unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "niotic_crystal"
+    ]
+  ],
+  "rewards": {
+    "experience": 50
+  },
+  "sends_telemetry_event": false
+}

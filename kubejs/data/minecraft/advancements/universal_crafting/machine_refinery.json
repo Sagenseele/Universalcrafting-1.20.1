@@ -1,0 +1,41 @@
+{
+  "parent": "minecraft:universal_crafting/machine_frame",
+  "criteria": {
+    "machine_refinery": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "thermal:machine_refinery"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "text": "I wish we had Immersive Petroleum in this version..."
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "thermal:machine_refinery"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Chapter Mystical Agriculture (1) unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "machine_refinery"
+    ]
+  ],
+  "rewards": {
+    "experience": 50
+  },
+  "sends_telemetry_event": false
+}

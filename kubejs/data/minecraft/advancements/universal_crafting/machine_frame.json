@@ -1,0 +1,41 @@
+{
+  "parent": "minecraft:universal_crafting/andesite_casing",
+  "criteria": {
+    "machine_frame": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "thermal:machine_frame"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "text": "Bzzzzzzzzzt!"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "thermal:machine_frame"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Electrical Age unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "machine_frame"
+    ]
+  ],
+  "rewards": {
+    "experience": 50
+  },
+  "sends_telemetry_event": false
+}

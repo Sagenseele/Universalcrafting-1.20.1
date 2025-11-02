@@ -1,0 +1,29 @@
+{
+  "criteria": {
+    "overworld": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "minecraft:textures/block/netherite_block.png",
+    "description": {
+      "text": "Spacefarer ahoy!"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "kubejs:infinity_token"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Welcome to Universal Crafting"
+    }
+  },
+  "requirements": [
+    [
+      "overworld"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
