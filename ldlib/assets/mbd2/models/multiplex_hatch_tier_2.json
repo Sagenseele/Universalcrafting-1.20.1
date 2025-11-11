@@ -1,0 +1,9 @@
+{
+	"parent": "minecraft:block/orientable",
+	"textures": {
+		"front": "kubejs:block/multiplex_hatch_tier_2",
+		"side": "kubejs:block/multiplex_hatch_tier_2",
+		"top": "kubejs:block/multiblock_tier_2",
+		"bottom": "kubejs:block/multiblock_tier_2"
+	}
+}
