@@ -1,0 +1,31 @@
+{
+  "feature": "thermal:apatite_ore",
+  "placement": [
+    {
+      "type": "thermal:config",
+      "config": "apatite_ore"
+    },
+    {
+      "count": 5,
+      "type": "minecraft:count"
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:trapezoid",
+        "max_inclusive": {
+          "absolute": 0
+        },
+        "min_inclusive": {
+          "absolute": -64
+        }
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}
