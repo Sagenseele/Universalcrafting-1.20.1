@@ -98,15 +98,11 @@ StartupEvents.registry('fluid', event => {
         { material: "soilent", color: 0xffffff },
         { material: "turquoise", color: 0xffffff },
         { material: "sulfeel", color: 0xffffff },
-        { material: "titanium", color: 0xffffff },
-        { material: "mangan", color: 0xffffff },
-        { material: "cobalt", color: 0xffffff },
-        { material: "platinum", color: 0xffffff },
     ]
-    liquid_metal.forEach(element => {
+    /*liquid_metal.forEach(element => {
         event.create('molten_' + element.material).thickTexture(element.color).tag('forge:molten/' + element.material)
 
-    });
+    });*/
 
     thickFluid('liquid_chaos', 0x1f1f1f)
     thickFluid('liquid_glass', 0xbdbdbd)
