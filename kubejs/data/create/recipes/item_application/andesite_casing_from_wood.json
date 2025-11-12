@@ -1,0 +1,16 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "tag": "create:modded_stripped_wood"
+    },
+    {
+      "item": "bloodmagic:blankslate"
+    }
+  ],
+  "results": [
+    {
+      "item": "create:andesite_casing"
+    }
+  ]
+}
