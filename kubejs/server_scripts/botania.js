@@ -51,10 +51,10 @@ ServerEvents.recipes(event => {
         type: "botania:runic_altar",
         ingredients: [
             { item: "botania:rune_mana" },
-            { item: "bloodmagic:blankslate" },
-            { item: "bloodmagic:blankslate" },
-            { item: "bloodmagic:blankslate" },
-            { item: "bloodmagic:blankslate" }
+            { item: "bloodmagic:reinforcedslate" },
+            { item: "bloodmagic:reinforcedslate" },
+            { item: "bloodmagic:reinforcedslate" },
+            { item: "bloodmagic:reinforcedslate" }
         ],
         mana: 2000.0,
         output: { count: 4.0, item: "forbidden_arcanus:rune" }

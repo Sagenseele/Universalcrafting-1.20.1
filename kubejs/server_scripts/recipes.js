@@ -52,7 +52,7 @@ ServerEvents.recipes(event => {
         Item.of('silentgear:prospector_hammer'),
         raw
       ]
-    ).damageIngredient(0).keepIngredient('silentgear:prospector_hammer')
+    ).damageIngredient(Item.of('silentgear:prospector_hammer')).keepIngredient('silentgear:prospector_hammer')
   }
   function kubejs_crushing(name) {
     var crushed = 'kubejs:crushed_' + name
@@ -73,6 +73,10 @@ ServerEvents.recipes(event => {
   function default_plate(plate, ingot) {
     event.recipes.create.pressing(plate, ingot)
     event.recipes.thermal.press(plate, ingot)
+    event.shapeless(plate, [
+      ingot,
+      Item.of('immersiveengineering:hammer')
+    ]).damageIngredient(Item.of('immersiveengineering:hammer')).keepIngredient('immersiveengineering:hammer')
   }
 
   function default_rod(rod, ingot) {
@@ -259,6 +263,13 @@ ServerEvents.recipes(event => {
   // Overgrown Wood Log
   // Look for Datapack...
 
+  // Storage Terminal
+  event.replaceInput(
+    { output: 'toms_storage:ts.storage_terminal' },
+    'minecraft:glowstone',
+    'kubejs:multiblock_tier_1'
+  )
+  
   // Water Wheel
   event.replaceInput(
     { output: 'create:water_wheel' },

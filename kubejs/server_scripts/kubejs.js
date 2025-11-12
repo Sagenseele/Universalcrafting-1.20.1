@@ -16,12 +16,27 @@ ServerEvents.recipes(event => {
         Item.of('kubejs:reinforced_matter_extraction_device', 1),
         [
             'AAA',
-            'ABA',
+            'ACB',
             'AAA'
         ],
         {
             A: '#forge:plates/obsidian',
-            B: 'immersiveengineering:component_electronic_adv'
+            B: 'immersiveengineering:component_electronic_adv',
+            C: 'kubejs:simple_matter_extraction_device'
+        }
+    )
+
+    event.shaped(
+        Item.of('kubejs:hellish_matter_extraction_device', 1),
+        [
+            'BAB',
+            'ACA',
+            'BAB'
+        ],
+        {
+            A: 'ae2:engineering_processor',
+            B: 'mninecraft:blaze_rod',
+            C: 'kubejs:reinforced_matter_extraction_device'
         }
     )
 
