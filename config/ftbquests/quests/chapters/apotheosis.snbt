@@ -46,6 +46,7 @@
 		}
 		{
 			dependencies: ["3DF8E8B1A7AAA0FA"]
+			description: ["Upgrades gems to their next tier."]
 			id: "387415B4F201BD59"
 			rewards: [{
 				id: "091A578BDBD472E8"
@@ -63,6 +64,7 @@
 		}
 		{
 			dependencies: ["3DF8E8B1A7AAA0FA"]
+			description: ["Salvage Gear to get affix material from equipment or gem dust from gems."]
 			id: "01700AA96E160D16"
 			rewards: [{
 				id: "02E57E80D4230717"
@@ -654,6 +656,7 @@
 		}
 		{
 			dependencies: ["3DF8E8B1A7AAA0FA"]
+			description: ["Reforges every type of equipment until rare with the respective affix material and sigils of rebirth."]
 			id: "2567C6EE90B2E73A"
 			rewards: [{
 				id: "7F1537579B121543"
@@ -671,6 +674,7 @@
 		}
 		{
 			dependencies: ["2567C6EE90B2E73A"]
+			description: ["Reforges every type of equipment until mythic with the respective affix material material and sigils of rebirth."]
 			id: "2DAC4626E52D93E8"
 			rewards: [{
 				id: "0A64E7177C8D1A9F"
@@ -1522,9 +1526,9 @@
 			invisible: true
 			subtitle: "A little strong, don't you think?"
 			tasks: [{
-				advancement: "apotheosis:affix/root"
+				advancement: "apotheosis:affix/gem"
 				criterion: ""
-				id: "0732524FA8BE2369"
+				id: "62F661BA4FA829E0"
 				type: "advancement"
 			}]
 			x: 7.514859693877554d

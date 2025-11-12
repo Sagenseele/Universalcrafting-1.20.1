@@ -115,7 +115,7 @@
 				item: "minecraft:raw_iron"
 				type: "item"
 			}]
-			x: 6.5d
+			x: 5.0d
 			y: -1.5d
 		}
 		{
@@ -289,7 +289,10 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["183FD7820BAED84B"]
+			dependencies: [
+				"775EDDCE62BF85C9"
+				"2C42DA8832785E97"
+			]
 			description: [
 				"&oThis is the result of my early and rudimentary plans to get to the Infinity Token. It took some sweat and pain but finally I got it.&r"
 				"&oWhile I was studying in the &6Spacefarers' Guild&r&o, I found some historical blueprints of machines. I think I can rebuild some of them from my memory. But maybe I can find a way to write them down for future uses.&r"
@@ -313,8 +316,8 @@
 				type: "item"
 			}]
 			title: "&lAndesite Casing&r"
-			x: 9.5d
-			y: 0.0d
+			x: 7.0d
+			y: 1.5d
 		}
 		{
 			description: [
@@ -322,7 +325,7 @@
 				""
 				"&oLet's see if the guild's teachings help me survive on this planet. I should use my wordly and otherworldy knowledge to overcome this situation.&r"
 				""
-				"&oThey gave me a &epiece of dirt&r &oand and &eoak sapling&r and left me with my &2Matter Extraction Device&r&o. Despite its' simple nature, it should help me in my endeavours.&r"
+				"&oThey gave me a &epiece of dirt&r &oand &eoak sapling&r &oand left me with my &2Matter Extraction Device&r&o. Despite its' simple nature, it should help me in my endeavours.&r"
 			]
 			id: "4E8852849B2AE129"
 			rewards: [
@@ -435,8 +438,8 @@
 				type: "item"
 			}]
 			title: "&l&2Petal Apothecary"
-			x: 6.0d
-			y: 3.0d
+			x: 5.625d
+			y: 4.071428571428569d
 		}
 		{
 			dependencies: ["614746BDE83A205E"]
@@ -471,8 +474,8 @@
 				item: "minecraft:dried_kelp"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 6.0d
+			x: 3.0d
+			y: 5.5d
 		}
 		{
 			dependencies: [
@@ -523,7 +526,7 @@
 			description: [
 				"&oI need to create my own farm in order to survive. I think a hoe will come in handy to till the lands.&r"
 				""
-				"If you put a &ehoe&r in your &eoff-hand&r and sneak you will create additional grow ticks, which will make saplings and plants &2grow faster&r."
+				"If you put a &ehoe&r in your &eoff-hand&r and sneak you will create additional grow ticks, which will make saplings and plants in your vicinity &2grow faster&r."
 			]
 			icon: {
 				Count: 1
@@ -548,8 +551,8 @@
 		}
 		{
 			dependencies: [
-				"06B32FE435519E72"
 				"3769A09966F7D776"
+				"06B32FE435519E72"
 			]
 			description: ["&oI found a way to infuse the simple gateway pearl I produced earlier into a special Gateway Pearl. If I can endure the trial and be victorious. I think the reward is some &2livestock&r&o, which I need desperately.&r"]
 			id: "37E46535A384521B"
@@ -571,8 +574,8 @@
 				}
 				type: "item"
 			}]
-			x: 8.5d
-			y: 3.0d
+			x: 9.375d
+			y: 3.75d
 		}
 		{
 			dependencies: ["183FD7820BAED84B"]
@@ -587,7 +590,7 @@
 				item: "kubejs:simple_spiritual_core"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 11.0d
 			y: 1.0d
 		}
 		{
@@ -599,6 +602,58 @@
 				type: "item"
 			}]
 			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7A1C76596F111A92"]
+			id: "775EDDCE62BF85C9"
+			tasks: [{
+				id: "43D3F7F3656014E6"
+				item: "bloodmagic:blankslate"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7891375D311E6302"]
+			description: ["Any modded stripped log or wood can be used. Botania logs will be the first you encounter."]
+			icon: "botania:stripped_livingwood_log"
+			id: "2C42DA8832785E97"
+			tasks: [{
+				id: "53AA4597626D49D7"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "create:modded_stripped_logs"
+					}
+				}
+				title: "Any #create:modded_stripped_logs"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["06B32FE435519E72"]
+			description: [
+				"Place blocks in this planar pattern to get them converted:"
+				""
+				"&eOOO&r"
+				"&eO&rF&eO&r"
+				"&eOOO&r"
+				""
+				"&eBlock (Logs | Stones)&r"
+				"Pure Daisy&r"
+			]
+			id: "7891375D311E6302"
+			tasks: [{
+				id: "2CDAA4A30541A190"
+				item: "botania:pure_daisy"
+				type: "item"
+			}]
+			x: 7.5d
 			y: 3.0d
 		}
 	]

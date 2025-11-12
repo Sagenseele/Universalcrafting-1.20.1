@@ -12,16 +12,24 @@
 			image: "minecraft:block/command_block_back"
 			rotation: 0.0d
 			width: 1.0d
-			x: 2.5d
-			y: -2.0d
+			x: 3.5d
+			y: -1.0d
 		}
 		{
 			height: 1.0d
-			image: "ae2:block/controller"
+			image: "ae2:block/controller_powered"
 			rotation: 0.0d
 			width: 1.0d
-			x: 3.5d
-			y: -2.0d
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: -1.0d
 		}
 	]
 	order_index: 0
@@ -46,7 +54,7 @@
 			}]
 			title: "The &5Goal&r"
 			x: 0.0d
-			y: 3.0d
+			y: 2.0d
 		}
 		{
 			description: [
@@ -75,10 +83,11 @@
 		{
 			can_repeat: true
 			disable_toast: true
+			icon: "ae2:controller"
 			id: "079DF5F7F17FEEB0"
 			optional: true
 			rewards: [{
-				auto: "enabled"
+				auto: "invisible"
 				command: "/ae2 channelmode default"
 				id: "0C768036C863D23D"
 				type: "command"
@@ -88,16 +97,17 @@
 				title: "Enable AE2 Channels"
 				type: "checkmark"
 			}]
-			x: 3.5d
-			y: -1.0d
+			x: 4.5d
+			y: 0.0d
 		}
 		{
 			can_repeat: true
 			disable_toast: true
+			icon: "ae2:fluix_glass_cable"
 			id: "7A229C655280C52D"
 			optional: true
 			rewards: [{
-				auto: "enabled"
+				auto: "invisible"
 				command: "/ae2 channelmode infinite"
 				id: "3EFF1DC7DF5E3301"
 				type: "command"
@@ -107,16 +117,17 @@
 				title: "Disable AE2 Channels"
 				type: "checkmark"
 			}]
-			x: 3.5d
-			y: 0.0d
+			x: 4.5d
+			y: 1.0d
 		}
 		{
 			description: [
-				"Hover over any item and press &eR&r to see its' recipes or &eU&r to see its' products. "
+				"Hover over any item and press &eR&r to see its' recipes or &eU&r to where it's used in."
 				""
 				"To use this in quests, you have to click into the quest and on the item. On the 'valid item' screen, you can use these two Keys."
 			]
 			disable_toast: true
+			icon: "minecraft:writable_book"
 			id: "13DD6B8367230029"
 			optional: true
 			tasks: [{
@@ -136,6 +147,7 @@
 				"&dIE&r multiblocks are static and must be built as seen in the preview."
 			]
 			disable_toast: true
+			icon: "kubejs:multiblock_tier_1"
 			id: "5C0B5DB8B09E0DE7"
 			optional: true
 			tasks: [{
@@ -150,9 +162,9 @@
 			description: [
 				"Hello and welcome to my Modpack &6Universal Crafting&r."
 				""
-				"It's an Expert Modpack which uses multiple Mods to create its' own progression. It's a culmination of magic and tech mods like Botania, Blood Magic, Mekanism, Multiblocked2, Forbidden \\& Arcanus and of course Applied Energistics 2 and Refined Storage."
+				"It's an Expert Modpack which uses multiple Mods to create its' own progression. A mix of magic and tech mods like Botania, Blood Magic, Mekanism, Multiblocked2, Forbidden \\& Arcanus and of course Applied Energistics 2 and Refined Storage."
 				""
-				"There are many multiblocks added and recipes tweaked to create the mentioned progression. Work trough the different ages of the Quest Book and get to the final goal: "
+				"There are many multiblocks added and recipes tweaked to create the mentioned progression. Work trough the different chapters of the Quest Book and get to the final goal: "
 				""
 				"The &l&4I&r&l&cn&r&l&df&r&l&5i&r&l&1n&r&l&9i&r&l&bt&r&l&3y&r &l&eT&r&l&6o&r&l&4k&r&l&ce&r&l&dn&r."
 				""
@@ -175,6 +187,7 @@
 		}
 		{
 			description: ["Create a Team for yourself or others to join. Use the /ftbteams party invite command to invite others to your team. Quest data is shared between team members."]
+			icon: "modularrouters:player_module"
 			id: "0F7343E6B43B6387"
 			optional: true
 			rewards: [{
@@ -188,17 +201,19 @@
 				title: "Create a Team"
 				type: "checkmark"
 			}]
-			x: 2.5d
-			y: -1.0d
+			x: 3.5d
+			y: 0.0d
 		}
 		{
-			description: ["Ore generation has been tweaked, you will find ores deeper in the world but instead of small veins, there are big clusters down in the deepslate area. Between -64 and 0"]
+			description: ["Ore generation has been tweaked, you will find ores only between &e-64&r and &e0&r in the world and instead of single blocks, ares are concentrated in clusters."]
+			icon: "minecraft:iron_ore"
 			id: "727E4CC97B021F8A"
+			optional: true
 			tasks: [{
 				id: "163456C8683FF502"
-				title: "Ore Generation"
 				type: "checkmark"
 			}]
+			title: "Ore Generation"
 			x: -3.5d
 			y: 2.0d
 		}

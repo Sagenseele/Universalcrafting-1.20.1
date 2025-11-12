@@ -27,8 +27,8 @@
 			image: "kubejs:block/kinetic_crusher_active"
 			rotation: 0.0d
 			width: 1.0d
-			x: 13.5d
-			y: -7.0d
+			x: 12.0d
+			y: -6.0d
 		}
 		{
 			click: "#6362B0DBBD9321C2"
@@ -41,7 +41,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: 4.5d
-			y: -2.0d
+			y: -4.0d
 		}
 		{
 			click: "#06CC736E3E21C6BF"
@@ -66,6 +66,24 @@
 			x: 10.5d
 			y: 1.5d
 		}
+		{
+			alpha: 191
+			height: 2.0d
+			image: "immersiveengineering:block/multiblocks/coke_oven_on"
+			rotation: 0.0d
+			width: 2.0d
+			x: 10.5d
+			y: -3.0d
+		}
+		{
+			alpha: 191
+			height: 2.0d
+			image: "immersiveengineering:block/multiblocks/blast_furnace_on"
+			rotation: 0.0d
+			width: 2.0d
+			x: 12.5d
+			y: -3.0d
+		}
 	]
 	order_index: 1
 	quest_links: [ ]
@@ -88,10 +106,7 @@
 			y: -4.0d
 		}
 		{
-			dependencies: [
-				"3E8359A7FAB86AFB"
-				"52CCCBA9EF914842"
-			]
+			dependencies: ["52CCCBA9EF914842"]
 			description: ["Will be used for producing &3Creosote Oil&r and &eCoal Coke&r."]
 			icon: "immersiveengineering:coke_oven"
 			icon_scale: 2.0d
@@ -189,8 +204,8 @@
 					type: "item"
 				}
 			]
-			x: 12.5d
-			y: -7.0d
+			x: 12.0d
+			y: -5.0d
 		}
 		{
 			dependencies: [
@@ -273,10 +288,7 @@
 			y: -2.0d
 		}
 		{
-			dependencies: [
-				"0DA090A2DBE0219D"
-				"3E8359A7FAB86AFB"
-			]
+			dependencies: ["0DA090A2DBE0219D"]
 			icon: "immersiveengineering:blast_furnace"
 			icon_scale: 2.0d
 			id: "447AE5BD28EF8F92"
@@ -312,7 +324,7 @@
 			}]
 			title: "Automated Basic Resources"
 			x: 3.5d
-			y: -3.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["66E807F8876802C6"]
@@ -328,7 +340,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -3.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["46C0E33966D05CC5"]
@@ -344,7 +356,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: -3.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["3F6E0421CBB60E0C"]
@@ -358,7 +370,7 @@
 				type: "item"
 			}]
 			shape: "none"
-			size: 1.25d
+			size: 1.0d
 			subtitle: "Unlocks &dSilent Gear&r chapter"
 			tasks: [{
 				id: "64C9EEB325197BC4"
@@ -366,11 +378,15 @@
 				type: "item"
 			}]
 			title: "&lBlueprint Paper"
-			x: 9.5d
-			y: -3.5d
+			x: 8.0d
+			y: -6.0d
 		}
 		{
-			dependencies: ["0AB7A918CC24B33A"]
+			dependencies: [
+				"0AB7A918CC24B33A"
+				"3E8359A7FAB86AFB"
+			]
+			dependency_requirement: "one_completed"
 			id: "3F6E0421CBB60E0C"
 			rewards: [{
 				id: "3408EBDDC6606291"
@@ -383,7 +399,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: -3.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["13D7656F2F625BB4"]
@@ -495,6 +511,7 @@
 		}
 		{
 			dependencies: ["3E8359A7FAB86AFB"]
+			hide_dependency_lines: true
 			icon: "immersiveengineering:alloy_smelter"
 			icon_scale: 2.0d
 			id: "31F85638C4B2A0DC"
@@ -514,8 +531,13 @@
 			y: -4.0d
 		}
 		{
-			description: ["Used to create Immersive Engineering Multiblocks."]
-			hide_dependency_lines: true
+			dependencies: ["2CA8C43B77E48553"]
+			description: [
+				"Used to create Immersive Engineering Multiblocks."
+				""
+				"Can also crush some ores and make some plates."
+			]
+			icon_scale: 2.0d
 			id: "3E8359A7FAB86AFB"
 			rewards: [{
 				id: "50157E2DA57487BE"
@@ -535,8 +557,8 @@
 				}
 				type: "item"
 			}]
-			x: 11.5d
-			y: -4.5d
+			x: 5.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["3CF4FA8961C6D743"]
@@ -551,24 +573,27 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -0.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["59806AD6FB9191C4"]
 			description: ["Can be used to create different type of resources."]
+			icon_scale: 2.0d
 			id: "2D1182F120C39D71"
 			rewards: [{
 				id: "236B4A5E042DF614"
 				item: "kubejs:universal_badge"
 				type: "item"
 			}]
-			shape: "square"
-			size: 1.1d
+			shape: "none"
+			size: 1.0d
+			subtitle: "Unlocks &eMatter Replicator&r Chapter"
 			tasks: [{
 				id: "74E1FB360FE5FDC9"
 				item: "mbd2:matter_replicator"
 				type: "item"
 			}]
+			title: "&lMatter Replicator"
 			x: -1.0d
 			y: -2.0d
 		}
@@ -581,8 +606,8 @@
 				item: "create:chute"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -2.0d
+			x: 0.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["2CA8C43B77E48553"]
@@ -649,7 +674,7 @@
 			}]
 			title: "&dCreate&r"
 			x: 2.0d
-			y: -2.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["66E807F8876802C6"]
@@ -676,7 +701,7 @@
 				}
 			]
 			x: 3.5d
-			y: -0.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["45D3A3893156DB25"]
@@ -696,7 +721,7 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["66E807F8876802C6"]
+			dependencies: ["2CA8C43B77E48553"]
 			id: "59806AD6FB9191C4"
 			tasks: [{
 				id: "617C150AA79D9DD7"
@@ -730,7 +755,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: -3.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["31F85638C4B2A0DC"]
@@ -813,10 +838,7 @@
 			y: -5.5d
 		}
 		{
-			dependencies: [
-				"22C5A54B707BB1C0"
-				"3E8359A7FAB86AFB"
-			]
+			dependencies: ["22C5A54B707BB1C0"]
 			id: "1F04586347B94677"
 			rewards: [
 				{
@@ -837,6 +859,18 @@
 			}]
 			x: 15.5d
 			y: -5.5d
+		}
+		{
+			dependencies: ["08A5193D16056744"]
+			id: "48A5958B935C4930"
+			tasks: [{
+				id: "216336C709DA077B"
+				item: "botanypots:terracotta_hopper_botany_pot"
+				type: "item"
+			}]
+			title: "Automated Plants"
+			x: -1.0d
+			y: -4.0d
 		}
 	]
 	title: "&l&62 Industrialization"

@@ -331,15 +331,15 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["39DCE4A1171F8961"]
+			dependencies: ["0DCE023A246EBC5A"]
 			id: "52865C12EDB53C2A"
 			tasks: [{
 				id: "7BF7D7F718C674F7"
 				item: "mysticalagriculture:silicon_essence"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 1.5d
+			x: 14.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["39DCE4A1171F8961"]
@@ -463,15 +463,15 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["6CDDE4ECE4D4E5D7"]
+			dependencies: ["39695DC5E6C5AE9B"]
 			id: "67BD11FF2AF3C11C"
 			tasks: [{
 				id: "352209A00DD0E78A"
 				item: "mysticalagriculture:experience_essence"
 				type: "item"
 			}]
-			x: 11.0d
-			y: -2.0d
+			x: 8.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["39DCE4A1171F8961"]
@@ -527,6 +527,17 @@
 			}]
 			x: 14.5d
 			y: 1.0d
+		}
+		{
+			dependencies: ["0DCE023A246EBC5A"]
+			id: "1E52FC4D9D02CE9B"
+			tasks: [{
+				id: "1B2AB9225FF6CD43"
+				item: "mysticalagriculture:certus_quartz_essence"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 5.5d
 		}
 	]
 	title: "Matter Replicator"

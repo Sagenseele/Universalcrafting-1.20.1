@@ -166,6 +166,14 @@
 			x: -2.0d
 			y: 12.5d
 		}
+		{
+			height: 1.0d
+			image: "thermal:block/machines/machine_refinery_active"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: 8.5d
+		}
 	]
 	order_index: 2
 	quest_links: [ ]
@@ -992,7 +1000,6 @@
 		}
 		{
 			dependencies: [
-				"35855C390FC01279"
 				"065D472282798ED2"
 				"3730C6F65704087D"
 			]
@@ -1137,7 +1144,7 @@
 			y: 6.5d
 		}
 		{
-			dependencies: ["5E734D4D2784738C"]
+			dependencies: ["35855C390FC01279"]
 			id: "065D472282798ED2"
 			tasks: [{
 				id: "3C2D0A848942644B"

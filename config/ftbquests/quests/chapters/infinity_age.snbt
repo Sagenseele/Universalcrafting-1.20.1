@@ -94,7 +94,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: -0.5d
+			y: -1.0d
 		}
 		{
 			disable_toast: true
@@ -163,7 +163,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -0.5d
+			y: -1.0d
 		}
 		{
 			id: "43DFD4917980F3E9"
