@@ -19,7 +19,7 @@
     "description": {
       "text": "To infinity and beyond!"
     },
-    "frame": "task",
+    "frame": "goal",
     "hidden": false,
     "icon": {
       "item": "kubejs:electrical_machine_casing"

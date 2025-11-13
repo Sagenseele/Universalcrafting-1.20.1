@@ -17,9 +17,9 @@
   "display": {
     "announce_to_chat": false,
     "description": {
-      "text": "Create is optional, I hope you're happy."
+      "text": "Create is semi-optional, I hope you're happy."
     },
-    "frame": "task",
+    "frame": "goal",
     "hidden": false,
     "icon": {
       "item": "create:andesite_casing"

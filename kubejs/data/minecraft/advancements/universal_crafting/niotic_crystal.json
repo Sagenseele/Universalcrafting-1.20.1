@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:universal_crafting/machine_frame",
   "criteria": {
-    "niotic_crystal": {
+    "crystal_nitro": {
       "conditions": {
         "items": [
           {
             "items": [
-              "powah:niotic_crystal"
+              "powah:crystal_nitro"
             ]
           }
         ]
@@ -19,10 +19,10 @@
     "description": {
       "text": "A placeholder for now"
     },
-    "frame": "task",
+    "frame": "goal",
     "hidden": false,
     "icon": {
-      "item": "powah:niotic_crystal"
+      "item": "powah:crystal_nitro"
     },
     "show_toast": true,
     "title": {
@@ -31,7 +31,7 @@
   },
   "requirements": [
     [
-      "niotic_crystal"
+      "crystal_nitro"
     ]
   ],
   "rewards": {

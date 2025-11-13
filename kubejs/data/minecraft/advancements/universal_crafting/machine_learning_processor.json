@@ -19,7 +19,7 @@
     "description": {
       "text": "So much data but so little time"
     },
-    "frame": "task",
+    "frame": "goal",
     "hidden": false,
     "icon": {
       "item": "kubejs:machine_learning_processor"

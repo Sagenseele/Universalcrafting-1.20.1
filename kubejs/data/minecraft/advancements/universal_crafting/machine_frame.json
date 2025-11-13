@@ -19,7 +19,7 @@
     "description": {
       "text": "Bzzzzzzzzzt!"
     },
-    "frame": "task",
+    "frame": "goal",
     "hidden": false,
     "icon": {
       "item": "thermal:machine_frame"
