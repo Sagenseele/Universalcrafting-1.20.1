@@ -25,6 +25,7 @@ ServerEvents.recipes((event) => {
         )
         .inputItems("kubejs:crystal_soulless_imperium")
         .outputItems("1x kubejs:crystal_imperium")
+        .addDataString("infused", "Infused")
 
     event.shaped(
         Item.of('mbd2:infuser', 1),
@@ -89,23 +90,6 @@ ServerEvents.recipes((event) => {
             E: 'mekanism:elite_control_circuit'
         }
     )
-
-    const sorting1 = [
-        { material: "1x kubejs:crushed_darthium" }
-    ]
-
-    sorting1.forEach(item => {
-        event.recipes.mbd2.sorter()
-            .id('mbd2:sorter/' + item.material.split(':')[1])
-            .duration(60)
-            .priority(0)
-            .inputItems(item.material)
-            .outputItems('1x kubejs:red_dust', '1x thermal:cinnabar_dust')
-            .perTick(builder => builder
-                .inputStress(128)
-            )
-            .machineLevel(1)
-    })
 
     /*const metals = [
         { material: "iron" },
@@ -225,6 +209,7 @@ ServerEvents.recipes((event) => {
         { input: "#uc:med/tier3", output: "mysticalagriculture:nether_essence" },
         { input: "#uc:med/tier3", output: "mysticalagriculture:grains_of_infinity_essence" },
         { input: "#uc:med/tier3", output: "mysticalagriculture:fire_essence" },
+        { input: "#uc:med/tier3", output: "mysticalagriculture:nether_quartz_essence" },
         { input: "#uc:med/tier4", output: "mysticalagriculture:mystical_flower_essence" },
         { input: "#uc:med/tier4", output: "mysticalagriculture:steeleaf_essence" },
         { input: "#uc:med/tier4", output: "mysticalagriculture:ironwood_essence" },
@@ -284,7 +269,7 @@ ServerEvents.recipes((event) => {
         { name: "snow_golem", data: 6, ingredient: "64x minecraft:pumpkin" },
         { name: "spider", data: 6, ingredient: "64x minecraft:fermented_spider_eye" },
         { name: "squid", data: 6, ingredient: "8x reliquary:squid_beak" },
-        { name: "warden", data: 6, ingredient: "4x apotheosis:warden_tendril" },
+        { name: "warden", data: 6, ingredient: "4x silentcompat:sculk_alloy_ingot" },
         { name: "witch", data: 6, ingredient: "8x reliquary:witch_hat" },
         { name: "zombie", data: 6, ingredient: "64x minecraft:rotten_flesh" },
         { name: "wither_skeleton", data: 6, ingredient: "16x minecraft:wither_skeleton_skull" },
