@@ -387,11 +387,29 @@
 		{
 			dependencies: ["0822D70343B3C9B8"]
 			id: "6395672D569A6385"
-			tasks: [{
-				id: "15046741B5556D2A"
-				item: "bigreactors:basic_reactorcontroller"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "15046741B5556D2A"
+					item: "bigreactors:basic_reactorcontroller"
+					type: "item"
+				}
+				{
+					id: "210F6907DF86F8A4"
+					item: { Count: 23, id: "bigreactors:basic_reactorcasing" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "317011510C3BEEFB"
+					item: { Count: 2, id: "bigreactors:basic_reactorsolidaccessport" }
+					type: "item"
+				}
+				{
+					id: "7582015CBB3A2040"
+					item: "bigreactors:basic_reactorpowertapfe_passive"
+					type: "item"
+				}
+			]
 			x: -0.5d
 			y: -8.5d
 		}
@@ -460,6 +478,28 @@
 			}]
 			x: -1.5d
 			y: -9.5d
+		}
+		{
+			dependencies: ["636D5DC43180B027"]
+			description: [
+				"For some processing lines you need a space station. To create one you will need a rocket of any tier and:"
+				""
+				"&664x Iron Plate&r"
+				"&632x Steel Ingot&r"
+				"&632x Desh Ingot&r"
+				"&632x Desh Plate&r"
+				""
+				"In the travel menu of the rocket select a planet and click on the + Button to create a space station."
+			]
+			icon: "kubejs:probe_mk_i"
+			id: "719209F428FCB5BB"
+			tasks: [{
+				id: "7C997040F517281F"
+				title: "Space Station"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: -2.5d
 		}
 	]
 	title: "&l&e4: High up!"

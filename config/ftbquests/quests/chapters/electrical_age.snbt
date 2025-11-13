@@ -1208,15 +1208,15 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			size: 1.5d
+			size: 1.0d
 			tasks: [{
 				id: "7AC3208C498010D8"
 				item: "mekanismgenerators:heat_generator"
 				type: "item"
 			}]
-			title: "&l&3First Energy&r"
-			x: 0.0d
-			y: -0.55d
+			title: "&l&3Lava Energy&r"
+			x: 0.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["2468A11BD78A5360"]
@@ -1321,6 +1321,27 @@
 			}]
 			x: 14.5d
 			y: 8.5d
+		}
+		{
+			dependencies: ["2468A11BD78A5360"]
+			icon: "ironfurnaces:augment_generator"
+			id: "3BA2D052340404AE"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "3106DF813FAD13A5"
+					item: "ironfurnaces:augment_generator"
+					type: "item"
+				}
+				{
+					id: "5E0AEB4ED9761B77"
+					item: "ironfurnaces:augment_factory"
+					type: "item"
+				}
+			]
+			title: "&l&3Generator Energy&r"
+			x: -0.5d
+			y: -0.5d
 		}
 	]
 	title: "&l&13: Electrification"

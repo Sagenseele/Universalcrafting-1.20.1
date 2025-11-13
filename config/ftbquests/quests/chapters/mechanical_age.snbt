@@ -106,7 +106,7 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["52CCCBA9EF914842"]
+			dependencies: ["0BCCB2D6431A145C"]
 			description: ["Will be used for producing &3Creosote Oil&r and &eCoal Coke&r."]
 			icon: "immersiveengineering:coke_oven"
 			icon_scale: 2.0d
@@ -234,6 +234,7 @@
 			dependencies: ["3F6E0421CBB60E0C"]
 			icon: "create:mechanical_press"
 			id: "52CCCBA9EF914842"
+			optional: true
 			rewards: [{
 				id: "2D71150D9A262522"
 				item: "kubejs:universal_badge"
@@ -252,7 +253,7 @@
 				}
 			]
 			x: 8.0d
-			y: -2.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["20E1FE382D42E846"]
@@ -576,7 +577,7 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["59806AD6FB9191C4"]
+			dependencies: ["2CA8C43B77E48553"]
 			description: ["Can be used to create different type of resources."]
 			icon_scale: 2.0d
 			id: "2D1182F120C39D71"
@@ -594,7 +595,7 @@
 				type: "item"
 			}]
 			title: "&lMatter Replicator"
-			x: -1.0d
+			x: 0.5d
 			y: -2.0d
 		}
 		{
@@ -719,17 +720,6 @@
 			}]
 			x: 20.0d
 			y: -4.0d
-		}
-		{
-			dependencies: ["2CA8C43B77E48553"]
-			id: "59806AD6FB9191C4"
-			tasks: [{
-				id: "617C150AA79D9DD7"
-				item: "bloodmagic:blankslate"
-				type: "item"
-			}]
-			x: 0.5d
-			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -871,6 +861,49 @@
 			title: "Automated Plants"
 			x: -1.0d
 			y: -4.0d
+		}
+		{
+			dependencies: ["13D7656F2F625BB4"]
+			id: "43CBFE1F725539BA"
+			tasks: [{
+				id: "7306BB6DA005B496"
+				item: {
+					Count: 1
+					id: "silentgear:hammer"
+					tag: {
+						Damage: 0
+						SGear_Data: {
+							Construction: { }
+							Properties: { }
+							Rendering: { }
+						}
+						SGear_UUID: [I;
+							-1161607727
+							-557562297
+							-1491637132
+							270893249
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"3F6E0421CBB60E0C"
+				"52CCCBA9EF914842"
+			]
+			dependency_requirement: "one_completed"
+			id: "0BCCB2D6431A145C"
+			tasks: [{
+				id: "19C384E0E69F71C5"
+				item: "kubejs:lapiron_plate"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
 		}
 	]
 	title: "&l&62 Industrialization"
