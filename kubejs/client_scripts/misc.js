@@ -28,6 +28,15 @@ ItemEvents.tooltip(event => {
       text.add(1, [Text.of('Hold ').gold(), Text.of('Shift ').yellow(), Text.of('to see more info.').gold()])
     } else {
       text.add(1, [Text.of('Creates random loot of the ').gray(), Text.of('spawn egg').aqua(), Text.of(' in the controller slot.').gray()])
+      text.add(2, Text.of(''))
+      text.add(3, [Text.of('White glass can be replaced by ').gray(), Text.of('Rune of Sacrifice').yellow(), Text.of(', ').gray(), Text.of('Rune of Capacity').yellow(), Text.of(' and ').gray(), Text.of('Rune of Augmented Capacity').yellow(), Text.of('').gray()])
+      text.add(4, [Text.of('At least one Rune of Sacricife is needed for Life Essence output.').gray()])
+      text.add(5, [Text.of('Each Rune of Sacrifice adds 20 mB of Life Essence per Process.').gray()])
+      text.add(6, [Text.of('Each Rune of Capacity adds 20 mB times a flat 10% additional Life Essence.').gray()])
+      text.add(7, [Text.of('Each Rune of Superior Capacity increases the amount from Rune of Sacrifice and Capacity by 20% multiplicatively.').gray()])
+      text.add(8, Text.of(''))
+      text.add(9, [Text.of('The formula for Life essence is:').gray()])
+      text.add(10, [Text.of('20 mB * ').gray(), Text.of('Rune of Sacrifice').yellow(), Text.of(' + 20 mB * ').gray(), Text.of('Rune of Capacity').yellow(), Text.of(' * (1 + ').gray(), Text.of('Capacity Rune').yellow(), Text.of(' * 0.1)) * 1.2^').gray(), Text.of('Rune of Augmented Capacity').yellow()])
     }
   })
   event.addAdvanced('mbd2:matter_replicator', (item, davanced, text) => {
