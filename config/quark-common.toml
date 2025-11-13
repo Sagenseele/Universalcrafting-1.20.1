@@ -44,7 +44,7 @@
 	management = true
 	tools = true
 	tweaks = true
-	world = true
+	world = false
 	mobs = true
 	client = true
 	experimental = true
