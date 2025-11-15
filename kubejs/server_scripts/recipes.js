@@ -304,9 +304,6 @@ ServerEvents.recipes(event => {
   event.remove({ id: 'create:milling/lapis_lazuli' })
   event.recipes.create.milling('thermal:lapis_dust', 'minecraft:lapis_lazuli')
 
-  // Coke Bricks
-
-
   // Blast Bricks
   event.replaceInput(
     { output: 'immersiveengineering:blastbrick' },
