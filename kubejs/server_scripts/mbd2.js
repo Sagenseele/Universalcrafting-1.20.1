@@ -1,5 +1,5 @@
 ServerEvents.recipes((event) => {
-    
+
     function assembler(output, input) {
         event.recipes.mbd2.assembler()
             .id("mbd2:assembler/")
@@ -22,12 +22,12 @@ ServerEvents.recipes((event) => {
             'CBC',
             ' A '
         ],
-            {
+        {
             A: 'mob_grinding_utils:saw',
             B: 'minecraft:spawner',
             C: 'bloodmagic:dislocationrune',
             D: 'forbidden_arcanus:rune_block'
-            }
+        }
     )
 
     // Infuser
@@ -69,11 +69,11 @@ ServerEvents.recipes((event) => {
             'CBC',
             ' A '
         ],
-            {
+        {
             A: 'ad_astra:etrium_block',
             B: 'powah:niotic_crystal_block',
             C: 'mekanism:elite_control_circuit'
-            }
+        }
     )
 
     // Crystal Chamber
