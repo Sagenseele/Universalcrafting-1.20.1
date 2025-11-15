@@ -91,11 +91,12 @@ StartupEvents.registry('item', event => {
     standard_material('orangeish')
     standard_material('pale_green')
     standard_material('pale_yellow')
-    standard_material('red')
     standard_material('redish')
     standard_material('soilent')
     standard_material('turquoise')
     standard_material('sulfeel')
+    
+    standard_ore('darkium')
 
     intermediate_ore('catericite')
     intermediate_ore('darthium')

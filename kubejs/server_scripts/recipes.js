@@ -395,6 +395,11 @@ ServerEvents.recipes(event => {
   // Turquoise
   kubejs_items('turquoise')
 
+  // Darkium
+  default_plate('kubejs:darkium_plate', 'kubejs:darkium_ingot')
+  default_rod('kubejs:darkium_rod', 'kubejs:darkium_ingot')
+  default_compacting('kubejs:darkium_nugget', 'kubejs:darkium_ingot')
+
   // Sulfur
   event.recipes.create.milling('thermal:sulfur_dust', '#forge:coal_coke')
 
@@ -730,6 +735,19 @@ ServerEvents.recipes(event => {
       A: 'mysticalagriculture:imperium_ingot_block',
       B: 'kubejs:multiblock_tier_3',
       C: 'ae2:crafting_accelerator'
+    }
+  )
+
+  event.shaped(
+    Item.of('kubejs:darkium_frame', 1),
+    [
+      'A A',
+      ' B ',
+      'A A'
+    ],
+    {
+      A: 'kubejs:darkium_rod',
+      B: 'kubejs:turquoise_ingot',
     }
   )
 

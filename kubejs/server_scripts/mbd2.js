@@ -1,5 +1,19 @@
 ServerEvents.recipes((event) => {
     
+    function assembler(output, input) {
+        event.recipes.mbd2.assembler()
+            .id("mbd2:assembler/")
+            .duration(20)
+            .priority(0)
+            .perTick(builder => builder
+                .inputFE(512)
+            )
+            .inputFluids('pneumaticcraft:lubricant 10')
+            .inputItems(input)
+            .outputItems(output)
+    }
+
+    assembler('3x kubejs:darkium_rod', 'kubejs:darkium_ingot')
     // Egg Incubator
     event.shaped(
         Item.of('mbd2:egg_incubator', 1),

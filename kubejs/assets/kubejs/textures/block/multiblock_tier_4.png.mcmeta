@@ -1,0 +1,5 @@
+{
+    "ldlib": {
+        "connection": "kubejs:block/multiblock_tier_4_ctm"
+    }
+}
