@@ -96,6 +96,7 @@
 						woodType: "oak"
 					}
 				}
+				title: "Any #forge:barrels/wooden"
 				type: "item"
 			}]
 			x: -0.5d
@@ -104,11 +105,18 @@
 		{
 			dependencies: ["6EF4A97259AF071E"]
 			id: "699521E765A30C1E"
-			rewards: [{
-				id: "6BBF65E8ABD94584"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "6BBF65E8ABD94584"
+					item: "kubejs:universal_badge"
+					type: "item"
+				}
+				{
+					id: "7EB939356A4E0EB1"
+					item: "sophisticatedstorage:storage_tool"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "0610DD7CB6040DC6"
 				item: "sophisticatedstorage:controller"
@@ -137,11 +145,24 @@
 			dependencies: ["699521E765A30C1E"]
 			description: ["Place onto an inventory to view with all its contents. Can be used on a storage controller to access every connected barrel or drawer."]
 			id: "17C7F7BC85E4AD58"
-			rewards: [{
-				id: "0AD5D090D9D9F81A"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "0AD5D090D9D9F81A"
+					item: "kubejs:universal_badge"
+					type: "item"
+				}
+				{
+					id: "1A148C03F21F3F62"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:barrel"
+						tag: {
+							woodType: "oak"
+						}
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "67C498374D2278FE"
 				item: "toms_storage:ts.storage_terminal"
@@ -203,6 +224,11 @@
 		{
 			dependencies: ["2BDCA4985F99A0C3"]
 			id: "5EFBC35223AC3C59"
+			rewards: [{
+				id: "0FB10AE688229418"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "67D779B37DBCB70C"
 				item: "storagedrawers:quantify_key"
@@ -214,6 +240,11 @@
 		{
 			dependencies: ["2BDCA4985F99A0C3"]
 			id: "15F8AB584521DB52"
+			rewards: [{
+				id: "4568BF7C33B90F4B"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "230920BFD74B6B3A"
 				item: "storagedrawers:shroud_key"
@@ -225,6 +256,11 @@
 		{
 			dependencies: ["2BDCA4985F99A0C3"]
 			id: "35D52D893E12BBD8"
+			rewards: [{
+				id: "2C6C94FA078038FA"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1C4989F72421A48E"
 				item: "storagedrawers:framing_table"

@@ -304,8 +304,8 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: -4.0d
+			x: 5.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["38F1FFED64928F99"]
@@ -342,6 +342,94 @@
 			}]
 			x: 12.5d
 			y: -3.0d
+		}
+		{
+			dependencies: ["48147B2375650CBD"]
+			id: "5BD9D449896DA813"
+			tasks: [{
+				id: "2A8557A5330B77F9"
+				title: "Data Analyzer"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["48147B2375650CBD"]
+			id: "3DFC4F0D14A166DD"
+			tasks: [{
+				id: "7ADB7454A27881B1"
+				title: "vacuum attuned processing line"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7B3B80DA9D462C0F"]
+			id: "73E4AAFC79887FA1"
+			tasks: [{
+				id: "5293A60103F7C61E"
+				item: "mbd2:asteroid_catcher"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["73E4AAFC79887FA1"]
+			id: "0E357319C531181B"
+			tasks: [{
+				id: "5000955504D5740A"
+				item: "kubejs:darkium_ingot"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["73E4AAFC79887FA1"]
+			id: "1F98E5C9D267EE1C"
+			tasks: [{
+				id: "39D42D1524D33279"
+				item: "kubejs:etherium"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1F98E5C9D267EE1C"]
+			id: "5CC2A5F919F303F6"
+			tasks: [{
+				id: "50969082FBBC1BC3"
+				item: "kubejs:spectral_spiritual_core"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0E357319C531181B"]
+			id: "33BEC5AC072CFA70"
+			tasks: [{
+				id: "26FAE3F83C47CE72"
+				item: "kubejs:multiblock_tier_4"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["73E4AAFC79887FA1"]
+			id: "0C559F40EF65C05F"
+			tasks: [{
+				id: "4D18BFFCCB8D679E"
+				item: "kubejs:cryogenium"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.5d
 		}
 	]
 	title: "&l&b5: DATA!"

@@ -559,7 +559,14 @@
 				{
 					count: 4L
 					id: "60D17150974ED94A"
-					item: "twilightforest:firefly"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:insect"
+						}
+					}
+					title: "Any insect"
 					type: "item"
 				}
 				{

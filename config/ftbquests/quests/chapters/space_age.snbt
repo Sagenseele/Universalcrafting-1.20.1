@@ -64,6 +64,7 @@
 					type: "item"
 				}
 			]
+			title: "&lTo the Moon!"
 			x: -0.5d
 			y: -4.0d
 		}
@@ -101,7 +102,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: -15.0d
+			y: -15.5d
 		}
 		{
 			dependencies: ["0AC598705D877D4C"]
@@ -118,8 +119,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
-			y: -11.0d
+			x: 2.0d
+			y: -11.5d
 		}
 		{
 			dependencies: ["0822D70343B3C9B8"]
@@ -129,11 +130,12 @@
 				item: "mekanism:advanced_control_circuit"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -2.5d
 			y: -8.0d
 		}
 		{
 			dependencies: ["6FD9146F55E2EF69"]
+			description: ["Mekanism Liquid Oxygen is a valid type of oxygen."]
 			id: "28AF4E7DE38DCC3C"
 			tasks: [{
 				id: "54FD1DBB87C60D86"
@@ -155,7 +157,7 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: -14.5d
+			y: -15.0d
 		}
 		{
 			dependencies: ["35FEBC636877D245"]
@@ -195,7 +197,11 @@
 			y: -7.0d
 		}
 		{
-			dependencies: ["2B56D1050F78FA4D"]
+			dependencies: [
+				"2B56D1050F78FA4D"
+				"469A816020975149"
+			]
+			dependency_requirement: "one_completed"
 			id: "3AAFBA91A16095CA"
 			tasks: [{
 				id: "77855249889DFAA6"
@@ -203,10 +209,14 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -11.0d
+			y: -11.5d
 		}
 		{
-			dependencies: ["6EF6C744811172D7"]
+			dependencies: [
+				"6EF6C744811172D7"
+				"469A816020975149"
+			]
+			dependency_requirement: "one_completed"
 			id: "5C195BF8AE2B7BAC"
 			tasks: [{
 				id: "5BF0B11BFAB13968"
@@ -214,7 +224,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: -15.5d
+			y: -16.0d
 		}
 		{
 			dependencies: ["6FD9146F55E2EF69"]
@@ -307,7 +317,7 @@
 				type: "item"
 			}]
 			x: -3.5d
-			y: -11.0d
+			y: -11.5d
 		}
 		{
 			dependencies: ["0822D70343B3C9B8"]
@@ -362,7 +372,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -12.5d
+			y: -13.0d
 		}
 		{
 			dependencies: ["6FD9146F55E2EF69"]
@@ -410,7 +420,7 @@
 					type: "item"
 				}
 			]
-			x: -0.5d
+			x: -1.5d
 			y: -8.5d
 		}
 		{
@@ -476,7 +486,7 @@
 				item: "bigreactors:verderium_bucket"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -2.5d
 			y: -9.5d
 		}
 		{
@@ -498,8 +508,37 @@
 				title: "Space Station"
 				type: "checkmark"
 			}]
-			x: -5.0d
-			y: -2.5d
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0822D70343B3C9B8"]
+			description: ["Crafts &eCryo Fuel&r."]
+			id: "5B99CD9AE5782C08"
+			tasks: [{
+				id: "053396033212C9DD"
+				item: "ad_astra:cryo_freezer"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0AC598705D877D4C"]
+			description: [
+				"You can use the magnetizer to get small amounts of space metal without going to the other planets. "
+				""
+				"But it is recommended to settle a small outpost on the various planets."
+			]
+			id: "469A816020975149"
+			optional: true
+			tasks: [{
+				id: "43926D068029D444"
+				item: "mbd2:magnetizer"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -12.5d
 		}
 	]
 	title: "&l&e4: High up!"

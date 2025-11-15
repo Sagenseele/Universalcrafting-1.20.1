@@ -1019,6 +1019,23 @@
 			x: -1.5d
 			y: -2.0d
 		}
+		{
+			dependencies: ["146CBE384DD72A1A"]
+			description: ["Is used to copy-paste settings between AE2 devices."]
+			id: "14244A08DEF8F37B"
+			subtitle: "Copy Pasta"
+			tasks: [{
+				id: "0331A261508729E3"
+				item: {
+					Count: 1
+					id: "ae2:memory_card"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
 	]
 	title: "AE2/RS"
 }

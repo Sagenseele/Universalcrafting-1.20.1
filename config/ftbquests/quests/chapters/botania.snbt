@@ -411,6 +411,19 @@
 			x: 7.0d
 			y: -5.0d
 		}
+		{
+			dependencies: ["7A4EE59D1B97D9A2"]
+			icon_scale: 2.0d
+			id: "3C97CED6E6727145"
+			shape: "none"
+			tasks: [{
+				id: "78927E85A05EF809"
+				item: "kubejs:crystal_supremium"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -9.0d
+		}
 	]
 	title: "Botania"
 }

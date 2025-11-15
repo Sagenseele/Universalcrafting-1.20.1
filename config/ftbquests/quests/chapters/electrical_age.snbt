@@ -59,8 +59,8 @@
 			image: "thermal:block/machines/machine_centrifuge_active"
 			rotation: 0.0d
 			width: 1.0d
-			x: 4.0d
-			y: 2.5d
+			x: 3.0d
+			y: 3.5d
 		}
 		{
 			height: 1.0d
@@ -173,6 +173,22 @@
 			width: 1.0d
 			x: 1.5d
 			y: 8.5d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:item/crystal_inferium"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 8.0d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:item/crystal_prudentium"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: 5.0d
 		}
 	]
 	order_index: 2
@@ -338,7 +354,7 @@
 			]
 			title: "&lIndustrial Fermenter"
 			x: 5.0d
-			y: 4.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["2468A11BD78A5360"]
@@ -866,7 +882,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: 4.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["74E8AE06038BAAEA"]
