@@ -42,6 +42,26 @@ ServerEvents.recipes((event) => {
         .outputItems("1x kubejs:crystal_imperium")
         .addDataString("infused", "Infused")
 
+    event.recipes.mbd2.infuser()
+        .id("mbd2:infuser/livingrock")
+        .duration(200)
+        .priority(0)
+        .perTick(builder => builder
+            .inputFE(2048)
+        )
+        .inputItems("4x botania:white_petal", "64x minecraft:stone")
+        .outputItems("64x botania:livingrock")
+
+    event.recipes.mbd2.infuser()
+        .id("mbd2:infuser/livingwood")
+        .duration(200)
+        .priority(0)
+        .perTick(builder => builder
+            .inputFE(2048)
+        )
+        .inputItems("4x botania:white_petal", "64x #twilightforest:logs")
+        .outputItems("64x botania:livingwood_log")
+
     event.shaped(
         Item.of('mbd2:infuser', 1),
         [
