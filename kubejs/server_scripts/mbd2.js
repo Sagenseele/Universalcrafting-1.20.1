@@ -23,12 +23,13 @@ ServerEvents.recipes((event) => {
             ' A '
         ],
             {
-                A:'mob_grinding_utils:saw',
-                B:'minecraft:spawner',
-                C:'bloodmagic:dislocationrune',
-                D:'forbidden_arcanus:rune_block'
+            A: 'mob_grinding_utils:saw',
+            B: 'minecraft:spawner',
+            C: 'bloodmagic:dislocationrune',
+            D: 'forbidden_arcanus:rune_block'
             }
     )
+
     // Infuser
     event.recipes.mbd2.infuser()
         .id("mbd2:infuser/infused/crystal_imperium")
@@ -49,9 +50,9 @@ ServerEvents.recipes((event) => {
             ' A '
         ],
             {
-                A:'ad_astra:etrium_block',
-                B:'powah:niotic_crystal_block',
-                C:'mekanism:elite_control_circuit'
+            A: 'ad_astra:etrium_block',
+            B: 'powah:niotic_crystal_block',
+            C: 'mekanism:elite_control_circuit'
             }
     )
 
@@ -341,7 +342,7 @@ ServerEvents.recipes((event) => {
     // Crystal Cutter
     event.recipes.mbd2.crystal_cutter()
         .id("mbd2:crystal_cutter/ae2_printed_machine_learning_processor")
-        .duration(20)
+        .duration(60)
         .priority(0)
         .inputFE(2048)
         .inputFluids("water 2000")
@@ -350,7 +351,7 @@ ServerEvents.recipes((event) => {
 
     event.recipes.mbd2.crystal_cutter()
         .id("mbd2:crystal_cutter/rs_printed_machine_learning_processor")
-        .duration(20)
+        .duration(60)
         .priority(0)
         .inputFE(2048)
         .inputFluids("water 2000")

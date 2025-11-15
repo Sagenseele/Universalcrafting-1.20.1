@@ -19,7 +19,6 @@ ServerEvents.recipes((event) => {
                 "item": result.toString()
             }
         }
-        console.log(recipe)
         event.custom(recipe)
     }
     function squeezer(output, output_amount, input, energy) {

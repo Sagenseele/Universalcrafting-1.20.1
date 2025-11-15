@@ -11,7 +11,7 @@ ClientEvents.lang('en_us', event => {
     event.add('block.mbd2.item_output_tier_3', 'Item Output Mark III')
     event.add('block.mbd2.fluid_input_tier_2', 'Fluid Input Mark II')
     event.add('block.mbd2.fluid_input_tier_3', 'Fluid Input Mark III')
-    event.add('block.mbd2.fluid_input_tier_2', 'Fluid Output Mark II')
+    event.add('block.mbd2.fluid_output_tier_2', 'Fluid Output Mark II')
     event.add('block.mbd2.energy_input_tier_2', 'Energy Input Mark II')
     event.add('block.mbd2.energy_input_tier_3', 'Energy Input Mark III')
     event.add('block.mbd2.multiplex_hatch_mark_1', 'Multiplex Hatch Mark I')

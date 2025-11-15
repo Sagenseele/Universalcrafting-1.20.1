@@ -275,36 +275,14 @@ ServerEvents.recipes(event => {
   // Overgrown Wood Log
   // Look for Datapack...
 
-  // Storage Terminal
-  event.replaceInput(
-    { output: 'toms_storage:ts.storage_terminal' },
-    'minecraft:glowstone',
-    'kubejs:multiblock_tier_1'
-  )
-
-  // Water Wheel
-  event.replaceInput(
-    { output: 'create:water_wheel' },
-    'create:shaft',
-    'create:andesite_casing'
-  )
+  replace('toms_storage:ts.storage_terminal', 'minecraft:glowstone', 'kubejs:multiblock_tier_1')
+  replace('create:water_wheel', 'create:shaft', 'create:andesite_casing')
+  replace('create:wrench', '#forge:plates/gold', 'create:andesite_alloy')
+  replace('create:wrench', 'create:cogwheel', '#forge:rods/wooden')
+  replace('immersiveengineering:cokebrick', 'minecraft:clay_ball', 'kubejs:lapiron_plate')
 
   // Mechanical Saw
   event.remove({ id: 'create:crafting/kinetics/mechanical_saw' })
-
-
-  // Wrench
-  event.replaceInput(
-    { output: 'create:wrench' },
-    '#forge:plates/gold',
-    'create:andesite_alloy'
-  )
-
-  event.replaceInput(
-    { output: 'create:wrench' },
-    'create:cogwheel',
-    '#forge:rods/wooden'
-  )
 
   // Crushing Wheel
   event.remove({ id: 'create:mechanical_crafting/crushing_wheel' })
@@ -327,11 +305,7 @@ ServerEvents.recipes(event => {
   event.recipes.create.milling('thermal:lapis_dust', 'minecraft:lapis_lazuli')
 
   // Coke Bricks
-  event.replaceInput(
-    { output: 'immersiveengineering:cokebrick' },
-    'minecraft:clay_ball',
-    'kubejs:lapiron_plate'
-  )
+
 
   // Blast Bricks
   event.replaceInput(

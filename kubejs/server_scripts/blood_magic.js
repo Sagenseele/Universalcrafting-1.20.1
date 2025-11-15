@@ -68,7 +68,7 @@ ServerEvents.recipes(event => {
 
     // Air Inscription Tool
     event.remove({ id: 'bloodmagic:altar/air_tool' })
-    event.recipes.bloodmagic.altar('bloodmagic:airscribetool', 'twilightforest:firefly').upgradeLevel(1).altarSyphon(1000).consumptionRate(5).drainRate(5)
+    event.recipes.bloodmagic.altar('bloodmagic:airscribetool', '#forge:insect').upgradeLevel(1).altarSyphon(1000).consumptionRate(5).drainRate(5)
 
     // Water Inscription Tool
     event.remove({ id: 'bloodmagic:altar/water_tool' })

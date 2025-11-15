@@ -31,11 +31,11 @@ StartupEvents.registry('item', event => {
     }
     function ingot(name) {
         var ingot = name + '_ingot'
-        event.create(ingot).texture('kubejs:item/' + ingot).tag("forge:ingots/" + name)
+        event.create(ingot).texture('kubejs:item/' + ingot).tag("forge:ingots/" + name).tag("forge:ingots")
     }
     function plate(name) {
         var plate = name + '_plate'
-        event.create(plate).texture('kubejs:item/' + plate).tag("forge:plates/" + name)
+        event.create(plate).texture('kubejs:item/' + plate).tag("forge:plates/" + name).tag("forge:plates")
     }
     function rod(name) {
         var rod = name + '_rod'
@@ -43,11 +43,11 @@ StartupEvents.registry('item', event => {
     }
     function dust(name) {
         var dust = name + '_dust'
-        event.create(dust).texture('kubejs:item/' + dust).tag("forge:dusts/" + name)
+        event.create(dust).texture('kubejs:item/' + dust).tag("forge:dusts/" + name).tag("forge:dusts")
     }
     function nugget(name) {
         var nugget = name + '_nugget'
-        event.create(nugget).texture('kubejs:item/' + nugget).tag("forge:nuggets/" + name)
+        event.create(nugget).texture('kubejs:item/' + nugget).tag("forge:nuggets/" + name).tag("forge:nuggets")
     }
 
     function standard_material(name) {
