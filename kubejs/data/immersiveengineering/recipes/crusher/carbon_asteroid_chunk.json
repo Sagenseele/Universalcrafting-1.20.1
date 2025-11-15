@@ -1,0 +1,19 @@
+{
+    "type": "immersiveengineering:crusher",
+    "energy": 6000.0,
+    "input": {
+        "item": "kubejs:carbon_asteroid_chunk"
+    },
+    "result": {
+        "count": 8,
+        "item": "minecraft:coal"
+    },
+    "secondaries": [
+        {
+            "chance": 0.5,
+            "output": {
+                "item": "minecraft:stone"
+            }
+        }
+    ]
+}

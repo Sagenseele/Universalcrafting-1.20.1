@@ -1,0 +1,19 @@
+{
+    "type": "immersiveengineering:crusher",
+    "energy": 6000.0,
+    "input": {
+        "item": "kubejs:twinkling_asteroid"
+    },
+    "result": {
+        "count": 1,
+        "item": "kubejs:twinkling_asteroid_chunk"
+    },
+    "secondaries": [
+        {
+            "chance": 0.5,
+            "output": {
+                "item": "forbidden_arcanus:darkstone"
+            }
+        }
+    ]
+}

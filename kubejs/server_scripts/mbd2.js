@@ -356,6 +356,38 @@ ServerEvents.recipes((event) => {
         .inputFluids("water 2000")
         .inputItems("refinedstorage:64k_storage_part", "1x kubejs:mob_simulation_data", "1x hostilenetworks:blank_data_model")
         .outputItems("1x kubejs:printed_machine_learning_processor")
+
+    event.recipes.mbd2.crystal_cutter()
+        .id("mbd2:crystal_cutter/cryogenium")
+        .duration(200)
+        .priority(0)
+        .inputFE(2048)
+        .inputFluids("water 2000")
+        .inputItems("1x kubejs:raw_cryogenium", "8x ad_astra:ice_shard", "1x minecraft:blue_ice")
+        .outputItems("1x kubejs:cryogenium")
+
+    // Asteroid Catcher
+    event.recipes.mbd2.asteroid_catcher()
+        .id("mbd2:asteroid_catcher/asteroids")
+        .duration(200)
+        .priority(0)
+        .biome("ad_astra:orbit")
+        .perTick(builder => builder
+            .inputFluids("ad_astra:cryo_fuel 1")
+            .inputFE(512)
+        )
+        .chance(0.555, builder => builder
+            .outputItems("kubejs:carbon_asteroid")
+        )
+        .chance(0.225, builder => builder
+            .outputItems("kubejs:frigid_asteroid")
+        )
+        .chance(0.175, builder => builder
+            .outputItems("kubejs:occult_asteroid")
+        )
+        .chance(0.045, builder => builder
+            .outputItems("kubejs:twinkling_asteroid")
+        )
 })
 
 MBDMachineEvents.onBeforeRecipeModify('mbd2:matter_replicator', (event) => {

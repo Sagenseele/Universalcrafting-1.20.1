@@ -1,0 +1,25 @@
+{
+    "type": "immersiveengineering:crusher",
+    "energy": 6000.0,
+    "input": {
+        "item": "kubejs:occult_asteroid_chunk"
+    },
+    "result": {
+        "count": 1,
+        "item": "kubejs:raw_darkium"
+    },
+    "secondaries": [
+        {
+            "chance": 1,
+            "output": {
+                "item": "kubejs:raw_etherium"
+            }
+        },
+        {
+            "chance": 0.5,
+            "output": {
+                "item": "minecraft:stone"
+            }
+        }
+    ]
+}

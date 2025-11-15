@@ -1,0 +1,19 @@
+{
+    "type": "immersiveengineering:crusher",
+    "energy": 6000.0,
+    "input": {
+        "item": "kubejs:twinkling_asteroid_chunk"
+    },
+    "result": {
+        "count": 1,
+        "item": "silentgear:starmetal_dust"
+    },
+    "secondaries": [
+        {
+            "chance": 0.5,
+            "output": {
+                "item": "minecraft:stone"
+            }
+        }
+    ]
+}

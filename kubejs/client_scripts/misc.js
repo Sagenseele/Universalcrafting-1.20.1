@@ -23,7 +23,16 @@ ItemEvents.tooltip(event => {
       text.add(1, Text.of('Crushes different materials for raw resources').gray())
     }
   })
-  event.addAdvanced('mbd2:egg_incubator', (item, davanced, text) => {
+  event.addAdvanced('mbd2:asteroid_catcher', (item, advanced, text) => {
+    if (!event.shift) {
+      text.add(1, [Text.of('Hold ').gold(), Text.of('Shift ').yellow(), Text.of('to see more info.').gold()])
+    } else {
+      text.add(1, Text.of('Inspiration goes full circle.').gray())
+      text.add(2, Text.of(''))
+      text.add(3, Text.of('Only works in Orbit.').red())
+    }
+  })
+  event.addAdvanced('mbd2:egg_incubator', (item, advanced, text) => {
     if (!event.shift) {
       text.add(1, [Text.of('Hold ').gold(), Text.of('Shift ').yellow(), Text.of('to see more info.').gold()])
     } else {
@@ -85,5 +94,9 @@ ItemEvents.tooltip(event => {
       text.add(8, Text.of(""))
       text.add(9, Text.of("If the recipe can't find the crystals in the input, the recipe will be skipped.").gray())
     }
+  })
+  event.addAdvanced('kubejs:carbon_asteroid', (item, advanced, text) => {
+    text.add(1, Text.of("More ore less a placeholder. Keep in there for more recipes!").gray())
+
   })
 })

@@ -82,8 +82,21 @@ StartupEvents.registry('item', event => {
     event.create('universal_matter_extraction_device').tag("uc:med/tier1").tag("uc:med/tier2").tag("uc:med/tier3").tag("uc:med/tier4").tag("uc:med/tier5").tag("uc:med/tier6").tag("uc:med/tier7")
     event.create('simple_spiritual_core')
     event.create('dark_spiritual_core')
+    event.create('spectral_spiritual_core')
 
-    event.create('crushing_hammer').tooltip('Crush ores into dust.').maxDamage(64).texture('kubejs:item/crushing_hammer')
+    event.create('carbon_asteroid')
+    event.create('frigid_asteroid')
+    event.create('occult_asteroid')
+    event.create('twinkling_asteroid')
+    event.create('carbon_asteroid_chunk')
+    event.create('frigid_asteroid_chunk')
+    event.create('occult_asteroid_chunk')
+    event.create('twinkling_asteroid_chunk')
+    event.create('cryogenium')
+    event.create('etherium')
+    
+    raw('cryogenium')
+    raw('etherium')
 
     standard_material('blue')
     standard_material('lapiron')
