@@ -80,6 +80,7 @@ StartupEvents.registry('item', event => {
     event.create('floralized_matter_extraction_device').tag("uc:med/tier1").tag("uc:med/tier2").tag("uc:med/tier3").tag("uc:med/tier4").tag("uc:med/tier5").tag("uc:med/tier6")
     event.create('digital_matter_extraction_device').tag("uc:med/tier1").tag("uc:med/tier2").tag("uc:med/tier3").tag("uc:med/tier4").tag("uc:med/tier5").tag("uc:med/tier6")
     event.create('universal_matter_extraction_device').tag("uc:med/tier1").tag("uc:med/tier2").tag("uc:med/tier3").tag("uc:med/tier4").tag("uc:med/tier5").tag("uc:med/tier6").tag("uc:med/tier7")
+    event.create('rune_of_sin').displayName('Rune of Sin')
     event.create('simple_spiritual_core')
     event.create('dark_spiritual_core')
     event.create('spectral_spiritual_core')

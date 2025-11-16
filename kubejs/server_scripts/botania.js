@@ -59,4 +59,19 @@ ServerEvents.recipes(event => {
         mana: 2000.0,
         output: { count: 4.0, item: "forbidden_arcanus:rune" }
     })
+
+    event.custom({
+        type: "botania:runic_altar",
+        ingredients: [
+            { item: "botania:rune_lust" },
+            { item: "botania:rune_gluttony" },
+            { item: "botania:rune_greed" },
+            { item: "botania:rune_sloth" },
+            { item: "botania:rune_wrath" },
+            { item: "botania:rune_envy" },
+            { item: "botania:rune_pride" }
+        ],
+        mana: 10000.0,
+        output: { count: 1.0, item: "kubejs:rune_of_sin" }
+    })
 })

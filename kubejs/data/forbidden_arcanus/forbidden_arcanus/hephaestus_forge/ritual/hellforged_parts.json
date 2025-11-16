@@ -1,0 +1,43 @@
+{
+  "additional_requirements": {
+    "forge_tier": 5
+  },
+  "essences": {
+    "aureal": 100,
+    "blood": 7000,
+    "experience": 100,
+    "souls": 10
+  },
+  "inputs": [
+    {
+      "amount": 4,
+      "ingredient": {
+        "item": "kubejs:multiblock_tier_4"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "kubejs:rune_of_sin"
+      }
+    },
+    {
+      "amount": 3,
+      "ingredient": {
+        "item": "forbidden_arcanus:dark_rune"
+      }
+    }
+  ],
+  "main_ingredient": {
+    "item": "bloodmagic:hellforgedparts"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "Count": 2,
+      "id": "bloodmagic:hellforgedparts",
+      "tag": {
+      }
+    }
+  }
+}

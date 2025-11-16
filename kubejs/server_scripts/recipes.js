@@ -722,6 +722,20 @@ ServerEvents.recipes(event => {
     }
   )
 
+  event.shaped(
+    Item.of('kubejs:multiblock_tier_4', 1),
+    [
+      'CBC',
+      'BAB',
+      'CBC'
+    ],
+    {
+      A: 'kubejs:darkium_frame',
+      B: 'kubejs:darkium_plate',
+      C: 'bloodmagic:ritualstone'
+    }
+  )
+
   // Mbd2 Gadgets
   event.remove({ output: 'mbd2:mbd_gadgets' })
   event.shaped(
