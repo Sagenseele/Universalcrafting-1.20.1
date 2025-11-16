@@ -23,6 +23,15 @@
 			x: 8.0d
 			y: -6.5d
 		}
+		{
+			click: "#53D00AA8DAE00EC7"
+			height: 1.0d
+			image: "kubejs:item/infinity_token"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.5d
+			y: 0.5d
+		}
 	]
 	order_index: 2
 	quest_links: [ ]
@@ -423,6 +432,19 @@
 			}]
 			x: 12.0d
 			y: -9.0d
+		}
+		{
+			dependencies: ["6EB31D4642BBB1FE"]
+			icon_scale: 1.5d
+			id: "5A978405B6BB3D01"
+			shape: "none"
+			tasks: [{
+				id: "7FBE3B0256109581"
+				item: "kubejs:rune_of_sin"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -0.5d
 		}
 	]
 	title: "Botania"

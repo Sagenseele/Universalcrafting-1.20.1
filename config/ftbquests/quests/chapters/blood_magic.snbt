@@ -70,6 +70,13 @@
 	quests: [
 		{
 			dependencies: ["7A1C76596F111A92"]
+			description: [
+				"The &4Blood Altar&r has &etwo&r fluid tanks. One is visible if you look at it, which has per default &b10.000 mB&r of Life Essence."
+				""
+				"The other one is &ehidden&r and can hold &b10%&r of the visible tank. If you pump Life essence in or out of the altar the latter tank will be used. The hidden tank has filling priority and because of that it will be filled from the visible tank or outside sources if not already full."
+				""
+				"The transfer rate between these two tanks is &b20 mB/s&r, but can be increased with &eDislocation Runes&r up until &b1000 mB/s&r. To further increase the transfer rate you must use additional &eRunes of Capacity&r/&eAugmented Capacity&r and &eRune of Acceleration&r."
+			]
 			disable_toast: true
 			hide_until_deps_complete: true
 			icon: "bloodmagic:altar"
@@ -1081,6 +1088,152 @@
 			}]
 			x: 10.0d
 			y: -2.5d
+		}
+		{
+			dependencies: ["27D2258AFDF8911B"]
+			description: [
+				"Increases transmutation speed by 20%."
+				""
+				"Reinforced Runes => Speed increase from 20% to 40%."
+			]
+			hide_dependency_lines: true
+			id: "70543AAACE883956"
+			tasks: [{
+				id: "0536ECB61F7CBB2B"
+				item: "bloodmagic:speedrune"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["27D2258AFDF8911B"]
+			hide_dependency_lines: true
+			id: "3E9F040C55EB3C1B"
+			tasks: [{
+				id: "3D68A915F11DC99D"
+				item: "bloodmagic:sacrificerune"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["27D2258AFDF8911B"]
+			hide_dependency_lines: true
+			id: "3B6ECDDE0ACE2DF8"
+			tasks: [{
+				id: "266392127BA04658"
+				item: "bloodmagic:selfsacrificerune"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["27D2258AFDF8911B"]
+			description: [
+				"Increases speed at which Life Essence can be transferred by 20% multiplicitavely."
+				""
+				"Reinforced Runes => Speed increase from 20% to 40%."
+			]
+			hide_dependency_lines: true
+			id: "36E54DBDF9B7D211"
+			tasks: [{
+				id: "2DB85D782414EC18"
+				item: "bloodmagic:dislocationrune"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["27D2258AFDF8911B"]
+			description: [
+				"Increases Life Essence Capacity by 2000."
+				""
+				"Reinforced Runes => Capacity bonus from 2000 to 4000."
+			]
+			hide_dependency_lines: true
+			id: "45E86C06B489B979"
+			tasks: [{
+				id: "6CE31B60EDD9D985"
+				item: "bloodmagic:altarcapacityrune"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["27D2258AFDF8911B"]
+			description: [
+				"Increases Life Essence Capacity by 7,5% multiplicatively."
+				""
+				"Reinforced Runes => Capacity bonus from 7,5% to 15%."
+			]
+			hide_dependency_lines: true
+			id: "208B4E3B2E2D0A40"
+			tasks: [{
+				id: "259758911AF519E5"
+				item: "bloodmagic:bettercapacityrune"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["27D2258AFDF8911B"]
+			description: ["Increases the Amount of Life Essences that can be stored in the Soul Network by 2%."]
+			hide_dependency_lines: true
+			id: "4A7F06CE13560F07"
+			tasks: [{
+				id: "616F1C916B010759"
+				item: "bloodmagic:orbcapacityrune"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["27D2258AFDF8911B"]
+			description: [
+				"Decreases the delay between operations (Fluid Input/Output, Charging via Charging Rune) by 1 tick per Rune to a minimum of 1 tick."
+				""
+				"Reinforced Runes => delay decrease from 1 to 2 ticks per Rune"
+			]
+			hide_dependency_lines: true
+			id: "37477E54C0CD586E"
+			tasks: [{
+				id: "6F49F9A18D202F96"
+				item: "bloodmagic:accelerationrune"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["27D2258AFDF8911B"]
+			description: [
+				"While no craft is happening or orb charging, each rune siphons Life Essence from the altar. The next craft consumes the charge 1:1 instantaneously."
+				""
+				"Formula:"
+				"10 LP * Charging Runes * (1 + Speed Runes / 10)"
+				""
+				"Maximum Charge per Rune is 1000 LP * Multiplicator"
+				""
+				"Multiplicator = (1000 LP * Blood Altar Capacity / 20000), if Multiplicator is greater than 1"
+				""
+				"Reinforced Runes => Charge amount doubled. Recharge Rate doubled"
+			]
+			hide_dependency_lines: true
+			id: "0A5477F61398CA2F"
+			tasks: [{
+				id: "259E467F2D67EA95"
+				item: "bloodmagic:chargingrune"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -6.0d
 		}
 	]
 	title: "Blood Magic"

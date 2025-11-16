@@ -106,7 +106,7 @@
 			y: -2.0d
 		}
 		{
-			description: ["Craft with a bucket of XP and a seed and feed it to a chicken... Happy Birthday. &4O_O&r"]
+			description: ["Craft with a bucket of XP and a seed."]
 			id: "74381DE113C03C47"
 			tasks: [{
 				id: "2E0D6013667A7576"
@@ -118,6 +118,7 @@
 		}
 		{
 			dependencies: ["74381DE113C03C47"]
+			description: ["Feed it to a chicken... Happy Birthday. &4O_O&r"]
 			id: "25660DD1E97D90BC"
 			rewards: [{
 				id: "546A24C4154A4864"
@@ -144,15 +145,33 @@
 		}
 		{
 			description: ["The egg incubator multiblock takes any spawn egg with some FE and creates some random loot of the input Spawn Egg."]
+			icon: "mbd2:egg_incubator"
 			icon_scale: 2.0d
 			id: "6ED4F4CEF45EC1F8"
 			shape: "none"
 			subtitle: "&aLoot Lifecycle"
-			tasks: [{
-				id: "13BBD81C1BD54453"
-				item: "mbd2:egg_incubator"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "13BBD81C1BD54453"
+					item: "mbd2:egg_incubator"
+					type: "item"
+				}
+				{
+					id: "1FCEBFE4B58F1FDD"
+					item: "mbd2:fluid_output_tier_2"
+					type: "item"
+				}
+				{
+					id: "79D7A46B8EAD7018"
+					item: "mbd2:energy_input_tier_2"
+					type: "item"
+				}
+				{
+					id: "40BDFE6D3E1E5396"
+					item: "mbd2:item_output_tier_2"
+					type: "item"
+				}
+			]
 			title: "&lEgg Incubator Multiblock"
 			x: 4.5d
 			y: -2.0d

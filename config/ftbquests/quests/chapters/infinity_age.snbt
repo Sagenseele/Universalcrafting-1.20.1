@@ -101,43 +101,7 @@
 			id: "53D00AA8DAE00EC7"
 			tasks: [{
 				id: "307A45A421D8C4B9"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						Parent: {
-							energy: {
-								energy: 0
-							}
-							module_host: {
-								modules: [ ]
-								properties: {
-									charge_armor: {
-										hud: 1b
-									}
-									charge_curios: {
-										hud: 1b
-									}
-									charge_held_item: {
-										hud: 1b
-									}
-									charge_hot_bar: {
-										hud: 1b
-									}
-									charge_main: {
-										hud: 1b
-									}
-								}
-								provider_id: [I;
-									1559819905
-									-148878246
-									-1851285021
-									713416550
-								]
-							}
-						}
-					}
-					id: "draconicevolution:chaotic_capacitor"
-				}
+				item: "kubejs:rune_of_sin"
 				type: "item"
 			}]
 			x: 5.0d

@@ -373,7 +373,7 @@
 				id: "1ACE98609B60ABA3"
 				type: "checkmark"
 			}]
-			title: "Hephaestus Forge Tier I"
+			title: "Hephaestus Forge Tier V"
 			x: 13.5d
 			y: -2.0d
 		}
@@ -711,6 +711,17 @@
 			title: "Ingredients for the Forge"
 			x: -0.5d
 			y: -2.0d
+		}
+		{
+			dependencies: ["04C1800BC7618BF7"]
+			id: "4A7345816209E177"
+			tasks: [{
+				id: "2CFD59A75FF956F7"
+				item: "bloodmagic:hellforgedparts"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -0.5d
 		}
 	]
 	title: "Forbidden \\& Arcanus"
