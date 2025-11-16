@@ -55,7 +55,7 @@ ServerEvents.recipes((event) => {
     }
 
     // Inert Infinity Token
-    infusion("kubejs:inert_infinity_token", "draconicevolution:chaotic_core", ["projecte:rm_furnace", "draconicevolution:chaotic_capacitor", "apotheosis:ender_library", "solarflux:sp_de.chaotic", "mekanism:ultimate_tier_installer", "bloodmagic:archmagebloodorb", "botania:blacker_lotus"])
+    infusion("kubejs:inert_infinity_token", "draconicevolution:chaotic_core", ["projecte:rm_furnace", "kubejs:rune_of_sin", "apotheosis:ender_library", "solarflux:sp_de.chaotic", "mekanism:ultimate_tier_installer", "bloodmagic:archmagebloodorb", "botania:blacker_lotus"])
 
     // Inferium Crystal
     squeezer('kubejs:inferium_sludge', 50, 'mysticalagriculture:inferium_essence', 2048)

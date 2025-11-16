@@ -63,6 +63,17 @@ ServerEvents.recipes(event => {
     event.custom({
         type: "botania:runic_altar",
         ingredients: [
+            { item: "minecraft:netherite_ingot"},
+            { item: "kubejs:etherium" },
+            { item: "bloodmagic:etherealslate"}
+        ],
+        mana: 2000.0,
+        output: { count: 1.0, item: "kubejs:spectral_spiritual_core" }
+    })
+
+    event.custom({
+        type: "botania:runic_altar",
+        ingredients: [
             { item: "botania:rune_lust" },
             { item: "botania:rune_gluttony" },
             { item: "botania:rune_greed" },

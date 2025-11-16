@@ -95,7 +95,9 @@
 	#List of data modules that should not be registered.
 	moduleBlacklist = []
 	#List of custom tag entries to add. Use "item" as registry for item tags, "fluid" for fluid tags, etc. Format: "registry#namespace:entry=namespace:tag"
-	customTags = []
+	customTags = [
+		"item#kubejs:entry=forge:ingots/darkium"
+]
 
 #Configurations related to color generation.
 [colors]

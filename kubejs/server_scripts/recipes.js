@@ -135,6 +135,7 @@ ServerEvents.recipes(event => {
     )
   }
 
+  default_crushing("kubejs:etherium", "kubejs:raw_etherium")
   replace('ironfurnaces:augment_generator', 'minecraft:repeater', 'thermal:machine_frame')
   replace('create:chute', 'minecraft:iron_ingot', 'minecraft:hopper')
   replace(/botanypots:.*/, 'minecraft:hopper', 'create:chute')
