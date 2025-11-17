@@ -235,32 +235,34 @@ ServerEvents.recipes((event) => {
 
     // Matter Replicator
     const meds = [
-        { input: "#uc:med/tier2", output: "mysticalagriculture:nature_essence" },
-        { input: "#uc:med/tier2", output: "mysticalagriculture:coal_essence" },
-        { input: "#uc:med/tier2", output: "mysticalagriculture:honey_essence" },
-        { input: "#uc:med/tier2", output: "mysticalagriculture:wood_essence" },
-        { input: "#uc:med/tier3", output: "mysticalagriculture:saltpeter_essence" },
-        { input: "#uc:med/tier3", output: "mysticalagriculture:sulfur_essence" },
-        { input: "#uc:med/tier3", output: "mysticalagriculture:nether_essence" },
-        { input: "#uc:med/tier3", output: "mysticalagriculture:grains_of_infinity_essence" },
-        { input: "#uc:med/tier3", output: "mysticalagriculture:fire_essence" },
-        { input: "#uc:med/tier3", output: "mysticalagriculture:nether_quartz_essence" },
-        { input: "#uc:med/tier4", output: "mysticalagriculture:mystical_flower_essence" },
-        { input: "#uc:med/tier4", output: "mysticalagriculture:steeleaf_essence" },
-        { input: "#uc:med/tier4", output: "mysticalagriculture:ironwood_essence" },
-        { input: "#uc:med/tier4", output: "mysticalagriculture:experience_essence" },
-        { input: "#uc:med/tier5", output: "mysticalagriculture:lapis_lazuli_essence" },
-        { input: "#uc:med/tier5", output: "mysticalagriculture:prismarine_essence" },
-        { input: "#uc:med/tier5", output: "mysticalagriculture:gold_essence" },
-        { input: "#uc:med/tier5", output: "mysticalagriculture:iron_essence" },
-        { input: "#uc:med/tier5", output: "mysticalagriculture:diamond_essence" },
-        { input: "kubejs:transcendental_matter_extraction_device", output: "bloodmagic:blankslate" },
-        { input: "kubejs:floralized_matter_extraction_device", output: "botania:mana_diamond" },
-        { input: "kubejs:floralized_matter_extraction_device", output: "botania:mana_string" },
-        { input: "kubejs:floralized_matter_extraction_device", output: "botania:mana_pearl" },
-        { input: "kubejs:floralized_matter_extraction_device", output: "mysticalagriculture:manasteel_essence" },
-        { input: "kubejs:digital_matter_extraction_device", output: "mysticalagriculture:certus_quartz_essence" },
-        { input: "kubejs:digital_matter_extraction_device", output: "mysticalagriculture:silicon_essence" }
+        { input: "#uc:med/tier2", catalyst: "mysticalagriculture:dye_agglomeratio", output: "mysticalagriculture:dye_essence" },
+        { input: "#uc:med/tier2", catalyst: "mysticalagriculture:nature_agglomeratio", output: "mysticalagriculture:nature_essence" },
+        { input: "#uc:med/tier2", catalyst: "#forge:storage_blocks/coal_coke", output: "mysticalagriculture:coal_essence" },
+        { input: "#uc:med/tier2", catalyst: "minecraft:honey_block", output: "mysticalagriculture:honey_essence" },
+        { input: "#uc:med/tier2", catalyst: "#forge:treated_wood", output: "mysticalagriculture:wood_essence" },
+        { input: "#uc:med/tier3", catalyst: "#forge:storage_blocks/saltpeter", output: "mysticalagriculture:saltpeter_essence" },
+        { input: "#uc:med/tier3", catalyst: "#forge:storage_blocks/sulfur", output: "mysticalagriculture:sulfur_essence" },
+        { input: "#uc:med/tier3", catalyst: "mysticalagriculture:nether_agglomeratio", output: "mysticalagriculture:nether_essence" },
+        { input: "#uc:med/tier3", catalyst: "#forge:storage_blocks/grains_of_infinity", output: "mysticalagriculture:grains_of_infinity_essence" },
+        { input: "#uc:med/tier3", catalyst: "mysticalagriculture:fire_essence", output: "mysticalagriculture:fire_essence" },
+        { input: "#uc:med/tier3", catalyst: "#c:quartz_blocks", output: "mysticalagriculture:nether_quartz_essence" },
+        { input: "#uc:med/tier4", catalyst: "mysticalagriculture:mystical_flower_agglomeratio", output: "mysticalagriculture:mystical_flower_essence" },
+        { input: "#uc:med/tier4", catalyst: "#forge:storage_blocks/steeleaf", output: "mysticalagriculture:steeleaf_essence" },
+        { input: "#uc:med/tier4", catalyst: "#forge:storage_blocks/ironwood", output: "mysticalagriculture:ironwood_essence" },
+        { input: "#uc:med/tier4", catalyst: "minecraft:experience_bottle", output: "mysticalagriculture:experience_essence" },
+        { input: "#uc:med/tier5", catalyst: "kubejs:coil_tier_1", output: "mysticalagriculture:copper_essence" },
+        { input: "#uc:med/tier5", catalyst: "solarflux:photovoltaic_cell_2", output: "mysticalagriculture:lapis_lazuli_essence" },
+        { input: "#uc:med/tier5", catalyst: "mysticalagriculture:prismarine_agglomeratio", output: "mysticalagriculture:prismarine_essence" },
+        { input: "#uc:med/tier5", catalyst: "minecraft:enchanted_golden_apple", output: "mysticalagriculture:gold_essence" },
+        { input: "#uc:med/tier5", catalyst: "ironfurnaces:augment_factory", output: "mysticalagriculture:iron_essence" },
+        { input: "#uc:med/tier5", catalyst: "#forge:storage_blocks/diamond", output: "mysticalagriculture:diamond_essence" },
+        { input: "kubejs:transcendental_matter_extraction_device", catalyst: "bloodmagic:blankrune", output: "bloodmagic:blankslate" },
+        { input: "kubejs:floralized_matter_extraction_device", catalyst: "#forge:storage_blocks/mana_diamond", output: "botania:mana_diamond" },
+        { input: "kubejs:floralized_matter_extraction_device", catalyst: "botania:manaweave_cloth", output: "botania:mana_string" },
+        { input: "kubejs:floralized_matter_extraction_device", catalyst: "botania:runic_altar", output: "botania:mana_pearl" },
+        { input: "kubejs:floralized_matter_extraction_device", catalyst: "#forge:storage_blocks/manasteel", output: "mysticalagriculture:manasteel_essence" },
+        { input: "kubejs:digital_matter_extraction_device", catalyst: "ae2:calculation_processor", output: "mysticalagriculture:certus_quartz_essence" },
+        { input: "kubejs:digital_matter_extraction_device", catalyst: "ae2:quartz_glass", output: "mysticalagriculture:silicon_essence" }
     ]
 
     meds.forEach(med => {
@@ -268,7 +270,7 @@ ServerEvents.recipes((event) => {
             .id("mbd2:matter_replicator/" + med.output.split(':')[1])
             .duration(100)
             .priority(0)
-            .chance(0.0, builder => builder.inputItems("1x " + med.output, "1x " + med.input))
+            .chance(0.0, builder => builder.inputItems("1x " + med.catalyst, "1x " + med.input))
             .outputItems("1x " + med.output)
     });
 
