@@ -3,15 +3,6 @@ ServerEvents.recipes(event => {
   const raw_materials = ['#forge:gems/lapis', '#forge:ingots/iron', '#forge:raw_materials/tin', '#forge:raw_materials/silver', '#forge:raw_materials/copper', '#forge:raw_materials/nickel', '#forge:raw_materials/osmium', '#forge:raw_materials/lead', '#forge:raw_materials/uranium', '#forge:raw_materials/gold', '#forge:raw_materials/iron', 'kubejs:raw_catericite', 'kubejs:raw_darthium', 'kubejs:raw_milothium', 'kubejs:raw_ecolinit']
   const dusts = ['thermal:lapis_dust', 'thermal:iron_dust', 'thermal:tin_dust', 'thermal:silver_dust', 'thermal:copper_dust', 'thermal:nickel_dust', 'mekanism:dust_osmium', 'thermal:lead_dust', 'immersiveengineering:dust_uranium', 'thermal:gold_dust', 'thermal:iron_dust', 'thermal:tin_dust', 'immersiveengineering:dust_aluminum', 'thermal:nickel_dust', 'mekanism:dust_osmium']
 
-  function replace(output, toReplaced, replacer) {
-    event.replaceInput(
-      { output: output },
-      toReplaced,
-      replacer
-    )
-  }
-
-
   function level_up_10(list) {
     list.forEach(relic => {
       event.shapeless(
@@ -40,6 +31,14 @@ ServerEvents.recipes(event => {
   raw_materials.forEach((raw, index) =>
     manualCrushing(dusts[index], raw)
   )
+
+  function replace(output, toReplaced, replacer) {
+    event.replaceInput(
+      { output: output },
+      toReplaced,
+      replacer
+    )
+  }
 
   function kubejs_items(name) {
     var plate = 'kubejs:' + name + '_plate'
@@ -135,7 +134,11 @@ ServerEvents.recipes(event => {
     )
   }
 
+  event.remove({ output: "minecraft:piston" })
+  event.remove({ id: /industrialforegoing:.*_gear/ })
   default_crushing("kubejs:etherium", "kubejs:raw_etherium")
+  default_crushing("2x kubejs:darkium_dust", "kubejs:raw_darkium")
+  default_smelting("kubejs:darkium_ingot", "kubejs:darkium_dust")
   replace('ironfurnaces:augment_generator', 'minecraft:repeater', 'thermal:machine_frame')
   replace('create:chute', 'minecraft:iron_ingot', 'minecraft:hopper')
   replace(/botanypots:.*/, 'minecraft:hopper', 'create:chute')
@@ -282,6 +285,22 @@ ServerEvents.recipes(event => {
   replace('create:wrench', 'create:cogwheel', '#forge:rods/wooden')
   replace('immersiveengineering:cokebrick', 'minecraft:clay_ball', 'kubejs:lapiron_plate')
 
+  // Piston
+  event.shaped(
+    Item.of("minecraft:piston", 1),
+    [
+      'AAA',
+      'BCB',
+      'DED'
+    ],
+    {
+      A: '#minecraft:planks',
+      B: '#forge:gears/iron',
+      C: '#forge:plates/iron',
+      D: '#forge:cobblestone',
+      E: 'extendedcrafting:redstone_ingot',
+    }
+  )
   // Mechanical Saw
   event.remove({ id: 'create:crafting/kinetics/mechanical_saw' })
 
@@ -790,7 +809,7 @@ ServerEvents.recipes(event => {
     {
       A: 'kubejs:stator',
       B: 'kubejs:rotor',
-      C: '#forge:plates/iron',
+      C: '#forge:plates/steel',
       D: '#uc:components/electric_motor'
     }
   )

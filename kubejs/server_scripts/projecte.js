@@ -21,7 +21,7 @@ ServerEvents.recipes(event => {
     event.replaceInput(
         { output: 'projecte:philosophers_stone' },
         'minecraft:diamond',
-        'bloodmagic:archmagebloodorb'
+        'draconicevolution:chaotic_core'
     )
     event.replaceInput(
         { output: 'projecte:philosophers_stone' },
