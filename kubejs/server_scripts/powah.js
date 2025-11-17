@@ -10,4 +10,16 @@ ServerEvents.recipes(event => {
         "powah:dielectric_casing",
         'kubejs:machine_learning_processor'
     )
+
+    event.replaceInput(
+        { id: /powah:.*/},
+        "minecraft:redstone",
+        "extendedcrafting:redstone_ingot"
+    )
+
+    event.replaceInput(
+        { id: /powah:.*/},
+        "minecraft:redstone_block",
+        "extendedcrafting:redstone_ingot_block"
+    )
 })

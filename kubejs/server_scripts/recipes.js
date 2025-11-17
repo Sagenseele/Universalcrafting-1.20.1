@@ -134,16 +134,31 @@ ServerEvents.recipes(event => {
     )
   }
 
+  // remove Recipes
   event.remove({ output: "minecraft:piston" })
   event.remove({ id: /industrialforegoing:.*_gear/ })
+  event.remove({ id: "enderio:alloy_smelting/redstone_alloy_ingot" })
+  event.remove({ id: 'create:crafting/kinetics/mechanical_saw' })
+
+  // Crushing/Pulverizing
   default_crushing("kubejs:etherium", "kubejs:raw_etherium")
   default_crushing("2x kubejs:darkium_dust", "kubejs:raw_darkium")
+
+  // Smelting
   default_smelting("kubejs:darkium_ingot", "kubejs:darkium_dust")
+
+  // Replace existing items
   replace('ironfurnaces:augment_generator', 'minecraft:repeater', 'thermal:machine_frame')
   replace('create:chute', 'minecraft:iron_ingot', 'minecraft:hopper')
   replace(/botanypots:.*/, 'minecraft:hopper', 'create:chute')
+  replace('toms_storage:ts.storage_terminal', 'minecraft:glowstone', 'kubejs:multiblock_tier_1')
+  replace('create:water_wheel', 'create:shaft', 'create:andesite_casing')
+  replace('create:wrench', '#forge:plates/gold', 'create:andesite_alloy')
+  replace('create:wrench', 'create:cogwheel', '#forge:rods/wooden')
+  replace('immersiveengineering:cokebrick', 'minecraft:clay_ball', 'kubejs:lapiron_plate')
 
-  // Tertium Crystal
+  // 2 component Alloys
+  default_2alloys("enderio:redstone_alloy_ingot", 3200, "#forge:ingots/redstone_ingot", "#forge:silicon")
   default_2alloys("kubejs:crystal_tertium", 5000, "mekanism:crystal_gold", "4x ad_astra:calorite_ingot")
 
   //advanced Material Data Card
@@ -279,12 +294,6 @@ ServerEvents.recipes(event => {
   // Overgrown Wood Log
   // Look for Datapack...
 
-  replace('toms_storage:ts.storage_terminal', 'minecraft:glowstone', 'kubejs:multiblock_tier_1')
-  replace('create:water_wheel', 'create:shaft', 'create:andesite_casing')
-  replace('create:wrench', '#forge:plates/gold', 'create:andesite_alloy')
-  replace('create:wrench', 'create:cogwheel', '#forge:rods/wooden')
-  replace('immersiveengineering:cokebrick', 'minecraft:clay_ball', 'kubejs:lapiron_plate')
-
   // Piston
   event.shaped(
     Item.of("minecraft:piston", 1),
@@ -302,7 +311,7 @@ ServerEvents.recipes(event => {
     }
   )
   // Mechanical Saw
-  event.remove({ id: 'create:crafting/kinetics/mechanical_saw' })
+
 
   // Crushing Wheel
   event.remove({ id: 'create:mechanical_crafting/crushing_wheel' })
