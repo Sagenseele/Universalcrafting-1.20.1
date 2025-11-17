@@ -18,6 +18,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["65C9CA0CE175E321"]
 			id: "3C9E469F8B6598B5"
 			tasks: [{
 				id: "77DA8D4BA0EB6372"
@@ -201,6 +202,20 @@
 			}]
 			x: 4.5d
 			y: 0.0d
+		}
+		{
+			dependencies: ["45F1551004F845E3"]
+			icon_scale: 2.0d
+			id: "65C9CA0CE175E321"
+			shape: "none"
+			subtitle: "Progress to &3Infinity Age&r"
+			tasks: [{
+				id: "0657A164E2B58035"
+				item: "draconicevolution:chaotic_core"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.5d
 		}
 	]
 	title: "&l7: &eT&r&l&6o&r &l&4I&r&l&cn&r&l&df&r&l&5i&r&l&1n&r&l&9i&r&l&bt&r&l&3y&r"

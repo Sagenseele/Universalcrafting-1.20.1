@@ -499,7 +499,8 @@
 				"&632x Desh Ingot&r"
 				"&632x Desh Plate&r"
 				""
-				"In the travel menu of the rocket select a planet and click on the + Button to create a space station."
+				"In the travel menu of the rocket select a planet and click on the + Button to create a space station. "
+				"I would suggest placing it in the orbit of earth."
 			]
 			icon: "kubejs:probe_mk_i"
 			id: "719209F428FCB5BB"

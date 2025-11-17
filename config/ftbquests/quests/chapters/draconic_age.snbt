@@ -214,7 +214,9 @@
 		}
 		{
 			dependencies: ["23C6F3FF90D256D6"]
+			icon_scale: 2.0d
 			id: "45F1551004F845E3"
+			subtitle: "Progress to &3Infinity Age&r"
 			tasks: [{
 				id: "750787FD951054F8"
 				item: "draconicevolution:chaotic_core"
@@ -258,6 +260,7 @@
 			y: 1.5d
 		}
 		{
+			dependencies: ["664658B62C41A4CD"]
 			id: "5D8EF3A8647B9C4E"
 			tasks: [{
 				id: "1D62237705E8C0DA"
@@ -421,6 +424,7 @@
 			y: 4.5d
 		}
 		{
+			dependencies: ["0E6D16C22389D367"]
 			icon_scale: 2.0d
 			id: "347DEF8D77482A8B"
 			shape: "none"

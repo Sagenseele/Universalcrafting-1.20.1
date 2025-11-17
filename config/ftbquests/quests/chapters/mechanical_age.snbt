@@ -564,9 +564,10 @@
 		{
 			dependencies: ["3CF4FA8961C6D743"]
 			disable_toast: true
+			icon_scale: 2.0d
 			id: "2CA8C43B77E48553"
-			shape: "rsquare"
-			size: 1.25d
+			shape: "none"
+			size: 1.0d
 			tasks: [{
 				disable_toast: true
 				id: "393EC62BF61EDF69"
@@ -595,7 +596,7 @@
 				type: "item"
 			}]
 			title: "&lMatter Replicator"
-			x: 0.5d
+			x: 0.0d
 			y: -2.0d
 		}
 		{
@@ -904,6 +905,125 @@
 			}]
 			x: 8.0d
 			y: -2.0d
+		}
+		{
+			dependencies: ["46C0E33966D05CC5"]
+			description: [
+				"And don't forget to put it out of earshot."
+				""
+				"Creates &62048 SU&r at &a16 RPM&r. The Tank can be vertical or horizontal, as shown in the picture. With the steam engine on top, one block empty and a shaft."
+				""
+				"{image:kubejs:item/images/steam_engine width:100 height:165 align:center}"
+			]
+			icon: "create:steam_engine"
+			id: "32C3937A71709399"
+			require_sequential_tasks: true
+			subtitle: "...on the worlds' smallest Steam Engine"
+			tasks: [
+				{
+					id: "678FC99C03CA1F57"
+					item: "create:steam_engine"
+					type: "item"
+				}
+				{
+					id: "331B1E1A81DE1050"
+					item: "minecraft:campfire"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6ACD6EBD67315E05"
+					item: "create:fluid_tank"
+					type: "item"
+				}
+				{
+					id: "48E14BDB870988D8"
+					item: "cookingforblockheads:sink"
+					type: "item"
+				}
+				{
+					id: "46A5197DE190FDAC"
+					item: "pipez:fluid_pipe"
+					type: "item"
+				}
+				{
+					id: "71E83EFDD44A787B"
+					item: "create:shaft"
+					type: "item"
+				}
+			]
+			title: "Play me a song..."
+			x: 2.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["32C3937A71709399"]
+			description: [
+				"The mechanical arm must feed the blazes with a lava bucket. "
+				"To achieve this, place a spout above a depot."
+				"Place a &esmart chute&r below the depot onto another depot."
+				"Set the &bfilter&r in the &esmart chute&r to &eBucket of Lava&r."
+				"Place a hopper against the first depot."
+				"Place a &esmart chute&r above the hopper and set its' &bfilter&r to empty buckets."
+				"Take the mechanical arm and right click on the blazes (orange frame for output) and the second depot (blue frame for input)."
+				"The place the mechanical arm near the blaze burners."
+				""
+				"Creates &665536 SU&r at &a64 RPM&r."
+			]
+			icon: "create:blaze_burner"
+			id: "2C5FFB9320716E00"
+			require_sequential_tasks: true
+			subtitle: "Oh no, I mean steamed clams."
+			tasks: [
+				{
+					count: 4L
+					id: "43EB62FF119B0AFA"
+					item: "create:blaze_burner"
+					type: "item"
+				}
+				{
+					id: "1D3BF3E948D71C3D"
+					item: "create:mechanical_arm"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6E0A133CDB959356"
+					item: "create:smart_chute"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "5B208C4B1FD043E3"
+					item: { Count: 2, id: "create:depot" }
+					type: "item"
+				}
+				{
+					id: "533A3D65878922AE"
+					item: "create:spout"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "73CBA12CFB4520D0"
+					item: { Count: 16, id: "create:fluid_tank" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "0C8176F3CBB537D3"
+					item: { Count: 3, id: "create:steam_engine" }
+					type: "item"
+				}
+				{
+					id: "631B4FF228B7A5D0"
+					item: "minecraft:hopper"
+					type: "item"
+				}
+			]
+			title: "Steamed Hams"
+			x: 0.5d
+			y: -7.5d
 		}
 	]
 	title: "&l&62 Industrialization"

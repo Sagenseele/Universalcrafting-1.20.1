@@ -331,6 +331,16 @@
 			x: 4.0d
 			y: -3.0d
 		}
+		{
+			description: ["44 Charging Rune 21 augmented capacity 10 capacity 18 displacement 10 acceleration 5 speed"]
+			id: "728FA0C743E96E1B"
+			tasks: [{
+				id: "570159F1035157FE"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: -2.0d
+		}
 	]
 	title: "Placeholder"
 }

@@ -159,7 +159,7 @@
 			icon_scale: 2.0d
 			id: "0E6D16C22389D367"
 			shape: "none"
-			subtitle: "The Placeholder"
+			subtitle: "The Placeholder - Progress to &3Draconia Age&r"
 			tasks: [{
 				id: "40804A5A67B5F424"
 				item: "powah:crystal_nitro"
