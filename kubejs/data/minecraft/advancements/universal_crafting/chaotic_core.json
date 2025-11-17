@@ -1,12 +1,12 @@
 {
-  "parent": "minecraft:universal_crafting/machine_learning_processor",
+  "parent": "minecraft:universal_crafting/niotic_crystal",
   "criteria": {
-    "crystal_nitro": {
+    "chaotic_core": {
       "conditions": {
         "items": [
           {
             "items": [
-              "powah:crystal_nitro"
+              "draconicevolution:chaotic_core"
             ]
           }
         ]
@@ -17,21 +17,21 @@
   "display": {
     "announce_to_chat": false,
     "description": {
-      "text": "A placeholder for now"
+      "text": "You're almost there!"
     },
     "frame": "goal",
     "hidden": false,
     "icon": {
-      "item": "powah:crystal_nitro"
+      "item": "draconicevolution:chaotic_core"
     },
     "show_toast": true,
     "title": {
-      "text": "Draconia Age unlocked"
+      "text": "Infinity Age unlocked"
     }
   },
   "requirements": [
     [
-      "crystal_nitro"
+      "chaotic_core"
     ]
   ],
   "rewards": {
