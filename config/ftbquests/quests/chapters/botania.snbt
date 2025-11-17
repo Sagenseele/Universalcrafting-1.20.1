@@ -300,7 +300,8 @@
 				""
 				"- &6Jetpacks&r"
 				"- &eCharm Belt&r"
-				"- &4Heart Canisters&r"
+				"- &cHeart Canisters&r"
+				"- &4Blood Magic Hellforged Parts&r"
 			]
 			icon_scale: 2.0d
 			id: "0EB66214FC3BEB89"

@@ -261,7 +261,7 @@
 				item: "kubejs:universal_matter_extraction_device"
 				type: "item"
 			}]
-			x: 18.0d
+			x: 17.0d
 			y: 0.0d
 		}
 		{
@@ -549,6 +549,28 @@
 			}]
 			x: 5.5d
 			y: 1.5d
+		}
+		{
+			dependencies: ["6CDDE4ECE4D4E5D7"]
+			id: "1E733F6DB88DF78A"
+			tasks: [{
+				id: "1AF6996151DA53BD"
+				item: "mysticalagriculture:copper_essence"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6FFE99DE1C377905"]
+			id: "460777C681B8C413"
+			tasks: [{
+				id: "3DAA516DE50469F0"
+				item: "mysticalagriculture:dye_essence"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.5d
 		}
 	]
 	title: "Matter Replicator"

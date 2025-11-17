@@ -304,8 +304,8 @@
 					type: "item"
 				}
 			]
-			x: 5.5d
-			y: -3.5d
+			x: 3.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["38F1FFED64928F99"]
@@ -351,7 +351,7 @@
 				title: "Data Analyzer"
 				type: "checkmark"
 			}]
-			x: 0.5d
+			x: 1.0d
 			y: -1.5d
 		}
 		{
@@ -362,19 +362,22 @@
 				title: "vacuum attuned processing line"
 				type: "checkmark"
 			}]
-			x: 0.5d
+			x: 1.0d
 			y: -3.0d
 		}
 		{
-			dependencies: ["7B3B80DA9D462C0F"]
+			dependencies: [
+				"3F8B669BB5789B32"
+				"48147B2375650CBD"
+			]
 			id: "73E4AAFC79887FA1"
 			tasks: [{
 				id: "5293A60103F7C61E"
 				item: "mbd2:asteroid_catcher"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 2.0d
+			x: 8.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["73E4AAFC79887FA1"]
@@ -384,8 +387,8 @@
 				item: "kubejs:darkium_ingot"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 2.5d
+			x: 9.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["73E4AAFC79887FA1"]
@@ -395,8 +398,8 @@
 				item: "kubejs:etherium"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 4.0d
+			x: 7.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["1F98E5C9D267EE1C"]
@@ -406,8 +409,8 @@
 				item: "kubejs:spectral_spiritual_core"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 5.0d
+			x: 7.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["0E357319C531181B"]
@@ -417,8 +420,8 @@
 				item: "kubejs:multiblock_tier_4"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 3.5d
+			x: 8.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["73E4AAFC79887FA1"]
@@ -428,8 +431,8 @@
 				item: "kubejs:cryogenium"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 3.5d
+			x: 8.0d
+			y: -4.0d
 		}
 	]
 	title: "&l&b5: DATA!"

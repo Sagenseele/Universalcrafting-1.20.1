@@ -13,7 +13,7 @@
 		rotation: 0.0d
 		width: 1.0d
 		x: 1.5d
-		y: 1.5d
+		y: -0.5d
 	}]
 	order_index: 3
 	quest_links: [ ]

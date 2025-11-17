@@ -396,6 +396,7 @@
 		}
 		{
 			dependencies: ["0822D70343B3C9B8"]
+			icon: "bigreactors:basic_reactorcontroller"
 			id: "6395672D569A6385"
 			tasks: [
 				{

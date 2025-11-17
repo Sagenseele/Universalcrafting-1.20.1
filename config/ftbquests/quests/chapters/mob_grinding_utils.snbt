@@ -148,6 +148,12 @@
 			icon: "mbd2:egg_incubator"
 			icon_scale: 2.0d
 			id: "6ED4F4CEF45EC1F8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0CB22C9DC99F085C"
+				table_id: 5654891198142888120L
+				type: "choice"
+			}]
 			shape: "none"
 			subtitle: "&aLoot Lifecycle"
 			tasks: [

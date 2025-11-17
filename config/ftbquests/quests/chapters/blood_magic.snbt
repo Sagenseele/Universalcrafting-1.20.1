@@ -1183,7 +1183,11 @@
 		}
 		{
 			dependencies: ["27D2258AFDF8911B"]
-			description: ["Increases the Amount of Life Essences that can be stored in the Soul Network by 2%."]
+			description: [
+				"Increases the Amount of Life Essences that can be stored in the Soul Network by 2%."
+				""
+				"Reinforced Runes => Capacity bonus from 2% to 4%."
+			]
 			hide_dependency_lines: true
 			id: "4A7F06CE13560F07"
 			tasks: [{
