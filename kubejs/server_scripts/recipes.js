@@ -310,7 +310,10 @@ ServerEvents.recipes(event => {
       E: 'extendedcrafting:redstone_ingot',
     }
   )
-  // Mechanical Saw
+  event.replaceInput({ id: /thermal:.*/ },
+    "minecraft:redstone",
+    "extendedcrafting:redstone_ingot"
+  )
 
 
   // Crushing Wheel
