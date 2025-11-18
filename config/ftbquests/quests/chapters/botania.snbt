@@ -151,26 +151,26 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["6EB31D4642BBB1FE"]
+			dependencies: ["3CE33113FD05A596"]
 			id: "534FB2740031E756"
 			tasks: [{
 				id: "085694FC6EC7870F"
 				item: "botania:orechid"
 				type: "item"
 			}]
-			x: 9.5d
-			y: -2.5d
+			x: 13.0d
+			y: -1.5d
 		}
 		{
-			dependencies: ["6EB31D4642BBB1FE"]
+			dependencies: ["3CE33113FD05A596"]
 			id: "5D40448DB190F7B5"
 			tasks: [{
 				id: "78D7D9505CB5871D"
 				item: "botania:orechid_ignem"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -1.0d
+			x: 12.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["3451DDFE5F786475"]

@@ -109,6 +109,7 @@
 		}
 		{
 			dependencies: ["565D209CEAF7B4A5"]
+			disable_toast: true
 			icon_scale: 2.0d
 			id: "7B3B80DA9D462C0F"
 			shape: "none"

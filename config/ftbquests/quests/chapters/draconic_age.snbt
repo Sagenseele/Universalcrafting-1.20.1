@@ -222,6 +222,7 @@
 				item: "draconicevolution:chaotic_core"
 				type: "item"
 			}]
+			title: "&lChaotic Core"
 			x: 10.5d
 			y: 3.0d
 		}
@@ -425,6 +426,7 @@
 		}
 		{
 			dependencies: ["0E6D16C22389D367"]
+			disable_toast: true
 			icon_scale: 2.0d
 			id: "347DEF8D77482A8B"
 			shape: "none"
