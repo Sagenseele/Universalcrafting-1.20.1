@@ -19,7 +19,7 @@
     "description": {
       "text": "Look at all those pretty flowers!"
     },
-    "frame": "task",
+    "frame": "goal",
     "hidden": false,
     "icon": {
       "item": "botania:apothecary_default"

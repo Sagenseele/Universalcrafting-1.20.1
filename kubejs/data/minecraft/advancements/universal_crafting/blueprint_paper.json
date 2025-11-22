@@ -19,7 +19,7 @@
     "description": {
       "text": "Toolmakers don't want you to know this trick. It will blow your mind."
     },
-    "frame": "task",
+    "frame": "goal",
     "hidden": false,
     "icon": {
       "item": "silentgear:blueprint_paper"

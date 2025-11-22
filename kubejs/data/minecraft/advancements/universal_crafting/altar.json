@@ -19,7 +19,7 @@
     "description": {
       "text": "This will definitely hurt."
     },
-    "frame": "task",
+    "frame": "goal",
     "hidden": false,
     "icon": {
       "item": "bloodmagic:altar"

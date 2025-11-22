@@ -19,7 +19,7 @@
     "description": {
       "text": "You're favorite (and necessary) mass storage options."
     },
-    "frame": "task",
+    "frame": "goal",
     "hidden": false,
     "icon": {
       "item": "pneumaticcraft:plastic"

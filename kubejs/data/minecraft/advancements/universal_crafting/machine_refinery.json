@@ -19,7 +19,7 @@
     "description": {
       "text": "I wish we had Immersive Petroleum in this version..."
     },
-    "frame": "task",
+    "frame": "goal",
     "hidden": false,
     "icon": {
       "item": "thermal:machine_refinery"
