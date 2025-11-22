@@ -293,6 +293,7 @@
 				"775EDDCE62BF85C9"
 				"2C42DA8832785E97"
 			]
+			dependency_requirement: "one_completed"
 			description: [
 				"&oThis is the result of my early and rudimentary plans to get to the Infinity Token. It took some sweat and pain but finally I got it.&r"
 				"&oWhile I was studying in the &6Spacefarers' Guild&r&o, I found some historical blueprints of machines. I think I can rebuild some of them from my memory. But maybe I can find a way to write them down for future uses.&r"
@@ -301,12 +302,20 @@
 			]
 			icon_scale: 2.0d
 			id: "3CF4FA8961C6D743"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "53B91C1D4D1C84B1"
-				table_id: 7938350547759728332L
-				type: "choice"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "53B91C1D4D1C84B1"
+					table_id: 7938350547759728332L
+					type: "choice"
+				}
+				{
+					count: 2
+					id: "47E86116D093EE29"
+					item: "cookingforblockheads:tool_rack"
+					type: "item"
+				}
+			]
 			shape: "none"
 			size: 1.25d
 			subtitle: "Progress to &3Industrial Age&r"

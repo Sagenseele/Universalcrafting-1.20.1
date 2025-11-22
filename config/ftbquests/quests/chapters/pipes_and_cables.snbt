@@ -114,11 +114,18 @@
 		}
 		{
 			id: "0AA5E82EED8D8EAD"
-			rewards: [{
-				id: "0BE2B789C23AD587"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "0BE2B789C23AD587"
+					item: "kubejs:universal_badge"
+					type: "item"
+				}
+				{
+					id: "07F06E658DBB238C"
+					item: "pipez:advanced_upgrade"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "110F4A6EB5C9365F"
 				item: "pipez:item_pipe"
@@ -129,11 +136,18 @@
 		}
 		{
 			id: "0200EB7677A6D731"
-			rewards: [{
-				id: "3168262BDB69AE40"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "3168262BDB69AE40"
+					item: "kubejs:universal_badge"
+					type: "item"
+				}
+				{
+					id: "17BAA810B81841A0"
+					item: "pipez:advanced_upgrade"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "2550CACE59820D72"
 				item: "pipez:fluid_pipe"
@@ -144,11 +158,18 @@
 		}
 		{
 			id: "188FAFB540C9717B"
-			rewards: [{
-				id: "040D6011D60E4E3C"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "040D6011D60E4E3C"
+					item: "kubejs:universal_badge"
+					type: "item"
+				}
+				{
+					id: "1E304E2FED04B311"
+					item: "pipez:advanced_upgrade"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "6EA9CB9088CDB7E3"
 				item: "pipez:energy_pipe"
@@ -245,11 +266,18 @@
 		}
 		{
 			id: "1E16B811665E2C98"
-			rewards: [{
-				id: "62BE35937E452E3A"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "62BE35937E452E3A"
+					item: "kubejs:universal_badge"
+					type: "item"
+				}
+				{
+					id: "679F51C3371C9060"
+					item: "pipez:advanced_upgrade"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "1C2880191BD6BFAF"
 				item: "pipez:gas_pipe"

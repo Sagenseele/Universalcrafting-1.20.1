@@ -205,7 +205,25 @@
 			y: 0.0d
 		}
 		{
-			description: ["Ore generation has been tweaked, you will find ores only between &e-64&r and &e0&r in the world and instead of single blocks, ares are concentrated in clusters."]
+			description: [
+				"Ore generation has been tweaked, you will find ores only between &e-64&r and &e0&r in the world and instead of single blocks, ares are concentrated in clusters."
+				""
+				"&lIron:&r -24 to 0"
+				"&lCopper:&r -40 to -20"
+				"&lGold:&r -64 to 0"
+				"&lRedstone:&r"
+				"&lLapis:&r -32 to 0"
+				"&lApatite:&r -64 to 0"
+				"&lCinnabar:&r -64 to 0"
+				"&lLead:&r -64 to 0"
+				"&lNickel:&r -48 to -32"
+				"&lNiter:&r -64 to 0"
+				"&lSilver:&r -64 to 0"
+				"&lSulfur:&r -64 to 0"
+				"&lTin:&r -64 to 0"
+				"  "
+			]
+			disable_toast: true
 			icon: "minecraft:iron_ore"
 			id: "727E4CC97B021F8A"
 			optional: true

@@ -20,7 +20,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: -6.5d
-			y: 8.0d
+			y: 8.5d
 		}
 		{
 			height: 1.0d
@@ -36,7 +36,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: 0.0d
-			y: 6.482142857142868d
+			y: 6.982142857142868d
 		}
 		{
 			height: 1.0d
@@ -85,7 +85,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: -5.0d
-			y: 6.5d
+			y: 7.0d
 		}
 		{
 			height: 1.0d
@@ -94,7 +94,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: -6.5d
-			y: 6.5d
+			y: 7.0d
 		}
 		{
 			height: 1.0d
@@ -103,7 +103,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: -5.0d
-			y: 5.5d
+			y: 6.0d
 		}
 		{
 			height: 1.0d
@@ -112,7 +112,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: -6.5d
-			y: 5.5d
+			y: 6.0d
 		}
 		{
 			height: 1.0d
@@ -121,7 +121,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: -5.0d
-			y: 9.5d
+			y: 10.0d
 		}
 		{
 			height: 1.0d
@@ -130,7 +130,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: -5.0d
-			y: 10.5d
+			y: 11.0d
 		}
 		{
 			height: 1.0d
@@ -139,7 +139,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: -6.5d
-			y: 9.5d
+			y: 10.0d
 		}
 		{
 			height: 1.0d
@@ -148,7 +148,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: -6.5d
-			y: 10.5d
+			y: 11.0d
 		}
 		{
 			height: 1.0d
@@ -156,14 +156,14 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: -5.0d
-			y: 8.0d
+			y: 8.5d
 		}
 		{
 			height: 2.0d
 			image: "kubejs:item/images/electrical_age"
 			rotation: 0.0d
 			width: 16.12d
-			x: -2.0d
+			x: -1.5d
 			y: 12.5d
 		}
 		{
@@ -171,16 +171,16 @@
 			image: "thermal:block/machines/machine_refinery_active"
 			rotation: 0.0d
 			width: 1.0d
-			x: 1.5d
-			y: 8.5d
+			x: 0.5d
+			y: 4.0d
 		}
 		{
 			height: 1.0d
 			image: "kubejs:item/crystal_inferium"
 			rotation: 0.0d
 			width: 1.0d
-			x: 0.5d
-			y: 8.0d
+			x: 1.5d
+			y: 3.0d
 		}
 		{
 			height: 1.0d
@@ -189,6 +189,14 @@
 			width: 1.0d
 			x: 5.0d
 			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:block/blast_furnace_active"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: 4.0d
 		}
 	]
 	order_index: 2
@@ -449,7 +457,7 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["2468A11BD78A5360"]
+			dependencies: ["2837FA09802BF040"]
 			icon: "mbd2:drill_mk_i"
 			id: "1445775C649FB704"
 			rewards: [{
@@ -521,7 +529,7 @@
 				}
 			]
 			x: 0.0d
-			y: 5.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["669D596D3652954F"]
@@ -538,7 +546,7 @@
 			}]
 			title: "...minerals..."
 			x: -3.5d
-			y: 9.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["02DC75C1C6893D8D"]
@@ -555,7 +563,7 @@
 			}]
 			title: "...are..."
 			x: -3.5d
-			y: 6.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["1445775C649FB704"]
@@ -572,7 +580,7 @@
 			}]
 			title: "They..."
 			x: -3.5d
-			y: 5.5d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -705,6 +713,7 @@
 		}
 		{
 			dependencies: ["1445775C649FB704"]
+			dependency_requirement: "one_completed"
 			id: "782D125E1BE4CAF5"
 			rewards: [{
 				id: "15AC1CFB63119E32"
@@ -717,7 +726,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 4.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["0898568C788D7B4F"]
@@ -752,7 +761,11 @@
 			y: 10.5d
 		}
 		{
-			dependencies: ["782D125E1BE4CAF5"]
+			dependencies: [
+				"782D125E1BE4CAF5"
+				"2468A11BD78A5360"
+			]
+			dependency_requirement: "one_completed"
 			icon_scale: 2.0d
 			id: "62FAA0321BF6FA5B"
 			rewards: [{
@@ -770,7 +783,7 @@
 			}]
 			title: "&lFractionating Still"
 			x: 1.5d
-			y: 7.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["1FBEC6C74EE0C32C"]
@@ -809,6 +822,7 @@
 				"5E734D4D2784738C"
 				"1903E571222588E1"
 			]
+			dependency_requirement: "one_completed"
 			description: ["The Catalyst in the recipes won't be consumed."]
 			icon: "immersiveengineering:refinery"
 			icon_scale: 2.0d
@@ -906,6 +920,7 @@
 				"62FAA0321BF6FA5B"
 			]
 			dependency_requirement: "one_completed"
+			icon: "thermal:crude_oil_bucket"
 			id: "460E50301451CE7A"
 			rewards: [{
 				id: "4BB6A88952DD5D3A"
@@ -914,7 +929,23 @@
 			}]
 			tasks: [{
 				id: "149123F42CE20C8F"
-				item: "thermal:crude_oil_bucket"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "pneumaticcraft:oil_bucket"
+							}
+							{
+								Count: 1b
+								id: "thermal:crude_oil_bucket"
+							}
+						]
+					}
+				}
+				title: "Crude Oil Bucket"
 				type: "item"
 			}]
 			x: 3.0d
@@ -1048,7 +1079,7 @@
 			}]
 			title: "...Marie!"
 			x: -3.5d
-			y: 10.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["4F8EFACB168588F2"]
@@ -1157,7 +1188,7 @@
 				}
 			]
 			x: -2.0d
-			y: 6.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["35855C390FC01279"]
@@ -1358,6 +1389,73 @@
 			title: "&l&3Generator Energy&r"
 			x: -0.5d
 			y: -0.5d
+		}
+		{
+			dependencies: ["20E1FE382D42E846"]
+			id: "2837FA09802BF040"
+			rewards: [{
+				id: "3D890C185C2A06D4"
+				item: "kubejs:universal_badge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5CF1D342A0659368"
+				item: "kubejs:sulfeel_ingot"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2468A11BD78A5360"]
+			icon: "mbd2:blast_furnace"
+			id: "20E1FE382D42E846"
+			progression_mode: "linear"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "15AD39F6BF53C7B3"
+				table_id: 5654891198142888120L
+				type: "choice"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [
+				{
+					id: "01599F2704B6B882"
+					item: "mbd2:blast_furnace"
+					type: "item"
+				}
+				{
+					id: "507EA60CEA91FEDA"
+					item: "mbd2:item_input_tier_1"
+					type: "item"
+				}
+				{
+					id: "68C150BFBDA1FAC5"
+					item: "mbd2:item_output_tier_1"
+					type: "item"
+				}
+				{
+					count: 37L
+					id: "0C7451DC6D32800A"
+					item: "kubejs:multiblock_tier_1"
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "3C4D815FB0761B2E"
+					item: "kubejs:coil_tier_1"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "46FDE4D8CA705B46"
+					item: "kubejs:frame_tier_1"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 4.0d
 		}
 	]
 	title: "&l&13: Electrification"

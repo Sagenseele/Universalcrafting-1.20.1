@@ -334,6 +334,7 @@
 		{
 			description: ["44 Charging Rune 21 augmented capacity 10 capacity 18 displacement 10 acceleration 5 speed"]
 			id: "728FA0C743E96E1B"
+			invisible: true
 			tasks: [{
 				id: "570159F1035157FE"
 				type: "checkmark"

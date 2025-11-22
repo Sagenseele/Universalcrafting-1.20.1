@@ -16,14 +16,6 @@
 		}
 		{
 			height: 1.0d
-			image: "kubejs:block/blast_furnace_active"
-			rotation: 0.0d
-			width: 1.0d
-			x: 16.5d
-			y: -1.0d
-		}
-		{
-			height: 1.0d
 			image: "kubejs:block/kinetic_crusher_active"
 			rotation: 0.0d
 			width: 1.0d
@@ -139,7 +131,7 @@
 			description: [
 				"&oI got a marvelous idea! Those crushing wheels reminded me of some machines we used to break materials down to their raw resources, which could be recycled further. My idea will take a lot of effort, but I think it will be worth it. My first mechanical monstrous machine!&r"
 				""
-				"Use the &6Kinetic Crusher&r to &egenerate Resources&r. It takes &9a lot&r of &9blueish ingots&r to craft, but if provided with &6256 SU&r at &a64 RPM&r, you can generate some resources depending on the input material."
+				"Use the &6Kinetic Crusher&r to &egenerate Resources&r. It takes &9a lot&r of &9Lapiron&r to craft, but if provided with &6256 SU&r at &a64 RPM&r, you can generate some resources depending on the input material."
 				""
 				"I would advise you to automate the processing of cobblestone to gravel and sand. If you struggle to find a good design, look at the Schematics quest and the website I linked there."
 			]
@@ -210,8 +202,8 @@
 		{
 			dependencies: [
 				"7A53066E10590290"
-				"2837FA09802BF040"
 				"43AAE51466CAE99F"
+				"5519231F5651F67D"
 			]
 			dependency_requirement: "one_completed"
 			description: ["You can either use the &ePrecision Mechanisms &rfrom &dCreate&r or &eElectronic Components&r from &dImmersive Engineering&r."]
@@ -231,15 +223,15 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["3F6E0421CBB60E0C"]
+			dependencies: ["46C0E33966D05CC5"]
 			icon: "create:mechanical_press"
 			id: "52CCCBA9EF914842"
-			optional: true
 			rewards: [{
 				id: "2D71150D9A262522"
 				item: "kubejs:universal_badge"
 				type: "item"
 			}]
+			subtitle: "Plate Presser"
 			tasks: [
 				{
 					id: "141C7D713859DAD2"
@@ -252,24 +244,8 @@
 					type: "item"
 				}
 			]
-			x: 8.0d
-			y: -3.5d
-		}
-		{
-			dependencies: ["20E1FE382D42E846"]
-			id: "2837FA09802BF040"
-			rewards: [{
-				id: "3D890C185C2A06D4"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
-			tasks: [{
-				id: "5CF1D342A0659368"
-				item: "kubejs:sulfeel_ingot"
-				type: "item"
-			}]
-			x: 18.0d
-			y: -2.0d
+			x: 5.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["447AE5BD28EF8F92"]
@@ -285,7 +261,7 @@
 				item: "thermal:steel_ingot"
 				type: "item"
 			}]
-			x: 14.5d
+			x: 16.5d
 			y: -2.0d
 		}
 		{
@@ -411,6 +387,7 @@
 				type: "item"
 			}]
 			shape: "hexagon"
+			subtitle: "Saw those trees away"
 			tasks: [{
 				id: "6970BC53C1C4F44A"
 				item: {
@@ -457,57 +434,6 @@
 			}]
 			title: "&lMachine Frame&r"
 			x: 22.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["5519231F5651F67D"]
-			icon: "mbd2:blast_furnace"
-			id: "20E1FE382D42E846"
-			require_sequential_tasks: true
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "15AD39F6BF53C7B3"
-				table_id: 5654891198142888120L
-				type: "choice"
-			}]
-			shape: "square"
-			size: 1.1d
-			tasks: [
-				{
-					id: "01599F2704B6B882"
-					item: "mbd2:blast_furnace"
-					type: "item"
-				}
-				{
-					id: "507EA60CEA91FEDA"
-					item: "mbd2:item_input_tier_1"
-					type: "item"
-				}
-				{
-					id: "68C150BFBDA1FAC5"
-					item: "mbd2:item_output_tier_1"
-					type: "item"
-				}
-				{
-					count: 37L
-					id: "0C7451DC6D32800A"
-					item: "kubejs:multiblock_tier_1"
-					type: "item"
-				}
-				{
-					count: 12L
-					id: "3C4D815FB0761B2E"
-					item: "kubejs:coil_tier_1"
-					type: "item"
-				}
-				{
-					count: 8L
-					id: "46FDE4D8CA705B46"
-					item: "kubejs:frame_tier_1"
-					type: "item"
-				}
-			]
-			x: 16.5d
 			y: -2.0d
 		}
 		{
@@ -866,6 +792,7 @@
 		{
 			dependencies: ["13D7656F2F625BB4"]
 			id: "43CBFE1F725539BA"
+			subtitle: "3x3 Mining Tool"
 			tasks: [{
 				id: "7306BB6DA005B496"
 				item: {
@@ -888,14 +815,11 @@
 				}
 				type: "item"
 			}]
-			x: 8.0d
+			x: 8.5d
 			y: -7.5d
 		}
 		{
-			dependencies: [
-				"3F6E0421CBB60E0C"
-				"52CCCBA9EF914842"
-			]
+			dependencies: ["3F6E0421CBB60E0C"]
 			dependency_requirement: "one_completed"
 			id: "0BCCB2D6431A145C"
 			tasks: [{
@@ -917,7 +841,7 @@
 			]
 			icon: "create:steam_engine"
 			id: "32C3937A71709399"
-			require_sequential_tasks: true
+			progression_mode: "linear"
 			subtitle: "...on the worlds' smallest Steam Engine"
 			tasks: [
 				{
@@ -972,7 +896,7 @@
 			]
 			icon: "create:blaze_burner"
 			id: "2C5FFB9320716E00"
-			require_sequential_tasks: true
+			progression_mode: "linear"
 			subtitle: "Oh no, I mean steamed clams."
 			tasks: [
 				{
@@ -1023,6 +947,47 @@
 			]
 			title: "Steamed Hams"
 			x: 0.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["13D7656F2F625BB4"]
+			id: "6D38918D6D69D85B"
+			subtitle: "3x3 Digger"
+			tasks: [{
+				id: "14168089A2FEB507"
+				item: {
+					Count: 1
+					id: "silentgear:excavator"
+					tag: {
+						Damage: 0
+						SGear_Data: {
+							Construction: { }
+							Properties: { }
+							Rendering: { }
+						}
+						SGear_UUID: [I;
+							1326989686
+							-497659989
+							-1386923100
+							56459222
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["46C0E33966D05CC5"]
+			id: "3FADB81E00E61685"
+			subtitle: "Wirecutter"
+			tasks: [{
+				id: "13F50BD36ADD3ADC"
+				item: "create:mechanical_saw"
+				type: "item"
+			}]
+			x: 3.5d
 			y: -7.5d
 		}
 	]

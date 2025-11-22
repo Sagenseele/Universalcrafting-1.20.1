@@ -82,11 +82,18 @@
 		}
 		{
 			id: "6EF4A97259AF071E"
-			rewards: [{
-				id: "52DE2E8B99D7B479"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "52DE2E8B99D7B479"
+					item: "kubejs:universal_badge"
+					type: "item"
+				}
+				{
+					id: "1C2845F2A87481AF"
+					item: "sophisticatedstorage:compacting_upgrade"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "6F799375FFF0EC74"
 				item: {
@@ -176,11 +183,18 @@
 			description: ["Place onto an inventory to craft with all its contents. Can be used on a storage controller to access every connected barrel or drawer."]
 			icon_scale: 1.4d
 			id: "06CC736E3E21C6BF"
-			rewards: [{
-				id: "51E75CBBA9ACE4E3"
-				item: "kubejs:universal_badge"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "51E75CBBA9ACE4E3"
+					item: "kubejs:universal_badge"
+					type: "item"
+				}
+				{
+					id: "20614B0734BC2404"
+					item: "sophisticatedstorage:void_upgrade"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "05AA066955BA66CC"
 				item: "toms_storage:ts.crafting_terminal"
@@ -199,7 +213,7 @@
 			}]
 			tasks: [{
 				id: "0F2233647BB18421"
-				item: "sophisticatedstorage:void_upgrade"
+				item: "sophisticatedstorage:advanced_void_upgrade"
 				type: "item"
 			}]
 			x: -0.5d
