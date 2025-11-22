@@ -1,0 +1,9 @@
+{
+	"parent": "minecraft:block/orientable",
+	"textures": {
+		"front": "kubejs:block/infuser_working",
+		"side": "kubejs:block/multiblock_tier_3",
+		"top": "kubejs:block/infuser_working",
+		"bottom": "kubejs:block/infuser_working"
+	}
+}
