@@ -9,7 +9,7 @@ StartupEvents.registry('block', event => {
             .requiresTool(true)
     }
     event.create('quartz_alloy_block').tagBlock('minecraft:mineable/pickaxe').noValidSpawns(true)
-    event.create('blockium').tagBlock('uc:tools/blockium').stoneSoundType().noValidSpawns(true).noDrops()
+    event.create('blockium').tagBlock('minecraft:mineable/pickaxe').tagBlock('uc:tools/blockium').stoneSoundType().noValidSpawns(true).noDrops()
     event.create('overgrown_wood_log').tagBlock('minecraft:mineable/axe').noValidSpawns(true)
     event.create('coil_tier_1').tagBlock('minecraft:mineable/pickaxe').textureAll('kubejs:block/coil_tier_1').displayName('Copper Coil').noValidSpawns(true)
     event.create('coil_tier_2').tagBlock('minecraft:mineable/pickaxe').textureAll('kubejs:block/coil_tier_2').displayName('Electrum Coil').noValidSpawns(true)
