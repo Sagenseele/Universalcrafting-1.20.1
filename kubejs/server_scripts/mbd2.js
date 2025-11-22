@@ -14,6 +14,41 @@ ServerEvents.recipes((event) => {
     }
 
     assembler('3x kubejs:darkium_rod', 'kubejs:darkium_ingot')
+
+    // Interfaces
+    event.shaped(Item.of('mbd2:me_interface_tier_1', 1),
+        [
+            ' A ',
+            'ABA',
+            ' A '
+        ],
+        {
+            A: 'kubejs:lapiron_plate',
+            B: '#ae2:interface'
+        }
+    )
+    event.shaped(Item.of('mbd2:me_interface_tier_2', 1),
+        [
+            ' A ',
+            'ABA',
+            ' A '
+        ],
+        {
+            A: 'kubejs:sulfeel_plate',
+            B: '#ae2:interface'
+        }
+    )
+    event.shaped(Item.of('mbd2:me_interface_tier_3', 1),
+        [
+            ' A ',
+            'ABA',
+            ' A '
+        ],
+        {
+            A: 'kubejs:turquoise_plate',
+            B: '#ae2:interface'
+        }
+    )
     // Egg Incubator
     event.shaped(
         Item.of('mbd2:egg_incubator', 1),
@@ -127,7 +162,7 @@ ServerEvents.recipes((event) => {
     )
 
     event.shaped(
-        Item.of('mbd2:asteroid_catcher',1),
+        Item.of('mbd2:asteroid_catcher', 1),
         [
             ' A ',
             'BCB',
@@ -328,6 +363,15 @@ ServerEvents.recipes((event) => {
         .chance(0.045, builder => builder
             .outputItems("kubejs:twinkling_asteroid")
         )
+})
+
+MBDRecipeTypeEvents.onRecipeUI("mbd2:infuser", event => {
+    console.log(event)
+    console.log("Test")
+    const mbdEvent = event.event;
+    const { recipe, root } = mbdEvent;
+    console.log("RECIPE " + recipe)
+    console.log('ROOT ' + root)
 })
 
 MBDMachineEvents.onBeforeRecipeModify('mbd2:matter_replicator', (event) => {

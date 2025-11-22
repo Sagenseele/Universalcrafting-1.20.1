@@ -160,6 +160,11 @@ ServerEvents.recipes(event => {
   // 2 component Alloys
   default_2alloys("enderio:redstone_alloy_ingot", 3200, "#forge:ingots/redstone_ingot", "#forge:silicon")
   default_2alloys("kubejs:crystal_tertium", 5000, "mekanism:crystal_gold", "4x ad_astra:calorite_ingot")
+  default_2alloys('kubejs:heat_resistant_glass', 5000, '#forge:glass', '#forge:ingots/gold')
+
+  // 3 Component Alloys
+  default_3alloys('create:blaze_cake_base', 5000, '#forge:eggs', 'minecraft:sugar', 'create:cinder_flour')
+  default_3alloys("kubejs:crystal_soulless_imperium", 25000, '1x powah:crystal_niotic', "2x bloodmagic:ingot_hellforged", "1x kubejs:crystal_tertium")
 
   //advanced Material Data Card
   event.shaped(
@@ -794,7 +799,7 @@ ServerEvents.recipes(event => {
       'A A'
     ],
     {
-      A: 'kubejs:sulfeel_plate',
+      A: '#forge:plates/iron',
       B: 'kubejs:coil_tier_1'
     }
   )
@@ -962,6 +967,12 @@ ServerEvents.recipes(event => {
     'thermal:machine_frame'
   )
 
+  event.replaceInput(
+    { output: /thermal:dynamo_.*augment/ },
+    'thermal:machine_frame',
+    'thermal:electrum_gear'
+  )
+
 
   //Solar Flux
   event.stonecutting('8x solarflux:mirror', '1x kubejs:quartz_alloy_block')
@@ -992,7 +1003,6 @@ ServerEvents.recipes(event => {
   )
 
   // Soulless Imperium Crystal
-  default_3alloys("kubejs:crystal_soulless_imperium", 25000, '1x powah:crystal_niotic', "2x bloodmagic:ingot_hellforged", "1x kubejs:crystal_tertium")
 
   //Reliquary
   event.remove({ id: 'reliquary:mob_charm_belt' })
@@ -1077,8 +1087,6 @@ ServerEvents.recipes(event => {
   // Cardboard
   event.recipes.thermal.press('create:cardboard', 'create:pulp')
 
-  default_3alloys('create:blaze_cake_base', 5000, '#forge:eggs', 'minecraft:sugar', 'create:cinder_flour')
-  default_2alloys('kubejs:heat_resistant_glass', 5000, '#forge:glass', '#forge:ingots/gold')
 
   // Simulation Chamber
   event.replaceInput(

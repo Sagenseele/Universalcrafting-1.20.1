@@ -31,7 +31,6 @@ MBDMachineEvents.onStructureFormed('mbd2:egg_incubator', event => {
 MBDMachineEvents.onBeforeRecipeModify('mbd2:egg_incubator', (event) => {
     const mbdEvent = event.getEvent()
     const { machine, recipe } = mbdEvent;
-    let level = machine.getLevel();
     let data = machine.getCustomData();
 
     let itemInputTrait = machine.getTraitByName("item_slot");

@@ -44,6 +44,11 @@ ServerEvents.recipes(event => {
         'bloodmagic:blankslate'
     )
 
+    // Blank Slate
+    event.remove({ id: 'bloodmagic:altar/slate' })
+    event.recipes.bloodmagic.altar('bloodmagic:blankslate', '#forge:sandstone').upgradeLevel(0).altarSyphon(1000).consumptionRate(5).drainRate(0)
+
+
     // Weak Blood Orb
     event.remove({ id: 'bloodmagic:altar/weakbloodorb' })
     event.recipes.bloodmagic.altar('bloodmagic:weakbloodorb', 'kubejs:simple_spiritual_core').upgradeLevel(0).altarSyphon(2000).consumptionRate(100).drainRate(0)
