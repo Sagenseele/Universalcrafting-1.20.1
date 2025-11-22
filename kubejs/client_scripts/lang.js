@@ -35,5 +35,22 @@ ClientEvents.lang('en_us', event => {
     event.renameItem('industrialforegoing:plastic', 'Bio-Plastic')
     event.renameItem('kubejs:relic_level_up', 'Spacefarers\' Boon')
 
+    event.add("mbd2.matter_replicator", "Matter Replicator")
+    event.add("mbd2.crystal_cutter", "Crystal Cutter")
+    event.add("mbd2.gods_forge", "Forge of the Infinity")
+    event.add("mbd2.infuser", "Infuser")
+    event.add("mbd2.egg_incubator", "Egg Incubator")
+    event.add("mbd2.asteroid_catcher", "Asteroid Catcher")
+    event.add("mbd2.assembler", "Assembler")
+    event.add("mbd2.blast_furnace", "Blast Furnace")
+    event.add("mbd2.crystal_chamber", "Crystal Chamber")
+    event.add("mbd2.drill_mk_i", "Deep Drill")
+    event.add("mbd2.kinetic_crusher", "Kinetic Crusher")
+    event.add("mbd2.magnetizer", "Magnetizer")
+    event.add("mbd2.manual_crafting", "Manual Crafting")
+    event.add("mbd2.model_computer", "Model Computation Facility")
+    event.add("mbd2.blood_magic_meteor", "Blood Magic Meteor")
+
+    event.add("block.bloodmaigc.life_essence_block", "Life Essence")
 })
 
